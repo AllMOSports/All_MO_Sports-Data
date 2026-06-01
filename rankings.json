@@ -1,0 +1,9 @@
+{
+  "updated": "Pending first run",
+  "FTB": { "name": "Football",        "season": "2025 season",    "badgeBg": "#e6f1fb", "badgeFg": "#185fa5", "url": "https://allmosports.com/ftb-2025-all-classes-rankings/",                        "teams": [] },
+  "BBB": { "name": "Boys Basketball", "season": "2025-26 season", "badgeBg": "#faeeda", "badgeFg": "#854f0b", "url": "https://allmosports.com/2025-2026-boys-basketball-all-teams-rankings/",          "teams": [] },
+  "GBB": { "name": "Girls Basketball","season": "2025-26 season", "badgeBg": "#fbeaf0", "badgeFg": "#993556", "url": "https://allmosports.com/girls-basketball-all-classes-rankings-25-26/",           "teams": [] },
+  "BSB": { "name": "Baseball",        "season": "2026 season",    "badgeBg": "#e1f5ee", "badgeFg": "#0f6e56", "url": "https://allmosports.com/baseball-rankings-all-teams-2026-season/",               "teams": [] },
+  "GSC": { "name": "Girls Soccer",    "season": "2026 season",    "badgeBg": "#eaf3de", "badgeFg": "#3b6d11", "url": "https://allmosports.com/girls-soccer-rankings-all-classes-2026/",                "teams": [] },
+  "SFT": { "name": "Spring Softball", "season": "2026 season",    "badgeBg": "#faece7", "badgeFg": "#993c1d", "url": "https://allmosports.com/spring-softball-rankings-all-classes-2026/",             "teams": [] }
+}
