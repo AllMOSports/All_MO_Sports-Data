@@ -1,18 +1,9 @@
 name: Update Rankings
  
 on:
-  # Runs every night at midnight Central time (6am UTC)
   schedule:
     - cron: '0 6 * * *'
- 
-  # Lets you trigger it manually from the Actions tab anytime
   workflow_dispatch:
- 
-  # Triggers automatically when any JSON file or the scraper
-  # script is updated and pushed to the repository.
-  # Note: the nightly automated commit will NOT re-trigger this
-  # because GitHub's GITHUB_TOKEN commits are exempt from
-  # workflow triggers — no infinite loop risk.
   push:
     paths:
       - '**.json'
@@ -32,7 +23,7 @@ jobs:
           python-version: '3.11'
  
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests cloudscraper beautifulsoup4
  
       - name: Run rankings updater
         run: python update_rankings.py
