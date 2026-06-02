@@ -10,7 +10,8 @@ from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
  
 # ── CONFIG ────────────────────────────────────────────────────
 TOP_N         = 5    # teams to show per sport on the homepage
@@ -150,8 +151,9 @@ def main():
     print("ALL MO Sports — Rankings Updater")
     print("=================================")
  
+    central = ZoneInfo('America/Chicago')
     output = {
-        'updated': datetime.now(timezone.utc).strftime('%B %-d, %Y'),
+        'updated': datetime.now(central).strftime('%B %-d, %Y'),
     }
  
     with sync_playwright() as p:
