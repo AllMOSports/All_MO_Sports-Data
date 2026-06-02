@@ -43,28 +43,28 @@
     "teams": [
       {
         "rank": "1",
-        "school": "5",
-        "ovr": "5"
+        "school": "Principia",
+        "ovr": "64"
       },
       {
         "rank": "2",
-        "school": "6",
-        "ovr": "1"
+        "school": "Rockhurst",
+        "ovr": "56.5"
       },
       {
         "rank": "3",
-        "school": "5",
-        "ovr": "3"
+        "school": "Kickapoo",
+        "ovr": "56.3"
       },
       {
         "rank": "4",
-        "school": "3",
-        "ovr": "32"
+        "school": "Chaminade College Prep",
+        "ovr": "55.7"
       },
       {
         "rank": "5",
-        "school": "3",
-        "ovr": "7"
+        "school": "De Smet Jesuit",
+        "ovr": "55"
       }
     ]
   },
@@ -77,28 +77,28 @@
     "teams": [
       {
         "rank": "1",
-        "school": "3",
-        "ovr": "1"
+        "school": "Incarnate Word Academy",
+        "ovr": "76"
       },
       {
         "rank": "2",
-        "school": "8",
-        "ovr": "2"
+        "school": "Staley",
+        "ovr": "74.2"
       },
       {
         "rank": "3",
-        "school": "6",
-        "ovr": "6"
+        "school": "Lee\u2019s Summit West",
+        "ovr": "64.7"
       },
       {
         "rank": "4",
-        "school": "1",
-        "ovr": "3"
+        "school": "Jackson",
+        "ovr": "57.1"
       },
       {
         "rank": "5",
-        "school": "5",
-        "ovr": "10"
+        "school": "Principia",
+        "ovr": "54.3"
       }
     ]
   },
@@ -108,7 +108,33 @@
     "badgeBg": "#e1f5ee",
     "badgeFg": "#0f6e56",
     "url": "https://allmosports.com/baseball-rankings-all-teams-2026-season/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Blue Springs South",
+        "ovr": "14.93"
+      },
+      {
+        "rank": "2",
+        "school": "Liberty North",
+        "ovr": "13.59"
+      },
+      {
+        "rank": "3",
+        "school": "Rockhurst",
+        "ovr": "13.21"
+      },
+      {
+        "rank": "4",
+        "school": "Eureka",
+        "ovr": "13.04"
+      },
+      {
+        "rank": "5",
+        "school": "Staley",
+        "ovr": "12.51"
+      }
+    ]
   },
   "GSC": {
     "name": "Girls Soccer",
@@ -116,7 +142,33 @@
     "badgeBg": "#eaf3de",
     "badgeFg": "#3b6d11",
     "url": "https://allmosports.com/girls-soccer-rankings-all-classes-2026/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Cor Jesu Academy",
+        "ovr": "10.45"
+      },
+      {
+        "rank": "2",
+        "school": "Nerinx Hall",
+        "ovr": "8.46"
+      },
+      {
+        "rank": "3",
+        "school": "St. Joseph's Academy",
+        "ovr": "7.81"
+      },
+      {
+        "rank": "4",
+        "school": "Ft. Zumwalt South",
+        "ovr": "7.74"
+      },
+      {
+        "rank": "5",
+        "school": "St. Dominic",
+        "ovr": "7.64"
+      }
+    ]
   },
   "SFT": {
     "name": "Spring Softball",
@@ -124,6 +176,32 @@
     "badgeBg": "#faece7",
     "badgeFg": "#993c1d",
     "url": "https://allmosports.com/spring-softball-rankings-all-classes-2026/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Mt. Vernon",
+        "ovr": "15.5"
+      },
+      {
+        "rank": "2",
+        "school": "Skyline",
+        "ovr": "15.22"
+      },
+      {
+        "rank": "3",
+        "school": "East Newton",
+        "ovr": "14.5"
+      },
+      {
+        "rank": "4",
+        "school": "Warsaw",
+        "ovr": "13.37"
+      },
+      {
+        "rank": "5",
+        "school": "Clever",
+        "ovr": "12.09"
+      }
+    ]
   }
 }
