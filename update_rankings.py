@@ -1,11 +1,12 @@
 """
 ALL MO Sports — Automated Rankings Updater
 ==========================================
-Uses cloudscraper to bypass Cloudflare bot protection,
-and adds delays between requests to avoid rate limiting.
+Uses Playwright (headless Chrome) to fully render each page
+including JavaScript/AJAX-loaded table data before scraping.
+This handles both static tables and dynamically loaded ones.
 """
  
-import cloudscraper
+from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
 import time
@@ -13,7 +14,7 @@ from datetime import datetime, timezone
  
 # ── CONFIG ────────────────────────────────────────────────────
 TOP_N         = 5    # teams to show per sport on the homepage
-REQUEST_DELAY = 5    # seconds to wait between each sport fetch
+REQUEST_DELAY = 4    # seconds between sport fetches
  
 SPORTS = [
     {
@@ -66,86 +67,83 @@ SPORTS = [
     },
 ]
  
-# ── SCRAPER SETUP ─────────────────────────────────────────────
-scraper = cloudscraper.create_scraper(
-    browser={
-        'browser':  'chrome',
-        'platform': 'windows',
-        'mobile':   False,
-    }
-)
- 
-# ── PARSE ─────────────────────────────────────────────────────
-def get_top_n(sport):
-    url = sport['url']
-    print(f"  Fetching {sport['name']}...")
- 
-    try:
-        resp = scraper.get(url, timeout=30)
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"  ERROR: {e}")
-        return []
- 
-    soup = BeautifulSoup(resp.text, 'html.parser')
- 
+# ── PARSE HTML → TOP N TEAMS ──────────────────────────────────
+def parse_top_n(html, sport_name):
+    soup   = BeautifulSoup(html, 'html.parser')
     tables = soup.find_all('table')
+ 
     if not tables:
-        print(f"  No tables found. Page snippet: {soup.get_text()[:150]!r}")
+        print(f"  No tables found in rendered page for {sport_name}")
         return []
  
-    # Use the table with the most columns
+    # Pick the table with the most header columns
     table   = max(tables, key=lambda t: len(t.find_all('th')))
     all_ths = table.find_all('th')
     print(f"  Table found with {len(all_ths)} columns")
  
-    # Print ALL header names so we can see the exact column structure
-    header_names = [th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
-                    for th in all_ths]
+    header_names = [
+        th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
+        for th in all_ths
+    ]
     print(f"  Headers: {header_names}")
  
-    # Map column names to indices
-    col_map = {name: i for i, name in enumerate(header_names)}
- 
-    rank_col   = col_map.get('OVR Rank',   0)
-    school_col = col_map.get('School',     1)
-    ovr_col    = col_map.get('OVR Rating', 8)
+    col_map    = {name: i for i, name in enumerate(header_names)}
+    rank_col   = col_map.get('OVR Rank',   col_map.get('RANK', 0))
+    school_col = col_map.get('School',     col_map.get('SCHOOL', 1))
+    ovr_col    = col_map.get('OVR Rating', col_map.get('ADJ. OVR Rating', 8))
     print(f"  Columns -> Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
  
-    # Get data rows from tbody; fall back to any row containing cells
+    # Get data rows
     tbody = table.find('tbody')
     rows  = tbody.find_all('tr') if tbody else [
-        r for r in table.find_all('tr') if r.find(['td', 'th'])
+        r for r in table.find_all('tr') if r.find(['td','th'])
     ]
     print(f"  Data rows found: {len(rows)}")
  
-    # Debug: print the first row's raw content so we can see cell structure
-    if rows:
-        first_cells_raw = [str(c)[:60] for c in rows[0].find_all(['td', 'th'])[:4]]
-        print(f"  First row sample: {first_cells_raw}")
+    # Sanity check — if still showing loading placeholder, bail
+    if rows and 'Loading' in rows[0].get_text():
+        print(f"  Still showing loading placeholder — AJAX did not complete in time")
+        return []
  
     teams = []
     for row in rows[:TOP_N]:
-        # FIX: use both <td> and <th> tags so tables that use <th>
-        # for data cells (common in some WordPress table plugins) still work
-        cells = row.find_all(['td', 'th'])
- 
+        cells  = row.find_all(['td', 'th'])
         if len(cells) < 3:
             continue
- 
         school = cells[school_col].get_text().strip() if len(cells) > school_col else ''
         rank   = cells[rank_col].get_text().strip()   if len(cells) > rank_col   else ''
         ovr    = cells[ovr_col].get_text().strip()    if len(cells) > ovr_col    else ''
- 
-        # Skip rows that look like sub-headers (school cell same as a header name)
-        if not school or school in ('School', 'Team', 'Name'):
-            print(f"  Skipping row — school cell: {school!r}")
+        if not school or school in ('School', 'SCHOOL', 'Team', 'Name'):
             continue
- 
         teams.append({'rank': rank, 'school': school, 'ovr': ovr})
  
     print(f"  Got {len(teams)} teams")
     return teams
+ 
+# ── FETCH WITH PLAYWRIGHT (HEADLESS CHROME) ───────────────────
+def get_top_n(sport, page):
+    url = sport['url']
+    print(f"\n  Fetching {sport['name']}...")
+    try:
+        # Navigate and wait for the network to go idle (AJAX calls complete)
+        page.goto(url, wait_until='networkidle', timeout=60000)
+ 
+        # Extra wait for tables that use JavaScript rendering after network idle
+        # Waits until tbody has more than 1 row OR 10 seconds, whichever comes first
+        try:
+            page.wait_for_function(
+                "document.querySelectorAll('table tbody tr').length > 1",
+                timeout=10000
+            )
+        except Exception:
+            print(f"  Table did not grow beyond 1 row within 10s — using what we have")
+ 
+        html = page.content()
+        return parse_top_n(html, sport['name'])
+ 
+    except Exception as e:
+        print(f"  ERROR loading page: {e}")
+        return []
  
 # ── MAIN ─────────────────────────────────────────────────────
 def main():
@@ -156,20 +154,35 @@ def main():
         'updated': datetime.now(timezone.utc).strftime('%B %-d, %Y'),
     }
  
-    for i, sport in enumerate(SPORTS):
-        teams = get_top_n(sport)
-        output[sport['abbr']] = {
-            'name':    sport['name'],
-            'season':  sport['season'],
-            'badgeBg': sport['badgeBg'],
-            'badgeFg': sport['badgeFg'],
-            'url':     sport['url'],
-            'teams':   teams,
-        }
+    with sync_playwright() as p:
+        # Launch a single headless Chrome instance for all sports
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=(
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/124.0.0.0 Safari/537.36'
+            ),
+            viewport={'width': 1280, 'height': 900},
+        )
+        page = context.new_page()
  
-        if i < len(SPORTS) - 1:
-            print(f"  Waiting {REQUEST_DELAY}s...\n")
-            time.sleep(REQUEST_DELAY)
+        for i, sport in enumerate(SPORTS):
+            teams = get_top_n(sport, page)
+            output[sport['abbr']] = {
+                'name':    sport['name'],
+                'season':  sport['season'],
+                'badgeBg': sport['badgeBg'],
+                'badgeFg': sport['badgeFg'],
+                'url':     sport['url'],
+                'teams':   teams,
+            }
+ 
+            if i < len(SPORTS) - 1:
+                print(f"  Waiting {REQUEST_DELAY}s...")
+                time.sleep(REQUEST_DELAY)
+ 
+        browser.close()
  
     with open('rankings.json', 'w') as f:
         json.dump(output, f, indent=2)
