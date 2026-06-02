@@ -67,8 +67,6 @@ SPORTS = [
 ]
  
 # ── SCRAPER SETUP ─────────────────────────────────────────────
-# cloudscraper mimics a real Chrome browser and solves
-# Cloudflare's JavaScript challenge automatically
 scraper = cloudscraper.create_scraper(
     browser={
         'browser':  'chrome',
@@ -91,49 +89,60 @@ def get_top_n(sport):
  
     soup = BeautifulSoup(resp.text, 'html.parser')
  
-    # Sanity check — if Cloudflare returned a challenge page it
-    # will contain no <table> tags and will mention "checking"
     tables = soup.find_all('table')
     if not tables:
-        page_text = soup.get_text()[:200]
-        print(f"  No tables found. Page preview: {page_text!r}")
+        print(f"  No tables found. Page snippet: {soup.get_text()[:150]!r}")
         return []
  
-    # Use the table with the most header columns
+    # Use the table with the most columns
     table   = max(tables, key=lambda t: len(t.find_all('th')))
-    headers = table.find_all('th')
-    print(f"  Table found with {len(headers)} columns")
+    all_ths = table.find_all('th')
+    print(f"  Table found with {len(all_ths)} columns")
  
-    # Map column names to indices (strip any sort icons)
-    col_map = {}
-    for i, th in enumerate(headers):
-        name = th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
-        col_map[name] = i
+    # Print ALL header names so we can see the exact column structure
+    header_names = [th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
+                    for th in all_ths]
+    print(f"  Headers: {header_names}")
+ 
+    # Map column names to indices
+    col_map = {name: i for i, name in enumerate(header_names)}
  
     rank_col   = col_map.get('OVR Rank',   0)
     school_col = col_map.get('School',     1)
     ovr_col    = col_map.get('OVR Rating', 8)
-    print(f"  Columns → Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
+    print(f"  Columns -> Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
  
-    # Get data rows
+    # Get data rows from tbody; fall back to any row containing cells
     tbody = table.find('tbody')
     rows  = tbody.find_all('tr') if tbody else [
-        r for r in table.find_all('tr') if r.find('td')
+        r for r in table.find_all('tr') if r.find(['td', 'th'])
     ]
+    print(f"  Data rows found: {len(rows)}")
+ 
+    # Debug: print the first row's raw content so we can see cell structure
+    if rows:
+        first_cells_raw = [str(c)[:60] for c in rows[0].find_all(['td', 'th'])[:4]]
+        print(f"  First row sample: {first_cells_raw}")
  
     teams = []
     for row in rows[:TOP_N]:
-        cells = row.find_all('td')
+        # FIX: use both <td> and <th> tags so tables that use <th>
+        # for data cells (common in some WordPress table plugins) still work
+        cells = row.find_all(['td', 'th'])
+ 
         if len(cells) < 3:
             continue
+ 
         school = cells[school_col].get_text().strip() if len(cells) > school_col else ''
-        if not school:
+        rank   = cells[rank_col].get_text().strip()   if len(cells) > rank_col   else ''
+        ovr    = cells[ovr_col].get_text().strip()    if len(cells) > ovr_col    else ''
+ 
+        # Skip rows that look like sub-headers (school cell same as a header name)
+        if not school or school in ('School', 'Team', 'Name'):
+            print(f"  Skipping row — school cell: {school!r}")
             continue
-        teams.append({
-            'rank':   cells[rank_col].get_text().strip() if len(cells) > rank_col else '',
-            'school': school,
-            'ovr':    cells[ovr_col].get_text().strip()  if len(cells) > ovr_col  else '',
-        })
+ 
+        teams.append({'rank': rank, 'school': school, 'ovr': ovr})
  
     print(f"  Got {len(teams)} teams")
     return teams
@@ -158,9 +167,8 @@ def main():
             'teams':   teams,
         }
  
-        # Wait between requests — avoids triggering the rate limiter
         if i < len(SPORTS) - 1:
-            print(f"  Waiting {REQUEST_DELAY}s before next request...")
+            print(f"  Waiting {REQUEST_DELAY}s...\n")
             time.sleep(REQUEST_DELAY)
  
     with open('rankings.json', 'w') as f:
@@ -170,4 +178,3 @@ def main():
  
 if __name__ == '__main__':
     main()
- 
