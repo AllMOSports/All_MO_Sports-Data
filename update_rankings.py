@@ -1,22 +1,20 @@
 """
 ALL MO Sports — Automated Rankings Updater
 ==========================================
-This script is run automatically every night by GitHub Actions.
-It fetches each sport's rankings page, extracts the top 5 teams,
-and saves the result to rankings.json.
-
-To add or remove sports, edit the SPORTS list below.
-To change how many teams appear in the snapshot, change TOP_N.
+Uses cloudscraper to bypass Cloudflare bot protection,
+and adds delays between requests to avoid rate limiting.
 """
-
-import requests
+ 
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
+import time
 from datetime import datetime, timezone
-
+ 
 # ── CONFIG ────────────────────────────────────────────────────
-TOP_N = 5   # how many teams to show per sport on the homepage
-
+TOP_N         = 5    # teams to show per sport on the homepage
+REQUEST_DELAY = 5    # seconds to wait between each sport fetch
+ 
 SPORTS = [
     {
         'abbr':   'FTB',
@@ -67,59 +65,62 @@ SPORTS = [
         'badgeFg':'#993c1d',
     },
 ]
-
-# ── FETCH HELPERS ─────────────────────────────────────────────
-HEADERS = {
-    'User-Agent': (
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-        'AppleWebKit/537.36 (KHTML, like Gecko) '
-        'Chrome/124.0.0.0 Safari/537.36'
-    ),
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-}
-
+ 
+# ── SCRAPER SETUP ─────────────────────────────────────────────
+# cloudscraper mimics a real Chrome browser and solves
+# Cloudflare's JavaScript challenge automatically
+scraper = cloudscraper.create_scraper(
+    browser={
+        'browser':  'chrome',
+        'platform': 'windows',
+        'mobile':   False,
+    }
+)
+ 
+# ── PARSE ─────────────────────────────────────────────────────
 def get_top_n(sport):
     url = sport['url']
-    print(f"  Fetching {sport['name']} from {url}")
+    print(f"  Fetching {sport['name']}...")
+ 
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
+        resp = scraper.get(url, timeout=30)
         resp.raise_for_status()
     except Exception as e:
-        print(f"  ERROR fetching {sport['name']}: {e}")
+        print(f"  ERROR: {e}")
         return []
-
+ 
     soup = BeautifulSoup(resp.text, 'html.parser')
-
-    # Find the table with the most header columns
+ 
+    # Sanity check — if Cloudflare returned a challenge page it
+    # will contain no <table> tags and will mention "checking"
     tables = soup.find_all('table')
     if not tables:
-        print(f"  No tables found on page for {sport['name']}")
+        page_text = soup.get_text()[:200]
+        print(f"  No tables found. Page preview: {page_text!r}")
         return []
-
-    table = max(tables, key=lambda t: len(t.find_all('th')))
-
-    # Build column name → index map (strip any sort icons)
+ 
+    # Use the table with the most header columns
+    table   = max(tables, key=lambda t: len(t.find_all('th')))
+    headers = table.find_all('th')
+    print(f"  Table found with {len(headers)} columns")
+ 
+    # Map column names to indices (strip any sort icons)
     col_map = {}
-    for i, th in enumerate(table.find_all('th')):
+    for i, th in enumerate(headers):
         name = th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
         col_map[name] = i
-
+ 
     rank_col   = col_map.get('OVR Rank',   0)
     school_col = col_map.get('School',     1)
     ovr_col    = col_map.get('OVR Rating', 8)
-
-    print(f"  Columns found: {list(col_map.keys())[:6]}...")
-    print(f"  Using → Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
-
+    print(f"  Columns → Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
+ 
     # Get data rows
     tbody = table.find('tbody')
     rows  = tbody.find_all('tr') if tbody else [
         r for r in table.find_all('tr') if r.find('td')
     ]
-
+ 
     teams = []
     for row in rows[:TOP_N]:
         cells = row.find_all('td')
@@ -133,20 +134,20 @@ def get_top_n(sport):
             'school': school,
             'ovr':    cells[ovr_col].get_text().strip()  if len(cells) > ovr_col  else '',
         })
-
-    print(f"  Found {len(teams)} teams")
+ 
+    print(f"  Got {len(teams)} teams")
     return teams
-
+ 
 # ── MAIN ─────────────────────────────────────────────────────
 def main():
     print("ALL MO Sports — Rankings Updater")
     print("=================================")
-
+ 
     output = {
         'updated': datetime.now(timezone.utc).strftime('%B %-d, %Y'),
     }
-
-    for sport in SPORTS:
+ 
+    for i, sport in enumerate(SPORTS):
         teams = get_top_n(sport)
         output[sport['abbr']] = {
             'name':    sport['name'],
@@ -156,11 +157,17 @@ def main():
             'url':     sport['url'],
             'teams':   teams,
         }
-
+ 
+        # Wait between requests — avoids triggering the rate limiter
+        if i < len(SPORTS) - 1:
+            print(f"  Waiting {REQUEST_DELAY}s before next request...")
+            time.sleep(REQUEST_DELAY)
+ 
     with open('rankings.json', 'w') as f:
         json.dump(output, f, indent=2)
-
+ 
     print("\nDone — rankings.json updated successfully.")
-
+ 
 if __name__ == '__main__':
     main()
+ 
