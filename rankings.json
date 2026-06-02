@@ -1,12 +1,38 @@
 {
-  "updated": "June 1, 2026",
+  "updated": "June 2, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
     "badgeBg": "#e6f1fb",
     "badgeFg": "#185fa5",
     "url": "https://allmosports.com/ftb-2025-all-classes-rankings/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Blue Springs South",
+        "ovr": "82.2"
+      },
+      {
+        "rank": "2",
+        "school": "Christian Brothers College",
+        "ovr": "75.7"
+      },
+      {
+        "rank": "3",
+        "school": "Platte County",
+        "ovr": "73.2"
+      },
+      {
+        "rank": "4",
+        "school": "Jackson",
+        "ovr": "67.9"
+      },
+      {
+        "rank": "5",
+        "school": "Nixa",
+        "ovr": "67.8"
+      }
+    ]
   },
   "BBB": {
     "name": "Boys Basketball",
@@ -14,7 +40,33 @@
     "badgeBg": "#faeeda",
     "badgeFg": "#854f0b",
     "url": "https://allmosports.com/2025-2026-boys-basketball-all-teams-rankings/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "5",
+        "ovr": "5"
+      },
+      {
+        "rank": "2",
+        "school": "6",
+        "ovr": "1"
+      },
+      {
+        "rank": "3",
+        "school": "5",
+        "ovr": "3"
+      },
+      {
+        "rank": "4",
+        "school": "3",
+        "ovr": "32"
+      },
+      {
+        "rank": "5",
+        "school": "3",
+        "ovr": "7"
+      }
+    ]
   },
   "GBB": {
     "name": "Girls Basketball",
@@ -22,7 +74,33 @@
     "badgeBg": "#fbeaf0",
     "badgeFg": "#993556",
     "url": "https://allmosports.com/girls-basketball-all-classes-rankings-25-26/",
-    "teams": []
+    "teams": [
+      {
+        "rank": "1",
+        "school": "3",
+        "ovr": "1"
+      },
+      {
+        "rank": "2",
+        "school": "8",
+        "ovr": "2"
+      },
+      {
+        "rank": "3",
+        "school": "6",
+        "ovr": "6"
+      },
+      {
+        "rank": "4",
+        "school": "1",
+        "ovr": "3"
+      },
+      {
+        "rank": "5",
+        "school": "5",
+        "ovr": "10"
+      }
+    ]
   },
   "BSB": {
     "name": "Baseball",
