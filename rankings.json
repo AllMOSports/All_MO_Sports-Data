@@ -1,5 +1,5 @@
 {
-  "updated": "June 2, 2026",
+  "updated": "June 3, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -44,27 +44,27 @@
       {
         "rank": "1",
         "school": "Principia",
-        "ovr": "64"
+        "ovr": "64.79"
       },
       {
         "rank": "2",
-        "school": "Rockhurst",
-        "ovr": "56.5"
+        "school": "Logan-Rogersville",
+        "ovr": "55.08"
       },
       {
         "rank": "3",
         "school": "Kickapoo",
-        "ovr": "56.3"
+        "ovr": "54.37"
       },
       {
         "rank": "4",
-        "school": "Chaminade College Prep",
-        "ovr": "55.7"
+        "school": "De Smet Jesuit",
+        "ovr": "54.1"
       },
       {
         "rank": "5",
-        "school": "De Smet Jesuit",
-        "ovr": "55"
+        "school": "Rockhurst",
+        "ovr": "53.82"
       }
     ]
   },
@@ -78,27 +78,27 @@
       {
         "rank": "1",
         "school": "Incarnate Word Academy",
-        "ovr": "76"
+        "ovr": "76.82"
       },
       {
         "rank": "2",
         "school": "Staley",
-        "ovr": "74.2"
+        "ovr": "74.12"
       },
       {
         "rank": "3",
-        "school": "Lee\u2019s Summit West",
-        "ovr": "64.7"
+        "school": "Lee's Summit West",
+        "ovr": "64.32"
       },
       {
         "rank": "4",
         "school": "Jackson",
-        "ovr": "57.1"
+        "ovr": "56.8"
       },
       {
         "rank": "5",
-        "school": "Principia",
-        "ovr": "54.3"
+        "school": "Strafford",
+        "ovr": "54.44"
       }
     ]
   },
@@ -117,7 +117,7 @@
       {
         "rank": "2",
         "school": "Liberty North",
-        "ovr": "13.59"
+        "ovr": "13.6"
       },
       {
         "rank": "3",
@@ -132,7 +132,7 @@
       {
         "rank": "5",
         "school": "Staley",
-        "ovr": "12.51"
+        "ovr": "12.52"
       }
     ]
   },
