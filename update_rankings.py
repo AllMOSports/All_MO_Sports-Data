@@ -1,154 +1,218 @@
-<!--
-  ALL MO Sports — Homepage Rankings Snapshot Widget
-  ==================================================
-  HOW TO INSTALL:
-    1. On your WordPress homepage add a Custom HTML block
-    2. Paste this entire file into it
-    3. Save/Update the page
--->
+"""
+ALL MO Sports — Automated Rankings Updater
+==========================================
+Uses Playwright (headless Chrome) to fully render each page
+including JavaScript/AJAX-loaded table data before scraping.
+This handles both static tables and dynamically loaded ones.
+"""
  
-<style>
-#ams-snapshot *{box-sizing:border-box;margin:0;padding:0}
-#ams-snapshot{font-family:inherit;padding:1.5rem 0}
-.ams-snap-header{margin-bottom:1.25rem}
-.ams-snap-title{font-size:20px;font-weight:600;color:#0f172a;margin-bottom:4px}
-.ams-snap-sub{font-size:14px;color:#64748b}
-.ams-snap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.ams-snap-card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.1rem;display:flex;flex-direction:column}
-.ams-snap-card-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
-.ams-snap-badge{width:30px;height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
-.ams-snap-sport-name{font-size:14px;font-weight:600;color:#0f172a;line-height:1.2}
-.ams-snap-season{font-size:11px;color:#94a3b8}
-.ams-snap-divider{border:none;border-top:1px solid #f1f5f9;margin:0 0 8px}
-.ams-snap-list{list-style:none;flex:1}
-.ams-snap-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid #f8fafc}
-.ams-snap-row:last-child{border-bottom:none}
-.ams-snap-rank{font-size:11px;color:#94a3b8;min-width:18px;text-align:right}
-.ams-snap-school{font-size:13px;color:#1e293b;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ams-snap-ovr{font-size:12px;font-weight:600;color:#2563eb;min-width:36px;text-align:right}
-.ams-snap-footer{margin-top:10px;padding-top:8px;border-top:1px solid #f1f5f9}
-.ams-snap-link{font-size:12px;color:#64748b;text-decoration:none}
-.ams-snap-link:hover{color:#2563eb;text-decoration:underline}
-.ams-snap-updated{font-size:11px;color:#94a3b8;margin-top:12px}
-.ams-snap-error{font-size:12px;color:#94a3b8;font-style:italic}
-.ams-snap-skeleton{background:#f1f5f9;border-radius:4px;display:inline-block;animation:ams-pulse 1.4s ease-in-out infinite}
-@keyframes ams-pulse{0%,100%{opacity:1}50%{opacity:.5}}
-.ams-snap-skel-row{display:flex;align-items:center;gap:8px;padding:5px 0}
-@media(max-width:600px){.ams-snap-grid{grid-template-columns:1fr}}
-</style>
+from playwright.sync_api import sync_playwright
+from bs4 import BeautifulSoup
+import json
+import time
+from datetime import datetime
+from zoneinfo import ZoneInfo
  
-<div id="ams-snapshot">
-  <div class="ams-snap-header">
-    <div class="ams-snap-title">Current rankings snapshot</div>
-    <div class="ams-snap-sub">Top 5 teams across all active Missouri high school sports</div>
-  </div>
-  <div class="ams-snap-grid" id="ams-snap-grid"></div>
-  <div class="ams-snap-updated" id="ams-snap-updated"></div>
-</div>
+# ── CONFIG ────────────────────────────────────────────────────
+TOP_N         = 5    # teams to show per sport on the homepage
+REQUEST_DELAY = 4    # seconds between sport fetches
  
-<script>
-(function(){
+SPORTS = [
+    {
+        'abbr':   'FTB',
+        'name':   'Football',
+        'season': '2025 season',
+        'url':    'https://allmosports.com/ftb-2025-all-classes-rankings/',
+        'badgeBg':'#e6f1fb',
+        'badgeFg':'#185fa5',
+    },
+    {
+        'abbr':   'BBB',
+        'name':   'Boys Basketball',
+        'season': '2025-26 season',
+        'url':    'https://allmosports.com/2025-2026-boys-basketball-all-teams-rankings/',
+        'badgeBg':'#faeeda',
+        'badgeFg':'#854f0b',
+    },
+    {
+        'abbr':   'GBB',
+        'name':   'Girls Basketball',
+        'season': '2025-26 season',
+        'url':    'https://allmosports.com/girls-basketball-all-classes-rankings-25-26/',
+        'badgeBg':'#fbeaf0',
+        'badgeFg':'#993556',
+    },
+    {
+        'abbr':   'BSB',
+        'name':   'Baseball',
+        'season': '2026 season',
+        'url':    'https://allmosports.com/baseball-rankings-all-teams-2026-season/',
+        'badgeBg':'#e1f5ee',
+        'badgeFg':'#0f6e56',
+    },
+    {
+        'abbr':   'GSC',
+        'name':   'Girls Soccer',
+        'season': '2026 season',
+        'url':    'https://allmosports.com/girls-soccer-rankings-all-classes-2026/',
+        'badgeBg':'#eaf3de',
+        'badgeFg':'#3b6d11',
+    },
+    {
+        'abbr':   'SFT',
+        'name':   'Spring Softball',
+        'season': '2026 season',
+        'url':    'https://allmosports.com/spring-softball-rankings-all-classes-2026/',
+        'badgeBg':'#faece7',
+        'badgeFg':'#993c1d',
+    },
+    # ── NEW SPORTS ────────────────────────────────────────────
+    # IMPORTANT: Verify these URLs match your actual page slugs.
+    # Update the 'url' for each sport if the slug is different.
+    {
+        'abbr':   'BSC',
+        'name':   'Boys Soccer',
+        'season': '2026 season',
+        'url':    'https://allmosports.com/boys-soccer-rankings-all-classes-2026/',
+        'badgeBg':'#ede9fe',
+        'badgeFg':'#4c1d95',
+    },
+    {
+        'abbr':   'GVB',
+        'name':   'Girls Volleyball',
+        'season': '2025 season',
+        'url':    'https://allmosports.com/girls-volleyball-rankings-all-classes-2025/',
+        'badgeBg':'#fdf2ff',
+        'badgeFg':'#7e22ce',
+    },
+    {
+        'abbr':   'FST',
+        'name':   'Fall Softball',
+        'season': '2025 season',
+        'url':    'https://allmosports.com/fall-softball-rankings-all-classes-2025/',
+        'badgeBg':'#e0f2fe',
+        'badgeFg':'#0369a1',
+    },
+]
  
-  var JSON_URL = 'https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/rankings.json';
+# ── PARSE HTML → TOP N TEAMS ──────────────────────────────────
+def parse_top_n(html, sport_name):
+    soup   = BeautifulSoup(html, 'html.parser')
+    tables = soup.find_all('table')
  
-  /* Display order of sport cards — all 9 sports */
-  var ORDER = ['FTB','BBB','GBB','BSB','GSC','SFT','BSC','GVB','FST'];
+    if not tables:
+        print(f"  No tables found in rendered page for {sport_name}")
+        return []
  
-  var grid = document.getElementById('ams-snap-grid');
+    # Pick the table with the most header columns
+    table   = max(tables, key=lambda t: len(t.find_all('th')))
+    all_ths = table.find_all('th')
+    print(f"  Table found with {len(all_ths)} columns")
  
-  /* ── RENDER HELPERS ─────────────────────────────────────── */
+    header_names = [
+        th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
+        for th in all_ths
+    ]
+    print(f"  Headers: {header_names}")
  
-  function cardHeader(abbr, sport) {
-    return '<div class="ams-snap-card-head">' +
-      '<div class="ams-snap-badge" style="background:' + sport.badgeBg + ';color:' + sport.badgeFg + '">' +
-        abbr +
-      '</div>' +
-      '<div>' +
-        '<div class="ams-snap-sport-name">' + sport.name + '</div>' +
-        '<div class="ams-snap-season">' + sport.season + '</div>' +
-      '</div>' +
-    '</div>';
-  }
+    col_map    = {name: i for i, name in enumerate(header_names)}
+    rank_col   = col_map.get('OVR Rank',   col_map.get('RANK', 0))
+    school_col = col_map.get('School',     col_map.get('SCHOOL', 1))
+    ovr_col    = col_map.get('OVR Rating', col_map.get('ADJ. OVR Rating', 8))
+    print(f"  Columns -> Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
  
-  function skeletonCard(abbr) {
-    var rows = '';
-    for (var i = 0; i < 5; i++) {
-      rows += '<li class="ams-snap-skel-row">' +
-        '<span class="ams-snap-skeleton" style="width:14px;height:10px"></span>' +
-        '<span class="ams-snap-skeleton" style="flex:1;height:10px"></span>' +
-        '<span class="ams-snap-skeleton" style="width:30px;height:10px"></span>' +
-      '</li>';
+    # Get data rows
+    tbody = table.find('tbody')
+    rows  = tbody.find_all('tr') if tbody else [
+        r for r in table.find_all('tr') if r.find(['td','th'])
+    ]
+    print(f"  Data rows found: {len(rows)}")
+ 
+    # Sanity check — if still showing loading placeholder, bail
+    if rows and 'Loading' in rows[0].get_text():
+        print(f"  Still showing loading placeholder — AJAX did not complete in time")
+        return []
+ 
+    teams = []
+    for row in rows[:TOP_N]:
+        cells  = row.find_all(['td', 'th'])
+        if len(cells) < 3:
+            continue
+        school = cells[school_col].get_text().strip() if len(cells) > school_col else ''
+        rank   = cells[rank_col].get_text().strip()   if len(cells) > rank_col   else ''
+        ovr    = cells[ovr_col].get_text().strip()    if len(cells) > ovr_col    else ''
+        if not school or school in ('School', 'SCHOOL', 'Team', 'Name'):
+            continue
+        teams.append({'rank': rank, 'school': school, 'ovr': ovr})
+ 
+    print(f"  Got {len(teams)} teams")
+    return teams
+ 
+# ── FETCH WITH PLAYWRIGHT (HEADLESS CHROME) ───────────────────
+def get_top_n(sport, page):
+    url = sport['url']
+    print(f"\n  Fetching {sport['name']}...")
+    try:
+        page.goto(url, wait_until='networkidle', timeout=60000)
+ 
+        try:
+            page.wait_for_function(
+                "document.querySelectorAll('table tbody tr').length > 1",
+                timeout=10000
+            )
+        except Exception:
+            print(f"  Table did not grow beyond 1 row within 10s — using what we have")
+ 
+        html = page.content()
+        return parse_top_n(html, sport['name'])
+ 
+    except Exception as e:
+        print(f"  ERROR loading page: {e}")
+        return []
+ 
+# ── MAIN ─────────────────────────────────────────────────────
+def main():
+    print("ALL MO Sports — Rankings Updater")
+    print("=================================")
+ 
+    central = ZoneInfo('America/Chicago')
+    output = {
+        'updated': datetime.now(central).strftime('%B %-d, %Y'),
     }
-    var card = document.createElement('div');
-    card.className = 'ams-snap-card';
-    card.id = 'ams-card-' + abbr;
-    card.innerHTML =
-      '<div style="height:38px;display:flex;align-items:center;gap:8px;margin-bottom:10px">' +
-        '<span class="ams-snap-skeleton" style="width:30px;height:30px;border-radius:6px"></span>' +
-        '<div>' +
-          '<span class="ams-snap-skeleton" style="width:110px;height:12px;display:block;margin-bottom:4px"></span>' +
-          '<span class="ams-snap-skeleton" style="width:70px;height:9px;display:block"></span>' +
-        '</div>' +
-      '</div>' +
-      '<hr class="ams-snap-divider">' +
-      '<ul class="ams-snap-list">' + rows + '</ul>';
-    return card;
-  }
  
-  function renderCard(abbr, sport) {
-    var card = document.getElementById('ams-card-' + abbr);
-    if (!card) return;
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=(
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/124.0.0.0 Safari/537.36'
+            ),
+            viewport={'width': 1280, 'height': 900},
+        )
+        page = context.new_page()
  
-    var rows = '';
-    if (!sport.teams || sport.teams.length === 0) {
-      rows = '<li class="ams-snap-row"><span class="ams-snap-error">Season not yet started</span></li>';
-    } else {
-      sport.teams.forEach(function(t) {
-        rows += '<li class="ams-snap-row">' +
-          '<span class="ams-snap-rank">' + t.rank + '</span>' +
-          '<span class="ams-snap-school">' + t.school + '</span>' +
-          '<span class="ams-snap-ovr">' + t.ovr + '</span>' +
-        '</li>';
-      });
-    }
+        for i, sport in enumerate(SPORTS):
+            teams = get_top_n(sport, page)
+            output[sport['abbr']] = {
+                'name':    sport['name'],
+                'season':  sport['season'],
+                'badgeBg': sport['badgeBg'],
+                'badgeFg': sport['badgeFg'],
+                'url':     sport['url'],
+                'teams':   teams,
+            }
  
-    card.innerHTML =
-      cardHeader(abbr, sport) +
-      '<hr class="ams-snap-divider">' +
-      '<ul class="ams-snap-list">' + rows + '</ul>' +
-      '<div class="ams-snap-footer">' +
-        '<a class="ams-snap-link" href="' + sport.url + '">View full rankings &rarr;</a>' +
-      '</div>';
-  }
+            if i < len(SPORTS) - 1:
+                print(f"  Waiting {REQUEST_DELAY}s...")
+                time.sleep(REQUEST_DELAY)
  
-  /* ── INIT ───────────────────────────────────────────────── */
+        browser.close()
  
-  ORDER.forEach(function(abbr) {
-    grid.appendChild(skeletonCard(abbr));
-  });
+    with open('rankings.json', 'w') as f:
+        json.dump(output, f, indent=2)
  
-  fetch(JSON_URL)
-    .then(function(res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      return res.json();
-    })
-    .then(function(data) {
-      ORDER.forEach(function(abbr) {
-        if (data[abbr]) renderCard(abbr, data[abbr]);
-      });
-      if (data.updated) {
-        document.getElementById('ams-snap-updated').textContent =
-          'Rankings last updated ' + data.updated;
-      }
-    })
-    .catch(function(err) {
-      console.warn('[ALL MO Sports] Could not load rankings:', err);
-      ORDER.forEach(function(abbr) {
-        var card = document.getElementById('ams-card-' + abbr);
-        if (card) card.innerHTML =
-          '<div class="ams-snap-error" style="padding:1rem">Could not load rankings. Please try again later.</div>';
-      });
-    });
+    print("\nDone — rankings.json updated successfully.")
  
-})();
-</script>
+if __name__ == '__main__':
+    main()
