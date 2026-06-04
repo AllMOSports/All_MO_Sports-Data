@@ -209,15 +209,41 @@
     "season": "2026 season",
     "badgeBg": "#ede9fe",
     "badgeFg": "#4c1d95",
-    "url": "https://allmosports.com/boys-soccer-rankings-all-classes-2026/",
-    "teams": []
+    "url": "https://allmosports.com/boys-soccer-rankings-all-classes-2025-season/",
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Rockhurst",
+        "ovr": "8.31"
+      },
+      {
+        "rank": "2",
+        "school": "SLUH",
+        "ovr": "6.27"
+      },
+      {
+        "rank": "3",
+        "school": "Springfield Catholic",
+        "ovr": "5.95"
+      },
+      {
+        "rank": "4",
+        "school": "Liberty Wentzville",
+        "ovr": "5.87"
+      },
+      {
+        "rank": "5",
+        "school": "Ladue Horton Watkins",
+        "ovr": "5.67"
+      }
+    ]
   },
   "GVB": {
     "name": "Girls Volleyball",
     "season": "2025 season",
     "badgeBg": "#fdf2ff",
     "badgeFg": "#7e22ce",
-    "url": "https://allmosports.com/girls-volleyball-rankings-all-classes-2025/",
+    "url": "https://allmosports.com/girls-volleyball-rankings-all-classes-2025-season/",
     "teams": [
       {
         "rank": "1",
@@ -251,7 +277,7 @@
     "season": "2025 season",
     "badgeBg": "#e0f2fe",
     "badgeFg": "#0369a1",
-    "url": "https://allmosports.com/fall-softball-rankings-all-classes-2025/",
+    "url": "https://allmosports.com/fall-softball-rankings-all-classes-2025-season/",
     "teams": [
       {
         "rank": "1",
