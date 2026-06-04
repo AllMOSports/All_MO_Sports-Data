@@ -4,12 +4,9 @@
   HOW TO INSTALL:
     1. On your WordPress homepage add a Custom HTML block
     2. Paste this entire file into it
-    3. Replace YOUR_GITHUB_USERNAME and YOUR_REPO_NAME below
-    4. Save/Update the page
-
-  THAT'S IT — data updates automatically every night via GitHub Actions.
+    3. Save/Update the page
 -->
-
+ 
 <style>
 #ams-snapshot *{box-sizing:border-box;margin:0;padding:0}
 #ams-snapshot{font-family:inherit;padding:1.5rem 0}
@@ -19,7 +16,7 @@
 .ams-snap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .ams-snap-card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.1rem;display:flex;flex-direction:column}
 .ams-snap-card-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
-.ams-snap-badge{width:30px;height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0}
+.ams-snap-badge{width:30px;height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
 .ams-snap-sport-name{font-size:14px;font-weight:600;color:#0f172a;line-height:1.2}
 .ams-snap-season{font-size:11px;color:#94a3b8}
 .ams-snap-divider{border:none;border-top:1px solid #f1f5f9;margin:0 0 8px}
@@ -39,7 +36,7 @@
 .ams-snap-skel-row{display:flex;align-items:center;gap:8px;padding:5px 0}
 @media(max-width:600px){.ams-snap-grid{grid-template-columns:1fr}}
 </style>
-
+ 
 <div id="ams-snapshot">
   <div class="ams-snap-header">
     <div class="ams-snap-title">Current rankings snapshot</div>
@@ -48,34 +45,23 @@
   <div class="ams-snap-grid" id="ams-snap-grid"></div>
   <div class="ams-snap-updated" id="ams-snap-updated"></div>
 </div>
-
+ 
 <script>
 (function(){
-
-  /* ── UPDATE THESE TWO VALUES ───────────────────────────────
-     Replace with your actual GitHub username and repository name.
-     Example:
-       var GITHUB_USER = 'johndoe';
-       var GITHUB_REPO = 'allmosports-data';
-  ──────────────────────────────────────────────────────────── */
-  var GITHUB_USER = 'YOUR_GITHUB_USERNAME';
-  var GITHUB_REPO = 'YOUR_REPO_NAME';
-
-  /* GitHub raw content URL — always publicly accessible, no auth needed */
-  var JSON_URL = 'https://raw.githubusercontent.com/' +
-                 GITHUB_USER + '/' + GITHUB_REPO + '/main/rankings.json';
-
-  /* Sport display order */
-  var ORDER = ['FTB','BBB','GBB','BSB','GSC','SFT'];
-
+ 
+  var JSON_URL = 'https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/rankings.json';
+ 
+  /* Display order of sport cards — all 9 sports */
+  var ORDER = ['FTB','BBB','GBB','BSB','GSC','SFT','BSC','GVB','FST'];
+ 
   var grid = document.getElementById('ams-snap-grid');
-
-  /* ── RENDER HELPERS ───────────────────────────────────────── */
-
-  function cardHeader(sport) {
+ 
+  /* ── RENDER HELPERS ─────────────────────────────────────── */
+ 
+  function cardHeader(abbr, sport) {
     return '<div class="ams-snap-card-head">' +
       '<div class="ams-snap-badge" style="background:' + sport.badgeBg + ';color:' + sport.badgeFg + '">' +
-        sport.abbr +
+        abbr +
       '</div>' +
       '<div>' +
         '<div class="ams-snap-sport-name">' + sport.name + '</div>' +
@@ -83,7 +69,7 @@
       '</div>' +
     '</div>';
   }
-
+ 
   function skeletonCard(abbr) {
     var rows = '';
     for (var i = 0; i < 5; i++) {
@@ -96,20 +82,23 @@
     var card = document.createElement('div');
     card.className = 'ams-snap-card';
     card.id = 'ams-card-' + abbr;
-    card.innerHTML = '<div style="height:38px;display:flex;align-items:center;gap:8px;margin-bottom:10px">' +
-      '<span class="ams-snap-skeleton" style="width:30px;height:30px;border-radius:6px"></span>' +
-      '<div><span class="ams-snap-skeleton" style="width:100px;height:12px;display:block;margin-bottom:4px"></span>' +
-      '<span class="ams-snap-skeleton" style="width:70px;height:9px;display:block"></span></div>' +
-    '</div>' +
-    '<hr class="ams-snap-divider">' +
-    '<ul class="ams-snap-list">' + rows + '</ul>';
+    card.innerHTML =
+      '<div style="height:38px;display:flex;align-items:center;gap:8px;margin-bottom:10px">' +
+        '<span class="ams-snap-skeleton" style="width:30px;height:30px;border-radius:6px"></span>' +
+        '<div>' +
+          '<span class="ams-snap-skeleton" style="width:110px;height:12px;display:block;margin-bottom:4px"></span>' +
+          '<span class="ams-snap-skeleton" style="width:70px;height:9px;display:block"></span>' +
+        '</div>' +
+      '</div>' +
+      '<hr class="ams-snap-divider">' +
+      '<ul class="ams-snap-list">' + rows + '</ul>';
     return card;
   }
-
+ 
   function renderCard(abbr, sport) {
     var card = document.getElementById('ams-card-' + abbr);
     if (!card) return;
-
+ 
     var rows = '';
     if (!sport.teams || sport.teams.length === 0) {
       rows = '<li class="ams-snap-row"><span class="ams-snap-error">Season not yet started</span></li>';
@@ -122,23 +111,22 @@
         '</li>';
       });
     }
-
-    card.innerHTML = cardHeader({ abbr: abbr, name: sport.name, season: sport.season, badgeBg: sport.badgeBg, badgeFg: sport.badgeFg }) +
+ 
+    card.innerHTML =
+      cardHeader(abbr, sport) +
       '<hr class="ams-snap-divider">' +
       '<ul class="ams-snap-list">' + rows + '</ul>' +
       '<div class="ams-snap-footer">' +
         '<a class="ams-snap-link" href="' + sport.url + '">View full rankings &rarr;</a>' +
       '</div>';
   }
-
-  /* ── INIT ─────────────────────────────────────────────────── */
-
-  /* Show skeleton cards immediately while JSON loads */
+ 
+  /* ── INIT ───────────────────────────────────────────────── */
+ 
   ORDER.forEach(function(abbr) {
     grid.appendChild(skeletonCard(abbr));
   });
-
-  /* Fetch rankings JSON from GitHub */
+ 
   fetch(JSON_URL)
     .then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -148,16 +136,19 @@
       ORDER.forEach(function(abbr) {
         if (data[abbr]) renderCard(abbr, data[abbr]);
       });
-      var updated = document.getElementById('ams-snap-updated');
-      updated.textContent = data.updated ? 'Rankings last updated ' + data.updated : '';
+      if (data.updated) {
+        document.getElementById('ams-snap-updated').textContent =
+          'Rankings last updated ' + data.updated;
+      }
     })
     .catch(function(err) {
-      console.warn('[ALL MO Sports] Could not load rankings.json:', err);
+      console.warn('[ALL MO Sports] Could not load rankings:', err);
       ORDER.forEach(function(abbr) {
         var card = document.getElementById('ams-card-' + abbr);
-        if (card) card.innerHTML = '<div class="ams-snap-error" style="padding:1rem">Could not load rankings. Please try again later.</div>';
+        if (card) card.innerHTML =
+          '<div class="ams-snap-error" style="padding:1rem">Could not load rankings. Please try again later.</div>';
       });
     });
-
+ 
 })();
 </script>
