@@ -112,27 +112,27 @@
       {
         "rank": "1",
         "school": "Blue Springs South",
-        "ovr": "14.93"
+        "ovr": "14.94"
       },
       {
         "rank": "2",
         "school": "Liberty North",
-        "ovr": "13.59"
+        "ovr": "13.61"
       },
       {
         "rank": "3",
         "school": "Rockhurst",
-        "ovr": "13.21"
+        "ovr": "13.22"
       },
       {
         "rank": "4",
         "school": "Eureka",
-        "ovr": "13.03"
+        "ovr": "13.04"
       },
       {
         "rank": "5",
         "school": "Staley",
-        "ovr": "12.51"
+        "ovr": "12.53"
       }
     ]
   },
@@ -201,6 +201,82 @@
         "rank": "5",
         "school": "Clever",
         "ovr": "12.09"
+      }
+    ]
+  },
+  "BSC": {
+    "name": "Boys Soccer",
+    "season": "2026 season",
+    "badgeBg": "#ede9fe",
+    "badgeFg": "#4c1d95",
+    "url": "https://allmosports.com/boys-soccer-rankings-all-classes-2026/",
+    "teams": []
+  },
+  "GVB": {
+    "name": "Girls Volleyball",
+    "season": "2025 season",
+    "badgeBg": "#fdf2ff",
+    "badgeFg": "#7e22ce",
+    "url": "https://allmosports.com/girls-volleyball-rankings-all-classes-2025/",
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Lafayette Wildwood",
+        "ovr": "5.39"
+      },
+      {
+        "rank": "2",
+        "school": "Nixa",
+        "ovr": "4.71"
+      },
+      {
+        "rank": "3",
+        "school": "Lee's Summit West",
+        "ovr": "4.66"
+      },
+      {
+        "rank": "4",
+        "school": "Ozark",
+        "ovr": "4.66"
+      },
+      {
+        "rank": "5",
+        "school": "Lee's Summit North",
+        "ovr": "4.49"
+      }
+    ]
+  },
+  "FST": {
+    "name": "Fall Softball",
+    "season": "2025 season",
+    "badgeBg": "#e0f2fe",
+    "badgeFg": "#0369a1",
+    "url": "https://allmosports.com/fall-softball-rankings-all-classes-2025/",
+    "teams": [
+      {
+        "rank": "1",
+        "school": "Raymore-Peculiar",
+        "ovr": "13.7"
+      },
+      {
+        "rank": "2",
+        "school": "Liberty North",
+        "ovr": "13.7"
+      },
+      {
+        "rank": "3",
+        "school": "Blue Springs South",
+        "ovr": "13.1"
+      },
+      {
+        "rank": "4",
+        "school": "Ft. Zumwalt West",
+        "ovr": "12.7"
+      },
+      {
+        "rank": "5",
+        "school": "Rock Bridge",
+        "ovr": "12.5"
       }
     ]
   }
