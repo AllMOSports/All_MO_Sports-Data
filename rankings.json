@@ -1,5 +1,5 @@
 {
-  "updated": "June 6, 2026",
+  "updated": "June 7, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -112,27 +112,27 @@
       {
         "rank": "1",
         "school": "Blue Springs South",
-        "ovr": "14.96"
+        "ovr": "14.92"
       },
       {
         "rank": "2",
         "school": "Liberty North",
-        "ovr": "13.63"
+        "ovr": "13.6"
       },
       {
         "rank": "3",
         "school": "Rockhurst",
-        "ovr": "13.24"
+        "ovr": "13.25"
       },
       {
         "rank": "4",
         "school": "Eureka",
-        "ovr": "13.02"
+        "ovr": "13"
       },
       {
         "rank": "5",
         "school": "Staley",
-        "ovr": "12.56"
+        "ovr": "12.55"
       }
     ]
   },
@@ -146,27 +146,27 @@
       {
         "rank": "1",
         "school": "Cor Jesu Academy",
-        "ovr": "10.44"
+        "ovr": "10.1"
       },
       {
         "rank": "2",
         "school": "Nerinx Hall",
-        "ovr": "8.46"
+        "ovr": "8.22"
       },
       {
         "rank": "3",
         "school": "St. Joseph's Academy",
-        "ovr": "7.8"
+        "ovr": "7.7"
       },
       {
         "rank": "4",
         "school": "Ft. Zumwalt South",
-        "ovr": "7.73"
+        "ovr": "7.39"
       },
       {
         "rank": "5",
-        "school": "St. Dominic",
-        "ovr": "7.64"
+        "school": "Francis Howell",
+        "ovr": "7.3"
       }
     ]
   },
