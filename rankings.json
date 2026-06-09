@@ -1,5 +1,5 @@
 {
-  "updated": "June 8, 2026",
+  "updated": "June 9, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -146,27 +146,27 @@
       {
         "rank": "1",
         "school": "Cor Jesu Academy",
-        "ovr": "10.07"
+        "ovr": "10.32"
       },
       {
         "rank": "2",
         "school": "Nerinx Hall",
-        "ovr": "8.18"
+        "ovr": "8.37"
       },
       {
         "rank": "3",
         "school": "St. Joseph's Academy",
-        "ovr": "7.66"
+        "ovr": "7.74"
       },
       {
         "rank": "4",
         "school": "Ft. Zumwalt South",
-        "ovr": "7.34"
+        "ovr": "7.61"
       },
       {
         "rank": "5",
-        "school": "Francis Howell",
-        "ovr": "7.25"
+        "school": "St. Dominic",
+        "ovr": "7.55"
       }
     ]
   },
