@@ -20096,13 +20096,6 @@
           "note": null
         },
         {
-          "name": "Duchesne",
-          "enrollment": 158,
-          "class": 1,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Laquey",
           "enrollment": 161,
           "class": 1,
@@ -20212,21 +20205,28 @@
           "enrollment": 261,
           "class": 1,
           "status": "moved_down",
-          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Father Tolton",
           "enrollment": 265,
           "class": 1,
           "status": "moved_down",
-          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Hancock",
           "enrollment": 275,
           "class": 1,
           "status": "moved_down",
-          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Fair Grove",
+          "enrollment": 279,
+          "class": 1,
+          "status": "moved_down",
+          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "St. Vincent",
@@ -20234,6 +20234,13 @@
           "class": 2,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1."
+        },
+        {
+          "name": "Duchesne",
+          "enrollment": 158,
+          "class": 2,
+          "status": "bump",
+          "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1"
         },
         {
           "name": "Whitfield",
@@ -20248,13 +20255,6 @@
           "class": 2,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1."
-        },
-        {
-          "name": "Fair Grove",
-          "enrollment": 279,
-          "class": 2,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Ewing Marion Kauffman",
