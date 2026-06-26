@@ -1,30 +1,16 @@
 {
-  "generatedAt": "2026-06-25",
+  "generatedAt": "2026-06-26",
   "sports": {
     "Football": {
       "classSizes": {
         "1": 43,
         "2": 54,
-        "3": 55,
-        "4": 55,
-        "5": 55,
+        "3": 54,
+        "4": 54,
+        "5": 54,
         "6": 42
       },
       "teams": [
-        {
-          "name": "Midway",
-          "enrollment": 101,
-          "class": 1,
-          "status": "normal",
-          "note": null
-        },
-        {
-          "name": "Polo",
-          "enrollment": 101,
-          "class": 1,
-          "status": "normal",
-          "note": null
-        },
         {
           "name": "Hayti",
           "enrollment": 105,
@@ -302,29 +288,29 @@
           "name": "Thayer",
           "enrollment": 171,
           "class": 1,
-          "status": "moved_down",
-          "note": "St. Vincent and Valle Catholic were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Adrian",
           "enrollment": 175,
           "class": 1,
-          "status": "moved_down",
-          "note": "Tied at 175 enrollment with Highland and Saxony Lutheran — kept together in Class 1 rather than splitting the tie."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Highland",
           "enrollment": 175,
           "class": 1,
-          "status": "moved_down",
-          "note": "Tied at 175 enrollment with Adrian and Saxony Lutheran — kept together in Class 1 rather than splitting the tie."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Saxony Lutheran",
           "enrollment": 175,
           "class": 1,
-          "status": "moved_down",
-          "note": "Tied at 175 enrollment with Adrian and Highland — kept together in Class 1 rather than splitting the tie."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Valle Catholic",
@@ -687,8 +673,22 @@
           "name": "Warsaw",
           "enrollment": 290,
           "class": 2,
+          "status": "normal",
+          "note": null
+        },
+        {
+          "name": "Cuba",
+          "enrollment": 298,
+          "class": 2,
           "status": "moved_down",
-          "note": "Lift for Life Academy Charter and Lutheran North were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Lutheran North and Lift for Life Academy Charter were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Forsyth",
+          "enrollment": 298,
+          "class": 2,
+          "status": "moved_down",
+          "note": "Lutheran North and Lift for Life Academy Charter were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Lutheran North",
@@ -696,20 +696,6 @@
           "class": 3,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 2."
-        },
-        {
-          "name": "Cuba",
-          "enrollment": 298,
-          "class": 3,
-          "status": "normal",
-          "note": null
-        },
-        {
-          "name": "Forsyth",
-          "enrollment": 298,
-          "class": 3,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Priory",
@@ -1058,22 +1044,29 @@
           "name": "Center",
           "enrollment": 473,
           "class": 3,
-          "status": "moved_down",
-          "note": "Cardinal Ritter and St. Mary's South Side were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "MICDS",
           "enrollment": 476,
           "class": 3,
           "status": "moved_down",
-          "note": "Cardinal Ritter and St. Mary's South Side were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "St. Mary's South Side and Cardinal Ritter were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Potosi",
           "enrollment": 477,
           "class": 3,
           "status": "moved_down",
-          "note": "Cardinal Ritter and St. Mary's South Side were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "St. Mary's South Side and Cardinal Ritter were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Normandy Collaborative",
+          "enrollment": 487,
+          "class": 3,
+          "status": "moved_down",
+          "note": "St. Mary's South Side and Cardinal Ritter were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Lift for Life Academy Charter",
@@ -1081,20 +1074,6 @@
           "class": 4,
           "status": "bump",
           "note": "Private school classification bump: moved up 2 classes from its enrollment-based Class 2."
-        },
-        {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 4,
-          "status": "normal",
-          "note": null
-        },
-        {
-          "name": "Normandy Collaborative",
-          "enrollment": 487,
-          "class": 4,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Moberly",
@@ -1443,8 +1422,8 @@
           "name": "Chaminade College Prep",
           "enrollment": 818,
           "class": 4,
-          "status": "moved_down",
-          "note": "Helias Catholic was bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Festus",
@@ -1456,6 +1435,13 @@
         {
           "name": "Lincoln College Prep",
           "enrollment": 820,
+          "class": 4,
+          "status": "moved_down",
+          "note": "Helias Catholic was bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "West Plains",
+          "enrollment": 823,
           "class": 4,
           "status": "moved_down",
           "note": "Helias Catholic was bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
@@ -1480,13 +1466,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 4."
-        },
-        {
-          "name": "West Plains",
-          "enrollment": 823,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Vianney",
