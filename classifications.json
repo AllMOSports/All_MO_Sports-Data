@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26",
+  "generatedAt": "2026-06-27",
   "sports": {
     "Football": {
       "classSizes": {
         "1": 43,
-        "2": 52,
-        "3": 53,
+        "2": 54,
+        "3": 54,
         "4": 54,
-        "5": 56,
-        "6": 43
+        "5": 54,
+        "6": 42
       },
       "teams": [
         {
@@ -3299,13 +3299,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 3,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Normandy Collaborative",
           "enrollment": 487,
           "class": 3,
@@ -3414,8 +3407,8 @@
           "name": "Kirksville",
           "enrollment": 555,
           "class": 3,
-          "status": "moved_down",
-          "note": "Helias Catholic, Incarnate Word Academy, St. Francis Borgia, and Westminster Christian Academy were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Savannah",
@@ -3446,6 +3439,13 @@
           "note": "Helias Catholic, Incarnate Word Academy, St. Francis Borgia, and Westminster Christian Academy were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "Pleasant Hill",
+          "enrollment": 568,
+          "class": 3,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "St. Francis Borgia",
           "enrollment": 328,
           "class": 4,
@@ -3472,13 +3472,6 @@
           "class": 4,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 3."
-        },
-        {
-          "name": "Pleasant Hill",
-          "enrollment": 568,
-          "class": 4,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Perryville",
@@ -3862,8 +3855,15 @@
           "name": "Platte County",
           "enrollment": 1052,
           "class": 4,
-          "status": "moved_down",
-          "note": "Shifted down to Class 4 as part of the enrollment rebalancing after nearby bumps."
+          "status": "normal",
+          "note": null
+        },
+        {
+          "name": "Farmington",
+          "enrollment": 1062,
+          "class": 4,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Father Tolton",
@@ -3871,13 +3871,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 3 classes from its enrollment-based Class 2."
-        },
-        {
-          "name": "Farmington",
-          "enrollment": 1062,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Ladue Horton Watkins",
@@ -4870,13 +4863,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 2,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Helias Catholic",
           "enrollment": 487,
           "class": 2,
@@ -4964,8 +4950,8 @@
           "name": "Kirksville",
           "enrollment": 555,
           "class": 2,
-          "status": "moved_down",
-          "note": "Springfield Catholic, St. Francis Borgia, St. Michael the Archangel, Summit Christian Academy, and Westminster Christian Academy were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Savannah",
@@ -4996,6 +4982,13 @@
           "note": "Springfield Catholic, St. Francis Borgia, St. Michael the Archangel, Summit Christian Academy, and Westminster Christian Academy were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "Pleasant Hill",
+          "enrollment": 568,
+          "class": 2,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "Summit Christian Academy",
           "enrollment": 311,
           "class": 3,
@@ -5022,13 +5015,6 @@
           "class": 3,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 2."
-        },
-        {
-          "name": "Pleasant Hill",
-          "enrollment": 568,
-          "class": 3,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Perryville",
@@ -5426,8 +5412,8 @@
           "name": "Ruskin",
           "enrollment": 1044,
           "class": 3,
-          "status": "moved_down",
-          "note": "De Smet Jesuit and Vianney were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Mehlville",
@@ -5442,6 +5428,13 @@
           "class": 3,
           "status": "moved_down",
           "note": "De Smet Jesuit and Vianney were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Platte County",
+          "enrollment": 1052,
+          "class": 3,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Springfield Catholic",
@@ -5463,13 +5456,6 @@
           "class": 4,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 3."
-        },
-        {
-          "name": "Platte County",
-          "enrollment": 1052,
-          "class": 4,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Farmington",
@@ -7954,13 +7940,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 3,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Normandy Collaborative",
           "enrollment": 487,
           "class": 3,
@@ -8013,8 +7992,8 @@
           "name": "Sullivan",
           "enrollment": 507,
           "class": 3,
-          "status": "moved_down",
-          "note": "Helias Catholic, Incarnate Word Academy, MICDS, and St. Michael the Archangel were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Southeast",
@@ -8045,6 +8024,13 @@
           "note": "Helias Catholic, Incarnate Word Academy, MICDS, and St. Michael the Archangel were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "Monett",
+          "enrollment": 529,
+          "class": 3,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "MICDS",
           "enrollment": 476,
           "class": 4,
@@ -8057,13 +8043,6 @@
           "class": 4,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 3."
-        },
-        {
-          "name": "Monett",
-          "enrollment": 529,
-          "class": 4,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "North County",
@@ -8503,8 +8482,8 @@
           "name": "Parkview",
           "enrollment": 1000,
           "class": 4,
-          "status": "moved_down",
-          "note": "Cor Jesu Academy and Westminster Christian Academy were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Central (Springfield)",
@@ -8533,6 +8512,13 @@
           "class": 4,
           "status": "moved_down",
           "note": "Cor Jesu Academy and Westminster Christian Academy were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Webb City",
+          "enrollment": 1043,
+          "class": 4,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "St. Pius X (Festus)",
@@ -8568,13 +8554,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 4."
-        },
-        {
-          "name": "Webb City",
-          "enrollment": 1043,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Ruskin",
@@ -11830,13 +11809,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 4,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Normandy Collaborative",
           "enrollment": 487,
           "class": 4,
@@ -11980,8 +11952,8 @@
           "name": "Logan-Rogersville",
           "enrollment": 565,
           "class": 4,
-          "status": "moved_down",
-          "note": "Cardinal Ritter, Helias Catholic, KIPP KC Legacy, MICDS, and Summit Christian Academy were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Pleasant Hill",
@@ -12019,6 +11991,13 @@
           "note": "Cardinal Ritter, Helias Catholic, KIPP KC Legacy, MICDS, and Summit Christian Academy were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "St. Charles",
+          "enrollment": 590,
+          "class": 4,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "Principia",
           "enrollment": 130,
           "class": 5,
@@ -12045,13 +12024,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 4."
-        },
-        {
-          "name": "St. Charles",
-          "enrollment": 590,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Marshall",
@@ -12435,8 +12407,8 @@
           "name": "William Chrisman",
           "enrollment": 1047,
           "class": 5,
-          "status": "moved_down",
-          "note": "Chaminade College Prep, De Smet Jesuit, and Vianney were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Platte County",
@@ -12465,6 +12437,13 @@
           "class": 5,
           "status": "moved_down",
           "note": "Chaminade College Prep, De Smet Jesuit, and Vianney were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Rolla",
+          "enrollment": 1071,
+          "class": 5,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Cardinal Ritter",
@@ -12500,13 +12479,6 @@
           "class": 6,
           "status": "bump",
           "note": "Private school classification bump: a 2-class bump from Class 5 would land on Class 7, but Class 6 is the highest classification, so it's capped at Class 6."
-        },
-        {
-          "name": "Rolla",
-          "enrollment": 1071,
-          "class": 6,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Parkway West",
@@ -15489,13 +15461,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 4,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Normandy Collaborative",
           "enrollment": 487,
           "class": 4,
@@ -15618,8 +15583,8 @@
           "name": "Excelsior Springs",
           "enrollment": 559,
           "class": 4,
-          "status": "moved_down",
-          "note": "Helias Catholic, Incarnate Word Academy, John Burroughs, Lutheran St. Charles, MICDS, and Notre Dame de Sion were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Orchard Farm",
@@ -15671,6 +15636,13 @@
           "note": "Helias Catholic, Incarnate Word Academy, John Burroughs, Lutheran St. Charles, MICDS, and Notre Dame de Sion were bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "Bolivar",
+          "enrollment": 588,
+          "class": 4,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "Principia",
           "enrollment": 130,
           "class": 5,
@@ -15711,13 +15683,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 4."
-        },
-        {
-          "name": "Bolivar",
-          "enrollment": 588,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "St. Charles",
@@ -16094,8 +16059,8 @@
           "name": "Ruskin",
           "enrollment": 1044,
           "class": 5,
-          "status": "moved_down",
-          "note": "Cor Jesu Academy and St. Teresa's Academy were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Mehlville",
@@ -16117,6 +16082,13 @@
           "class": 5,
           "status": "moved_down",
           "note": "Cor Jesu Academy and St. Teresa's Academy were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Farmington",
+          "enrollment": 1062,
+          "class": 5,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Lift for Life Academy Charter",
@@ -16145,13 +16117,6 @@
           "class": 6,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 5."
-        },
-        {
-          "name": "Farmington",
-          "enrollment": 1062,
-          "class": 6,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Ladue Horton Watkins",
@@ -18910,13 +18875,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 4,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Helias Catholic",
           "enrollment": 487,
           "class": 4,
@@ -19081,8 +19039,15 @@
           "name": "Perryville",
           "enrollment": 571,
           "class": 4,
-          "status": "moved_down",
-          "note": "Summit Christian Academy was bumped up out of Class 4, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
+        },
+        {
+          "name": "Affton",
+          "enrollment": 581,
+          "class": 4,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Summit Christian Academy",
@@ -19090,13 +19055,6 @@
           "class": 5,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 4."
-        },
-        {
-          "name": "Affton",
-          "enrollment": 581,
-          "class": 5,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Clayton",
@@ -19508,8 +19466,8 @@
           "name": "Farmington",
           "enrollment": 1062,
           "class": 5,
-          "status": "moved_down",
-          "note": "St. Dominic and Vianney were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Ladue Horton Watkins",
@@ -19517,6 +19475,13 @@
           "class": 5,
           "status": "moved_down",
           "note": "St. Dominic and Vianney were bumped up out of Class 5, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "North Point",
+          "enrollment": 1068,
+          "class": 5,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Vianney",
@@ -19531,13 +19496,6 @@
           "class": 6,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 5."
-        },
-        {
-          "name": "North Point",
-          "enrollment": 1068,
-          "class": 6,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Rolla",
@@ -20096,6 +20054,13 @@
           "note": null
         },
         {
+          "name": "Duchesne",
+          "enrollment": 158,
+          "class": 1,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "Laquey",
           "enrollment": 161,
           "class": 1,
@@ -20205,28 +20170,21 @@
           "enrollment": 261,
           "class": 1,
           "status": "moved_down",
-          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Father Tolton",
           "enrollment": 265,
           "class": 1,
           "status": "moved_down",
-          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "Hancock",
           "enrollment": 275,
           "class": 1,
           "status": "moved_down",
-          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
-        },
-        {
-          "name": "Fair Grove",
-          "enrollment": 279,
-          "class": 1,
-          "status": "moved_down",
-          "note": "Duchense, Springfield Catholic, St. Vincent and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "note": "Springfield Catholic, St. Vincent, and Whitfield were bumped up out of Class 1, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
           "name": "St. Vincent",
@@ -20234,13 +20192,6 @@
           "class": 2,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1."
-        },
-        {
-          "name": "Duchesne",
-          "enrollment": 158,
-          "class": 2,
-          "status": "bump",
-          "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1"
         },
         {
           "name": "Whitfield",
@@ -20255,6 +20206,13 @@
           "class": 2,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 1."
+        },
+        {
+          "name": "Fair Grove",
+          "enrollment": 279,
+          "class": 2,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Ewing Marion Kauffman",
@@ -20516,13 +20474,6 @@
           "note": null
         },
         {
-          "name": "Lafayette (St. Joseph)",
-          "enrollment": 478,
-          "class": 2,
-          "status": "normal",
-          "note": null
-        },
-        {
           "name": "Moberly",
           "enrollment": 492,
           "class": 2,
@@ -20603,8 +20554,8 @@
           "name": "North County",
           "enrollment": 541,
           "class": 2,
-          "status": "moved_down",
-          "note": "Helias Catholic, Notre Dame (Cape Girardeau), Notre Dame de Sion, Pembroke Hill, St. Michael the Archangel, St. Pius X (Kansas City), and Summit Christian Academy were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Mexico",
@@ -20649,6 +20600,13 @@
           "note": "Helias Catholic, Notre Dame (Cape Girardeau), Notre Dame de Sion, Pembroke Hill, St. Michael the Archangel, St. Pius X (Kansas City), and Summit Christian Academy were bumped up out of Class 2, opening a slot backfilled by the next-lowest enrollment teams, including this one."
         },
         {
+          "name": "Pleasant Hill",
+          "enrollment": 568,
+          "class": 2,
+          "status": "normal",
+          "note": null
+        },
+        {
           "name": "Summit Christian Academy",
           "enrollment": 311,
           "class": 3,
@@ -20689,13 +20647,6 @@
           "class": 3,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 2."
-        },
-        {
-          "name": "Pleasant Hill",
-          "enrollment": 568,
-          "class": 3,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Perryville",
@@ -21065,8 +21016,8 @@
           "name": "Webb City",
           "enrollment": 1043,
           "class": 3,
-          "status": "moved_down",
-          "note": "Cor Jesu Academy, Nerinx Hall, St. Dominic, and St. Teresa's Academy were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Ruskin",
@@ -21095,6 +21046,13 @@
           "class": 3,
           "status": "moved_down",
           "note": "Cor Jesu Academy, Nerinx Hall, St. Dominic, and St. Teresa's Academy were bumped up out of Class 3, opening a slot backfilled by the next-lowest enrollment teams, including this one."
+        },
+        {
+          "name": "Farmington",
+          "enrollment": 1062,
+          "class": 3,
+          "status": "normal",
+          "note": null
         },
         {
           "name": "Pembroke Hill",
@@ -21130,13 +21088,6 @@
           "class": 4,
           "status": "bump",
           "note": "Private school classification bump: moved up 1 class from its enrollment-based Class 3."
-        },
-        {
-          "name": "Farmington",
-          "enrollment": 1062,
-          "class": 4,
-          "status": "normal",
-          "note": null
         },
         {
           "name": "Ladue Horton Watkins",
