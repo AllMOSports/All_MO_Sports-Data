@@ -91,28 +91,38 @@ REQUEST_HEADERS = {
     )
 }
  
-# Confirmed real structure (verified against actual page source, 2026-06-27):
-#   <tr class="fs_tablecolumn" data-classification="6" data-district="8">
-#     <td class="large">
-#       <span class="schoolicon" title="..."><img ...></span>
-#       <a href="/MySchool/Schedule.aspx?s=907&alg=19">Liberty North</a>
-#     </td>
-#     <td>...classification (repeated, text)...</td>
-#     <td>...district (repeated, text)...</td>
-#     <td>PF</td><td>PA</td><td>PPG</td><td>OPPG</td><td>MOV</td>
-#     <td>Wins</td><td>Losses</td><td>Win%</td><td>Points</td>
-#   </tr>
-# 12 <td> cells total. classification/district are ALSO present as row
-# attributes (data-classification, data-district) -- those are read
-# directly off the <tr> rather than parsed from cell text, since the
-# attribute is cleaner (e.g. "0" for 8-Man instead of the string "8-Man").
-# We keep the human-readable classification label too, since "0" isn't
-# meaningful on its own for an 8-Man team.
+# ---------------------------------------------------------------------------
+# COLUMN SCHEMAS
+# ---------------------------------------------------------------------------
+# MSHSAA uses (at least) two different column layouts depending on the
+# sport's scoring model:
+#
+# SCHEMA A -- "points" sports (football, basketball, baseball, softball,
+# soccer): School, Class, District, PF, PA, PPG, OPPG, MOV, Wins, Losses,
+# Win% [, Points]. 11 cells normally, 12 when the trailing MSHSAA-points
+# column is present (confirmed: football=12, everything else so far=11).
+# Confirmed directly via real page source for: football, boys_basketball,
+# baseball, fall_softball, boys_soccer. Per the user, girls_basketball,
+# spring_softball, and girls_soccer are expected to match their
+# counterpart sport's structure (not independently verified, but a
+# reasonable inference -- these are paired men's/women's or spring/fall
+# versions of sports already confirmed).
+#
+# SCHEMA B -- "sets" sports (volleyball): School, Class, District, a
+# single ratio stat, Wins, Losses, Win%. 7 cells. Volleyball doesn't have
+# a points-for/against concept the way football/basketball do -- the
+# single numeric column here (e.g. "2.37" for Oak Grove) is NOT yet
+# identified with certainty. Strong candidates based on typical
+# volleyball stat-tracking conventions: sets won per match, or a
+# kill/set ratio. Whatever it is, it is NOT the same quantity as PF/PA
+# in Schema A, so it's stored under a distinct, deliberately generic
+# field name (set_ratio) rather than being mislabeled as points_for.
+# CONFIRM WITH MSHSAA'S OWN COLUMN HEADER before treating this field as
+# anything more specific than "some per-match ratio MSHSAA computes."
+ 
 ROW_SELECTOR_CLASS = "fs_tablecolumn"
  
-# td index (0-based) for each stat, AFTER the first (school name) cell.
-# Cell 0 = school name+logo, then 11 more stat cells in this order:
-CELL_INDEX = {
+SCHEMA_A_CELL_INDEX = {
     "classification_label": 1,
     "district": 2,
     "points_for": 3,
@@ -123,9 +133,34 @@ CELL_INDEX = {
     "wins": 8,
     "losses": 9,
     "win_pct": 10,
-    "mshsaa_points": 11,
+    "mshsaa_points": 11,  # only present when cell count is 12
 }
-EXPECTED_CELL_COUNT = 12
+SCHEMA_A_VALID_CELL_COUNTS = {11, 12}
+ 
+SCHEMA_B_CELL_INDEX = {
+    "classification_label": 1,
+    "district": 2,
+    "set_ratio": 3,
+    "wins": 4,
+    "losses": 5,
+    "win_pct": 6,
+}
+SCHEMA_B_VALID_CELL_COUNTS = {7}
+ 
+# Which schema each sport uses. If a sport isn't listed here, schema A is
+# assumed (the more common case) -- but see the per-sport confirmation
+# notes above before trusting an unlisted sport blindly.
+SPORT_SCHEMA = {
+    "football": "A",
+    "baseball": "A",
+    "boys_basketball": "A",
+    "girls_basketball": "A",  # inferred from boys_basketball, not independently confirmed
+    "boys_soccer": "A",
+    "girls_soccer": "A",  # inferred from boys_soccer, not independently confirmed
+    "fall_softball": "A",
+    "spring_softball": "A",  # inferred from fall_softball, not independently confirmed
+    "girls_volleyball": "B",
+}
  
  
 # ---------------------------------------------------------------------------
@@ -154,17 +189,26 @@ def parse_number(raw):
         return None
  
  
-def parse_season_records_html(html):
+def parse_season_records_html(html, sport_key):
     """
     Parse the MSHSAA season records table into a list of team dicts.
  
     Selector confirmed against real page source: rows are
-    <tr class="fs_tablecolumn" data-classification="N" data-district="N">,
-    each containing exactly 12 <td> cells. See CELL_INDEX above for the
-    column mapping. The school name lives in the first cell alongside a
-    logo <img> inside a nested <span> -- get_text() on that cell ignores
-    the image and returns just the team name correctly.
+    <tr class="fs_tablecolumn" data-classification="N" data-district="N">.
+ 
+    Dispatches to one of two schemas based on SPORT_SCHEMA[sport_key]:
+      Schema A (points sports -- football, basketball, baseball,
+      softball, soccer): 11 or 12 cells, PF/PA/PPG/OPPG/MOV present.
+      Schema B (volleyball): 7 cells, a single set_ratio stat instead
+      of points-for/against (volleyball doesn't track points the same
+      way). See the SCHEMA_A_*/SCHEMA_B_* constants above for details.
+ 
+    The school name lives in the first cell alongside a logo <img>
+    inside a nested <span> -- get_text() on that cell ignores the image
+    and returns just the team name correctly, for both schemas.
     """
+    schema = SPORT_SCHEMA.get(sport_key, "A")
+ 
     soup = BeautifulSoup(html, "html.parser")
  
     rows = soup.find_all("tr", class_=ROW_SELECTOR_CLASS)
@@ -180,51 +224,106 @@ def parse_season_records_html(html):
  
     for row in rows:
         cells = row.find_all("td")
-        if len(cells) != EXPECTED_CELL_COUNT:
-            # Skip malformed/unexpected rows rather than guessing at a
-            # shifted column mapping -- better to silently drop one row
-            # than silently corrupt many.
-            continue
  
-        school_name = cells[0].get_text(strip=True)
-        if not school_name:
-            continue
+        if schema == "B":
+            team = _parse_schema_b_row(row, cells)
+        else:
+            team = _parse_schema_a_row(row, cells)
  
+        if team is not None:
+            teams.append(team)
+ 
+    return teams
+ 
+ 
+def _common_fields(row, cells, cell_index):
+    """Fields shared by both schemas: school name/id, classification, district."""
+    school_name = cells[0].get_text(strip=True)
+    if not school_name:
+        return None
+ 
+    raw_classification_attr = row.get("data-classification")
+    raw_district_attr = row.get("data-district")
+    classification_label = cells[cell_index["classification_label"]].get_text(strip=True)
+ 
+    return {
+        "school": school_name,
+        "mshsaa_school_id": _extract_school_id(cells[0]),
+        "classification_code": parse_number(raw_classification_attr),
+        "classification_label": classification_label or None,
         # Row-level data attributes are the canonical classification/
         # district (numeric, including "0" for 8-Man) -- prefer these
         # over the text cell, which renders 8-Man as the literal string
         # "8-Man" instead of a number.
-        raw_classification_attr = row.get("data-classification")
-        raw_district_attr = row.get("data-district")
+        "district": parse_number(raw_district_attr) or parse_number(
+            cells[cell_index["district"]].get_text(strip=True)
+        ),
+    }
  
-        classification_label = cells[CELL_INDEX["classification_label"]].get_text(strip=True)
  
-        team = {
-            "school": school_name,
-            "mshsaa_school_id": _extract_school_id(cells[0]),
-            "classification_code": parse_number(raw_classification_attr),
-            "classification_label": classification_label or None,
-            "district": parse_number(raw_district_attr) or parse_number(
-                cells[CELL_INDEX["district"]].get_text(strip=True)
-            ),
-            "points_for": parse_number(cells[CELL_INDEX["points_for"]].get_text(strip=True)),
-            "points_against": parse_number(cells[CELL_INDEX["points_against"]].get_text(strip=True)),
-            "ppg": parse_number(cells[CELL_INDEX["ppg"]].get_text(strip=True)),
-            "oppg": parse_number(cells[CELL_INDEX["oppg"]].get_text(strip=True)),
-            "mov": parse_number(cells[CELL_INDEX["mov"]].get_text(strip=True)),
-            "wins": parse_number(cells[CELL_INDEX["wins"]].get_text(strip=True)),
-            "losses": parse_number(cells[CELL_INDEX["losses"]].get_text(strip=True)),
-            "win_pct": parse_number(cells[CELL_INDEX["win_pct"]].get_text(strip=True)),
-            "mshsaa_points": parse_number(cells[CELL_INDEX["mshsaa_points"]].get_text(strip=True)),
-            "games_played": None,  # computed below
-        }
+def _parse_schema_a_row(row, cells):
+    """Points sports: football, basketball, baseball, softball, soccer."""
+    if len(cells) not in SCHEMA_A_VALID_CELL_COUNTS:
+        # Skip malformed/unexpected rows rather than guessing at a
+        # shifted column mapping -- better to silently drop one row
+        # than silently corrupt many.
+        return None
  
-        if team["wins"] is not None and team["losses"] is not None:
-            team["games_played"] = team["wins"] + team["losses"]
+    base = _common_fields(row, cells, SCHEMA_A_CELL_INDEX)
+    if base is None:
+        return None
  
-        teams.append(team)
+    ci = SCHEMA_A_CELL_INDEX
+    has_points_column = len(cells) >= 12
  
-    return teams
+    team = {
+        **base,
+        "points_for": parse_number(cells[ci["points_for"]].get_text(strip=True)),
+        "points_against": parse_number(cells[ci["points_against"]].get_text(strip=True)),
+        "ppg": parse_number(cells[ci["ppg"]].get_text(strip=True)),
+        "oppg": parse_number(cells[ci["oppg"]].get_text(strip=True)),
+        "mov": parse_number(cells[ci["mov"]].get_text(strip=True)),
+        "wins": parse_number(cells[ci["wins"]].get_text(strip=True)),
+        "losses": parse_number(cells[ci["losses"]].get_text(strip=True)),
+        "win_pct": parse_number(cells[ci["win_pct"]].get_text(strip=True)),
+        "mshsaa_points": (
+            parse_number(cells[ci["mshsaa_points"]].get_text(strip=True))
+            if has_points_column else None
+        ),
+        "games_played": None,
+    }
+    if team["wins"] is not None and team["losses"] is not None:
+        team["games_played"] = team["wins"] + team["losses"]
+    return team
+ 
+ 
+def _parse_schema_b_row(row, cells):
+    """
+    Volleyball: no points-for/against. A single ratio stat instead --
+    stored as set_ratio since its exact definition (sets-per-match? a
+    kill ratio?) isn't confirmed. Do not assume this is equivalent to
+    points_for/ppg from schema A.
+    """
+    if len(cells) not in SCHEMA_B_VALID_CELL_COUNTS:
+        return None
+ 
+    base = _common_fields(row, cells, SCHEMA_B_CELL_INDEX)
+    if base is None:
+        return None
+ 
+    ci = SCHEMA_B_CELL_INDEX
+ 
+    team = {
+        **base,
+        "set_ratio": parse_number(cells[ci["set_ratio"]].get_text(strip=True)),
+        "wins": parse_number(cells[ci["wins"]].get_text(strip=True)),
+        "losses": parse_number(cells[ci["losses"]].get_text(strip=True)),
+        "win_pct": parse_number(cells[ci["win_pct"]].get_text(strip=True)),
+        "games_played": None,
+    }
+    if team["wins"] is not None and team["losses"] is not None:
+        team["games_played"] = team["wins"] + team["losses"]
+    return team
  
  
 def _extract_school_id(name_cell):
@@ -253,7 +352,7 @@ def scrape_sport(sport_key, sport_alg):
     print(f"Fetching {sport_key} (alg={sport_alg})...")
     html = fetch_page(sport_alg)
  
-    teams = parse_season_records_html(html)
+    teams = parse_season_records_html(html, sport_key)
     print(f"  Parsed {len(teams)} teams")
  
     if len(teams) == 0:
@@ -311,40 +410,58 @@ if __name__ == "__main__":
  
  
 # ---------------------------------------------------------------------------
-# FIRST RUN CHECKLIST (read before enabling the nightly workflow)
+# STATUS LOG (kept here instead of a separate changelog, since this
+# script lives and is edited in one place)
 # ---------------------------------------------------------------------------
 #
-# Row/cell selectors below were verified against real page source on
-# 2026-06-27 (a pasted HTML fragment from View Page Source around the
-# Liberty North row). That fragment confirmed: rows are
-# <tr class="fs_tablecolumn" data-classification="N" data-district="N">,
-# each with exactly 12 <td> cells, school name+logo in the first cell.
-# This is NOT the same as a live end-to-end run -- the script has never
-# successfully fetched the live page itself (network-restricted build
-# environment), only parsed a hand-pasted fragment of real markup. The
-# fetch (requests.get) and the auth/headers/blocking behavior of the
-# live site are still unverified.
+# 2026-06-27, run 1: First real GitHub Actions run, all 9 sports.
+#   - football: 347/347 teams parsed correctly (verified: Liberty North
+#     7-5, 359 PF, 302 PA -- exact match to manual spot-check).
+#   - All 8 other sports: 0 teams.
+#   Root cause: those tables have 11 <td> cells (no trailing "Points"
+#   column), parser hard-required exactly 12 and silently dropped every
+#   row. Fixed by accepting both 11 and 12 cells (SCHEMA_A_VALID_CELL_COUNTS),
+#   with mshsaa_points populated only when present. Verified against a
+#   real boys_basketball fragment (Bunker, Rockhurst) -- correct.
 #
-# 1. Run this script manually once: `python3 scrape_mshsaa_season_records.py`
-# 2. Open output/mshsaa_records/football.json and check:
-#    - Is the team count roughly what you'd expect (~300+ for football)?
-#    - Spot check Liberty North: wins=7, losses=5, points_for=359,
-#      points_against=302, ppg=29.92, oppg=25.17, mshsaa_school_id=907
-#      (confirmed against real page source as of 2026-06-27 -- NOTE this
-#      does not exactly match an earlier JS-rendered fetch of the same
-#      page, which showed 362/299/30.17/24.92; if your own run shows yet
-#      a third set of numbers, that's likely just the season continuing
-#      to update rather than a parsing bug -- cross-check wins/losses
-#      first since those are least likely to be a parsing artifact).
-# 3. If team count is 0:
-#    - Most likely cause: requests.get() is being blocked or served a
-#      different page than a real browser gets (some ASP.NET sites gate
-#      on cookies, a session token, or bot-detection headers). Try
-#      printing len(html) and searching it for "fs_tablecolumn" -- if
-#      that string isn't present in what requests.get() returned at all,
-#      the issue is in the fetch, not the parser, and likely needs
-#      Playwright (like your existing ratings scraper uses) instead of
-#      plain requests.
-# 4. Once verified working, find the alg= values for your other 8 sports
-#    and fill in SPORT_ALG_MAP before relying on this for anything but
-#    football.
+# 2026-06-27, run 2: Real HTML fragments provided for baseball,
+#   fall_softball, boys_soccer, and girls_volleyball.
+#   - baseball, fall_softball, boys_soccer: confirmed 11-cell, same
+#     schema as boys_basketball (Schema A). No changes needed beyond
+#     the run-1 fix -- these should now parse correctly.
+#   - girls_volleyball: confirmed DIFFERENT structure entirely -- only
+#     7 cells (School, Class, District, a single ratio stat, Wins,
+#     Losses, Win%). No points-for/against concept at all. This is now
+#     handled as a separate "Schema B" with its own field
+#     (set_ratio) rather than being forced into football's field names.
+#   Per the user, girls_basketball/spring_softball/girls_soccer are
+#   expected (not independently verified) to mirror their already-
+#   confirmed counterpart (boys_basketball/fall_softball/boys_soccer).
+#
+#   REMAINING UNCERTAINTY: set_ratio's exact definition (sets-won ratio?
+#   kill ratio? something else?) is not confirmed -- it's stored under a
+#   deliberately generic name rather than guessed at. If MSHSAA's column
+#   header for that cell is visible anywhere on the live page (e.g. as
+#   a <th> title or tooltip), capturing that would resolve this.
+#
+# ---------------------------------------------------------------------------
+# CHECKLIST (read before enabling the nightly workflow)
+# ---------------------------------------------------------------------------
+#
+# 1. Run this script: `python3 scrape_mshsaa_season_records.py`
+# 2. For EACH sport's output file, check team count is non-zero and
+#    plausible, and spot-check one team you can verify by eye.
+# 3. Football reference (confirmed 2026-06-27): Liberty North
+#    wins=7, losses=5, points_for=359, points_against=302,
+#    mshsaa_school_id=907.
+# 4. If a sport still returns 0 teams:
+#    - First check: is requests.get() even reaching the real page?
+#      Print len(html) and search it for "fs_tablecolumn" -- if that
+#      string isn't present at all, the issue is the fetch (possible
+#      bot-detection/blocking), not the parser, and likely needs
+#      Playwright instead of plain requests.
+#    - If "fs_tablecolumn" IS present but team count is still 0: that
+#      sport likely has a third, not-yet-seen cell count/schema. Get a
+#      real HTML fragment from that sport's page specifically (View
+#      Page Source, find a row, copy ~30-40 lines) rather than assuming
+#      it matches an already-confirmed sport.
