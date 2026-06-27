@@ -117,8 +117,12 @@ REQUEST_HEADERS = {
 # kill/set ratio. Whatever it is, it is NOT the same quantity as PF/PA
 # in Schema A, so it's stored under a distinct, deliberately generic
 # field name (set_ratio) rather than being mislabeled as points_for.
-# CONFIRM WITH MSHSAA'S OWN COLUMN HEADER before treating this field as
-# anything more specific than "some per-match ratio MSHSAA computes."
+# CONFIRMED by user (2026-06-27): this single ratio IS Margin of Victory
+# -- specifically, sets-won-per-match minus sets-lost-per-match. Same
+# underlying concept as Schema A's "mov" (PPG - OPPG), just computed
+# from sets instead of points. Field renamed from the original
+# placeholder "set_ratio" to "mov" to match Schema A's naming and make
+# clear these are the same stat under different units.
  
 ROW_SELECTOR_CLASS = "fs_tablecolumn"
  
@@ -140,7 +144,7 @@ SCHEMA_A_VALID_CELL_COUNTS = {11, 12}
 SCHEMA_B_CELL_INDEX = {
     "classification_label": 1,
     "district": 2,
-    "set_ratio": 3,
+    "mov": 3,
     "wins": 4,
     "losses": 5,
     "win_pct": 6,
@@ -199,7 +203,8 @@ def parse_season_records_html(html, sport_key):
     Dispatches to one of two schemas based on SPORT_SCHEMA[sport_key]:
       Schema A (points sports -- football, basketball, baseball,
       softball, soccer): 11 or 12 cells, PF/PA/PPG/OPPG/MOV present.
-      Schema B (volleyball): 7 cells, a single set_ratio stat instead
+      Schema B (volleyball): 7 cells, "mov" here is sets-won-per-match
+      minus sets-lost-per-match (confirmed by the user 2026-06-27) --
       of points-for/against (volleyball doesn't track points the same
       way). See the SCHEMA_A_*/SCHEMA_B_* constants above for details.
  
@@ -299,10 +304,9 @@ def _parse_schema_a_row(row, cells):
  
 def _parse_schema_b_row(row, cells):
     """
-    Volleyball: no points-for/against. A single ratio stat instead --
-    stored as set_ratio since its exact definition (sets-per-match? a
-    kill ratio?) isn't confirmed. Do not assume this is equivalent to
-    points_for/ppg from schema A.
+    Volleyball: no points-for/against. "mov" here is sets-won-per-match
+    minus sets-lost-per-match (confirmed 2026-06-27) -- same concept as
+    schema A's mov, just computed from sets instead of points.
     """
     if len(cells) not in SCHEMA_B_VALID_CELL_COUNTS:
         return None
@@ -315,7 +319,7 @@ def _parse_schema_b_row(row, cells):
  
     team = {
         **base,
-        "set_ratio": parse_number(cells[ci["set_ratio"]].get_text(strip=True)),
+        "mov": parse_number(cells[ci["mov"]].get_text(strip=True)),
         "wins": parse_number(cells[ci["wins"]].get_text(strip=True)),
         "losses": parse_number(cells[ci["losses"]].get_text(strip=True)),
         "win_pct": parse_number(cells[ci["win_pct"]].get_text(strip=True)),
@@ -433,16 +437,10 @@ if __name__ == "__main__":
 #     7 cells (School, Class, District, a single ratio stat, Wins,
 #     Losses, Win%). No points-for/against concept at all. This is now
 #     handled as a separate "Schema B" with its own field
-#     (set_ratio) rather than being forced into football's field names.
-#   Per the user, girls_basketball/spring_softball/girls_soccer are
-#   expected (not independently verified) to mirror their already-
-#   confirmed counterpart (boys_basketball/fall_softball/boys_soccer).
-#
-#   REMAINING UNCERTAINTY: set_ratio's exact definition (sets-won ratio?
-#   kill ratio? something else?) is not confirmed -- it's stored under a
-#   deliberately generic name rather than guessed at. If MSHSAA's column
-#   header for that cell is visible anywhere on the live page (e.g. as
-#   a <th> title or tooltip), capturing that would resolve this.
+#   Field originally named set_ratio pending confirmation of what it
+#   represented; confirmed 2026-06-27 by the user to be Margin of
+#   Victory (sets-won-per-match minus sets-lost-per-match) and renamed
+#   to "mov" to match Schema A's naming for the equivalent stat.
 #
 # ---------------------------------------------------------------------------
 # CHECKLIST (read before enabling the nightly workflow)
