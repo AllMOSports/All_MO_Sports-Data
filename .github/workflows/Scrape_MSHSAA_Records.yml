@@ -6,7 +6,7 @@ name: Scrape MSHSAA Season Records
 # per-team scrape -- so a nightly cadence carries negligible cost and
 # correctly captures out-of-state games that the schedule CSV omits.
 #
-# See scrape_mshsaa_season_records.py for the FIRST RUN CHECKLIST --
+# See Scrape_MSHSAA_Season_Records.py for the FIRST RUN CHECKLIST --
 # run this manually via workflow_dispatch and verify the output before
 # relying on the schedule trigger below.
  
@@ -39,7 +39,7 @@ jobs:
         run: pip install requests beautifulsoup4
  
       - name: Run MSHSAA season records scraper
-        run: python3 scrape_mshsaa_season_records.py
+        run: python3 Scrape_MSHSAA_Season_Records.py
  
       - name: Commit updated records if changed
         run: |
