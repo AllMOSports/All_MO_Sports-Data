@@ -1,0 +1,54 @@
+name: Scrape MSHSAA Season Records
+ 
+# Runs nightly during football season to pull official season-to-date
+# records (W-L, points for/against) directly from MSHSAA's own season
+# records page. This is a single, lightweight page fetch -- not a
+# per-team scrape -- so a nightly cadence carries negligible cost and
+# correctly captures out-of-state games that the schedule CSV omits.
+#
+# See scrape_mshsaa_season_records.py for the FIRST RUN CHECKLIST --
+# run this manually via workflow_dispatch and verify the output before
+# relying on the schedule trigger below.
+ 
+on:
+  schedule:
+    # 11:47 PM UTC = 5:47 PM Central (CST) / 6:47 PM Central (CDT).
+    # Off-peak, odd minute -- consistent with your existing convention
+    # of avoiding GitHub's on-the-hour scheduler congestion.
+    - cron: "47 23 * * *"
+  workflow_dispatch: {}
+    # Manual trigger -- use this for the first run and for any future
+    # spot-check, rather than waiting for the nightly schedule.
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+ 
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+ 
+      - name: Run MSHSAA season records scraper
+        run: python3 scrape_mshsaa_season_records.py
+ 
+      - name: Commit updated records if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/mshsaa_records/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update MSHSAA season records [automated]"
+            git push
+          fi
