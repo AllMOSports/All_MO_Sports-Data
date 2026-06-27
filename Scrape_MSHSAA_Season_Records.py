@@ -56,17 +56,28 @@ from bs4 import BeautifulSoup
  
 BASE_URL = "https://www.mshsaa.org/Activities/SeasonRecords.aspx"
  
-# Confirmed: football = 19. Other sports TBD -- fill these in once you
-# find the correct alg value for each (see docstring above).
+# All 9 sports confirmed (alg values provided directly, not independently
+# verified by inspecting each sport's page). IMPORTANT: the column
+# structure (12 cells, same order: PF/PA/PPG/OPPG/MOV/Wins/Losses/Win%/
+# Points) was only verified against football's page. Other sports may
+# use a different column layout/count on MSHSAA's site (e.g. a sport
+# without a meaningful "MOV" concept, or extra columns). Run each sport
+# once manually and check games_played/wins/losses look sane before
+# trusting the output -- the parser will silently skip any row that
+# doesn't have exactly 12 <td> cells (see EXPECTED_CELL_COUNT), which
+# protects against corrupted data but will also just produce a smaller
+# (or empty) teams list if a sport's table shape differs, without
+# raising an obvious error beyond "fewer teams than expected."
 SPORT_ALG_MAP = {
     "football": 19,
-    # "boys_basketball": None,
-    # "girls_basketball": None,
-    # "boys_soccer": None,
-    # "girls_soccer": None,
-    # "baseball": None,
-    # "softball": None,
-    # "girls_volleyball": None,
+    "baseball": 3,
+    "boys_basketball": 5,
+    "girls_basketball": 6,
+    "boys_soccer": 33,
+    "girls_soccer": 34,
+    "girls_volleyball": 57,
+    "fall_softball": 38,
+    "spring_softball": 68,
 }
  
 OUTPUT_DIR = "output/mshsaa_records"
