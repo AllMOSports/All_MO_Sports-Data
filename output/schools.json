@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T18:05:22+00:00",
+  "generated": "2026-06-27T18:13:16+00:00",
   "ranges": {
     "baseball": {
       "def_rating": {
@@ -184,19 +184,11 @@
         },
         "girls_volleyball": {
           "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -3.07,
-          "sos_rating": null
-        }
-      }
-    },
-    "academie-lafayette-with-delasalle-charter-(kc)": {
-      "mshsaa_name": "Academie Lafayette with DeLaSalle Charter (KC)",
-      "name": "Academie Lafayette with DeLaSalle Charter (KC)",
-      "sports": {
-        "girls_volleyball": {
           "games_played": 26,
           "losses": 21,
+          "off_rating": null,
+          "ovr_rating": -3.07,
+          "sos_rating": null,
           "win_pct": 19.23,
           "wins": 5
         }
@@ -624,19 +616,11 @@
         },
         "girls_volleyball": {
           "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -1.13,
-          "sos_rating": null
-        }
-      }
-    },
-    "appleton-city-with-montrose": {
-      "mshsaa_name": "Appleton City with Montrose",
-      "name": "Appleton City with Montrose",
-      "sports": {
-        "girls_volleyball": {
           "games_played": 34,
           "losses": 16,
+          "off_rating": null,
+          "ovr_rating": -1.13,
+          "sos_rating": null,
           "win_pct": 52.94,
           "wins": 18
         }
@@ -1296,6 +1280,19 @@
       "mshsaa_name": "Battle",
       "name": "Battle",
       "sports": {
+        "baseball": {
+          "def_rating": 2.76,
+          "games_played": 30,
+          "losses": 19,
+          "off_rating": 3.26,
+          "ovr_rating": 6.03,
+          "papg": 6.43,
+          "pdpg": -0.63,
+          "ppg": 5.8,
+          "sos_rating": null,
+          "win_pct": 36.67,
+          "wins": 11
+        },
         "boys_basketball": {
           "def_rating": 12.74,
           "games_played": 29,
@@ -1311,15 +1308,29 @@
         },
         "boys_soccer": {
           "def_rating": 0.6277,
+          "games_played": 23,
+          "losses": 7,
           "off_rating": 1.766,
           "ovr_rating": 2.39,
-          "sos_rating": null
+          "papg": 1.96,
+          "pdpg": 1.95,
+          "ppg": 3.91,
+          "sos_rating": null,
+          "win_pct": 69.57,
+          "wins": 16
         },
         "fall_softball": {
           "def_rating": 1.1018,
+          "games_played": 36,
+          "losses": 30,
           "off_rating": -0.369,
           "ovr_rating": 0.73,
-          "sos_rating": null
+          "papg": 7.75,
+          "pdpg": -4.75,
+          "ppg": 3,
+          "sos_rating": null,
+          "win_pct": 16.67,
+          "wins": 6
         },
         "football": {
           "def_rating": -6.32,
@@ -1372,45 +1383,8 @@
         }
       }
     },
-    "battle-with-columbia-independent": {
-      "mshsaa_name": "Battle with Columbia Independent",
-      "name": "Battle with Columbia Independent",
-      "sports": {
-        "baseball": {
-          "def_rating": 2.76,
-          "games_played": 30,
-          "losses": 19,
-          "off_rating": 3.26,
-          "ovr_rating": 6.03,
-          "papg": 6.43,
-          "pdpg": -0.63,
-          "ppg": 5.8,
-          "sos_rating": null,
-          "win_pct": 36.67,
-          "wins": 11
-        },
-        "boys_soccer": {
-          "games_played": 23,
-          "losses": 7,
-          "papg": 1.96,
-          "pdpg": 1.95,
-          "ppg": 3.91,
-          "win_pct": 69.57,
-          "wins": 16
-        },
-        "fall_softball": {
-          "games_played": 36,
-          "losses": 30,
-          "papg": 7.75,
-          "pdpg": -4.75,
-          "ppg": 3,
-          "win_pct": 16.67,
-          "wins": 6
-        }
-      }
-    },
     "bayless": {
-      "mshsaa_name": "Bayless",
+      "mshsaa_name": "Bayless with Hancock",
       "name": "Bayless",
       "sports": {
         "baseball": {
@@ -1454,9 +1428,29 @@
         },
         "fall_softball": {
           "def_rating": -7.9522,
+          "games_played": 18,
+          "losses": 11,
           "off_rating": -5.1215,
           "ovr_rating": -13.07,
-          "sos_rating": null
+          "papg": 9.33,
+          "pdpg": 0.78,
+          "ppg": 10.11,
+          "sos_rating": null,
+          "win_pct": 38.89,
+          "wins": 7
+        },
+        "football": {
+          "def_rating": -31.52,
+          "games_played": 10,
+          "losses": 9,
+          "off_rating": -31.64,
+          "ovr_rating": -63.16,
+          "papg": 36.5,
+          "pdpg": -20.8,
+          "ppg": 15.7,
+          "sos_rating": null,
+          "win_pct": 10.0,
+          "wins": 1
         },
         "girls_basketball": {
           "def_rating": -9.22,
@@ -1493,40 +1487,6 @@
           "sos_rating": null,
           "win_pct": 34.78,
           "wins": 8
-        }
-      }
-    },
-    "bayless-with-bishop-dubourg": {
-      "mshsaa_name": "Bayless with Bishop DuBourg",
-      "name": "Bayless with Bishop DuBourg",
-      "sports": {
-        "fall_softball": {
-          "games_played": 18,
-          "losses": 11,
-          "papg": 9.33,
-          "pdpg": 0.78,
-          "ppg": 10.11,
-          "win_pct": 38.89,
-          "wins": 7
-        }
-      }
-    },
-    "bayless-with-hancock": {
-      "mshsaa_name": "Bayless with Hancock",
-      "name": "Bayless with Hancock",
-      "sports": {
-        "football": {
-          "def_rating": -31.52,
-          "games_played": 10,
-          "losses": 9,
-          "off_rating": -31.64,
-          "ovr_rating": -63.16,
-          "papg": 36.5,
-          "pdpg": -20.8,
-          "ppg": 15.7,
-          "sos_rating": null,
-          "win_pct": 10.0,
-          "wins": 1
         }
       }
     },
@@ -2037,9 +1997,16 @@
         },
         "girls_basketball": {
           "def_rating": -15.95,
+          "games_played": 26,
+          "losses": 18,
           "off_rating": -7.3,
           "ovr_rating": -23.25,
-          "sos_rating": null
+          "papg": 54.62,
+          "pdpg": -9.93,
+          "ppg": 44.69,
+          "sos_rating": null,
+          "win_pct": 30.77,
+          "wins": 8
         },
         "girls_volleyball": {
           "def_rating": null,
@@ -2050,21 +2017,6 @@
           "sos_rating": null,
           "win_pct": 62.5,
           "wins": 25
-        }
-      }
-    },
-    "billings-with-hurley": {
-      "mshsaa_name": "Billings with Hurley",
-      "name": "Billings with Hurley",
-      "sports": {
-        "girls_basketball": {
-          "games_played": 26,
-          "losses": 18,
-          "papg": 54.62,
-          "pdpg": -9.93,
-          "ppg": 44.69,
-          "win_pct": 30.77,
-          "wins": 8
         },
         "spring_softball": {
           "def_rating": -1.54,
@@ -2082,7 +2034,7 @@
       }
     },
     "bishop-dubourg": {
-      "mshsaa_name": "Bishop DuBourg",
+      "mshsaa_name": "Bishop DuBourg with Hancock",
       "name": "Bishop DuBourg",
       "sports": {
         "baseball": {
@@ -2124,6 +2076,12 @@
           "win_pct": 32.0,
           "wins": 8
         },
+        "football": {
+          "def_rating": -99.47,
+          "off_rating": -83.55,
+          "ovr_rating": -183.02,
+          "sos_rating": null
+        },
         "girls_basketball": {
           "def_rating": -11.95,
           "games_played": 22,
@@ -2159,18 +2117,6 @@
           "sos_rating": null,
           "win_pct": 36.0,
           "wins": 9
-        }
-      }
-    },
-    "bishop-dubourg-with-hancock": {
-      "mshsaa_name": "Bishop DuBourg with Hancock",
-      "name": "Bishop DuBourg with Hancock",
-      "sports": {
-        "football": {
-          "def_rating": -99.47,
-          "off_rating": -83.55,
-          "ovr_rating": -183.02,
-          "sos_rating": null
         }
       }
     },
@@ -2471,9 +2417,16 @@
         },
         "girls_basketball": {
           "def_rating": -0.36,
+          "games_played": 25,
+          "losses": 11,
           "off_rating": -4.53,
           "ovr_rating": -4.89,
-          "sos_rating": null
+          "papg": 39.52,
+          "pdpg": 7.8,
+          "ppg": 47.32,
+          "sos_rating": null,
+          "win_pct": 56.0,
+          "wins": 14
         },
         "girls_volleyball": {
           "def_rating": null,
@@ -2497,21 +2450,6 @@
           "sos_rating": null,
           "win_pct": 44.44,
           "wins": 8
-        }
-      }
-    },
-    "bloomfield-with-richland-(essex)": {
-      "mshsaa_name": "Bloomfield with Richland (Essex)",
-      "name": "Bloomfield with Richland (Essex)",
-      "sports": {
-        "girls_basketball": {
-          "games_played": 25,
-          "losses": 11,
-          "papg": 39.52,
-          "pdpg": 7.8,
-          "ppg": 47.32,
-          "win_pct": 56.0,
-          "wins": 14
         }
       }
     },
@@ -3297,9 +3235,22 @@
       }
     },
     "brashear": {
-      "mshsaa_name": "Brashear",
+      "mshsaa_name": "Brashear with Novinger",
       "name": "Brashear",
       "sports": {
+        "baseball": {
+          "def_rating": -3.14,
+          "games_played": 16,
+          "losses": 6,
+          "off_rating": -3.91,
+          "ovr_rating": -7.04,
+          "papg": 5.5,
+          "pdpg": 0.75,
+          "ppg": 6.25,
+          "sos_rating": null,
+          "win_pct": 62.5,
+          "wins": 10
+        },
         "boys_basketball": {
           "def_rating": -10.09,
           "games_played": 26,
@@ -3341,29 +3292,23 @@
         }
       }
     },
-    "brashear-with-novinger": {
-      "mshsaa_name": "Brashear with Novinger",
-      "name": "Brashear with Novinger",
-      "sports": {
-        "baseball": {
-          "def_rating": -3.14,
-          "games_played": 16,
-          "losses": 6,
-          "off_rating": -3.91,
-          "ovr_rating": -7.04,
-          "papg": 5.5,
-          "pdpg": 0.75,
-          "ppg": 6.25,
-          "sos_rating": null,
-          "win_pct": 62.5,
-          "wins": 10
-        }
-      }
-    },
     "braymer": {
       "mshsaa_name": "Braymer",
       "name": "Braymer",
       "sports": {
+        "baseball": {
+          "def_rating": -3.93,
+          "games_played": 19,
+          "losses": 14,
+          "off_rating": -7.19,
+          "ovr_rating": -11.13,
+          "papg": 7.53,
+          "pdpg": -5.42,
+          "ppg": 2.11,
+          "sos_rating": null,
+          "win_pct": 26.32,
+          "wins": 5
+        },
         "boys_basketball": {
           "def_rating": -1.66,
           "games_played": 30,
@@ -3379,9 +3324,16 @@
         },
         "fall_softball": {
           "def_rating": -9.9279,
+          "games_played": 17,
+          "losses": 14,
           "off_rating": -7.3181,
           "ovr_rating": -17.25,
-          "sos_rating": null
+          "papg": 12.41,
+          "pdpg": -8.06,
+          "ppg": 4.35,
+          "sos_rating": null,
+          "win_pct": 17.65,
+          "wins": 3
         },
         "football": {
           "games_played": 10,
@@ -3404,34 +3356,6 @@
           "sos_rating": null,
           "win_pct": 15.38,
           "wins": 4
-        }
-      }
-    },
-    "braymer-with-breckenridge": {
-      "mshsaa_name": "Braymer with Breckenridge",
-      "name": "Braymer with Breckenridge",
-      "sports": {
-        "baseball": {
-          "def_rating": -3.93,
-          "games_played": 19,
-          "losses": 14,
-          "off_rating": -7.19,
-          "ovr_rating": -11.13,
-          "papg": 7.53,
-          "pdpg": -5.42,
-          "ppg": 2.11,
-          "sos_rating": null,
-          "win_pct": 26.32,
-          "wins": 5
-        },
-        "fall_softball": {
-          "games_played": 17,
-          "losses": 14,
-          "papg": 12.41,
-          "pdpg": -8.06,
-          "ppg": 4.35,
-          "win_pct": 17.65,
-          "wins": 3
         }
       }
     },
@@ -3683,26 +3607,8 @@
       }
     },
     "bucklin": {
-      "mshsaa_name": "Bucklin",
-      "name": "Bucklin",
-      "sports": {
-        "boys_basketball": {
-          "def_rating": -16.11,
-          "off_rating": -17.7,
-          "ovr_rating": -33.81,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": -5.62,
-          "off_rating": -8.14,
-          "ovr_rating": -13.76,
-          "sos_rating": null
-        }
-      }
-    },
-    "bucklin-with-macon-county": {
       "mshsaa_name": "Bucklin with Macon County",
-      "name": "Bucklin with Macon County",
+      "name": "Bucklin",
       "sports": {
         "baseball": {
           "def_rating": -10.19,
@@ -3718,20 +3624,28 @@
           "wins": 1
         },
         "boys_basketball": {
+          "def_rating": -16.11,
           "games_played": 26,
           "losses": 16,
+          "off_rating": -17.7,
+          "ovr_rating": -33.81,
           "papg": 54.58,
           "pdpg": -5.0,
           "ppg": 49.58,
+          "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
         },
         "girls_basketball": {
+          "def_rating": -5.62,
           "games_played": 28,
           "losses": 12,
+          "off_rating": -8.14,
+          "ovr_rating": -13.76,
           "papg": 39.5,
           "pdpg": 6.43,
           "ppg": 45.93,
+          "sos_rating": null,
           "win_pct": 57.14,
           "wins": 16
         }
@@ -3861,9 +3775,22 @@
       }
     },
     "bunker": {
-      "mshsaa_name": "Bunker",
+      "mshsaa_name": "Bunker with Lesterville",
       "name": "Bunker",
       "sports": {
+        "baseball": {
+          "def_rating": -12.5,
+          "games_played": 13,
+          "losses": 11,
+          "off_rating": -8.65,
+          "ovr_rating": -21.15,
+          "papg": 13.54,
+          "pdpg": -8.69,
+          "ppg": 4.85,
+          "sos_rating": null,
+          "win_pct": 15.38,
+          "wins": 2
+        },
         "boys_basketball": {
           "def_rating": 11.5,
           "games_played": 32,
@@ -3899,25 +3826,6 @@
           "sos_rating": null,
           "win_pct": 30.56,
           "wins": 11
-        }
-      }
-    },
-    "bunker-with-lesterville": {
-      "mshsaa_name": "Bunker with Lesterville",
-      "name": "Bunker with Lesterville",
-      "sports": {
-        "baseball": {
-          "def_rating": -12.5,
-          "games_played": 13,
-          "losses": 11,
-          "off_rating": -8.65,
-          "ovr_rating": -21.15,
-          "papg": 13.54,
-          "pdpg": -8.69,
-          "ppg": 4.85,
-          "sos_rating": null,
-          "win_pct": 15.38,
-          "wins": 2
         }
       }
     },
@@ -4084,57 +3992,45 @@
       }
     },
     "cainsville": {
-      "mshsaa_name": "Cainsville",
+      "mshsaa_name": "Cainsville with Ridgeway",
       "name": "Cainsville",
       "sports": {
         "boys_basketball": {
           "def_rating": -24.01,
-          "off_rating": -33.99,
-          "ovr_rating": -58.01,
-          "sos_rating": null
-        },
-        "fall_softball": {
-          "def_rating": -3.1785,
-          "off_rating": -3.4124,
-          "ovr_rating": -6.59,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": -17.5,
-          "off_rating": -17.27,
-          "ovr_rating": -34.77,
-          "sos_rating": null
-        }
-      }
-    },
-    "cainsville-with-ridgeway": {
-      "mshsaa_name": "Cainsville with Ridgeway",
-      "name": "Cainsville with Ridgeway",
-      "sports": {
-        "boys_basketball": {
           "games_played": 20,
           "losses": 19,
+          "off_rating": -33.99,
+          "ovr_rating": -58.01,
           "papg": 63.85,
           "pdpg": -26.3,
           "ppg": 37.55,
+          "sos_rating": null,
           "win_pct": 5.0,
           "wins": 1
         },
         "fall_softball": {
+          "def_rating": -3.1785,
           "games_played": 21,
           "losses": 10,
+          "off_rating": -3.4124,
+          "ovr_rating": -6.59,
           "papg": 5.95,
           "pdpg": 3.29,
           "ppg": 9.24,
+          "sos_rating": null,
           "win_pct": 52.38,
           "wins": 11
         },
         "girls_basketball": {
+          "def_rating": -17.5,
           "games_played": 25,
           "losses": 19,
+          "off_rating": -17.27,
+          "ovr_rating": -34.77,
           "papg": 47.64,
           "pdpg": -13.56,
           "ppg": 34.08,
+          "sos_rating": null,
           "win_pct": 24.0,
           "wins": 6
         }
@@ -5168,6 +5064,19 @@
       "mshsaa_name": "Caruthersville",
       "name": "Caruthersville",
       "sports": {
+        "baseball": {
+          "def_rating": -1.96,
+          "games_played": 24,
+          "losses": 11,
+          "off_rating": -3.04,
+          "ovr_rating": -5.0,
+          "papg": 5.67,
+          "pdpg": -0.04,
+          "ppg": 5.63,
+          "sos_rating": null,
+          "win_pct": 54.17,
+          "wins": 13
+        },
         "boys_basketball": {
           "def_rating": -0.44,
           "games_played": 29,
@@ -5222,25 +5131,6 @@
           "sos_rating": null,
           "win_pct": 37.5,
           "wins": 9
-        }
-      }
-    },
-    "caruthersville-with-hayti": {
-      "mshsaa_name": "Caruthersville with Hayti",
-      "name": "Caruthersville with Hayti",
-      "sports": {
-        "baseball": {
-          "def_rating": -1.96,
-          "games_played": 24,
-          "losses": 11,
-          "off_rating": -3.04,
-          "ovr_rating": -5.0,
-          "papg": 5.67,
-          "pdpg": -0.04,
-          "ppg": 5.63,
-          "sos_rating": null,
-          "win_pct": 54.17,
-          "wins": 13
         }
       }
     },
@@ -6845,7 +6735,7 @@
       }
     },
     "clayton": {
-      "mshsaa_name": "Clayton",
+      "mshsaa_name": "Clayton with Brentwood",
       "name": "Clayton",
       "sports": {
         "baseball": {
@@ -6900,6 +6790,19 @@
           "win_pct": 75.0,
           "wins": 12
         },
+        "football": {
+          "def_rating": -29.75,
+          "games_played": 10,
+          "losses": 7,
+          "off_rating": -36.17,
+          "ovr_rating": -65.92,
+          "papg": 40.6,
+          "pdpg": -26.8,
+          "ppg": 13.8,
+          "sos_rating": null,
+          "win_pct": 30.0,
+          "wins": 3
+        },
         "girls_basketball": {
           "def_rating": 2.69,
           "games_played": 27,
@@ -6935,25 +6838,6 @@
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 14
-        }
-      }
-    },
-    "clayton-with-brentwood": {
-      "mshsaa_name": "Clayton with Brentwood",
-      "name": "Clayton with Brentwood",
-      "sports": {
-        "football": {
-          "def_rating": -29.75,
-          "games_played": 10,
-          "losses": 7,
-          "off_rating": -36.17,
-          "ovr_rating": -65.92,
-          "papg": 40.6,
-          "pdpg": -26.8,
-          "ppg": 13.8,
-          "sos_rating": null,
-          "win_pct": 30.0,
-          "wins": 3
         }
       }
     },
@@ -7009,13 +6893,7 @@
           "sos_rating": null,
           "win_pct": 9.09,
           "wins": 3
-        }
-      }
-    },
-    "clearwater-with-south-iron": {
-      "mshsaa_name": "Clearwater with South Iron",
-      "name": "Clearwater with South Iron",
-      "sports": {
+        },
         "spring_softball": {
           "def_rating": 5.1,
           "games_played": 29,
@@ -7417,20 +7295,34 @@
       }
     },
     "collegiate-school-of-med-bio-science": {
-      "mshsaa_name": "Collegiate School of Med-Bio Science",
+      "mshsaa_name": "Collegiate School of Med-Bio Science with Central Visual and Performing Arts",
       "name": "Collegiate School of Med-Bio Science",
       "sports": {
         "boys_basketball": {
           "def_rating": -5.05,
+          "games_played": 25,
+          "losses": 12,
           "off_rating": -7.48,
           "ovr_rating": -12.53,
-          "sos_rating": null
+          "papg": 49.52,
+          "pdpg": -0.32,
+          "ppg": 49.2,
+          "sos_rating": null,
+          "win_pct": 52.0,
+          "wins": 13
         },
         "boys_soccer": {
           "def_rating": -0.7985,
+          "games_played": 18,
+          "losses": 8,
           "off_rating": -0.3396,
           "ovr_rating": -1.14,
-          "sos_rating": null
+          "papg": 2.11,
+          "pdpg": 1.5,
+          "ppg": 3.61,
+          "sos_rating": null,
+          "win_pct": 55.56,
+          "wins": 10
         },
         "girls_basketball": {
           "def_rating": -14.11,
@@ -7467,36 +7359,6 @@
           "sos_rating": null,
           "win_pct": 84.38,
           "wins": 27
-        }
-      }
-    },
-    "collegiate-school-of-med-bio-science-with-central-visual-and-performing-arts": {
-      "mshsaa_name": "Collegiate School of Med-Bio Science with Central Visual and Performing Arts",
-      "name": "Collegiate School of Med-Bio Science with Central Visual and Performing Arts",
-      "sports": {
-        "boys_basketball": {
-          "games_played": 25,
-          "losses": 12,
-          "papg": 49.52,
-          "pdpg": -0.32,
-          "ppg": 49.2,
-          "win_pct": 52.0,
-          "wins": 13
-        }
-      }
-    },
-    "collegiate-school-of-med-bio-science-with-mckinley-classical-leadership": {
-      "mshsaa_name": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
-      "name": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 18,
-          "losses": 8,
-          "papg": 2.11,
-          "pdpg": 1.5,
-          "ppg": 3.61,
-          "win_pct": 55.56,
-          "wins": 10
         }
       }
     },
@@ -7678,7 +7540,7 @@
       }
     },
     "confluence-prep-academy-charter": {
-      "mshsaa_name": "Confluence Prep Academy Charter",
+      "mshsaa_name": "Confluence Prep Academy Charter with Grand Center Arts Charter",
       "name": "Confluence Prep Academy Charter",
       "sports": {
         "boys_basketball": {
@@ -7694,24 +7556,6 @@
           "win_pct": 53.85,
           "wins": 14
         },
-        "girls_basketball": {
-          "def_rating": -21.62,
-          "off_rating": -15.96,
-          "ovr_rating": -37.58,
-          "sos_rating": null
-        },
-        "girls_volleyball": {
-          "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -3.51,
-          "sos_rating": null
-        }
-      }
-    },
-    "confluence-prep-academy-charter-with-grand-center-arts-charter": {
-      "mshsaa_name": "Confluence Prep Academy Charter with Grand Center Arts Charter",
-      "name": "Confluence Prep Academy Charter with Grand Center Arts Charter",
-      "sports": {
         "football": {
           "def_rating": -46.41,
           "games_played": 10,
@@ -7726,17 +7570,25 @@
           "wins": 1
         },
         "girls_basketball": {
+          "def_rating": -21.62,
           "games_played": 15,
           "losses": 11,
+          "off_rating": -15.96,
+          "ovr_rating": -37.58,
           "papg": 35.73,
           "pdpg": -3.46,
           "ppg": 32.27,
+          "sos_rating": null,
           "win_pct": 26.67,
           "wins": 4
         },
         "girls_volleyball": {
+          "def_rating": null,
           "games_played": 19,
           "losses": 11,
+          "off_rating": null,
+          "ovr_rating": -3.51,
+          "sos_rating": null,
           "win_pct": 42.11,
           "wins": 8
         }
@@ -8031,7 +7883,7 @@
       }
     },
     "crest-ridge": {
-      "mshsaa_name": "Crest Ridge",
+      "mshsaa_name": "Crest Ridge with Chilhowee",
       "name": "Crest Ridge",
       "sports": {
         "baseball": {
@@ -8059,6 +7911,19 @@
           "sos_rating": null,
           "win_pct": 72.41,
           "wins": 21
+        },
+        "football": {
+          "def_rating": -26.47,
+          "games_played": 10,
+          "losses": 6,
+          "off_rating": -14.78,
+          "ovr_rating": -41.25,
+          "papg": 32.6,
+          "pdpg": -7.9,
+          "ppg": 24.7,
+          "sos_rating": null,
+          "win_pct": 40.0,
+          "wins": 4
         },
         "girls_basketball": {
           "def_rating": 1.23,
@@ -8095,25 +7960,6 @@
           "sos_rating": null,
           "win_pct": 85.71,
           "wins": 18
-        }
-      }
-    },
-    "crest-ridge-with-chilhowee": {
-      "mshsaa_name": "Crest Ridge with Chilhowee",
-      "name": "Crest Ridge with Chilhowee",
-      "sports": {
-        "football": {
-          "def_rating": -26.47,
-          "games_played": 10,
-          "losses": 6,
-          "off_rating": -14.78,
-          "ovr_rating": -41.25,
-          "papg": 32.6,
-          "pdpg": -7.9,
-          "ppg": 24.7,
-          "sos_rating": null,
-          "win_pct": 40.0,
-          "wins": 4
         }
       }
     },
@@ -8507,9 +8353,16 @@
         },
         "fall_softball": {
           "def_rating": -0.9225,
+          "games_played": 25,
+          "losses": 8,
           "off_rating": -0.7792,
           "ovr_rating": -1.7,
-          "sos_rating": null
+          "papg": 4.64,
+          "pdpg": 5.16,
+          "ppg": 9.8,
+          "sos_rating": null,
+          "win_pct": 68.0,
+          "wins": 17
         },
         "girls_basketball": {
           "def_rating": -2.85,
@@ -8523,21 +8376,6 @@
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 15
-        }
-      }
-    },
-    "dadeville-with-everton": {
-      "mshsaa_name": "Dadeville with Everton",
-      "name": "Dadeville with Everton",
-      "sports": {
-        "fall_softball": {
-          "games_played": 25,
-          "losses": 8,
-          "papg": 4.64,
-          "pdpg": 5.16,
-          "ppg": 9.8,
-          "win_pct": 68.0,
-          "wins": 17
         }
       }
     },
@@ -10129,9 +9967,16 @@
         },
         "boys_soccer": {
           "def_rating": -4.5196,
+          "games_played": 17,
+          "losses": 16,
           "off_rating": -3.424,
           "ovr_rating": -7.94,
-          "sos_rating": null
+          "papg": 5.44,
+          "pdpg": -4.88,
+          "ppg": 0.56,
+          "sos_rating": null,
+          "win_pct": 5.56,
+          "wins": 1
         },
         "fall_softball": {
           "def_rating": 5.4648,
@@ -10158,21 +10003,6 @@
           "sos_rating": null,
           "win_pct": 53.57,
           "wins": 15
-        }
-      }
-    },
-    "elsberry-with-silex": {
-      "mshsaa_name": "Elsberry with Silex",
-      "name": "Elsberry with Silex",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 17,
-          "losses": 16,
-          "papg": 5.44,
-          "pdpg": -4.88,
-          "ppg": 0.56,
-          "win_pct": 5.56,
-          "wins": 1
         },
         "girls_soccer": {
           "def_rating": -0.83,
@@ -10480,9 +10310,16 @@
         },
         "boys_soccer": {
           "def_rating": -2.9693,
+          "games_played": 18,
+          "losses": 16,
           "off_rating": -2.6152,
           "ovr_rating": -5.58,
-          "sos_rating": null
+          "papg": 4.5,
+          "pdpg": -4.0,
+          "ppg": 0.5,
+          "sos_rating": null,
+          "win_pct": 11.11,
+          "wins": 2
         },
         "girls_basketball": {
           "def_rating": -6.28,
@@ -10497,31 +10334,6 @@
           "win_pct": 52.38,
           "wins": 11
         },
-        "girls_volleyball": {
-          "def_rating": null,
-          "games_played": 25,
-          "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -1.06,
-          "sos_rating": null,
-          "win_pct": 57.69,
-          "wins": 15
-        }
-      }
-    },
-    "ewing-marion-kauffman-with-university-academy-charter": {
-      "mshsaa_name": "Ewing Marion Kauffman with University Academy Charter",
-      "name": "Ewing Marion Kauffman with University Academy Charter",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 18,
-          "losses": 16,
-          "papg": 4.5,
-          "pdpg": -4.0,
-          "ppg": 0.5,
-          "win_pct": 11.11,
-          "wins": 2
-        },
         "girls_soccer": {
           "def_rating": -4.51,
           "games_played": 13,
@@ -10534,6 +10346,16 @@
           "sos_rating": null,
           "win_pct": 23.08,
           "wins": 3
+        },
+        "girls_volleyball": {
+          "def_rating": null,
+          "games_played": 25,
+          "losses": 10,
+          "off_rating": null,
+          "ovr_rating": -1.06,
+          "sos_rating": null,
+          "win_pct": 57.69,
+          "wins": 15
         }
       }
     },
@@ -12943,7 +12765,7 @@
       }
     },
     "gallatin": {
-      "mshsaa_name": "Gallatin",
+      "mshsaa_name": "Gallatin with Tri-County",
       "name": "Gallatin",
       "sports": {
         "baseball": {
@@ -12985,6 +12807,19 @@
           "win_pct": 56.25,
           "wins": 18
         },
+        "football": {
+          "def_rating": -12.61,
+          "games_played": 11,
+          "losses": 5,
+          "off_rating": -14.65,
+          "ovr_rating": -27.25,
+          "papg": 22.73,
+          "pdpg": 7.82,
+          "ppg": 30.55,
+          "sos_rating": null,
+          "win_pct": 54.55,
+          "wins": 6
+        },
         "girls_basketball": {
           "def_rating": -3.67,
           "games_played": 24,
@@ -13000,29 +12835,23 @@
         }
       }
     },
-    "gallatin-with-tri-county": {
-      "mshsaa_name": "Gallatin with Tri-County",
-      "name": "Gallatin with Tri-County",
-      "sports": {
-        "football": {
-          "def_rating": -12.61,
-          "games_played": 11,
-          "losses": 5,
-          "off_rating": -14.65,
-          "ovr_rating": -27.25,
-          "papg": 22.73,
-          "pdpg": 7.82,
-          "ppg": 30.55,
-          "sos_rating": null,
-          "win_pct": 54.55,
-          "wins": 6
-        }
-      }
-    },
     "gateway": {
-      "mshsaa_name": "Gateway",
+      "mshsaa_name": "Gateway with Soldan International Studies",
       "name": "Gateway",
       "sports": {
+        "baseball": {
+          "def_rating": -10.68,
+          "games_played": 8,
+          "losses": 7,
+          "off_rating": -6.52,
+          "ovr_rating": -17.21,
+          "papg": 13.13,
+          "pdpg": -10.5,
+          "ppg": 2.63,
+          "sos_rating": null,
+          "win_pct": 12.5,
+          "wins": 1
+        },
         "boys_basketball": {
           "def_rating": -4.35,
           "games_played": 24,
@@ -13038,21 +12867,65 @@
         },
         "boys_soccer": {
           "def_rating": -0.3641,
+          "games_played": 18,
+          "losses": 8,
           "off_rating": -0.3608,
           "ovr_rating": -0.72,
-          "sos_rating": null
+          "papg": 2.17,
+          "pdpg": 0.89,
+          "ppg": 3.06,
+          "sos_rating": null,
+          "win_pct": 55.56,
+          "wins": 10
+        },
+        "football": {
+          "def_rating": 3.28,
+          "games_played": 10,
+          "losses": 1,
+          "off_rating": -10.78,
+          "ovr_rating": -7.5,
+          "papg": 7.2,
+          "pdpg": 23.5,
+          "ppg": 30.7,
+          "sos_rating": null,
+          "win_pct": 90.0,
+          "wins": 9
         },
         "girls_basketball": {
           "def_rating": -28.11,
+          "games_played": 16,
+          "losses": 15,
           "off_rating": -43.08,
           "ovr_rating": -71.19,
-          "sos_rating": null
+          "papg": 51.81,
+          "pdpg": -38.81,
+          "ppg": 13,
+          "sos_rating": null,
+          "win_pct": 6.25,
+          "wins": 1
+        },
+        "girls_soccer": {
+          "def_rating": -8.15,
+          "games_played": 11,
+          "losses": 10,
+          "off_rating": -2.65,
+          "ovr_rating": -10.81,
+          "papg": 8.18,
+          "pdpg": -6.54,
+          "ppg": 1.64,
+          "sos_rating": null,
+          "win_pct": 9.09,
+          "wins": 1
         },
         "girls_volleyball": {
           "def_rating": null,
+          "games_played": 17,
+          "losses": 15,
           "off_rating": null,
           "ovr_rating": -4.89,
-          "sos_rating": null
+          "sos_rating": null,
+          "win_pct": 11.11,
+          "wins": 2
         }
       }
     },
@@ -13137,75 +13010,6 @@
         }
       }
     },
-    "gateway-with-soldan-international-studies": {
-      "mshsaa_name": "Gateway with Soldan International Studies",
-      "name": "Gateway with Soldan International Studies",
-      "sports": {
-        "baseball": {
-          "def_rating": -10.68,
-          "games_played": 8,
-          "losses": 7,
-          "off_rating": -6.52,
-          "ovr_rating": -17.21,
-          "papg": 13.13,
-          "pdpg": -10.5,
-          "ppg": 2.63,
-          "sos_rating": null,
-          "win_pct": 12.5,
-          "wins": 1
-        },
-        "boys_soccer": {
-          "games_played": 18,
-          "losses": 8,
-          "papg": 2.17,
-          "pdpg": 0.89,
-          "ppg": 3.06,
-          "win_pct": 55.56,
-          "wins": 10
-        },
-        "football": {
-          "def_rating": 3.28,
-          "games_played": 10,
-          "losses": 1,
-          "off_rating": -10.78,
-          "ovr_rating": -7.5,
-          "papg": 7.2,
-          "pdpg": 23.5,
-          "ppg": 30.7,
-          "sos_rating": null,
-          "win_pct": 90.0,
-          "wins": 9
-        },
-        "girls_basketball": {
-          "games_played": 16,
-          "losses": 15,
-          "papg": 51.81,
-          "pdpg": -38.81,
-          "ppg": 13,
-          "win_pct": 6.25,
-          "wins": 1
-        },
-        "girls_soccer": {
-          "def_rating": -8.15,
-          "games_played": 11,
-          "losses": 10,
-          "off_rating": -2.65,
-          "ovr_rating": -10.81,
-          "papg": 8.18,
-          "pdpg": -6.54,
-          "ppg": 1.64,
-          "sos_rating": null,
-          "win_pct": 9.09,
-          "wins": 1
-        },
-        "girls_volleyball": {
-          "games_played": 17,
-          "losses": 15,
-          "win_pct": 11.11,
-          "wins": 2
-        }
-      }
-    },
     "gideon": {
       "mshsaa_name": "Gideon",
       "name": "Gideon",
@@ -13262,32 +13066,8 @@
       }
     },
     "gilman-city": {
-      "mshsaa_name": "Gilman City",
-      "name": "Gilman City",
-      "sports": {
-        "boys_basketball": {
-          "def_rating": -9.74,
-          "off_rating": -12.1,
-          "ovr_rating": -21.84,
-          "sos_rating": null
-        },
-        "fall_softball": {
-          "def_rating": -1.5983,
-          "off_rating": -1.5294,
-          "ovr_rating": -3.13,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": 3.29,
-          "off_rating": 1.24,
-          "ovr_rating": 4.53,
-          "sos_rating": null
-        }
-      }
-    },
-    "gilman-city-with-north-daviess": {
       "mshsaa_name": "Gilman City with North Daviess",
-      "name": "Gilman City with North Daviess",
+      "name": "Gilman City",
       "sports": {
         "baseball": {
           "def_rating": -3.18,
@@ -13303,29 +13083,41 @@
           "wins": 6
         },
         "boys_basketball": {
+          "def_rating": -9.74,
           "games_played": 28,
           "losses": 13,
+          "off_rating": -12.1,
+          "ovr_rating": -21.84,
           "papg": 51.93,
           "pdpg": 0.18,
           "ppg": 52.11,
+          "sos_rating": null,
           "win_pct": 53.57,
           "wins": 15
         },
         "fall_softball": {
+          "def_rating": -1.5983,
           "games_played": 26,
           "losses": 10,
+          "off_rating": -1.5294,
+          "ovr_rating": -3.13,
           "papg": 5.35,
           "pdpg": 3.03,
           "ppg": 8.38,
+          "sos_rating": null,
           "win_pct": 61.54,
           "wins": 16
         },
         "girls_basketball": {
+          "def_rating": 3.29,
           "games_played": 29,
           "losses": 2,
+          "off_rating": 1.24,
+          "ovr_rating": 4.53,
           "papg": 30.28,
           "pdpg": 22.06,
           "ppg": 52.34,
+          "sos_rating": null,
           "win_pct": 93.1,
           "wins": 27
         }
@@ -13920,9 +13712,22 @@
       }
     },
     "green-ridge": {
-      "mshsaa_name": "Green Ridge",
+      "mshsaa_name": "Green Ridge with La Monte",
       "name": "Green Ridge",
       "sports": {
+        "baseball": {
+          "def_rating": -4.38,
+          "games_played": 23,
+          "losses": 13,
+          "off_rating": -0.72,
+          "ovr_rating": -5.09,
+          "papg": 7.52,
+          "pdpg": 1.39,
+          "ppg": 8.91,
+          "sos_rating": null,
+          "win_pct": 43.48,
+          "wins": 10
+        },
         "boys_basketball": {
           "def_rating": 0.81,
           "games_played": 27,
@@ -13938,9 +13743,16 @@
         },
         "boys_soccer": {
           "def_rating": -2.7243,
+          "games_played": 18,
+          "losses": 12,
           "off_rating": -2.4872,
           "ovr_rating": -5.21,
-          "sos_rating": null
+          "papg": 3.21,
+          "pdpg": -1.63,
+          "ppg": 1.58,
+          "sos_rating": null,
+          "win_pct": 31.58,
+          "wins": 6
         },
         "girls_basketball": {
           "def_rating": -0.7,
@@ -13980,44 +13792,23 @@
         }
       }
     },
-    "green-ridge-with-cole-camp": {
-      "mshsaa_name": "Green Ridge with Cole Camp",
-      "name": "Green Ridge with Cole Camp",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 18,
-          "losses": 12,
-          "papg": 3.21,
-          "pdpg": -1.63,
-          "ppg": 1.58,
-          "win_pct": 31.58,
-          "wins": 6
-        }
-      }
-    },
-    "green-ridge-with-la-monte": {
-      "mshsaa_name": "Green Ridge with La Monte",
-      "name": "Green Ridge with La Monte",
-      "sports": {
-        "baseball": {
-          "def_rating": -4.38,
-          "games_played": 23,
-          "losses": 13,
-          "off_rating": -0.72,
-          "ovr_rating": -5.09,
-          "papg": 7.52,
-          "pdpg": 1.39,
-          "ppg": 8.91,
-          "sos_rating": null,
-          "win_pct": 43.48,
-          "wins": 10
-        }
-      }
-    },
     "greenfield": {
       "mshsaa_name": "Greenfield",
       "name": "Greenfield",
       "sports": {
+        "baseball": {
+          "def_rating": -7.13,
+          "games_played": 16,
+          "losses": 13,
+          "off_rating": -5.07,
+          "ovr_rating": -12.21,
+          "papg": 9.75,
+          "pdpg": -5.75,
+          "ppg": 4,
+          "sos_rating": null,
+          "win_pct": 18.75,
+          "wins": 3
+        },
         "boys_basketball": {
           "def_rating": -11.76,
           "games_played": 28,
@@ -14042,9 +13833,16 @@
         },
         "girls_basketball": {
           "def_rating": -0.75,
+          "games_played": 28,
+          "losses": 11,
           "off_rating": -2.87,
           "ovr_rating": -3.61,
-          "sos_rating": null
+          "papg": 42.04,
+          "pdpg": 3.92,
+          "ppg": 45.96,
+          "sos_rating": null,
+          "win_pct": 60.71,
+          "wins": 17
         },
         "girls_volleyball": {
           "def_rating": null,
@@ -14055,34 +13853,6 @@
           "sos_rating": null,
           "win_pct": 52.78,
           "wins": 19
-        }
-      }
-    },
-    "greenfield-with-golden-city": {
-      "mshsaa_name": "Greenfield with Golden City",
-      "name": "Greenfield with Golden City",
-      "sports": {
-        "baseball": {
-          "def_rating": -7.13,
-          "games_played": 16,
-          "losses": 13,
-          "off_rating": -5.07,
-          "ovr_rating": -12.21,
-          "papg": 9.75,
-          "pdpg": -5.75,
-          "ppg": 4,
-          "sos_rating": null,
-          "win_pct": 18.75,
-          "wins": 3
-        },
-        "girls_basketball": {
-          "games_played": 28,
-          "losses": 11,
-          "papg": 42.04,
-          "pdpg": 3.92,
-          "ppg": 45.96,
-          "win_pct": 60.71,
-          "wins": 17
         },
         "spring_softball": {
           "def_rating": -3.01,
@@ -14249,57 +14019,45 @@
       }
     },
     "grundy-county": {
-      "mshsaa_name": "Grundy County",
+      "mshsaa_name": "Grundy County with Newtown-Harris",
       "name": "Grundy County",
       "sports": {
         "boys_basketball": {
           "def_rating": -14.38,
-          "off_rating": -27.36,
-          "ovr_rating": -41.74,
-          "sos_rating": null
-        },
-        "fall_softball": {
-          "def_rating": -8.6839,
-          "off_rating": -6.0121,
-          "ovr_rating": -14.7,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": 3.49,
-          "off_rating": -5.01,
-          "ovr_rating": -1.52,
-          "sos_rating": null
-        }
-      }
-    },
-    "grundy-county-with-newtown-harris": {
-      "mshsaa_name": "Grundy County with Newtown-Harris",
-      "name": "Grundy County with Newtown-Harris",
-      "sports": {
-        "boys_basketball": {
           "games_played": 26,
           "losses": 21,
+          "off_rating": -27.36,
+          "ovr_rating": -41.74,
           "papg": 52.54,
           "pdpg": -10.58,
           "ppg": 41.96,
+          "sos_rating": null,
           "win_pct": 19.23,
           "wins": 5
         },
         "fall_softball": {
+          "def_rating": -8.6839,
           "games_played": 21,
           "losses": 14,
+          "off_rating": -6.0121,
+          "ovr_rating": -14.7,
           "papg": 10.62,
           "pdpg": -3.76,
           "ppg": 6.86,
+          "sos_rating": null,
           "win_pct": 33.33,
           "wins": 7
         },
         "girls_basketball": {
+          "def_rating": 3.49,
           "games_played": 29,
           "losses": 7,
+          "off_rating": -5.01,
+          "ovr_rating": -1.52,
           "papg": 29.48,
           "pdpg": 18.52,
           "ppg": 48,
+          "sos_rating": null,
           "win_pct": 75.86,
           "wins": 22
         }
@@ -14374,42 +14132,32 @@
       }
     },
     "hale": {
-      "mshsaa_name": "Hale",
+      "mshsaa_name": "Hale with Bosworth",
       "name": "Hale",
       "sports": {
         "boys_basketball": {
           "def_rating": -13.78,
-          "off_rating": -19.02,
-          "ovr_rating": -32.81,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": -27.08,
-          "off_rating": -35.46,
-          "ovr_rating": -62.54,
-          "sos_rating": null
-        }
-      }
-    },
-    "hale-with-bosworth": {
-      "mshsaa_name": "Hale with Bosworth",
-      "name": "Hale with Bosworth",
-      "sports": {
-        "boys_basketball": {
           "games_played": 27,
           "losses": 14,
+          "off_rating": -19.02,
+          "ovr_rating": -32.81,
           "papg": 51.19,
           "pdpg": -1.23,
           "ppg": 49.96,
+          "sos_rating": null,
           "win_pct": 48.15,
           "wins": 13
         },
         "girls_basketball": {
+          "def_rating": -27.08,
           "games_played": 22,
           "losses": 21,
+          "off_rating": -35.46,
+          "ovr_rating": -62.54,
           "papg": 64.05,
           "pdpg": -47.19,
           "ppg": 16.86,
+          "sos_rating": null,
           "win_pct": 4.55,
           "wins": 1
         }
@@ -15482,9 +15230,16 @@
         },
         "fall_softball": {
           "def_rating": -5.3136,
+          "games_played": 17,
+          "losses": 11,
           "off_rating": -3.1386,
           "ovr_rating": -8.45,
-          "sos_rating": null
+          "papg": 9.41,
+          "pdpg": -3.7,
+          "ppg": 5.71,
+          "sos_rating": null,
+          "win_pct": 35.29,
+          "wins": 6
         },
         "football": {
           "def_rating": -8.31,
@@ -15521,21 +15276,6 @@
           "sos_rating": null,
           "win_pct": 24.14,
           "wins": 7
-        }
-      }
-    },
-    "herculaneum-with-crystal-city": {
-      "mshsaa_name": "Herculaneum with Crystal City",
-      "name": "Herculaneum with Crystal City",
-      "sports": {
-        "fall_softball": {
-          "games_played": 17,
-          "losses": 11,
-          "papg": 9.41,
-          "pdpg": -3.7,
-          "ppg": 5.71,
-          "win_pct": 35.29,
-          "wins": 6
         }
       }
     },
@@ -16602,9 +16342,22 @@
       }
     },
     "humansville": {
-      "mshsaa_name": "Humansville",
+      "mshsaa_name": "Humansville with Fair Play",
       "name": "Humansville",
       "sports": {
+        "baseball": {
+          "def_rating": -12.21,
+          "games_played": 15,
+          "losses": 14,
+          "off_rating": -8.94,
+          "ovr_rating": -21.14,
+          "papg": 14.33,
+          "pdpg": -12.26,
+          "ppg": 2.07,
+          "sos_rating": null,
+          "win_pct": 6.67,
+          "wins": 1
+        },
         "boys_basketball": {
           "def_rating": -1.72,
           "games_played": 27,
@@ -16643,25 +16396,6 @@
           "sos_rating": null,
           "win_pct": 21.43,
           "wins": 6
-        }
-      }
-    },
-    "humansville-with-fair-play": {
-      "mshsaa_name": "Humansville with Fair Play",
-      "name": "Humansville with Fair Play",
-      "sports": {
-        "baseball": {
-          "def_rating": -12.21,
-          "games_played": 15,
-          "losses": 14,
-          "off_rating": -8.94,
-          "ovr_rating": -21.14,
-          "papg": 14.33,
-          "pdpg": -12.26,
-          "ppg": 2.07,
-          "sos_rating": null,
-          "win_pct": 6.67,
-          "wins": 1
         }
       }
     },
@@ -17130,9 +16864,9 @@
         }
       }
     },
-    "jefferson-(conception)-with-south-nodaway": {
+    "jefferson-(conception)": {
       "mshsaa_name": "Jefferson (Conception) with South Nodaway",
-      "name": "Jefferson (Conception) with South Nodaway",
+      "name": "Jefferson (Conception)",
       "sports": {
         "fall_softball": {
           "games_played": 23,
@@ -18075,6 +17809,19 @@
       "mshsaa_name": "King City",
       "name": "King City",
       "sports": {
+        "baseball": {
+          "def_rating": -0.22,
+          "games_played": 21,
+          "losses": 6,
+          "off_rating": -0.69,
+          "ovr_rating": -0.91,
+          "papg": 3.43,
+          "pdpg": 4.95,
+          "ppg": 8.38,
+          "sos_rating": null,
+          "win_pct": 71.43,
+          "wins": 15
+        },
         "boys_basketball": {
           "def_rating": 5.4,
           "games_played": 28,
@@ -18090,9 +17837,16 @@
         },
         "fall_softball": {
           "def_rating": -0.1787,
+          "games_played": 19,
+          "losses": 11,
           "off_rating": -0.5343,
           "ovr_rating": -0.71,
-          "sos_rating": null
+          "papg": 6.16,
+          "pdpg": 1.1,
+          "ppg": 7.26,
+          "sos_rating": null,
+          "win_pct": 42.11,
+          "wins": 8
         },
         "football": {
           "games_played": 12,
@@ -18115,34 +17869,6 @@
           "sos_rating": null,
           "win_pct": 53.57,
           "wins": 15
-        }
-      }
-    },
-    "king-city-with-union-star": {
-      "mshsaa_name": "King City with Union Star",
-      "name": "King City with Union Star",
-      "sports": {
-        "baseball": {
-          "def_rating": -0.22,
-          "games_played": 21,
-          "losses": 6,
-          "off_rating": -0.69,
-          "ovr_rating": -0.91,
-          "papg": 3.43,
-          "pdpg": 4.95,
-          "ppg": 8.38,
-          "sos_rating": null,
-          "win_pct": 71.43,
-          "wins": 15
-        },
-        "fall_softball": {
-          "games_played": 19,
-          "losses": 11,
-          "papg": 6.16,
-          "pdpg": 1.1,
-          "ppg": 7.26,
-          "win_pct": 42.11,
-          "wins": 8
         }
       }
     },
@@ -19480,9 +19206,16 @@
         },
         "boys_soccer": {
           "def_rating": -0.8516,
+          "games_played": 25,
+          "losses": 12,
           "off_rating": -0.0106,
           "ovr_rating": -0.86,
-          "sos_rating": null
+          "papg": 1.84,
+          "pdpg": 1.76,
+          "ppg": 3.6,
+          "sos_rating": null,
+          "win_pct": 52.0,
+          "wins": 13
         },
         "girls_basketball": {
           "def_rating": -2.97,
@@ -19497,31 +19230,6 @@
           "win_pct": 46.15,
           "wins": 12
         },
-        "girls_volleyball": {
-          "def_rating": null,
-          "games_played": 20,
-          "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -2.71,
-          "sos_rating": null,
-          "win_pct": 20.0,
-          "wins": 4
-        }
-      }
-    },
-    "laquey-with-richland": {
-      "mshsaa_name": "Laquey with Richland",
-      "name": "Laquey with Richland",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 25,
-          "losses": 12,
-          "papg": 1.84,
-          "pdpg": 1.76,
-          "ppg": 3.6,
-          "win_pct": 52.0,
-          "wins": 13
-        },
         "girls_soccer": {
           "def_rating": -1.76,
           "games_played": 17,
@@ -19534,6 +19242,16 @@
           "sos_rating": null,
           "win_pct": 52.94,
           "wins": 9
+        },
+        "girls_volleyball": {
+          "def_rating": null,
+          "games_played": 20,
+          "losses": 16,
+          "off_rating": null,
+          "ovr_rating": -2.71,
+          "sos_rating": null,
+          "win_pct": 20.0,
+          "wins": 4
         }
       }
     },
@@ -21618,7 +21336,7 @@
       }
     },
     "lone-jack": {
-      "mshsaa_name": "Lone Jack",
+      "mshsaa_name": "Lone Jack with Kingsville",
       "name": "Lone Jack",
       "sports": {
         "baseball": {
@@ -21659,6 +21377,19 @@
           "sos_rating": null,
           "win_pct": 69.23,
           "wins": 18
+        },
+        "football": {
+          "def_rating": -30.95,
+          "games_played": 10,
+          "losses": 9,
+          "off_rating": -34.16,
+          "ovr_rating": -65.11,
+          "papg": 38.9,
+          "pdpg": -26.2,
+          "ppg": 12.7,
+          "sos_rating": null,
+          "win_pct": 10.0,
+          "wins": 1
         },
         "girls_basketball": {
           "def_rating": 6.15,
@@ -21708,25 +21439,6 @@
           "sos_rating": null,
           "win_pct": 68.0,
           "wins": 17
-        }
-      }
-    },
-    "lone-jack-with-kingsville": {
-      "mshsaa_name": "Lone Jack with Kingsville",
-      "name": "Lone Jack with Kingsville",
-      "sports": {
-        "football": {
-          "def_rating": -30.95,
-          "games_played": 10,
-          "losses": 9,
-          "off_rating": -34.16,
-          "ovr_rating": -65.11,
-          "papg": 38.9,
-          "pdpg": -26.2,
-          "ppg": 12.7,
-          "sos_rating": null,
-          "win_pct": 10.0,
-          "wins": 1
         }
       }
     },
@@ -22035,9 +21747,16 @@
         },
         "fall_softball": {
           "def_rating": 1.0503,
+          "games_played": 30,
+          "losses": 17,
           "off_rating": 0.2886,
           "ovr_rating": 1.34,
-          "sos_rating": null
+          "papg": 6.5,
+          "pdpg": -1.0,
+          "ppg": 5.5,
+          "sos_rating": null,
+          "win_pct": 43.33,
+          "wins": 13
         },
         "football": {
           "def_rating": -36.03,
@@ -22090,21 +21809,6 @@
         }
       }
     },
-    "lutheran-south-with-notre-dame-(st-louis)": {
-      "mshsaa_name": "Lutheran South with Notre Dame (St. Louis)",
-      "name": "Lutheran South with Notre Dame (St. Louis)",
-      "sports": {
-        "fall_softball": {
-          "games_played": 30,
-          "losses": 17,
-          "papg": 6.5,
-          "pdpg": -1.0,
-          "ppg": 5.5,
-          "win_pct": 43.33,
-          "wins": 13
-        }
-      }
-    },
     "lutheran-st-charles": {
       "mshsaa_name": "Lutheran St. Charles",
       "name": "Lutheran St. Charles",
@@ -22150,9 +21854,16 @@
         },
         "fall_softball": {
           "def_rating": 0.4722,
+          "games_played": 29,
+          "losses": 13,
           "off_rating": 0.0846,
           "ovr_rating": 0.56,
-          "sos_rating": null
+          "papg": 5.97,
+          "pdpg": 0.69,
+          "ppg": 6.66,
+          "sos_rating": null,
+          "win_pct": 55.17,
+          "wins": 16
         },
         "football": {
           "def_rating": -19.42,
@@ -22202,21 +21913,6 @@
           "sos_rating": null,
           "win_pct": 35.48,
           "wins": 11
-        }
-      }
-    },
-    "lutheran-st-charles-with-veritas-christian-academy": {
-      "mshsaa_name": "Lutheran St. Charles with Veritas Christian Academy",
-      "name": "Lutheran St. Charles with Veritas Christian Academy",
-      "sports": {
-        "fall_softball": {
-          "games_played": 29,
-          "losses": 13,
-          "papg": 5.97,
-          "pdpg": 0.69,
-          "ppg": 6.66,
-          "win_pct": 55.17,
-          "wins": 16
         }
       }
     },
@@ -22379,27 +22075,19 @@
       }
     },
     "macon-county": {
-      "mshsaa_name": "Macon County",
+      "mshsaa_name": "Macon County with Bucklin",
       "name": "Macon County",
       "sports": {
         "fall_softball": {
           "def_rating": -8.2507,
-          "off_rating": -2.8441,
-          "ovr_rating": -11.09,
-          "sos_rating": null
-        }
-      }
-    },
-    "macon-county-with-bucklin": {
-      "mshsaa_name": "Macon County with Bucklin",
-      "name": "Macon County with Bucklin",
-      "sports": {
-        "fall_softball": {
           "games_played": 14,
           "losses": 7,
+          "off_rating": -2.8441,
+          "ovr_rating": -11.09,
           "papg": 10.36,
           "pdpg": -0.29,
           "ppg": 10.07,
+          "sos_rating": null,
           "win_pct": 50.0,
           "wins": 7
         }
@@ -23503,7 +23191,7 @@
       }
     },
     "maysville": {
-      "mshsaa_name": "Maysville",
+      "mshsaa_name": "Maysville with Winston",
       "name": "Maysville",
       "sports": {
         "baseball": {
@@ -23545,6 +23233,19 @@
           "win_pct": 48.0,
           "wins": 12
         },
+        "football": {
+          "def_rating": -23.4,
+          "games_played": 10,
+          "losses": 9,
+          "off_rating": -31.48,
+          "ovr_rating": -54.88,
+          "papg": 34.3,
+          "pdpg": -23.3,
+          "ppg": 11,
+          "sos_rating": null,
+          "win_pct": 10.0,
+          "wins": 1
+        },
         "girls_basketball": {
           "def_rating": -0.62,
           "games_played": 29,
@@ -23567,25 +23268,6 @@
           "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
-        }
-      }
-    },
-    "maysville-with-winston": {
-      "mshsaa_name": "Maysville with Winston",
-      "name": "Maysville with Winston",
-      "sports": {
-        "football": {
-          "def_rating": -23.4,
-          "games_played": 10,
-          "losses": 9,
-          "off_rating": -31.48,
-          "ovr_rating": -54.88,
-          "papg": 34.3,
-          "pdpg": -23.3,
-          "ppg": 11,
-          "sos_rating": null,
-          "win_pct": 10.0,
-          "wins": 1
         }
       }
     },
@@ -23965,9 +23647,22 @@
       }
     },
     "meadville": {
-      "mshsaa_name": "Meadville",
+      "mshsaa_name": "Meadville with Linn County",
       "name": "Meadville",
       "sports": {
+        "baseball": {
+          "def_rating": -3.52,
+          "games_played": 21,
+          "losses": 11,
+          "off_rating": -3.26,
+          "ovr_rating": -6.78,
+          "papg": 6.29,
+          "pdpg": -0.1,
+          "ppg": 6.19,
+          "sos_rating": null,
+          "win_pct": 47.62,
+          "wins": 10
+        },
         "boys_basketball": {
           "def_rating": -3.43,
           "games_played": 29,
@@ -24006,25 +23701,6 @@
           "sos_rating": null,
           "win_pct": 60.71,
           "wins": 17
-        }
-      }
-    },
-    "meadville-with-linn-county": {
-      "mshsaa_name": "Meadville with Linn County",
-      "name": "Meadville with Linn County",
-      "sports": {
-        "baseball": {
-          "def_rating": -3.52,
-          "games_played": 21,
-          "losses": 11,
-          "off_rating": -3.26,
-          "ovr_rating": -6.78,
-          "papg": 6.29,
-          "pdpg": -0.1,
-          "ppg": 6.19,
-          "sos_rating": null,
-          "win_pct": 47.62,
-          "wins": 10
         }
       }
     },
@@ -24857,7 +24533,7 @@
       }
     },
     "miller-career-academy": {
-      "mshsaa_name": "Miller Career Academy",
+      "mshsaa_name": "Miller Career Academy with Sumner, Vashon",
       "name": "Miller Career Academy",
       "sports": {
         "baseball": {
@@ -24886,50 +24562,34 @@
           "win_pct": 59.38,
           "wins": 19
         },
-        "girls_basketball": {
-          "def_rating": -2.78,
-          "off_rating": -6,
-          "ovr_rating": -8.77,
-          "sos_rating": null
-        },
-        "girls_volleyball": {
-          "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -3.3,
-          "sos_rating": null
-        }
-      }
-    },
-    "miller-career-academy-with-sumner": {
-      "mshsaa_name": "Miller Career Academy with Sumner",
-      "name": "Miller Career Academy with Sumner",
-      "sports": {
-        "girls_basketball": {
-          "games_played": 23,
-          "losses": 8,
-          "papg": 33.74,
-          "pdpg": 8.3,
-          "ppg": 42.04,
-          "win_pct": 65.22,
-          "wins": 15
-        },
-        "girls_volleyball": {
-          "games_played": 22,
-          "losses": 13,
-          "win_pct": 40.91,
-          "wins": 9
-        }
-      }
-    },
-    "miller-career-academy-with-sumner,-vashon": {
-      "mshsaa_name": "Miller Career Academy with Sumner, Vashon",
-      "name": "Miller Career Academy with Sumner, Vashon",
-      "sports": {
         "football": {
           "def_rating": -19.54,
           "off_rating": -17.09,
           "ovr_rating": -36.63,
           "sos_rating": null
+        },
+        "girls_basketball": {
+          "def_rating": -2.78,
+          "games_played": 23,
+          "losses": 8,
+          "off_rating": -6,
+          "ovr_rating": -8.77,
+          "papg": 33.74,
+          "pdpg": 8.3,
+          "ppg": 42.04,
+          "sos_rating": null,
+          "win_pct": 65.22,
+          "wins": 15
+        },
+        "girls_volleyball": {
+          "def_rating": null,
+          "games_played": 22,
+          "losses": 13,
+          "off_rating": null,
+          "ovr_rating": -3.3,
+          "sos_rating": null,
+          "win_pct": 40.91,
+          "wins": 9
         }
       }
     },
@@ -25350,9 +25010,22 @@
       }
     },
     "montrose": {
-      "mshsaa_name": "Montrose",
+      "mshsaa_name": "Montrose with Ballard",
       "name": "Montrose",
       "sports": {
+        "baseball": {
+          "def_rating": -8.19,
+          "games_played": 11,
+          "losses": 9,
+          "off_rating": -6.94,
+          "ovr_rating": -15.13,
+          "papg": 10.09,
+          "pdpg": -6.73,
+          "ppg": 3.36,
+          "sos_rating": null,
+          "win_pct": 18.18,
+          "wins": 2
+        },
         "boys_basketball": {
           "def_rating": -21.81,
           "games_played": 26,
@@ -25368,56 +25041,27 @@
         },
         "fall_softball": {
           "def_rating": -3.0913,
-          "off_rating": -1.6886,
-          "ovr_rating": -4.78,
-          "sos_rating": null
-        },
-        "girls_basketball": {
-          "def_rating": -0.6,
-          "off_rating": -15.13,
-          "ovr_rating": -15.73,
-          "sos_rating": null
-        }
-      }
-    },
-    "montrose-with-appleton-city": {
-      "mshsaa_name": "Montrose with Appleton City",
-      "name": "Montrose with Appleton City",
-      "sports": {
-        "fall_softball": {
           "games_played": 23,
           "losses": 9,
+          "off_rating": -1.6886,
+          "ovr_rating": -4.78,
           "papg": 6.96,
           "pdpg": 2.74,
           "ppg": 9.7,
+          "sos_rating": null,
           "win_pct": 60.87,
           "wins": 14
-        }
-      }
-    },
-    "montrose-with-ballard": {
-      "mshsaa_name": "Montrose with Ballard",
-      "name": "Montrose with Ballard",
-      "sports": {
-        "baseball": {
-          "def_rating": -8.19,
-          "games_played": 11,
-          "losses": 9,
-          "off_rating": -6.94,
-          "ovr_rating": -15.13,
-          "papg": 10.09,
-          "pdpg": -6.73,
-          "ppg": 3.36,
-          "sos_rating": null,
-          "win_pct": 18.18,
-          "wins": 2
         },
         "girls_basketball": {
+          "def_rating": -0.6,
           "games_played": 27,
           "losses": 11,
+          "off_rating": -15.13,
+          "ovr_rating": -15.73,
           "papg": 38,
           "pdpg": -1.52,
           "ppg": 36.48,
+          "sos_rating": null,
           "win_pct": 59.26,
           "wins": 16
         }
@@ -25797,9 +25441,16 @@
         },
         "fall_softball": {
           "def_rating": 6.6465,
+          "games_played": 35,
+          "losses": 12,
           "off_rating": 2.7242,
           "ovr_rating": 9.37,
-          "sos_rating": null
+          "papg": 2.29,
+          "pdpg": 4.14,
+          "ppg": 6.43,
+          "sos_rating": null,
+          "win_pct": 65.71,
+          "wins": 23
         },
         "football": {
           "def_rating": 16.25,
@@ -25849,21 +25500,6 @@
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
-        }
-      }
-    },
-    "neosho-with-neosho-christian": {
-      "mshsaa_name": "Neosho with Neosho Christian",
-      "name": "Neosho with Neosho Christian",
-      "sports": {
-        "fall_softball": {
-          "games_played": 35,
-          "losses": 12,
-          "papg": 2.29,
-          "pdpg": 4.14,
-          "ppg": 6.43,
-          "win_pct": 65.71,
-          "wins": 23
         }
       }
     },
@@ -26103,9 +25739,16 @@
         },
         "fall_softball": {
           "def_rating": 2.2881,
+          "games_played": 23,
+          "losses": 4,
           "off_rating": 1.3007,
           "ovr_rating": 3.59,
-          "sos_rating": null
+          "papg": 2.74,
+          "pdpg": 7.96,
+          "ppg": 10.7,
+          "sos_rating": null,
+          "win_pct": 82.61,
+          "wins": 19
         },
         "girls_basketball": {
           "def_rating": -8.53,
@@ -26142,21 +25785,6 @@
           "sos_rating": null,
           "win_pct": 77.78,
           "wins": 28
-        }
-      }
-    },
-    "new-covenant-academy-with-greenwood": {
-      "mshsaa_name": "New Covenant Academy with Greenwood",
-      "name": "New Covenant Academy with Greenwood",
-      "sports": {
-        "fall_softball": {
-          "games_played": 23,
-          "losses": 4,
-          "papg": 2.74,
-          "pdpg": 7.96,
-          "ppg": 10.7,
-          "win_pct": 82.61,
-          "wins": 19
         }
       }
     },
@@ -26303,6 +25931,15 @@
           "win_pct": 75.86,
           "wins": 22
         },
+        "boys_soccer": {
+          "games_played": 24,
+          "losses": 19,
+          "papg": 2.71,
+          "pdpg": -1.0,
+          "ppg": 1.71,
+          "win_pct": 20.83,
+          "wins": 5
+        },
         "football": {
           "games_played": 10,
           "losses": 9,
@@ -26324,6 +25961,19 @@
           "sos_rating": null,
           "win_pct": 53.85,
           "wins": 14
+        },
+        "girls_soccer": {
+          "def_rating": -2.56,
+          "games_played": 16,
+          "losses": 12,
+          "off_rating": -3.05,
+          "ovr_rating": -5.61,
+          "papg": 3.13,
+          "pdpg": -1.88,
+          "ppg": 1.25,
+          "sos_rating": null,
+          "win_pct": 25.0,
+          "wins": 4
         },
         "girls_volleyball": {
           "games_played": 29,
@@ -26361,34 +26011,6 @@
           "off_rating": null,
           "ovr_rating": 0.07,
           "sos_rating": null
-        }
-      }
-    },
-    "new-heights-christian-with-mcauley-catholic": {
-      "mshsaa_name": "New Heights Christian with McAuley Catholic",
-      "name": "New Heights Christian with McAuley Catholic",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 24,
-          "losses": 19,
-          "papg": 2.71,
-          "pdpg": -1.0,
-          "ppg": 1.71,
-          "win_pct": 20.83,
-          "wins": 5
-        },
-        "girls_soccer": {
-          "def_rating": -2.56,
-          "games_played": 16,
-          "losses": 12,
-          "off_rating": -3.05,
-          "ovr_rating": -5.61,
-          "papg": 3.13,
-          "pdpg": -1.88,
-          "ppg": 1.25,
-          "sos_rating": null,
-          "win_pct": 25.0,
-          "wins": 4
         }
       }
     },
@@ -26437,9 +26059,9 @@
         }
       }
     },
-    "newtown-harris-with-grundy-county,-tri-county": {
+    "newtown-harris": {
       "mshsaa_name": "Newtown-Harris with Grundy County, Tri-County",
-      "name": "Newtown-Harris with Grundy County, Tri-County",
+      "name": "Newtown-Harris",
       "sports": {
         "baseball": {
           "def_rating": -5.46,
@@ -26637,9 +26259,16 @@
         },
         "fall_softball": {
           "def_rating": -5.248,
+          "games_played": 20,
+          "losses": 8,
           "off_rating": -1.5651,
           "ovr_rating": -6.81,
-          "sos_rating": null
+          "papg": 8.2,
+          "pdpg": 1.7,
+          "ppg": 9.9,
+          "sos_rating": null,
+          "win_pct": 60.0,
+          "wins": 12
         },
         "girls_basketball": {
           "def_rating": -10.71,
@@ -26653,21 +26282,6 @@
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 15
-        }
-      }
-    },
-    "norborne-with-hardin-central": {
-      "mshsaa_name": "Norborne with Hardin-Central",
-      "name": "Norborne with Hardin-Central",
-      "sports": {
-        "fall_softball": {
-          "games_played": 20,
-          "losses": 8,
-          "papg": 8.2,
-          "pdpg": 1.7,
-          "ppg": 9.9,
-          "win_pct": 60.0,
-          "wins": 12
         }
       }
     },
@@ -27677,9 +27291,22 @@
       }
     },
     "northeast-nodaway": {
-      "mshsaa_name": "Northeast Nodaway",
+      "mshsaa_name": "Northeast Nodaway with Worth County",
       "name": "Northeast Nodaway",
       "sports": {
+        "baseball": {
+          "def_rating": -3.78,
+          "games_played": 17,
+          "losses": 8,
+          "off_rating": -2.13,
+          "ovr_rating": -5.91,
+          "papg": 7.41,
+          "pdpg": -0.23,
+          "ppg": 7.18,
+          "sos_rating": null,
+          "win_pct": 52.94,
+          "wins": 9
+        },
         "boys_basketball": {
           "def_rating": -12.57,
           "games_played": 21,
@@ -27721,25 +27348,6 @@
         }
       }
     },
-    "northeast-nodaway-with-worth-county": {
-      "mshsaa_name": "Northeast Nodaway with Worth County",
-      "name": "Northeast Nodaway with Worth County",
-      "sports": {
-        "baseball": {
-          "def_rating": -3.78,
-          "games_played": 17,
-          "losses": 8,
-          "off_rating": -2.13,
-          "ovr_rating": -5.91,
-          "papg": 7.41,
-          "pdpg": -0.23,
-          "ppg": 7.18,
-          "sos_rating": null,
-          "win_pct": 52.94,
-          "wins": 9
-        }
-      }
-    },
     "northeast-vernon-county": {
       "mshsaa_name": "Northeast Vernon County",
       "name": "Northeast Vernon County",
@@ -27759,9 +27367,16 @@
         },
         "girls_basketball": {
           "def_rating": -13.88,
+          "games_played": 26,
+          "losses": 16,
           "off_rating": -11.38,
           "ovr_rating": -25.26,
-          "sos_rating": null
+          "papg": 44.19,
+          "pdpg": -3.61,
+          "ppg": 40.58,
+          "sos_rating": null,
+          "win_pct": 38.46,
+          "wins": 10
         },
         "girls_volleyball": {
           "def_rating": null,
@@ -27772,21 +27387,6 @@
           "sos_rating": null,
           "win_pct": 13.64,
           "wins": 3
-        }
-      }
-    },
-    "northeast-vernon-county-with-rich-hill": {
-      "mshsaa_name": "Northeast Vernon County with Rich Hill",
-      "name": "Northeast Vernon County with Rich Hill",
-      "sports": {
-        "girls_basketball": {
-          "games_played": 26,
-          "losses": 16,
-          "papg": 44.19,
-          "pdpg": -3.61,
-          "ppg": 40.58,
-          "win_pct": 38.46,
-          "wins": 10
         }
       }
     },
@@ -28093,23 +27693,8 @@
       }
     },
     "northwestern-(mendon)": {
-      "mshsaa_name": "Northwestern (Mendon)",
-      "name": "Northwestern (Mendon)",
-      "sports": {
-        "boys_basketball": {
-          "games_played": 26,
-          "losses": 12,
-          "papg": 53.12,
-          "pdpg": 3.03,
-          "ppg": 56.15,
-          "win_pct": 53.85,
-          "wins": 14
-        }
-      }
-    },
-    "northwestern-(mendon)-with-brunswick,-keytesville": {
       "mshsaa_name": "Northwestern (Mendon) with Brunswick, Keytesville",
-      "name": "Northwestern (Mendon) with Brunswick, Keytesville",
+      "name": "Northwestern (Mendon)",
       "sports": {
         "baseball": {
           "def_rating": -1.95,
@@ -28123,13 +27708,16 @@
           "sos_rating": null,
           "win_pct": 83.33,
           "wins": 15
-        }
-      }
-    },
-    "northwestern-(mendon)-with-keytesville": {
-      "mshsaa_name": "Northwestern (Mendon) with Keytesville",
-      "name": "Northwestern (Mendon) with Keytesville",
-      "sports": {
+        },
+        "boys_basketball": {
+          "games_played": 26,
+          "losses": 12,
+          "papg": 53.12,
+          "pdpg": 3.03,
+          "ppg": 56.15,
+          "win_pct": 53.85,
+          "wins": 14
+        },
         "girls_basketball": {
           "games_played": 27,
           "losses": 23,
@@ -29309,20 +28897,8 @@
       }
     },
     "osborn": {
-      "mshsaa_name": "Osborn",
-      "name": "Osborn",
-      "sports": {
-        "girls_basketball": {
-          "def_rating": -3.76,
-          "off_rating": -25.7,
-          "ovr_rating": -29.45,
-          "sos_rating": null
-        }
-      }
-    },
-    "osborn-with-stewartsville": {
       "mshsaa_name": "Osborn with Stewartsville",
-      "name": "Osborn with Stewartsville",
+      "name": "Osborn",
       "sports": {
         "baseball": {
           "def_rating": -5.03,
@@ -29338,11 +28914,15 @@
           "wins": 4
         },
         "girls_basketball": {
+          "def_rating": -3.76,
           "games_played": 27,
           "losses": 21,
+          "off_rating": -25.7,
+          "ovr_rating": -29.45,
           "papg": 37.04,
           "pdpg": -12.23,
           "ppg": 24.81,
+          "sos_rating": null,
           "win_pct": 22.22,
           "wins": 6
         }
@@ -29876,39 +29456,6 @@
       "mshsaa_name": "Paris",
       "name": "Paris",
       "sports": {
-        "boys_basketball": {
-          "def_rating": 4.31,
-          "off_rating": -11.62,
-          "ovr_rating": -7.31,
-          "sos_rating": null
-        },
-        "fall_softball": {
-          "def_rating": 2.5219,
-          "off_rating": -0.1606,
-          "ovr_rating": 2.36,
-          "sos_rating": null
-        },
-        "football": {
-          "games_played": 10,
-          "losses": 4,
-          "papg": 23.2,
-          "pdpg": 20.1,
-          "ppg": 43.3,
-          "win_pct": 60.0,
-          "wins": 6
-        },
-        "girls_basketball": {
-          "def_rating": 6.42,
-          "off_rating": 6.76,
-          "ovr_rating": 13.18,
-          "sos_rating": null
-        }
-      }
-    },
-    "paris-with-faith-walk": {
-      "mshsaa_name": "Paris with Faith Walk",
-      "name": "Paris with Faith Walk",
-      "sports": {
         "baseball": {
           "def_rating": -2.49,
           "games_played": 21,
@@ -29923,29 +29470,50 @@
           "wins": 11
         },
         "boys_basketball": {
+          "def_rating": 4.31,
           "games_played": 29,
           "losses": 10,
+          "off_rating": -11.62,
+          "ovr_rating": -7.31,
           "papg": 44.14,
           "pdpg": 5.31,
           "ppg": 49.45,
+          "sos_rating": null,
           "win_pct": 65.52,
           "wins": 19
         },
         "fall_softball": {
+          "def_rating": 2.5219,
           "games_played": 25,
           "losses": 4,
+          "off_rating": -0.1606,
+          "ovr_rating": 2.36,
           "papg": 2.96,
           "pdpg": 5.04,
           "ppg": 8,
+          "sos_rating": null,
           "win_pct": 84.0,
           "wins": 21
         },
+        "football": {
+          "games_played": 10,
+          "losses": 4,
+          "papg": 23.2,
+          "pdpg": 20.1,
+          "ppg": 43.3,
+          "win_pct": 60.0,
+          "wins": 6
+        },
         "girls_basketball": {
+          "def_rating": 6.42,
           "games_played": 29,
           "losses": 7,
+          "off_rating": 6.76,
+          "ovr_rating": 13.18,
           "papg": 39.69,
           "pdpg": 11.86,
           "ppg": 51.55,
+          "sos_rating": null,
           "win_pct": 75.86,
           "wins": 22
         }
@@ -30772,6 +30340,19 @@
       "mshsaa_name": "Pattonsburg",
       "name": "Pattonsburg",
       "sports": {
+        "baseball": {
+          "def_rating": -7.04,
+          "games_played": 13,
+          "losses": 11,
+          "off_rating": -7.51,
+          "ovr_rating": -14.56,
+          "papg": 8.92,
+          "pdpg": -6.92,
+          "ppg": 2,
+          "sos_rating": null,
+          "win_pct": 15.38,
+          "wins": 2
+        },
         "boys_basketball": {
           "def_rating": -8.74,
           "games_played": 29,
@@ -30787,9 +30368,16 @@
         },
         "fall_softball": {
           "def_rating": -3.5645,
+          "games_played": 23,
+          "losses": 11,
           "off_rating": -1.2741,
           "ovr_rating": -4.84,
-          "sos_rating": null
+          "papg": 8.13,
+          "pdpg": -0.22,
+          "ppg": 7.91,
+          "sos_rating": null,
+          "win_pct": 52.17,
+          "wins": 12
         },
         "football": {
           "games_played": 10,
@@ -30812,34 +30400,6 @@
           "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
-        }
-      }
-    },
-    "pattonsburg-with-winston": {
-      "mshsaa_name": "Pattonsburg with Winston",
-      "name": "Pattonsburg with Winston",
-      "sports": {
-        "baseball": {
-          "def_rating": -7.04,
-          "games_played": 13,
-          "losses": 11,
-          "off_rating": -7.51,
-          "ovr_rating": -14.56,
-          "papg": 8.92,
-          "pdpg": -6.92,
-          "ppg": 2,
-          "sos_rating": null,
-          "win_pct": 15.38,
-          "wins": 2
-        },
-        "fall_softball": {
-          "games_played": 23,
-          "losses": 11,
-          "papg": 8.13,
-          "pdpg": -0.22,
-          "ppg": 7.91,
-          "win_pct": 52.17,
-          "wins": 12
         }
       }
     },
@@ -31735,7 +31295,7 @@
       }
     },
     "pleasant-hope": {
-      "mshsaa_name": "Pleasant Hope",
+      "mshsaa_name": "Pleasant Hope with Halfway, Marion C. Early",
       "name": "Pleasant Hope",
       "sports": {
         "baseball": {
@@ -31763,6 +31323,19 @@
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 14
+        },
+        "football": {
+          "def_rating": -67.14,
+          "games_played": 10,
+          "losses": 10,
+          "off_rating": -33.18,
+          "ovr_rating": -100.32,
+          "papg": 52.7,
+          "pdpg": -48.5,
+          "ppg": 4.2,
+          "sos_rating": null,
+          "win_pct": 0.0,
+          "wins": 0
         },
         "girls_basketball": {
           "def_rating": -11.75,
@@ -31799,25 +31372,6 @@
           "sos_rating": null,
           "win_pct": 39.13,
           "wins": 9
-        }
-      }
-    },
-    "pleasant-hope-with-halfway,-marion-c-early": {
-      "mshsaa_name": "Pleasant Hope with Halfway, Marion C. Early",
-      "name": "Pleasant Hope with Halfway, Marion C. Early",
-      "sports": {
-        "football": {
-          "def_rating": -67.14,
-          "games_played": 10,
-          "losses": 10,
-          "off_rating": -33.18,
-          "ovr_rating": -100.32,
-          "papg": 52.7,
-          "pdpg": -48.5,
-          "ppg": 4.2,
-          "sos_rating": null,
-          "win_pct": 0.0,
-          "wins": 0
         }
       }
     },
@@ -32064,13 +31618,7 @@
           "sos_rating": null,
           "win_pct": 81.58,
           "wins": 31
-        }
-      }
-    },
-    "portageville-with-risco": {
-      "mshsaa_name": "Portageville with Risco",
-      "name": "Portageville with Risco",
-      "sports": {
+        },
         "spring_softball": {
           "def_rating": 0.5,
           "games_played": 24,
@@ -32168,9 +31716,22 @@
       }
     },
     "prairie-home": {
-      "mshsaa_name": "Prairie Home",
+      "mshsaa_name": "Prairie Home with Bunceton",
       "name": "Prairie Home",
       "sports": {
+        "baseball": {
+          "def_rating": -8.41,
+          "games_played": 15,
+          "losses": 12,
+          "off_rating": -5.12,
+          "ovr_rating": -13.53,
+          "papg": 11.4,
+          "pdpg": -6.93,
+          "ppg": 4.47,
+          "sos_rating": null,
+          "win_pct": 20.0,
+          "wins": 3
+        },
         "boys_basketball": {
           "def_rating": -13.64,
           "games_played": 26,
@@ -32206,25 +31767,6 @@
           "sos_rating": null,
           "win_pct": 21.05,
           "wins": 4
-        }
-      }
-    },
-    "prairie-home-with-bunceton": {
-      "mshsaa_name": "Prairie Home with Bunceton",
-      "name": "Prairie Home with Bunceton",
-      "sports": {
-        "baseball": {
-          "def_rating": -8.41,
-          "games_played": 15,
-          "losses": 12,
-          "off_rating": -5.12,
-          "ovr_rating": -13.53,
-          "papg": 11.4,
-          "pdpg": -6.93,
-          "ppg": 4.47,
-          "sos_rating": null,
-          "win_pct": 20.0,
-          "wins": 3
         },
         "spring_softball": {
           "def_rating": -10.89,
@@ -32309,9 +31851,22 @@
       }
     },
     "principia": {
-      "mshsaa_name": "Principia",
+      "mshsaa_name": "Principia with Whitfield",
       "name": "Principia",
       "sports": {
+        "baseball": {
+          "def_rating": -2.23,
+          "games_played": 23,
+          "losses": 15,
+          "off_rating": -1.12,
+          "ovr_rating": -3.35,
+          "papg": 8.61,
+          "pdpg": -3.44,
+          "ppg": 5.17,
+          "sos_rating": null,
+          "win_pct": 34.78,
+          "wins": 8
+        },
         "boys_basketball": {
           "def_rating": 26.09,
           "games_played": 31,
@@ -32337,6 +31892,19 @@
           "sos_rating": null,
           "win_pct": 53.85,
           "wins": 14
+        },
+        "football": {
+          "def_rating": -37.8,
+          "games_played": 9,
+          "losses": 5,
+          "off_rating": -13.18,
+          "ovr_rating": -50.98,
+          "papg": 39.56,
+          "pdpg": 0.0,
+          "ppg": 39.56,
+          "sos_rating": null,
+          "win_pct": 44.44,
+          "wins": 4
         },
         "girls_basketball": {
           "def_rating": 21.68,
@@ -32373,38 +31941,6 @@
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 11
-        }
-      }
-    },
-    "principia-with-whitfield": {
-      "mshsaa_name": "Principia with Whitfield",
-      "name": "Principia with Whitfield",
-      "sports": {
-        "baseball": {
-          "def_rating": -2.23,
-          "games_played": 23,
-          "losses": 15,
-          "off_rating": -1.12,
-          "ovr_rating": -3.35,
-          "papg": 8.61,
-          "pdpg": -3.44,
-          "ppg": 5.17,
-          "sos_rating": null,
-          "win_pct": 34.78,
-          "wins": 8
-        },
-        "football": {
-          "def_rating": -37.8,
-          "games_played": 9,
-          "losses": 5,
-          "off_rating": -13.18,
-          "ovr_rating": -50.98,
-          "papg": 39.56,
-          "pdpg": 0.0,
-          "ppg": 39.56,
-          "sos_rating": null,
-          "win_pct": 44.44,
-          "wins": 4
         }
       }
     },
@@ -34570,6 +34106,19 @@
       "mshsaa_name": "Santa Fe",
       "name": "Santa Fe",
       "sports": {
+        "baseball": {
+          "def_rating": -4.65,
+          "games_played": 18,
+          "losses": 14,
+          "off_rating": -3.56,
+          "ovr_rating": -8.2,
+          "papg": 9.17,
+          "pdpg": -3.89,
+          "ppg": 5.28,
+          "sos_rating": null,
+          "win_pct": 22.22,
+          "wins": 4
+        },
         "boys_basketball": {
           "def_rating": -16.21,
           "games_played": 26,
@@ -34627,25 +34176,6 @@
           "sos_rating": null,
           "win_pct": 36.84,
           "wins": 7
-        }
-      }
-    },
-    "santa-fe-with-norborne": {
-      "mshsaa_name": "Santa Fe with Norborne",
-      "name": "Santa Fe with Norborne",
-      "sports": {
-        "baseball": {
-          "def_rating": -4.65,
-          "games_played": 18,
-          "losses": 14,
-          "off_rating": -3.56,
-          "ovr_rating": -8.2,
-          "papg": 9.17,
-          "pdpg": -3.89,
-          "ppg": 5.28,
-          "sos_rating": null,
-          "win_pct": 22.22,
-          "wins": 4
         }
       }
     },
@@ -34869,15 +34399,29 @@
         },
         "boys_soccer": {
           "def_rating": -1.7935,
+          "games_played": 17,
+          "losses": 12,
           "off_rating": -0.4966,
           "ovr_rating": -2.29,
-          "sos_rating": null
+          "papg": 3.88,
+          "pdpg": -1.59,
+          "ppg": 2.29,
+          "sos_rating": null,
+          "win_pct": 29.41,
+          "wins": 5
         },
         "fall_softball": {
           "def_rating": 1.9491,
+          "games_played": 23,
+          "losses": 7,
           "off_rating": 1.9946,
           "ovr_rating": 3.94,
-          "sos_rating": null
+          "papg": 4,
+          "pdpg": 5,
+          "ppg": 9,
+          "sos_rating": null,
+          "win_pct": 69.57,
+          "wins": 16
         },
         "football": {
           "def_rating": -27.73,
@@ -34927,30 +34471,6 @@
           "sos_rating": null,
           "win_pct": 46.15,
           "wins": 18
-        }
-      }
-    },
-    "saxony-lutheran-with-st-vincent": {
-      "mshsaa_name": "Saxony Lutheran with St. Vincent",
-      "name": "Saxony Lutheran with St. Vincent",
-      "sports": {
-        "boys_soccer": {
-          "games_played": 17,
-          "losses": 12,
-          "papg": 3.88,
-          "pdpg": -1.59,
-          "ppg": 2.29,
-          "win_pct": 29.41,
-          "wins": 5
-        },
-        "fall_softball": {
-          "games_played": 23,
-          "losses": 7,
-          "papg": 4,
-          "pdpg": 5,
-          "ppg": 9,
-          "win_pct": 69.57,
-          "wins": 16
         }
       }
     },
@@ -35135,7 +34655,7 @@
       }
     },
     "scott-city": {
-      "mshsaa_name": "Scott City",
+      "mshsaa_name": "Scott City with Chaffee",
       "name": "Scott City",
       "sports": {
         "baseball": {
@@ -35163,6 +34683,19 @@
           "sos_rating": null,
           "win_pct": 82.14,
           "wins": 23
+        },
+        "football": {
+          "def_rating": -7.51,
+          "games_played": 10,
+          "losses": 4,
+          "off_rating": -5.25,
+          "ovr_rating": -12.76,
+          "papg": 22.8,
+          "pdpg": 6.7,
+          "ppg": 29.5,
+          "sos_rating": null,
+          "win_pct": 60.0,
+          "wins": 6
         },
         "girls_basketball": {
           "def_rating": -7.76,
@@ -35199,25 +34732,6 @@
           "sos_rating": null,
           "win_pct": 52.0,
           "wins": 13
-        }
-      }
-    },
-    "scott-city-with-chaffee": {
-      "mshsaa_name": "Scott City with Chaffee",
-      "name": "Scott City with Chaffee",
-      "sports": {
-        "football": {
-          "def_rating": -7.51,
-          "games_played": 10,
-          "losses": 4,
-          "off_rating": -5.25,
-          "ovr_rating": -12.76,
-          "papg": 22.8,
-          "pdpg": 6.7,
-          "ppg": 29.5,
-          "sos_rating": null,
-          "win_pct": 60.0,
-          "wins": 6
         }
       }
     },
@@ -35991,9 +35505,16 @@
         },
         "fall_softball": {
           "def_rating": -4.3316,
+          "games_played": 20,
+          "losses": 13,
           "off_rating": -2.5024,
           "ovr_rating": -6.83,
-          "sos_rating": null
+          "papg": 9.1,
+          "pdpg": -3.15,
+          "ppg": 5.95,
+          "sos_rating": null,
+          "win_pct": 35.0,
+          "wins": 7
         },
         "football": {
           "games_played": 10,
@@ -36006,31 +35527,14 @@
         },
         "girls_basketball": {
           "def_rating": -9.38,
-          "off_rating": -16.06,
-          "ovr_rating": -25.45,
-          "sos_rating": null
-        }
-      }
-    },
-    "slater-with-malta-bend": {
-      "mshsaa_name": "Slater with Malta Bend",
-      "name": "Slater with Malta Bend",
-      "sports": {
-        "fall_softball": {
-          "games_played": 20,
-          "losses": 13,
-          "papg": 9.1,
-          "pdpg": -3.15,
-          "ppg": 5.95,
-          "win_pct": 35.0,
-          "wins": 7
-        },
-        "girls_basketball": {
           "games_played": 26,
           "losses": 16,
+          "off_rating": -16.06,
+          "ovr_rating": -25.45,
           "papg": 48.85,
           "pdpg": -17.47,
           "ppg": 31.38,
+          "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
         }
@@ -36683,33 +36187,6 @@
       "mshsaa_name": "South Nodaway",
       "name": "South Nodaway",
       "sports": {
-        "boys_basketball": {
-          "def_rating": -9.88,
-          "off_rating": -7.94,
-          "ovr_rating": -17.82,
-          "sos_rating": null
-        },
-        "football": {
-          "games_played": 10,
-          "losses": 6,
-          "papg": 43.6,
-          "pdpg": -5.6,
-          "ppg": 38,
-          "win_pct": 40.0,
-          "wins": 4
-        },
-        "girls_basketball": {
-          "def_rating": -0.13,
-          "off_rating": -5.05,
-          "ovr_rating": -5.18,
-          "sos_rating": null
-        }
-      }
-    },
-    "south-nodaway-with-jefferson-(conception)": {
-      "mshsaa_name": "South Nodaway with Jefferson (Conception)",
-      "name": "South Nodaway with Jefferson (Conception)",
-      "sports": {
         "baseball": {
           "def_rating": -6.62,
           "games_played": 18,
@@ -36724,20 +36201,37 @@
           "wins": 5
         },
         "boys_basketball": {
+          "def_rating": -9.88,
           "games_played": 28,
           "losses": 18,
+          "off_rating": -7.94,
+          "ovr_rating": -17.82,
           "papg": 58.68,
           "pdpg": -8.54,
           "ppg": 50.14,
+          "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
         },
+        "football": {
+          "games_played": 10,
+          "losses": 6,
+          "papg": 43.6,
+          "pdpg": -5.6,
+          "ppg": 38,
+          "win_pct": 40.0,
+          "wins": 4
+        },
         "girls_basketball": {
+          "def_rating": -0.13,
           "games_played": 28,
           "losses": 16,
+          "off_rating": -5.05,
+          "ovr_rating": -5.18,
           "papg": 40.04,
           "pdpg": -0.15,
           "ppg": 39.89,
+          "sos_rating": null,
           "win_pct": 42.86,
           "wins": 12
         }
@@ -37073,9 +36567,9 @@
         }
       }
     },
-    "southwest-(livingston-county)-with-breckenridge": {
+    "southwest-(livingston-county)": {
       "mshsaa_name": "Southwest (Livingston County) with Breckenridge",
-      "name": "Southwest (Livingston County) with Breckenridge",
+      "name": "Southwest (Livingston County)",
       "sports": {
         "boys_basketball": {
           "games_played": 26,
@@ -39337,13 +38831,7 @@
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 15
-        }
-      }
-    },
-    "steelville-with-viburnum": {
-      "mshsaa_name": "Steelville with Viburnum",
-      "name": "Steelville with Viburnum",
-      "sports": {
+        },
         "spring_softball": {
           "def_rating": -12.32,
           "games_played": 14,
@@ -39365,15 +38853,29 @@
       "sports": {
         "boys_basketball": {
           "def_rating": -0.13,
+          "games_played": 29,
+          "losses": 8,
           "off_rating": -4.01,
           "ovr_rating": -4.14,
-          "sos_rating": null
+          "papg": 45.79,
+          "pdpg": 10.59,
+          "ppg": 56.38,
+          "sos_rating": null,
+          "win_pct": 72.41,
+          "wins": 21
         },
         "fall_softball": {
           "def_rating": -9.1218,
+          "games_played": 17,
+          "losses": 15,
           "off_rating": -4.6035,
           "ovr_rating": -13.73,
-          "sos_rating": null
+          "papg": 13.88,
+          "pdpg": -9.41,
+          "ppg": 4.47,
+          "sos_rating": null,
+          "win_pct": 11.76,
+          "wins": 2
         },
         "football": {
           "games_played": 11,
@@ -39386,32 +38888,8 @@
         }
       }
     },
-    "stewartsville-with-osborn": {
-      "mshsaa_name": "Stewartsville with Osborn",
-      "name": "Stewartsville with Osborn",
-      "sports": {
-        "boys_basketball": {
-          "games_played": 29,
-          "losses": 8,
-          "papg": 45.79,
-          "pdpg": 10.59,
-          "ppg": 56.38,
-          "win_pct": 72.41,
-          "wins": 21
-        },
-        "fall_softball": {
-          "games_played": 17,
-          "losses": 15,
-          "papg": 13.88,
-          "pdpg": -9.41,
-          "ppg": 4.47,
-          "win_pct": 11.76,
-          "wins": 2
-        }
-      }
-    },
     "stockton": {
-      "mshsaa_name": "Stockton",
+      "mshsaa_name": "Stockton with Sheldon",
       "name": "Stockton",
       "sports": {
         "baseball": {
@@ -39440,6 +38918,19 @@
           "win_pct": 78.57,
           "wins": 22
         },
+        "football": {
+          "def_rating": -15.71,
+          "games_played": 11,
+          "losses": 4,
+          "off_rating": -11.62,
+          "ovr_rating": -27.33,
+          "papg": 28.27,
+          "pdpg": 1.46,
+          "ppg": 29.73,
+          "sos_rating": null,
+          "win_pct": 63.64,
+          "wins": 7
+        },
         "girls_basketball": {
           "def_rating": 2.3,
           "games_played": 26,
@@ -39462,13 +38953,7 @@
           "sos_rating": null,
           "win_pct": 17.86,
           "wins": 5
-        }
-      }
-    },
-    "stockton-with-fair-play": {
-      "mshsaa_name": "Stockton with Fair Play",
-      "name": "Stockton with Fair Play",
-      "sports": {
+        },
         "spring_softball": {
           "def_rating": 2.82,
           "games_played": 23,
@@ -39481,25 +38966,6 @@
           "sos_rating": null,
           "win_pct": 26.09,
           "wins": 6
-        }
-      }
-    },
-    "stockton-with-sheldon": {
-      "mshsaa_name": "Stockton with Sheldon",
-      "name": "Stockton with Sheldon",
-      "sports": {
-        "football": {
-          "def_rating": -15.71,
-          "games_played": 11,
-          "losses": 4,
-          "off_rating": -11.62,
-          "ovr_rating": -27.33,
-          "papg": 28.27,
-          "pdpg": 1.46,
-          "ppg": 29.73,
-          "sos_rating": null,
-          "win_pct": 63.64,
-          "wins": 7
         }
       }
     },
@@ -39617,6 +39083,19 @@
           "win_pct": 66.67,
           "wins": 18
         },
+        "girls_soccer": {
+          "def_rating": -2.16,
+          "games_played": 21,
+          "losses": 11,
+          "off_rating": -2.82,
+          "ovr_rating": -4.98,
+          "papg": 2.62,
+          "pdpg": -0.95,
+          "ppg": 1.67,
+          "sos_rating": null,
+          "win_pct": 47.62,
+          "wins": 10
+        },
         "girls_volleyball": {
           "def_rating": null,
           "games_played": 33,
@@ -39639,25 +39118,6 @@
           "sos_rating": null,
           "win_pct": 36.36,
           "wins": 4
-        }
-      }
-    },
-    "stover-with-cole-camp": {
-      "mshsaa_name": "Stover with Cole Camp",
-      "name": "Stover with Cole Camp",
-      "sports": {
-        "girls_soccer": {
-          "def_rating": -2.16,
-          "games_played": 21,
-          "losses": 11,
-          "off_rating": -2.82,
-          "ovr_rating": -4.98,
-          "papg": 2.62,
-          "pdpg": -0.95,
-          "ppg": 1.67,
-          "sos_rating": null,
-          "win_pct": 47.62,
-          "wins": 10
         }
       }
     },
@@ -40171,9 +39631,16 @@
       "sports": {
         "boys_basketball": {
           "def_rating": 0.18,
+          "games_played": 27,
+          "losses": 10,
           "off_rating": -6.06,
           "ovr_rating": -5.88,
-          "sos_rating": null
+          "papg": 43.37,
+          "pdpg": 13.93,
+          "ppg": 57.3,
+          "sos_rating": null,
+          "win_pct": 62.96,
+          "wins": 17
         },
         "football": {
           "games_played": 11,
@@ -40186,43 +39653,24 @@
         },
         "girls_basketball": {
           "def_rating": -4.87,
-          "off_rating": -10.6,
-          "ovr_rating": -15.47,
-          "sos_rating": null
-        },
-        "girls_volleyball": {
-          "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -1.28,
-          "sos_rating": null
-        }
-      }
-    },
-    "tarkio-with-fairfax": {
-      "mshsaa_name": "Tarkio with Fairfax",
-      "name": "Tarkio with Fairfax",
-      "sports": {
-        "boys_basketball": {
-          "games_played": 27,
-          "losses": 10,
-          "papg": 43.37,
-          "pdpg": 13.93,
-          "ppg": 57.3,
-          "win_pct": 62.96,
-          "wins": 17
-        },
-        "girls_basketball": {
           "games_played": 27,
           "losses": 17,
+          "off_rating": -10.6,
+          "ovr_rating": -15.47,
           "papg": 42.44,
           "pdpg": -6.92,
           "ppg": 35.52,
+          "sos_rating": null,
           "win_pct": 37.04,
           "wins": 10
         },
         "girls_volleyball": {
+          "def_rating": null,
           "games_played": 26,
           "losses": 18,
+          "off_rating": null,
+          "ovr_rating": -1.28,
+          "sos_rating": null,
           "win_pct": 29.63,
           "wins": 8
         }
@@ -40509,9 +39957,16 @@
         },
         "fall_softball": {
           "def_rating": -6.9836,
+          "games_played": 24,
+          "losses": 17,
           "off_rating": -6.8991,
           "ovr_rating": -13.88,
-          "sos_rating": null
+          "papg": 9.88,
+          "pdpg": -5.05,
+          "ppg": 4.83,
+          "sos_rating": null,
+          "win_pct": 29.17,
+          "wins": 7
         },
         "girls_basketball": {
           "def_rating": -15.25,
@@ -40544,21 +39999,6 @@
           "sos_rating": null,
           "win_pct": 13.33,
           "wins": 2
-        }
-      }
-    },
-    "tina-avalon-with-southwest-(livingston-county)": {
-      "mshsaa_name": "Tina-Avalon with Southwest (Livingston County)",
-      "name": "Tina-Avalon with Southwest (Livingston County)",
-      "sports": {
-        "fall_softball": {
-          "games_played": 24,
-          "losses": 17,
-          "papg": 9.88,
-          "pdpg": -5.05,
-          "ppg": 4.83,
-          "win_pct": 29.17,
-          "wins": 7
         }
       }
     },
@@ -41222,28 +40662,33 @@
         },
         "girls_volleyball": {
           "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": -2.39,
-          "sos_rating": null
-        }
-      }
-    },
-    "union-star-with-king-city": {
-      "mshsaa_name": "Union Star with King City",
-      "name": "Union Star with King City",
-      "sports": {
-        "girls_volleyball": {
           "games_played": 23,
           "losses": 18,
+          "off_rating": null,
+          "ovr_rating": -2.39,
+          "sos_rating": null,
           "win_pct": 20.83,
           "wins": 5
         }
       }
     },
     "university-academy-charter": {
-      "mshsaa_name": "University Academy Charter",
+      "mshsaa_name": "University Academy Charter with Ewing Marion Kauffman",
       "name": "University Academy Charter",
       "sports": {
+        "baseball": {
+          "def_rating": -6.41,
+          "games_played": 20,
+          "losses": 17,
+          "off_rating": -3.41,
+          "ovr_rating": -9.82,
+          "papg": 13.1,
+          "pdpg": -8.8,
+          "ppg": 4.3,
+          "sos_rating": null,
+          "win_pct": 15.0,
+          "wins": 3
+        },
         "boys_basketball": {
           "def_rating": 1.31,
           "games_played": 28,
@@ -41256,6 +40701,19 @@
           "sos_rating": null,
           "win_pct": 64.29,
           "wins": 18
+        },
+        "football": {
+          "def_rating": 8.07,
+          "games_played": 10,
+          "losses": 5,
+          "off_rating": -9.41,
+          "ovr_rating": -1.35,
+          "papg": 15.7,
+          "pdpg": 7.1,
+          "ppg": 22.8,
+          "sos_rating": null,
+          "win_pct": 50.0,
+          "wins": 5
         },
         "girls_basketball": {
           "def_rating": 5.71,
@@ -41279,38 +40737,6 @@
           "sos_rating": null,
           "win_pct": 60.61,
           "wins": 20
-        }
-      }
-    },
-    "university-academy-charter-with-ewing-marion-kauffman": {
-      "mshsaa_name": "University Academy Charter with Ewing Marion Kauffman",
-      "name": "University Academy Charter with Ewing Marion Kauffman",
-      "sports": {
-        "baseball": {
-          "def_rating": -6.41,
-          "games_played": 20,
-          "losses": 17,
-          "off_rating": -3.41,
-          "ovr_rating": -9.82,
-          "papg": 13.1,
-          "pdpg": -8.8,
-          "ppg": 4.3,
-          "sos_rating": null,
-          "win_pct": 15.0,
-          "wins": 3
-        },
-        "football": {
-          "def_rating": 8.07,
-          "games_played": 10,
-          "losses": 5,
-          "off_rating": -9.41,
-          "ovr_rating": -1.35,
-          "papg": 15.7,
-          "pdpg": 7.1,
-          "ppg": 22.8,
-          "sos_rating": null,
-          "win_pct": 50.0,
-          "wins": 5
         }
       }
     },
@@ -41521,9 +40947,16 @@
         },
         "girls_basketball": {
           "def_rating": -6.65,
+          "games_played": 26,
+          "losses": 17,
           "off_rating": -3.21,
           "ovr_rating": -9.86,
-          "sos_rating": null
+          "papg": 52,
+          "pdpg": -6.46,
+          "ppg": 45.54,
+          "sos_rating": null,
+          "win_pct": 34.62,
+          "wins": 9
         },
         "girls_volleyball": {
           "def_rating": null,
@@ -41547,21 +40980,6 @@
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 10
-        }
-      }
-    },
-    "valle-catholic-with-st-paul-lutheran-(farmington)": {
-      "mshsaa_name": "Valle Catholic with St. Paul Lutheran (Farmington)",
-      "name": "Valle Catholic with St. Paul Lutheran (Farmington)",
-      "sports": {
-        "girls_basketball": {
-          "games_played": 26,
-          "losses": 17,
-          "papg": 52,
-          "pdpg": -6.46,
-          "ppg": 45.54,
-          "win_pct": 34.62,
-          "wins": 9
         }
       }
     },
@@ -42341,9 +41759,16 @@
         },
         "fall_softball": {
           "def_rating": 0.9196,
+          "games_played": 22,
+          "losses": 10,
           "off_rating": -0.9323,
           "ovr_rating": -0.01,
-          "sos_rating": null
+          "papg": 4.77,
+          "pdpg": 2.87,
+          "ppg": 7.64,
+          "sos_rating": null,
+          "win_pct": 54.55,
+          "wins": 12
         },
         "girls_basketball": {
           "def_rating": 3.31,
@@ -42357,21 +41782,6 @@
           "sos_rating": null,
           "win_pct": 59.26,
           "wins": 16
-        }
-      }
-    },
-    "vienna-with-belle": {
-      "mshsaa_name": "Vienna with Belle",
-      "name": "Vienna with Belle",
-      "sports": {
-        "fall_softball": {
-          "games_played": 22,
-          "losses": 10,
-          "papg": 4.77,
-          "pdpg": 2.87,
-          "ppg": 7.64,
-          "win_pct": 54.55,
-          "wins": 12
         }
       }
     },
@@ -43505,39 +42915,6 @@
       "mshsaa_name": "West Nodaway",
       "name": "West Nodaway",
       "sports": {
-        "boys_basketball": {
-          "def_rating": 4.04,
-          "off_rating": -0.05,
-          "ovr_rating": 3.99,
-          "sos_rating": null
-        },
-        "football": {
-          "games_played": 11,
-          "losses": 2,
-          "papg": 22.91,
-          "pdpg": 35.27,
-          "ppg": 58.18,
-          "win_pct": 81.82,
-          "wins": 9
-        },
-        "girls_basketball": {
-          "def_rating": -3.99,
-          "off_rating": -6.97,
-          "ovr_rating": -10.95,
-          "sos_rating": null
-        },
-        "girls_volleyball": {
-          "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": 0.14,
-          "sos_rating": null
-        }
-      }
-    },
-    "west-nodaway-with-nodaway-holt": {
-      "mshsaa_name": "West Nodaway with Nodaway-Holt",
-      "name": "West Nodaway with Nodaway-Holt",
-      "sports": {
         "baseball": {
           "def_rating": -0.48,
           "games_played": 14,
@@ -43552,26 +42929,47 @@
           "wins": 11
         },
         "boys_basketball": {
+          "def_rating": 4.04,
           "games_played": 28,
           "losses": 4,
+          "off_rating": -0.05,
+          "ovr_rating": 3.99,
           "papg": 42.18,
           "pdpg": 17.71,
           "ppg": 59.89,
+          "sos_rating": null,
           "win_pct": 85.71,
           "wins": 24
         },
+        "football": {
+          "games_played": 11,
+          "losses": 2,
+          "papg": 22.91,
+          "pdpg": 35.27,
+          "ppg": 58.18,
+          "win_pct": 81.82,
+          "wins": 9
+        },
         "girls_basketball": {
+          "def_rating": -3.99,
           "games_played": 28,
           "losses": 17,
+          "off_rating": -6.97,
+          "ovr_rating": -10.95,
           "papg": 41.93,
           "pdpg": -5.57,
           "ppg": 36.36,
+          "sos_rating": null,
           "win_pct": 39.29,
           "wins": 11
         },
         "girls_volleyball": {
+          "def_rating": null,
           "games_played": 27,
           "losses": 9,
+          "off_rating": null,
+          "ovr_rating": 0.14,
+          "sos_rating": null,
           "win_pct": 66.67,
           "wins": 18
         }
