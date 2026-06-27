@@ -80,13 +80,41 @@ REQUEST_HEADERS = {
     )
 }
  
-# Expected column order on the MSHSAA season records table, based on the
-# header row: School | Class | District | PF | PA | PPG | OPPG | MOV |
-# Wins | Losses | Win% | Points
-EXPECTED_COLUMNS = [
-    "school", "classification", "district", "points_for", "points_against",
-    "ppg", "oppg", "mov", "wins", "losses", "win_pct", "mshsaa_points",
-]
+# Confirmed real structure (verified against actual page source, 2026-06-27):
+#   <tr class="fs_tablecolumn" data-classification="6" data-district="8">
+#     <td class="large">
+#       <span class="schoolicon" title="..."><img ...></span>
+#       <a href="/MySchool/Schedule.aspx?s=907&alg=19">Liberty North</a>
+#     </td>
+#     <td>...classification (repeated, text)...</td>
+#     <td>...district (repeated, text)...</td>
+#     <td>PF</td><td>PA</td><td>PPG</td><td>OPPG</td><td>MOV</td>
+#     <td>Wins</td><td>Losses</td><td>Win%</td><td>Points</td>
+#   </tr>
+# 12 <td> cells total. classification/district are ALSO present as row
+# attributes (data-classification, data-district) -- those are read
+# directly off the <tr> rather than parsed from cell text, since the
+# attribute is cleaner (e.g. "0" for 8-Man instead of the string "8-Man").
+# We keep the human-readable classification label too, since "0" isn't
+# meaningful on its own for an 8-Man team.
+ROW_SELECTOR_CLASS = "fs_tablecolumn"
+ 
+# td index (0-based) for each stat, AFTER the first (school name) cell.
+# Cell 0 = school name+logo, then 11 more stat cells in this order:
+CELL_INDEX = {
+    "classification_label": 1,
+    "district": 2,
+    "points_for": 3,
+    "points_against": 4,
+    "ppg": 5,
+    "oppg": 6,
+    "mov": 7,
+    "wins": 8,
+    "losses": 9,
+    "win_pct": 10,
+    "mshsaa_points": 11,
+}
+EXPECTED_CELL_COUNT = 12
  
  
 # ---------------------------------------------------------------------------
@@ -119,55 +147,64 @@ def parse_season_records_html(html):
     """
     Parse the MSHSAA season records table into a list of team dicts.
  
-    NOTE: the exact table/row selectors here are a best-effort guess
-    (ASP.NET GridView tables commonly render as <table id="...GridView...">
-    with plain <tr>/<td> rows, no special classes). If this returns zero
-    rows on a real run, open the page's "view source" in a browser, find
-    the actual table, and update the selector below accordingly -- the
-    rest of the parsing logic (cell order, number coercion) should not
-    need to change.
+    Selector confirmed against real page source: rows are
+    <tr class="fs_tablecolumn" data-classification="N" data-district="N">,
+    each containing exactly 12 <td> cells. See CELL_INDEX above for the
+    column mapping. The school name lives in the first cell alongside a
+    logo <img> inside a nested <span> -- get_text() on that cell ignores
+    the image and returns just the team name correctly.
     """
     soup = BeautifulSoup(html, "html.parser")
  
-    table = soup.find("table", id=re.compile(r"GridView", re.IGNORECASE))
-    if table is None:
-        table = soup.find("table")  # fallback: just grab the first table
-    if table is None:
+    rows = soup.find_all("tr", class_=ROW_SELECTOR_CLASS)
+    if not rows:
         raise RuntimeError(
-            "No <table> found on the page at all -- the page may require "
-            "JavaScript to render the table client-side, or the URL/alg "
-            "value may be wrong. Inspect the raw HTML manually."
+            f"No <tr class=\"{ROW_SELECTOR_CLASS}\"> rows found on the page. "
+            f"MSHSAA may have changed their markup, or the alg= value/sport "
+            f"may be wrong. Inspect the raw HTML manually (View Page Source, "
+            f"not browser DevTools, to rule out JS-rendered content)."
         )
  
-    rows = table.find_all("tr")
     teams = []
  
     for row in rows:
         cells = row.find_all("td")
-        if not cells or len(cells) < len(EXPECTED_COLUMNS):
-            continue  # header row or malformed row, skip
- 
-        # School name is often wrapped in an <a> tag (a link to the
-        # team's own page) -- get_text() handles that transparently.
-        values = [c.get_text(strip=True) for c in cells[: len(EXPECTED_COLUMNS)]]
- 
-        record = dict(zip(EXPECTED_COLUMNS, values))
- 
-        if not record.get("school"):
+        if len(cells) != EXPECTED_CELL_COUNT:
+            # Skip malformed/unexpected rows rather than guessing at a
+            # shifted column mapping -- better to silently drop one row
+            # than silently corrupt many.
             continue
  
+        school_name = cells[0].get_text(strip=True)
+        if not school_name:
+            continue
+ 
+        # Row-level data attributes are the canonical classification/
+        # district (numeric, including "0" for 8-Man) -- prefer these
+        # over the text cell, which renders 8-Man as the literal string
+        # "8-Man" instead of a number.
+        raw_classification_attr = row.get("data-classification")
+        raw_district_attr = row.get("data-district")
+ 
+        classification_label = cells[CELL_INDEX["classification_label"]].get_text(strip=True)
+ 
         team = {
-            "school": record["school"],
-            "classification": record["classification"] or None,
-            "district": parse_number(record["district"]),
-            "points_for": parse_number(record["points_for"]),
-            "points_against": parse_number(record["points_against"]),
-            "ppg": parse_number(record["ppg"]),
-            "oppg": parse_number(record["oppg"]),
-            "mov": parse_number(record["mov"]),
-            "wins": parse_number(record["wins"]),
-            "losses": parse_number(record["losses"]),
-            "win_pct": parse_number(record["win_pct"]),
+            "school": school_name,
+            "mshsaa_school_id": _extract_school_id(cells[0]),
+            "classification_code": parse_number(raw_classification_attr),
+            "classification_label": classification_label or None,
+            "district": parse_number(raw_district_attr) or parse_number(
+                cells[CELL_INDEX["district"]].get_text(strip=True)
+            ),
+            "points_for": parse_number(cells[CELL_INDEX["points_for"]].get_text(strip=True)),
+            "points_against": parse_number(cells[CELL_INDEX["points_against"]].get_text(strip=True)),
+            "ppg": parse_number(cells[CELL_INDEX["ppg"]].get_text(strip=True)),
+            "oppg": parse_number(cells[CELL_INDEX["oppg"]].get_text(strip=True)),
+            "mov": parse_number(cells[CELL_INDEX["mov"]].get_text(strip=True)),
+            "wins": parse_number(cells[CELL_INDEX["wins"]].get_text(strip=True)),
+            "losses": parse_number(cells[CELL_INDEX["losses"]].get_text(strip=True)),
+            "win_pct": parse_number(cells[CELL_INDEX["win_pct"]].get_text(strip=True)),
+            "mshsaa_points": parse_number(cells[CELL_INDEX["mshsaa_points"]].get_text(strip=True)),
             "games_played": None,  # computed below
         }
  
@@ -177,6 +214,24 @@ def parse_season_records_html(html):
         teams.append(team)
  
     return teams
+ 
+ 
+def _extract_school_id(name_cell):
+    """
+    Pull MSHSAA's own internal school ID out of the schedule link, e.g.
+    '/MySchool/Schedule.aspx?s=907&alg=19' -> 907.
+ 
+    This ID is potentially a more reliable join key than name-matching
+    against your own aliases.json, since it's MSHSAA's own stable
+    identifier rather than a freeform string. Not used elsewhere in this
+    script yet, but captured now since it's free to grab while we're
+    already parsing this cell.
+    """
+    link = name_cell.find("a", href=True)
+    if not link:
+        return None
+    match = re.search(r"[?&]s=(\d+)", link["href"])
+    return int(match.group(1)) if match else None
  
  
 # ---------------------------------------------------------------------------
@@ -248,21 +303,37 @@ if __name__ == "__main__":
 # FIRST RUN CHECKLIST (read before enabling the nightly workflow)
 # ---------------------------------------------------------------------------
 #
+# Row/cell selectors below were verified against real page source on
+# 2026-06-27 (a pasted HTML fragment from View Page Source around the
+# Liberty North row). That fragment confirmed: rows are
+# <tr class="fs_tablecolumn" data-classification="N" data-district="N">,
+# each with exactly 12 <td> cells, school name+logo in the first cell.
+# This is NOT the same as a live end-to-end run -- the script has never
+# successfully fetched the live page itself (network-restricted build
+# environment), only parsed a hand-pasted fragment of real markup. The
+# fetch (requests.get) and the auth/headers/blocking behavior of the
+# live site are still unverified.
+#
 # 1. Run this script manually once: `python3 scrape_mshsaa_season_records.py`
 # 2. Open output/mshsaa_records/football.json and check:
 #    - Is the team count roughly what you'd expect (~300+ for football)?
-#    - Spot check Liberty North: wins=7, losses=5, points_for=362,
-#      points_against=299, ppg=30.17, oppg=24.92 (matches the live page
-#      as of this writing -- if your scrape shows something very
-#      different, the column mapping is probably off by one).
-# 3. If team count is 0 or values look shifted/wrong:
-#    - The table selector (`table.find_all(...)`) almost certainly needs
-#      adjusting to match MSHSAA's actual HTML. View page source in a
-#      browser and find the real table id/class.
-#    - Also double check EXPECTED_COLUMNS still matches the page's
-#      header row order -- if MSHSAA changes column order this breaks
-#      silently in a way that looks like valid data, so the Liberty
-#      North spot-check above is your safety net.
+#    - Spot check Liberty North: wins=7, losses=5, points_for=359,
+#      points_against=302, ppg=29.92, oppg=25.17, mshsaa_school_id=907
+#      (confirmed against real page source as of 2026-06-27 -- NOTE this
+#      does not exactly match an earlier JS-rendered fetch of the same
+#      page, which showed 362/299/30.17/24.92; if your own run shows yet
+#      a third set of numbers, that's likely just the season continuing
+#      to update rather than a parsing bug -- cross-check wins/losses
+#      first since those are least likely to be a parsing artifact).
+# 3. If team count is 0:
+#    - Most likely cause: requests.get() is being blocked or served a
+#      different page than a real browser gets (some ASP.NET sites gate
+#      on cookies, a session token, or bot-detection headers). Try
+#      printing len(html) and searching it for "fs_tablecolumn" -- if
+#      that string isn't present in what requests.get() returned at all,
+#      the issue is in the fetch, not the parser, and likely needs
+#      Playwright (like your existing ratings scraper uses) instead of
+#      plain requests.
 # 4. Once verified working, find the alg= values for your other 8 sports
 #    and fill in SPORT_ALG_MAP before relying on this for anything but
 #    football.
