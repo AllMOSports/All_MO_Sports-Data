@@ -98,7 +98,7 @@ RATINGS_REPO_URLS = {
     "spring_softball": "https://raw.githubusercontent.com/AllMOSports/Spring-Softball-Rankings/main/ratings.json",
 }
  
-ALIASES_PATH = "data/aliases.json"
+ALIASES_PATH = "Aliases.json"  # repo root, capital A -- confirmed location 2026-06-27
 OUTPUT_PATH = "output/schools.json"
  
 ALL_SPORTS = list(RATINGS_REPO_URLS.keys())
