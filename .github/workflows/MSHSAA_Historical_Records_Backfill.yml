@@ -1,0 +1,91 @@
+name: MSHSAA Historical Records Backfill
+ 
+# Manual-only trigger -- this is a one-time/occasional backfill, not a
+# nightly job, so it does NOT run on a schedule or on push. You start it
+# from the Actions tab in GitHub's UI (see instructions below).
+on:
+  workflow_dispatch:
+    inputs:
+      sports:
+        description: >
+          Comma-separated sport keys (e.g. "boys_basketball,football").
+          Leave blank to run all 9 sports.
+        required: false
+        default: ""
+      start_year:
+        description: "First season's start year (e.g. 2012)"
+        required: false
+        default: "2012"
+      end_year:
+        description: "Last season's start year (e.g. 2025)"
+        required: false
+        default: "2025"
+      force:
+        description: "Re-scrape years that already have an output file?"
+        required: false
+        default: false
+        type: boolean
+      delay:
+        description: "Base seconds to sleep between requests"
+        required: false
+        default: "1.5"
+ 
+# Needed so the final step can commit the new JSON files back to the repo.
+permissions:
+  contents: write
+ 
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+ 
+      - name: Run historical backfill
+        run: |
+          ARGS=()
+          if [ -n "${{ inputs.sports }}" ]; then
+            ARGS+=(--sports "${{ inputs.sports }}")
+          fi
+          ARGS+=(--start-year "${{ inputs.start_year }}")
+          ARGS+=(--end-year "${{ inputs.end_year }}")
+          ARGS+=(--delay "${{ inputs.delay }}")
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS+=(--force)
+          fi
+          echo "Running: python3 scrape_mshsaa_history_records.py ${ARGS[@]}"
+          python3 scrape_mshsaa_history_records.py "${ARGS[@]}"
+ 
+      # Keeps going even if the script above exited non-zero (e.g. some
+      # sport/year combos failed) -- a partial backfill is still worth
+      # committing and inspecting via manifest.json, rather than throwing
+      # away everything that DID succeed.
+      - name: Upload output as workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mshsaa-historical-records
+          path: output/mshsaa_historical_records/
+          retention-days: 30
+ 
+      - name: Commit and push results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/mshsaa_historical_records/
+          if git diff --staged --quiet; then
+            echo "No new or changed files -- nothing to commit."
+          else
+            git commit -m "Historical backfill: sports=${{ inputs.sports }} years=${{ inputs.start_year }}-${{ inputs.end_year }}"
+            git push
+          fi
