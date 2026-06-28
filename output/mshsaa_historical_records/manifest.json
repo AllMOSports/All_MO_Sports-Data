@@ -1,0 +1,1136 @@
+{
+  "baseball_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2012.json",
+    "season_label": "2012-2013",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 484,
+    "year": 2012
+  },
+  "baseball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 487,
+    "year": 2013
+  },
+  "baseball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 491,
+    "year": 2014
+  },
+  "baseball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 489,
+    "year": 2015
+  },
+  "baseball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 498,
+    "year": 2016
+  },
+  "baseball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 499,
+    "year": 2017
+  },
+  "baseball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 497,
+    "year": 2018
+  },
+  "baseball_2019": {
+    "error": "No <tr class=\"fs_tablecolumn\"> rows found on the page. Either this season has no data for this sport, MSHSAA's markup differs for this year, or the alg/year combo is wrong.",
+    "output_path": null,
+    "season_label": "2019-2020",
+    "sport": "baseball",
+    "status": "failed",
+    "team_count": null,
+    "year": 2019
+  },
+  "baseball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 477,
+    "year": 2020
+  },
+  "baseball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 492,
+    "year": 2021
+  },
+  "baseball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 494,
+    "year": 2022
+  },
+  "baseball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 494,
+    "year": 2023
+  },
+  "baseball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 490,
+    "year": 2024
+  },
+  "baseball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/baseball/baseball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "baseball",
+    "status": "ok",
+    "team_count": 480,
+    "year": 2025
+  },
+  "boys_basketball_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2012.json",
+    "season_label": "2012-2013",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 560,
+    "year": 2012
+  },
+  "boys_basketball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 556,
+    "year": 2013
+  },
+  "boys_basketball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 558,
+    "year": 2014
+  },
+  "boys_basketball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 557,
+    "year": 2015
+  },
+  "boys_basketball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 559,
+    "year": 2016
+  },
+  "boys_basketball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 556,
+    "year": 2017
+  },
+  "boys_basketball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 558,
+    "year": 2018
+  },
+  "boys_basketball_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2019.json",
+    "season_label": "2019-2020",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 554,
+    "year": 2019
+  },
+  "boys_basketball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 542,
+    "year": 2020
+  },
+  "boys_basketball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 549,
+    "year": 2021
+  },
+  "boys_basketball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 551,
+    "year": 2022
+  },
+  "boys_basketball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 552,
+    "year": 2023
+  },
+  "boys_basketball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 551,
+    "year": 2024
+  },
+  "boys_basketball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_basketball/boys_basketball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "boys_basketball",
+    "status": "ok",
+    "team_count": 552,
+    "year": 2025
+  },
+  "boys_soccer_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2012.json",
+    "season_label": "2012-2013",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 222,
+    "year": 2012
+  },
+  "boys_soccer_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2013.json",
+    "season_label": "2013-2014",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 223,
+    "year": 2013
+  },
+  "boys_soccer_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2014.json",
+    "season_label": "2014-2015",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 223,
+    "year": 2014
+  },
+  "boys_soccer_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2015.json",
+    "season_label": "2015-2016",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 225,
+    "year": 2015
+  },
+  "boys_soccer_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2016.json",
+    "season_label": "2016-2017",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 229,
+    "year": 2016
+  },
+  "boys_soccer_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2017.json",
+    "season_label": "2017-2018",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 229,
+    "year": 2017
+  },
+  "boys_soccer_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2018.json",
+    "season_label": "2018-2019",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 230,
+    "year": 2018
+  },
+  "boys_soccer_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2019.json",
+    "season_label": "2019-2020",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 232,
+    "year": 2019
+  },
+  "boys_soccer_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2020.json",
+    "season_label": "2020-2021",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 200,
+    "year": 2020
+  },
+  "boys_soccer_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2021.json",
+    "season_label": "2021-2022",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 222,
+    "year": 2021
+  },
+  "boys_soccer_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2022.json",
+    "season_label": "2022-2023",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 224,
+    "year": 2022
+  },
+  "boys_soccer_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2023.json",
+    "season_label": "2023-2024",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 223,
+    "year": 2023
+  },
+  "boys_soccer_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2024.json",
+    "season_label": "2024-2025",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 226,
+    "year": 2024
+  },
+  "boys_soccer_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/boys_soccer/boys_soccer_2025.json",
+    "season_label": "2025-2026",
+    "sport": "boys_soccer",
+    "status": "ok",
+    "team_count": 227,
+    "year": 2025
+  },
+  "fall_softball_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2012.json",
+    "season_label": "2012-2013",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 412,
+    "year": 2012
+  },
+  "fall_softball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 401,
+    "year": 2013
+  },
+  "fall_softball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 374,
+    "year": 2014
+  },
+  "fall_softball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 367,
+    "year": 2015
+  },
+  "fall_softball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 360,
+    "year": 2016
+  },
+  "fall_softball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 356,
+    "year": 2017
+  },
+  "fall_softball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 349,
+    "year": 2018
+  },
+  "fall_softball_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2019.json",
+    "season_label": "2019-2020",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 346,
+    "year": 2019
+  },
+  "fall_softball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 317,
+    "year": 2020
+  },
+  "fall_softball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 336,
+    "year": 2021
+  },
+  "fall_softball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 322,
+    "year": 2022
+  },
+  "fall_softball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 320,
+    "year": 2023
+  },
+  "fall_softball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 314,
+    "year": 2024
+  },
+  "fall_softball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/fall_softball/fall_softball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "fall_softball",
+    "status": "ok",
+    "team_count": 305,
+    "year": 2025
+  },
+  "football_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2012.json",
+    "season_label": "2012-2013",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 359,
+    "year": 2012
+  },
+  "football_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2013.json",
+    "season_label": "2013-2014",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 356,
+    "year": 2013
+  },
+  "football_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2014.json",
+    "season_label": "2014-2015",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 361,
+    "year": 2014
+  },
+  "football_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2015.json",
+    "season_label": "2015-2016",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 357,
+    "year": 2015
+  },
+  "football_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2016.json",
+    "season_label": "2016-2017",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 352,
+    "year": 2016
+  },
+  "football_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2017.json",
+    "season_label": "2017-2018",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 349,
+    "year": 2017
+  },
+  "football_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2018.json",
+    "season_label": "2018-2019",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 352,
+    "year": 2018
+  },
+  "football_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2019.json",
+    "season_label": "2019-2020",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 351,
+    "year": 2019
+  },
+  "football_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2020.json",
+    "season_label": "2020-2021",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 325,
+    "year": 2020
+  },
+  "football_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2021.json",
+    "season_label": "2021-2022",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 345,
+    "year": 2021
+  },
+  "football_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2022.json",
+    "season_label": "2022-2023",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 346,
+    "year": 2022
+  },
+  "football_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2023.json",
+    "season_label": "2023-2024",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 346,
+    "year": 2023
+  },
+  "football_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2024.json",
+    "season_label": "2024-2025",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 350,
+    "year": 2024
+  },
+  "football_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2025.json",
+    "season_label": "2025-2026",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 347,
+    "year": 2025
+  },
+  "girls_basketball_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2012.json",
+    "season_label": "2012-2013",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 540,
+    "year": 2012
+  },
+  "girls_basketball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 539,
+    "year": 2013
+  },
+  "girls_basketball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 540,
+    "year": 2014
+  },
+  "girls_basketball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 540,
+    "year": 2015
+  },
+  "girls_basketball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 536,
+    "year": 2016
+  },
+  "girls_basketball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 533,
+    "year": 2017
+  },
+  "girls_basketball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 538,
+    "year": 2018
+  },
+  "girls_basketball_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2019.json",
+    "season_label": "2019-2020",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 536,
+    "year": 2019
+  },
+  "girls_basketball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 521,
+    "year": 2020
+  },
+  "girls_basketball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 528,
+    "year": 2021
+  },
+  "girls_basketball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 531,
+    "year": 2022
+  },
+  "girls_basketball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 520,
+    "year": 2023
+  },
+  "girls_basketball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 516,
+    "year": 2024
+  },
+  "girls_basketball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_basketball/girls_basketball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "girls_basketball",
+    "status": "ok",
+    "team_count": 516,
+    "year": 2025
+  },
+  "girls_soccer_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2012.json",
+    "season_label": "2012-2013",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 223,
+    "year": 2012
+  },
+  "girls_soccer_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2013.json",
+    "season_label": "2013-2014",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 224,
+    "year": 2013
+  },
+  "girls_soccer_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2014.json",
+    "season_label": "2014-2015",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 229,
+    "year": 2014
+  },
+  "girls_soccer_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2015.json",
+    "season_label": "2015-2016",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 230,
+    "year": 2015
+  },
+  "girls_soccer_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2016.json",
+    "season_label": "2016-2017",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 232,
+    "year": 2016
+  },
+  "girls_soccer_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2017.json",
+    "season_label": "2017-2018",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 231,
+    "year": 2017
+  },
+  "girls_soccer_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2018.json",
+    "season_label": "2018-2019",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 232,
+    "year": 2018
+  },
+  "girls_soccer_2019": {
+    "error": "No <tr class=\"fs_tablecolumn\"> rows found on the page. Either this season has no data for this sport, MSHSAA's markup differs for this year, or the alg/year combo is wrong.",
+    "output_path": null,
+    "season_label": "2019-2020",
+    "sport": "girls_soccer",
+    "status": "failed",
+    "team_count": null,
+    "year": 2019
+  },
+  "girls_soccer_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2020.json",
+    "season_label": "2020-2021",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 218,
+    "year": 2020
+  },
+  "girls_soccer_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2021.json",
+    "season_label": "2021-2022",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 223,
+    "year": 2021
+  },
+  "girls_soccer_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2022.json",
+    "season_label": "2022-2023",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 224,
+    "year": 2022
+  },
+  "girls_soccer_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2023.json",
+    "season_label": "2023-2024",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 229,
+    "year": 2023
+  },
+  "girls_soccer_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2024.json",
+    "season_label": "2024-2025",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 227,
+    "year": 2024
+  },
+  "girls_soccer_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_soccer/girls_soccer_2025.json",
+    "season_label": "2025-2026",
+    "sport": "girls_soccer",
+    "status": "ok",
+    "team_count": 225,
+    "year": 2025
+  },
+  "girls_volleyball_2012": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2012.json",
+    "season_label": "2012-2013",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 422,
+    "year": 2012
+  },
+  "girls_volleyball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 420,
+    "year": 2013
+  },
+  "girls_volleyball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 429,
+    "year": 2014
+  },
+  "girls_volleyball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 427,
+    "year": 2015
+  },
+  "girls_volleyball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 428,
+    "year": 2016
+  },
+  "girls_volleyball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 429,
+    "year": 2017
+  },
+  "girls_volleyball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 429,
+    "year": 2018
+  },
+  "girls_volleyball_2019": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2019.json",
+    "season_label": "2019-2020",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 433,
+    "year": 2019
+  },
+  "girls_volleyball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 392,
+    "year": 2020
+  },
+  "girls_volleyball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 429,
+    "year": 2021
+  },
+  "girls_volleyball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 436,
+    "year": 2022
+  },
+  "girls_volleyball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 438,
+    "year": 2023
+  },
+  "girls_volleyball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 445,
+    "year": 2024
+  },
+  "girls_volleyball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/girls_volleyball/girls_volleyball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "girls_volleyball",
+    "status": "ok",
+    "team_count": 443,
+    "year": 2025
+  },
+  "spring_softball_2012": {
+    "error": "No <tr class=\"fs_tablecolumn\"> rows found on the page. Either this season has no data for this sport, MSHSAA's markup differs for this year, or the alg/year combo is wrong.",
+    "output_path": null,
+    "season_label": "2012-2013",
+    "sport": "spring_softball",
+    "status": "failed",
+    "team_count": null,
+    "year": 2012
+  },
+  "spring_softball_2013": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2013.json",
+    "season_label": "2013-2014",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 73,
+    "year": 2013
+  },
+  "spring_softball_2014": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2014.json",
+    "season_label": "2014-2015",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 107,
+    "year": 2014
+  },
+  "spring_softball_2015": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2015.json",
+    "season_label": "2015-2016",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 111,
+    "year": 2015
+  },
+  "spring_softball_2016": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2016.json",
+    "season_label": "2016-2017",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 119,
+    "year": 2016
+  },
+  "spring_softball_2017": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2017.json",
+    "season_label": "2017-2018",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 116,
+    "year": 2017
+  },
+  "spring_softball_2018": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2018.json",
+    "season_label": "2018-2019",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 122,
+    "year": 2018
+  },
+  "spring_softball_2019": {
+    "error": "No <tr class=\"fs_tablecolumn\"> rows found on the page. Either this season has no data for this sport, MSHSAA's markup differs for this year, or the alg/year combo is wrong.",
+    "output_path": null,
+    "season_label": "2019-2020",
+    "sport": "spring_softball",
+    "status": "failed",
+    "team_count": null,
+    "year": 2019
+  },
+  "spring_softball_2020": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2020.json",
+    "season_label": "2020-2021",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 120,
+    "year": 2020
+  },
+  "spring_softball_2021": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2021.json",
+    "season_label": "2021-2022",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 125,
+    "year": 2021
+  },
+  "spring_softball_2022": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2022.json",
+    "season_label": "2022-2023",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 133,
+    "year": 2022
+  },
+  "spring_softball_2023": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2023.json",
+    "season_label": "2023-2024",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 130,
+    "year": 2023
+  },
+  "spring_softball_2024": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2024.json",
+    "season_label": "2024-2025",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 131,
+    "year": 2024
+  },
+  "spring_softball_2025": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/spring_softball/spring_softball_2025.json",
+    "season_label": "2025-2026",
+    "sport": "spring_softball",
+    "status": "ok",
+    "team_count": 130,
+    "year": 2025
+  }
+}
