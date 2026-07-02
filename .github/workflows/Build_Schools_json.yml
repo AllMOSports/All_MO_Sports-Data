@@ -1,5 +1,5 @@
 name: Build schools.json
- 
+
 # Runs the schools.json aggregation -- merges each sport's MSHSAA season
 # records (output/mshsaa_records/<sport>.json) with that sport's
 # separate ratings repo (OVR/OFF/DEF, fetched live over the network) into
@@ -8,59 +8,37 @@ name: Build schools.json
 # IMPORTANT ORDERING: this must run AFTER the MSHSAA scraper has
 # produced fresh output/mshsaa_records/ files, since this script reads
 # those files from the repo checkout rather than scraping anything
-# itself. The schedule below is offset to run shortly after the
-# scraper's own nightly run (see scrape-mshsaa-records.yml, which runs
-# at 23:47 UTC) -- if you change one schedule, check the other still
-# leaves enough of a gap.
+# itself. Since both workflows are now manual-only, make sure to run
+# the MSHSAA scraper first and let it finish before running this one.
 #
 # See build_schools_json.py's FIRST RUN CHECKLIST before fully trusting
-# this on a schedule -- run it once via workflow_dispatch and verify
-# output/schools.json looks right first.
- 
+# this -- run it once via workflow_dispatch and verify output/schools.json
+# looks right first.
+
 on:
-  schedule:
-    # 00:25 UTC -- roughly 35 minutes after the MSHSAA scraper's 23:47
-    # UTC run, to give that job time to finish and commit before this
-    # one reads its output. Off-peak, odd minute, consistent with your
-    # existing cron convention.
-    - cron: "25 0 * * *"
   workflow_dispatch: {}
-    # Manual trigger -- use this for the first run and any spot-check,
-    # rather than waiting for the nightly schedule.
-  workflow_run:
-    # Also trigger automatically whenever the MSHSAA scraper workflow
-    # completes, regardless of the time-based schedule above. This is
-    # the more reliable trigger -- the cron offset above is a fallback
-    # in case workflow_run doesn't fire for some reason. If the scraper
-    # workflow is renamed, update the name below to match.
-    workflows: ["Scrape MSHSAA Season Records"]
-    types: [completed]
- 
+    # Manual trigger -- use this to run the aggregation on demand.
+    # Run AFTER the "Scrape MSHSAA Season Records" workflow has
+    # completed successfully.
+
 permissions:
   contents: write
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Only proceed if triggered manually/on schedule, OR if the
-    # workflow_run trigger fired because the scraper succeeded (not if
-    # the scraper itself failed -- no point aggregating stale/missing
-    # data).
-    if: >
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
- 
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
- 
+
       - name: Install dependencies
         run: pip install requests
- 
+
       - name: Verify MSHSAA records exist before aggregating
         run: |
           if [ ! -d "output/mshsaa_records" ] || [ -z "$(ls -A output/mshsaa_records 2>/dev/null)" ]; then
@@ -68,10 +46,10 @@ jobs:
             exit 1
           fi
           echo "Found $(ls output/mshsaa_records | wc -l) file(s) in output/mshsaa_records/"
- 
+
       - name: Run schools.json aggregation
         run: python3 Build_Schools_json.py
- 
+
       - name: Commit updated schools.json if changed
         run: |
           git config user.name "github-actions[bot]"
