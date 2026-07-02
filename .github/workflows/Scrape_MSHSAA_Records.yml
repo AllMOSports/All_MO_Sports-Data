@@ -11,14 +11,11 @@ name: Scrape MSHSAA Season Records
 # relying on the schedule trigger below.
  
 on:
-  schedule:
-    # 11:47 PM UTC = 5:47 PM Central (CST) / 6:47 PM Central (CDT).
-    # Off-peak, odd minute -- consistent with your existing convention
-    # of avoiding GitHub's on-the-hour scheduler congestion.
-    - cron: "47 23 * * *"
   workflow_dispatch: {}
-    # Manual trigger -- use this for the first run and for any future
-    # spot-check, rather than waiting for the nightly schedule.
+    # Manual trigger only -- run this from the Actions tab whenever
+    # you want fresh season records. The nightly schedule trigger has
+    # been removed; re-add a `schedule:` block above it if you want
+    # nightly runs back later in the season.
  
 permissions:
   contents: write
