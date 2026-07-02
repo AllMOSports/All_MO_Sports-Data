@@ -254,6 +254,7 @@ def load_existing(output_path: Path) -> tuple[list[dict], set[tuple[int, int, in
  
  
 def save(records: list[dict], output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     tmp_path = output_path.with_suffix(".tmp")
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
