@@ -35,6 +35,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 lxml
  
+      - name: Ensure output directory exists
+        run: mkdir -p data
+ 
       - name: Run scraper
         run: |
           python Scrape_distruct_boys_basketball_brackets.py \
