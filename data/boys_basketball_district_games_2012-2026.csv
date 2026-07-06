@@ -1081,3 +1081,546 @@ season_label,year,class,district,round,game_num,date_time,tournament_id,team1,te
 2013-2014,2013,6,16,Semifinals,2,Mar 6 @7:00 PM,110773,Jackson,82,1,71,True,Fox,70,,39,False,32,Jackson,82,False
 2013-2014,2013,6,16,Semifinals,3,Mar 6 @5:30 PM,110773,Oakville,150,2,68,True,Poplar Bluff,167,3,66,False,2,Jackson,82,False
 2013-2014,2013,6,16,Quarterfinals,5,Mar 4 @7:00 PM,110773,Fox,70,4,54,True,Seckman,184,5,46,False,8,Jackson,82,False
+2014-2015,2014,1,1,Final,1,Feb 26 @7:30 PM,133962,Clarkton,262,,52,False,Gideon,300,,63,True,11,Gideon,300,False
+2014-2015,2014,1,1,Semifinals,2,Feb 24 @6:30 PM,133962,Clarkton,262,,73,True,Couch,283,,70,False,3,Gideon,300,False
+2014-2015,2014,1,1,Semifinals,3,Feb 24 @8:00 PM,133962,Gideon,300,,52,True,Delta (Deering),266,,46,False,6,Gideon,300,False
+2014-2015,2014,1,1,Quarterfinals,4,Feb 23 @7:00 PM,133962,Clarkton,262,1,71,True,North Pemiscot,389,8,31,False,40,Gideon,300,False
+2014-2015,2014,1,1,Quarterfinals,5,Feb 23 @5:30 PM,133962,Naylor,373,4,41,False,Couch,283,5,63,True,22,Gideon,300,False
+2014-2015,2014,1,1,Quarterfinals,6,Feb 23 @8:30 PM,133962,Gideon,300,2,73,True,Southland,453,7,29,False,44,Gideon,300,False
+2014-2015,2014,1,1,Quarterfinals,7,Feb 23 @4:00 PM,133962,Delta (Deering),266,3,53,True,Koshkonong,98,6,43,False,10,Gideon,300,False
+2014-2015,2014,1,2,Final,1,Feb 26 @7:30 PM,133153,Oran,402,,49,False,Advance,6,,66,True,17,Advance,6,False
+2014-2015,2014,1,2,Semifinals,2,Feb 24 @6:30 PM,133153,Oran,402,,71,True,Richland (Essex),425,,42,False,29,Advance,6,False
+2014-2015,2014,1,2,Semifinals,3,Feb 24 @7:45 PM,133153,Advance,6,,67,True,Bell City,211,,46,False,21,Advance,6,False
+2014-2015,2014,1,2,Quarterfinals,4,Feb 23 @4:00 PM,133153,Oran,402,1,68,True,The Fulton School at St. Albans,513,8,19,False,49,Advance,6,False
+2014-2015,2014,1,2,Quarterfinals,5,Feb 23 @7:45 PM,133153,Risco,428,4,40,False,Richland (Essex),425,5,43,True,3,Advance,6,False
+2014-2015,2014,1,2,Quarterfinals,6,Feb 23 @5:15 PM,133153,Advance,6,2,78,True,Delta,269,7,16,False,62,Advance,6,False
+2014-2015,2014,1,2,Quarterfinals,7,Feb 23 @6:30 PM,133153,Bell City,211,3,69,True,Oak Ridge,401,6,47,False,22,Advance,6,False
+2014-2015,2014,1,3,Final,1,Feb 26 @7:30 PM,134015,South Iron,448,,47,True,Eminence,282,,13,False,34,South Iron,448,False
+2014-2015,2014,1,3,Semifinals,2,Feb 24 @7:45 PM,134015,South Iron,448,,84,True,Zalma,507,,51,False,33,South Iron,448,False
+2014-2015,2014,1,3,Semifinals,3,Feb 24 @6:30 PM,134015,Summersville,468,,42,False,Eminence,282,,49,True,7,South Iron,448,False
+2014-2015,2014,1,3,Quarterfinals,4,Feb 23 @3:30 PM,134015,South Iron,448,1,77,True,Leopold,340,8,32,False,45,South Iron,448,False
+2014-2015,2014,1,3,Quarterfinals,5,Feb 23 @4:45 PM,134015,Zalma,507,4,65,True,Marquand-Zion,359,5,54,False,11,South Iron,448,False
+2014-2015,2014,1,3,Quarterfinals,6,Feb 23 @6:15 PM,134015,Summersville,468,2,66,True,Bunker,248,7,36,False,30,South Iron,448,False
+2014-2015,2014,1,3,Quarterfinals,7,Feb 23 @7:30 PM,134015,Eminence,282,3,58,True,Lesterville,341,6,25,False,33,South Iron,448,False
+2014-2015,2014,1,4,Final,1,Feb 27 @7:30 PM,133172,Bradleyville,238,,63,False,School of the Ozarks,919,,73,True,10,School of the Ozarks,919,False
+2014-2015,2014,1,4,Semifinals,2,Feb 24 @6:00 PM,133172,Bradleyville,238,,82,True,Lutie,130,,49,False,33,School of the Ozarks,919,False
+2014-2015,2014,1,4,Semifinals,3,Feb 24 @7:30 PM,133172,School of the Ozarks,919,,73,True,Hurley,324,,60,False,13,School of the Ozarks,919,False
+2014-2015,2014,1,4,Quarterfinals,4,Feb 21 @1:30 PM,133172,Bradleyville,238,1,91,True,Chadwick,256,8,41,False,50,School of the Ozarks,919,False
+2014-2015,2014,1,4,Quarterfinals,5,Feb 21 @3:00 PM,133172,Lutie,130,4,61,True,Exeter,400,5,52,False,9,School of the Ozarks,919,False
+2014-2015,2014,1,4,Quarterfinals,6,Feb 21 @4:30 PM,133172,School of the Ozarks,919,2,67,True,Niangua,381,7,27,False,40,School of the Ozarks,919,False
+2014-2015,2014,1,4,Quarterfinals,7,Feb 21 @6:00 PM,133172,Hurley,324,3,69,True,New Covenant Academy,533,6,25,False,44,School of the Ozarks,919,False
+2014-2015,2014,1,5,Final,1,Feb 26 @7:30 AM,132844,Walnut Grove,488,,82,True,Verona,484,,52,False,30,Walnut Grove,488,False
+2014-2015,2014,1,5,Semifinals,2,Feb 24 @6:00 PM,132844,Walnut Grove,488,,80,True,Dadeville,263,,57,False,23,Walnut Grove,488,False
+2014-2015,2014,1,5,Semifinals,3,Feb 24 @7:30 PM,132844,Verona,484,,71,True,Fair Play,291,,58,False,13,Walnut Grove,488,False
+2014-2015,2014,1,5,Quarterfinals,4,Feb 21 @10:00 AM,132844,Walnut Grove,488,1,67,True,Sheldon,438,8,34,False,33,Walnut Grove,488,False
+2014-2015,2014,1,5,Quarterfinals,5,Feb 21 @11:30 AM,132844,Dadeville,263,4,78,True,Everton,286,5,69,False,9,Walnut Grove,488,False
+2014-2015,2014,1,5,Quarterfinals,6,Feb 21 @4:00 PM,132844,Verona,484,2,49,True,Golden City,303,7,35,False,14,Walnut Grove,488,False
+2014-2015,2014,1,5,Quarterfinals,7,Feb 21 @5:30 PM,132844,Thomas Jefferson Independent,556,3,47,False,Fair Play,291,6,49,True,2,Walnut Grove,488,False
+2014-2015,2014,1,6,Final,1,Feb 27 @7:00 PM,132633,Macks Creek,349,,58,True,Hermitage,316,,52,False,6,Macks Creek,349,False
+2014-2015,2014,1,6,Semifinals,2,Feb 25 @5:30 PM,132633,Macks Creek,349,,81,True,Wheatland,496,,55,False,26,Macks Creek,349,False
+2014-2015,2014,1,6,Semifinals,3,Feb 25 @7:00 PM,132633,Hermitage,316,,69,True,Weaubleau,576,,58,False,11,Macks Creek,349,False
+2014-2015,2014,1,6,Quarterfinals,4,Feb 23 @4:30 PM,132633,Macks Creek,349,1,87,True,Halfway,310,8,42,False,45,Macks Creek,349,False
+2014-2015,2014,1,6,Quarterfinals,5,Feb 23 @6:00 PM,132633,Wheatland,496,4,70,True,Lakeland,335,5,63,False,7,Macks Creek,349,False
+2014-2015,2014,1,6,Quarterfinals,6,Feb 23 @7:30 PM,132633,Hermitage,316,2,70,True,Climax Springs,268,7,34,False,36,Macks Creek,349,False
+2014-2015,2014,1,6,Quarterfinals,7,Feb 23 @9:00 PM,132633,Weaubleau,576,3,61,True,Humansville,322,6,56,False,5,Macks Creek,349,False
+2014-2015,2014,1,7,Final,1,Feb 27 @6:00 PM,133784,Montrose,135,,47,False,Drexel,275,,59,True,12,Drexel,275,False
+2014-2015,2014,1,7,Semifinals,2,Feb 25 @6:00 PM,133784,Montrose,135,,54,True,Bronaugh,243,,45,False,9,Drexel,275,False
+2014-2015,2014,1,7,Semifinals,3,Feb 25 @7:30 PM,133784,Appleton City,20,,27,False,Drexel,275,,38,True,11,Drexel,275,False
+2014-2015,2014,1,7,Quarterfinals,4,Feb 23 @4:30 PM,133784,Montrose,135,1,56,True,Miami,365,8,21,False,35,Drexel,275,False
+2014-2015,2014,1,7,Quarterfinals,5,Feb 23 @6:00 PM,133784,Northeast Vernon County,394,4,26,False,Bronaugh,243,5,42,True,16,Drexel,275,False
+2014-2015,2014,1,7,Quarterfinals,6,Feb 23 @7:30 PM,133784,Appleton City,20,2,55,True,Hume,323,7,34,False,21,Drexel,275,False
+2014-2015,2014,1,7,Quarterfinals,7,Feb 23 @9:00 PM,133784,Drexel,275,3,56,True,Ballard,210,6,35,False,21,Drexel,275,False
+2014-2015,2014,1,8,Final,1,Feb 27 @7:30 PM,132431,Leeton,339,,61,True,Green Ridge,306,,51,False,10,Leeton,339,False
+2014-2015,2014,1,8,Semifinals,2,Feb 25 @5:00 PM,132431,Leeton,339,,64,True,Otterville,407,,42,False,22,Leeton,339,False
+2014-2015,2014,1,8,Semifinals,3,Feb 25 @6:30 PM,132431,Chilhowee,260,,49,False,Green Ridge,306,,60,True,11,Leeton,339,False
+2014-2015,2014,1,8,Quarterfinals,4,Feb 23 @4:30 PM,132431,Leeton,339,1,77,True,Calhoun,251,8,25,False,52,Leeton,339,False
+2014-2015,2014,1,8,Quarterfinals,5,Feb 23 @6:00 PM,132431,Kingsville,332,4,58,False,Otterville,407,5,63,True,5,Leeton,339,False
+2014-2015,2014,1,8,Quarterfinals,6,Feb 23 @9:00 PM,132431,Chilhowee,260,2,64,True,La Monte,334,7,33,False,31,Leeton,339,False
+2014-2015,2014,1,8,Quarterfinals,7,Feb 23 @7:30 PM,132431,Green Ridge,306,3,60,True,Northwest (Hughesville),395,6,54,False,6,Leeton,339,False
+2014-2015,2014,1,9,Final,1,Feb 28 @12:00 PM,133723,Prairie Home,420,,40,False,Tuscumbia,477,,56,True,16,Tuscumbia,477,False
+2014-2015,2014,1,9,Semifinals,2,Feb 26 @6:00 PM,133723,Pilot Grove,413,,54,False,Prairie Home,420,,80,True,26,Tuscumbia,477,False
+2014-2015,2014,1,9,Semifinals,3,Feb 26 @7:30 PM,133723,Tuscumbia,477,,51,True,Jamestown,326,,29,False,22,Tuscumbia,477,False
+2014-2015,2014,1,9,Quarterfinals,4,Feb 24 @4:00 PM,133723,Pilot Grove,413,1,95,True,Bunceton,247,8,49,False,46,Tuscumbia,477,False
+2014-2015,2014,1,9,Quarterfinals,5,Feb 24 @5:30 PM,133723,Prairie Home,420,4,46,True,Chamois,258,5,30,False,16,Tuscumbia,477,False
+2014-2015,2014,1,9,Quarterfinals,6,Feb 24 @8:30 PM,133723,Tuscumbia,477,2,71,True,Missouri School for the Deaf,442,7,37,False,34,Tuscumbia,477,False
+2014-2015,2014,1,9,Quarterfinals,7,Feb 24 @7:00 PM,133723,Jamestown,326,3,68,True,St. Elizabeth,458,6,56,False,12,Tuscumbia,477,False
+2014-2015,2014,1,10,Final,1,Feb 28 @3:30 PM,132661,Glasgow,302,,60,True,Northwestern (Mendon),396,,44,False,16,Glasgow,302,False
+2014-2015,2014,1,10,Semifinals,2,Feb 25 @7:30 PM,132661,Glasgow,302,,73,True,Higbee,317,,36,False,37,Glasgow,302,False
+2014-2015,2014,1,10,Semifinals,3,Feb 26 @7:30 PM,132661,Northwestern (Mendon),396,,64,True,Tina-Avalon,473,,58,False,6,Glasgow,302,False
+2014-2015,2014,1,10,Quarterfinals,4,Feb 23 @6:00 PM,132661,Glasgow,302,1,79,True,Malta Bend,352,8,29,False,50,Glasgow,302,False
+2014-2015,2014,1,10,Quarterfinals,5,Feb 23 @9:00 PM,132661,Higbee,317,4,76,True,Keytesville,330,5,63,False,13,Glasgow,302,False
+2014-2015,2014,1,10,Quarterfinals,6,Feb 24 @6:00 PM,132661,Northwestern (Mendon),396,2,74,True,Hale/Bosworth,309,7,53,False,21,Glasgow,302,False
+2014-2015,2014,1,10,Quarterfinals,7,Feb 24 @9:00 PM,132661,Tina-Avalon,473,3,63,True,Brunswick,245,6,46,False,17,Glasgow,302,False
+2014-2015,2014,1,11,Final,1,Feb 28 @3:00 PM,133858,Community,274,,54,True,North Shelby,391,,44,False,10,Community,274,False
+2014-2015,2014,1,11,Semifinals,2,Feb 26 @8:00 PM,133858,Community,274,,65,True,Bevier,214,,30,False,35,Community,274,False
+2014-2015,2014,1,11,Semifinals,3,Feb 25 @8:00 PM,133858,North Shelby,391,,52,True,Wellsville-Middletown,229,,41,False,11,Community,274,False
+2014-2015,2014,1,11,Quarterfinals,4,Feb 23 @8:00 PM,133858,Community,274,1,66,True,Atlanta,27,,29,False,37,Community,274,False
+2014-2015,2014,1,11,Quarterfinals,5,Feb 21 @1:30 PM,133858,La Plata,336,4,43,False,Bevier,214,5,55,True,12,Community,274,False
+2014-2015,2014,1,11,Quarterfinals,6,Feb 21 @4:30 PM,133858,North Shelby,391,2,55,True,Madison,351,7,21,False,34,Community,274,False
+2014-2015,2014,1,11,Quarterfinals,7,Feb 21 @7:30 PM,133858,Marion County,356,3,41,False,Wellsville-Middletown,229,6,49,True,8,Community,274,False
+2014-2015,2014,1,11,Sectionals,9,Feb 21 @8:30 AM,133858,Atlanta,27,8,2,True,Brashear,239,9,0,False,2,Community,274,False
+2014-2015,2014,1,12,Final,1,Feb 28 @12:00 PM,133152,Meadville,363,,73,True,Novinger,398,,47,False,26,Meadville,363,False
+2014-2015,2014,1,12,Semifinals,2,Feb 26 @7:30 PM,133152,Meadville,363,,71,True,Mercer,364,,30,False,41,Meadville,363,False
+2014-2015,2014,1,12,Semifinals,3,Feb 26 @4:30 PM,133152,Novinger,398,,60,True,Linn County,346,,53,False,7,Meadville,363,False
+2014-2015,2014,1,12,Quarterfinals,4,Feb 23 @7:30 PM,133152,Meadville,363,1,81,True,Newtown-Harris,380,8,24,False,57,Meadville,363,False
+2014-2015,2014,1,12,Quarterfinals,5,Feb 23 @6:00 PM,133152,Green City,305,4,53,False,Mercer,364,5,54,True,1,Meadville,363,False
+2014-2015,2014,1,12,Quarterfinals,6,Feb 23 @4:30 PM,133152,Novinger,398,2,86,True,Grundy County,308,7,41,False,45,Meadville,363,False
+2014-2015,2014,1,12,Quarterfinals,7,Feb 23 @9:00 PM,133152,Linn County,346,3,65,True,Bucklin/Macon County,246,6,52,False,13,Meadville,363,False
+2014-2015,2014,1,13,Final,1,Feb 28 @1:15 PM,134373,Hardin-Central,312,,42,False,Braymer,240,,52,True,10,Braymer,240,False
+2014-2015,2014,1,13,Semifinals,2,Feb 26 @5:45 PM,134373,Hardin-Central,312,,55,True,Southwest (Livingston County),454,,23,False,32,Braymer,240,False
+2014-2015,2014,1,13,Semifinals,3,Feb 26 @8:15 PM,134373,Braymer,240,,64,True,Norborne,384,,60,False,4,Braymer,240,False
+2014-2015,2014,1,13,Quarterfinals,4,Feb 24 @4:30 PM,134373,Hardin-Central,312,1,1,False,Breckenridge,241,8,0,False,1,Braymer,240,False
+2014-2015,2014,1,13,Quarterfinals,5,Feb 24 @6:30 PM,134373,Southwest (Livingston County),454,4,62,True,Tri-County,475,5,41,False,21,Braymer,240,False
+2014-2015,2014,1,13,Quarterfinals,6,Feb 24 @5:30 PM,134373,Braymer,240,2,61,True,Wentworth Military Academy,563,7,28,False,33,Braymer,240,False
+2014-2015,2014,1,13,Quarterfinals,7,Feb 24 @7:30 PM,134373,Norborne,384,3,71,True,Gilman City,301,6,34,False,37,Braymer,240,False
+2014-2015,2014,1,14,Final,1,Feb 27 @6:00 PM,134192,Winston,503,,62,True,Stewartsville,462,,33,False,29,Winston,503,False
+2014-2015,2014,1,14,Semifinals,2,Feb 25 @6:00 PM,134192,Winston,503,,51,True,DeKalb,265,,33,False,18,Winston,503,False
+2014-2015,2014,1,14,Semifinals,3,Feb 25 @7:30 PM,134192,Pattonsburg/North Daviess,409,,45,False,Stewartsville,462,,50,True,5,Winston,503,False
+2014-2015,2014,1,14,Quarterfinals,4,Feb 23 @4:30 PM,134192,Winston,503,1,73,True,Union Star,478,8,18,False,55,Winston,503,False
+2014-2015,2014,1,14,Quarterfinals,5,Feb 23 @5:50 PM,134192,DeKalb,265,4,56,True,St. Joseph Christian,572,5,49,False,7,Winston,503,False
+2014-2015,2014,1,14,Quarterfinals,6,Feb 23 @7:10 PM,134192,Osborn,405,2,50,False,Pattonsburg/North Daviess,409,7,54,True,4,Winston,503,False
+2014-2015,2014,1,14,Quarterfinals,7,Feb 23 @8:30 PM,134192,King City,331,3,41,False,Stewartsville,462,6,54,True,13,Winston,503,False
+2014-2015,2014,1,15,Final,1,Feb 28 @5:00 PM,133294,Stanberry,460,,42,True,Jefferson (Conception),328,,29,False,13,Stanberry,460,False
+2014-2015,2014,1,15,Semifinals,2,Feb 26 @6:00 PM,133294,Stanberry,460,,55,True,North Nodaway,388,,41,False,14,Stanberry,460,False
+2014-2015,2014,1,15,Semifinals,3,Feb 26 @7:30 PM,133294,Jefferson (Conception),328,,67,True,West Nodaway,494,,53,False,14,Stanberry,460,False
+2014-2015,2014,1,15,Quarterfinals,4,Feb 24 @5:45 PM,133294,Stanberry,460,1,79,True,Northeast Nodaway,393,8,35,False,44,Stanberry,460,False
+2014-2015,2014,1,15,Quarterfinals,5,Feb 24 @4:30 PM,133294,North Nodaway,388,4,54,True,Worth County,505,5,49,False,5,Stanberry,460,False
+2014-2015,2014,1,15,Quarterfinals,6,Feb 24 @7:00 PM,133294,Jefferson (Conception),328,2,65,True,Ridgeway/Cainsville,427,7,41,False,24,Stanberry,460,False
+2014-2015,2014,1,15,Quarterfinals,7,Feb 24 @8:15 PM,133294,West Nodaway,494,3,54,True,North Harrison,387,6,37,False,17,Stanberry,460,False
+2014-2015,2014,1,16,Final,1,Feb 27 @6:00 PM,133105,Mound City/Craig,136,,42,False,North Andrew,385,,44,True,2,North Andrew,385,False
+2014-2015,2014,1,16,Semifinals,2,Feb 25 @6:00 PM,133105,Mound City/Craig,136,,45,True,Rock Port,429,,32,False,13,North Andrew,385,False
+2014-2015,2014,1,16,Semifinals,3,Feb 25 @7:15 PM,133105,North Andrew,385,,53,True,Nodaway-Holt,383,,41,False,12,North Andrew,385,False
+2014-2015,2014,1,16,Quarterfinals,4,Feb 23 @4:30 PM,133105,Mound City/Craig,136,1,62,True,Fairfax,292,8,32,False,30,North Andrew,385,False
+2014-2015,2014,1,16,Quarterfinals,5,Feb 23 @5:45 PM,133105,South Nodaway,449,4,29,False,Rock Port,429,5,52,True,23,North Andrew,385,False
+2014-2015,2014,1,16,Quarterfinals,6,Feb 23 @7:00 PM,133105,North Andrew,385,2,82,True,Tarkio,470,7,23,False,59,North Andrew,385,False
+2014-2015,2014,1,16,Quarterfinals,7,Feb 23 @8:15 PM,133105,Nodaway-Holt,383,3,69,True,South Holt,447,6,52,False,17,North Andrew,385,False
+2014-2015,2014,2,1,Final,1,Feb 27 @7:15 PM,133897,Scott County Central,436,,73,True,Bernie,213,,63,False,10,Scott County Central,436,False
+2014-2015,2014,2,1,Semifinals,2,Feb 26 @6:00 PM,133897,Scott County Central,436,,75,True,South Pemiscot,450,,44,False,31,Scott County Central,436,False
+2014-2015,2014,2,1,Semifinals,3,Feb 26 @7:15 PM,133897,Bernie,213,,56,True,Bloomfield,219,,54,False,2,Scott County Central,436,False
+2014-2015,2014,2,1,Quarterfinals,4,Feb 24 @4:00 PM,133897,Scott County Central,436,1,81,True,Chaffee,257,8,14,False,67,Scott County Central,436,False
+2014-2015,2014,2,1,Quarterfinals,5,Feb 24 @5:15 PM,133897,South Pemiscot,450,4,82,True,Campbell,253,5,57,False,25,Scott County Central,436,False
+2014-2015,2014,2,1,Quarterfinals,6,Feb 24 @6:30 PM,133897,Bernie,213,2,60,True,Holcomb,319,7,40,False,20,Scott County Central,436,False
+2014-2015,2014,2,1,Quarterfinals,7,Feb 24 @7:45 PM,133897,Bloomfield,219,3,60,True,Cooter,281,6,32,False,28,Scott County Central,436,False
+2014-2015,2014,2,2,Final,1,Mar 2 @7:30 PM,133367,Neelyville,374,,51,False,Thayer,471,,63,True,12,Thayer,471,False
+2014-2015,2014,2,2,Semifinals,2,Feb 26 @6:00 PM,133367,Winona,502,,58,False,Neelyville,374,,64,True,6,Thayer,471,False
+2014-2015,2014,2,2,Semifinals,3,Feb 26 @7:30 PM,133367,Thayer,471,,60,True,East Carter,276,,54,False,6,Thayer,471,False
+2014-2015,2014,2,2,Quarterfinals,4,Feb 23 @4:00 PM,133367,Winona,502,1,68,True,Van Buren,482,8,35,False,33,Thayer,471,False
+2014-2015,2014,2,2,Quarterfinals,5,Feb 23 @5:15 PM,133367,Neelyville,374,4,66,True,Greenville,307,5,43,False,23,Thayer,471,False
+2014-2015,2014,2,2,Quarterfinals,6,Feb 23 @6:30 PM,133367,Thayer,471,2,62,True,Alton,8,7,54,False,8,Thayer,471,False
+2014-2015,2014,2,2,Quarterfinals,7,Feb 23 @7:45 PM,133367,Puxico,422,3,69,False,East Carter,276,6,77,True,8,Thayer,471,False
+2014-2015,2014,2,3,Final,1,Feb 27 @7:15 PM,132810,Ellington,452,,51,False,Valle Catholic,559,,57,True,6,Valle Catholic,559,False
+2014-2015,2014,2,3,Semifinals,2,Feb 26 @6:00 PM,132810,Ellington,452,,70,True,Viburnum,486,,42,False,28,Valle Catholic,559,False
+2014-2015,2014,2,3,Semifinals,3,Feb 26 @7:15 PM,132810,Valle Catholic,559,,83,True,Meadow Heights,362,,51,False,32,Valle Catholic,559,False
+2014-2015,2014,2,3,Quarterfinals,4,Feb 24 @4:00 PM,132810,Ellington,452,1,79,True,Kingston,92,8,50,False,29,Valle Catholic,559,False
+2014-2015,2014,2,3,Quarterfinals,5,Feb 24 @7:45 PM,132810,Viburnum,486,4,60,True,Bismarck,216,5,55,False,5,Valle Catholic,559,False
+2014-2015,2014,2,3,Quarterfinals,6,Feb 24 @5:15 PM,132810,Valle Catholic,559,2,71,True,St. Vincent,554,7,37,False,34,Valle Catholic,559,False
+2014-2015,2014,2,3,Quarterfinals,7,Feb 24 @6:30 PM,132810,Meadow Heights,362,3,61,True,Valley,480,6,47,False,14,Valle Catholic,559,False
+2014-2015,2014,2,4,Final,1,Feb 27 @7:00 PM,133777,Crystal City,68,,66,True,Clopton,271,,63,False,3,Crystal City,68,False
+2014-2015,2014,2,4,Semifinals,2,Feb 25 @8:30 PM,133777,Crystal City,68,1,68,True,Barat Academy,781,,64,False,4,Crystal City,68,False
+2014-2015,2014,2,4,Semifinals,3,Feb 25 @7:00 PM,133777,Clopton,271,,56,True,Crossroads College Preparatory,516,,27,False,29,Crystal City,68,False
+2014-2015,2014,2,4,Quarterfinals,5,Feb 23 @4:30 PM,133777,Barat Academy,781,4,60,True,Silex,440,5,40,False,20,Crystal City,68,False
+2014-2015,2014,2,4,Quarterfinals,6,Feb 23 @6:00 PM,133777,Clopton,271,2,73,True,McKinley Classical Leadership,811,7,52,False,21,Crystal City,68,False
+2014-2015,2014,2,4,Quarterfinals,7,Feb 23 @7:30 PM,133777,New Haven,378,3,29,False,Crossroads College Preparatory,516,6,38,True,9,Crystal City,68,False
+2014-2015,2014,2,5,Final,1,Feb 28 @3:00 PM,132835,Canton,254,,78,True,Sturgeon,467,,60,False,18,Canton,254,False
+2014-2015,2014,2,5,Semifinals,2,Feb 25 @7:30 PM,132835,Canton,254,,52,True,Monroe City,134,,37,False,15,Canton,254,False
+2014-2015,2014,2,5,Semifinals,3,Feb 26 @7:30 PM,132835,Louisiana,129,,45,False,Sturgeon,467,,69,True,24,Canton,254,False
+2014-2015,2014,2,5,Quarterfinals,4,Feb 23 @6:00 PM,132835,Canton,254,1,70,True,Paris,156,8,52,False,18,Canton,254,False
+2014-2015,2014,2,5,Quarterfinals,5,Feb 23 @9:00 PM,132835,Monroe City,134,4,67,True,Northeast (Cairo),392,5,36,False,31,Canton,254,False
+2014-2015,2014,2,5,Quarterfinals,6,Feb 24 @6:00 PM,132835,Louisiana,129,2,74,True,South Shelby,451,7,71,False,3,Canton,254,False
+2014-2015,2014,2,5,Quarterfinals,7,Feb 24 @9:00 PM,132835,Sturgeon,467,3,71,True,Van-Far,483,6,53,False,18,Canton,254,False
+2014-2015,2014,2,6,Final,1,Feb 28 @2:00 PM,134062,Scotland County,434,,63,True,Knox County,333,,61,False,2,Scotland County,434,False
+2014-2015,2014,2,6,Semifinals,2,Feb 26 @4:30 PM,134062,Scotland County,434,1,77,True,Milan,368,,44,False,33,Scotland County,434,False
+2014-2015,2014,2,6,Semifinals,3,Feb 26 @7:00 PM,134062,Knox County,333,,60,True,Princeton,421,,45,False,15,Scotland County,434,False
+2014-2015,2014,2,6,Quarterfinals,5,Feb 24 @4:30 PM,134062,Marceline,354,4,60,False,Milan,368,5,72,True,12,Scotland County,434,False
+2014-2015,2014,2,6,Quarterfinals,6,Feb 24 @7:00 PM,134062,Knox County,333,2,60,True,Schuyler County,183,7,37,False,23,Scotland County,434,False
+2014-2015,2014,2,6,Quarterfinals,7,Feb 23 @5:45 PM,134062,Princeton,421,3,71,True,Putnam County,175,6,49,False,22,Scotland County,434,False
+2014-2015,2014,2,7,Final,1,Feb 28 @2:45 PM,134380,Salisbury,431,,46,True,New Franklin,377,,33,False,13,Salisbury,431,False
+2014-2015,2014,2,7,Semifinals,2,Feb 26 @6:30 PM,134380,Salisbury,431,1,62,True,Harrisburg,313,,40,False,22,Salisbury,431,False
+2014-2015,2014,2,7,Semifinals,3,Feb 26 @8:00 PM,134380,New Franklin,377,,53,True,Westran,233,,46,False,7,Salisbury,431,False
+2014-2015,2014,2,7,Quarterfinals,5,Feb 24 @5:00 PM,134380,Harrisburg,313,4,82,True,Fayette,294,5,60,False,22,Salisbury,431,False
+2014-2015,2014,2,7,Quarterfinals,6,Feb 24 @6:30 PM,134380,New Franklin,377,2,54,True,Sweet Springs,469,7,34,False,20,Salisbury,431,False
+2014-2015,2014,2,7,Quarterfinals,7,Feb 24 @8:00 PM,134380,Westran,233,3,77,True,Slater,193,6,23,False,54,Salisbury,431,False
+2014-2015,2014,2,8,Final,1,Mar 2 @6:00 PM,132920,Iberia,325,,46,False,Linn,347,,48,True,2,Linn,347,False
+2014-2015,2014,2,8,Semifinals,2,Feb 26 @6:00 PM,132920,Iberia,325,,57,True,Vienna,487,,31,False,26,Linn,347,False
+2014-2015,2014,2,8,Semifinals,3,Feb 26 @7:30 PM,132920,Linn,347,,50,True,Russellville,430,,35,False,15,Linn,347,False
+2014-2015,2014,2,8,Quarterfinals,4,Feb 24 @4:00 PM,132920,Iberia,325,1,65,True,Belle,212,8,29,False,36,Linn,347,False
+2014-2015,2014,2,8,Quarterfinals,5,Feb 24 @5:30 PM,132920,Vienna,487,4,72,True,New Bloomfield,376,5,56,False,16,Linn,347,False
+2014-2015,2014,2,8,Quarterfinals,6,Feb 24 @7:00 PM,132920,Linn,347,2,40,True,Calvary Lutheran,769,7,34,False,6,Linn,347,False
+2014-2015,2014,2,8,Quarterfinals,7,Feb 24 @8:30 PM,132920,Tipton,474,3,44,False,Russellville,430,6,57,True,13,Linn,347,False
+2014-2015,2014,2,9,Final,1,Feb 27 @6:00 PM,133543,Hartville,314,,51,True,Plato,414,,42,False,9,Hartville,314,False
+2014-2015,2014,2,9,Semifinals,2,Feb 25 @6:00 PM,133543,Hartville,314,,73,True,Newburg,379,,34,False,39,Hartville,314,False
+2014-2015,2014,2,9,Semifinals,3,Feb 25 @7:30 PM,133543,Plato,414,,69,True,Cabool,23,,53,False,16,Hartville,314,False
+2014-2015,2014,2,9,Quarterfinals,4,Feb 23 @4:00 PM,133543,Hartville,314,1,70,True,Laquey,581,8,16,False,54,Hartville,314,False
+2014-2015,2014,2,9,Quarterfinals,5,Feb 23 @5:30 PM,133543,Newburg,379,4,59,True,Richland,181,5,48,False,11,Hartville,314,False
+2014-2015,2014,2,9,Quarterfinals,6,Feb 23 @7:00 PM,133543,Plato,414,2,70,True,Stoutland,464,7,52,False,18,Hartville,314,False
+2014-2015,2014,2,9,Quarterfinals,7,Feb 23 @8:30 PM,133543,Cabool,23,3,65,True,Crocker,288,6,48,False,17,Hartville,314,False
+2014-2015,2014,2,10,Final,1,Feb 27 @7:30 PM,134343,Gainesville,297,,50,True,Sparta,456,,32,False,18,Gainesville,297,False
+2014-2015,2014,2,10,Semifinals,2,Feb 26 @6:00 PM,134343,Gainesville,297,,86,True,Bakersfield,9,,62,False,24,Gainesville,297,False
+2014-2015,2014,2,10,Semifinals,3,Feb 26 @7:30 PM,134343,Mansfield,353,,59,False,Sparta,456,,70,True,11,Gainesville,297,False
+2014-2015,2014,2,10,Quarterfinals,4,Feb 24 @4:00 PM,134343,Gainesville,297,1,80,True,Seymour,437,8,31,False,49,Gainesville,297,False
+2014-2015,2014,2,10,Quarterfinals,5,Feb 24 @5:30 PM,134343,Bakersfield,9,4,57,True,Norwood,397,5,51,False,6,Gainesville,297,False
+2014-2015,2014,2,10,Quarterfinals,6,Feb 24 @8:30 PM,134343,Mansfield,353,2,65,True,Fordland,295,7,34,False,31,Gainesville,297,False
+2014-2015,2014,2,10,Quarterfinals,7,Feb 24 @7:00 PM,134343,Sparta,456,3,72,True,Dora,44,6,64,False,8,Gainesville,297,False
+2014-2015,2014,2,11,Final,1,Mar 2 @7:00 PM,132732,Crane,287,,74,True,Blue Eye,220,,43,False,31,Crane,287,False
+2014-2015,2014,2,11,Semifinals,2,Feb 26 @6:00 PM,132732,Crane,287,,61,True,Greenwood,567,,29,False,32,Crane,287,False
+2014-2015,2014,2,11,Semifinals,3,Feb 26 @7:30 PM,132732,Blue Eye,220,,34,True,Marionville,357,,32,False,2,Crane,287,False
+2014-2015,2014,2,11,Quarterfinals,4,Feb 24 @4:00 PM,132732,Crane,287,1,62,True,Galena,298,8,21,False,41,Crane,287,False
+2014-2015,2014,2,11,Quarterfinals,5,Feb 24 @5:30 PM,132732,Greenwood,567,4,64,True,Spokane,457,5,51,False,13,Crane,287,False
+2014-2015,2014,2,11,Quarterfinals,6,Feb 24 @7:00 PM,132732,Blue Eye,220,2,75,True,Marion C. Early,355,7,57,False,18,Crane,287,False
+2014-2015,2014,2,11,Quarterfinals,7,Feb 24 @8:30 PM,132732,Marionville,357,3,70,True,Billings,215,6,32,False,38,Crane,287,False
+2014-2015,2014,2,12,Final,1,Mar 2 @6:00 PM,133636,Pierce City,412,,81,True,Miller,369,,65,False,16,Pierce City,412,False
+2014-2015,2014,2,12,Semifinals,2,Feb 26 @6:00 PM,133636,Pierce City,412,,68,True,College Heights Christian,574,,33,False,35,Pierce City,412,False
+2014-2015,2014,2,12,Semifinals,3,Feb 26 @7:30 PM,133636,Miller,369,,73,True,Southwest (Washburn),455,,66,False,7,Pierce City,412,False
+2014-2015,2014,2,12,Quarterfinals,4,Feb 24 @4:00 PM,133636,Pierce City,412,1,68,True,Wheaton,497,8,19,False,49,Pierce City,412,False
+2014-2015,2014,2,12,Quarterfinals,5,Feb 24 @5:30 PM,133636,McAuley Catholic,568,4,49,False,College Heights Christian,574,5,52,True,3,Pierce City,412,False
+2014-2015,2014,2,12,Quarterfinals,6,Feb 24 @7:00 PM,133636,Miller,369,2,67,True,Sarcoxie,433,7,33,False,34,Pierce City,412,False
+2014-2015,2014,2,12,Quarterfinals,7,Feb 24 @8:30 PM,133636,Southwest (Washburn),455,3,83,True,Purdy,173,6,68,False,15,Pierce City,412,False
+2014-2015,2014,2,13,Final,1,Mar 2 @6:00 PM,133683,Rich Hill,424,,64,True,Lockwood,126,,57,False,7,Rich Hill,424,False
+2014-2015,2014,2,13,Semifinals,2,Feb 25 @6:00 PM,133683,Rich Hill,424,,74,True,Greenfield,18,,37,False,37,Rich Hill,424,False
+2014-2015,2014,2,13,Semifinals,3,Feb 25 @7:30 PM,133683,Lockwood,126,,62,True,Adrian,3,,52,False,10,Rich Hill,424,False
+2014-2015,2014,2,13,Quarterfinals,4,Feb 23 @4:30 PM,133683,Rich Hill,424,1,84,True,Liberal,342,8,50,False,34,Rich Hill,424,False
+2014-2015,2014,2,13,Quarterfinals,5,Feb 23 @6:00 PM,133683,Greenfield,18,4,82,True,Jasper,327,5,79,False,3,Rich Hill,424,False
+2014-2015,2014,2,13,Quarterfinals,6,Feb 23 @7:30 PM,133683,Lockwood,126,2,32,True,Archie,22,7,27,False,5,Rich Hill,424,False
+2014-2015,2014,2,13,Quarterfinals,7,Feb 23 @9:00 PM,133683,Adrian,3,3,69,True,Midway,367,6,65,False,4,Rich Hill,424,False
+2014-2015,2014,2,14,Final,1,Mar 2 @6:00 PM,132570,Sacred Heart,573,,76,True,Osceola,406,,64,False,12,Sacred Heart,573,False
+2014-2015,2014,2,14,Semifinals,2,Feb 26 @7:30 PM,132570,Sacred Heart,573,,77,True,Stover,465,,40,False,37,Sacred Heart,573,False
+2014-2015,2014,2,14,Semifinals,3,Feb 26 @9:00 PM,132570,Skyline,443,,59,False,Osceola,406,,73,True,14,Sacred Heart,573,False
+2014-2015,2014,2,14,Quarterfinals,4,Feb 24 @4:30 PM,132570,Sacred Heart,573,1,75,True,Crest Ridge,67,8,41,False,34,Sacred Heart,573,False
+2014-2015,2014,2,14,Quarterfinals,5,Feb 24 @6:00 PM,132570,Lincoln,345,4,47,False,Stover,465,5,58,True,11,Sacred Heart,573,False
+2014-2015,2014,2,14,Quarterfinals,6,Feb 24 @7:30 PM,132570,Skyline,443,2,91,True,Windsor,500,7,50,False,41,Sacred Heart,573,False
+2014-2015,2014,2,14,Quarterfinals,7,Feb 24 @9:00 PM,132570,Osceola,406,3,97,True,Smithton,444,6,71,False,26,Sacred Heart,573,False
+2014-2015,2014,2,15,Final,1,Feb 28 @1:30 PM,132770,Wellington-Napoleon,492,,61,True,Santa Fe,432,,55,False,6,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Semifinals,2,Feb 26 @7:30 PM,132770,Wellington-Napoleon,492,,69,True,West Platte,495,,42,False,27,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Semifinals,3,Feb 26 @6:00 PM,132770,Lone Jack,348,,41,False,Santa Fe,432,,44,True,3,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Quarterfinals,4,Feb 24 @4:00 PM,132770,Wellington-Napoleon,492,1,94,True,Frontier School of Excellence Charter,916,8,26,False,68,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Quarterfinals,5,Feb 24 @5:30 PM,132770,West Platte,495,4,68,True,Lutheran (Kansas City),527,5,53,False,15,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Quarterfinals,6,Feb 24 @7:00 PM,132770,Lone Jack,348,2,50,True,Concordia,279,7,29,False,21,Wellington-Napoleon,492,False
+2014-2015,2014,2,15,Quarterfinals,7,Feb 24 @8:30 PM,132770,Santa Fe,432,3,64,True,Orrick,404,6,42,False,22,Wellington-Napoleon,492,False
+2014-2015,2014,2,16,Final,1,Feb 28 @11:00 AM,132314,Mid-Buchanan,366,,68,True,Penney,410,,46,False,22,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Semifinals,2,Feb 26 @6:00 PM,132314,Mid-Buchanan,366,,69,True,North Platte,390,,48,False,21,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Semifinals,3,Feb 26 @7:15 PM,132314,Penney,410,,53,True,Gallatin,299,,39,False,14,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Quarterfinals,4,Feb 24 @4:45 PM,132314,Mid-Buchanan,366,1,92,True,Polo,418,8,36,False,56,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Quarterfinals,5,Feb 24 @6:00 PM,132314,Maysville,361,4,38,False,North Platte,390,5,61,True,23,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Quarterfinals,6,Feb 24 @7:15 PM,132314,Penney,410,2,62,True,South Harrison,446,7,40,False,22,Mid-Buchanan,366,False
+2014-2015,2014,2,16,Quarterfinals,7,Feb 24 @8:30 PM,132314,Gallatin,299,3,46,True,Albany,7,6,40,False,6,Mid-Buchanan,366,False
+2014-2015,2014,3,1,Final,1,Feb 27 @7:30 PM,134009,Central (New Madrid County),226,,70,True,Malden,105,,32,False,38,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Semifinals,2,Feb 26 @6:00 PM,134009,Central (New Madrid County),226,,83,True,Caruthersville,39,,47,False,36,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Semifinals,3,Feb 26 @7:30 PM,134009,Hayti,74,,57,False,Malden,105,,62,True,5,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Quarterfinals,4,Feb 24 @7:00 PM,134009,Central (New Madrid County),226,1,82,True,Doniphan,42,8,28,False,54,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Quarterfinals,5,Feb 24 @8:30 PM,134009,Senath-Hornersville,186,4,53,False,Caruthersville,39,5,68,True,15,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Quarterfinals,6,Feb 24 @4:00 PM,134009,Hayti,74,2,47,True,Portageville,419,7,34,False,13,Central (New Madrid County),226,False
+2014-2015,2014,3,1,Quarterfinals,7,Feb 24 @5:30 PM,134009,Malden,105,3,61,True,Twin Rivers,199,6,51,False,10,Central (New Madrid County),226,False
+2014-2015,2014,3,2,Final,1,Feb 27 @7:30 PM,134361,Charleston,259,,71,True,Woodland,504,,62,False,9,Charleston,259,False
+2014-2015,2014,3,2,Semifinals,2,Feb 26 @6:00 PM,134361,Charleston,259,,78,True,Scott City,435,,46,False,32,Charleston,259,False
+2014-2015,2014,3,2,Semifinals,3,Feb 26 @7:30 PM,134361,Woodland,504,,71,True,Arcadia Valley,242,,68,False,3,Charleston,259,False
+2014-2015,2014,3,2,Quarterfinals,4,Feb 24 @4:00 PM,134361,Charleston,259,1,81,True,Clearwater,264,8,55,False,26,Charleston,259,False
+2014-2015,2014,3,2,Quarterfinals,5,Feb 24 @8:30 PM,134361,Scott City,435,4,77,True,Kelly,88,5,49,False,28,Charleston,259,False
+2014-2015,2014,3,2,Quarterfinals,6,Feb 24 @5:30 PM,134361,Woodland,504,2,66,True,Saxony Lutheran,555,7,42,False,24,Charleston,259,False
+2014-2015,2014,3,2,Quarterfinals,7,Feb 24 @7:00 PM,134361,Arcadia Valley,242,3,80,True,East Prairie,48,6,60,False,20,Charleston,259,False
+2014-2015,2014,3,3,Final,1,Feb 27 @7:30 PM,134007,Central (Park Hills),255,,61,True,West County,493,,30,False,31,Central (Park Hills),255,False
+2014-2015,2014,3,3,Semifinals,2,Feb 25 @5:30 PM,134007,Central (Park Hills),255,,75,True,Grandview (Hillsboro),29,,42,False,33,Central (Park Hills),255,False
+2014-2015,2014,3,3,Semifinals,3,Feb 25 @8:30 PM,134007,West County,493,,83,True,St. Pius X (Festus),552,,75,False,8,Central (Park Hills),255,False
+2014-2015,2014,3,3,Quarterfinals,4,Feb 23 @7:00 PM,134007,Central (Park Hills),255,1,95,True,Herculaneum,315,8,31,False,64,Central (Park Hills),255,False
+2014-2015,2014,3,3,Quarterfinals,5,Feb 23 @8:30 PM,134007,Jefferson (Festus),825,4,61,False,Grandview (Hillsboro),29,5,63,True,2,Central (Park Hills),255,False
+2014-2015,2014,3,3,Quarterfinals,6,Feb 23 @4:00 PM,134007,West County,493,2,93,True,Hancock,148,7,42,False,51,Central (Park Hills),255,False
+2014-2015,2014,3,3,Quarterfinals,7,Feb 23 @5:30 AM,134007,St. Pius X (Festus),552,3,71,True,Bayless,10,6,61,False,10,Central (Park Hills),255,False
+2014-2015,2014,3,4,Final,1,Feb 27 @7:30 PM,132674,Maplewood-Richmond Hts.,106,,48,True,Whitfield,565,,46,False,2,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Semifinals,2,Feb 26 @5:00 PM,132674,Maplewood-Richmond Hts.,106,,50,True,Principia,538,,26,False,24,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Semifinals,3,Feb 26 @6:30 PM,132674,Whitfield,565,,45,True,John Burroughs,524,,40,False,5,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Quarterfinals,4,Feb 24 @3:30 PM,132674,Maplewood-Richmond Hts.,106,1,52,True,John F. Kennedy,525,8,19,False,33,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Quarterfinals,5,Feb 24 @5:00 PM,132674,Principia,538,4,59,True,Cleveland NJROTC,61,5,44,False,15,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Quarterfinals,6,Feb 24 @6:30 PM,132674,Whitfield,565,2,48,True,Valley Park,481,7,18,False,30,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,4,Quarterfinals,7,Feb 24 @8:00 PM,132674,John Burroughs,524,3,43,True,Brentwood,19,6,28,False,15,Maplewood-Richmond Hts.,106,False
+2014-2015,2014,3,5,Final,1,Feb 28 @1:00 PM,134618,Cardinal Ritter,511,,70,False,College Preparatory,922,,71,True,1,College Preparatory,922,False
+2014-2015,2014,3,5,Semifinals,2,Feb 26 @6:00 PM,134618,Cardinal Ritter,511,,73,True,Lift for Life Academy Charter,810,,39,False,34,College Preparatory,922,False
+2014-2015,2014,3,5,Semifinals,3,Feb 26 @4:30 PM,134618,College Preparatory,922,,58,True,Transportation and Law,776,,48,False,10,College Preparatory,922,False
+2014-2015,2014,3,5,Quarterfinals,4,Feb 23 @3:30 PM,134618,Cardinal Ritter,511,1,90,True,Metro,125,,31,False,59,College Preparatory,922,False
+2014-2015,2014,3,5,Quarterfinals,5,Feb 23 @5:00 PM,134618,Carnahan,777,4,44,False,Lift for Life Academy Charter,810,5,50,True,6,College Preparatory,922,False
+2014-2015,2014,3,5,Quarterfinals,6,Feb 23 @6:30 PM,134618,College Preparatory,922,2,56,True,Lutheran North,529,7,48,False,8,College Preparatory,922,False
+2014-2015,2014,3,5,Quarterfinals,7,Feb 23 @8:00 PM,134618,Transportation and Law,776,3,77,True,Trinity Catholic,557,6,57,False,20,College Preparatory,922,False
+2014-2015,2014,3,5,Sectionals,9,Feb 21 @1:00 PM,134618,Metro,125,8,61,True,Construction Careers Charter,66,,38,False,23,College Preparatory,922,False
+2014-2015,2014,3,6,Final,1,Feb 28 @7:30 PM,132961,North Technical,141,,48,False,Duchesne,518,,57,True,9,Duchesne,518,False
+2014-2015,2014,3,6,Semifinals,2,Feb 26 @5:30 PM,132961,North Technical,141,,69,True,Orchard Farm,403,,47,False,22,Duchesne,518,False
+2014-2015,2014,3,6,Semifinals,3,Feb 26 @7:00 PM,132961,Duchesne,518,,62,True,Lutheran St. Charles,528,,52,False,10,Duchesne,518,False
+2014-2015,2014,3,6,Quarterfinals,4,Feb 23 @3:30 PM,132961,North Technical,141,1,81,True,Winfield,501,8,50,False,31,Duchesne,518,False
+2014-2015,2014,3,6,Quarterfinals,5,Feb 23 @4:45 PM,132961,Orchard Farm,403,4,52,True,Wright City,506,5,42,False,10,Duchesne,518,False
+2014-2015,2014,3,6,Quarterfinals,6,Feb 23 @6:00 PM,132961,Duchesne,518,2,65,True,Elsberry,52,7,37,False,28,Duchesne,518,False
+2014-2015,2014,3,6,Quarterfinals,7,Feb 23 @7:30 PM,132961,Lutheran St. Charles,528,3,64,True,Christian,812,6,48,False,16,Duchesne,518,False
+2014-2015,2014,3,7,Final,1,Feb 28 @1:00 PM,134565,Bowling Green,17,,85,True,Highland,318,,70,False,15,Bowling Green,17,False
+2014-2015,2014,3,7,Semifinals,2,Feb 25 @6:00 PM,134565,Bowling Green,17,,61,True,Macon,104,,40,False,21,Bowling Green,17,False
+2014-2015,2014,3,7,Semifinals,3,Feb 25 @7:30 PM,134565,Palmyra,155,,80,False,Highland,318,,82,True,2,Bowling Green,17,False
+2014-2015,2014,3,7,Quarterfinals,4,Feb 23 @4:30 PM,134565,Bowling Green,17,1,72,True,Missouri Military Academy,569,8,24,False,48,Bowling Green,17,False
+2014-2015,2014,3,7,Quarterfinals,5,Feb 23 @5:50 PM,134565,Macon,104,4,50,True,Centralia,53,5,45,False,5,Bowling Green,17,False
+2014-2015,2014,3,7,Quarterfinals,6,Feb 23 @7:10 PM,134565,Palmyra,155,2,69,True,Mark Twain,358,7,44,False,25,Bowling Green,17,False
+2014-2015,2014,3,7,Quarterfinals,7,Feb 23 @8:30 PM,134565,Highland,318,3,54,True,Clark County,261,6,37,False,17,Bowling Green,17,False
+2014-2015,2014,3,8,Final,1,Feb 28 @2:00 PM,132701,Father Tolton Regional Catholic,917,,72,True,South Callaway,197,,60,False,12,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Semifinals,2,Feb 26 @6:00 PM,132701,Father Tolton Regional Catholic,917,,40,True,Southern Boone,2,,23,False,17,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Semifinals,3,Feb 26 @7:30 PM,132701,California,582,,34,False,South Callaway,197,,60,True,26,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Quarterfinals,4,Feb 24 @4:00 PM,132701,Father Tolton Regional Catholic,917,1,81,True,Montgomery County,370,8,46,False,35,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Quarterfinals,5,Feb 24 @5:30 PM,132701,Hermann,83,4,41,False,Southern Boone,2,5,68,True,27,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Quarterfinals,6,Feb 24 @7:00 PM,132701,California,582,2,70,True,North Callaway,139,7,36,False,34,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,8,Quarterfinals,7,Feb 24 @8:30 PM,132701,South Callaway,197,3,87,True,Hallsville,311,6,66,False,21,Father Tolton Regional Catholic,917,False
+2014-2015,2014,3,9,Final,1,Mar 2 @6:00 PM,133281,Blair Oaks,217,,69,True,Eugene,285,,44,False,25,Blair Oaks,217,False
+2014-2015,2014,3,9,Semifinals,2,Feb 26 @6:00 PM,133281,Blair Oaks,217,,81,True,Steelville,205,,43,False,38,Blair Oaks,217,False
+2014-2015,2014,3,9,Semifinals,3,Feb 26 @7:30 PM,133281,Eugene,285,,50,True,Fatima,293,,45,False,5,Blair Oaks,217,False
+2014-2015,2014,3,9,Quarterfinals,4,Feb 24 @4:30 PM,133281,Blair Oaks,217,1,70,True,Dixon,273,8,47,False,23,Blair Oaks,217,False
+2014-2015,2014,3,9,Quarterfinals,5,Feb 24 @6:00 PM,133281,St. James,172,4,48,False,Steelville,205,5,51,True,3,Blair Oaks,217,False
+2014-2015,2014,3,9,Quarterfinals,6,Feb 24 @7:30 PM,133281,Eugene,285,2,77,True,Cuba,289,7,46,False,31,Blair Oaks,217,False
+2014-2015,2014,3,9,Quarterfinals,7,Feb 24 @9:00 PM,133281,Fatima,293,3,59,True,Bourbon,223,6,48,False,11,Blair Oaks,217,False
+2014-2015,2014,3,10,Final,1,Mar 2 @7:30 PM,133183,Licking,344,,48,True,Liberty (Mountain View),343,,37,False,11,Licking,344,False
+2014-2015,2014,3,10,Semifinals,2,Feb 26 @6:00 PM,133183,Licking,344,,48,True,Forsyth,62,,37,False,11,Licking,344,False
+2014-2015,2014,3,10,Semifinals,3,Feb 26 @7:30 PM,133183,Hollister,101,,46,False,Liberty (Mountain View),343,,70,True,24,Licking,344,False
+2014-2015,2014,3,10,Quarterfinals,4,Feb 24 @4:00 PM,133183,Licking,344,1,68,True,Houston,321,8,43,False,25,Licking,344,False
+2014-2015,2014,3,10,Quarterfinals,5,Feb 24 @5:30 PM,133183,Forsyth,62,4,59,True,Ava,5,5,44,False,15,Licking,344,False
+2014-2015,2014,3,10,Quarterfinals,6,Feb 24 @7:00 PM,133183,Mountain Grove,372,2,49,False,Hollister,101,7,52,True,3,Licking,344,False
+2014-2015,2014,3,10,Quarterfinals,7,Feb 24 @8:30 PM,133183,Liberty (Mountain View),343,3,60,True,Willow Springs,498,6,53,False,7,Licking,344,False
+2014-2015,2014,3,11,Final,1,Mar 2 @7:30 PM,133072,Strafford,466,,66,True,Fair Grove,290,,45,False,21,Strafford,466,False
+2014-2015,2014,3,11,Semifinals,2,Feb 26 @6:00 PM,133072,Strafford,466,,76,True,Clever,267,,65,False,11,Strafford,466,False
+2014-2015,2014,3,11,Semifinals,3,Feb 26 @7:30 PM,133072,Conway,280,,65,False,Fair Grove,290,,80,True,15,Strafford,466,False
+2014-2015,2014,3,11,Quarterfinals,4,Feb 24 @4:00 PM,133072,Strafford,466,1,80,True,Buffalo,21,8,28,False,52,Strafford,466,False
+2014-2015,2014,3,11,Quarterfinals,5,Feb 24 @5:30 PM,133072,Clever,267,4,52,True,Springfield Catholic,571,5,30,False,22,Strafford,466,False
+2014-2015,2014,3,11,Quarterfinals,6,Feb 24 @7:00 PM,133072,Conway,280,2,68,True,Ash Grove,24,7,35,False,33,Strafford,466,False
+2014-2015,2014,3,11,Quarterfinals,7,Feb 24 @8:30 PM,133072,Fair Grove,290,3,83,True,Pleasant Hope,417,6,50,False,33,Strafford,466,False
+2014-2015,2014,3,12,Final,1,Mar 2 @7:30 PM,133221,Mt. Vernon,371,,58,True,East Newton,47,,45,False,13,Mt. Vernon,371,False
+2014-2015,2014,3,12,Semifinals,2,Feb 27 @6:00 PM,133221,Mt. Vernon,371,,66,True,Lamar,110,,54,False,12,Mt. Vernon,371,False
+2014-2015,2014,3,12,Semifinals,3,Feb 27 @7:30 PM,133221,East Newton,47,,48,True,Butler,249,,38,False,10,Mt. Vernon,371,False
+2014-2015,2014,3,12,Quarterfinals,4,Feb 24 @4:00 PM,133221,Mt. Vernon,371,1,62,True,Seneca,190,8,27,False,35,Mt. Vernon,371,False
+2014-2015,2014,3,12,Quarterfinals,5,Feb 24 @5:30 PM,133221,Lamar,110,4,73,True,Stockton,463,5,56,False,17,Mt. Vernon,371,False
+2014-2015,2014,3,12,Quarterfinals,6,Feb 24 @7:00 PM,133221,East Newton,47,2,69,True,El Dorado Springs,277,7,34,False,35,Mt. Vernon,371,False
+2014-2015,2014,3,12,Quarterfinals,7,Feb 24 @8:30 PM,133221,Butler,249,3,59,True,Diamond,270,6,43,False,16,Mt. Vernon,371,False
+2014-2015,2014,3,13,Final,1,Feb 28 @2:30 PM,133126,Boonville,16,,61,True,Cole Camp,272,,58,False,3,Boonville,16,False
+2014-2015,2014,3,13,Semifinals,2,Feb 26 @6:00 PM,133126,Boonville,16,,63,True,St. Paul Lutheran (Concordia),550,,55,False,8,Boonville,16,False
+2014-2015,2014,3,13,Semifinals,3,Feb 26 @7:30 PM,133126,Versailles,485,,57,False,Cole Camp,272,,59,True,2,Boonville,16,False
+2014-2015,2014,3,13,Quarterfinals,4,Feb 24 @4:30 PM,133126,Boonville,16,1,86,True,Holden,99,8,67,False,19,Boonville,16,False
+2014-2015,2014,3,13,Quarterfinals,5,Feb 24 @6:00 PM,133126,Knob Noster,96,4,54,False,St. Paul Lutheran (Concordia),550,5,62,True,8,Boonville,16,False
+2014-2015,2014,3,13,Quarterfinals,6,Feb 24 @7:30 PM,133126,Versailles,485,2,78,True,Sherwood,439,7,47,False,31,Boonville,16,False
+2014-2015,2014,3,13,Quarterfinals,7,Feb 24 @9:00 PM,133126,Warsaw,490,3,56,False,Cole Camp,272,6,67,True,11,Boonville,16,False
+2014-2015,2014,3,14,Final,1,Feb 28 @12:30 PM,132202,Barstow,508,,69,True,Hogan Prep Academy Charter,97,,44,False,25,Barstow,508,False
+2014-2015,2014,3,14,Semifinals,2,Feb 25 @5:30 PM,132202,Barstow,508,,74,True,University Academy Charter,479,,53,False,21,Barstow,508,False
+2014-2015,2014,3,14,Semifinals,3,Feb 25 @7:00 PM,132202,Hogan Prep Academy Charter,97,,63,True,Summit Christian Academy,783,,36,False,27,Barstow,508,False
+2014-2015,2014,3,14,Quarterfinals,4,Feb 23 @4:00 PM,132202,Barstow,508,1,66,True,Southwest Early College,905,,38,False,28,Barstow,508,False
+2014-2015,2014,3,14,Quarterfinals,5,Feb 23 @5:30 PM,132202,Central (Kansas City),46,4,64,False,University Academy Charter,479,5,71,True,7,Barstow,508,False
+2014-2015,2014,3,14,Quarterfinals,6,Feb 23 @7:00 PM,132202,Hogan Prep Academy Charter,97,2,63,True,Pembroke Hill,570,7,61,False,2,Barstow,508,False
+2014-2015,2014,3,14,Quarterfinals,7,Feb 23 @8:30 PM,132202,O'Hara,537,3,50,False,Summit Christian Academy,783,6,53,True,3,Barstow,508,False
+2014-2015,2014,3,14,Sectionals,9,Feb 21 @2:30 PM,132202,Southwest Early College,905,8,67,True,Southeast,806,9,58,False,9,Barstow,508,False
+2014-2015,2014,3,15,Final,1,Feb 27 @8:00 PM,132361,Lafayette County,108,,55,True,Chillicothe,55,,52,False,3,Lafayette County,108,False
+2014-2015,2014,3,15,Semifinals,2,Feb 25 @6:00 PM,132361,Lafayette County,108,,47,True,Richmond,426,,38,False,9,Lafayette County,108,False
+2014-2015,2014,3,15,Semifinals,3,Feb 25 @7:30 PM,132361,Lawson,112,,45,False,Chillicothe,55,,56,True,11,Lafayette County,108,False
+2014-2015,2014,3,15,Quarterfinals,4,Feb 23 @4:00 PM,132361,Lafayette County,108,1,64,True,Brookfield,244,8,31,False,33,Lafayette County,108,False
+2014-2015,2014,3,15,Quarterfinals,5,Feb 23 @5:15 PM,132361,Richmond,426,4,62,True,Trenton,196,5,47,False,15,Lafayette County,108,False
+2014-2015,2014,3,15,Quarterfinals,6,Feb 23 @6:30 PM,132361,Lawson,112,2,57,True,Lexington,119,7,24,False,33,Lafayette County,108,False
+2014-2015,2014,3,15,Quarterfinals,7,Feb 23 @7:45 PM,132361,Chillicothe,55,3,54,True,Carrollton,36,6,19,False,35,Lafayette County,108,False
+2014-2015,2014,3,16,Final,1,Feb 28 @12:30 PM,132739,East Buchanan,45,,44,False,Bishop LeBlond,510,,46,True,2,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Semifinals,2,Feb 26 @6:00 PM,132739,East Buchanan,45,,35,True,Maryville,111,,33,False,2,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Semifinals,3,Feb 26 @7:30 PM,132739,Plattsburg,415,,49,False,Bishop LeBlond,510,,57,True,8,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Quarterfinals,4,Feb 24 @6:00 PM,132739,East Buchanan,45,1,61,True,Cristo Rey,915,8,30,False,31,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Quarterfinals,5,Feb 24 @4:30 PM,132739,Maryville,111,4,51,True,Cameron,252,5,43,False,8,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Quarterfinals,6,Feb 24 @7:30 PM,132739,St. Pius X (Kansas City),551,2,43,False,Plattsburg,415,7,46,True,3,Bishop LeBlond,510,False
+2014-2015,2014,3,16,Quarterfinals,7,Feb 24 @9:00 PM,132739,Bishop LeBlond,510,3,70,True,Lathrop,337,6,47,False,23,Bishop LeBlond,510,False
+2014-2015,2014,4,1,Final,1,Mar 7 @7:30 PM,132964,Notre Dame (Cape Girardeau),534,,63,True,Sikeston,191,,56,False,7,Notre Dame (Cape Girardeau),534,False
+2014-2015,2014,4,1,Semifinals,2,Mar 6 @6:00 PM,132964,Notre Dame (Cape Girardeau),534,1,75,True,Kennett,580,,58,False,17,Notre Dame (Cape Girardeau),534,False
+2014-2015,2014,4,1,Semifinals,3,Mar 6 @7:30 PM,132964,Central (Cape Girardeau),225,2,43,False,Sikeston,191,,75,True,32,Notre Dame (Cape Girardeau),534,False
+2014-2015,2014,4,1,Quarterfinals,5,Mar 2 @7:00 PM,132964,Perryville,411,4,58,False,Kennett,580,5,64,True,6,Notre Dame (Cape Girardeau),534,False
+2014-2015,2014,4,1,Quarterfinals,7,Mar 2 @8:30 PM,132964,Sikeston,191,3,76,True,Dexter,37,6,50,False,26,Notre Dame (Cape Girardeau),534,False
+2014-2015,2014,4,2,Final,1,Mar 6 @7:15 PM,134178,Farmington,59,,60,False,Potosi,171,,79,True,19,Potosi,171,False
+2014-2015,2014,4,2,Semifinals,2,Mar 5 @6:30 PM,134178,Farmington,59,1,62,True,North County,140,,50,False,12,Potosi,171,False
+2014-2015,2014,4,2,Semifinals,3,Mar 5 @7:45 PM,134178,Potosi,171,2,71,True,Ste. Genevieve,459,,63,False,8,Potosi,171,False
+2014-2015,2014,4,2,Quarterfinals,5,Mar 3 @5:15 PM,134178,North County,140,4,63,True,DeSoto,35,5,35,False,28,Potosi,171,False
+2014-2015,2014,4,2,Quarterfinals,7,Mar 3 @7:45 PM,134178,Ste. Genevieve,459,3,72,True,Fredericktown,79,6,29,False,43,Potosi,171,False
+2014-2015,2014,4,3,Final,1,Mar 5 @7:30 PM,132807,Lutheran South,530,,80,True,Affton,4,,72,False,8,Lutheran South,530,False
+2014-2015,2014,4,3,Semifinals,2,Mar 3 @6:00 PM,132807,Lutheran South,530,1,62,True,Windsor (Imperial),499,,55,False,7,Lutheran South,530,False
+2014-2015,2014,4,3,Semifinals,3,Mar 3 @7:30 PM,132807,Festus,60,2,74,False,Affton,4,,79,True,5,Lutheran South,530,False
+2014-2015,2014,4,3,Quarterfinals,5,Feb 28 @12:00 PM,132807,Hillsboro,93,4,47,False,Windsor (Imperial),499,5,49,True,2,Lutheran South,530,False
+2014-2015,2014,4,3,Quarterfinals,7,Feb 28 @3:00 PM,132807,Affton,4,3,66,True,Bishop DuBourg,509,6,43,False,23,Lutheran South,530,False
+2014-2015,2014,4,4,Final,1,Mar 6 @7:00 PM,132537,Westminster Christian Academy,564,,56,True,Priory,539,,36,False,20,Westminster Christian Academy,564,False
+2014-2015,2014,4,4,Semifinals,2,Mar 3 @7:00 PM,132537,Westminster Christian Academy,564,1,71,True,University City,203,,61,False,10,Westminster Christian Academy,564,False
+2014-2015,2014,4,4,Semifinals,3,Mar 3 @8:30 PM,132537,Parkway West,163,2,34,False,Priory,539,,36,True,2,Westminster Christian Academy,564,False
+2014-2015,2014,4,4,Quarterfinals,5,Mar 2 @5:00 PM,132537,University City,203,4,74,True,Clayton,58,5,68,False,6,Westminster Christian Academy,564,False
+2014-2015,2014,4,4,Quarterfinals,7,Mar 2 @7:00 PM,132537,Priory,539,3,68,True,MICDS,531,6,44,False,24,Westminster Christian Academy,564,False
+2014-2015,2014,4,5,Final,1,Mar 7 @4:00 PM,134792,Miller Career Academy,131,,65,True,Vashon,206,,54,False,11,Miller Career Academy,131,False
+2014-2015,2014,4,5,Semifinals,2,Mar 6 @4:30 PM,134792,Miller Career Academy,131,1,67,True,Confluence Prep Academy Charter,802,,35,False,32,Miller Career Academy,131,False
+2014-2015,2014,4,5,Semifinals,3,Mar 6 @6:00 PM,134792,St. Mary's (St. Louis),549,2,44,False,Vashon,206,,57,True,13,Miller Career Academy,131,False
+2014-2015,2014,4,5,Quarterfinals,5,Mar 3 @4:30 PM,134792,Roosevelt,189,4,45,False,Confluence Prep Academy Charter,802,5,68,True,23,Miller Career Academy,131,False
+2014-2015,2014,4,5,Quarterfinals,7,Mar 3 @6:00 PM,134792,Vashon,206,3,75,True,Gateway,25,6,68,False,7,Miller Career Academy,131,False
+2014-2015,2014,4,6,Final,1,Mar 6 @6:30 PM,132992,Riverview Gardens,185,,44,False,Soldan International Studies,195,,58,True,14,Soldan International Studies,195,False
+2014-2015,2014,4,6,Semifinals,2,Mar 5 @4:00 PM,132992,Jennings,86,1,49,False,Riverview Gardens,185,,56,True,7,Soldan International Studies,195,False
+2014-2015,2014,4,6,Semifinals,3,Mar 5 @5:30 PM,132992,Soldan International Studies,195,2,69,True,McCluer South-Berkeley,118,,54,False,15,Soldan International Studies,195,False
+2014-2015,2014,4,6,Quarterfinals,5,Mar 2 @4:00 PM,132992,Riverview Gardens,185,4,45,True,Sumner,208,5,28,False,17,Soldan International Studies,195,False
+2014-2015,2014,4,6,Quarterfinals,7,Mar 2 @5:30 PM,132992,McCluer South-Berkeley,118,3,23,True,Normandy Collaborative,138,6,22,False,1,Soldan International Studies,195,False
+2014-2015,2014,4,7,Final,1,Mar 6 @7:30 PM,133765,St. Charles,168,,50,True,St. Charles West,169,,43,False,7,St. Charles,168,False
+2014-2015,2014,4,7,Semifinals,2,Mar 3 @6:00 PM,133765,St. Charles,168,1,92,True,McCluer,113,,76,False,16,St. Charles,168,False
+2014-2015,2014,4,7,Semifinals,3,Mar 3 @7:30 PM,133765,St. Charles West,169,2,51,True,St. Dominic,542,,48,False,3,St. Charles,168,False
+2014-2015,2014,4,7,Quarterfinals,5,Mar 2 @7:00 PM,133765,McCluer,113,4,87,True,Liberty (Wentzville),965,5,60,False,27,St. Charles,168,False
+2014-2015,2014,4,7,Quarterfinals,7,Mar 2 @8:30 PM,133765,St. Dominic,542,3,70,True,Ft. Zumwalt East,775,6,47,False,23,St. Charles,168,False
+2014-2015,2014,4,8,Final,1,Mar 6 @7:30 PM,134399,Moberly,132,,65,True,Mexico,128,,53,False,12,Moberly,132,False
+2014-2015,2014,4,8,Semifinals,2,Mar 5 @6:00 PM,134399,Moberly,132,1,63,True,Kirksville,94,,40,False,23,Moberly,132,False
+2014-2015,2014,4,8,Semifinals,3,Mar 5 @9:00 PM,134399,Mexico,128,2,64,True,Fulton,80,,62,False,2,Moberly,132,False
+2014-2015,2014,4,8,Quarterfinals,5,Mar 2 @9:00 PM,134399,Kirksville,94,4,65,True,Warrenton,489,5,53,False,12,Moberly,132,False
+2014-2015,2014,4,8,Quarterfinals,7,Mar 2 @6:00 PM,134399,Fulton,80,3,84,True,Hannibal,149,6,73,False,11,Moberly,132,False
+2014-2015,2014,4,9,Final,1,Mar 7 @7:30 PM,133690,Pacific,408,,63,False,St. Francis Borgia,544,,66,True,3,St. Francis Borgia,544,False
+2014-2015,2014,4,9,Semifinals,2,Mar 6 @6:00 PM,133690,Pacific,408,1,66,True,St. Clair,170,,41,False,25,St. Francis Borgia,544,False
+2014-2015,2014,4,9,Semifinals,3,Mar 6 @7:30 PM,133690,St. Francis Borgia,544,2,46,True,Sullivan,207,,45,False,1,St. Francis Borgia,544,False
+2014-2015,2014,4,9,Quarterfinals,5,Mar 3 @6:00 PM,133690,Union,201,4,60,False,St. Clair,170,5,81,True,21,St. Francis Borgia,544,False
+2014-2015,2014,4,9,Quarterfinals,7,Mar 3 @7:30 PM,133690,Sullivan,207,3,66,True,Owensville,153,6,40,False,26,St. Francis Borgia,544,False
+2014-2015,2014,4,10,Final,1,Mar 7 @7:30 PM,132765,Rolla,188,,65,True,Helias Catholic,522,,55,False,10,Rolla,188,False
+2014-2015,2014,4,10,Semifinals,2,Mar 5 @7:00 PM,132765,Rolla,188,1,90,True,Salem,174,,60,False,30,Rolla,188,False
+2014-2015,2014,4,10,Semifinals,3,Mar 5 @8:30 PM,132765,Helias Catholic,522,2,83,True,Marshfield,107,,63,False,20,Rolla,188,False
+2014-2015,2014,4,10,Quarterfinals,5,Feb 28 @1:30 PM,132765,Salem,174,4,74,True,Eldon,278,5,62,False,12,Rolla,188,False
+2014-2015,2014,4,10,Quarterfinals,7,Mar 2 @7:30 PM,132765,Marshfield,107,3,76,True,Osage,152,6,64,False,12,Rolla,188,False
+2014-2015,2014,4,11,Final,1,Mar 7 @7:00 PM,133007,Hillcrest,91,,50,True,West Plains,230,,46,False,4,Hillcrest,91,False
+2014-2015,2014,4,11,Semifinals,2,Mar 5 @8:30 PM,133007,Logan-Rogersville,127,1,51,False,Hillcrest,91,,62,True,11,Hillcrest,91,False
+2014-2015,2014,4,11,Semifinals,3,Mar 5 @7:00 PM,133007,West Plains,230,2,72,True,Glendale,28,,61,False,11,Hillcrest,91,False
+2014-2015,2014,4,11,Quarterfinals,5,Mar 2 @6:00 PM,133007,Hillcrest,91,4,62,True,Aurora,30,5,52,False,10,Hillcrest,91,False
+2014-2015,2014,4,11,Quarterfinals,7,Mar 2 @7:30 PM,133007,Glendale,28,3,81,True,Reeds Spring,180,6,48,False,33,Hillcrest,91,False
+2014-2015,2014,4,12,Final,1,Mar 7 @7:30 PM,132902,McDonald County,120,,31,False,Carthage,38,,47,True,16,Carthage,38,False
+2014-2015,2014,4,12,Semifinals,2,Mar 5 @7:00 PM,132902,McDonald County,120,1,46,True,Carl Junction,34,,45,False,1,Carthage,38,False
+2014-2015,2014,4,12,Semifinals,3,Mar 5 @8:30 PM,132902,Webb City,227,2,58,False,Carthage,38,,59,True,1,Carthage,38,False
+2014-2015,2014,4,12,Quarterfinals,5,Mar 3 @6:00 PM,132902,Carl Junction,34,4,53,True,Monett,133,5,28,False,25,Carthage,38,False
+2014-2015,2014,4,12,Quarterfinals,7,Mar 3 @7:30 PM,132902,Carthage,38,3,70,True,Cassville,40,6,46,False,24,Carthage,38,False
+2014-2015,2014,4,13,Final,1,Mar 7 @3:00 PM,133303,Bolivar,221,,44,True,Harrisonville,73,,40,False,4,Bolivar,221,False
+2014-2015,2014,4,13,Semifinals,2,Mar 5 @7:00 PM,133303,Bolivar,221,1,71,True,Pleasant Hill,416,,41,False,30,Bolivar,221,False
+2014-2015,2014,4,13,Semifinals,3,Mar 5 @8:30 PM,133303,Harrisonville,73,2,60,True,Warrensburg,218,,54,False,6,Bolivar,221,False
+2014-2015,2014,4,13,Quarterfinals,5,Mar 3 @5:30 PM,133303,Pleasant Hill,416,4,51,True,Nevada,137,5,47,False,4,Bolivar,221,False
+2014-2015,2014,4,13,Quarterfinals,7,Mar 3 @7:00 PM,133303,Warrensburg,218,3,61,True,Clinton,64,6,39,False,22,Bolivar,221,False
+2014-2015,2014,4,14,Final,1,Mar 6 @7:30 PM,133099,Raytown South,179,,69,True,Grandview,237,,68,False,1,Raytown South,179,False
+2014-2015,2014,4,14,Semifinals,2,Mar 3 @4:00 PM,133099,Raytown South,179,1,69,True,Marshall,360,,64,False,5,Raytown South,179,False
+2014-2015,2014,4,14,Semifinals,3,Mar 3 @8:30 PM,133099,Odessa,151,2,59,False,Grandview,237,,62,True,3,Raytown South,179,False
+2014-2015,2014,4,14,Quarterfinals,5,Mar 2 @5:30 PM,133099,Marshall,360,4,70,True,Oak Grove,146,5,67,False,3,Raytown South,179,False
+2014-2015,2014,4,14,Quarterfinals,7,Mar 2 @8:30 PM,133099,Grandview,237,3,67,True,Grain Valley,304,6,47,False,20,Raytown South,179,False
+2014-2015,2014,4,15,Final,1,Mar 7 @7:00 PM,133609,Lincoln College Prep,123,,70,True,Center,43,,44,False,26,Lincoln College Prep,123,False
+2014-2015,2014,4,15,Semifinals,2,Mar 6 @5:30 PM,133609,Lincoln College Prep,123,1,79,True,Van Horn,204,,47,False,32,Lincoln College Prep,123,False
+2014-2015,2014,4,15,Semifinals,3,Mar 6 @6:45 PM,133609,Center,43,2,70,True,East (Kansas City),809,,62,False,8,Lincoln College Prep,123,False
+2014-2015,2014,4,15,Quarterfinals,5,Mar 3 @5:30 PM,133609,Northeast (Kansas City) HS,143,4,49,False,Van Horn,204,5,67,True,18,Lincoln College Prep,123,False
+2014-2015,2014,4,15,Quarterfinals,7,Mar 3 @6:45 PM,133609,East (Kansas City),809,3,74,True,Excelsior Springs,296,6,29,False,45,Lincoln College Prep,123,False
+2014-2015,2014,4,16,Final,1,Mar 6 @8:00 PM,132381,Platte County,166,,47,False,Kearney,329,,50,True,3,Kearney,329,False
+2014-2015,2014,4,16,Semifinals,2,Mar 5 @5:30 PM,132381,Lafayette (St. Joseph),102,1,51,False,Platte County,166,,52,True,1,Kearney,329,False
+2014-2015,2014,4,16,Semifinals,3,Mar 5 @7:00 PM,132381,Kearney,329,2,57,True,Smithville,445,,45,False,12,Kearney,329,False
+2014-2015,2014,4,16,Quarterfinals,5,Mar 2 @5:30 PM,132381,Platte County,166,4,56,True,Benton,236,5,42,False,14,Kearney,329,False
+2014-2015,2014,4,16,Quarterfinals,7,Mar 2 @7:00 PM,132381,Smithville,445,3,45,True,Savannah,177,6,34,False,11,Kearney,329,False
+2014-2015,2014,5,1,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,5,1,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,5,1,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,5,1,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,5,2,Final,1,Mar 6 @6:00 PM,133353,Christian Brothers College,514,,58,False,Vianney,560,,63,True,5,Vianney,560,False
+2014-2015,2014,5,2,Semifinals,2,Mar 3 @5:00 PM,133353,Christian Brothers College,514,1,59,True,Parkway South,162,,48,False,11,Vianney,560,False
+2014-2015,2014,5,2,Semifinals,3,Mar 3 @6:30 PM,133353,Vianney,560,2,79,True,Kirkwood,95,3,71,False,8,Vianney,560,False
+2014-2015,2014,5,2,Quarterfinals,5,Feb 28 @2:30 PM,133353,Parkway South,162,4,49,True,Rockwood Summit,187,5,39,False,10,Vianney,560,False
+2014-2015,2014,5,3,Final,1,Mar 6 @8:00 PM,133313,SLUH,547,,53,True,Webster Groves,228,,51,False,2,SLUH,547,False
+2014-2015,2014,5,3,Semifinals,2,Mar 3 @6:00 PM,133313,SLUH,547,1,62,True,Lindbergh,124,,45,False,17,SLUH,547,False
+2014-2015,2014,5,3,Semifinals,3,Mar 3 @7:30 PM,133313,Webster Groves,228,2,76,True,Oakville,150,3,35,False,41,SLUH,547,False
+2014-2015,2014,5,3,Quarterfinals,5,Feb 28 @2:00 PM,133313,Lindbergh,124,4,65,True,Mehlville,122,5,39,False,26,SLUH,547,False
+2014-2015,2014,5,4,Final,1,Mar 6 @7:00 PM,132769,Timberland,472,,44,False,Battle,953,,55,True,11,Battle,953,False
+2014-2015,2014,5,4,Semifinals,2,Mar 3 @7:00 PM,132769,Ft. Zumwalt West,69,1,35,False,Timberland,472,,51,True,16,Battle,953,False
+2014-2015,2014,5,4,Semifinals,3,Mar 3 @8:30 PM,132769,Troy Buchanan,476,2,55,False,Battle,953,3,72,True,17,Battle,953,False
+2014-2015,2014,5,4,Quarterfinals,5,Mar 2 @7:00 PM,132769,Timberland,472,4,59,True,Holt,320,5,45,False,14,Battle,953,False
+2014-2015,2014,5,5,Final,1,Mar 6 @7:30 PM,132712,Ft. Zumwalt South,65,,59,True,Ft. Zumwalt North,63,,49,False,10,Ft. Zumwalt South,65,False
+2014-2015,2014,5,5,Semifinals,2,Mar 3 @8:30 PM,132712,Ft. Zumwalt South,65,1,71,True,Francis Howell North,75,,43,False,28,Ft. Zumwalt South,65,False
+2014-2015,2014,5,5,Semifinals,3,Mar 3 @5:30 PM,132712,Francis Howell,71,2,45,False,Ft. Zumwalt North,63,3,59,True,14,Ft. Zumwalt South,65,False
+2014-2015,2014,5,5,Quarterfinals,5,Mar 2 @7:00 PM,132712,Francis Howell Central,72,4,46,False,Francis Howell North,75,5,55,True,9,Ft. Zumwalt South,65,False
+2014-2015,2014,5,6,Final,1,Mar 6 @7:00 PM,133212,Hazelwood Central,76,,61,True,DeSmet,517,,49,False,12,Hazelwood Central,76,False
+2014-2015,2014,5,6,Semifinals,2,Mar 3 @6:00 PM,133212,Hazelwood Central,76,1,66,True,Hazelwood West,81,,64,False,2,Hazelwood Central,76,False
+2014-2015,2014,5,6,Semifinals,3,Mar 3 @7:30 PM,133212,Pattonville,165,2,46,False,DeSmet,517,3,60,True,14,Hazelwood Central,76,False
+2014-2015,2014,5,6,Quarterfinals,5,Feb 28 @1:00 PM,133212,Hazelwood West,81,4,79,True,Parkway North,161,5,65,False,14,Hazelwood Central,76,False
+2014-2015,2014,5,7,Final,1,Mar 7 @12:00 PM,132565,Chaminade College Prep,512,,60,True,McCluer North,116,,51,False,9,Chaminade College Prep,512,False
+2014-2015,2014,5,7,Semifinals,2,Mar 3 @4:30 PM,132565,Chaminade College Prep,512,1,73,True,Ritenour,182,,39,False,34,Chaminade College Prep,512,False
+2014-2015,2014,5,7,Semifinals,3,Mar 3 @7:30 PM,132565,Ladue Horton Watkins,100,2,45,False,McCluer North,116,3,57,True,12,Chaminade College Prep,512,False
+2014-2015,2014,5,7,Quarterfinals,5,Feb 28 @10:00 AM,132565,Ritenour,182,4,59,True,Hazelwood East,78,5,58,False,1,Chaminade College Prep,512,False
+2014-2015,2014,5,8,Final,1,Mar 6 @7:30 PM,132751,Lafayette (Wildwood),103,,43,True,Parkway Central,160,,40,False,3,Lafayette (Wildwood),103,False
+2014-2015,2014,5,8,Semifinals,2,Mar 5 @6:00 PM,132751,Lafayette (Wildwood),103,1,66,True,Washington,491,,36,False,30,Lafayette (Wildwood),103,False
+2014-2015,2014,5,8,Semifinals,3,Mar 5 @7:30 PM,132751,Marquette,109,2,46,False,Parkway Central,160,3,57,True,11,Lafayette (Wildwood),103,False
+2014-2015,2014,5,8,Quarterfinals,5,Mar 2 @7:30 PM,132751,Washington,491,4,58,True,Eureka,56,5,46,False,12,Lafayette (Wildwood),103,False
+2014-2015,2014,5,9,Final,1,Mar 5 @7:45 PM,133568,Blue Springs South,15,,70,True,Rock Bridge,578,,62,False,8,Blue Springs South,15,False
+2014-2015,2014,5,9,Semifinals,2,Mar 3 @7:00 PM,133568,Blue Springs South,15,1,72,True,Hickman,85,,60,False,12,Blue Springs South,15,False
+2014-2015,2014,5,9,Semifinals,3,Mar 3 @8:30 PM,133568,Blue Springs,14,2,63,False,Rock Bridge,578,3,67,True,4,Blue Springs South,15,False
+2014-2015,2014,5,9,Quarterfinals,5,Mar 2 @7:00 PM,133568,Hickman,85,4,51,True,Smith-Cotton,194,5,42,False,9,Blue Springs South,15,False
+2014-2015,2014,5,10,Final,1,Mar 5 @7:30 PM,132971,Jefferson City,84,,39,True,Waynesville,224,,37,False,2,Jefferson City,84,False
+2014-2015,2014,5,10,Semifinals,2,Mar 3 @6:00 PM,132971,Jefferson City,84,1,68,True,Lebanon,338,4,37,False,31,Jefferson City,84,False
+2014-2015,2014,5,10,Semifinals,3,Mar 3 @7:30 PM,132971,Waynesville,224,2,52,True,Camdenton,26,3,37,False,15,Jefferson City,84,False
+2014-2015,2014,5,11,Final,1,Mar 6 @7:30 PM,132775,Kickapoo,90,,62,True,Ozark,154,,61,False,1,Kickapoo,90,False
+2014-2015,2014,5,11,Semifinals,2,Mar 3 @7:00 PM,132775,Kickapoo,90,1,75,True,Parkview,159,,37,False,38,Kickapoo,90,False
+2014-2015,2014,5,11,Semifinals,3,Mar 3 @8:30 PM,132775,Ozark,154,2,59,True,Branson,399,3,57,False,2,Kickapoo,90,False
+2014-2015,2014,5,11,Quarterfinals,5,Mar 2 @7:30 PM,132775,Central (Springfield),232,4,53,False,Parkview,159,5,54,True,1,Kickapoo,90,False
+2014-2015,2014,5,12,Final,1,Mar 6 @7:30 PM,132727,Nixa,382,,72,True,Republic,423,,49,False,23,Nixa,382,False
+2014-2015,2014,5,12,Semifinals,2,Mar 5 @6:00 PM,132727,Nixa,382,1,55,True,Willard,234,,30,False,25,Nixa,382,False
+2014-2015,2014,5,12,Semifinals,3,Mar 5 @7:30 PM,132727,Republic,423,2,63,True,Neosho,375,3,43,False,20,Nixa,382,False
+2014-2015,2014,5,12,Quarterfinals,5,Mar 2 @7:30 PM,132727,Willard,234,4,59,True,Joplin,87,5,32,False,27,Nixa,382,False
+2014-2015,2014,5,13,Final,1,Mar 6 @7:00 PM,133000,Raymore-Peculiar,176,,48,False,Rockhurst,540,,53,True,5,Rockhurst,540,False
+2014-2015,2014,5,13,Semifinals,2,Mar 3 @7:00 PM,133000,Raymore-Peculiar,176,1,36,True,Belton,12,,35,False,1,Rockhurst,540,False
+2014-2015,2014,5,13,Semifinals,3,Mar 3 @5:30 PM,133000,Rockhurst,540,2,87,True,Lee's Summit West,117,3,74,False,13,Rockhurst,540,False
+2014-2015,2014,5,13,Quarterfinals,5,Mar 2 @5:30 PM,133000,Belton,12,4,49,True,Ruskin,192,5,32,False,17,Rockhurst,540,False
+2014-2015,2014,5,14,Final,1,Mar 6 @7:00 PM,133578,Lee's Summit,114,,79,True,Raytown,178,,67,False,12,Lee's Summit,114,False
+2014-2015,2014,5,14,Semifinals,2,Mar 3 @7:00 PM,133578,Lee's Summit,114,1,73,True,Truman,198,,33,False,40,Lee's Summit,114,False
+2014-2015,2014,5,14,Semifinals,3,Mar 3 @8:30 PM,133578,Raytown,178,2,79,True,William Chrisman,235,3,57,False,22,Lee's Summit,114,False
+2014-2015,2014,5,14,Quarterfinals,5,Mar 2 @7:00 PM,133578,Truman,198,4,54,True,Lee's Summit North,115,5,50,False,4,Lee's Summit,114,False
+2014-2015,2014,5,15,Final,1,Mar 7 @6:00 PM,132558,Liberty North,907,,51,True,Liberty,121,,44,False,7,Liberty North,907,False
+2014-2015,2014,5,15,Semifinals,2,Mar 5 @7:00 PM,132558,Liberty North,907,1,53,True,Winnetonka,209,,40,False,13,Liberty North,907,False
+2014-2015,2014,5,15,Semifinals,3,Mar 5 @5:30 PM,132558,Liberty,121,2,60,True,North Kansas City,142,3,44,False,16,Liberty North,907,False
+2014-2015,2014,5,15,Quarterfinals,5,Mar 2 @7:00 PM,132558,Winnetonka,209,4,67,True,Fort Osage,577,5,65,False,2,Liberty North,907,False
+2014-2015,2014,5,16,Final,1,Mar 6 @7:00 PM,132263,Park Hill South,158,,77,True,Park Hill,157,,55,False,22,Park Hill South,158,False
+2014-2015,2014,5,16,Semifinals,2,Mar 5 @5:30 PM,132263,Park Hill South,158,1,74,True,Central (St. Joseph),13,,40,False,34,Park Hill South,158,False
+2014-2015,2014,5,16,Semifinals,3,Mar 5 @7:00 PM,132263,Park Hill,157,2,74,True,Staley,805,3,49,False,25,Park Hill South,158,False
+2014-2015,2014,5,16,Quarterfinals,5,Mar 2 @7:00 PM,132263,Central (St. Joseph),13,4,48,True,Oak Park,147,5,29,False,19,Park Hill South,158,False
+2014-2015,2014,6,1,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,1,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,1,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,1,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,2,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,2,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,2,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,2,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,3,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,3,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,3,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,3,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,4,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,4,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,4,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,4,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,5,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,5,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,5,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,5,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,6,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,6,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,6,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,6,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,7,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,7,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,7,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,7,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,8,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,8,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,8,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,8,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,9,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,9,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,9,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,9,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,10,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,10,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,10,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,10,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,11,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,11,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,11,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,11,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,12,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,12,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,12,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,12,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,13,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,13,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,13,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,13,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,14,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,14,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,14,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,14,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,15,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,15,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,15,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,15,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
+2014-2015,2014,6,16,Final,1,Mar 6 @7:00 PM,134537,Poplar Bluff,167,,59,False,Jackson,82,,73,True,14,Jackson,82,False
+2014-2015,2014,6,16,Semifinals,2,Mar 3 @7:00 PM,134537,Poplar Bluff,167,1,72,True,Seckman,184,,55,False,17,Jackson,82,False
+2014-2015,2014,6,16,Semifinals,3,Mar 3 @5:00 PM,134537,Jackson,82,2,71,True,Fox,70,3,36,False,35,Jackson,82,False
+2014-2015,2014,6,16,Quarterfinals,5,Feb 28 @3:00 PM,134537,Seckman,184,4,64,True,Northwest (Cedar Hill),144,5,35,False,29,Jackson,82,False
