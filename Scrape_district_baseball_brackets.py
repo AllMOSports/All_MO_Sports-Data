@@ -1,10 +1,10 @@
 """
-scrape_district_spring_baseball_brackets.py
+scrape_district_baseball_brackets.py
  
-Scrapes MSHSAA District Tournament bracket pages for Spring Season
-Baseball (alg=3) across all Classes (1-6), Districts (1-16), and
-seasons (year=2012 through year=2025, i.e. the 2012-2013 through
-2025-2026 seasons) and extracts every game in every bracket.
+Scrapes MSHSAA District Tournament bracket pages for Baseball
+(alg=3) across all Classes (1-6), Districts (1-16), and seasons
+(year=2012 through year=2025, i.e. the 2012-2013 through 2025-2026
+seasons) and extracts every game in every bracket.
  
 Baseball has 6 classes (like basketball), and district counts per
 class have run as high as 12+ in some classes, so the district sweep
@@ -22,14 +22,14 @@ year) combinations are skipped, so a killed/interrupted run can just
 be re-launched.
  
 Usage:
-  python scrape_district_spring_baseball_brackets.py \
+  python scrape_district_baseball_brackets.py \
       --start-year 2012 --end-year 2025 \
       --classes 1 2 3 4 5 6 --districts 1-16 \
-      --output spring_baseball_district_brackets_2012-2026.json \
+      --output baseball_district_brackets_2012-2026.json \
       --delay 1.5
  
   # Resume an interrupted run (just re-run the same command):
-  python scrape_district_spring_baseball_brackets.py --output spring_baseball_district_brackets_2012-2026.json
+  python scrape_district_baseball_brackets.py --output baseball_district_brackets_2012-2026.json
 """
  
 import argparse
@@ -47,12 +47,11 @@ from urllib3.util.retry import Retry
  
 BASE_URL = "https://www.mshsaa.org/Activities/DistrictTournaments.aspx"
  
-# alg=3 -> Spring Season Baseball, alg=5 -> Boys Basketball, alg=6 -> Girls
-# Basketball, alg=33 -> Boys Soccer, alg=38 -> Fall Season Softball,
-# alg=57 -> Girls Volleyball, alg=68 -> Spring Season Softball
-# (extras kept around for future use)
+# alg=3 -> Baseball, alg=5 -> Boys Basketball, alg=6 -> Girls Basketball,
+# alg=33 -> Boys Soccer, alg=38 -> Fall Season Softball, alg=57 -> Girls
+# Volleyball, alg=68 -> Spring Season Softball (extras kept for future use)
 SPORT_ALG = {
-    "spring_baseball": 3,
+    "baseball": 3,
     "boys_basketball": 5,
     "girls_basketball": 6,
     "boys_soccer": 33,
@@ -284,8 +283,8 @@ def main():
     parser.add_argument("--end-year", type=int, default=2025)
     parser.add_argument("--classes", type=int, nargs="+", default=[1, 2, 3, 4, 5, 6])
     parser.add_argument("--districts", type=str, default="1-16", help="e.g. '1-16' or '1,2,5'")
-    parser.add_argument("--sport", type=str, default="spring_baseball", choices=list(SPORT_ALG.keys()))
-    parser.add_argument("--output", type=str, default="spring_baseball_district_brackets_2012-2026.json")
+    parser.add_argument("--sport", type=str, default="baseball", choices=list(SPORT_ALG.keys()))
+    parser.add_argument("--output", type=str, default="baseball_district_brackets_2012-2026.json")
     parser.add_argument("--delay", type=float, default=1.5, help="Seconds to sleep between requests")
     parser.add_argument("--checkpoint-every", type=int, default=25, help="Save to disk every N new brackets")
     args = parser.parse_args()
