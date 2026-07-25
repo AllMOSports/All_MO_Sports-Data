@@ -1,5 +1,5 @@
 {
-  "updated": "July 24, 2026",
+  "updated": "July 25, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -214,27 +214,27 @@
       {
         "rank": "1",
         "school": "Rockhurst",
-        "ovr": "8.31"
+        "ovr": "7.57"
       },
       {
         "rank": "2",
         "school": "SLUH",
-        "ovr": "6.27"
+        "ovr": "5.98"
       },
       {
         "rank": "3",
         "school": "Springfield Catholic",
-        "ovr": "5.95"
+        "ovr": "5.69"
       },
       {
         "rank": "4",
-        "school": "Liberty Wentzville",
-        "ovr": "5.87"
+        "school": "Ladue Horton Watkins",
+        "ovr": "5.46"
       },
       {
         "rank": "5",
-        "school": "Ladue Horton Watkins",
-        "ovr": "5.67"
+        "school": "Glendale",
+        "ovr": "5.05"
       }
     ]
   },
