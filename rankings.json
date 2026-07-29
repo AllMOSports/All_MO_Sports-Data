@@ -247,28 +247,28 @@
     "teams": [
       {
         "rank": "1",
-        "school": "Lafayette Wildwood",
-        "ovr": "5.39"
+        "school": "Lafayette (Wildwood)",
+        "ovr": "6.62"
       },
       {
         "rank": "2",
-        "school": "Nixa",
-        "ovr": "4.71"
+        "school": "Lee's Summit West",
+        "ovr": "5.60"
       },
       {
         "rank": "3",
-        "school": "Lee's Summit West",
-        "ovr": "4.66"
+        "school": "Jackson",
+        "ovr": "5.56"
       },
       {
         "rank": "4",
-        "school": "Ozark",
-        "ovr": "4.66"
+        "school": "Lee's Summit North",
+        "ovr": "5.54"
       },
       {
         "rank": "5",
-        "school": "Lee's Summit North",
-        "ovr": "4.49"
+        "school": "Nixa",
+        "ovr": "5.47"
       }
     ]
   },
