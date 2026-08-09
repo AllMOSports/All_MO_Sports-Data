@@ -93,7 +93,7 @@ RATINGS_REPO_URLS = {
     "girls_basketball": "https://raw.githubusercontent.com/AllMOSports/Girls_Basketball_Ratings_2025-2026/main/ratings.json",
     "boys_soccer": "https://raw.githubusercontent.com/AllMOSports/Boys_Soccer_Ratings_2025/main/boys_soccer_ratings_2025.json",
     "girls_soccer": "https://raw.githubusercontent.com/AllMOSports/Girls-Soccer-Ratings/main/ratings.json",
-    "girls_volleyball": "https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Rankings_2025/main/girls_volleyball_ratings_2025.json",
+    "girls_volleyball": "https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Rankings_2025/main/ratings.json",
     "fall_softball": "https://raw.githubusercontent.com/AllMOSports/Fall_Softball_Ratings_2025/main/fall_softball_ratings_2025.json",
     "spring_softball": "https://raw.githubusercontent.com/AllMOSports/Spring-Softball-Rankings/main/ratings.json",
 }
