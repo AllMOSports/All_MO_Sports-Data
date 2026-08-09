@@ -1,0 +1,564 @@
+filename,status,output,bg_fraction,slug
+Adrian Logo.jpg,bg_removal_uncertain,,0.011,adrian
+Advance Logo.jpg,processed,matched/advance.png,0.709,advance
+Affton Logo.jpg,processed,matched/affton.png,0.344,affton
+Albany Logo.jpg,processed,matched/albany.png,0.33,albany
+Alton Logo.jpg,processed,matched/alton.png,0.862,alton
+Appleton City Logo.jpg,processed,matched/appleton-city.png,0.422,appleton-city
+Arcadia Valley Logo.jpg,processed,matched/arcadia-valley.png,0.212,arcadia-valley
+Archie Logo.jpg,processed,matched/archie.png,0.6,archie
+Ash Grove Logo.jpg,processed,matched/ash-grove.png,0.464,ash-grove
+Atlanta Logo.jpg,processed,matched/atlanta.png,0.469,atlanta
+Aurora Logo.jpg,processed,matched/aurora.png,0.572,aurora
+Ava Logo.jpg,processed,matched/ava.png,0.18,ava
+Bakersfield Logo.jpg,processed,matched/bakersfield.png,0.337,bakersfield
+Barstow Logo.jpg,processed,matched/barstow.png,0.409,barstow
+Battle Logo.jpg,processed,matched/battle.png,0.658,battle
+Bayless Logo.jpg,processed,matched/bayless.png,0.515,bayless
+Bell City Logo.jpg,processed,matched/bell-city.png,0.699,bell-city
+Belle Logo.jpg,processed,matched/belle.png,0.461,belle
+Belton Logo.jpg,processed,matched/belton.png,0.53,belton
+Benton Logo.jpg,processed,matched/benton.png,0.686,benton
+Bernie Logo.jpg,processed,matched/bernie.png,0.455,bernie
+Bevier Logo.jpg,processed,matched/bevier.png,0.666,bevier
+Billings Logo.jpg,processed,matched/billings.png,0.522,billings
+Bishop DuBourg Logo.jpg,processed,matched/bishop-dubourg.png,0.628,bishop-dubourg
+Bishop LeBlond Logo.jpg,processed,matched/bishop-leblond.png,0.702,bishop-leblond
+Bismarck Logo.jpg,processed,matched/bismarck.png,0.674,bismarck
+Blair Oaks Logo.jpg,processed,matched/blair-oaks.png,0.757,blair-oaks
+Bloomfield Logo.jpg,processed,matched/bloomfield.png,0.575,bloomfield
+Blue Eye Logo.jpg,processed,matched/blue-eye.png,0.374,blue-eye
+Blue Springs Logo.jpg,processed,matched/blue-springs.png,0.483,blue-springs
+Blue Springs South Logo.jpg,processed,matched/blue-springs-south.png,0.799,blue-springs-south
+Bolivar Logo.jpg,processed,matched/bolivar.png,0.241,bolivar
+Boonville Logo.jpg,processed,matched/boonville.png,0.745,boonville
+Bourbon Logo.jpg,processed,matched/bourbon.png,0.63,bourbon
+Bowling Green Logo.jpg,processed,matched/bowling-green.png,0.452,bowling-green
+Bradleyville Logo.jpg,processed,matched/bradleyville.png,0.596,bradleyville
+Branson Logo.jpg,processed,matched/branson.png,0.752,branson
+Brashear Logo.jpg,processed,matched/brashear.png,0.373,brashear
+Braymer Logo.jpg,processed,matched/braymer.png,0.268,braymer
+Breckenridge Logo.jpg,processed_no_slug,needs_review/UNMATCHED_Breckenridge_Logo.png,0.318,
+Brentwood Logo.jpg,processed,matched/brentwood.png,0.209,brentwood
+Bronaugh Logo.jpg,processed,matched/bronaugh.png,0.446,bronaugh
+Brookfield Logo.jpg,processed,matched/brookfield.png,0.551,brookfield
+Brunswick Logo.jpg,processed,matched/brunswick.png,0.338,brunswick
+Buffalo Logo.jpg,processed,matched/buffalo.png,0.389,buffalo
+Bunceton Logo.jpg,processed,matched/bunceton.png,0.56,bunceton
+Bunker Logo.jpg,processed,matched/bunker.png,0.591,bunker
+Butler Logo.jpg,processed,matched/butler.png,0.674,butler
+CBC Logo.jpg,processed,matched/christian-brothers-college.png,0.491,christian-brothers-college
+Cabool Logo.jpg,processed,matched/cabool.png,0.633,cabool
+Cainsville Logo.jpg,processed,matched/cainsville.png,0.287,cainsville
+California Logo.jpg,processed,matched/california.png,0.742,california
+Calvary Lutheran Logo.jpg,bg_removal_uncertain,,0.006,calvary-lutheran
+Camdenton Logo.jpg,processed,matched/camdenton.png,0.405,camdenton
+Cameron Logo.jpg,processed,matched/cameron.png,0.363,cameron
+Campbell Logo.jpg,processed,matched/campbell.png,0.175,campbell
+Canton Logo.jpg,processed,matched/canton.png,0.418,canton
+Capital City Logo.jpg,processed,matched/capital-city.png,0.285,capital-city
+Cardinal Ritter Logo.jpg,processed,matched/cardinal-ritter.png,0.554,cardinal-ritter
+Carl Junction Logo.jpg,processed,matched/carl-junction.png,0.301,carl-junction
+Carrollton Logo.jpg,processed,matched/carrollton.png,0.323,carrollton
+Carthage Logo.jpg,processed,matched/carthage.png,0.373,carthage
+Caruthersville Logo.jpg,processed,matched/caruthersville.png,0.347,caruthersville
+Cassville Logo.jpg,processed,matched/cassville.png,0.543,cassville
+Center Logo.jpg,processed,matched/center.png,0.295,center
+Central Cape Girardeau Logo.jpg,processed,matched/central-cape-girardeau.png,0.59,central-cape-girardeau
+Central Kansas City Logo.jpg,processed,matched/central-kansas-city.png,0.567,central-kansas-city
+Central New Madrid County Logo.jpg,processed,matched/central-new-madrid-county.png,0.81,central-new-madrid-county
+Central Park Hills Logo.jpg,processed,matched/central-park-hills.png,0.353,central-park-hills
+Central Springfield Logo.jpg,processed,matched/central-springfield.png,0.418,central-springfield
+Central St Joseph Logo.jpg,processed,matched/central-st-joseph.png,0.499,central-st-joseph
+Centralia Logo.jpg,processed,matched/centralia.png,0.377,centralia
+Chadwick Logo.jpg,bg_removal_uncertain,,0.0,chadwick
+Chaffee Logo.jpg,processed,matched/chaffee.png,0.34,chaffee
+Chaminade College Prep Logo.jpg,processed,matched/chaminade-college-prep.png,0.385,chaminade-college-prep
+Chamois Logo.jpg,processed,matched/chamois.png,0.552,chamois
+Charleston Lgoo.jpg,processed,matched/charleston.png,0.881,charleston
+Chilhowee Logo.jpg,processed,matched/chilhowee.png,0.301,chilhowee
+Chillicothe Logo.jpg,processed,matched/chillicothe.png,0.455,chillicothe
+Clark County Logo.jpg,processed,matched/clark-county.png,0.175,clark-county
+Clarkton Logo.jpg,processed,matched/clarkton.png,0.873,clarkton
+Clayton Logo.jpg,processed,matched/clayton.png,0.82,clayton
+Clearwater Logo.jpg,processed,matched/clearwater.png,0.579,clearwater
+Clever Logo.jpg,processed,matched/clever.png,0.714,clever
+Climax Springs Logo.jpg,bg_removal_uncertain,,0.001,climax-springs
+Clinton Logo.jpg,processed,matched/clinton.png,0.639,clinton
+Clopton Logo.jpg,processed,matched/clopton.png,0.627,clopton
+Cole Camp Logo.jpg,processed,matched/cole-camp.png,0.669,cole-camp
+Collegiate School of Med-Bio Science Logo.jpg,processed,matched/collegiate-school-of-med-bio-science.png,0.383,collegiate-school-of-med-bio-science
+Columbia Independent Logo.jpg,processed,matched/columbia-independent.png,0.439,columbia-independent
+Community Logo.jpg,processed,matched/community.png,0.541,community
+Concordia Logo.jpg,processed,matched/concordia.png,0.464,concordia
+Confluence Prep Charter Logo.jpg,processed,matched/confluence-prep-academy-charter.png,0.378,confluence-prep-academy-charter
+Conway Logo.jpg,processed,matched/conway.png,0.368,conway
+Cooter Logo.jpg,processed,matched/cooter.png,0.747,cooter
+Cor Jesu Academy Logo.jpg,processed,matched/cor-jesu-academy.png,0.327,cor-jesu-academy
+Couch Logo.jpg,processed,matched/couch.png,0.629,couch
+Crane Logo.jpg,processed,matched/crane.png,0.471,crane
+Crest Ridge Logo.jpg,processed,matched/crest-ridge.png,0.698,crest-ridge
+Crocker Logo.jpg,processed,matched/crocker.png,0.397,crocker
+Crossroads Prep Charter Logo.jpg,processed,matched/crossroads-prep-charter.png,0.461,crossroads-prep-charter
+Crystal City Logo.jpg,processed,matched/crystal-city.png,0.61,crystal-city
+Cuba Logo.jpg,processed,matched/cuba.png,0.754,cuba
+Dadeville Logo.jpg,processed,matched/dadeville.png,0.368,dadeville
+De Smet Jesuit Logo.jpg,processed,matched/de-smet-jesuit.png,0.496,de-smet-jesuit
+DeKalb Logo.jpg,processed,matched/dekalb.png,0.545,dekalb
+DeLaSalle Logo.jpg,processed,matched/delasalle-charter.png,0.874,delasalle-charter
+DeSoto Logo.jpg,processed,matched/desoto.png,0.828,desoto
+Delta Deering Logo.jpg,processed,matched/delta-deering.png,0.774,delta-deering
+Delta Logo.jpg,processed,matched/delta.png,0.626,delta
+Dexter Logo.jpg,processed,matched/dexter.png,0.615,dexter
+Diamond Logo.jpg,processed,matched/diamond.png,0.592,diamond
+Dixon Logo.jpg,processed,matched/dixon.png,0.632,dixon
+Doniphan Logo.jpg,processed,matched/doniphan.png,0.59,doniphan
+Dora Logo.jpg,processed,matched/dora.png,0.568,dora
+Drexel Logo.jpg,processed,matched/drexel.png,0.522,drexel
+Duchesne Logo.jpg,processed,matched/duchesne.png,0.214,duchesne
+East Buchanan Logo.jpg,processed,matched/east-buchanan.png,0.65,east-buchanan
+East Carter Logo.jpg,processed,matched/east-carter.png,0.167,east-carter
+East Kansas City Logo.jpg,processed,matched/east-kansas-city.png,0.56,east-kansas-city
+East Newton Logo.jpg,processed,matched/east-newton.png,0.691,east-newton
+East Prairie Logo.jpg,bg_removal_uncertain,,0.007,east-prairie
+El Dorado Springs Logo.jpg,processed,matched/el-dorado-springs.png,0.478,el-dorado-springs
+Eldon Logo.jpg,processed,matched/eldon.png,0.885,eldon
+Ellington Logo.jpg,processed,matched/ellington.png,0.604,ellington
+Elsberry Logo.jpg,processed,matched/elsberry.png,0.463,elsberry
+Eminence Logo.jpg,processed,matched/eminence.png,0.404,eminence
+Eugene.jpg,processed,matched/eugene.png,0.566,eugene
+Eureka Logo.jpg,processed,matched/eureka.png,0.564,eureka
+Everton Logo.jpg,processed,matched/everton.png,0.427,everton
+Ewing Marion Kauffman Logo.jpg,processed,matched/ewing-marion-kauffman.png,0.63,ewing-marion-kauffman
+Excelsior Springs Logo.jpg,processed,matched/excelsior-springs.png,0.318,excelsior-springs
+Exeter Logo.jpg,processed,matched/exeter.png,0.532,exeter
+Fair Grove Logo.jpg,bg_removal_uncertain,,0.0,fair-grove
+Fair Play Logo.jpg,processed,matched/fair-play.png,0.587,fair-play
+Faith Christian Academy Logo.jpg,processed,matched/faith-christian-academy.png,0.679,faith-christian-academy
+Farmington Logo.jpg,processed,matched/farmington.png,0.692,farmington
+Father Tolton Logo.jpg,processed,matched/father-tolton.png,0.316,father-tolton
+Fatima Logo.jpg,processed,matched/fatima.png,0.742,fatima
+Fayette Logo.jpg,processed,matched/fayette.png,0.614,fayette
+Festus Logo.jpg,processed,matched/festus.png,0.409,festus
+Fordland Logo.jpg,processed,matched/fordland.png,0.436,fordland
+Forsyth Logo.jpg,processed,matched/forsyth.png,0.454,forsyth
+Fort Osage Logo.jpg,processed,matched/fort-osage.png,0.518,fort-osage
+Fox Logo.jpg,processed,matched/fox.png,0.565,fox
+Francis Howell Central.jpg,processed,matched/francis-howell-central.png,0.801,francis-howell-central
+Francis Howell Logo.jpg,processed,matched/francis-howell.png,0.635,francis-howell
+Francis Howell Noth Logo.jpg,processed,matched/francis-howell-north.png,0.26,francis-howell-north
+Fredericktown Logo.jpg,processed,matched/fredericktown.png,0.492,fredericktown
+Frontier School of Excellence Charter Logo.jpg,processed,matched/frontier-school-of-excellence-charter.png,0.622,frontier-school-of-excellence-charter
+Ft Zumwalt East Logo.jpg,processed,matched/ft-zumwalt-east.png,0.329,ft-zumwalt-east
+Ft Zumwalt North Logo.jpg,processed,matched/ft-zumwalt-north.png,0.469,ft-zumwalt-north
+Ft Zumwalt South Logo.jpg,processed,matched/ft-zumwalt-south.png,0.161,ft-zumwalt-south
+Ft Zumwalt West Logo.jpg,processed,matched/ft-zumwalt-west.png,0.475,ft-zumwalt-west
+Fulton Logo.jpg,processed,matched/fulton.png,0.452,fulton
+Gainesville Lgo.jpg,processed,matched/gainesville.png,0.321,gainesville
+Galena Logo.jpg,processed,matched/galena.png,0.505,galena
+Gallatin Logo.jpg,processed,matched/gallatin.png,0.607,gallatin
+Gateway Logo.jpg,processed,matched/gateway.png,0.451,gateway
+Gateway Science Academy Charter Logo.jpg,processed,matched/gateway.png,0.674,gateway
+Gideon Logo.jpg,processed,matched/gideon.png,0.623,gideon
+Gilman City Logo.jpg,processed,matched/gilman-city.png,0.854,gilman-city
+Glasgow Logo.jpg,processed,matched/glasgow.png,0.559,glasgow
+Glendale Logo.jpg,processed,matched/glendale.png,0.274,glendale
+Gloria Deo Academy Logo.jpg,processed,matched/gloria-deo-academy.png,0.369,gloria-deo-academy
+Golden City Logo.jpg,processed,matched/golden-city.png,0.642,golden-city
+Grain Valley Logo.jpg,processed,matched/grain-valley.png,0.427,grain-valley
+Grandview Hillsboro Logo.jpg,processed,matched/grandview-hillsboro.png,0.284,grandview-hillsboro
+Grandview Logo.jpg,processed,matched/grandview.png,0.83,grandview
+Green City Logo.jpg,processed,matched/green-city.png,0.804,green-city
+Green Ridge Logo.jpg,processed,matched/green-ridge.png,0.416,green-ridge
+Greenfield Logo.jpg,processed,matched/greenfield.png,0.482,greenfield
+Greenville Logo.jpg,processed,matched/greenville.png,0.432,greenville
+Greenwood Logo.jpg,processed,matched/greenwood.png,0.214,greenwood
+Grundy County Logo.jpg,processed,matched/grundy-county.png,0.515,grundy-county
+Guadalupe Centers Logo.jpg,processed,matched/center.png,0.391,center
+Hale Logo.jpg,processed,matched/hale.png,0.75,hale
+Halfway Logo.jpg,processed,matched/halfway.png,0.32,halfway
+Hallsville Logo.jpg,processed,matched/hallsville.png,0.368,hallsville
+Hancock Logo.jpg,processed,matched/hancock.png,0.535,hancock
+Hannibal Logo.jpg,processed,matched/hannibal.png,0.268,hannibal
+Hardin-Central Logo.jpg,processed,matched/hardin-central.png,0.684,hardin-central
+Harrisburg Logo.jpg,processed,matched/harrisburg.png,0.322,harrisburg
+Harrisonville Logo.jpg,processed,matched/harrisonville.png,0.575,harrisonville
+Hartville Logo.jpg,processed,matched/hartville.png,0.526,hartville
+Hayti Logo.jpg,processed,matched/hayti.png,0.779,hayti
+Hazelwood Central Logo.jpg,processed,matched/hazelwood-central.png,0.432,hazelwood-central
+Hazelwood East Logo.jpg,processed,matched/hazelwood-east.png,0.692,hazelwood-east
+Hazelwood West Logo.jpg,processed,matched/hazelwood-west.png,0.483,hazelwood-west
+Helias Catholic Logo.jpg,processed,matched/helias-catholic.png,0.197,helias-catholic
+Herculaneum Logo.jpg,processed,matched/herculaneum.png,0.774,herculaneum
+Hermann Logo.jpg,processed,matched/hermann.png,0.561,hermann
+Hermitage Logo.jpg,processed,matched/hermitage.png,0.712,hermitage
+Hickman Logo.jpg,processed,matched/hickman.png,0.311,hickman
+Higbee Logo.jpg,processed,matched/higbee.png,0.311,higbee
+Highland Logo.jpg,processed,matched/highland.png,0.488,highland
+Hillcrest Logo.jpg,processed,matched/hillcrest.png,0.816,hillcrest
+Hillsboro Log.jpg,processed,matched/hillsboro.png,0.426,hillsboro
+Hogan Prep Academy Charter Logo.jpg,processed,matched/hogan-prep-academy-charter.png,0.648,hogan-prep-academy-charter
+Holcomb Logo.jpg,processed,matched/holcomb.png,0.673,holcomb
+Holden Logo.jpg,processed,matched/holden.png,0.401,holden
+Hollister Logo.jpg,processed,matched/hollister.png,0.401,hollister
+Holt Logo.jpg,processed,matched/holt.png,0.451,holt
+Houston Logo.jpg,processed,matched/houston.png,0.251,houston
+Humansville Logo.jpg,processed,matched/humansville.png,0.466,humansville
+Hume Logo.jpg,processed,matched/hume.png,0.608,hume
+Hurley Logo.jpg,processed,matched/hurley.png,0.373,hurley
+Iberia Logo.jpg,processed,matched/iberia.png,0.63,iberia
+Incarnate Word Academy Logo.jpg,processed,matched/incarnate-word-academy.png,0.261,incarnate-word-academy
+Jackson Logo.jpg,processed,matched/jackson.png,0.74,jackson
+Jamestown Logo.jpg,processed,matched/jamestown.png,0.386,jamestown
+Jasper Logo.jpg,processed,matched/jasper.png,0.764,jasper
+Jefferson City Logo.jpg,processed,matched/jefferson-city.png,0.492,jefferson-city
+Jefferson Conception Logo.jpg,processed,matched/jefferson-conception.png,0.365,jefferson-conception
+Jefferson Festus Logo.jpg,processed,matched/jefferson-festus.png,0.362,jefferson-festus
+Jennings Logo.jpg,processed,matched/jennings.png,0.442,jennings
+John Burroughs Logo.jpg,processed,matched/john-burroughs.png,0.392,john-burroughs
+Joplin Logo.jpg,processed,matched/joplin.png,0.406,joplin
+KIPP KC Legacy Charter Logo.jpg,processed,matched/kipp-kc-legacy.png,0.144,kipp-kc-legacy
+KIPP St Louis Logo.jpg,processed,matched/kipp-st-louis-sr.png,0.426,kipp-st-louis-sr
+Kairos Charter Logo.jpg,processed_no_slug,needs_review/UNMATCHED_Kairos_Charter_Logo.png,0.179,
+Kearney Logo.jpg,processed,matched/kearney.png,0.302,kearney
+Kelly Logo.jpg,processed,matched/kelly.png,0.537,kelly
+Kennett Logo.jpg,processed,matched/kennett.png,0.216,kennett
+Keytesville Logo.jpg,processed,matched/keytesville.png,0.501,keytesville
+Kickapoo Logo.jpg,processed,matched/kickapoo.png,0.229,kickapoo
+King City Logo.jpg,processed,matched/king-city.png,0.399,king-city
+Kingston Logo.jpg,processed,matched/kingston.png,0.687,kingston
+Kingsville Logo.jpg,processed,matched/kingsville.png,0.155,kingsville
+Kirksville Logo.jpg,processed,matched/kirksville.png,0.625,kirksville
+Kirkwood Logo.jpg,processed,matched/kirkwood.png,0.265,kirkwood
+Knob Noster Logo.jpg,processed,matched/knob-noster.png,0.516,knob-noster
+Knox County Logo.jpg,processed,matched/knox-county.png,0.673,knox-county
+Koshkonong Lgoo.jpg,processed,matched/koshkonong.png,0.471,koshkonong
+La Monte Logo.jpg,processed,matched/la-monte.png,0.645,la-monte
+La Plata Logo.jpg,processed,matched/la-plata.png,0.624,la-plata
+Ladue Horton Watkins Logo.jpg,processed,matched/ladue-horton-watkins.png,0.538,ladue-horton-watkins
+Lafayette County Logo.jpg,processed,matched/lafayette-county.png,0.655,lafayette-county
+Lafayette St Joseph Logo.jpg,processed,matched/lafayette-st-joseph.png,0.483,lafayette-st-joseph
+Lafayette Wildwood Logo.jpg,processed,matched/lafayette-wildwood.png,0.606,lafayette-wildwood
+Lakeland Logo.jpg,processed,matched/lakeland.png,0.672,lakeland
+Lamar Logo.jpg,processed,matched/lamar.png,0.636,lamar
+Laquey Logo.jpg,processed,matched/laquey.png,0.354,laquey
+Lathrop Logo.jpg,processed,matched/lathrop.png,0.596,lathrop
+Lawson Logo.jpg,processed,matched/lawson.png,0.591,lawson
+Lebanon Logo.jpg,processed,matched/lebanon.png,0.374,lebanon
+Lees Summit Logo.jpg,processed,matched/lees-summit.png,0.285,lees-summit
+Lees Summit North Logo.jpg,processed,matched/lees-summit-north.png,0.544,lees-summit-north
+Lees Summit West Logo.jpg,processed,matched/lees-summit-west.png,0.399,lees-summit-west
+Leeton Logo.jpg,processed,matched/leeton.png,0.418,leeton
+Leopold Logo.jpg,processed,matched/leopold.png,0.304,leopold
+Lesterville Logo.jpg,processed,matched/lesterville.png,0.498,lesterville
+Lexington Logo.jpg,bg_removal_uncertain,,0.011,lexington
+Liberal Logo.jpg,processed,matched/liberal.png,0.978,liberal
+Liberty Logo.jpg,processed,matched/liberty.png,0.47,liberty
+Liberty Mountain View.jpg,processed,matched/liberty-mountain-view.png,0.549,liberty-mountain-view
+Liberty North Logo.jpg,processed,matched/liberty-north.png,0.332,liberty-north
+Liberty Wentzville Logo.jpg,processed,matched/liberty-wentzville.png,0.212,liberty-wentzville
+Licking Logo.jpg,processed,matched/licking.png,0.324,licking
+Lift for Life Logo.jpg,processed,matched/lift-for-life-academy-charter.png,0.528,lift-for-life-academy-charter
+Lincoln College Prep Logo.jpg,processed,matched/lincoln-college-prep.png,0.482,lincoln-college-prep
+Lincoln Logo.jpg,processed,matched/lincoln.png,0.466,lincoln
+Lindbergh Logo.jpg,processed,matched/lindbergh.png,0.543,lindbergh
+Linn County Logo.jpg,processed,matched/linn-county.png,0.652,linn-county
+Linn Logo.jpg,processed,matched/linn.png,0.774,linn
+Lockwood Logo.jpg,processed,matched/lockwood.png,0.649,lockwood
+Logan-Rogersville Logo.jpg,processed,matched/logan-rogersville.png,0.315,logan-rogersville
+Lone Jack Logo.jpg,processed,matched/lone-jack.png,0.554,lone-jack
+Louisiana Logo.jpg,processed,matched/louisiana.png,0.441,louisiana
+Lutheran Kansas City Logo.jpg,processed,matched/lutheran-kansas-city.png,0.829,lutheran-kansas-city
+Lutheran North Logo.jpg,processed,matched/lutheran-north.png,0.632,lutheran-north
+Lutheran South Logo.jpg,processed,matched/lutheran-south.png,0.576,lutheran-south
+Lutheran St Charles Logo.jpg,processed,matched/lutheran-st-charles.png,0.399,lutheran-st-charles
+Lutie Logo.jpg,processed,matched/lutie.png,0.513,lutie
+MICDS Logo.jpg,processed,matched/micds.png,0.5,micds
+Macks Creek Logo.jpg,processed,matched/macks-creek.png,0.675,macks-creek
+Macon County Logo.jpg,processed,matched/macon-county.png,0.489,macon-county
+Macon Logo.jpg,processed,matched/macon.png,0.46,macon
+Madison Logo.jpg,processed,matched/madison.png,0.561,madison
+Malden Logo.jpg,processed,matched/malden.png,0.257,malden
+Mansfield Logo.jpg,processed,matched/mansfield.png,0.286,mansfield
+Maplewood-Richmond Hts Logo.jpg,processed,matched/maplewood-richmond-hts.png,0.35,maplewood-richmond-hts
+Marceline Logo.jpg,processed,matched/marceline.png,0.613,marceline
+Marion C Early Logo.jpg,bg_removal_uncertain,,0.0,marion-c-early
+Marion County Logo.jpg,processed,matched/marion-county.png,0.634,marion-county
+Marionville Logo.jpg,processed,matched/marionville.png,0.396,marionville
+Mark Twain Logo.jpg,processed,matched/mark-twain.png,0.049,mark-twain
+Marquand-Zion Logo.jpg,processed,matched/marquand-zion.png,0.409,marquand-zion
+Marquette Logo.jpg,processed,matched/marquette.png,0.135,marquette
+Marshall Logo.jpg,processed,matched/marshall.png,0.408,marshall
+Marshfield Logo.jpg,processed,matched/marshfield.png,0.614,marshfield
+Maryville Logo.jpg,processed,matched/maryville.png,0.643,maryville
+Maysville Logo.jpg,processed,matched/maysville.png,0.051,maysville
+McAuley Catholic Logo.jpg,processed,matched/mcauley-catholic.png,0.384,mcauley-catholic
+McCluer Logo.jpg,processed,matched/mccluer.png,0.324,mccluer
+McCluer North Logo.jpg,processed,matched/mccluer-north.png,0.781,mccluer-north
+McDonald County Logo.jpg,processed,matched/mcdonald-county.png,0.459,mcdonald-county
+McKinley Classical Leadership Logo.jpg,processed,matched/mckinley-classical-leadership.png,0.301,mckinley-classical-leadership
+Meadow Heights Logo.jpg,processed,matched/meadow-heights.png,0.489,meadow-heights
+Meadville Logo.jpg,processed,matched/meadville.png,0.317,meadville
+Mehlville Logo.jpg,processed,matched/mehlville.png,0.485,mehlville
+Mercer Logo.jpg,processed,matched/mercer.png,0.707,mercer
+Metro Logo.jpg,processed,matched/metro.png,0.592,metro
+Mexico Logo.jpg,processed,matched/mexico.png,0.287,mexico
+Miami Aromet Logo.jpg,processed,matched/miami-amoret.png,0.689,miami-amoret
+Mid-Buchanan Logo.jpg,processed,matched/mid-buchanan.png,0.52,mid-buchanan
+Midway Logo.jpg,processed,matched/midway.png,0.623,midway
+Milan Logo.jpg,processed,matched/milan.png,0.315,milan
+Miller Career Aacademy Logo.jpg,processed,matched/miller-career-academy.png,0.768,miller-career-academy
+Miller Logo.jpg,processed,matched/miller.png,0.701,miller
+Missouri Military Academy Logo.jpg,processed,matched/missouri-military-academy.png,0.213,missouri-military-academy
+Moberly Logo.jpg,processed,matched/moberly.png,0.755,moberly
+Monett Logo.jpg,processed,matched/monett.png,0.397,monett
+Monroe City Logo.jpg,processed,matched/monroe-city.png,0.554,monroe-city
+Montgomery County Logo.jpg,processed,matched/montgomery-county.png,0.671,montgomery-county
+Montrose Logo.jpg,bg_removal_uncertain,,0.008,montrose
+Mound City Logo.jpg,processed,matched/mound-city.png,0.367,mound-city
+Mountain Grove Logo.jpg,processed,matched/mountain-grove.png,0.6,mountain-grove
+Mt Vernon Logo.jpg,processed,matched/mt-vernon.png,0.211,mt-vernon
+Naylor Logo.jpg,processed,matched/naylor.png,0.447,naylor
+Neelyville Logo.jpg,processed,matched/neelyville.png,0.609,neelyville
+Neosho Logo.jpg,processed,matched/neosho.png,0.516,neosho
+Nerinx Hall Logo.jpg,processed,matched/nerinx-hall.png,0.481,nerinx-hall
+Nevada Logo.jpg,processed,matched/nevada.png,0.662,nevada
+New Bloomfield Logo.jpg,processed,matched/new-bloomfield.png,0.713,new-bloomfield
+New Covenant Academy Logo.jpg,processed,matched/new-covenant-academy.png,0.457,new-covenant-academy
+New Franklin Logo.jpg,processed,matched/new-franklin.png,0.297,new-franklin
+New Haven Logo.jpg,processed,matched/new-haven.png,0.56,new-haven
+New Heights Christian Logo.jpg,processed,matched/new-heights-christian.png,0.295,new-heights-christian
+Newburg Logo.jpg,processed,matched/newburg.png,0.634,newburg
+Niangua Logo.jpg,processed,matched/niangua.png,0.508,niangua
+Nixa Logo.jpg,processed,matched/nixa.png,0.766,nixa
+Norborne Logo.jpg,processed,matched/norborne.png,0.343,norborne
+Normandy Collaborative Logo.jpg,processed,matched/normandy-collaborative.png,0.29,normandy-collaborative
+North Andrew Logo.jpg,processed,matched/north-andrew.png,0.522,north-andrew
+North Callaway Logo.jpg,processed,matched/north-callaway.png,0.507,north-callaway
+North Harrison Logo.jpg,processed,matched/north-harrison.png,0.191,north-harrison
+North Kansas City Logo.jpg,processed,matched/north-kansas-city.png,0.575,north-kansas-city
+North Nodaway Logo.jpg,processed,matched/north-nodaway.png,0.585,north-nodaway
+North Pemiscot Logo.jpg,processed,matched/north-pemiscot.png,0.58,north-pemiscot
+North Platte Logo.jpg,processed,matched/north-platte.png,0.442,north-platte
+North Point Logo.jpg,processed,matched/north-point.png,0.473,north-point
+North Shelby Logo.jpg,processed,matched/north-shelby.png,0.682,north-shelby
+Northeast Cairo Logo.jpg,processed,matched/northeast-cairo.png,0.646,northeast-cairo
+Northeast Kansas City Logo.jpg,processed,matched/northeast-kansas-city.png,0.523,northeast-kansas-city
+Northeast Nodaway Logo.jpg,processed,matched/northeast-nodaway.png,0.656,northeast-nodaway
+Northeast Vernon County Logo.jpg,processed,matched/northeast-vernon-county.png,0.438,northeast-vernon-county
+Northland Christian Logo.jpg,processed,matched/northland-christian.png,0.406,northland-christian
+Northwest Cedar Hill Logo.jpg,processed,matched/northwest-cedar-hill.png,0.544,northwest-cedar-hill
+Northwest Hughesville Logo.jpg,processed,matched/northwest-hughesville.png,0.053,northwest-hughesville
+Northwestern Mendon Logo.jpg,processed,matched/northwestern-mendon.png,0.717,northwestern-mendon
+Norwood Logo.jpg,processed,matched/norwood.png,0.51,norwood
+Notre Dame Cape Girardeau Logo.jpg,processed,matched/notre-dame-cape-girardeau.png,0.414,notre-dame-cape-girardeau
+Notre Dame St Louis Logo.jpg,processed,matched/notre-dame-st-louis.png,0.134,notre-dame-st-louis
+Notre Dame de Sion Logo.jpg,processed,matched/notre-dame-de-sion.png,0.697,notre-dame-de-sion
+Novinger Logo.jpg,processed,matched/novinger.png,0.455,novinger
+Oak Grove Logo.jpg,processed,matched/oak-grove.png,0.505,oak-grove
+Oak Park Logo.jpg,processed,matched/oak-park.png,0.568,oak-park
+Oak Ridge Logo.jpg,processed,matched/oak-ridge.png,0.676,oak-ridge
+Oakville Logo.jpg,processed,matched/oakville.png,0.496,oakville
+Odessa Logo.jpg,processed,matched/odessa.png,0.209,odessa
+Oran Logo.jpg,processed,matched/oran.png,0.405,oran
+Orchard Farm Logo.jpg,bg_removal_uncertain,,0.005,orchard-farm
+Orrick Logo.jpg,processed,matched/orrick.png,0.559,orrick
+Osage Logo.jpg,processed,matched/osage.png,0.444,osage
+Osborn Logo.jpg,processed,matched/osborn.png,0.659,osborn
+Osceola Logo.jpg,processed,matched/osceola.png,0.542,osceola
+Otterville Logo.jpg,processed,matched/otterville.png,0.421,otterville
+Owensville Logo.jpg,processed,matched/owensville.png,0.509,owensville
+Ozark Logo.jpg,processed,matched/ozark.png,0.363,ozark
+Pacific Logo.jpg,processed,matched/pacific.png,0.38,pacific
+Palmyra Logo.jpg,processed,matched/palmyra.png,0.499,palmyra
+Paris Logo.jpg,processed,matched/paris.png,0.412,paris
+Park Hill Logo.jpg,processed,matched/park-hill.png,0.564,park-hill
+Park Hill South Logo.jpg,processed,matched/park-hill-south.png,0.608,park-hill-south
+Parkview Logo.jpg,processed,matched/parkview.png,0.284,parkview
+Parkway Central Logo.jpg,processed,matched/parkway-central.png,0.701,parkway-central
+Parkway North Logo.jpg,processed,matched/parkway-north.png,0.536,parkway-north
+Parkway South Logo.jpg,processed,matched/parkway-south.png,0.461,parkway-south
+Parkway West Logo.jpg,processed,matched/parkway-west.png,0.247,parkway-west
+Paseo Academy Logo.jpg,processed,matched/paseo-academy.png,0.396,paseo-academy
+Pattonsburg Logo.jpg,processed,matched/pattonsburg.png,0.455,pattonsburg
+Pattonville Logo.jpg,processed,matched/pattonville.png,0.429,pattonville
+Pembroke Hill Logo.jpg,processed,matched/pembroke-hill.png,0.389,pembroke-hill
+Penney Logo.jpg,processed,matched/penney.png,0.428,penney
+Perryville Logo.jpg,processed,matched/perryville.png,0.402,perryville
+Pierce City Logo.jpg,processed,matched/pierce-city.png,0.486,pierce-city
+Pilot Grove Logo.jpg,processed,matched/pilot-grove.png,0.447,pilot-grove
+Plato Logo.jpg,processed,matched/plato.png,0.57,plato
+Platte County Logo.jpg,processed,matched/platte-county.png,0.638,platte-county
+Plattsburg Logo.jpg,processed,matched/plattsburg.png,0.478,plattsburg
+Pleasant Hill Logo.jpg,processed,matched/pleasant-hill.png,0.456,pleasant-hill
+Pleasant Hope Logo.jpg,processed,matched/pleasant-hope.png,0.426,pleasant-hope
+Polo Logo.jpg,processed,matched/polo.png,0.65,polo
+Poplar Bluff Logo.jpg,processed,matched/poplar-bluff.png,0.745,poplar-bluff
+Portageville Logo.jpg,processed,matched/portageville.png,0.334,portageville
+Potosi Logo.jpg,processed,matched/potosi.png,0.498,potosi
+Prairie Home Logo.jpg,processed,matched/prairie-home.png,0.572,prairie-home
+Princeton Logo.jpg,processed,matched/princeton.png,0.532,princeton
+Principia Logo.jpg,processed,matched/principia.png,0.649,principia
+Priory Logo.jpg,processed,matched/priory.png,0.541,priory
+Purdy Logo.jpg,processed,matched/purdy.png,0.383,purdy
+Putnam County Logo.jpg,processed,matched/putnam-county.png,0.607,putnam-county
+Puxico Lgoo.jpg,processed,matched/puxico.png,0.61,puxico
+Raymore-Peculiar Logo.jpg,processed,matched/raymore-peculiar.png,0.535,raymore-peculiar
+Raytown Logo.jpg,processed,matched/raytown.png,0.778,raytown
+Raytown South Logo.jpg,processed,matched/raytown-south.png,0.693,raytown-south
+Reeds Spring Logo.jpg,processed,matched/reeds-spring.png,0.586,reeds-spring
+Republic Logo.jpg,processed,matched/republic.png,0.218,republic
+Rich Hill Logo.jpg,processed,matched/rich-hill.png,0.14,rich-hill
+Richland Essex Logo.jpg,processed,matched/richland-essex.png,0.532,richland-essex
+Richland.jpg,processed,matched/richland.png,0.303,richland
+Richmond Logo.jpg,processed,matched/richmond.png,0.289,richmond
+Risco Logo.jpg,processed,matched/risco.png,0.36,risco
+Ritenour Logo.jpg,processed,matched/ritenour.png,0.652,ritenour
+Riverview Gardens Logo.jpg,processed,matched/riverview-gardens.png,0.652,riverview-gardens
+Rock Bridge Logo.jpg,processed,matched/rock-bridge.png,0.473,rock-bridge
+Rock Port Logo.jpg,processed,matched/rock-port.png,0.481,rock-port
+Rockhurst Logo.jpg,processed,matched/rockhurst.png,0.451,rockhurst
+Rockwood Summit Logo.jpg,processed,matched/rockwood-summit.png,0.155,rockwood-summit
+Rolla Logo.jpg,processed,matched/rolla.png,0.388,rolla
+Roosevelt Logo.jpg,processed,matched/roosevelt.png,0.596,roosevelt
+Rosati-Kain Logo.jpg,processed,matched/rosati-kain.png,0.411,rosati-kain
+Ruskin Logo.jpg,processed,matched/ruskin.png,0.418,ruskin
+Russellville Logo.jpg,processed,matched/russellville.png,0.689,russellville
+SLUH Logo.jpg,processed,matched/sluh.png,0.485,sluh
+STEAM Academy Logo.jpg,processed,matched/steam-academy.png,0.576,steam-academy
+Sacred Heart Logo.jpg,processed,matched/sacred-heart.png,0.582,sacred-heart
+Salem Logo.jpg,processed,matched/salem.png,0.621,salem
+Salisbury Logo.jpg,processed,matched/salisbury.png,0.573,salisbury
+Santa Fe Logo.jpg,processed,matched/santa-fe.png,0.604,santa-fe
+Sarcoxie Logo.jpg,processed,matched/sarcoxie.png,0.445,sarcoxie
+Savannah Logo.jpg,processed,matched/savannah.png,0.752,savannah
+Saxony Lutheran Logo.jpg,processed,matched/saxony-lutheran.png,0.712,saxony-lutheran
+School of the Ozarks Logo.jpg,processed,matched/school-of-the-ozarks.png,0.318,school-of-the-ozarks
+Schuyler County.jpg,processed,matched/schuyler-county.png,0.665,schuyler-county
+Scotland County Logo.jpg,processed,matched/scotland-county.png,0.601,scotland-county
+Scott City Logo.jpg,processed,matched/scott-city.png,0.27,scott-city
+Scott County Central Logo.jpg,processed,matched/scott-county-central.png,0.678,scott-county-central
+Seckman Logo.jpg,processed,matched/seckman.png,0.564,seckman
+Senath-Hornersville Logo.jpg,processed,matched/senath-hornersville.png,0.571,senath-hornersville
+Seneca Logo.jpg,processed,matched/seneca.png,0.38,seneca
+Seymour Logo.jpg,processed,matched/seymour.png,0.36,seymour
+Sheldon Logo.jpg,processed,matched/sheldon.png,0.376,sheldon
+Sherwood Logo.jpg,processed,matched/sherwood.png,0.513,sherwood
+Sikeston Logo.jpg,processed,matched/sikeston.png,0.343,sikeston
+Silex Logo.jpg,processed,matched/silex.png,0.494,silex
+Skyline Logo.jpg,processed,matched/skyline.png,0.222,skyline
+Slater Logo.jpg,processed,matched/slater.png,0.713,slater
+Smith Cotton Logo.jpg,processed,matched/smith-cotton.png,0.675,smith-cotton
+Smithton Logo.jpg,processed,matched/smithton.png,0.397,smithton
+Smithville Logo.jpg,processed,matched/smithville.png,0.614,smithville
+Soldan International Studies Logo.jpg,processed,matched/soldan-international-studies.png,0.211,soldan-international-studies
+South Callaway Logo.jpg,processed,matched/south-callaway.png,0.502,south-callaway
+South Harrison Logo.jpg,processed,matched/south-harrison.png,0.794,south-harrison
+South Holt Logo.jpg,processed,matched/south-holt.png,0.552,south-holt
+South Iron Logo.jpg,processed,matched/south-iron.png,0.429,south-iron
+South Pemiscot Logo.jpg,processed,matched/south-pemiscot.png,0.383,south-pemiscot
+South Shelby Logo.jpg,processed,matched/south-shelby.png,0.527,south-shelby
+Southeast Logo.jpg,processed,matched/southeast.png,0.431,southeast
+Southern Boone Logo.jpg,processed,matched/southern-boone.png,0.732,southern-boone
+Southland Logo.jpg,processed,matched/southland.png,0.756,southland
+Southwest Livingston County Logo.jpg,processed,matched/southwest-livingston-county.png,0.583,southwest-livingston-county
+Southwest Washburn Logo.jpg,bg_removal_uncertain,,0.003,southwest-washburn
+Sparta Logo.jpg,processed,matched/sparta.png,0.518,sparta
+Spokane Logo.jpg,processed,matched/spokane.png,0.306,spokane
+Springfield Catholic Logo.jpg,processed,matched/springfield-catholic.png,0.617,springfield-catholic
+St Charles Logo.jpg,processed,matched/st-charles.png,0.345,st-charles
+St Charles West Logo.jpg,processed,matched/st-charles-west.png,0.214,st-charles-west
+St Clair Logo.jpg,processed,matched/st-clair.png,0.318,st-clair
+St Dominic Logo.jpg,processed,matched/st-dominic.png,0.579,st-dominic
+St Francis Borgia Logo.jpg,processed,matched/st-francis-borgia.png,0.36,st-francis-borgia
+St James Logo.jpg,processed,matched/st-james.png,0.47,st-james
+St Joseph Christian Logo.jpg,processed,matched/st-joseph-christian.png,0.209,st-joseph-christian
+St Josephs Academy Logo.jpg,processed,matched/st-josephs-academy.png,0.212,st-josephs-academy
+St Mary South Side Logo.jpg,processed,matched/st-marys-south-side.png,0.307,st-marys-south-side
+St Michael the Archangel Logo.jpg,processed,matched/st-michael-the-archangel.png,0.742,st-michael-the-archangel
+St Paul Lutheran Concordia Logo.jpg,processed,matched/st-paul-lutheran-concordia.png,0.578,st-paul-lutheran-concordia
+St Pius X Kansas City Logo.jpg,error: image file is truncated (5 bytes not processed),,,
+St Teresas Academy Logo.jpg,processed,matched/st-teresas-academy.png,0.311,st-teresas-academy
+St. Elizabeth Logo.jpg,processed,matched/st-elizabeth.png,0.565,st-elizabeth
+St. Paul Lutheran Farmington Logo.jpg,processed,matched/st-paul-lutheran-farmington.png,0.238,st-paul-lutheran-farmington
+St. Pius X Festus Logo.jpg,processed,matched/st-pius-x-festus.png,0.593,st-pius-x-festus
+St. Vincent Logo.jpg,processed,matched/st-vincent.png,0.717,st-vincent
+Staley Logo.jpg,processed,matched/staley.png,0.591,staley
+Stanberry Logo.jpg,processed,matched/stanberry.png,0.615,stanberry
+Ste Genevieve Logo.jpg,processed,matched/ste-genevieve.png,0.692,ste-genevieve
+Steelville Logo.jpg,processed,matched/steelville.png,0.63,steelville
+Stewartsville Logo.jpg,processed,matched/stewartsville.png,0.659,stewartsville
+Stockton Logo.jpg,processed,matched/stockton.png,0.493,stockton
+Stoutland Logo.jpg,processed,matched/stoutland.png,0.447,stoutland
+Stover Logo.jpg,processed,matched/stover.png,0.315,stover
+Strafford Logo.jpg,processed,matched/strafford.png,0.326,strafford
+Sturgeon Logo.jpg,processed,matched/sturgeon.png,0.421,sturgeon
+Sullivan Logo.jpg,processed,matched/sullivan.png,0.515,sullivan
+Summersville Logo.jpg,processed,matched/summersville.png,0.294,summersville
+Summit Christian Academy Logo.jpg,processed,matched/summit-christian-academy.png,0.394,summit-christian-academy
+Sumner Logo.jpg,processed,matched/sumner.png,0.338,sumner
+Sweet Springs Logo.jpg,processed,matched/sweet-springs.png,0.841,sweet-springs
+Tarkio Logo.jpg,processed,matched/tarkio.png,0.497,tarkio
+Thayer Logo.jpg,processed,matched/thayer.png,0.404,thayer
+Thomas Jefferson Logo.jpg,processed,matched/thomas-jefferson-independent-day.png,0.586,thomas-jefferson-independent-day
+Timberland Logo.jpg,processed,matched/timberland.png,0.361,timberland
+Tina-Avalon Logo.jpg,processed,matched/tina-avalon.png,0.448,tina-avalon
+Tipton Logo.jpg,processed,matched/tipton.png,0.563,tipton
+Trenton Logo.jpg,processed,matched/trenton.png,0.575,trenton
+Tri-County Logo.jpg,processed,matched/tri-county.png,0.652,tri-county
+Troy Buchanan Logo.jpg,processed,matched/troy-buchanan.png,0.382,troy-buchanan
+Truman Logo.jpg,processed,matched/truman.png,0.762,truman
+Tuscumbia Logo.jpg,processed,matched/tuscumbia.png,0.567,tuscumbia
+Twin Rivers Logo.jpg,processed,matched/twin-rivers.png,0.676,twin-rivers
+Union Logo.jpg,processed,matched/union.png,0.471,union
+Union Star Logo.jpg,processed,matched/union-star.png,0.483,union-star
+University City Logo.jpg,processed,matched/university-city.png,0.428,university-city
+University academy Logo.jpg,processed,matched/university-academy-charter.png,0.801,university-academy-charter
+Ursuline Academy Logo.jpg,processed,matched/ursuline-academy.png,0.789,ursuline-academy
+Valle Catholic Logo.jpg,processed,matched/valle-catholic.png,0.524,valle-catholic
+Valley Logo.jpg,processed,matched/valley.png,0.645,valley
+Valley Park Logo.jpg,processed,matched/valley-park.png,0.5,valley-park
+Van Buren Logo.jpg,processed,matched/van-buren.png,0.371,van-buren
+Van Horn Logo.jpg,processed,matched/van-horn.png,0.689,van-horn
+Van-Far Logo.jpg,processed,matched/van-far.png,0.579,van-far
+Vashon Logo.jpg,processed,matched/vashon.png,0.452,vashon
+Veritas Christian Academy Logo.jpg,processed,matched/veritas-christian-academy.png,0.627,veritas-christian-academy
+Verona Logo.jpg,processed,matched/verona.png,0.442,verona
+Versailles Logo.jpg,processed,matched/versailles.png,0.595,versailles
+Vianney Logo.jpg,processed,matched/vianney.png,0.54,vianney
+Vienna Logo.jpg,processed,matched/vienna.png,0.604,vienna
+Villa Duchesne Logo.jpg,processed,matched/villa-duchesne.png,0.716,villa-duchesne
+Visitation Academy Logo.jpg,processed,matched/visitation-academy.png,0.219,visitation-academy
+Walnut Grove Logo.jpg,processed,matched/walnut-grove.png,0.176,walnut-grove
+Warrenton Logo.jpg,processed,matched/warrenton.png,0.404,warrenton
+Warresnburg Logo.jpg,processed,matched/warrensburg.png,0.87,warrensburg
+Warsaw Logo.jpg,processed,matched/warsaw.png,0.547,warsaw
+Washington Logo.jpg,processed,matched/washington.png,0.409,washington
+Waynesville Logo.jpg,processed,matched/waynesville.png,0.249,waynesville
+Weaubleau Logo.jpg,processed,matched/weaubleau.png,0.454,weaubleau
+Webb City Logo.jpg,processed,matched/webb-city.png,0.405,webb-city
+Webster Groves Logo.jpg,processed,matched/webster-groves.png,0.318,webster-groves
+Wellington-Napoleon Logo.jpg,processed,matched/wellington-napoleon.png,0.424,wellington-napoleon
+Wellsville Logo.jpg,processed,matched/wellsville-middletown.png,0.681,wellsville-middletown
+West County Logo.jpg,processed,matched/west-county.png,0.179,west-county
+West Nodaway Logo.jpg,processed,matched/west-nodaway.png,0.668,west-nodaway
+West Plains Logo.jpg,processed,matched/west-plains.png,0.601,west-plains
+West Platte Logo.jpg,processed,matched/west-platte.png,0.731,west-platte
+Westminster Christian Logo.jpg,processed,matched/westminster-christian-academy.png,0.721,westminster-christian-academy
+Westran Logo.jpg,processed,matched/westran.png,0.708,westran
+Wheatland Logo.jpg,processed,matched/wheatland.png,0.555,wheatland
+Wheaton Logo.jpg,processed,matched/wheaton.png,0.444,wheaton
+Whitfield Logo.jpg,processed,matched/whitfield.png,0.354,whitfield
+Willard Logo.jpg,processed,matched/willard.png,0.833,willard
+William Chrisman Logo.jpg,processed,matched/william-chrisman.png,0.233,william-chrisman
+Willow Springs Logo.jpg,processed,matched/willow-springs.png,0.171,willow-springs
+Windsor Imperial Logo.jpg,processed,matched/windsor-imperial.png,0.573,windsor-imperial
+Windsor Logo.jpg,processed,matched/windsor.png,0.83,windsor
+Winfield Logo.jpg,processed,matched/winfield.png,0.588,winfield
+Winnetonka Logo.jpg,bg_removal_uncertain,,0.004,winnetonka
+Winona Logo.jpg,processed,matched/winona.png,0.347,winona
+Winston Logo.jpg,processed,matched/winston.png,0.518,winston
+Woodland Logo.jpg,processed,matched/woodland.png,0.384,woodland
+Worth County Logo.jpg,processed,matched/worth-county.png,0.6,worth-county
+Wright City Logo.jpg,processed,matched/wright-city.png,0.565,wright-city
+Zalma Logo.jpg,processed,matched/zalma.png,0.396,zalma
