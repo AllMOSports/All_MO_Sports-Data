@@ -142,6 +142,17 @@ def canonical_name(raw_name, aliases):
 def make_slug(name):
     slug = name.lower().strip()
     slug = slug.replace("'", "").replace(".", "")
+    # Strip parentheses too. Without this, a school whose MSHSAA-records
+    # spelling uses a parenthetical town qualifier (e.g. "Lafayette
+    # (Wildwood)") and whose ratings-repo spelling omits it (e.g.
+    # "Lafayette Wildwood") produce two DIFFERENT slugs instead of one --
+    # which means the two sources never reach the merged_by_slug logic
+    # below and the school silently ends up split across two incomplete
+    # entries (confirmed on 2026-08-09: 32 schools affected, including
+    # Lafayette (Wildwood) missing football/baseball/records under the
+    # "lafayette-wildwood" slug). Stripping "(" and ")" here makes both
+    # spellings converge on the same slug so they merge correctly.
+    slug = slug.replace("(", "").replace(")", "")
     slug = "-".join(slug.split())
     return slug
  
