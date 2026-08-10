@@ -117,7 +117,7 @@ RATINGS_REPO_URLS = {
 }
  
 ALIASES_PATH = "Aliases.json"  # repo root, capital A -- confirmed location 2026-06-27
-CLASSIFICATIONS_PATH = "classifications.json"  # repo root, alongside Aliases.json
+CLASSIFICATIONS_PATH = "classifications_2025-2026.json"  # repo root, alongside Aliases.json -- renamed 2026-08-10 to distinguish from any future season's file
 OUTPUT_PATH = "output/schools.json"
  
 ALL_SPORTS = list(RATINGS_REPO_URLS.keys())
