@@ -2,9 +2,14 @@
 """
 Build_Football_History_json.py
  
-Aggregates historical AllMOSports football ratings (2010-2024) from
-per-year GitHub repos into a single consolidated JSON file that the
-Sport Detail page's year dropdown can fetch once and slice client-side.
+Aggregates historical AllMOSports football ratings (2010-2024) AND
+season records (record/PPG/PAPG/win%/point diff) from two per-year
+GitHub sources into a single consolidated JSON file that the Sport
+Detail page's year dropdown can fetch once and slice client-side.
+ 
+Sources per year:
+  1. Ratings:  https://raw.githubusercontent.com/AllMOSports/football-ratings-{year}/main/football_ratings_{year}.json
+  2. Records:  https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/football/football_{year}.json
  
 Output shape (football_history.json):
 {
@@ -17,7 +22,10 @@ Output shape (football_history.json):
         "2010": {
           "ovr_rank": 87, "classification": 6, "district": 3,
           "ovr_rating": 16.65, "off_rating": 8.31, "off_rank": 91,
-          "def_rating": 8.33, "def_rank": 92
+          "def_rating": 8.33, "def_rank": 92,
+          "wins": 12, "losses": 1, "win_pct": 92.31, "games_played": 13,
+          "ppg": 38.38, "papg": 5.54, "points_for": 499, "points_against": 72,
+          "point_diff": 427, "mov": 32.85
         },
         "2011": {...},
         ...
@@ -55,6 +63,14 @@ def repo_and_file_for_year(year: int):
     return repo, fname
  
 RAW_URL_TEMPLATE = "https://raw.githubusercontent.com/{org}/{repo}/main/{fname}"
+ 
+# Second source: season records (record/PPG/PAPG/win%/point diff).
+# Same DATA_REPO for every year -- only the filename changes.
+DATA_REPO = "All_MO_Sports-Data"
+RECORDS_URL_TEMPLATE = (
+    "https://raw.githubusercontent.com/{org}/{repo}/main/"
+    "output/mshsaa_historical_records/football/football_{year}.json"
+)
  
 # Source of truth for slugs (your live schools.json feed) and the
 # co-op / renamed-school alias table already used by add_slugs.py.
@@ -139,25 +155,46 @@ def resolve_slug(school_name: str, name_to_slug: dict, aliases: dict):
  
  
 # ---------- MAIN AGGREGATION ----------
+def build_records_lookup(records_data: dict):
+    """Index one year's records file by lowercased school name for merging."""
+    lookup = {}
+    for team in records_data.get("teams", []):
+        nm = team.get("school")
+        if nm:
+            lookup[nm.strip().lower()] = team
+    return lookup
+ 
+ 
 def main():
     name_to_slug, aliases = build_name_to_slug_map(SCHOOLS_JSON_PATH, ALIASES_JSON_PATH)
  
     history = {}
     unmatched = set()
+    unmatched_records = set()
     fetched_years = []
  
     for year in YEARS:
         repo, fname = repo_and_file_for_year(year)
-        url = RAW_URL_TEMPLATE.format(org=ORG, repo=repo, fname=fname)
-        print(f"Fetching {year}: {url}")
+        ratings_url = RAW_URL_TEMPLATE.format(org=ORG, repo=repo, fname=fname)
+        records_url = RECORDS_URL_TEMPLATE.format(org=ORG, repo=DATA_REPO, year=year)
+ 
+        print(f"Fetching {year} ratings: {ratings_url}")
         try:
-            data = load_json(url)
+            ratings_data = load_json(ratings_url)
         except Exception as e:
-            print(f"  !! Skipping {year}: {e}")
+            print(f"  !! Skipping {year} (ratings fetch failed): {e}")
             continue
  
+        print(f"Fetching {year} records: {records_url}")
+        records_lookup = {}
+        try:
+            records_data = load_json(records_url)
+            records_lookup = build_records_lookup(records_data)
+        except Exception as e:
+            print(f"  !! No records data for {year} (continuing with ratings only): {e}")
+ 
         fetched_years.append(year)
-        for team in data.get("teams", []):
+        for team in ratings_data.get("teams", []):
             school_name = team.get("school")
             if not school_name:
                 continue
@@ -167,8 +204,7 @@ def main():
                 unmatched.add(school_name)
                 slug = make_slug(school_name)
  
-            bucket = history.setdefault(slug, {"school": school_name, "history": {}})
-            bucket["history"][str(year)] = {
+            record = {
                 "ovr_rank": team.get("ovr_rank"),
                 "classification": team.get("classification"),
                 "district": team.get("district"),
@@ -178,6 +214,32 @@ def main():
                 "def_rating": team.get("def_rating"),
                 "def_rank": team.get("def_rank"),
             }
+ 
+            rec_match = records_lookup.get(school_name.strip().lower())
+            if rec_match:
+                points_for = rec_match.get("points_for")
+                points_against = rec_match.get("points_against")
+                point_diff = None
+                if points_for is not None and points_against is not None:
+                    point_diff = points_for - points_against
+ 
+                record.update({
+                    "wins": rec_match.get("wins"),
+                    "losses": rec_match.get("losses"),
+                    "win_pct": rec_match.get("win_pct"),
+                    "games_played": rec_match.get("games_played"),
+                    "ppg": rec_match.get("ppg"),
+                    "papg": rec_match.get("oppg"),   # oppg = opponent PPG = PAPG
+                    "points_for": points_for,
+                    "points_against": points_against,
+                    "point_diff": point_diff,
+                    "mov": rec_match.get("mov"),
+                })
+            else:
+                unmatched_records.add(f"{school_name} ({year})")
+ 
+            bucket = history.setdefault(slug, {"school": school_name, "history": {}})
+            bucket["history"][str(year)] = record
  
     output = {
         "sport": "football",
@@ -194,8 +256,13 @@ def main():
               f"(fell back to a derived slug — check these against Aliases.json):")
         for n in sorted(unmatched):
             print(f"  - {n}")
+    if unmatched_records:
+        print(f"\n{len(unmatched_records)} team-years had ratings but no matching "
+              f"records entry (record/PPG/PAPG will be missing for these — usually "
+              f"a name-spelling mismatch between the two sources):")
+        for n in sorted(unmatched_records):
+            print(f"  - {n}")
  
  
 if __name__ == "__main__":
     main()
- 
