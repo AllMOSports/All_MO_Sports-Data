@@ -223,10 +223,23 @@ def main():
                 if points_for is not None and points_against is not None:
                     point_diff = points_for - points_against
  
+                # win_pct is computed from wins/losses rather than trusted
+                # from the source, since MSHSAA's 2010-2011 pages return a
+                # literal 0 in that column for ~95% of teams (confirmed bug
+                # in the scraped data -- wins/losses/points parse correctly
+                # for those years, only win_pct is broken). Deriving it
+                # ourselves sidesteps that inconsistency for every year,
+                # not just the two known-bad ones.
+                wins = rec_match.get("wins")
+                losses = rec_match.get("losses")
+                win_pct = None
+                if wins is not None and losses is not None and (wins + losses) > 0:
+                    win_pct = round((wins / (wins + losses)) * 100, 2)
+ 
                 record.update({
-                    "wins": rec_match.get("wins"),
-                    "losses": rec_match.get("losses"),
-                    "win_pct": rec_match.get("win_pct"),
+                    "wins": wins,
+                    "losses": losses,
+                    "win_pct": win_pct,
                     "games_played": rec_match.get("games_played"),
                     "ppg": rec_match.get("ppg"),
                     "papg": rec_match.get("oppg"),   # oppg = opponent PPG = PAPG
