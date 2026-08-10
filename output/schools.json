@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T13:34:12+00:00",
+  "generated": "2026-08-10T15:42:34+00:00",
   "ranges": {
     "baseball": {
       "def_rating": {
@@ -184,7 +184,6 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 1,
           "def_rating": null,
           "games_played": 26,
           "losses": 21,
@@ -375,7 +374,7 @@
           "wins": 11
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.93,
           "games_played": 25,
           "losses": 5,
@@ -389,7 +388,7 @@
           "wins": 20
         },
         "fall_softball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -12.38,
           "games_played": 19,
           "losses": 16,
@@ -431,7 +430,7 @@
           "wins": 3
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -2.39,
           "games_played": 23,
           "losses": 15,
@@ -646,7 +645,6 @@
           "wins": 22
         },
         "girls_volleyball": {
-          "classification": 1,
           "def_rating": null,
           "games_played": 34,
           "losses": 16,
@@ -1096,7 +1094,7 @@
           "wins": 18
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 2.35,
           "games_played": 27,
           "losses": 17,
@@ -1287,7 +1285,7 @@
           "wins": 15
         },
         "boys_basketball": {
-          "classification": 2,
+          "classification": 4,
           "def_rating": 7.64,
           "games_played": 26,
           "losses": 17,
@@ -1329,7 +1327,7 @@
           "wins": 20
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.79,
           "games_played": 15,
           "losses": 10,
@@ -1388,7 +1386,6 @@
           "wins": 20
         },
         "boys_soccer": {
-          "classification": 4,
           "games_played": 23,
           "losses": 7,
           "papg": 1.96,
@@ -1398,7 +1395,6 @@
           "wins": 16
         },
         "fall_softball": {
-          "classification": 5,
           "games_played": 36,
           "losses": 30,
           "papg": 7.75,
@@ -1509,7 +1505,6 @@
           "wins": 21
         },
         "fall_softball": {
-          "classification": 3,
           "games_played": 18,
           "losses": 11,
           "papg": 9.33,
@@ -1519,7 +1514,7 @@
           "wins": 7
         },
         "football": {
-          "classification": 3,
+          "classification": 4,
           "games_played": 10,
           "losses": 9,
           "papg": 36.5,
@@ -1602,7 +1597,6 @@
           "wins": 1
         },
         "girls_volleyball": {
-          "classification": 2,
           "def_rating": null,
           "off_rating": null,
           "ovr_rating": -4.98,
@@ -2112,7 +2106,7 @@
           "wins": 24
         },
         "girls_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -15.95,
           "games_played": 26,
           "losses": 18,
@@ -2258,7 +2252,7 @@
           "wins": 8
         },
         "boys_basketball": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 5.26,
           "games_played": 28,
           "losses": 16,
@@ -2323,7 +2317,7 @@
           "wins": 14
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.12,
           "games_played": 21,
           "losses": 10,
@@ -2337,7 +2331,7 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": null,
           "games_played": 31,
           "losses": 5,
@@ -2354,7 +2348,7 @@
       "name": "Bismarck",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -5.68,
           "games_played": 24,
           "losses": 14,
@@ -2469,7 +2463,7 @@
           "wins": 12
         },
         "football": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 23.28,
           "games_played": 14,
           "losses": 0,
@@ -2497,7 +2491,7 @@
           "wins": 14
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -0.06,
           "games_played": 24,
           "losses": 10,
@@ -2556,7 +2550,7 @@
           "wins": 6
         },
         "girls_basketball": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": -0.36,
           "games_played": 25,
           "losses": 11,
@@ -2904,7 +2898,7 @@
       "name": "Bolivar",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 1.62,
           "games_played": 36,
           "losses": 21,
@@ -2932,7 +2926,7 @@
           "wins": 20
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.78,
           "games_played": 24,
           "losses": 6,
@@ -3530,7 +3524,6 @@
           "wins": 25
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 17,
           "losses": 14,
           "papg": 12.41,
@@ -4253,7 +4246,6 @@
           "wins": 1
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 21,
           "losses": 10,
           "papg": 5.95,
@@ -4353,7 +4345,7 @@
           "wins": 17
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -1.52,
           "games_played": 21,
           "losses": 12,
@@ -4572,7 +4564,7 @@
       "name": "Cameron",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -1.77,
           "games_played": 23,
           "losses": 15,
@@ -4600,7 +4592,7 @@
           "wins": 5
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -2.35,
           "games_played": 14,
           "losses": 9,
@@ -4628,7 +4620,7 @@
           "wins": 14
         },
         "football": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 1.13,
           "games_played": 12,
           "losses": 5,
@@ -4656,7 +4648,7 @@
           "wins": 7
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -3.62,
           "games_played": 15,
           "losses": 13,
@@ -4993,7 +4985,7 @@
           "wins": 21
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -3.88,
           "games_played": 5,
           "losses": 3,
@@ -6257,7 +6249,7 @@
           "wins": 26
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 6.21,
           "games_played": 29,
           "losses": 11,
@@ -6507,7 +6499,7 @@
           "wins": 19
         },
         "football": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 9.3,
           "games_played": 10,
           "losses": 4,
@@ -7092,7 +7084,7 @@
       "name": "Clayton",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 3.29,
           "games_played": 30,
           "losses": 15,
@@ -7120,7 +7112,7 @@
           "wins": 24
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 2.14,
           "games_played": 20,
           "losses": 10,
@@ -7176,7 +7168,7 @@
           "wins": 11
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 2.16,
           "games_played": 23,
           "losses": 10,
@@ -7634,7 +7626,7 @@
           "wins": 14
         },
         "football": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -11.81,
           "games_played": 10,
           "losses": 4,
@@ -7693,7 +7685,7 @@
       "name": "Collegiate School of Med-Bio Science",
       "sports": {
         "boys_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -5.05,
           "games_played": 25,
           "losses": 12,
@@ -7707,7 +7699,6 @@
           "wins": 13
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 18,
           "losses": 8,
           "papg": 2.11,
@@ -7965,7 +7956,7 @@
           "wins": 14
         },
         "football": {
-          "classification": 3,
+          "classification": 4,
           "games_played": 10,
           "losses": 9,
           "papg": 28.9,
@@ -7975,7 +7966,7 @@
           "wins": 1
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": -21.62,
           "games_played": 15,
           "losses": 11,
@@ -7989,7 +7980,6 @@
           "wins": 4
         },
         "girls_volleyball": {
-          "classification": 3,
           "def_rating": null,
           "games_played": 19,
           "losses": 11,
@@ -8371,7 +8361,7 @@
           "wins": 17
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": null,
           "games_played": 33,
           "losses": 12,
@@ -8402,7 +8392,6 @@
       "name": "Cristo Rey",
       "sports": {
         "boys_basketball": {
-          "classification": 3,
           "def_rating": -32.12,
           "off_rating": -72.66,
           "ovr_rating": -104.78,
@@ -8815,7 +8804,6 @@
           "wins": 19
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 25,
           "losses": 8,
           "papg": 4.64,
@@ -8984,6 +8972,7 @@
           "sos_rating": null
         },
         "girls_basketball": {
+          "classification": 2,
           "def_rating": -21.32,
           "off_rating": -46.92,
           "ovr_rating": -68.24,
@@ -9006,7 +8995,6 @@
           "wins": 4
         },
         "girls_basketball": {
-          "classification": 2,
           "games_played": 14,
           "losses": 14,
           "papg": 43,
@@ -9761,7 +9749,7 @@
       "name": "Duchesne",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 5.05,
           "games_played": 33,
           "losses": 5,
@@ -9803,7 +9791,7 @@
           "wins": 2
         },
         "football": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -46.31,
           "games_played": 10,
           "losses": 9,
@@ -9845,7 +9833,7 @@
           "wins": 13
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": null,
           "games_played": 30,
           "losses": 10,
@@ -10519,7 +10507,6 @@
           "wins": 10
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 17,
           "losses": 16,
           "papg": 5.44,
@@ -10883,7 +10870,6 @@
           "wins": 19
         },
         "boys_soccer": {
-          "classification": 2,
           "games_played": 18,
           "losses": 16,
           "papg": 4.5,
@@ -11036,7 +11022,7 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 28,
           "losses": 18,
@@ -11196,7 +11182,7 @@
           "wins": 8
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -3.52,
           "games_played": 23,
           "losses": 16,
@@ -11275,7 +11261,7 @@
       "name": "Faith Christian Academy",
       "sports": {
         "baseball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 3.28,
           "games_played": 35,
           "losses": 5,
@@ -11404,7 +11390,7 @@
           "wins": 12
         },
         "fall_softball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": -2.77,
           "games_played": 20,
           "losses": 16,
@@ -11446,7 +11432,7 @@
           "wins": 21
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -0.27,
           "games_played": 16,
           "losses": 12,
@@ -11477,7 +11463,7 @@
       "name": "Father Tolton",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 3.04,
           "games_played": 31,
           "losses": 13,
@@ -11491,7 +11477,7 @@
           "wins": 18
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 8.11,
           "games_played": 27,
           "losses": 21,
@@ -11505,7 +11491,7 @@
           "wins": 6
         },
         "boys_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 0.37,
           "games_played": 25,
           "losses": 9,
@@ -11519,7 +11505,7 @@
           "wins": 16
         },
         "fall_softball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 6.35,
           "games_played": 37,
           "losses": 5,
@@ -11561,7 +11547,7 @@
           "wins": 13
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 0.68,
           "games_played": 20,
           "losses": 7,
@@ -11906,7 +11892,7 @@
           "wins": 23
         },
         "boys_basketball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -5.05,
           "games_played": 27,
           "losses": 8,
@@ -13312,7 +13298,7 @@
           "wins": 6
         },
         "football": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -17.18,
           "games_played": 10,
           "losses": 8,
@@ -13472,7 +13458,7 @@
           "wins": 20
         },
         "girls_basketball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -23.06,
           "games_played": 27,
           "losses": 26,
@@ -13600,7 +13586,7 @@
           "wins": 1
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": -4.35,
           "games_played": 24,
           "losses": 11,
@@ -13614,7 +13600,6 @@
           "wins": 13
         },
         "boys_soccer": {
-          "classification": 3,
           "games_played": 18,
           "losses": 8,
           "papg": 2.17,
@@ -13662,7 +13647,6 @@
           "wins": 1
         },
         "girls_volleyball": {
-          "classification": 4,
           "def_rating": null,
           "games_played": 17,
           "losses": 15,
@@ -13707,7 +13691,7 @@
           "wins": 5
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -2.7,
           "games_played": 18,
           "losses": 12,
@@ -13853,7 +13837,6 @@
           "wins": 15
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 26,
           "losses": 10,
           "papg": 5.35,
@@ -13883,7 +13866,7 @@
       "name": "Glasgow",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -4.16,
           "games_played": 17,
           "losses": 12,
@@ -14501,7 +14484,7 @@
       "name": "Green Ridge",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -4.38,
           "games_played": 23,
           "losses": 13,
@@ -14529,7 +14512,6 @@
           "wins": 19
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 18,
           "losses": 12,
           "papg": 3.21,
@@ -14539,7 +14521,7 @@
           "wins": 6
         },
         "girls_basketball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -0.7,
           "games_played": 28,
           "losses": 5,
@@ -14584,7 +14566,7 @@
       "name": "Greenfield",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -7.13,
           "games_played": 16,
           "losses": 13,
@@ -14621,7 +14603,7 @@
           "wins": 3
         },
         "girls_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -0.75,
           "games_played": 28,
           "losses": 11,
@@ -14753,7 +14735,7 @@
           "wins": 7
         },
         "boys_basketball": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 12.23,
           "games_played": 29,
           "losses": 9,
@@ -14840,7 +14822,6 @@
           "wins": 5
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 21,
           "losses": 14,
           "papg": 10.62,
@@ -14884,7 +14865,7 @@
           "wins": 6
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": -2.46,
           "games_played": 17,
           "losses": 10,
@@ -15168,7 +15149,7 @@
           "wins": 6
         },
         "fall_softball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -16.86,
           "games_played": 13,
           "losses": 11,
@@ -16014,7 +15995,7 @@
           "wins": 14
         },
         "fall_softball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 6.43,
           "games_played": 30,
           "losses": 7,
@@ -16028,7 +16009,7 @@
           "wins": 23
         },
         "football": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 26.91,
           "games_played": 12,
           "losses": 1,
@@ -16070,7 +16051,7 @@
           "wins": 18
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 37,
           "losses": 1,
@@ -16115,7 +16096,6 @@
           "wins": 9
         },
         "fall_softball": {
-          "classification": 3,
           "games_played": 17,
           "losses": 11,
           "papg": 9.41,
@@ -17310,7 +17290,7 @@
       "name": "Humansville",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -12.21,
           "games_played": 15,
           "losses": 14,
@@ -17985,7 +17965,6 @@
       "name": "Jefferson (Conception)",
       "sports": {
         "fall_softball": {
-          "classification": 1,
           "games_played": 23,
           "losses": 13,
           "papg": 7.74,
@@ -18189,7 +18168,7 @@
       "name": "John Burroughs",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 2.31,
           "games_played": 27,
           "losses": 13,
@@ -18203,7 +18182,7 @@
           "wins": 14
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 10.61,
           "games_played": 27,
           "losses": 21,
@@ -18217,7 +18196,7 @@
           "wins": 6
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.93,
           "games_played": 18,
           "losses": 11,
@@ -18245,7 +18224,7 @@
           "wins": 5
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 14.49,
           "games_played": 25,
           "losses": 9,
@@ -18259,7 +18238,7 @@
           "wins": 16
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 2.89,
           "games_played": 17,
           "losses": 3,
@@ -18273,7 +18252,7 @@
           "wins": 14
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 25,
           "losses": 8,
@@ -18852,7 +18831,7 @@
       "name": "King City",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -0.22,
           "games_played": 21,
           "losses": 6,
@@ -18880,7 +18859,6 @@
           "wins": 22
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 19,
           "losses": 11,
           "papg": 6.16,
@@ -19152,7 +19130,7 @@
           "wins": 7
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": null,
           "games_played": 21,
           "losses": 19,
@@ -19267,7 +19245,7 @@
           "wins": 14
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 19,
           "losses": 9,
@@ -19340,7 +19318,7 @@
           "wins": 15
         },
         "football": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 19.92,
           "games_played": 13,
           "losses": 2,
@@ -19758,7 +19736,7 @@
       "name": "Ladue Horton Watkins",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 2.16,
           "games_played": 29,
           "losses": 13,
@@ -19828,7 +19806,7 @@
           "wins": 8
         },
         "girls_basketball": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 0.47,
           "games_played": 23,
           "losses": 9,
@@ -19960,42 +19938,49 @@
       "name": "Lafayette (St. Joseph)",
       "sports": {
         "baseball": {
+          "classification": 4,
           "def_rating": -1.27,
           "off_rating": 0.89,
           "ovr_rating": -0.38,
           "sos_rating": null
         },
         "boys_basketball": {
+          "classification": 4,
           "def_rating": 8.18,
           "off_rating": -1.14,
           "ovr_rating": 7.04,
           "sos_rating": null
         },
         "boys_soccer": {
+          "classification": 2,
           "def_rating": -3.55,
           "off_rating": -3.03,
           "ovr_rating": -6.58,
           "sos_rating": null
         },
         "football": {
+          "classification": 3,
           "def_rating": -3.81,
           "off_rating": -17.38,
           "ovr_rating": -21.18,
           "sos_rating": null
         },
         "girls_basketball": {
+          "classification": 4,
           "def_rating": 25.66,
           "off_rating": 18.87,
           "ovr_rating": 44.52,
           "sos_rating": null
         },
         "girls_soccer": {
+          "classification": 2,
           "def_rating": -5.77,
           "off_rating": -4.48,
           "ovr_rating": -10.25,
           "sos_rating": null
         },
         "girls_volleyball": {
+          "classification": 3,
           "def_rating": null,
           "off_rating": null,
           "ovr_rating": 0.28,
@@ -20311,7 +20296,6 @@
           "wins": 16
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 25,
           "losses": 12,
           "papg": 1.84,
@@ -21865,7 +21849,7 @@
       "name": "Lift for Life Academy Charter",
       "sports": {
         "boys_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 10.87,
           "games_played": 29,
           "losses": 9,
@@ -21879,7 +21863,7 @@
           "wins": 20
         },
         "football": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 11.01,
           "games_played": 15,
           "losses": 5,
@@ -21893,7 +21877,7 @@
           "wins": 10
         },
         "girls_basketball": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 14.87,
           "games_played": 27,
           "losses": 11,
@@ -22551,7 +22535,7 @@
           "wins": 18
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 34,
           "losses": 7,
@@ -22610,7 +22594,7 @@
           "wins": 18
         },
         "football": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -28.46,
           "games_played": 10,
           "losses": 9,
@@ -22860,7 +22844,7 @@
           "wins": 12
         },
         "boys_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 10.57,
           "games_played": 27,
           "losses": 11,
@@ -22888,7 +22872,7 @@
           "wins": 6
         },
         "football": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 7.16,
           "games_played": 10,
           "losses": 4,
@@ -22961,7 +22945,7 @@
           "wins": 12
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 5.17,
           "games_played": 25,
           "losses": 16,
@@ -22989,7 +22973,6 @@
           "wins": 13
         },
         "fall_softball": {
-          "classification": 3,
           "games_played": 30,
           "losses": 17,
           "papg": 6.5,
@@ -23086,7 +23069,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.47,
           "games_played": 21,
           "losses": 7,
@@ -23100,7 +23083,6 @@
           "wins": 14
         },
         "fall_softball": {
-          "classification": 3,
           "games_played": 29,
           "losses": 13,
           "papg": 5.97,
@@ -23110,7 +23092,7 @@
           "wins": 16
         },
         "football": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -12.19,
           "games_played": 10,
           "losses": 9,
@@ -23124,7 +23106,7 @@
           "wins": 1
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 17.97,
           "games_played": 25,
           "losses": 6,
@@ -23138,7 +23120,7 @@
           "wins": 19
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": -0.75,
           "games_played": 17,
           "losses": 14,
@@ -23152,7 +23134,7 @@
           "wins": 3
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 30,
           "losses": 19,
@@ -23338,7 +23320,6 @@
       "name": "Macon County",
       "sports": {
         "fall_softball": {
-          "classification": 1,
           "games_played": 14,
           "losses": 7,
           "papg": 10.36,
@@ -23604,7 +23585,7 @@
           "wins": 20
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -1.94,
           "games_played": 21,
           "losses": 10,
@@ -24186,7 +24167,7 @@
       "name": "Marshall",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 0.05,
           "games_played": 27,
           "losses": 14,
@@ -24200,7 +24181,7 @@
           "wins": 13
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": -2.75,
           "games_played": 27,
           "losses": 14,
@@ -24214,7 +24195,7 @@
           "wins": 13
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 1.38,
           "games_played": 26,
           "losses": 5,
@@ -24256,7 +24237,7 @@
           "wins": 3
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 4.61,
           "games_played": 27,
           "losses": 21,
@@ -24746,7 +24727,7 @@
           "wins": 19
         },
         "football": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": -2.6,
           "games_played": 10,
           "losses": 8,
@@ -25270,7 +25251,7 @@
           "wins": 4
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -0.57,
           "games_played": 21,
           "losses": 6,
@@ -25427,7 +25408,7 @@
           "wins": 4
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 21,
           "losses": 19,
@@ -25503,7 +25484,7 @@
       "name": "MICDS",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 2.93,
           "games_played": 26,
           "losses": 7,
@@ -25517,7 +25498,7 @@
           "wins": 19
         },
         "boys_basketball": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 26.14,
           "games_played": 31,
           "losses": 4,
@@ -25531,7 +25512,7 @@
           "wins": 27
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 0.23,
           "games_played": 22,
           "losses": 15,
@@ -25545,7 +25526,7 @@
           "wins": 7
         },
         "football": {
-          "classification": 3,
+          "classification": 5,
           "def_rating": 10.75,
           "games_played": 10,
           "losses": 5,
@@ -25573,7 +25554,7 @@
           "wins": 20
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 2.01,
           "games_played": 21,
           "losses": 6,
@@ -25587,7 +25568,7 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 36,
           "losses": 18,
@@ -25733,6 +25714,7 @@
           "wins": 3
         },
         "football": {
+          "classification": 1,
           "def_rating": -12.31,
           "games_played": 9,
           "losses": 6,
@@ -25968,7 +25950,7 @@
           "wins": 1
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 5.99,
           "games_played": 32,
           "losses": 13,
@@ -25982,7 +25964,7 @@
           "wins": 19
         },
         "girls_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -2.78,
           "games_played": 23,
           "losses": 8,
@@ -25996,7 +25978,6 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 3,
           "def_rating": null,
           "games_played": 22,
           "losses": 13,
@@ -26132,7 +26113,7 @@
           "wins": 16
         },
         "football": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 2.43,
           "games_played": 12,
           "losses": 6,
@@ -26486,7 +26467,6 @@
           "wins": 3
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 23,
           "losses": 9,
           "papg": 6.96,
@@ -26786,7 +26766,7 @@
           "wins": 7
         },
         "girls_basketball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -4.81,
           "games_played": 25,
           "losses": 14,
@@ -26834,7 +26814,7 @@
           "wins": 13
         },
         "fall_softball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -3.99,
           "games_played": 28,
           "losses": 23,
@@ -26910,7 +26890,6 @@
           "wins": 5
         },
         "fall_softball": {
-          "classification": 5,
           "games_played": 35,
           "losses": 12,
           "papg": 2.29,
@@ -27007,7 +26986,7 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": null,
           "games_played": 20,
           "losses": 12,
@@ -27212,7 +27191,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.17,
           "games_played": 21,
           "losses": 13,
@@ -27226,7 +27205,6 @@
           "wins": 8
         },
         "fall_softball": {
-          "classification": 2,
           "games_played": 23,
           "losses": 4,
           "papg": 2.74,
@@ -27343,7 +27321,7 @@
       "name": "New Haven",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -3.72,
           "games_played": 18,
           "losses": 13,
@@ -27430,7 +27408,6 @@
           "wins": 22
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 24,
           "losses": 19,
           "papg": 2.71,
@@ -27772,7 +27749,6 @@
           "wins": 6
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 20,
           "losses": 8,
           "papg": 8.2,
@@ -28016,7 +27992,7 @@
           "wins": 9
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": null,
           "games_played": 29,
           "losses": 11,
@@ -28131,7 +28107,7 @@
           "wins": 7
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 30,
           "losses": 14,
@@ -28516,7 +28492,7 @@
       "name": "North Point",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 4.8,
           "games_played": 39,
           "losses": 17,
@@ -28851,7 +28827,7 @@
       "name": "Northeast Nodaway",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -3.78,
           "games_played": 17,
           "losses": 8,
@@ -28927,7 +28903,7 @@
           "wins": 12
         },
         "girls_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -13.88,
           "games_played": 26,
           "losses": 16,
@@ -28958,7 +28934,7 @@
       "name": "Northland Christian",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": 3.83,
           "games_played": 40,
           "losses": 8,
@@ -29251,7 +29227,7 @@
       "name": "Northwestern (Mendon)",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.95,
           "games_played": 18,
           "losses": 3,
@@ -29389,7 +29365,7 @@
           "wins": 16
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.46,
           "games_played": 23,
           "losses": 9,
@@ -29403,7 +29379,7 @@
           "wins": 14
         },
         "fall_softball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 4.14,
           "games_played": 32,
           "losses": 9,
@@ -29417,7 +29393,7 @@
           "wins": 23
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 0.44,
           "games_played": 26,
           "losses": 20,
@@ -29431,7 +29407,7 @@
           "wins": 6
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 1,
           "def_rating": 1.1,
           "games_played": 22,
           "losses": 7,
@@ -29445,7 +29421,7 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 32,
           "losses": 12,
@@ -29476,7 +29452,7 @@
           "wins": 2
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 4.87,
           "games_played": 28,
           "losses": 12,
@@ -29504,7 +29480,7 @@
           "wins": 10
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 38,
           "losses": 23,
@@ -29535,7 +29511,7 @@
           "wins": 11
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.08,
           "games_played": 19,
           "losses": 16,
@@ -30304,7 +30280,7 @@
           "wins": 10
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 26,
           "losses": 10,
@@ -30445,7 +30421,7 @@
           "wins": 13
         },
         "football": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 6.39,
           "games_played": 12,
           "losses": 3,
@@ -30589,7 +30565,7 @@
           "wins": 21
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": null,
           "games_played": 29,
           "losses": 10,
@@ -31128,7 +31104,6 @@
           "wins": 19
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 25,
           "losses": 4,
           "papg": 2.96,
@@ -32073,7 +32048,6 @@
           "wins": 15
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 23,
           "losses": 11,
           "papg": 8.13,
@@ -32241,7 +32215,7 @@
           "wins": 16
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 6.33,
           "games_played": 27,
           "losses": 15,
@@ -32255,7 +32229,7 @@
           "wins": 12
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.58,
           "games_played": 19,
           "losses": 7,
@@ -32297,7 +32271,7 @@
           "wins": 13
         },
         "girls_soccer": {
-          "classification": 4,
+          "classification": 1,
           "def_rating": 2.19,
           "games_played": 19,
           "losses": 8,
@@ -32311,7 +32285,7 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 28,
           "losses": 7,
@@ -32443,7 +32417,7 @@
           "wins": 9
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 1.19,
           "games_played": 21,
           "losses": 5,
@@ -32457,7 +32431,7 @@
           "wins": 16
         },
         "fall_softball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -7.09,
           "games_played": 18,
           "losses": 15,
@@ -32499,7 +32473,7 @@
           "wins": 15
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.24,
           "games_played": 18,
           "losses": 9,
@@ -32780,7 +32754,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 0.09,
           "games_played": 22,
           "losses": 12,
@@ -33097,7 +33071,7 @@
           "wins": 14
         },
         "football": {
-          "classification": 1,
+          "classification": 3,
           "games_played": 10,
           "losses": 10,
           "papg": 52.7,
@@ -33132,7 +33106,7 @@
           "wins": 11
         },
         "spring_softball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -1.99,
           "games_played": 23,
           "losses": 14,
@@ -33194,6 +33168,7 @@
           "wins": 6
         },
         "football": {
+          "classification": 1,
           "def_rating": -18.2,
           "games_played": 11,
           "losses": 6,
@@ -33660,7 +33635,7 @@
       "name": "Principia",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 4,
           "def_rating": -2.23,
           "games_played": 23,
           "losses": 15,
@@ -33674,7 +33649,7 @@
           "wins": 8
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 3,
           "def_rating": 26.09,
           "games_played": 31,
           "losses": 2,
@@ -33702,7 +33677,7 @@
           "wins": 14
         },
         "football": {
-          "classification": 1,
+          "classification": 3,
           "games_played": 9,
           "losses": 5,
           "papg": 39.56,
@@ -33712,7 +33687,7 @@
           "wins": 4
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 3,
           "def_rating": 21.68,
           "games_played": 32,
           "losses": 2,
@@ -33740,7 +33715,7 @@
           "wins": 7
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": null,
           "games_played": 19,
           "losses": 8,
@@ -33785,7 +33760,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 2.21,
           "games_played": 26,
           "losses": 9,
@@ -33799,7 +33774,7 @@
           "wins": 17
         },
         "football": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -32.92,
           "games_played": 11,
           "losses": 8,
@@ -33920,7 +33895,7 @@
           "wins": 13
         },
         "fall_softball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": 0.93,
           "games_played": 28,
           "losses": 16,
@@ -35429,7 +35404,7 @@
           "wins": 26
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 14.86,
           "games_played": 28,
           "losses": 6,
@@ -35530,7 +35505,7 @@
       "name": "Roosevelt",
       "sports": {
         "boys_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": -19.17,
           "games_played": 22,
           "losses": 20,
@@ -35544,7 +35519,7 @@
           "wins": 2
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -0.61,
           "games_played": 14,
           "losses": 8,
@@ -35811,7 +35786,7 @@
       "name": "Sacred Heart",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 0.54,
           "games_played": 26,
           "losses": 11,
@@ -36057,7 +36032,7 @@
       "name": "Santa Fe",
       "sports": {
         "baseball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -4.65,
           "games_played": 18,
           "losses": 14,
@@ -36324,7 +36299,7 @@
           "wins": 14
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": null,
           "games_played": 28,
           "losses": 10,
@@ -36369,7 +36344,6 @@
           "wins": 6
         },
         "boys_soccer": {
-          "classification": 1,
           "games_played": 17,
           "losses": 12,
           "papg": 3.88,
@@ -36379,7 +36353,6 @@
           "wins": 5
         },
         "fall_softball": {
-          "classification": 2,
           "games_played": 23,
           "losses": 7,
           "papg": 4,
@@ -36417,7 +36390,7 @@
           "wins": 10
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.25,
           "games_played": 13,
           "losses": 8,
@@ -36668,7 +36641,7 @@
           "wins": 23
         },
         "football": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": -6.34,
           "games_played": 10,
           "losses": 4,
@@ -37224,7 +37197,7 @@
           "wins": 3
         },
         "girls_basketball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -5.76,
           "games_played": 27,
           "losses": 15,
@@ -37547,7 +37520,6 @@
           "wins": 15
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 20,
           "losses": 13,
           "papg": 9.1,
@@ -37856,7 +37828,7 @@
           "wins": 15
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 6.48,
           "games_played": 29,
           "losses": 10,
@@ -37870,7 +37842,7 @@
           "wins": 19
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.21,
           "games_played": 21,
           "losses": 9,
@@ -37912,7 +37884,7 @@
           "wins": 8
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 13.5,
           "games_played": 29,
           "losses": 12,
@@ -38320,7 +38292,7 @@
       "name": "South Pemiscot",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -1.95,
           "games_played": 25,
           "losses": 14,
@@ -38868,7 +38840,7 @@
           "wins": 11
         },
         "boys_basketball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -5.78,
           "games_played": 28,
           "losses": 16,
@@ -38941,7 +38913,7 @@
           "wins": 22
         },
         "boys_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -0.34,
           "games_played": 29,
           "losses": 11,
@@ -38955,7 +38927,7 @@
           "wins": 18
         },
         "boys_soccer": {
-          "classification": 4,
+          "classification": 2,
           "def_rating": 2.79,
           "games_played": 31,
           "losses": 1,
@@ -39011,7 +38983,7 @@
           "wins": 16
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 4,
           "def_rating": null,
           "games_played": 27,
           "losses": 24,
@@ -39042,7 +39014,7 @@
       "name": "St. Charles",
       "sports": {
         "baseball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 0.57,
           "games_played": 32,
           "losses": 23,
@@ -39070,7 +39042,7 @@
           "wins": 9
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.33,
           "games_played": 22,
           "losses": 12,
@@ -39112,7 +39084,7 @@
           "wins": 1
         },
         "girls_basketball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 4.44,
           "games_played": 27,
           "losses": 14,
@@ -39310,7 +39282,7 @@
           "wins": 3
         },
         "football": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -2.14,
           "games_played": 14,
           "losses": 4,
@@ -39369,7 +39341,7 @@
       "name": "St. Dominic",
       "sports": {
         "baseball": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 5.93,
           "games_played": 40,
           "losses": 12,
@@ -39383,7 +39355,7 @@
           "wins": 28
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 23.22,
           "games_played": 29,
           "losses": 5,
@@ -39397,7 +39369,7 @@
           "wins": 24
         },
         "boys_soccer": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 2.98,
           "games_played": 25,
           "losses": 8,
@@ -39425,7 +39397,7 @@
           "wins": 20
         },
         "football": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 8.16,
           "games_played": 10,
           "losses": 1,
@@ -39467,7 +39439,7 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": null,
           "games_played": 36,
           "losses": 10,
@@ -39546,7 +39518,7 @@
       "name": "St. Francis Borgia",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 2.86,
           "games_played": 27,
           "losses": 16,
@@ -39640,7 +39612,7 @@
           "wins": 12
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 35,
           "losses": 13,
@@ -39823,7 +39795,7 @@
           "wins": 7
         },
         "girls_volleyball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": null,
           "games_played": 27,
           "losses": 7,
@@ -39913,7 +39885,7 @@
           "wins": 21
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "games_played": 24,
           "losses": 7,
           "papg": 1.38,
@@ -39923,7 +39895,7 @@
           "wins": 17
         },
         "football": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 13.62,
           "games_played": 13,
           "losses": 4,
@@ -40013,7 +39985,7 @@
           "wins": 10
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 11.72,
           "games_played": 28,
           "losses": 13,
@@ -40041,7 +40013,7 @@
           "wins": 19
         },
         "girls_volleyball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": null,
           "games_played": 39,
           "losses": 7,
@@ -40086,7 +40058,7 @@
           "wins": 24
         },
         "boys_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -1.35,
           "games_played": 23,
           "losses": 12,
@@ -40123,7 +40095,7 @@
           "wins": 7
         },
         "girls_volleyball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": null,
           "games_played": 30,
           "losses": 17,
@@ -40227,7 +40199,7 @@
           "wins": 8
         },
         "boys_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -0.05,
           "games_played": 21,
           "losses": 13,
@@ -40269,7 +40241,7 @@
           "wins": 9
         },
         "girls_basketball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 11.57,
           "games_played": 28,
           "losses": 12,
@@ -40283,7 +40255,7 @@
           "wins": 16
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 1.56,
           "games_played": 21,
           "losses": 6,
@@ -40297,7 +40269,7 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": null,
           "games_played": 32,
           "losses": 6,
@@ -40314,7 +40286,7 @@
       "name": "St. Pius X (Kansas City)",
       "sports": {
         "baseball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 5.68,
           "games_played": 28,
           "losses": 8,
@@ -40328,7 +40300,7 @@
           "wins": 20
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": -0.56,
           "games_played": 28,
           "losses": 20,
@@ -40342,7 +40314,7 @@
           "wins": 8
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 0.18,
           "games_played": 22,
           "losses": 7,
@@ -40370,7 +40342,7 @@
           "wins": 6
         },
         "football": {
-          "classification": 3,
+          "classification": 5,
           "def_rating": 16.14,
           "games_played": 11,
           "losses": 5,
@@ -40384,7 +40356,7 @@
           "wins": 6
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 4.43,
           "games_played": 26,
           "losses": 16,
@@ -40412,7 +40384,7 @@
           "wins": 21
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": null,
           "games_played": 34,
           "losses": 17,
@@ -40530,7 +40502,7 @@
           "wins": 7
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": 16.42,
           "games_played": 32,
           "losses": 8,
@@ -40558,7 +40530,7 @@
           "wins": 21
         },
         "girls_volleyball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": null,
           "games_played": 34,
           "losses": 6,
@@ -40876,7 +40848,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -2.55,
           "games_played": 23,
           "losses": 14,
@@ -41036,7 +41008,6 @@
           "wins": 21
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 17,
           "losses": 15,
           "papg": 13.88,
@@ -41258,7 +41229,7 @@
           "wins": 18
         },
         "girls_soccer": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -2.16,
           "games_played": 21,
           "losses": 11,
@@ -41555,7 +41526,7 @@
       "name": "Summersville",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -8.06,
           "games_played": 17,
           "losses": 9,
@@ -41628,7 +41599,7 @@
           "wins": 27
         },
         "boys_basketball": {
-          "classification": 5,
+          "classification": 6,
           "def_rating": 15.05,
           "games_played": 28,
           "losses": 9,
@@ -41670,7 +41641,7 @@
           "wins": 17
         },
         "football": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": -5.69,
           "games_played": 12,
           "losses": 7,
@@ -41749,7 +41720,7 @@
       "name": "Sweet Springs",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -1.65,
           "games_played": 21,
           "losses": 13,
@@ -41831,7 +41802,7 @@
       "name": "Tarkio",
       "sports": {
         "boys_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 0.18,
           "games_played": 27,
           "losses": 10,
@@ -41854,7 +41825,7 @@
           "wins": 6
         },
         "girls_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -4.87,
           "games_played": 27,
           "losses": 17,
@@ -41868,7 +41839,6 @@
           "wins": 10
         },
         "girls_volleyball": {
-          "classification": 1,
           "def_rating": null,
           "games_played": 26,
           "losses": 18,
@@ -41885,6 +41855,7 @@
       "name": "Tarkio with Fairfax, Craig",
       "sports": {
         "baseball": {
+          "classification": 2,
           "def_rating": -3.8,
           "games_played": 17,
           "losses": 10,
@@ -41991,7 +41962,7 @@
       "name": "Thomas Jefferson Independent Day",
       "sports": {
         "boys_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -3.76,
           "games_played": 28,
           "losses": 8,
@@ -42179,7 +42150,6 @@
           "wins": 7
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 24,
           "losses": 17,
           "papg": 9.88,
@@ -42209,6 +42179,7 @@
       "name": "Tina-Avalon with Hale, Bosworth",
       "sports": {
         "baseball": {
+          "classification": 1,
           "def_rating": -8.1,
           "games_played": 15,
           "losses": 13,
@@ -42242,7 +42213,7 @@
           "wins": 20
         },
         "boys_basketball": {
-          "classification": 3,
+          "classification": 2,
           "def_rating": 0.56,
           "games_played": 27,
           "losses": 10,
@@ -42613,7 +42584,7 @@
           "wins": 18
         },
         "football": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": -3.76,
           "games_played": 10,
           "losses": 8,
@@ -42918,7 +42889,6 @@
           "wins": 15
         },
         "girls_volleyball": {
-          "classification": 1,
           "def_rating": null,
           "games_played": 23,
           "losses": 18,
@@ -42935,7 +42905,7 @@
       "name": "University Academy Charter",
       "sports": {
         "baseball": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": -6.41,
           "games_played": 20,
           "losses": 17,
@@ -42963,7 +42933,7 @@
           "wins": 18
         },
         "football": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 7.29,
           "games_played": 10,
           "losses": 5,
@@ -43137,7 +43107,7 @@
           "wins": 4
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 6,
           "def_rating": 14.53,
           "games_played": 28,
           "losses": 11,
@@ -43151,7 +43121,7 @@
           "wins": 17
         },
         "girls_soccer": {
-          "classification": 3,
+          "classification": 4,
           "def_rating": 3.53,
           "games_played": 15,
           "losses": 9,
@@ -43165,7 +43135,7 @@
           "wins": 6
         },
         "girls_volleyball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": null,
           "games_played": 20,
           "losses": 6,
@@ -43182,7 +43152,7 @@
       "name": "Valle Catholic",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": 2.51,
           "games_played": 33,
           "losses": 10,
@@ -43210,7 +43180,7 @@
           "wins": 15
         },
         "football": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 13.1,
           "games_played": 11,
           "losses": 1,
@@ -43238,7 +43208,7 @@
           "wins": 9
         },
         "girls_volleyball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": null,
           "games_played": 35,
           "losses": 7,
@@ -43249,7 +43219,7 @@
           "wins": 28
         },
         "spring_softball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 1.0,
           "games_played": 18,
           "losses": 8,
@@ -43741,7 +43711,7 @@
           "wins": 7
         },
         "boys_soccer": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": 0.87,
           "games_played": 27,
           "losses": 5,
@@ -43797,7 +43767,7 @@
           "wins": 9
         },
         "girls_volleyball": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": null,
           "games_played": 29,
           "losses": 17,
@@ -43988,7 +43958,7 @@
           "wins": 32
         },
         "boys_basketball": {
-          "classification": 6,
+          "classification": 5,
           "def_rating": 19.25,
           "games_played": 30,
           "losses": 6,
@@ -44016,7 +43986,7 @@
           "wins": 10
         },
         "football": {
-          "classification": 5,
+          "classification": 4,
           "def_rating": 0.72,
           "games_played": 11,
           "losses": 7,
@@ -44067,7 +44037,7 @@
       "name": "Vienna",
       "sports": {
         "baseball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -0.71,
           "games_played": 22,
           "losses": 10,
@@ -44095,7 +44065,6 @@
           "wins": 12
         },
         "fall_softball": {
-          "classification": 1,
           "games_played": 22,
           "losses": 10,
           "papg": 4.77,
@@ -44139,7 +44108,7 @@
           "wins": 13
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": 1.23,
           "games_played": 18,
           "losses": 10,
@@ -44549,7 +44518,7 @@
           "wins": 9
         },
         "girls_basketball": {
-          "classification": 4,
+          "classification": 3,
           "def_rating": -5.32,
           "games_played": 28,
           "losses": 16,
@@ -45347,7 +45316,7 @@
           "wins": 11
         },
         "boys_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": 4.04,
           "games_played": 28,
           "losses": 4,
@@ -45370,7 +45339,7 @@
           "wins": 9
         },
         "girls_basketball": {
-          "classification": 1,
+          "classification": 2,
           "def_rating": -3.99,
           "games_played": 28,
           "losses": 17,
@@ -45384,7 +45353,6 @@
           "wins": 11
         },
         "girls_volleyball": {
-          "classification": 1,
           "def_rating": null,
           "games_played": 27,
           "losses": 9,
@@ -45558,7 +45526,7 @@
           "wins": 21
         },
         "football": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": 0.72,
           "games_played": 13,
           "losses": 4,
@@ -45617,7 +45585,7 @@
           "wins": 23
         },
         "boys_basketball": {
-          "classification": 4,
+          "classification": 5,
           "def_rating": 24.14,
           "games_played": 28,
           "losses": 8,
@@ -45884,7 +45852,7 @@
           "wins": 12
         },
         "girls_basketball": {
-          "classification": 2,
+          "classification": 1,
           "def_rating": -13.37,
           "games_played": 29,
           "losses": 15,
@@ -45943,7 +45911,7 @@
           "wins": 13
         },
         "boys_soccer": {
-          "classification": 1,
+          "classification": 3,
           "def_rating": -1.1,
           "games_played": 21,
           "losses": 17,
@@ -45957,7 +45925,7 @@
           "wins": 4
         },
         "girls_basketball": {
-          "classification": 3,
+          "classification": 5,
           "def_rating": 7.85,
           "games_played": 27,
           "losses": 13,
@@ -45971,7 +45939,7 @@
           "wins": 14
         },
         "girls_soccer": {
-          "classification": 2,
+          "classification": 3,
           "def_rating": -0.93,
           "games_played": 14,
           "losses": 8,
