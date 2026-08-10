@@ -503,6 +503,24 @@
     "team_count": 305,
     "year": 2025
   },
+  "football_2010": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2010.json",
+    "season_label": "2010-2011",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 359,
+    "year": 2010
+  },
+  "football_2011": {
+    "error": null,
+    "output_path": "output/mshsaa_historical_records/football/football_2011.json",
+    "season_label": "2011-2012",
+    "sport": "football",
+    "status": "ok",
+    "team_count": 354,
+    "year": 2011
+  },
   "football_2012": {
     "error": null,
     "output_path": "output/mshsaa_historical_records/football/football_2012.json",
