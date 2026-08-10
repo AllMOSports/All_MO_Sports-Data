@@ -1,0 +1,37 @@
+name: Scrape Football Records 2010-2011
+ 
+on:
+  workflow_dispatch: {}   # manual "Run workflow" button -- this is a one-time backfill,
+                          # not something that needs to run on a schedule or on push
+ 
+permissions:
+  contents: write   # needed to commit the scraped JSON + manifest.json back to the repo
+ 
+jobs:
+  scrape-football-2010-2011:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+ 
+      - name: Run Scrape_MSHSAA_History_Records_Football_2010-2011.py
+        run: python3 Scrape_MSHSAA_History_Records_Football_2010-2011.py
+ 
+      - name: Commit and push scraped data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/mshsaa_historical_records/football/football_2010.json
+          git add output/mshsaa_historical_records/football/football_2011.json
+          git add output/mshsaa_historical_records/manifest.json
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Backfill football season records for 2010 and 2011"
+          git push
