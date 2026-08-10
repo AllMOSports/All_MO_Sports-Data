@@ -87,19 +87,35 @@ def load_json(path_or_url: str):
 def build_name_to_slug_map(schools_json_path: str, aliases_json_path: str):
     """Build normalized-name -> slug lookup from schools.json.
  
-    ASSUMED SHAPE (edit to match your real schools.json):
-      {"schools": [{"name": "Lafayette (Wildwood)", "slug": "lafayette-wildwood"}, ...]}
-    or just a top-level list of the same objects.
+    Handles either shape:
+      A) {"schools": [{"name": "...", "slug": "..."}, ...]}  (list of records)
+      B) {"<slug>": {"name": "...", ...}, ...}               (dict keyed by slug)
     """
     schools = load_json(schools_json_path)
-    entries = schools.get("schools", schools) if isinstance(schools, dict) else schools
- 
     name_to_slug = {}
-    for entry in entries:
-        nm = entry.get("name") or entry.get("school")
-        slug = entry.get("slug")
-        if nm and slug:
-            name_to_slug[nm.strip().lower()] = slug
+ 
+    if isinstance(schools, dict) and isinstance(schools.get("schools"), list):
+        # Shape A
+        for entry in schools["schools"]:
+            nm = entry.get("name") or entry.get("school")
+            slug = entry.get("slug")
+            if nm and slug:
+                name_to_slug[nm.strip().lower()] = slug
+    elif isinstance(schools, dict):
+        # Shape B: dict keyed by slug
+        for slug, entry in schools.items():
+            if not isinstance(entry, dict):
+                continue
+            nm = entry.get("name") or entry.get("school")
+            if nm:
+                name_to_slug[nm.strip().lower()] = slug
+    elif isinstance(schools, list):
+        # Bare list of records, no "schools" wrapper
+        for entry in schools:
+            nm = entry.get("name") or entry.get("school")
+            slug = entry.get("slug")
+            if nm and slug:
+                name_to_slug[nm.strip().lower()] = slug
  
     aliases = {}
     if aliases_json_path and Path(aliases_json_path).exists():
@@ -182,3 +198,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+ 
