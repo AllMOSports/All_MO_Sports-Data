@@ -1,7 +1,7 @@
 """
 build_schools_json.py
  
-Builds schools.json by merging TWO separate data sources per sport:
+Builds schools.json by merging THREE separate data sources per sport:
  
   SOURCE 1 -- output/mshsaa_records/<sport>.json
     Produced by scrape_mshsaa_season_records.py. Provides:
@@ -22,6 +22,19 @@ Builds schools.json by merging TWO separate data sources per sport:
     verified/corrected. Treat every non-baseball URL as a placeholder
     until confirmed.
  
+  SOURCE 3 -- classifications.json (repo root, alongside Aliases.json)
+    Added 2026-08-10. A SINGLE file covering all 9 sports at once,
+    keyed by pretty sport name ("Football", "Boys Basketball", ...) --
+    NOT sport_key -- see CLASSIFICATION_SPORT_NAMES below for the
+    mapping. Provides each school's MSHSAA class number for that sport
+    and season (private-school "bump" adjustments are already baked
+    into the "class" value by the source data; "status"/"note"/
+    "enrollment" fields exist for context but aren't surfaced on the
+    site today -- only "class" is pulled in). This powers the
+    class-relative rank line ("#X of Y in Class N") on the Sport Detail
+    page, which was previously coded but silently inactive because no
+    school had a "classification" field to key off of.
+ 
 OUTPUT: schools.json
   {
     "generated": "<iso timestamp>",
@@ -37,7 +50,10 @@ OUTPUT: schools.json
             "ppg": float, "papg": float, "pdpg": float,
             # Only present once ratings data exists for that sport:
             "ovr_rating": float, "off_rating": float, "def_rating": float,
-            "sos_rating": float | None
+            "sos_rating": float | None,
+            # Only present once classifications.json has a matching entry
+            # for that school+sport+season (see SOURCE 3 above):
+            "classification": int | None
           },
           ...
         }
@@ -59,6 +75,8 @@ OUTPUT: schools.json
   -- never from ppg/papg/pdpg. Those are displayed as plain numbers on
   the team page, not as scaled bars, per the user's explicit direction.
   Ranges are also computed per-sport, never combined across sports.
+  classification is NOT included in ranges -- it's a discrete class
+  number, not a rating scaled by min/max.
  
   IMPORTANT: a sport key is omitted entirely from a school's "sports"
   dict if that school doesn't field that sport at all (confirmed
@@ -99,9 +117,25 @@ RATINGS_REPO_URLS = {
 }
  
 ALIASES_PATH = "Aliases.json"  # repo root, capital A -- confirmed location 2026-06-27
+CLASSIFICATIONS_PATH = "classifications.json"  # repo root, alongside Aliases.json
 OUTPUT_PATH = "output/schools.json"
  
 ALL_SPORTS = list(RATINGS_REPO_URLS.keys())
+ 
+# Maps this script's sport_key naming (lowercase_with_underscores) to the
+# pretty sport-name keys used inside classifications.json's "sports" dict.
+# Confirmed against the actual file on 2026-08-10 -- all 9 present.
+CLASSIFICATION_SPORT_NAMES = {
+    "football": "Football",
+    "baseball": "Baseball",
+    "boys_basketball": "Boys Basketball",
+    "girls_basketball": "Girls Basketball",
+    "boys_soccer": "Boys Soccer",
+    "girls_soccer": "Girls Soccer",
+    "girls_volleyball": "Girls Volleyball",
+    "fall_softball": "Fall Softball",
+    "spring_softball": "Spring Softball",
+}
  
 # Sports whose MSHSAA records use Schema B (volleyball-style: no
 # points_for/points_against at all). Everything not listed here is
@@ -264,11 +298,59 @@ def load_ratings_fields(sport_key, url):
  
  
 # ---------------------------------------------------------------------------
+# CLASSIFICATIONS (Source 3) -- produces classification (MSHSAA class #)
+# ---------------------------------------------------------------------------
+ 
+def load_classifications(path):
+    """
+    Loads the SHARED classifications.json file once (it covers all 9
+    sports in one file, unlike Sources 1 and 2 which are per-sport).
+    Returns {} on missing file so the build can still run without it --
+    every school just ends up with no "classification" field, same as
+    today, rather than the whole build failing.
+    """
+    p = Path(path)
+    if not p.exists():
+        print(f"  [warn] no classifications file found at {path} -- proceeding with no classification data")
+        return {}
+    return load_local_json(p)
+ 
+ 
+def load_classification_fields(sport_key, classifications_data):
+    """
+    Returns {raw_school_name: {"classification": int}} for one sport,
+    read from the shared classifications.json via CLASSIFICATION_SPORT_NAMES.
+    Private-school "bump" adjustments are already baked into the source
+    data's "class" value -- "status"/"note"/"enrollment" exist in the
+    source but aren't pulled in here, since nothing on the site surfaces
+    them today.
+    """
+    sport_label = CLASSIFICATION_SPORT_NAMES.get(sport_key)
+    if not sport_label:
+        return {}
+ 
+    sport_block = (classifications_data.get("sports", {}) or {}).get(sport_label)
+    if not sport_block:
+        print(f"  [warn] {sport_key}: no '{sport_label}' block found in classifications.json")
+        return {}
+ 
+    out = {}
+    for t in sport_block.get("teams", []):
+        raw_name = t.get("name")
+        if not raw_name:
+            continue
+        out[raw_name] = {"classification": t.get("class")}
+ 
+    return out
+ 
+ 
+# ---------------------------------------------------------------------------
 # MERGE
 # ---------------------------------------------------------------------------
  
-def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, output_path):
+def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, classifications_path, output_path):
     aliases = load_aliases(aliases_path)
+    classifications_data = load_classifications(classifications_path)
  
     schools = {}
     ranges = {}
@@ -279,6 +361,7 @@ def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, output_path):
  
         mshsaa_fields = load_mshsaa_record_fields(sport_key, mshsaa_dir)
         ratings_fields = load_ratings_fields(sport_key, ratings_urls[sport_key])
+        classification_fields = load_classification_fields(sport_key, classifications_data)
  
         # Build a slug -> merged-fields map directly, keyed by the
         # CANONICAL slug rather than the raw name. This matters because
@@ -293,34 +376,67 @@ def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, output_path):
         # GENUINELY DIFFERENT raw names collide within a single sport's
         # own file. Keying by slug from the start merges these correctly
         # in one pass with no false positives.
-        merged_by_slug = {}  # slug -> {"display_name", "raw_names": set(), "fields": {}}
+        # "has_real_data" tracks whether a slug was touched by Source 1 or
+        # Source 2 (actual MSHSAA/ratings data) -- NOT by Source 3 alone.
+        # This matters because classifications.json covers ~600 schools per
+        # sport regardless of whether AllMOSports actually tracks that
+        # school/sport combo. Without this flag, a classification-only
+        # match would make entry["fields"] non-empty (just {"classification":
+        # N}) and slip past the "no data" skip below, creating a sport entry
+        # with a class number but no wins/losses/ratings at all -- directly
+        # violating the "omit a sport a school doesn't field" rule at the
+        # top of this file. classification data is still merged into
+        # entry["fields"] either way (so a REAL match gets enriched with
+        # it); this flag only gates whether the sport entry gets written
+        # out at all.
+        merged_by_slug = {}  # slug -> {"display_name", "raw_names": set(), "fields": {}, "has_real_data": bool}
  
         for raw_name, fields in mshsaa_fields.items():
             display_name = canonical_name(raw_name, aliases)
             slug = make_slug(display_name)
             entry = merged_by_slug.setdefault(
-                slug, {"display_name": display_name, "raw_names": set(), "fields": {}}
+                slug, {"display_name": display_name, "raw_names": set(), "fields": {}, "has_real_data": False}
             )
             entry["raw_names"].add(raw_name)
             entry["fields"].update(fields)
+            entry["has_real_data"] = True
  
         for raw_name, fields in ratings_fields.items():
             display_name = canonical_name(raw_name, aliases)
             slug = make_slug(display_name)
             entry = merged_by_slug.setdefault(
-                slug, {"display_name": display_name, "raw_names": set(), "fields": {}}
+                slug, {"display_name": display_name, "raw_names": set(), "fields": {}, "has_real_data": False}
+            )
+            entry["raw_names"].add(raw_name)
+            entry["fields"].update(fields)
+            entry["has_real_data"] = True
+ 
+        # Source 3: classifications.json. Same slug-based merge as the two
+        # loops above, EXCEPT this loop never sets has_real_data -- see the
+        # comment above merged_by_slug for why.
+        for raw_name, fields in classification_fields.items():
+            display_name = canonical_name(raw_name, aliases)
+            slug = make_slug(display_name)
+            entry = merged_by_slug.setdefault(
+                slug, {"display_name": display_name, "raw_names": set(), "fields": {}, "has_real_data": False}
             )
             entry["raw_names"].add(raw_name)
             entry["fields"].update(fields)
  
         print(f"  {len(mshsaa_fields)} teams from MSHSAA records, "
               f"{len(ratings_fields)} teams from ratings, "
+              f"{len(classification_fields)} teams from classifications, "
               f"{len(merged_by_slug)} unique schools after merge")
  
         ovr_values, off_values, def_values, sos_values = [], [], [], []
  
         for slug, entry in merged_by_slug.items():
             display_name = entry["display_name"]
+ 
+            if not entry["has_real_data"]:
+                skipped.append({"sport": sport_key, "raw_name": display_name,
+                                 "reason": "classification data only, no MSHSAA/ratings data from either source"})
+                continue
  
             if slug not in schools:
                 # Prefer a raw MSHSAA-style name for mshsaa_name when
@@ -335,11 +451,6 @@ def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, output_path):
                 }
  
             sport_entry = entry["fields"]
- 
-            if not sport_entry:
-                skipped.append({"sport": sport_key, "raw_name": display_name,
-                                 "reason": "no data from either source"})
-                continue
  
             schools[slug]["sports"][sport_key] = sport_entry
  
@@ -380,7 +491,7 @@ def build_schools_json(mshsaa_dir, ratings_urls, aliases_path, output_path):
  
  
 if __name__ == "__main__":
-    build_schools_json(MSHSAA_RECORDS_DIR, RATINGS_REPO_URLS, ALIASES_PATH, OUTPUT_PATH)
+    build_schools_json(MSHSAA_RECORDS_DIR, RATINGS_REPO_URLS, ALIASES_PATH, CLASSIFICATIONS_PATH, OUTPUT_PATH)
  
  
 # ---------------------------------------------------------------------------
@@ -411,3 +522,26 @@ if __name__ == "__main__":
 #      is expected, Track 2 doesn't exist yet.
 # 5. ranges.<sport>.ovr_rating etc. should show {"min": null, "max": null}
 #    until real ratings data is flowing in for that sport.
+# 6. Confirm classifications.json actually exists at the repo root
+#    before running this (added 2026-08-10, source 3). Missing file is
+#    non-fatal -- the build still runs, "classification" is just absent
+#    from every school's sport entry, same as before this change.
+# 7. Check output/schools.json for classification specifically:
+#    - Lafayette (Wildwood)'s football entry should show
+#      "classification": 6 (confirmed against classifications.json
+#      2026-06-27 snapshot, matches the real 2026-06-27 classifications.json snapshot -- note this is DIFFERENT from the "Class 5" shown in earlier mockups, which used placeholder numbers).
+#    - Spot check a handful of OTHER schools too, not just Lafayette --
+#      classifications.json's own name spellings weren't cross-checked
+#      against Aliases.json for every one of the ~600 schools, only
+#      confirmed to converge correctly for names using the same
+#      parenthetical-qualifier pattern as Lafayette (Wildwood). A
+#      co-op or unusually-spelled name could still land on a slug that
+#      doesn't match the school's existing MSHSAA/ratings slug, which
+#      would silently create an orphan entry with ONLY a classification
+#      field and nothing else -- watch the printed per-sport merge
+#      counts (teams from classifications vs. unique schools after
+#      merge) for a sport where that gap looks unexpectedly large.
+#    - A school with classification data but no MSHSAA/ratings data for
+#      that sport is still skipped entirely for that sport (same
+#      "no data from either source" behavior as before) -- classification
+#      alone doesn't create a page.
