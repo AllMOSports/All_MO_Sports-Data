@@ -58,8 +58,8 @@ RAW_URL_TEMPLATE = "https://raw.githubusercontent.com/{org}/{repo}/main/{fname}"
  
 # Source of truth for slugs (your live schools.json feed) and the
 # co-op / renamed-school alias table already used by add_slugs.py.
-SCHOOLS_JSON_PATH = "schools.json"   # local path or raw.githubusercontent.com URL
-ALIASES_JSON_PATH = "Aliases.json"   # local path or URL; optional
+SCHOOLS_JSON_PATH = "output/schools.json"   # local path or raw.githubusercontent.com URL
+ALIASES_JSON_PATH = "Aliases.json"          # local path or URL; optional
 OUTPUT_PATH = "football_history.json"
  
  
