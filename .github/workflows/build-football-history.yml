@@ -1,0 +1,41 @@
+name: Build Football History JSON
+ 
+on:
+  workflow_dispatch: {}          # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - 'Build_Football_History_json.py'   # re-run if you edit the script
+      - 'Aliases.json'                     # or update your alias map
+ 
+permissions:
+  contents: write   # needed to commit football_history.json back to the repo
+ 
+jobs:
+  build-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      # No external deps needed — the script uses only stdlib (json, re,
+      # urllib.request). Delete this step if you keep it that way, or add
+      # a requirements.txt + `pip install -r requirements.txt` if you later
+      # swap urllib for requests.
+      - name: Run Build_Football_History_json.py
+        run: python Build_Football_History_json.py
+ 
+      - name: Commit and push football_history.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add football_history.json
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update football_history.json"
+          git push
+ 
