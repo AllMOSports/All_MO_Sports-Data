@@ -1,0 +1,36 @@
+name: Build Fall Softball History JSON
+ 
+on:
+  workflow_dispatch: {}          # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - 'Build_FallSoftball_History_json.py'
+      - 'Aliases.json'
+ 
+permissions:
+  contents: write   # needed to commit fall_softball_history.json back to the repo
+ 
+jobs:
+  build-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      - name: Run Build_Fall_Softball_History_json.py
+        run: python Build_Fall_Softball_History_json.py
+ 
+      - name: Commit and push fall_softball_history.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fall_softball_history.json
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update fall_softball_history.json"
+          git push
