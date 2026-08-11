@@ -1,5 +1,5 @@
 {
-  "updated": "August 10, 2026",
+  "updated": "August 11, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -9,27 +9,27 @@
     "teams": [
       {
         "rank": "1",
-        "school": "Blue Springs South",
+        "school": "BSBlue Springs South",
         "ovr": "77.13"
       },
       {
         "rank": "2",
-        "school": "Christian Brothers College",
+        "school": "CBChristian Brothers College",
         "ovr": "71.51"
       },
       {
         "rank": "3",
-        "school": "Platte County",
+        "school": "PCPlatte County",
         "ovr": "66.63"
       },
       {
         "rank": "4",
-        "school": "Jackson",
+        "school": "JJackson",
         "ovr": "65.59"
       },
       {
         "rank": "5",
-        "school": "Nixa",
+        "school": "NNixa",
         "ovr": "62.72"
       }
     ]
@@ -59,7 +59,7 @@
       {
         "rank": "4",
         "school": "De Smet Jesuit",
-        "ovr": "54.1"
+        "ovr": "54.10"
       },
       {
         "rank": "5",
@@ -93,7 +93,7 @@
       {
         "rank": "4",
         "school": "Jackson",
-        "ovr": "56.8"
+        "ovr": "56.80"
       },
       {
         "rank": "5",
@@ -132,7 +132,7 @@
       {
         "rank": "5",
         "school": "Staley",
-        "ovr": "12.5"
+        "ovr": "12.50"
       }
     ]
   },
@@ -180,7 +180,7 @@
       {
         "rank": "1",
         "school": "Mt. Vernon",
-        "ovr": "15.5"
+        "ovr": "15.50"
       },
       {
         "rank": "2",
@@ -190,7 +190,7 @@
       {
         "rank": "3",
         "school": "East Newton",
-        "ovr": "14.5"
+        "ovr": "14.50"
       },
       {
         "rank": "4",
@@ -282,27 +282,27 @@
       {
         "rank": "1",
         "school": "Raymore-Peculiar",
-        "ovr": "13.2"
+        "ovr": "13.21"
       },
       {
         "rank": "2",
         "school": "Liberty North",
-        "ovr": "13.0"
+        "ovr": "13.01"
       },
       {
         "rank": "3",
         "school": "Ft. Zumwalt West",
-        "ovr": "12.5"
+        "ovr": "12.48"
       },
       {
         "rank": "4",
         "school": "Blue Springs South",
-        "ovr": "12.4"
+        "ovr": "12.40"
       },
       {
         "rank": "5",
         "school": "Rock Bridge",
-        "ovr": "12.3"
+        "ovr": "12.30"
       }
     ]
   }
