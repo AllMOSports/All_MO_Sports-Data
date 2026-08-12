@@ -1,5 +1,5 @@
 {
-  "updated": "August 11, 2026",
+  "updated": "August 12, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -9,28 +9,28 @@
     "teams": [
       {
         "rank": "1",
-        "school": "Blue Springs South",
-        "ovr": "77.13"
+        "school": "BSBlue Springs South",
+        "ovr": ""
       },
       {
         "rank": "2",
-        "school": "Christian Brothers College",
-        "ovr": "71.51"
+        "school": "CBChristian Brothers College",
+        "ovr": ""
       },
       {
         "rank": "3",
-        "school": "Platte County",
-        "ovr": "66.63"
+        "school": "PCPlatte County",
+        "ovr": ""
       },
       {
         "rank": "4",
-        "school": "Jackson",
-        "ovr": "65.59"
+        "school": "JJackson",
+        "ovr": ""
       },
       {
         "rank": "5",
-        "school": "Nixa",
-        "ovr": "62.72"
+        "school": "NNixa",
+        "ovr": ""
       }
     ]
   },
