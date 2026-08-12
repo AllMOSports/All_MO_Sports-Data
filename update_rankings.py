@@ -109,8 +109,12 @@ def parse_top_n(html, sport_name):
     all_ths = table.find_all('th')
     print(f"  Table found with {len(all_ths)} columns")
  
+    # Strip sort arrows AND the "[sort]" suffix WordPress/JS appends to
+    # sortable column headers (e.g. "OVR Rating[sort]") so header matching
+    # below actually succeeds instead of silently falling through to the
+    # hardcoded fallback column indexes.
     header_names = [
-        th.get_text().replace('⇅','').replace('↑','').replace('↓','').strip()
+        th.get_text().replace('⇅','').replace('↑','').replace('↓','').replace('[sort]','').strip()
         for th in all_ths
     ]
     print(f"  Headers: {header_names}")
@@ -118,7 +122,11 @@ def parse_top_n(html, sport_name):
     col_map    = {name: i for i, name in enumerate(header_names)}
     rank_col   = col_map.get('OVR Rank',   col_map.get('RANK', 0))
     school_col = col_map.get('School',     col_map.get('SCHOOL', 1))
-    ovr_col    = col_map.get('OVR Rating', col_map.get('ADJ. OVR Rating', 8))
+    # Fallback changed from 8 -> 2: index 8 doesn't exist on a 7-column
+    # Rank/School/OVR/OFF.../DEF... table, which is why OVR came back
+    # blank for football even though header matching should normally
+    # find it directly via the names above.
+    ovr_col    = col_map.get('OVR Rating', col_map.get('ADJ. OVR Rating', 2))
     print(f"  Columns -> Rank:{rank_col}  School:{school_col}  OVR:{ovr_col}")
  
     # Get data rows
@@ -138,9 +146,23 @@ def parse_top_n(html, sport_name):
         cells  = row.find_all(['td', 'th'])
         if len(cells) < 3:
             continue
-        school = cells[school_col].get_text().strip() if len(cells) > school_col else ''
-        rank   = cells[rank_col].get_text().strip()   if len(cells) > rank_col   else ''
-        ovr    = cells[ovr_col].get_text().strip()    if len(cells) > ovr_col    else ''
+        rank = cells[rank_col].get_text().strip() if len(cells) > rank_col else ''
+        ovr  = cells[ovr_col].get_text().strip()  if len(cells) > ovr_col  else ''
+ 
+        # The school cell isn't just plain text -- it's a logo (or an
+        # initials-fallback badge like "BS" for Blue Springs South) plus
+        # a class tag, alongside the actual school name. Strip those out
+        # before reading the cell's text, or they get mashed onto the
+        # front of the name (e.g. "BSBlue Springs South").
+        school = ''
+        if len(cells) > school_col:
+            school_cell = cells[school_col]
+            for badge in school_cell.select('.bbr-logo-fallback, .hrk-class-tag'):
+                badge.decompose()
+            for img in school_cell.find_all('img'):
+                img.decompose()
+            school = school_cell.get_text().strip()
+ 
         if not school or school in ('School', 'SCHOOL', 'Team', 'Name'):
             continue
         teams.append({'rank': rank, 'school': school, 'ovr': ovr})
