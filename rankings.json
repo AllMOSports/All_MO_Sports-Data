@@ -9,28 +9,28 @@
     "teams": [
       {
         "rank": "1",
-        "school": "BSBlue Springs South",
-        "ovr": ""
+        "school": "Blue Springs South",
+        "ovr": "77.13"
       },
       {
         "rank": "2",
-        "school": "CBChristian Brothers College",
-        "ovr": ""
+        "school": "Christian Brothers College",
+        "ovr": "71.51"
       },
       {
         "rank": "3",
-        "school": "PCPlatte County",
-        "ovr": ""
+        "school": "Platte County",
+        "ovr": "66.63"
       },
       {
         "rank": "4",
-        "school": "JJackson",
-        "ovr": ""
+        "school": "Jackson",
+        "ovr": "65.59"
       },
       {
         "rank": "5",
-        "school": "NNixa",
-        "ovr": ""
+        "school": "Nixa",
+        "ovr": "62.72"
       }
     ]
   },
