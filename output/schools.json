@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T21:32:09+00:00",
+  "generated": "2026-08-17T18:39:53+00:00",
   "ranges": {
     "baseball": {
       "def_rating": {
@@ -257,11 +257,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.15,
           "games_played": 34,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.15,
+          "off_rating": 1.12,
+          "ovr_rating": 2.28,
           "sos_rating": null,
           "win_pct": 77.14,
           "wins": 27
@@ -316,11 +316,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.86,
           "games_played": 35,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 1.41,
+          "off_rating": 1.01,
+          "ovr_rating": 1.87,
           "sos_rating": null,
           "win_pct": 60.0,
           "wins": 21
@@ -445,11 +445,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.39,
           "games_played": 26,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.77,
+          "off_rating": -0.62,
+          "ovr_rating": -1.01,
           "sos_rating": null,
           "win_pct": 44.44,
           "wins": 12
@@ -704,11 +704,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.29,
           "games_played": 34,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.61,
+          "off_rating": 0.44,
+          "ovr_rating": 0.73,
           "sos_rating": null,
           "win_pct": 55.88,
           "wins": 19
@@ -786,11 +786,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.09,
           "games_played": 30,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 0.45,
+          "off_rating": 0.12,
+          "ovr_rating": 0.03,
           "sos_rating": null,
           "win_pct": 80.65,
           "wins": 25
@@ -873,11 +873,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.4,
           "games_played": 27,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.37,
+          "off_rating": -0.01,
+          "ovr_rating": -0.41,
           "sos_rating": null,
           "win_pct": 43.33,
           "wins": 13
@@ -1064,11 +1064,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.09,
           "games_played": 27,
           "losses": 24,
-          "off_rating": null,
-          "ovr_rating": -1.35,
+          "off_rating": -0.67,
+          "ovr_rating": -1.77,
           "sos_rating": null,
           "win_pct": 11.11,
           "wins": 3
@@ -1137,11 +1137,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.61,
           "games_played": 29,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -0.93,
+          "off_rating": -0.46,
+          "ovr_rating": -1.08,
           "sos_rating": null,
           "win_pct": 41.94,
           "wins": 13
@@ -1210,11 +1210,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.34,
           "games_played": 21,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -1.24,
+          "off_rating": -0.56,
+          "ovr_rating": -1.9,
           "sos_rating": null,
           "win_pct": 52.38,
           "wins": 11
@@ -1255,11 +1255,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.06,
           "games_played": 21,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -3.08,
+          "off_rating": -2.28,
+          "ovr_rating": -4.35,
           "sos_rating": null,
           "win_pct": 42.86,
           "wins": 9
@@ -1342,11 +1342,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.18,
           "games_played": 22,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.39,
+          "off_rating": -0.07,
+          "ovr_rating": -0.24,
           "sos_rating": null,
           "win_pct": 52.17,
           "wins": 12
@@ -1447,11 +1447,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.5,
           "games_played": 29,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.8,
+          "off_rating": 0.48,
+          "ovr_rating": 0.99,
           "sos_rating": null,
           "win_pct": 48.28,
           "wins": 14
@@ -1553,11 +1553,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.3,
           "games_played": 22,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -2.32,
+          "off_rating": -1.39,
+          "ovr_rating": -2.69,
           "sos_rating": null,
           "win_pct": 34.78,
           "wins": 8
@@ -1638,11 +1638,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.83,
           "games_played": 33,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 1.4,
+          "off_rating": 1.03,
+          "ovr_rating": 1.86,
           "sos_rating": null,
           "win_pct": 81.82,
           "wins": 27
@@ -1711,11 +1711,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.76,
           "games_played": 23,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -0.82,
+          "off_rating": -0.51,
+          "ovr_rating": -1.27,
           "sos_rating": null,
           "win_pct": 54.17,
           "wins": 13
@@ -1826,11 +1826,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 2.07,
           "games_played": 36,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 3.23,
+          "off_rating": 1.96,
+          "ovr_rating": 4.04,
           "sos_rating": null,
           "win_pct": 75.0,
           "wins": 27
@@ -1941,11 +1941,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.36,
           "games_played": 35,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": 1.0,
+          "off_rating": 0.39,
+          "ovr_rating": 0.75,
           "sos_rating": null,
           "win_pct": 42.86,
           "wins": 15
@@ -1986,11 +1986,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.37,
           "games_played": 35,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 0.63,
+          "off_rating": 0.56,
+          "ovr_rating": 0.93,
           "sos_rating": null,
           "win_pct": 66.67,
           "wins": 24
@@ -2121,11 +2121,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.31,
           "games_played": 36,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.18,
+          "off_rating": -0.22,
+          "ovr_rating": -0.53,
           "sos_rating": null,
           "win_pct": 62.5,
           "wins": 25
@@ -2222,11 +2222,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.54,
           "games_played": 25,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.86,
+          "off_rating": -1.02,
+          "ovr_rating": -2.57,
           "sos_rating": null,
           "win_pct": 36.0,
           "wins": 9
@@ -2332,11 +2332,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.46,
           "games_played": 31,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.58,
+          "off_rating": 1.44,
+          "ovr_rating": 2.9,
           "sos_rating": null,
           "win_pct": 81.25,
           "wins": 26
@@ -2391,11 +2391,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 1.45,
           "games_played": 42,
           "losses": 3,
-          "off_rating": null,
-          "ovr_rating": 2.08,
+          "off_rating": 1.63,
+          "ovr_rating": 3.07,
           "sos_rating": null,
           "win_pct": 92.86,
           "wins": 39
@@ -2506,11 +2506,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.53,
           "games_played": 35,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": 1.25,
+          "off_rating": 0.88,
+          "ovr_rating": 1.42,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 14
@@ -2565,11 +2565,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.27,
           "games_played": 26,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -0.98,
+          "off_rating": -0.44,
+          "ovr_rating": -0.71,
           "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
@@ -2638,11 +2638,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.42,
           "games_played": 31,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -0.29,
+          "off_rating": -0.17,
+          "ovr_rating": -0.59,
           "sos_rating": null,
           "win_pct": 67.65,
           "wins": 23
@@ -2767,11 +2767,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.81,
           "games_played": 34,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 3.21,
+          "off_rating": 2.01,
+          "ovr_rating": 3.82,
           "sos_rating": null,
           "win_pct": 44.12,
           "wins": 15
@@ -2882,11 +2882,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.18,
           "games_played": 36,
           "losses": 27,
-          "off_rating": null,
-          "ovr_rating": 1.9,
+          "off_rating": 1.34,
+          "ovr_rating": 2.51,
           "sos_rating": null,
           "win_pct": 25.0,
           "wins": 9
@@ -2997,11 +2997,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.07,
           "games_played": 31,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -0.09,
+          "off_rating": -0.27,
+          "ovr_rating": -0.2,
           "sos_rating": null,
           "win_pct": 35.29,
           "wins": 12
@@ -3112,11 +3112,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.34,
           "games_played": 28,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.08,
+          "off_rating": 0.67,
+          "ovr_rating": 1.02,
           "sos_rating": null,
           "win_pct": 71.43,
           "wins": 20
@@ -3171,11 +3171,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.13,
           "games_played": 29,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -1.53,
+          "off_rating": -0.95,
+          "ovr_rating": -2.08,
           "sos_rating": null,
           "win_pct": 48.39,
           "wins": 15
@@ -3272,11 +3272,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.52,
           "games_played": 22,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.02,
+          "off_rating": -1.33,
+          "ovr_rating": -2.84,
           "sos_rating": null,
           "win_pct": 16.67,
           "wins": 4
@@ -3303,11 +3303,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.66,
           "games_played": 36,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -2.58,
+          "off_rating": -1.68,
+          "ovr_rating": -3.34,
           "sos_rating": null,
           "win_pct": 39.47,
           "wins": 15
@@ -3418,11 +3418,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.11,
           "games_played": 31,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 2.13,
+          "off_rating": 0.93,
+          "ovr_rating": 2.03,
           "sos_rating": null,
           "win_pct": 52.78,
           "wins": 19
@@ -3633,11 +3633,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.67,
           "games_played": 29,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": -0.59,
+          "off_rating": -0.32,
+          "ovr_rating": -0.98,
           "sos_rating": null,
           "win_pct": 82.76,
           "wins": 24
@@ -3754,11 +3754,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.33,
           "games_played": 23,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.54,
+          "off_rating": -2.32,
+          "ovr_rating": -4.65,
           "sos_rating": null,
           "win_pct": 20.83,
           "wins": 5
@@ -3924,11 +3924,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.13,
           "games_played": 30,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.57,
+          "off_rating": 0.22,
+          "ovr_rating": 0.35,
           "sos_rating": null,
           "win_pct": 52.94,
           "wins": 18
@@ -3983,11 +3983,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.14,
           "games_played": 20,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -4.26,
+          "off_rating": -3.01,
+          "ovr_rating": -6.16,
           "sos_rating": null,
           "win_pct": 4.76,
           "wins": 1
@@ -4042,11 +4042,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.71,
           "games_played": 32,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.34,
+          "off_rating": -0.86,
+          "ovr_rating": -1.57,
           "sos_rating": null,
           "win_pct": 30.56,
           "wins": 11
@@ -4115,11 +4115,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.86,
           "games_played": 30,
           "losses": 2,
-          "off_rating": null,
-          "ovr_rating": 1.82,
+          "off_rating": 1.0,
+          "ovr_rating": 1.86,
           "sos_rating": null,
           "win_pct": 87.5,
           "wins": 28
@@ -4202,11 +4202,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.79,
           "games_played": 34,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.18,
+          "off_rating": 0.68,
+          "ovr_rating": 1.46,
           "sos_rating": null,
           "win_pct": 70.27,
           "wins": 26
@@ -4360,11 +4360,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.31,
           "games_played": 29,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 1.03,
+          "off_rating": 0.7,
+          "ovr_rating": 1.01,
           "sos_rating": null,
           "win_pct": 60.61,
           "wins": 20
@@ -4433,11 +4433,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.07,
           "games_played": 23,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": -0.82,
+          "off_rating": -0.96,
+          "ovr_rating": -2.03,
           "sos_rating": null,
           "win_pct": 64.0,
           "wins": 16
@@ -4548,11 +4548,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.14,
           "games_played": 30,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 2.44,
+          "off_rating": 1.22,
+          "ovr_rating": 2.36,
           "sos_rating": null,
           "win_pct": 66.67,
           "wins": 22
@@ -4663,11 +4663,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.62,
           "games_played": 28,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -0.73,
+          "off_rating": -1.1,
+          "ovr_rating": -1.72,
           "sos_rating": null,
           "win_pct": 17.24,
           "wins": 5
@@ -4722,11 +4722,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.42,
           "games_played": 31,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -0.94,
+          "off_rating": -0.31,
+          "ovr_rating": -0.73,
           "sos_rating": null,
           "win_pct": 43.75,
           "wins": 14
@@ -4941,11 +4941,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.23,
           "games_played": 24,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.81,
+          "off_rating": 0.7,
+          "ovr_rating": 0.92,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 9
@@ -5042,11 +5042,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.97,
           "games_played": 27,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -1.71,
+          "off_rating": -1.15,
+          "ovr_rating": -2.12,
           "sos_rating": null,
           "win_pct": 53.57,
           "wins": 15
@@ -5157,11 +5157,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.92,
           "games_played": 30,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 1.83,
+          "off_rating": 0.74,
+          "ovr_rating": 1.66,
           "sos_rating": null,
           "win_pct": 53.33,
           "wins": 16
@@ -5244,11 +5244,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.38,
           "games_played": 26,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 0.35,
+          "off_rating": -0.15,
+          "ovr_rating": -0.53,
           "sos_rating": null,
           "win_pct": 69.23,
           "wins": 18
@@ -5359,11 +5359,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.44,
           "games_played": 26,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 1.34,
+          "off_rating": 0.62,
+          "ovr_rating": 1.06,
           "sos_rating": null,
           "win_pct": 37.04,
           "wins": 10
@@ -5425,11 +5425,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.19,
           "games_played": 18,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -2.77,
+          "off_rating": -1.24,
+          "ovr_rating": -2.43,
           "sos_rating": null,
           "win_pct": 38.89,
           "wins": 7
@@ -5554,11 +5554,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.54,
           "games_played": 30,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -0.88,
+          "off_rating": -0.36,
+          "ovr_rating": -0.9,
           "sos_rating": null,
           "win_pct": 32.26,
           "wins": 10
@@ -5655,11 +5655,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.34,
           "games_played": 32,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.18,
+          "off_rating": -0.52,
+          "ovr_rating": -0.86,
           "sos_rating": null,
           "win_pct": 65.63,
           "wins": 21
@@ -5770,11 +5770,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.01,
           "games_played": 33,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.27,
+          "off_rating": 0.87,
+          "ovr_rating": 1.89,
           "sos_rating": null,
           "win_pct": 58.33,
           "wins": 21
@@ -5843,11 +5843,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.66,
           "games_played": 21,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.96,
+          "off_rating": -2.83,
+          "ovr_rating": -5.49,
           "sos_rating": null,
           "win_pct": 14.29,
           "wins": 3
@@ -5916,11 +5916,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.14,
           "games_played": 24,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.29,
+          "off_rating": -0.03,
+          "ovr_rating": -0.17,
           "sos_rating": null,
           "win_pct": 48.0,
           "wins": 12
@@ -6003,11 +6003,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.16,
           "games_played": 23,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 0.16,
+          "off_rating": 0.3,
+          "ovr_rating": 0.45,
           "sos_rating": null,
           "win_pct": 26.09,
           "wins": 6
@@ -6104,11 +6104,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.03,
           "games_played": 21,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.3,
+          "off_rating": -0.03,
+          "ovr_rating": -0.06,
           "sos_rating": null,
           "win_pct": 23.08,
           "wins": 6
@@ -6219,11 +6219,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.43,
           "games_played": 34,
           "losses": 22,
-          "off_rating": null,
-          "ovr_rating": 0.74,
+          "off_rating": 0.48,
+          "ovr_rating": 0.91,
           "sos_rating": null,
           "win_pct": 35.29,
           "wins": 12
@@ -6306,11 +6306,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.97,
           "games_played": 27,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.3,
+          "off_rating": -1.08,
+          "ovr_rating": -2.05,
           "sos_rating": null,
           "win_pct": 32.14,
           "wins": 9
@@ -6365,11 +6365,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.96,
           "games_played": 24,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -2.82,
+          "off_rating": -1.74,
+          "ovr_rating": -3.7,
           "sos_rating": null,
           "win_pct": 18.52,
           "wins": 5
@@ -6548,11 +6548,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.66,
           "games_played": 21,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -4.28,
+          "off_rating": -3.11,
+          "ovr_rating": -6.77,
           "sos_rating": null,
           "win_pct": 4.76,
           "wins": 1
@@ -6621,11 +6621,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.32,
           "games_played": 18,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.6,
+          "off_rating": -2.56,
+          "ovr_rating": -4.88,
           "sos_rating": null,
           "win_pct": 0.0,
           "wins": 0
@@ -6784,11 +6784,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.29,
           "games_played": 35,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.5,
+          "off_rating": 1.29,
+          "ovr_rating": 2.58,
           "sos_rating": null,
           "win_pct": 85.71,
           "wins": 30
@@ -6933,11 +6933,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.2,
           "games_played": 21,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -2.56,
+          "off_rating": -2.11,
+          "ovr_rating": -4.31,
           "sos_rating": null,
           "win_pct": 42.86,
           "wins": 9
@@ -7054,11 +7054,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.05,
           "games_played": 32,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": -2.14,
+          "off_rating": -0.97,
+          "ovr_rating": -2.01,
           "sos_rating": null,
           "win_pct": 21.21,
           "wins": 7
@@ -7183,11 +7183,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.4,
           "games_played": 22,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 0.97,
+          "off_rating": 0.96,
+          "ovr_rating": 1.36,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 14
@@ -7242,11 +7242,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.53,
           "games_played": 33,
           "losses": 30,
-          "off_rating": null,
-          "ovr_rating": -2.68,
+          "off_rating": -1.68,
+          "ovr_rating": -3.21,
           "sos_rating": null,
           "win_pct": 9.09,
           "wins": 3
@@ -7329,11 +7329,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.54,
           "games_played": 31,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 1.07,
+          "off_rating": 0.57,
+          "ovr_rating": 1.11,
           "sos_rating": null,
           "win_pct": 47.06,
           "wins": 16
@@ -7520,10 +7520,10 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.42,
           "games_played": 29,
           "losses": 12,
-          "off_rating": null,
+          "off_rating": 0.46,
           "ovr_rating": 0.88,
           "sos_rating": null,
           "win_pct": 51.52,
@@ -7655,11 +7655,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.68,
           "games_played": 32,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": 1.21,
+          "off_rating": 0.68,
+          "ovr_rating": 1.36,
           "sos_rating": null,
           "win_pct": 75.68,
           "wins": 28
@@ -7737,11 +7737,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.04,
           "games_played": 31,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": -0.61,
+          "off_rating": -0.06,
+          "ovr_rating": -0.01,
           "sos_rating": null,
           "win_pct": 84.38,
           "wins": 27
@@ -7782,11 +7782,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.94,
           "games_played": 23,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -2.03,
+          "off_rating": -1.85,
+          "ovr_rating": -3.8,
           "sos_rating": null,
           "win_pct": 52.17,
           "wins": 12
@@ -7912,11 +7912,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.0,
           "games_played": 27,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.84,
+          "off_rating": -0.67,
+          "ovr_rating": -1.67,
           "sos_rating": null,
           "win_pct": 48.39,
           "wins": 15
@@ -8039,11 +8039,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.97,
           "games_played": 32,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -1.4,
+          "off_rating": -1.15,
+          "ovr_rating": -2.12,
           "sos_rating": null,
           "win_pct": 51.52,
           "wins": 17
@@ -8098,11 +8098,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.78,
           "games_played": 19,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -3.34,
+          "off_rating": -1.5,
+          "ovr_rating": -3.28,
           "sos_rating": null,
           "win_pct": 21.05,
           "wins": 4
@@ -8157,11 +8157,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.2,
           "games_played": 31,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 3.96,
+          "off_rating": 2.69,
+          "ovr_rating": 4.89,
           "sos_rating": null,
           "win_pct": 70.97,
           "wins": 22
@@ -8202,11 +8202,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.36,
           "games_played": 37,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -0.2,
+          "off_rating": -0.41,
+          "ovr_rating": -0.77,
           "sos_rating": null,
           "win_pct": 71.05,
           "wins": 27
@@ -8275,11 +8275,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.62,
           "games_played": 30,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.79,
+          "off_rating": -0.31,
+          "ovr_rating": -0.93,
           "sos_rating": null,
           "win_pct": 48.48,
           "wins": 16
@@ -8362,11 +8362,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.48,
           "games_played": 33,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.14,
+          "off_rating": -0.37,
+          "ovr_rating": -0.85,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 21
@@ -8434,11 +8434,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.96,
           "games_played": 20,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -1.96,
+          "off_rating": -2.0,
+          "ovr_rating": -3.96,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 10
@@ -8569,11 +8569,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.15,
           "games_played": 23,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -3.48,
+          "off_rating": -1.96,
+          "ovr_rating": -4.11,
           "sos_rating": null,
           "win_pct": 26.09,
           "wins": 6
@@ -8600,11 +8600,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.61,
           "games_played": 18,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -2.44,
+          "off_rating": -2.29,
+          "ovr_rating": -4.91,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 8
@@ -8673,10 +8673,10 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.0,
           "games_played": 26,
           "losses": 11,
-          "off_rating": null,
+          "off_rating": -0.03,
           "ovr_rating": -0.03,
           "sos_rating": null,
           "win_pct": 51.72,
@@ -8760,11 +8760,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.09,
           "games_played": 27,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -0.15,
+          "off_rating": -0.32,
+          "ovr_rating": -0.41,
           "sos_rating": null,
           "win_pct": 65.52,
           "wins": 19
@@ -9101,11 +9101,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.62,
           "games_played": 19,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -3.18,
+          "off_rating": -1.37,
+          "ovr_rating": -2.99,
           "sos_rating": null,
           "win_pct": 21.05,
           "wins": 4
@@ -9230,11 +9230,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.08,
           "games_played": 25,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.33,
+          "off_rating": 0.46,
+          "ovr_rating": 0.54,
           "sos_rating": null,
           "win_pct": 25.93,
           "wins": 7
@@ -9317,11 +9317,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.48,
           "games_played": 28,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.26,
+          "off_rating": 0.75,
+          "ovr_rating": 1.23,
           "sos_rating": null,
           "win_pct": 53.33,
           "wins": 16
@@ -9404,11 +9404,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.34,
           "games_played": 27,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.12,
+          "off_rating": 0.72,
+          "ovr_rating": 1.06,
           "sos_rating": null,
           "win_pct": 67.86,
           "wins": 19
@@ -9519,11 +9519,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.34,
           "games_played": 27,
           "losses": 26,
-          "off_rating": null,
-          "ovr_rating": -3.18,
+          "off_rating": -2.3,
+          "ovr_rating": -4.64,
           "sos_rating": null,
           "win_pct": 3.33,
           "wins": 1
@@ -9606,11 +9606,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.89,
           "games_played": 26,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.41,
+          "off_rating": -0.83,
+          "ovr_rating": -1.71,
           "sos_rating": null,
           "win_pct": 29.63,
           "wins": 8
@@ -9651,11 +9651,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.32,
           "games_played": 28,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -1.81,
+          "off_rating": -1.33,
+          "ovr_rating": -2.66,
           "sos_rating": null,
           "win_pct": 37.93,
           "wins": 11
@@ -9733,11 +9733,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.95,
           "games_played": 32,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": -1.22,
+          "off_rating": -0.86,
+          "ovr_rating": -1.81,
           "sos_rating": null,
           "win_pct": 71.88,
           "wins": 23
@@ -9834,11 +9834,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.58,
           "games_played": 30,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.94,
+          "off_rating": 0.48,
+          "ovr_rating": 1.06,
           "sos_rating": null,
           "win_pct": 62.5,
           "wins": 20
@@ -9921,11 +9921,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.52,
           "games_played": 38,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.49,
+          "off_rating": 0.75,
+          "ovr_rating": 1.27,
           "sos_rating": null,
           "win_pct": 63.41,
           "wins": 26
@@ -10042,11 +10042,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.56,
           "games_played": 29,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -1.25,
+          "off_rating": -1.41,
+          "ovr_rating": -2.97,
           "sos_rating": null,
           "win_pct": 55.17,
           "wins": 16
@@ -10115,11 +10115,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.04,
           "games_played": 32,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 0.09,
+          "off_rating": -0.08,
+          "ovr_rating": -0.05,
           "sos_rating": null,
           "win_pct": 48.48,
           "wins": 16
@@ -10202,11 +10202,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.55,
           "games_played": 30,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.4,
+          "off_rating": -0.96,
+          "ovr_rating": -1.51,
           "sos_rating": null,
           "win_pct": 45.16,
           "wins": 14
@@ -10289,11 +10289,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.05,
           "games_played": 30,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 0.21,
+          "off_rating": 0.03,
+          "ovr_rating": 0.08,
           "sos_rating": null,
           "win_pct": 40.63,
           "wins": 13
@@ -10390,11 +10390,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.07,
           "games_played": 33,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.03,
+          "off_rating": 1.12,
+          "ovr_rating": 2.18,
           "sos_rating": null,
           "win_pct": 66.67,
           "wins": 22
@@ -10449,11 +10449,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.78,
           "games_played": 36,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 1.15,
+          "off_rating": 0.6,
+          "ovr_rating": 1.38,
           "sos_rating": null,
           "win_pct": 83.78,
           "wins": 31
@@ -10579,11 +10579,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.01,
           "games_played": 33,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 0.27,
+          "off_rating": 0.13,
+          "ovr_rating": 0.14,
           "sos_rating": null,
           "win_pct": 55.88,
           "wins": 19
@@ -10680,11 +10680,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.31,
           "games_played": 31,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -1.82,
+          "off_rating": -1.62,
+          "ovr_rating": -2.92,
           "sos_rating": null,
           "win_pct": 25.0,
           "wins": 8
@@ -10795,11 +10795,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.73,
           "games_played": 30,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 3.1,
+          "off_rating": 2.18,
+          "ovr_rating": 3.91,
           "sos_rating": null,
           "win_pct": 48.39,
           "wins": 15
@@ -10840,11 +10840,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.24,
           "games_played": 25,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -1.64,
+          "off_rating": -1.11,
+          "ovr_rating": -2.35,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 14
@@ -10908,11 +10908,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.25,
           "games_played": 25,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -1.06,
+          "off_rating": -1.56,
+          "ovr_rating": -2.81,
           "sos_rating": null,
           "win_pct": 57.69,
           "wins": 15
@@ -11023,11 +11023,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.24,
           "games_played": 28,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.22,
+          "off_rating": 0.05,
+          "ovr_rating": -0.18,
           "sos_rating": null,
           "win_pct": 34.48,
           "wins": 10
@@ -11082,11 +11082,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.68,
           "games_played": 21,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -2.46,
+          "off_rating": -1.69,
+          "ovr_rating": -3.37,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 8
@@ -11197,11 +11197,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.63,
           "games_played": 30,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.41,
+          "off_rating": 0.79,
+          "ovr_rating": 1.42,
           "sos_rating": null,
           "win_pct": 54.55,
           "wins": 18
@@ -11332,11 +11332,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.76,
           "games_played": 30,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -0.96,
+          "off_rating": -1.38,
+          "ovr_rating": -2.14,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 10
@@ -11447,11 +11447,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.48,
           "games_played": 25,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.1,
+          "off_rating": 1.38,
+          "ovr_rating": 2.85,
           "sos_rating": null,
           "win_pct": 69.23,
           "wins": 18
@@ -11565,7 +11565,10 @@
           "games_played": 27,
           "losses": 13,
           "win_pct": 50.0,
-          "wins": 14
+          "wins": 14,
+          "ovr_rating": 0.19,
+          "off_rating": 0.13,
+          "def_rating": 0.06
         }
       }
     },
@@ -11671,11 +11674,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.93,
           "games_played": 34,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 1.7,
+          "off_rating": 1.05,
+          "ovr_rating": 1.99,
           "sos_rating": null,
           "win_pct": 71.43,
           "wins": 25
@@ -11862,11 +11865,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.44,
           "games_played": 32,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.39,
+          "off_rating": 1.53,
+          "ovr_rating": 2.97,
           "sos_rating": null,
           "win_pct": 61.76,
           "wins": 21
@@ -11921,11 +11924,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.21,
           "games_played": 29,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 0.17,
+          "off_rating": 0.08,
+          "ovr_rating": -0.13,
           "sos_rating": null,
           "win_pct": 76.67,
           "wins": 23
@@ -12008,11 +12011,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.45,
           "games_played": 30,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -0.87,
+          "off_rating": -0.75,
+          "ovr_rating": -1.2,
           "sos_rating": null,
           "win_pct": 20.0,
           "wins": 7
@@ -12137,11 +12140,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.44,
           "games_played": 32,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.18,
+          "off_rating": 1.07,
+          "ovr_rating": 2.52,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 21
@@ -12252,11 +12255,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -0.4,
           "games_played": 21,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.32,
+          "off_rating": -0.02,
+          "ovr_rating": -0.42,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 7
@@ -12367,11 +12370,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.0,
           "games_played": 28,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": 1.83,
+          "off_rating": 1.4,
+          "ovr_rating": 2.4,
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
@@ -12482,11 +12485,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.96,
           "games_played": 28,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": 1.42,
+          "off_rating": 0.96,
+          "ovr_rating": 1.92,
           "sos_rating": null,
           "win_pct": 27.59,
           "wins": 8
@@ -12597,11 +12600,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.71,
           "games_played": 26,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": 1.48,
+          "off_rating": 1.2,
+          "ovr_rating": 1.91,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 13
@@ -12712,11 +12715,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.03,
           "games_played": 32,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 0.04,
+          "off_rating": 0.15,
+          "ovr_rating": 0.11,
           "sos_rating": null,
           "win_pct": 45.45,
           "wins": 15
@@ -12881,11 +12884,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.32,
           "games_played": 20,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -0.73,
+          "off_rating": -0.24,
+          "ovr_rating": -0.55,
           "sos_rating": null,
           "win_pct": 14.29,
           "wins": 3
@@ -12996,11 +12999,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.94,
           "games_played": 27,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 1.43,
+          "off_rating": 0.97,
+          "ovr_rating": 1.91,
           "sos_rating": null,
           "win_pct": 46.43,
           "wins": 13
@@ -13111,11 +13114,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.05,
           "games_played": 23,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -0.09,
+          "off_rating": 0.22,
+          "ovr_rating": 0.26,
           "sos_rating": null,
           "win_pct": 18.52,
           "wins": 5
@@ -13226,11 +13229,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.82,
           "games_played": 27,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": 3.19,
+          "off_rating": 1.87,
+          "ovr_rating": 3.69,
           "sos_rating": null,
           "win_pct": 85.19,
           "wins": 23
@@ -13341,11 +13344,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.62,
           "games_played": 33,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -0.49,
+          "off_rating": -0.51,
+          "ovr_rating": -1.12,
           "sos_rating": null,
           "win_pct": 36.36,
           "wins": 12
@@ -13400,11 +13403,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.85,
           "games_played": 31,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -1.04,
+          "off_rating": -0.93,
+          "ovr_rating": -1.78,
           "sos_rating": null,
           "win_pct": 60.61,
           "wins": 20
@@ -13473,11 +13476,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.84,
           "games_played": 30,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -1.05,
+          "off_rating": -0.78,
+          "ovr_rating": -1.62,
           "sos_rating": null,
           "win_pct": 57.58,
           "wins": 19
@@ -13734,11 +13737,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.48,
           "games_played": 17,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": -2.59,
+          "off_rating": -1.42,
+          "ovr_rating": -3.89,
           "sos_rating": null,
           "win_pct": 58.82,
           "wins": 10
@@ -13779,11 +13782,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.84,
           "games_played": 36,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": 1.0,
+          "off_rating": 0.82,
+          "ovr_rating": 1.66,
           "sos_rating": null,
           "win_pct": 88.89,
           "wins": 32
@@ -14027,11 +14030,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.0,
           "games_played": 25,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 1.92,
+          "off_rating": 0.84,
+          "ovr_rating": 1.85,
           "sos_rating": null,
           "win_pct": 53.57,
           "wins": 15
@@ -14058,11 +14061,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.4,
           "games_played": 22,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.34,
+          "off_rating": -2.53,
+          "ovr_rating": -4.94,
           "sos_rating": null,
           "win_pct": 16.67,
           "wins": 4
@@ -14089,11 +14092,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.56,
           "games_played": 26,
           "losses": 24,
-          "off_rating": null,
-          "ovr_rating": -3.71,
+          "off_rating": -2.52,
+          "ovr_rating": -5.08,
           "sos_rating": null,
           "win_pct": 7.14,
           "wins": 2
@@ -14204,11 +14207,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.7,
           "games_played": 33,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 3.18,
+          "off_rating": 2.17,
+          "ovr_rating": 3.86,
           "sos_rating": null,
           "win_pct": 75.76,
           "wins": 25
@@ -14319,11 +14322,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.01,
           "games_played": 27,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.46,
+          "off_rating": -1.44,
+          "ovr_rating": -2.45,
           "sos_rating": null,
           "win_pct": 30.0,
           "wins": 9
@@ -14392,11 +14395,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.32,
           "games_played": 22,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.31,
+          "off_rating": -1.82,
+          "ovr_rating": -3.14,
           "sos_rating": null,
           "win_pct": 17.39,
           "wins": 4
@@ -14536,11 +14539,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.39,
           "games_played": 23,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.68,
+          "off_rating": -1.32,
+          "ovr_rating": -2.71,
           "sos_rating": null,
           "win_pct": 30.43,
           "wins": 7
@@ -14618,11 +14621,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.52,
           "games_played": 30,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.65,
+          "off_rating": -0.46,
+          "ovr_rating": -0.98,
           "sos_rating": null,
           "win_pct": 52.78,
           "wins": 19
@@ -14691,11 +14694,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.77,
           "games_played": 31,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.23,
+          "off_rating": -0.55,
+          "ovr_rating": -1.31,
           "sos_rating": null,
           "win_pct": 40.63,
           "wins": 13
@@ -14792,11 +14795,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.95,
           "games_played": 23,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.45,
+          "off_rating": -1.93,
+          "ovr_rating": -3.88,
           "sos_rating": null,
           "win_pct": 20.0,
           "wins": 5
@@ -14908,11 +14911,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.5,
           "games_played": 21,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.02,
+          "off_rating": -2.76,
+          "ovr_rating": -5.25,
           "sos_rating": null,
           "win_pct": 13.64,
           "wins": 3
@@ -15091,11 +15094,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.12,
           "games_played": 32,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.61,
+          "off_rating": 0.19,
+          "ovr_rating": 0.32,
           "sos_rating": null,
           "win_pct": 57.14,
           "wins": 20
@@ -15192,11 +15195,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.91,
           "games_played": 20,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -2.9,
+          "off_rating": -1.76,
+          "ovr_rating": -3.67,
           "sos_rating": null,
           "win_pct": 31.82,
           "wins": 7
@@ -15307,11 +15310,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.36,
           "games_played": 39,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.15,
+          "off_rating": 1.69,
+          "ovr_rating": 3.05,
           "sos_rating": null,
           "win_pct": 72.5,
           "wins": 29
@@ -15541,11 +15544,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.29,
           "games_played": 27,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.94,
+          "off_rating": 0.51,
+          "ovr_rating": 0.8,
           "sos_rating": null,
           "win_pct": 51.72,
           "wins": 15
@@ -15662,11 +15665,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.96,
           "games_played": 17,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -3.17,
+          "off_rating": -1.16,
+          "ovr_rating": -3.12,
           "sos_rating": null,
           "win_pct": 23.53,
           "wins": 4
@@ -15735,11 +15738,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -1.58,
           "games_played": 17,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -2.07,
+          "off_rating": -1.24,
+          "ovr_rating": -2.81,
           "sos_rating": null,
           "win_pct": 23.53,
           "wins": 4
@@ -15836,11 +15839,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.34,
           "games_played": 33,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.58,
+          "off_rating": -0.32,
+          "ovr_rating": -0.67,
           "sos_rating": null,
           "win_pct": 64.71,
           "wins": 22
@@ -15937,11 +15940,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -1.2,
           "games_played": 29,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -2.02,
+          "off_rating": -1.22,
+          "ovr_rating": -2.41,
           "sos_rating": null,
           "win_pct": 19.35,
           "wins": 6
@@ -16052,11 +16055,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 2.28,
           "games_played": 37,
           "losses": 1,
-          "off_rating": null,
-          "ovr_rating": 4.03,
+          "off_rating": 2.28,
+          "ovr_rating": 4.56,
           "sos_rating": null,
           "win_pct": 94.74,
           "wins": 36
@@ -16134,11 +16137,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.5,
           "games_played": 24,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -1.04,
+          "off_rating": -0.73,
+          "ovr_rating": -1.23,
           "sos_rating": null,
           "win_pct": 24.14,
           "wins": 7
@@ -16221,11 +16224,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.69,
           "games_played": 33,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 1.27,
+          "off_rating": 1.03,
+          "ovr_rating": 1.71,
           "sos_rating": null,
           "win_pct": 54.29,
           "wins": 19
@@ -16398,11 +16401,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.69,
           "games_played": 29,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 1.29,
+          "off_rating": 0.7,
+          "ovr_rating": 1.4,
           "sos_rating": null,
           "win_pct": 40.63,
           "wins": 13
@@ -16651,11 +16654,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.25,
           "games_played": 28,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": 0.24,
+          "off_rating": 0.07,
+          "ovr_rating": 0.32,
           "sos_rating": null,
           "win_pct": 26.67,
           "wins": 8
@@ -16766,11 +16769,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.19,
           "games_played": 27,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 2.23,
+          "off_rating": 1.49,
+          "ovr_rating": 2.68,
           "sos_rating": null,
           "win_pct": 70.0,
           "wins": 21
@@ -16825,11 +16828,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -3.43,
           "games_played": 21,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -3.84,
+          "off_rating": -3.38,
+          "ovr_rating": -6.8,
           "sos_rating": null,
           "win_pct": 4.76,
           "wins": 1
@@ -16884,11 +16887,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.02,
           "games_played": 37,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.32,
+          "off_rating": 0.08,
+          "ovr_rating": 0.09,
           "sos_rating": null,
           "win_pct": 65.79,
           "wins": 25
@@ -16985,11 +16988,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.91,
           "games_played": 29,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.38,
+          "off_rating": -1.29,
+          "ovr_rating": -2.2,
           "sos_rating": null,
           "win_pct": 26.67,
           "wins": 8
@@ -17058,10 +17061,10 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.61,
           "games_played": 34,
           "losses": 5,
-          "off_rating": null,
+          "off_rating": 0.97,
           "ovr_rating": 1.57,
           "sos_rating": null,
           "win_pct": 82.86,
@@ -17187,11 +17190,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.23,
           "games_played": 23,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": 2.22,
+          "off_rating": 1.53,
+          "ovr_rating": 2.76,
           "sos_rating": null,
           "win_pct": 73.08,
           "wins": 19
@@ -17260,11 +17263,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.05,
           "games_played": 28,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.32,
+          "off_rating": 0.11,
+          "ovr_rating": 0.16,
           "sos_rating": null,
           "win_pct": 58.06,
           "wins": 18
@@ -17381,11 +17384,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.54,
           "games_played": 20,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": -1.97,
+          "off_rating": -1.65,
+          "ovr_rating": -3.18,
           "sos_rating": null,
           "win_pct": 55.0,
           "wins": 11
@@ -17440,11 +17443,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.66,
           "games_played": 22,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -4.01,
+          "off_rating": -3.01,
+          "ovr_rating": -5.67,
           "sos_rating": null,
           "win_pct": 4.35,
           "wins": 1
@@ -17575,11 +17578,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.05,
           "games_played": 40,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 3.27,
+          "off_rating": 2.21,
+          "ovr_rating": 4.26,
           "sos_rating": null,
           "win_pct": 60.0,
           "wins": 24
@@ -17690,11 +17693,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 3.06,
           "games_played": 39,
           "losses": 3,
-          "off_rating": null,
-          "ovr_rating": 4.35,
+          "off_rating": 2.5,
+          "ovr_rating": 5.56,
           "sos_rating": null,
           "win_pct": 92.31,
           "wins": 36
@@ -17820,11 +17823,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.52,
           "games_played": 29,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.47,
+          "off_rating": -0.34,
+          "ovr_rating": -0.86,
           "sos_rating": null,
           "win_pct": 46.88,
           "wins": 15
@@ -17949,11 +17952,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.53,
           "games_played": 26,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.65,
+          "off_rating": 1.49,
+          "ovr_rating": 3.03,
           "sos_rating": null,
           "win_pct": 59.26,
           "wins": 16
@@ -18051,11 +18054,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.87,
           "games_played": 30,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.13,
+          "off_rating": 0.7,
+          "ovr_rating": 1.56,
           "sos_rating": null,
           "win_pct": 52.94,
           "wins": 18
@@ -18152,11 +18155,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -3.18,
           "games_played": 23,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -4.75,
+          "off_rating": -3.21,
+          "ovr_rating": -6.39,
           "sos_rating": null,
           "win_pct": 26.09,
           "wins": 6
@@ -18253,11 +18256,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.22,
           "games_played": 25,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.78,
+          "off_rating": 1.06,
+          "ovr_rating": 2.28,
           "sos_rating": null,
           "win_pct": 65.38,
           "wins": 17
@@ -18368,11 +18371,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -0.08,
           "games_played": 31,
           "losses": 26,
-          "off_rating": null,
-          "ovr_rating": 0.3,
+          "off_rating": -0.1,
+          "ovr_rating": -0.18,
           "sos_rating": null,
           "win_pct": 15.63,
           "wins": 5
@@ -18483,11 +18486,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.28,
           "games_played": 37,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.14,
+          "off_rating": 1.32,
+          "ovr_rating": 2.59,
           "sos_rating": null,
           "win_pct": 69.23,
           "wins": 27
@@ -18570,11 +18573,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.74,
           "games_played": 26,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -3.14,
+          "off_rating": -1.77,
+          "ovr_rating": -3.51,
           "sos_rating": null,
           "win_pct": 23.08,
           "wins": 6
@@ -18657,11 +18660,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.56,
           "games_played": 37,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.83,
+          "off_rating": 0.64,
+          "ovr_rating": 1.2,
           "sos_rating": null,
           "win_pct": 59.46,
           "wins": 22
@@ -18815,11 +18818,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.79,
           "games_played": 34,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 3.33,
+          "off_rating": 1.67,
+          "ovr_rating": 3.47,
           "sos_rating": null,
           "win_pct": 55.88,
           "wins": 19
@@ -18940,11 +18943,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.8,
           "games_played": 30,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -1.36,
+          "off_rating": -0.79,
+          "ovr_rating": -1.6,
           "sos_rating": null,
           "win_pct": 21.21,
           "wins": 7
@@ -19013,11 +19016,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.18,
           "games_played": 18,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -2.4,
+          "off_rating": -1.76,
+          "ovr_rating": -3.95,
           "sos_rating": null,
           "win_pct": 27.78,
           "wins": 5
@@ -19086,11 +19089,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.43,
           "games_played": 17,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -1.62,
+          "off_rating": -1.7,
+          "ovr_rating": -4.13,
           "sos_rating": null,
           "win_pct": 52.94,
           "wins": 9
@@ -19131,11 +19134,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.8,
           "games_played": 21,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -4.75,
+          "off_rating": -3.12,
+          "ovr_rating": -5.93,
           "sos_rating": null,
           "win_pct": 9.52,
           "wins": 2
@@ -19246,11 +19249,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.52,
           "games_played": 19,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": -0.13,
+          "off_rating": -0.15,
+          "ovr_rating": -0.67,
           "sos_rating": null,
           "win_pct": 52.63,
           "wins": 10
@@ -19361,11 +19364,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.86,
           "games_played": 32,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.85,
+          "off_rating": 1.68,
+          "ovr_rating": 3.54,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 21
@@ -19476,11 +19479,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.32,
           "games_played": 30,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.13,
+          "off_rating": -0.05,
+          "ovr_rating": -0.37,
           "sos_rating": null,
           "win_pct": 37.5,
           "wins": 12
@@ -19592,11 +19595,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.18,
           "games_played": 32,
           "losses": 26,
-          "off_rating": null,
-          "ovr_rating": -3.15,
+          "off_rating": -2.4,
+          "ovr_rating": -4.58,
           "sos_rating": null,
           "win_pct": 17.65,
           "wins": 6
@@ -19658,11 +19661,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.77,
           "games_played": 26,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.93,
+          "off_rating": -1.54,
+          "ovr_rating": -3.3,
           "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
@@ -19835,11 +19838,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.62,
           "games_played": 27,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.85,
+          "off_rating": 0.59,
+          "ovr_rating": 1.21,
           "sos_rating": null,
           "win_pct": 32.14,
           "wins": 9
@@ -19922,11 +19925,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.6,
           "games_played": 32,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.3,
+          "off_rating": 0.41,
+          "ovr_rating": 1.0,
           "sos_rating": null,
           "win_pct": 73.53,
           "wins": 25
@@ -19981,9 +19984,9 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
-          "off_rating": null,
-          "ovr_rating": 0.28,
+          "def_rating": -0.4,
+          "off_rating": -0.38,
+          "ovr_rating": -0.78,
           "sos_rating": null
         }
       }
@@ -20092,11 +20095,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 3.41,
           "games_played": 41,
           "losses": 1,
-          "off_rating": null,
-          "ovr_rating": 5.39,
+          "off_rating": 3.21,
+          "ovr_rating": 6.62,
           "sos_rating": null,
           "win_pct": 97.56,
           "wins": 40
@@ -20151,11 +20154,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.9,
           "games_played": 23,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -2.39,
+          "off_rating": -1.5,
+          "ovr_rating": -3.39,
           "sos_rating": null,
           "win_pct": 34.78,
           "wins": 8
@@ -20238,11 +20241,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.64,
           "games_played": 32,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 1.22,
+          "off_rating": 0.42,
+          "ovr_rating": 1.06,
           "sos_rating": null,
           "win_pct": 62.86,
           "wins": 22
@@ -20334,11 +20337,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.53,
           "games_played": 20,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -2.71,
+          "off_rating": -2.35,
+          "ovr_rating": -4.88,
           "sos_rating": null,
           "win_pct": 20.0,
           "wins": 4
@@ -20421,11 +20424,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.32,
           "games_played": 26,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -1.26,
+          "off_rating": -1.39,
+          "ovr_rating": -2.7,
           "sos_rating": null,
           "win_pct": 21.43,
           "wins": 6
@@ -20508,11 +20511,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.79,
           "games_played": 32,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 1.61,
+          "off_rating": 0.55,
+          "ovr_rating": 1.34,
           "sos_rating": null,
           "win_pct": 76.47,
           "wins": 26
@@ -20623,11 +20626,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.58,
           "games_played": 30,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 1.19,
+          "off_rating": 0.39,
+          "ovr_rating": 0.97,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 11
@@ -20738,11 +20741,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.02,
           "games_played": 33,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": 1.47,
+          "off_rating": 1.1,
+          "ovr_rating": 2.12,
           "sos_rating": null,
           "win_pct": 24.24,
           "wins": 8
@@ -20853,11 +20856,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.67,
           "games_played": 38,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 4.49,
+          "off_rating": 2.87,
+          "ovr_rating": 5.54,
           "sos_rating": null,
           "win_pct": 78.95,
           "wins": 30
@@ -20968,11 +20971,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.83,
           "games_played": 31,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 4.66,
+          "off_rating": 2.77,
+          "ovr_rating": 5.6,
           "sos_rating": null,
           "win_pct": 80.65,
           "wins": 25
@@ -21027,11 +21030,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.47,
           "games_played": 26,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": -4.37,
+          "off_rating": -3.64,
+          "ovr_rating": -7.11,
           "sos_rating": null,
           "win_pct": 3.7,
           "wins": 1
@@ -21086,11 +21089,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 1.12,
           "games_played": 35,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.85,
+          "off_rating": 1.4,
+          "ovr_rating": 2.52,
           "sos_rating": null,
           "win_pct": 72.97,
           "wins": 27
@@ -21145,11 +21148,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.75,
           "games_played": 34,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -1.47,
+          "off_rating": -1.06,
+          "ovr_rating": -1.81,
           "sos_rating": null,
           "win_pct": 28.95,
           "wins": 11
@@ -21232,11 +21235,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.92,
           "games_played": 31,
           "losses": 28,
-          "off_rating": null,
-          "ovr_rating": -2.23,
+          "off_rating": -1.61,
+          "ovr_rating": -3.53,
           "sos_rating": null,
           "win_pct": 9.68,
           "wins": 3
@@ -21300,11 +21303,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.82,
           "games_played": 28,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -0.21,
+          "off_rating": 0.12,
+          "ovr_rating": -0.71,
           "sos_rating": null,
           "win_pct": 64.29,
           "wins": 18
@@ -21429,11 +21432,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.47,
           "games_played": 26,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 2.6,
+          "off_rating": 1.66,
+          "ovr_rating": 3.13,
           "sos_rating": null,
           "win_pct": 40.74,
           "wins": 11
@@ -21516,11 +21519,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.08,
           "games_played": 31,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.85,
+          "off_rating": 0.93,
+          "ovr_rating": 2.01,
           "sos_rating": null,
           "win_pct": 65.71,
           "wins": 23
@@ -21645,11 +21648,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.87,
           "games_played": 32,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 3.56,
+          "off_rating": 2.34,
+          "ovr_rating": 4.21,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 16
@@ -21760,11 +21763,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.56,
           "games_played": 29,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": 2.76,
+          "off_rating": 1.81,
+          "ovr_rating": 3.37,
           "sos_rating": null,
           "win_pct": 53.33,
           "wins": 16
@@ -21819,11 +21822,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.09,
           "games_played": 31,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -0.32,
+          "off_rating": -0.27,
+          "ovr_rating": -0.36,
           "sos_rating": null,
           "win_pct": 38.89,
           "wins": 14
@@ -21892,11 +21895,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.07,
           "games_played": 26,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -1.79,
+          "off_rating": -1.13,
+          "ovr_rating": -2.19,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 13
@@ -21960,11 +21963,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.8,
           "games_played": 28,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.96,
+          "off_rating": -1.01,
+          "ovr_rating": -1.8,
           "sos_rating": null,
           "win_pct": 48.28,
           "wins": 14
@@ -22089,11 +22092,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.17,
           "games_played": 30,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.37,
+          "off_rating": 0.13,
+          "ovr_rating": -0.04,
           "sos_rating": null,
           "win_pct": 64.52,
           "wins": 20
@@ -22204,11 +22207,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.35,
           "games_played": 29,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 2.35,
+          "off_rating": 1.68,
+          "ovr_rating": 3.02,
           "sos_rating": null,
           "win_pct": 46.67,
           "wins": 14
@@ -22291,11 +22294,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.48,
           "games_played": 29,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.16,
+          "off_rating": 0.47,
+          "ovr_rating": 0.94,
           "sos_rating": null,
           "win_pct": 65.63,
           "wins": 21
@@ -22407,11 +22410,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.0,
           "games_played": 33,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -0.0,
+          "off_rating": -0.14,
+          "ovr_rating": -0.15,
           "sos_rating": null,
           "win_pct": 57.14,
           "wins": 20
@@ -22536,11 +22539,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.32,
           "games_played": 34,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.96,
+          "off_rating": 1.96,
+          "ovr_rating": 3.28,
           "sos_rating": null,
           "win_pct": 77.14,
           "wins": 27
@@ -22637,11 +22640,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.06,
           "games_played": 27,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.61,
+          "off_rating": 0.1,
+          "ovr_rating": 0.16,
           "sos_rating": null,
           "win_pct": 54.84,
           "wins": 17
@@ -22814,11 +22817,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.27,
           "games_played": 23,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.13,
+          "off_rating": -0.75,
+          "ovr_rating": -2.02,
           "sos_rating": null,
           "win_pct": 29.17,
           "wins": 7
@@ -22915,11 +22918,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.27,
           "games_played": 32,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -1.9,
+          "off_rating": -1.07,
+          "ovr_rating": -2.33,
           "sos_rating": null,
           "win_pct": 36.36,
           "wins": 12
@@ -23025,10 +23028,10 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.29,
           "games_played": 28,
           "losses": 20,
-          "off_rating": null,
+          "off_rating": 0.22,
           "ovr_rating": 0.51,
           "sos_rating": null,
           "win_pct": 25.81,
@@ -23135,11 +23138,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.22,
           "games_played": 30,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 1.78,
+          "off_rating": 1.14,
+          "ovr_rating": 2.37,
           "sos_rating": null,
           "win_pct": 35.48,
           "wins": 11
@@ -23166,11 +23169,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.11,
           "games_played": 16,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -4.17,
+          "off_rating": -3.34,
+          "ovr_rating": -6.46,
           "sos_rating": null,
           "win_pct": 0.0,
           "wins": 0
@@ -23454,11 +23457,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.02,
           "games_played": 30,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 0.12,
+          "off_rating": 0.36,
+          "ovr_rating": 0.35,
           "sos_rating": null,
           "win_pct": 68.75,
           "wins": 22
@@ -23527,11 +23530,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.13,
           "games_played": 33,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": -2.89,
+          "off_rating": -1.96,
+          "ovr_rating": -4.08,
           "sos_rating": null,
           "win_pct": 24.24,
           "wins": 8
@@ -23642,11 +23645,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.81,
           "games_played": 23,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": -1.24,
+          "off_rating": -0.98,
+          "ovr_rating": -1.78,
           "sos_rating": null,
           "win_pct": 70.83,
           "wins": 17
@@ -23915,11 +23918,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.15,
           "games_played": 27,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -0.06,
+          "off_rating": -0.1,
+          "ovr_rating": -0.25,
           "sos_rating": null,
           "win_pct": 46.67,
           "wins": 14
@@ -24036,11 +24039,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.57,
           "games_played": 18,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.69,
+          "off_rating": -2.53,
+          "ovr_rating": -5.1,
           "sos_rating": null,
           "win_pct": 0.0,
           "wins": 0
@@ -24151,11 +24154,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.45,
           "games_played": 36,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 4.22,
+          "off_rating": 2.6,
+          "ovr_rating": 5.05,
           "sos_rating": null,
           "win_pct": 52.78,
           "wins": 19
@@ -24266,11 +24269,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.39,
           "games_played": 25,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.73,
+          "off_rating": -1.24,
+          "ovr_rating": -2.63,
           "sos_rating": null,
           "win_pct": 16.0,
           "wins": 4
@@ -24381,11 +24384,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.43,
           "games_played": 38,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.76,
+          "off_rating": 1.42,
+          "ovr_rating": 2.85,
           "sos_rating": null,
           "win_pct": 70.0,
           "wins": 28
@@ -24496,11 +24499,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.84,
           "games_played": 36,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.0,
+          "off_rating": 0.81,
+          "ovr_rating": 1.65,
           "sos_rating": null,
           "win_pct": 72.22,
           "wins": 26
@@ -24579,11 +24582,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.94,
           "games_played": 27,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -1.81,
+          "off_rating": -1.9,
+          "ovr_rating": -3.84,
           "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
@@ -24624,11 +24627,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.1,
           "games_played": 21,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.09,
+          "off_rating": -2.01,
+          "ovr_rating": -4.11,
           "sos_rating": null,
           "win_pct": 13.04,
           "wins": 3
@@ -24683,11 +24686,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.99,
           "games_played": 18,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -2.93,
+          "off_rating": -1.91,
+          "ovr_rating": -3.9,
           "sos_rating": null,
           "win_pct": 42.11,
           "wins": 8
@@ -24756,11 +24759,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -2.51,
           "games_played": 23,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -3.11,
+          "off_rating": -2.05,
+          "ovr_rating": -4.56,
           "sos_rating": null,
           "win_pct": 41.67,
           "wins": 10
@@ -24871,11 +24874,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.44,
           "games_played": 23,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.78,
+          "off_rating": -0.36,
+          "ovr_rating": -0.8,
           "sos_rating": null,
           "win_pct": 32.0,
           "wins": 8
@@ -24923,11 +24926,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.7,
           "games_played": 32,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.46,
+          "off_rating": -2.79,
+          "ovr_rating": -5.48,
           "sos_rating": null,
           "win_pct": 43.75,
           "wins": 14
@@ -24968,11 +24971,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.39,
           "games_played": 33,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 0.75,
+          "off_rating": 0.68,
+          "ovr_rating": 1.07,
           "sos_rating": null,
           "win_pct": 66.67,
           "wins": 22
@@ -25159,11 +25162,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -0.02,
           "games_played": 21,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.17,
+          "off_rating": 0.21,
+          "ovr_rating": 0.19,
           "sos_rating": null,
           "win_pct": 27.27,
           "wins": 6
@@ -25294,11 +25297,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.41,
           "games_played": 25,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -0.75,
+          "off_rating": -0.05,
+          "ovr_rating": -0.46,
           "sos_rating": null,
           "win_pct": 68.0,
           "wins": 17
@@ -25409,11 +25412,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.09,
           "games_played": 21,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -2.66,
+          "off_rating": -1.85,
+          "ovr_rating": -3.94,
           "sos_rating": null,
           "win_pct": 9.52,
           "wins": 2
@@ -25468,11 +25471,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.98,
           "games_played": 22,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -4.44,
+          "off_rating": -3.06,
+          "ovr_rating": -6.05,
           "sos_rating": null,
           "win_pct": 18.18,
           "wins": 4
@@ -25569,11 +25572,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.56,
           "games_played": 36,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 1.09,
+          "off_rating": 0.64,
+          "ovr_rating": 1.2,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 18
@@ -25670,11 +25673,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.22,
           "games_played": 32,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.06,
+          "off_rating": 0.33,
+          "ovr_rating": 0.55,
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 20
@@ -25743,11 +25746,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.65,
           "games_played": 28,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -0.96,
+          "off_rating": -0.88,
+          "ovr_rating": -1.52,
           "sos_rating": null,
           "win_pct": 45.16,
           "wins": 14
@@ -25906,11 +25909,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.31,
           "games_played": 36,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.37,
+          "off_rating": 1.43,
+          "ovr_rating": 2.75,
           "sos_rating": null,
           "win_pct": 83.78,
           "wins": 31
@@ -26260,11 +26263,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.53,
           "games_played": 28,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.23,
+          "off_rating": 0.72,
+          "ovr_rating": 1.26,
           "sos_rating": null,
           "win_pct": 72.41,
           "wins": 21
@@ -26423,11 +26426,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.56,
           "games_played": 27,
           "losses": 24,
-          "off_rating": null,
-          "ovr_rating": -1.91,
+          "off_rating": -1.34,
+          "ovr_rating": -2.9,
           "sos_rating": null,
           "win_pct": 10.0,
           "wins": 3
@@ -26534,11 +26537,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.65,
           "games_played": 28,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 0.73,
+          "off_rating": -0.49,
+          "ovr_rating": -1.14,
           "sos_rating": null,
           "win_pct": 68.97,
           "wins": 20
@@ -26607,11 +26610,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.29,
           "games_played": 29,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 0.55,
+          "off_rating": 0.29,
+          "ovr_rating": 0.57,
           "sos_rating": null,
           "win_pct": 43.33,
           "wins": 13
@@ -26694,11 +26697,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.38,
           "games_played": 34,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 2.16,
+          "off_rating": 1.34,
+          "ovr_rating": 2.71,
           "sos_rating": null,
           "win_pct": 72.22,
           "wins": 26
@@ -26942,11 +26945,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -0.43,
           "games_played": 28,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -0.28,
+          "off_rating": -0.31,
+          "ovr_rating": -0.74,
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
@@ -26987,11 +26990,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.0,
           "games_played": 20,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.72,
+          "off_rating": 1.23,
+          "ovr_rating": 2.24,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 8
@@ -27074,11 +27077,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.08,
           "games_played": 34,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.2,
+          "off_rating": 1.08,
+          "ovr_rating": 2.17,
           "sos_rating": null,
           "win_pct": 75.0,
           "wins": 27
@@ -27147,11 +27150,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.42,
           "games_played": 24,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -2.92,
+          "off_rating": -2.44,
+          "ovr_rating": -4.86,
           "sos_rating": null,
           "win_pct": 12.0,
           "wins": 3
@@ -27243,11 +27246,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.01,
           "games_played": 33,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 1.84,
+          "off_rating": 1.36,
+          "ovr_rating": 2.37,
           "sos_rating": null,
           "win_pct": 77.78,
           "wins": 28
@@ -27364,11 +27367,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.08,
           "games_played": 27,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.06,
+          "off_rating": -0.98,
+          "ovr_rating": -2.07,
           "sos_rating": null,
           "win_pct": 20.69,
           "wins": 6
@@ -27458,7 +27461,10 @@
           "games_played": 29,
           "losses": 10,
           "win_pct": 55.88,
-          "wins": 19
+          "wins": 19,
+          "ovr_rating": -0.19,
+          "off_rating": -0.11,
+          "def_rating": -0.08
         },
         "spring_softball": {
           "classification": 1,
@@ -27604,11 +27610,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.83,
           "games_played": 16,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -4.0,
+          "off_rating": -2.89,
+          "ovr_rating": -5.72,
           "sos_rating": null,
           "win_pct": 5.88,
           "wins": 1
@@ -27719,11 +27725,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.73,
           "games_played": 39,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 4.71,
+          "off_rating": 2.74,
+          "ovr_rating": 5.47,
           "sos_rating": null,
           "win_pct": 74.36,
           "wins": 29
@@ -27835,11 +27841,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -4.01,
           "games_played": 14,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -5.3,
+          "off_rating": -3.63,
+          "ovr_rating": -7.64,
           "sos_rating": null,
           "win_pct": 14.29,
           "wins": 2
@@ -27993,11 +27999,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.58,
           "games_played": 29,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.31,
+          "off_rating": -0.55,
+          "ovr_rating": -1.13,
           "sos_rating": null,
           "win_pct": 56.25,
           "wins": 18
@@ -28108,11 +28114,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.37,
           "games_played": 30,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 0.78,
+          "off_rating": 0.74,
+          "ovr_rating": 1.11,
           "sos_rating": null,
           "win_pct": 53.33,
           "wins": 16
@@ -28285,11 +28291,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.04,
           "games_played": 23,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.26,
+          "off_rating": 0.13,
+          "ovr_rating": 0.17,
           "sos_rating": null,
           "win_pct": 21.74,
           "wins": 5
@@ -28344,11 +28350,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.23,
           "games_played": 18,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -2.3,
+          "off_rating": -1.59,
+          "ovr_rating": -3.82,
           "sos_rating": null,
           "win_pct": 22.22,
           "wins": 4
@@ -28375,11 +28381,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.17,
           "games_played": 29,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -0.46,
+          "off_rating": -0.16,
+          "ovr_rating": -0.34,
           "sos_rating": null,
           "win_pct": 61.29,
           "wins": 19
@@ -28476,11 +28482,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.38,
           "games_played": 30,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": -2.36,
+          "off_rating": -2.02,
+          "ovr_rating": -4.41,
           "sos_rating": null,
           "win_pct": 16.67,
           "wins": 5
@@ -28591,11 +28597,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.91,
           "games_played": 35,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": 3.14,
+          "off_rating": 2.03,
+          "ovr_rating": 3.94,
           "sos_rating": null,
           "win_pct": 88.57,
           "wins": 31
@@ -28811,11 +28817,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -3.16,
           "games_played": 33,
           "losses": 28,
-          "off_rating": null,
-          "ovr_rating": -3.34,
+          "off_rating": -2.88,
+          "ovr_rating": -6.04,
           "sos_rating": null,
           "win_pct": 15.15,
           "wins": 5
@@ -28918,11 +28924,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.89,
           "games_played": 22,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -4.35,
+          "off_rating": -2.79,
+          "ovr_rating": -5.68,
           "sos_rating": null,
           "win_pct": 13.64,
           "wins": 3
@@ -29014,11 +29020,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.68,
           "games_played": 32,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 1.32,
+          "off_rating": 0.32,
+          "ovr_rating": 1.0,
           "sos_rating": null,
           "win_pct": 74.29,
           "wins": 26
@@ -29129,11 +29135,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.46,
           "games_played": 30,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 0.31,
+          "off_rating": 0.15,
+          "ovr_rating": 0.61,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 14
@@ -29197,11 +29203,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.18,
           "games_played": 30,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 0.27,
+          "off_rating": -0.16,
+          "ovr_rating": -0.34,
           "sos_rating": null,
           "win_pct": 65.63,
           "wins": 21
@@ -29422,11 +29428,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.34,
           "games_played": 32,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 2.03,
+          "off_rating": 1.23,
+          "ovr_rating": 2.57,
           "sos_rating": null,
           "win_pct": 57.14,
           "wins": 20
@@ -29481,11 +29487,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.77,
           "games_played": 38,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": 1.84,
+          "off_rating": 1.12,
+          "ovr_rating": 1.88,
           "sos_rating": null,
           "win_pct": 39.47,
           "wins": 15
@@ -29526,11 +29532,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.0,
           "games_played": 29,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 0.37,
+          "off_rating": 0.34,
+          "ovr_rating": 0.35,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 12
@@ -29689,11 +29695,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 2.07,
           "games_played": 37,
           "losses": 1,
-          "off_rating": null,
-          "ovr_rating": 3.34,
+          "off_rating": 1.84,
+          "ovr_rating": 3.91,
           "sos_rating": null,
           "win_pct": 94.74,
           "wins": 36
@@ -29804,11 +29810,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.64,
           "games_played": 18,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 1.06,
+          "off_rating": 0.56,
+          "ovr_rating": 1.19,
           "sos_rating": null,
           "win_pct": 44.44,
           "wins": 8
@@ -29863,11 +29869,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.48,
           "games_played": 31,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 0.83,
+          "off_rating": 0.57,
+          "ovr_rating": 1.05,
           "sos_rating": null,
           "win_pct": 75.0,
           "wins": 24
@@ -29992,11 +29998,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.53,
           "games_played": 32,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 2.58,
+          "off_rating": 1.7,
+          "ovr_rating": 3.23,
           "sos_rating": null,
           "win_pct": 45.45,
           "wins": 15
@@ -30107,11 +30113,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.01,
           "games_played": 38,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 1.67,
+          "off_rating": 0.84,
+          "ovr_rating": 1.85,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 19
@@ -30152,11 +30158,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.4,
           "games_played": 31,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.91,
+          "off_rating": -0.35,
+          "ovr_rating": -0.74,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 16
@@ -30281,11 +30287,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.73,
           "games_played": 26,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 1.13,
+          "off_rating": 0.8,
+          "ovr_rating": 1.53,
           "sos_rating": null,
           "win_pct": 61.54,
           "wins": 16
@@ -30335,11 +30341,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.19,
           "games_played": 19,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -3.87,
+          "off_rating": -3.28,
+          "ovr_rating": -6.47,
           "sos_rating": null,
           "win_pct": 5.26,
           "wins": 1
@@ -30464,11 +30470,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.93,
           "games_played": 27,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.9,
+          "off_rating": 0.99,
+          "ovr_rating": 1.92,
           "sos_rating": null,
           "win_pct": 68.97,
           "wins": 20
@@ -30566,11 +30572,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.12,
           "games_played": 29,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.56,
+          "off_rating": -0.01,
+          "ovr_rating": 0.11,
           "sos_rating": null,
           "win_pct": 54.29,
           "wins": 19
@@ -30639,11 +30645,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.9,
           "games_played": 29,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -2.41,
+          "off_rating": -2.0,
+          "ovr_rating": -3.9,
           "sos_rating": null,
           "win_pct": 41.38,
           "wins": 12
@@ -30754,11 +30760,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.27,
           "games_played": 34,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.22,
+          "off_rating": -0.01,
+          "ovr_rating": 0.26,
           "sos_rating": null,
           "win_pct": 44.44,
           "wins": 16
@@ -30869,11 +30875,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.84,
           "games_played": 35,
           "losses": 3,
-          "off_rating": null,
-          "ovr_rating": 4.66,
+          "off_rating": 2.56,
+          "ovr_rating": 5.4,
           "sos_rating": null,
           "win_pct": 91.43,
           "wins": 32
@@ -30984,11 +30990,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.22,
           "games_played": 26,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.19,
+          "off_rating": 1.17,
+          "ovr_rating": 2.39,
           "sos_rating": null,
           "win_pct": 67.86,
           "wins": 19
@@ -31241,11 +31247,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.93,
           "games_played": 24,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 3.71,
+          "off_rating": 2.36,
+          "ovr_rating": 4.28,
           "sos_rating": null,
           "win_pct": 79.17,
           "wins": 19
@@ -31356,11 +31362,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.31,
           "games_played": 33,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 3.81,
+          "off_rating": 2.23,
+          "ovr_rating": 4.54,
           "sos_rating": null,
           "win_pct": 69.7,
           "wins": 23
@@ -31471,11 +31477,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.37,
           "games_played": 25,
           "losses": 25,
-          "off_rating": null,
-          "ovr_rating": -1.83,
+          "off_rating": -1.67,
+          "ovr_rating": -3.04,
           "sos_rating": null,
           "win_pct": 0.0,
           "wins": 0
@@ -31586,11 +31592,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.54,
           "games_played": 34,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.54,
+          "off_rating": 1.8,
+          "ovr_rating": 3.34,
           "sos_rating": null,
           "win_pct": 63.89,
           "wins": 23
@@ -31701,11 +31707,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.24,
           "games_played": 26,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.29,
+          "off_rating": 0.14,
+          "ovr_rating": 0.39,
           "sos_rating": null,
           "win_pct": 53.85,
           "wins": 14
@@ -31816,11 +31822,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.98,
           "games_played": 22,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.26,
+          "off_rating": 0.88,
+          "ovr_rating": 1.86,
           "sos_rating": null,
           "win_pct": 62.5,
           "wins": 15
@@ -31931,11 +31937,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.87,
           "games_played": 27,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.92,
+          "off_rating": 1.86,
+          "ovr_rating": 3.74,
           "sos_rating": null,
           "win_pct": 60.71,
           "wins": 17
@@ -32004,11 +32010,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.09,
           "games_played": 24,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -2.15,
+          "off_rating": -1.86,
+          "ovr_rating": -3.95,
           "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
@@ -32185,11 +32191,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.5,
           "games_played": 29,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 0.53,
+          "off_rating": 0.43,
+          "ovr_rating": 0.92,
           "sos_rating": null,
           "win_pct": 44.83,
           "wins": 13
@@ -32286,11 +32292,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.36,
           "games_played": 28,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.65,
+          "off_rating": 1.36,
+          "ovr_rating": 2.72,
           "sos_rating": null,
           "win_pct": 65.63,
           "wins": 21
@@ -32373,11 +32379,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.78,
           "games_played": 19,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -3.07,
+          "off_rating": -2.71,
+          "ovr_rating": -5.49,
           "sos_rating": null,
           "win_pct": 10.53,
           "wins": 2
@@ -32488,11 +32494,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.22,
           "games_played": 28,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 0.47,
+          "off_rating": 0.69,
+          "ovr_rating": 0.9,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 10
@@ -32561,11 +32567,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.1,
           "games_played": 31,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.29,
+          "off_rating": 0.15,
+          "ovr_rating": 0.25,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 21
@@ -32696,11 +32702,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.42,
           "games_played": 28,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -1.83,
+          "off_rating": -1.42,
+          "ovr_rating": -2.84,
           "sos_rating": null,
           "win_pct": 43.33,
           "wins": 13
@@ -32825,11 +32831,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.05,
           "games_played": 29,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.16,
+          "off_rating": 1.44,
+          "ovr_rating": 2.48,
           "sos_rating": null,
           "win_pct": 58.06,
           "wins": 18
@@ -32912,11 +32918,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.02,
           "games_played": 29,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 0.7,
+          "off_rating": 0.11,
+          "ovr_rating": 0.13,
           "sos_rating": null,
           "win_pct": 64.52,
           "wins": 20
@@ -33027,11 +33033,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.84,
           "games_played": 32,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 1.54,
+          "off_rating": 0.94,
+          "ovr_rating": 1.78,
           "sos_rating": null,
           "win_pct": 42.86,
           "wins": 15
@@ -33096,11 +33102,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.98,
           "games_played": 30,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -1.56,
+          "off_rating": -1.04,
+          "ovr_rating": -2.03,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 11
@@ -33301,11 +33307,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.16,
           "games_played": 27,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -0.11,
+          "off_rating": -0.11,
+          "ovr_rating": 0.05,
           "sos_rating": null,
           "win_pct": 29.03,
           "wins": 9
@@ -33374,11 +33380,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.02,
           "games_played": 38,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.42,
+          "off_rating": 0.96,
+          "ovr_rating": 1.98,
           "sos_rating": null,
           "win_pct": 81.58,
           "wins": 31
@@ -33461,11 +33467,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.96,
           "games_played": 33,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.83,
+          "off_rating": 1.76,
+          "ovr_rating": 3.72,
           "sos_rating": null,
           "win_pct": 80.0,
           "wins": 28
@@ -33534,11 +33540,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -3.12,
           "games_played": 18,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -3.86,
+          "off_rating": -2.56,
+          "ovr_rating": -5.68,
           "sos_rating": null,
           "win_pct": 21.05,
           "wins": 4
@@ -33716,11 +33722,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.88,
           "games_played": 19,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -1.51,
+          "off_rating": -1.03,
+          "ovr_rating": -1.91,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 11
@@ -33837,11 +33843,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.64,
           "games_played": 28,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -2.29,
+          "off_rating": -1.65,
+          "ovr_rating": -3.29,
           "sos_rating": null,
           "win_pct": 27.59,
           "wins": 8
@@ -33986,11 +33992,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.19,
           "games_played": 27,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.58,
+          "off_rating": -0.31,
+          "ovr_rating": -0.5,
           "sos_rating": null,
           "win_pct": 57.14,
           "wins": 16
@@ -34115,11 +34121,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.0,
           "games_played": 36,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 3.7,
+          "off_rating": 2.5,
+          "ovr_rating": 4.49,
           "sos_rating": null,
           "win_pct": 75.0,
           "wins": 27
@@ -34230,11 +34236,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.05,
           "games_played": 24,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.46,
+          "off_rating": 0.29,
+          "ovr_rating": 0.34,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 12
@@ -34345,11 +34351,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.71,
           "games_played": 25,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -2.21,
+          "off_rating": -1.68,
+          "ovr_rating": -3.39,
           "sos_rating": null,
           "win_pct": 15.38,
           "wins": 4
@@ -34418,11 +34424,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.73,
           "games_played": 33,
           "losses": 26,
-          "off_rating": null,
-          "ovr_rating": -0.8,
+          "off_rating": -0.62,
+          "ovr_rating": -1.35,
           "sos_rating": null,
           "win_pct": 18.92,
           "wins": 7
@@ -34547,11 +34553,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.2,
           "games_played": 28,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.34,
+          "off_rating": 1.32,
+          "ovr_rating": 2.52,
           "sos_rating": null,
           "win_pct": 58.62,
           "wins": 17
@@ -34587,11 +34593,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.07,
           "games_played": 21,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -2.72,
+          "off_rating": -1.93,
+          "ovr_rating": -4.0,
           "sos_rating": null,
           "win_pct": 40.91,
           "wins": 9
@@ -34694,11 +34700,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.36,
           "games_played": 19,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -2.17,
+          "off_rating": -0.99,
+          "ovr_rating": -2.35,
           "sos_rating": null,
           "win_pct": 26.32,
           "wins": 5
@@ -34795,11 +34801,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.72,
           "games_played": 21,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -1.59,
+          "off_rating": -1.42,
+          "ovr_rating": -3.14,
           "sos_rating": null,
           "win_pct": 23.81,
           "wins": 5
@@ -34840,11 +34846,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.17,
           "games_played": 33,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.42,
+          "off_rating": -0.0,
+          "ovr_rating": -0.17,
           "sos_rating": null,
           "win_pct": 60.0,
           "wins": 21
@@ -34955,11 +34961,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -1.23,
           "games_played": 30,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.84,
+          "off_rating": -1.29,
+          "ovr_rating": -2.53,
           "sos_rating": null,
           "win_pct": 27.27,
           "wins": 9
@@ -35014,11 +35020,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -2.87,
           "games_played": 19,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -3.63,
+          "off_rating": -2.59,
+          "ovr_rating": -5.46,
           "sos_rating": null,
           "win_pct": 10.53,
           "wins": 2
@@ -35129,11 +35135,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.91,
           "games_played": 37,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 3.18,
+          "off_rating": 1.59,
+          "ovr_rating": 3.5,
           "sos_rating": null,
           "win_pct": 51.35,
           "wins": 19
@@ -35197,11 +35203,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 0.03,
           "games_played": 34,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 1.15,
+          "off_rating": 0.02,
+          "ovr_rating": 0.04,
           "sos_rating": null,
           "win_pct": 75.68,
           "wins": 28
@@ -35374,11 +35380,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.8,
           "games_played": 38,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.99,
+          "off_rating": 1.95,
+          "ovr_rating": 3.75,
           "sos_rating": null,
           "win_pct": 71.79,
           "wins": 28
@@ -35489,11 +35495,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.37,
           "games_played": 24,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 0.71,
+          "off_rating": 0.05,
+          "ovr_rating": 0.42,
           "sos_rating": null,
           "win_pct": 35.71,
           "wins": 10
@@ -35683,11 +35689,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -1.67,
           "games_played": 24,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -2.15,
+          "off_rating": -2.2,
+          "ovr_rating": -3.87,
           "sos_rating": null,
           "win_pct": 4.17,
           "wins": 1
@@ -35857,11 +35863,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.64,
           "games_played": 25,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.23,
+          "off_rating": -0.18,
+          "ovr_rating": -0.82,
           "sos_rating": null,
           "win_pct": 53.85,
           "wins": 14
@@ -35930,11 +35936,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.67,
           "games_played": 33,
           "losses": 22,
-          "off_rating": null,
-          "ovr_rating": -0.65,
+          "off_rating": -0.38,
+          "ovr_rating": -1.05,
           "sos_rating": null,
           "win_pct": 32.35,
           "wins": 11
@@ -36084,11 +36090,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.28,
           "games_played": 26,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 0.14,
+          "off_rating": -0.2,
+          "ovr_rating": -0.47,
           "sos_rating": null,
           "win_pct": 53.33,
           "wins": 16
@@ -36171,11 +36177,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.06,
           "games_played": 26,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -0.21,
+          "off_rating": -0.23,
+          "ovr_rating": -0.29,
           "sos_rating": null,
           "win_pct": 32.26,
           "wins": 10
@@ -36300,11 +36306,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.3,
           "games_played": 28,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 2.04,
+          "off_rating": 0.62,
+          "ovr_rating": 0.92,
           "sos_rating": null,
           "win_pct": 62.07,
           "wins": 18
@@ -36405,11 +36411,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.81,
           "games_played": 39,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": 1.01,
+          "off_rating": 0.78,
+          "ovr_rating": 1.59,
           "sos_rating": null,
           "win_pct": 46.15,
           "wins": 18
@@ -36450,11 +36456,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.21,
           "games_played": 28,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": -0.33,
+          "off_rating": -0.48,
+          "ovr_rating": -0.69,
           "sos_rating": null,
           "win_pct": 55.88,
           "wins": 19
@@ -36861,11 +36867,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.08,
           "games_played": 31,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 2.12,
+          "off_rating": 1.78,
+          "ovr_rating": 2.87,
           "sos_rating": null,
           "win_pct": 66.67,
           "wins": 22
@@ -36920,11 +36926,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.89,
           "games_played": 30,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.65,
+          "off_rating": -0.62,
+          "ovr_rating": -1.51,
           "sos_rating": null,
           "win_pct": 38.71,
           "wins": 12
@@ -37021,11 +37027,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.59,
           "games_played": 28,
           "losses": 24,
-          "off_rating": null,
-          "ovr_rating": -1.83,
+          "off_rating": -0.71,
+          "ovr_rating": -1.3,
           "sos_rating": null,
           "win_pct": 13.79,
           "wins": 4
@@ -37125,11 +37131,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -2.54,
           "games_played": 25,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -3.53,
+          "off_rating": -2.22,
+          "ovr_rating": -4.76,
           "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
@@ -37212,11 +37218,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.66,
           "games_played": 26,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": -0.36,
+          "off_rating": -0.44,
+          "ovr_rating": -1.1,
           "sos_rating": null,
           "win_pct": 57.69,
           "wins": 15
@@ -37327,11 +37333,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.21,
           "games_played": 26,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.35,
+          "off_rating": 0.12,
+          "ovr_rating": -0.09,
           "sos_rating": null,
           "win_pct": 40.74,
           "wins": 11
@@ -37462,11 +37468,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.6,
           "games_played": 31,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 1.51,
+          "off_rating": 0.68,
+          "ovr_rating": 1.28,
           "sos_rating": null,
           "win_pct": 63.64,
           "wins": 21
@@ -37798,11 +37804,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.13,
           "games_played": 30,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.21,
+          "off_rating": -0.87,
+          "ovr_rating": -2.0,
           "sos_rating": null,
           "win_pct": 37.5,
           "wins": 12
@@ -37913,11 +37919,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.74,
           "games_played": 27,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.7,
+          "off_rating": -1.67,
+          "ovr_rating": -3.41,
           "sos_rating": null,
           "win_pct": 78.57,
           "wins": 22
@@ -38092,11 +38098,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.59,
           "games_played": 24,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": -1.3,
+          "off_rating": -1.61,
+          "ovr_rating": -3.2,
           "sos_rating": null,
           "win_pct": 38.46,
           "wins": 10
@@ -38219,11 +38225,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.9,
           "games_played": 29,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -1.29,
+          "off_rating": -0.52,
+          "ovr_rating": -1.42,
           "sos_rating": null,
           "win_pct": 31.03,
           "wins": 9
@@ -38484,11 +38490,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -2.69,
           "games_played": 21,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -2.81,
+          "off_rating": -2.49,
+          "ovr_rating": -5.18,
           "sos_rating": null,
           "win_pct": 27.27,
           "wins": 6
@@ -38599,11 +38605,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.03,
           "games_played": 30,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 0.2,
+          "off_rating": -0.01,
+          "ovr_rating": 0.02,
           "sos_rating": null,
           "win_pct": 35.48,
           "wins": 11
@@ -38723,11 +38729,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.32,
           "games_played": 31,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -2.08,
+          "off_rating": -1.31,
+          "ovr_rating": -2.63,
           "sos_rating": null,
           "win_pct": 35.29,
           "wins": 12
@@ -38796,11 +38802,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.74,
           "games_played": 25,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.88,
+          "off_rating": 1.38,
+          "ovr_rating": 3.12,
           "sos_rating": null,
           "win_pct": 25.93,
           "wins": 7
@@ -38869,11 +38875,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.87,
           "games_played": 32,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 1.55,
+          "off_rating": 0.67,
+          "ovr_rating": 1.53,
           "sos_rating": null,
           "win_pct": 71.43,
           "wins": 25
@@ -38984,11 +38990,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.46,
           "games_played": 27,
           "losses": 24,
-          "off_rating": null,
-          "ovr_rating": -0.65,
+          "off_rating": -1.1,
+          "ovr_rating": -2.56,
           "sos_rating": null,
           "win_pct": 11.11,
           "wins": 3
@@ -39113,11 +39119,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.18,
           "games_played": 23,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.07,
+          "off_rating": -0.04,
+          "ovr_rating": -0.22,
           "sos_rating": null,
           "win_pct": 30.77,
           "wins": 8
@@ -39224,11 +39230,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.06,
           "games_played": 21,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": 0.24,
+          "off_rating": 0.43,
+          "ovr_rating": 0.38,
           "sos_rating": null,
           "win_pct": 38.1,
           "wins": 8
@@ -39325,11 +39331,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.51,
           "games_played": 29,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 1.06,
+          "off_rating": -0.39,
+          "ovr_rating": -0.9,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 15
@@ -39440,11 +39446,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 2.25,
           "games_played": 36,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 3.74,
+          "off_rating": 2.31,
+          "ovr_rating": 4.56,
           "sos_rating": null,
           "win_pct": 72.22,
           "wins": 26
@@ -39714,11 +39720,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -1.28,
           "games_played": 21,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.45,
+          "off_rating": -1.68,
+          "ovr_rating": -2.96,
           "sos_rating": null,
           "win_pct": 13.64,
           "wins": 3
@@ -39796,11 +39802,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.26,
           "games_played": 27,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 0.82,
+          "off_rating": -0.22,
+          "ovr_rating": -0.48,
           "sos_rating": null,
           "win_pct": 71.43,
           "wins": 20
@@ -39855,11 +39861,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.86,
           "games_played": 31,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": 3.33,
+          "off_rating": 1.97,
+          "ovr_rating": 3.82,
           "sos_rating": null,
           "win_pct": 65.63,
           "wins": 21
@@ -40014,11 +40020,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 2.64,
           "games_played": 39,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 4.31,
+          "off_rating": 2.61,
+          "ovr_rating": 5.25,
           "sos_rating": null,
           "win_pct": 82.05,
           "wins": 32
@@ -40096,11 +40102,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.54,
           "games_played": 30,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -0.31,
+          "off_rating": -0.58,
+          "ovr_rating": -1.12,
           "sos_rating": null,
           "win_pct": 39.39,
           "wins": 13
@@ -40155,11 +40161,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.76,
           "games_played": 27,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.99,
+          "off_rating": -0.4,
+          "ovr_rating": -1.16,
           "sos_rating": null,
           "win_pct": 41.38,
           "wins": 12
@@ -40270,11 +40276,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 2.59,
           "games_played": 32,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 4.25,
+          "off_rating": 2.5,
+          "ovr_rating": 5.09,
           "sos_rating": null,
           "win_pct": 81.25,
           "wins": 26
@@ -40385,11 +40391,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.09,
           "games_played": 34,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 2.11,
+          "off_rating": 1.11,
+          "ovr_rating": 2.21,
           "sos_rating": null,
           "win_pct": 48.57,
           "wins": 17
@@ -40444,11 +40450,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 2.4,
           "games_played": 27,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 3.1,
+          "off_rating": 1.77,
+          "ovr_rating": 4.17,
           "sos_rating": null,
           "win_pct": 59.26,
           "wins": 16
@@ -40531,11 +40537,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.71,
           "games_played": 34,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 2.63,
+          "off_rating": 1.68,
+          "ovr_rating": 3.39,
           "sos_rating": null,
           "win_pct": 77.78,
           "wins": 28
@@ -40646,11 +40652,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.73,
           "games_played": 34,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 3.14,
+          "off_rating": 2.02,
+          "ovr_rating": 3.76,
           "sos_rating": null,
           "win_pct": 44.12,
           "wins": 15
@@ -40790,11 +40796,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 1.1,
           "games_played": 31,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 1.83,
+          "off_rating": 1.22,
+          "ovr_rating": 2.32,
           "sos_rating": null,
           "win_pct": 59.38,
           "wins": 19
@@ -40905,11 +40911,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.96,
           "games_played": 23,
           "losses": 4,
-          "off_rating": null,
-          "ovr_rating": -0.98,
+          "off_rating": -0.63,
+          "ovr_rating": -1.58,
           "sos_rating": null,
           "win_pct": 82.61,
           "wins": 19
@@ -41089,11 +41095,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.8,
           "games_played": 25,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -1.28,
+          "off_rating": -0.57,
+          "ovr_rating": -1.37,
           "sos_rating": null,
           "win_pct": 17.86,
           "wins": 5
@@ -41555,11 +41561,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.24,
           "games_played": 26,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": -0.21,
+          "off_rating": -0.87,
+          "ovr_rating": -2.11,
           "sos_rating": null,
           "win_pct": 50.0,
           "wins": 13
@@ -41684,11 +41690,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.08,
           "games_played": 31,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": 0.55,
+          "off_rating": 0.06,
+          "ovr_rating": 0.13,
           "sos_rating": null,
           "win_pct": 42.42,
           "wins": 14
@@ -41772,11 +41778,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.77,
           "games_played": 30,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": -1.74,
+          "off_rating": -1.51,
+          "ovr_rating": -3.28,
           "sos_rating": null,
           "win_pct": 36.67,
           "wins": 11
@@ -41932,11 +41938,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.82,
           "games_played": 29,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -1.19,
+          "off_rating": -0.69,
+          "ovr_rating": -1.51,
           "sos_rating": null,
           "win_pct": 41.38,
           "wins": 12
@@ -42005,11 +42011,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.7,
           "games_played": 27,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": -1.22,
+          "off_rating": -0.94,
+          "ovr_rating": -1.65,
           "sos_rating": null,
           "win_pct": 60.0,
           "wins": 18
@@ -42120,11 +42126,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.77,
           "games_played": 31,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.81,
+          "off_rating": 1.8,
+          "ovr_rating": 3.57,
           "sos_rating": null,
           "win_pct": 72.73,
           "wins": 24
@@ -42256,11 +42262,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.33,
           "games_played": 28,
           "losses": 9,
-          "off_rating": null,
-          "ovr_rating": 0.67,
+          "off_rating": 0.08,
+          "ovr_rating": 0.41,
           "sos_rating": null,
           "win_pct": 59.38,
           "wins": 19
@@ -42357,11 +42363,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.48,
           "games_played": 30,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -1.28,
+          "off_rating": -1.43,
+          "ovr_rating": -2.91,
           "sos_rating": null,
           "win_pct": 29.41,
           "wins": 10
@@ -42520,11 +42526,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.85,
           "games_played": 27,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 1.23,
+          "off_rating": 0.87,
+          "ovr_rating": 1.72,
           "sos_rating": null,
           "win_pct": 35.48,
           "wins": 11
@@ -42845,11 +42851,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.83,
           "games_played": 29,
           "losses": 22,
-          "off_rating": null,
-          "ovr_rating": 0.32,
+          "off_rating": -0.92,
+          "ovr_rating": -1.75,
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
@@ -42962,11 +42968,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.8,
           "games_played": 32,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": -0.44,
+          "off_rating": -0.74,
+          "ovr_rating": -1.54,
           "sos_rating": null,
           "win_pct": 60.61,
           "wins": 20
@@ -43077,11 +43083,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -1.89,
           "games_played": 28,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -2.95,
+          "off_rating": -2.14,
+          "ovr_rating": -4.03,
           "sos_rating": null,
           "win_pct": 32.26,
           "wins": 10
@@ -43136,11 +43142,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.73,
           "games_played": 20,
           "losses": 6,
-          "off_rating": null,
-          "ovr_rating": 3.51,
+          "off_rating": 2.66,
+          "ovr_rating": 4.4,
           "sos_rating": null,
           "win_pct": 70.0,
           "wins": 14
@@ -43209,11 +43215,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 1.48,
           "games_played": 35,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.45,
+          "off_rating": 1.45,
+          "ovr_rating": 2.92,
           "sos_rating": null,
           "win_pct": 77.78,
           "wins": 28
@@ -43282,11 +43288,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -0.35,
           "games_played": 20,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": -0.6,
+          "off_rating": -0.39,
+          "ovr_rating": -0.74,
           "sos_rating": null,
           "win_pct": 57.14,
           "wins": 12
@@ -43383,11 +43389,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -2.2,
           "games_played": 20,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -3.67,
+          "off_rating": -2.38,
+          "ovr_rating": -4.58,
           "sos_rating": null,
           "win_pct": 19.05,
           "wins": 4
@@ -43768,11 +43774,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.41,
           "games_played": 29,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -0.6,
+          "off_rating": -0.28,
+          "ovr_rating": -0.68,
           "sos_rating": null,
           "win_pct": 40.0,
           "wins": 12
@@ -43827,11 +43833,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.67,
           "games_played": 28,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -2.66,
+          "off_rating": -1.77,
+          "ovr_rating": -3.43,
           "sos_rating": null,
           "win_pct": 25.81,
           "wins": 8
@@ -43914,11 +43920,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.89,
           "games_played": 26,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -0.73,
+          "off_rating": -0.98,
+          "ovr_rating": -1.88,
           "sos_rating": null,
           "win_pct": 16.67,
           "wins": 5
@@ -44021,11 +44027,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.55,
           "games_played": 26,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -2.41,
+          "off_rating": -1.32,
+          "ovr_rating": -2.87,
           "sos_rating": null,
           "win_pct": 11.54,
           "wins": 3
@@ -44123,11 +44129,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.01,
           "games_played": 23,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -0.08,
+          "off_rating": -0.27,
+          "ovr_rating": -0.27,
           "sos_rating": null,
           "win_pct": 33.33,
           "wins": 8
@@ -44168,11 +44174,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.35,
           "games_played": 23,
           "losses": 13,
-          "off_rating": null,
-          "ovr_rating": 0.67,
+          "off_rating": 0.55,
+          "ovr_rating": 0.9,
           "sos_rating": null,
           "win_pct": 41.67,
           "wins": 10
@@ -44345,11 +44351,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.34,
           "games_played": 28,
           "losses": 14,
-          "off_rating": null,
-          "ovr_rating": 0.55,
+          "off_rating": 0.03,
+          "ovr_rating": 0.37,
           "sos_rating": null,
           "win_pct": 46.67,
           "wins": 14
@@ -44460,11 +44466,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.13,
           "games_played": 30,
           "losses": 20,
-          "off_rating": null,
-          "ovr_rating": -0.08,
+          "off_rating": -0.04,
+          "ovr_rating": -0.17,
           "sos_rating": null,
           "win_pct": 31.25,
           "wins": 10
@@ -44533,11 +44539,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.49,
           "games_played": 29,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 0.09,
+          "off_rating": -0.12,
+          "ovr_rating": -0.61,
           "sos_rating": null,
           "win_pct": 46.67,
           "wins": 14
@@ -44662,11 +44668,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.96,
           "games_played": 34,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": 1.63,
+          "off_rating": 1.03,
+          "ovr_rating": 1.99,
           "sos_rating": null,
           "win_pct": 54.29,
           "wins": 19
@@ -44777,11 +44783,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 0.72,
           "games_played": 31,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.06,
+          "off_rating": 0.82,
+          "ovr_rating": 1.54,
           "sos_rating": null,
           "win_pct": 60.61,
           "wins": 20
@@ -44954,11 +44960,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.33,
           "games_played": 37,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 3.15,
+          "off_rating": 1.39,
+          "ovr_rating": 2.71,
           "sos_rating": null,
           "win_pct": 67.57,
           "wins": 25
@@ -45069,11 +45075,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.12,
           "games_played": 30,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": 1.89,
+          "off_rating": 1.38,
+          "ovr_rating": 2.5,
           "sos_rating": null,
           "win_pct": 38.71,
           "wins": 12
@@ -45137,11 +45143,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.11,
           "games_played": 25,
           "losses": 15,
-          "off_rating": null,
-          "ovr_rating": -1.11,
+          "off_rating": -1.26,
+          "ovr_rating": -2.37,
           "sos_rating": null,
           "win_pct": 34.48,
           "wins": 10
@@ -45272,11 +45278,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.66,
           "games_played": 27,
           "losses": 21,
-          "off_rating": null,
-          "ovr_rating": -1.13,
+          "off_rating": -0.69,
+          "ovr_rating": -1.35,
           "sos_rating": null,
           "win_pct": 19.35,
           "wins": 6
@@ -45468,11 +45474,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.49,
           "games_played": 34,
           "losses": 7,
-          "off_rating": null,
-          "ovr_rating": 2.71,
+          "off_rating": 1.41,
+          "ovr_rating": 2.9,
           "sos_rating": null,
           "win_pct": 72.97,
           "wins": 27
@@ -45555,11 +45561,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.12,
           "games_played": 37,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": 0.27,
+          "off_rating": -0.24,
+          "ovr_rating": -0.36,
           "sos_rating": null,
           "win_pct": 53.85,
           "wins": 21
@@ -45670,11 +45676,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": 1.83,
           "games_played": 33,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 2.73,
+          "off_rating": 1.61,
+          "ovr_rating": 3.45,
           "sos_rating": null,
           "win_pct": 73.53,
           "wins": 25
@@ -45867,11 +45873,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.32,
           "games_played": 31,
           "losses": 17,
-          "off_rating": null,
-          "ovr_rating": -1.8,
+          "off_rating": -1.22,
+          "ovr_rating": -2.53,
           "sos_rating": null,
           "win_pct": 42.42,
           "wins": 14
@@ -45954,11 +45960,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -0.85,
           "games_played": 23,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.22,
+          "off_rating": -0.72,
+          "ovr_rating": -1.56,
           "sos_rating": null,
           "win_pct": 21.74,
           "wins": 5
@@ -46069,11 +46075,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 0.79,
           "games_played": 33,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 2.49,
+          "off_rating": 0.72,
+          "ovr_rating": 1.51,
           "sos_rating": null,
           "win_pct": 59.46,
           "wins": 22
@@ -46184,11 +46190,11 @@
         },
         "girls_volleyball": {
           "classification": 5,
-          "def_rating": null,
+          "def_rating": -0.08,
           "games_played": 33,
           "losses": 19,
-          "off_rating": null,
-          "ovr_rating": 0.12,
+          "off_rating": -0.21,
+          "ovr_rating": -0.3,
           "sos_rating": null,
           "win_pct": 41.18,
           "wins": 14
@@ -46257,11 +46263,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.55,
           "games_played": 28,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.23,
+          "off_rating": 0.47,
+          "ovr_rating": 1.02,
           "sos_rating": null,
           "win_pct": 64.52,
           "wins": 20
@@ -46344,11 +46350,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": -1.61,
           "games_played": 27,
           "losses": 18,
-          "off_rating": null,
-          "ovr_rating": -1.98,
+          "off_rating": -1.49,
+          "ovr_rating": -3.09,
           "sos_rating": null,
           "win_pct": 32.14,
           "wins": 9
@@ -46473,11 +46479,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": 1.25,
           "games_played": 30,
           "losses": 8,
-          "off_rating": null,
-          "ovr_rating": 1.94,
+          "off_rating": 1.17,
+          "ovr_rating": 2.42,
           "sos_rating": null,
           "win_pct": 68.75,
           "wins": 22
@@ -46588,11 +46594,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": 0.62,
           "games_played": 30,
           "losses": 11,
-          "off_rating": null,
-          "ovr_rating": 1.32,
+          "off_rating": 0.75,
+          "ovr_rating": 1.38,
           "sos_rating": null,
           "win_pct": 61.29,
           "wins": 19
@@ -46703,11 +46709,11 @@
         },
         "girls_volleyball": {
           "classification": 4,
-          "def_rating": null,
+          "def_rating": -0.76,
           "games_played": 26,
           "losses": 16,
-          "off_rating": null,
-          "ovr_rating": -0.79,
+          "off_rating": -0.66,
+          "ovr_rating": -1.42,
           "sos_rating": null,
           "win_pct": 37.04,
           "wins": 10
@@ -46748,11 +46754,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": 1.62,
           "games_played": 42,
           "losses": 5,
-          "off_rating": null,
-          "ovr_rating": 2.69,
+          "off_rating": 1.63,
+          "ovr_rating": 3.25,
           "sos_rating": null,
           "win_pct": 88.1,
           "wins": 37
@@ -46855,11 +46861,11 @@
         },
         "girls_volleyball": {
           "classification": 2,
-          "def_rating": null,
+          "def_rating": 0.2,
           "games_played": 25,
           "losses": 12,
-          "off_rating": null,
-          "ovr_rating": 0.54,
+          "off_rating": 0.51,
+          "ovr_rating": 0.72,
           "sos_rating": null,
           "win_pct": 48.15,
           "wins": 13
@@ -47041,11 +47047,11 @@
         },
         "girls_volleyball": {
           "classification": 3,
-          "def_rating": null,
+          "def_rating": -0.55,
           "games_played": 25,
           "losses": 10,
-          "off_rating": null,
-          "ovr_rating": -0.63,
+          "off_rating": -0.24,
+          "ovr_rating": -0.79,
           "sos_rating": null,
           "win_pct": 55.56,
           "wins": 15
@@ -47072,11 +47078,11 @@
         },
         "girls_volleyball": {
           "classification": 1,
-          "def_rating": null,
+          "def_rating": -1.26,
           "games_played": 30,
           "losses": 23,
-          "off_rating": null,
-          "ovr_rating": -2.24,
+          "off_rating": -1.37,
+          "ovr_rating": -2.63,
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
