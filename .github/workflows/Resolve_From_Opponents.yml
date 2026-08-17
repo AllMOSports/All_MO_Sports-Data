@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       schedule_outputs:
-        description: "Space-separated list of schedule output JSON files (e.g. football_schedules.json boys_soccer_schedules.json)"
+        description: "Space-separated list of schedule output JSON files (e.g. output/football_schedules.json output/boys_soccer_schedules.json)"
         required: true
-        default: "football_schedules.json"
+        default: "output/football_schedules.json"
       unmatched:
         description: "Path to unmatched_schools.json"
         required: true
