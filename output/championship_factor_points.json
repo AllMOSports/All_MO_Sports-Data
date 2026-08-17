@@ -1,0 +1,1967 @@
+{
+  "meta": {
+    "description": "Championship Factor (CF) Points by MSHSAA private/parochial school and sport. Schools not present in this file are not subject to Championship Factor points. Each sport entry also includes the resulting MSHSAA classification bump.",
+    "source_file": "Championship_Factor_Points_Listed.xlsx",
+    "generated": "2026-08-17",
+    "sport_key_map": {
+      "Football": "FTB",
+      "Boys Soccer": "BSC",
+      "Girls Volleyball": "GVB",
+      "Fall Softball": "FST",
+      "Boys Basketball": "BBB",
+      "Girls Basketball": "GBB",
+      "Girls Soccer": "GSC",
+      "Baseball": "BSB",
+      "Spring Softball": "SFT"
+    },
+    "note_on_slugs": "Slugs generated via standard slugification (lowercase, non-alphanumeric -> hyphen). Verify against live schools.json before deploying, especially schools with parentheses or periods.",
+    "classification_bump_tiers": [
+      {
+        "min_points": 0,
+        "max_points": 4,
+        "bump": 0,
+        "label": "No Classification Bump"
+      },
+      {
+        "min_points": 5,
+        "max_points": 10,
+        "bump": 1,
+        "label": "1 Classification Bump"
+      },
+      {
+        "min_points": 11,
+        "max_points": 17,
+        "bump": 2,
+        "label": "2 Classifications Bump"
+      },
+      {
+        "min_points": 18,
+        "max_points": 22,
+        "bump": 3,
+        "label": "3 Classifications Bump"
+      },
+      {
+        "min_points": 23,
+        "max_points": 26,
+        "bump": 4,
+        "label": "4 Classifications Bump"
+      },
+      {
+        "min_points": 27,
+        "max_points": null,
+        "bump": 5,
+        "label": "5 Classifications Bump"
+      }
+    ]
+  },
+  "schools": {
+    "barstow": {
+      "school_name": "Barstow",
+      "sports": {
+        "BSB": {
+          "points": 1,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 1,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 4,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "bishop-dubourg": {
+      "school_name": "Bishop DuBourg",
+      "sports": {
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 5,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 0,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "bishop-leblond": {
+      "school_name": "Bishop LeBlond",
+      "sports": {
+        "BSB": {
+          "points": 0,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 6,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 1,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 8,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "calvary-lutheran": {
+      "school_name": "Calvary Lutheran",
+      "sports": {
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "cardinal-ritter": {
+      "school_name": "Cardinal Ritter",
+      "sports": {
+        "BBB": {
+          "points": 14,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "FTB": {
+          "points": 15,
+          "sport_name": "Football",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GBB": {
+          "points": 4,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "chaminade-college-prep": {
+      "school_name": "Chaminade College Prep",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 9,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 0,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "christian-brothers-college": {
+      "school_name": "Christian Brothers College",
+      "sports": {
+        "BSB": {
+          "points": 8,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 4,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 14,
+          "sport_name": "Football",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "cor-jesu-academy": {
+      "school_name": "Cor Jesu Academy",
+      "sports": {
+        "FST": {
+          "points": 3,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 5,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 22,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        },
+        "GVB": {
+          "points": 6,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "de-smet-jesuit": {
+      "school_name": "De Smet Jesuit",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 15,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "BSC": {
+          "points": 5,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 10,
+          "sport_name": "Football",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "duchesne": {
+      "school_name": "Duchesne",
+      "sports": {
+        "BSB": {
+          "points": 14,
+          "sport_name": "Baseball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 5,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 7,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 1,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 3,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 5,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "faith-christian-academy": {
+      "school_name": "Faith Christian Academy",
+      "sports": {
+        "BSB": {
+          "points": 15,
+          "sport_name": "Baseball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "father-tolton": {
+      "school_name": "Father Tolton",
+      "sports": {
+        "BSB": {
+          "points": 7,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 5,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 4,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 18,
+          "sport_name": "Fall Softball",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        },
+        "FTB": {
+          "points": 1,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 4,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "greenwood": {
+      "school_name": "Greenwood",
+      "sports": {
+        "BSB": {
+          "points": 0,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 1,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 0,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "guadalupe-centers-charter": {
+      "school_name": "Guadalupe Centers Charter",
+      "sports": {
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "helias-catholic": {
+      "school_name": "Helias Catholic",
+      "sports": {
+        "BSB": {
+          "points": 0,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 6,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 10,
+          "sport_name": "Fall Softball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 10,
+          "sport_name": "Football",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 7,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 10,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 10,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "hogan-prep-academy-charter": {
+      "school_name": "Hogan Prep Academy Charter",
+      "sports": {
+        "GVB": {
+          "points": 1,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "incarnate-word-academy": {
+      "school_name": "Incarnate Word Academy",
+      "sports": {
+        "FST": {
+          "points": 5,
+          "sport_name": "Fall Softball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 30,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 5,
+          "bump_label": "5 Classifications Bump"
+        },
+        "GSC": {
+          "points": 0,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 12,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "john-burroughs": {
+      "school_name": "John Burroughs",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 4,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 2,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 8,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "kipp-kc-legacy": {
+      "school_name": "KIPP KC Legacy",
+      "sports": {
+        "BBB": {
+          "points": 5,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "kipp-st-louis-sr": {
+      "school_name": "KIPP St. Louis Sr.",
+      "sports": {
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "lift-for-life-academy-charter": {
+      "school_name": "Lift for Life Academy Charter",
+      "sports": {
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 11,
+          "sport_name": "Football",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GBB": {
+          "points": 23,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 4,
+          "bump_label": "4 Classifications Bump"
+        }
+      }
+    },
+    "lutheran-north": {
+      "school_name": "Lutheran North",
+      "sports": {
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 9,
+          "sport_name": "Football",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 3,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "lutheran-south": {
+      "school_name": "Lutheran South",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 2,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 1,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 0,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "lutheran-st-charles": {
+      "school_name": "Lutheran St. Charles",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 3,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 3,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 8,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 4,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 4,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "micds": {
+      "school_name": "MICDS",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 12,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "BSC": {
+          "points": 1,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 3,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 10,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 5,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "mcauley-catholic": {
+      "school_name": "McAuley Catholic",
+      "sports": {
+        "BBB": {
+          "points": 2,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "missouri-military-academy": {
+      "school_name": "Missouri Military Academy",
+      "sports": {
+        "BSC": {
+          "points": 5,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "nerinx-hall": {
+      "school_name": "Nerinx Hall",
+      "sports": {
+        "GSC": {
+          "points": 9,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "new-covenant-academy": {
+      "school_name": "New Covenant Academy",
+      "sports": {
+        "BSC": {
+          "points": 1,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 4,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "new-heights-christian": {
+      "school_name": "New Heights Christian",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 6,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 4,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "SFT": {
+          "points": 0,
+          "sport_name": "Spring Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "northland-christian": {
+      "school_name": "Northland Christian",
+      "sports": {
+        "BSB": {
+          "points": 10,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "notre-dame-cape-girardeau": {
+      "school_name": "Notre Dame (Cape Girardeau)",
+      "sports": {
+        "BSB": {
+          "points": 3,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 3,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 3,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 7,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 2,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "notre-dame-st-louis": {
+      "school_name": "Notre Dame (St. Louis)",
+      "sports": {
+        "GSC": {
+          "points": 0,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 2,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "notre-dame-de-sion": {
+      "school_name": "Notre Dame de Sion",
+      "sports": {
+        "GBB": {
+          "points": 6,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 8,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 2,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "pembroke-hill": {
+      "school_name": "Pembroke Hill",
+      "sports": {
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 2,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 2,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 3,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 11,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "principia": {
+      "school_name": "Principia",
+      "sports": {
+        "BBB": {
+          "points": 20,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        },
+        "BSC": {
+          "points": 7,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 19,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        }
+      }
+    },
+    "priory": {
+      "school_name": "Priory",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 1,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 3,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "rockhurst": {
+      "school_name": "Rockhurst",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 7,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 22,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        },
+        "FTB": {
+          "points": 2,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "rosati-kain": {
+      "school_name": "Rosati-Kain",
+      "sports": {
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "sluh": {
+      "school_name": "SLUH",
+      "sports": {
+        "BBB": {
+          "points": 2,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 17,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "sacred-heart": {
+      "school_name": "Sacred Heart",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 1,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 3,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "saxony-lutheran": {
+      "school_name": "Saxony Lutheran",
+      "sports": {
+        "BSC": {
+          "points": 1,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 2,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 1,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 5,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "school-of-the-ozarks": {
+      "school_name": "School of the Ozarks",
+      "sports": {
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "springfield-catholic": {
+      "school_name": "Springfield Catholic",
+      "sports": {
+        "BSB": {
+          "points": 8,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 14,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GSC": {
+          "points": 7,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-dominic": {
+      "school_name": "St. Dominic",
+      "sports": {
+        "BSB": {
+          "points": 9,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 1,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 0,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 3,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 3,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 13,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GVB": {
+          "points": 4,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-francis-borgia": {
+      "school_name": "St. Francis Borgia",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 1,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 7,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FST": {
+          "points": 8,
+          "sport_name": "Fall Softball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 1,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-joseph-christian": {
+      "school_name": "St. Joseph Christian",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 1,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 1,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-josephs-academy": {
+      "school_name": "St. Joseph's Academy",
+      "sports": {
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 10,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-marys-south-side": {
+      "school_name": "St. Mary's South Side",
+      "sports": {
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 11,
+          "sport_name": "Football",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "st-michael-the-archangel": {
+      "school_name": "St. Michael the Archangel",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 4,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 8,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 9,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 12,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "st-paul-lutheran-concordia": {
+      "school_name": "St. Paul Lutheran (Concordia)",
+      "sports": {
+        "BSB": {
+          "points": 3,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 2,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 0,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 2,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-pius-x-festus": {
+      "school_name": "St. Pius X (Festus)",
+      "sports": {
+        "BSB": {
+          "points": 0,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 1,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FST": {
+          "points": 0,
+          "sport_name": "Fall Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 1,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 18,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 3,
+          "bump_label": "3 Classifications Bump"
+        }
+      }
+    },
+    "st-pius-x-kansas-city": {
+      "school_name": "St. Pius X (Kansas City)",
+      "sports": {
+        "BSB": {
+          "points": 2,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 2,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 3,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 3,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 1,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 8,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-teresas-academy": {
+      "school_name": "St. Teresa's Academy",
+      "sports": {
+        "GBB": {
+          "points": 6,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 7,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "st-vincent": {
+      "school_name": "St. Vincent",
+      "sports": {
+        "BBB": {
+          "points": 4,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 5,
+          "sport_name": "Football",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GBB": {
+          "points": 12,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        },
+        "GSC": {
+          "points": 9,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 14,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 2,
+          "bump_label": "2 Classifications Bump"
+        }
+      }
+    },
+    "summit-christian-academy": {
+      "school_name": "Summit Christian Academy",
+      "sports": {
+        "BSB": {
+          "points": 5,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 9,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 7,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 3,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 5,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "thomas-jefferson-independent-day": {
+      "school_name": "Thomas Jefferson Independent Day",
+      "sports": {
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 1,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 1,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "university-academy-charter": {
+      "school_name": "University Academy Charter",
+      "sports": {
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "ursuline-academy": {
+      "school_name": "Ursuline Academy",
+      "sports": {
+        "GBB": {
+          "points": 3,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 4,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 4,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "valle-catholic": {
+      "school_name": "Valle Catholic",
+      "sports": {
+        "BSB": {
+          "points": 5,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "FTB": {
+          "points": 6,
+          "sport_name": "Football",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 4,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "SFT": {
+          "points": 4,
+          "sport_name": "Spring Softball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "veritas-christian-academy": {
+      "school_name": "Veritas Christian Academy",
+      "sports": {
+        "BSB": {
+          "points": 3,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 0,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 10,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 3,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "vianney": {
+      "school_name": "Vianney",
+      "sports": {
+        "BSB": {
+          "points": 9,
+          "sport_name": "Baseball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BBB": {
+          "points": 5,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "BSC": {
+          "points": 8,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        }
+      }
+    },
+    "villa-duchesne": {
+      "school_name": "Villa Duchesne",
+      "sports": {
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "visitation-academy": {
+      "school_name": "Visitation Academy",
+      "sports": {
+        "GBB": {
+          "points": 0,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 0,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "westminster-christian-academy": {
+      "school_name": "Westminster Christian Academy",
+      "sports": {
+        "BSB": {
+          "points": 4,
+          "sport_name": "Baseball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BBB": {
+          "points": 3,
+          "sport_name": "Boys Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "BSC": {
+          "points": 5,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FST": {
+          "points": 7,
+          "sport_name": "Fall Softball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "FTB": {
+          "points": 1,
+          "sport_name": "Football",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GVB": {
+          "points": 9,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GSC": {
+          "points": 3,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    },
+    "whitfield": {
+      "school_name": "Whitfield",
+      "sports": {
+        "BSC": {
+          "points": 4,
+          "sport_name": "Boys Soccer",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GBB": {
+          "points": 2,
+          "sport_name": "Girls Basketball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        },
+        "GSC": {
+          "points": 6,
+          "sport_name": "Girls Soccer",
+          "classification_bump": 1,
+          "bump_label": "1 Classification Bump"
+        },
+        "GVB": {
+          "points": 1,
+          "sport_name": "Girls Volleyball",
+          "classification_bump": 0,
+          "bump_label": "No Classification Bump"
+        }
+      }
+    }
+  }
+}
