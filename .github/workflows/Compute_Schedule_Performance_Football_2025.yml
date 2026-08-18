@@ -25,15 +25,15 @@ jobs:
       - name: Run schedule performance enrichment
         run: |
           python compute_schedule_performance.py \
-            --schedule football_schedule_2025.json \
-            --schools schools.json \
+            --schedule output/football_schedule_2025.json \
+            --schools output/schools.json \
             --sport football
  
       - name: Commit and push enriched schedule if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add football_schedule_2025.json
+          git add output/football_schedule_2025.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
