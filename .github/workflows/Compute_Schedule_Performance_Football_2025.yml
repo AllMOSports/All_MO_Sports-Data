@@ -1,0 +1,42 @@
+name: Compute Schedule Performance (Football 2025)
+ 
+on:
+  workflow_dispatch: {}   # manual trigger only, from the Actions tab
+ 
+permissions:
+  contents: write   # needed so the workflow can commit the enriched JSON back
+ 
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      # compute_schedule_performance.py only uses the standard library
+      # (argparse, json, re, sys, pathlib) -- no pip install needed.
+ 
+      - name: Run schedule performance enrichment
+        run: |
+          python compute_schedule_performance.py \
+            --schedule football_schedule_2025.json \
+            --schools schools.json \
+            --sport football
+ 
+      - name: Commit and push enriched schedule if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add football_schedule_2025.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Enrich football_schedule_2025.json with predicted scores/performance deltas [automated]"
+            git push
+          fi
