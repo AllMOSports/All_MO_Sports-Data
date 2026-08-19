@@ -6,23 +6,6 @@
   "scraped_at": "2026-06-28T12:49:21+00:00",
   "teams": [
     {
-      "school": "Derrick Thomas Academy",
-      "mshsaa_school_id": 908,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 15,
-      "points_for": 65,
-      "points_against": 17,
-      "ppg": 65,
-      "oppg": 17,
-      "mov": 48,
-      "wins": 1,
-      "losses": 0,
-      "win_pct": 100.0,
-      "mshsaa_points": null,
-      "games_played": 1
-    },
-    {
       "school": "West Platte",
       "mshsaa_school_id": 495,
       "classification_code": 2,
