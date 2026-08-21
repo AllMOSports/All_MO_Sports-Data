@@ -436,19 +436,6 @@
         "ovr_delta": 7.3
       },
       {
-        "date": "2020-02-10",
-        "opponent": "Liberal",
-        "home_away": "home",
-        "team_score": 71,
-        "opp_score": 39,
-        "result": "W",
-        "predicted_team_score": 63.8,
-        "predicted_opp_score": 55.6,
-        "off_delta": 7.2,
-        "def_delta": 16.6,
-        "ovr_delta": 23.8
-      },
-      {
         "date": "2020-02-11",
         "opponent": "Midway",
         "home_away": "away",
@@ -725,19 +712,6 @@
       },
       {
         "date": "2020-01-16",
-        "opponent": "Richland (Essex)",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 61,
-        "result": "W",
-        "predicted_team_score": 81.6,
-        "predicted_opp_score": 51.5,
-        "off_delta": -18.6,
-        "def_delta": -9.5,
-        "ovr_delta": -28.1
-      },
-      {
-        "date": "2020-01-17",
         "opponent": "Richland (Essex)",
         "home_away": "home",
         "team_score": 63,
@@ -1379,19 +1353,6 @@
       },
       {
         "date": "2020-01-09",
-        "opponent": "King City",
-        "home_away": "home",
-        "team_score": 60,
-        "opp_score": 14,
-        "result": "W",
-        "predicted_team_score": 54.5,
-        "predicted_opp_score": 19.3,
-        "off_delta": 5.5,
-        "def_delta": 5.3,
-        "ovr_delta": 10.8
-      },
-      {
-        "date": "2020-01-10",
         "opponent": "King City",
         "home_away": "home",
         "team_score": 60,
@@ -3000,19 +2961,6 @@
       },
       {
         "date": "2020-02-10",
-        "opponent": "Holden",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 48,
-        "result": "L",
-        "predicted_team_score": 49.9,
-        "predicted_opp_score": 53.3,
-        "off_delta": -6.9,
-        "def_delta": 5.3,
-        "ovr_delta": -1.6
-      },
-      {
-        "date": "2020-02-11",
         "opponent": "Holden",
         "home_away": "away",
         "team_score": 43,
@@ -5075,19 +5023,6 @@
         "ovr_delta": 10.5
       },
       {
-        "date": "2020-02-10",
-        "opponent": "Northeast Vernon County",
-        "home_away": "away",
-        "team_score": 42,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 46.3,
-        "predicted_opp_score": 56.6,
-        "off_delta": -4.3,
-        "def_delta": -6.4,
-        "ovr_delta": -10.7
-      },
-      {
         "date": "2020-02-11",
         "opponent": "Bronaugh",
         "home_away": "home",
@@ -6724,19 +6659,6 @@
         "ovr_delta": 5.9
       },
       {
-        "date": "2020-01-25",
-        "opponent": "Richland",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 84,
-        "result": "L",
-        "predicted_team_score": 52.1,
-        "predicted_opp_score": 76.0,
-        "off_delta": 13.9,
-        "def_delta": -8.0,
-        "ovr_delta": 5.9
-      },
-      {
         "date": "2020-01-29",
         "opponent": "Newburg",
         "home_away": "away",
@@ -7029,19 +6951,6 @@
         "off_delta": -6.1,
         "def_delta": 8.8,
         "ovr_delta": 2.7
-      },
-      {
-        "date": "2019-12-12",
-        "opponent": "Carthage",
-        "home_away": "away",
-        "team_score": 61,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 45.5,
-        "predicted_opp_score": 62.8,
-        "off_delta": 15.5,
-        "def_delta": -2.2,
-        "ovr_delta": 13.3
       },
       {
         "date": "2019-12-13",
@@ -8962,19 +8871,6 @@
         "ovr_delta": 3.2
       },
       {
-        "date": "2020-02-19",
-        "opponent": "Blue Eye",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 64,
-        "result": "W",
-        "predicted_team_score": 52.1,
-        "predicted_opp_score": 54.3,
-        "off_delta": 12.9,
-        "def_delta": -9.7,
-        "ovr_delta": 3.2
-      },
-      {
         "date": "2020-02-24",
         "opponent": "Marionville",
         "home_away": "home",
@@ -10672,19 +10568,6 @@
         "ovr_delta": 0.0
       },
       {
-        "date": "2019-12-04",
-        "opponent": "Puxico",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 54.7,
-        "predicted_opp_score": 56.7,
-        "off_delta": -0.7,
-        "def_delta": 0.7,
-        "ovr_delta": 0.0
-      },
-      {
         "date": "2019-12-12",
         "opponent": "Gideon",
         "home_away": "home",
@@ -11260,19 +11143,6 @@
       },
       {
         "date": "2020-02-18",
-        "opponent": "Billings",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 54.3,
-        "predicted_opp_score": 52.1,
-        "off_delta": 9.7,
-        "def_delta": -12.9,
-        "ovr_delta": -3.2
-      },
-      {
-        "date": "2020-02-19",
         "opponent": "Billings",
         "home_away": "home",
         "team_score": 64,
@@ -13743,19 +13613,6 @@
         "ovr_delta": -3.8
       },
       {
-        "date": "2020-02-21",
-        "opponent": "Clopton",
-        "home_away": "away",
-        "team_score": 33,
-        "opp_score": 35,
-        "result": "L",
-        "predicted_team_score": 43.9,
-        "predicted_opp_score": 42.5,
-        "off_delta": -10.9,
-        "def_delta": 7.5,
-        "ovr_delta": -3.4
-      },
-      {
         "date": "2020-02-24",
         "opponent": "Hermann",
         "home_away": "away",
@@ -13927,19 +13784,6 @@
         "off_delta": 14.1,
         "def_delta": -7.1,
         "ovr_delta": 7.0
-      },
-      {
-        "date": "2020-01-15",
-        "opponent": "Mansfield",
-        "home_away": "away",
-        "team_score": 66,
-        "opp_score": 64,
-        "result": "W",
-        "predicted_team_score": 61.5,
-        "predicted_opp_score": 66.3,
-        "off_delta": 4.5,
-        "def_delta": 2.3,
-        "ovr_delta": 6.8
       },
       {
         "date": "2020-01-20",
@@ -15475,19 +15319,6 @@
         "ovr_delta": -29.5
       },
       {
-        "date": "2020-01-29",
-        "opponent": "Valley Park",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 62.5,
-        "predicted_opp_score": 43.3,
-        "off_delta": -12.5,
-        "def_delta": 5.3,
-        "ovr_delta": -7.2
-      },
-      {
         "date": "2020-01-31",
         "opponent": "Maplewood-Richmond Hts.",
         "home_away": "away",
@@ -15677,19 +15508,6 @@
       },
       {
         "date": "2019-12-02",
-        "opponent": "Montrose",
-        "home_away": "home",
-        "team_score": 38,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 45.6,
-        "predicted_opp_score": 55.4,
-        "off_delta": -7.6,
-        "def_delta": 5.4,
-        "ovr_delta": -2.2
-      },
-      {
-        "date": "2019-12-03",
         "opponent": "Montrose",
         "home_away": "home",
         "team_score": 38,
@@ -17826,19 +17644,6 @@
         "ovr_delta": -14.2
       },
       {
-        "date": "2019-12-19",
-        "opponent": "Stockton",
-        "home_away": "home",
-        "team_score": 41,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 52.6,
-        "predicted_opp_score": 56.4,
-        "off_delta": -11.6,
-        "def_delta": -2.6,
-        "ovr_delta": -14.2
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Buffalo",
         "home_away": "away",
@@ -18453,19 +18258,6 @@
       },
       {
         "date": "2020-02-20",
-        "opponent": "Salem",
-        "home_away": "away",
-        "team_score": 37,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 50.9,
-        "predicted_opp_score": 67.0,
-        "off_delta": -13.9,
-        "def_delta": 1.0,
-        "ovr_delta": -12.9
-      },
-      {
-        "date": "2020-02-21",
         "opponent": "Salem",
         "home_away": "away",
         "team_score": 37,
@@ -20465,19 +20257,6 @@
         "ovr_delta": -16.4
       },
       {
-        "date": "2020-01-14",
-        "opponent": "Highland",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 83,
-        "result": "L",
-        "predicted_team_score": 59.8,
-        "predicted_opp_score": 67.4,
-        "off_delta": -0.8,
-        "def_delta": -15.6,
-        "ovr_delta": -16.4
-      },
-      {
         "date": "2020-01-20",
         "opponent": "Monroe City",
         "home_away": "home",
@@ -22316,19 +22095,6 @@
         "ovr_delta": -18.7
       },
       {
-        "date": "2020-01-18",
-        "opponent": "West Platte",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 53.1,
-        "predicted_opp_score": 62.0,
-        "off_delta": -2.1,
-        "def_delta": -1.0,
-        "ovr_delta": -3.1
-      },
-      {
         "date": "2020-01-27",
         "opponent": "Glasgow",
         "home_away": "away",
@@ -22527,19 +22293,6 @@
     "Carthage": [
       {
         "date": "2019-12-05",
-        "opponent": "Belton",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 61,
-        "result": "W",
-        "predicted_team_score": 62.8,
-        "predicted_opp_score": 45.5,
-        "off_delta": 2.2,
-        "def_delta": -15.5,
-        "ovr_delta": -13.3
-      },
-      {
-        "date": "2019-12-12",
         "opponent": "Belton",
         "home_away": "home",
         "team_score": 65,
@@ -24364,19 +24117,6 @@
         "ovr_delta": -3.2
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Southeast",
-        "home_away": "away",
-        "team_score": 47,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 54.1,
-        "predicted_opp_score": 39.9,
-        "off_delta": -7.1,
-        "def_delta": 3.9,
-        "ovr_delta": -3.2
-      },
-      {
         "date": "2019-12-26",
         "opponent": "Waynesville",
         "home_away": "away",
@@ -24782,19 +24522,6 @@
         "ovr_delta": -1.1
       },
       {
-        "date": "2019-12-13",
-        "opponent": "Notre Dame (Cape Girardeau)",
-        "home_away": "away",
-        "team_score": 47,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 47.2,
-        "predicted_opp_score": 60.1,
-        "off_delta": -0.2,
-        "def_delta": -0.9,
-        "ovr_delta": -1.1
-      },
-      {
         "date": "2019-12-17",
         "opponent": "Notre Dame (Cape Girardeau)",
         "home_away": "home",
@@ -25135,19 +24862,6 @@
         "ovr_delta": 5.8
       },
       {
-        "date": "2019-12-18",
-        "opponent": "St. Pius X (Festus)",
-        "home_away": "away",
-        "team_score": 68,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 66.4,
-        "predicted_opp_score": 54.2,
-        "off_delta": 1.6,
-        "def_delta": 4.2,
-        "ovr_delta": 5.8
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Valle Catholic",
         "home_away": "away",
@@ -25162,19 +24876,6 @@
       },
       {
         "date": "2019-12-26",
-        "opponent": "Potosi",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 75.6,
-        "predicted_opp_score": 45.4,
-        "off_delta": -12.6,
-        "def_delta": 9.4,
-        "ovr_delta": -3.2
-      },
-      {
-        "date": "2019-12-27",
         "opponent": "Potosi",
         "home_away": "home",
         "team_score": 63,
@@ -27744,19 +27445,6 @@
         "ovr_delta": 12.0
       },
       {
-        "date": "2020-01-25",
-        "opponent": "South Callaway",
-        "home_away": "home",
-        "team_score": 52,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 54.1,
-        "predicted_opp_score": 50.1,
-        "off_delta": -2.1,
-        "def_delta": 14.1,
-        "ovr_delta": 12.0
-      },
-      {
         "date": "2020-01-27",
         "opponent": "St. Elizabeth",
         "home_away": "away",
@@ -28617,19 +28305,6 @@
       },
       {
         "date": "2020-01-27",
-        "opponent": "Knob Noster",
-        "home_away": "home",
-        "team_score": 32,
-        "opp_score": 67,
-        "result": "L",
-        "predicted_team_score": 41.1,
-        "predicted_opp_score": 74.7,
-        "off_delta": -9.1,
-        "def_delta": 7.7,
-        "ovr_delta": -1.4
-      },
-      {
-        "date": "2020-01-28",
         "opponent": "Knob Noster",
         "home_away": "home",
         "team_score": 32,
@@ -30870,19 +30545,6 @@
         "ovr_delta": 11.0
       },
       {
-        "date": "2019-12-03",
-        "opponent": "West County",
-        "home_away": "home",
-        "team_score": 69,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 72.8,
-        "predicted_opp_score": 52.8,
-        "off_delta": -3.8,
-        "def_delta": 14.8,
-        "ovr_delta": 11.0
-      },
-      {
         "date": "2019-12-05",
         "opponent": "East Carter",
         "home_away": "home",
@@ -31276,19 +30938,6 @@
       },
       {
         "date": "2020-01-09",
-        "opponent": "McKinley Classical Leadership",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 52.9,
-        "predicted_opp_score": 67.7,
-        "off_delta": -2.9,
-        "def_delta": 9.7,
-        "ovr_delta": 6.8
-      },
-      {
-        "date": "2020-01-10",
         "opponent": "McKinley Classical Leadership",
         "home_away": "away",
         "team_score": 50,
@@ -31942,19 +31591,6 @@
         "ovr_delta": -10.0
       },
       {
-        "date": "2020-01-14",
-        "opponent": "Macks Creek",
-        "home_away": "away",
-        "team_score": 48,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 60.2,
-        "predicted_opp_score": 62.2,
-        "off_delta": -12.2,
-        "def_delta": 2.2,
-        "ovr_delta": -10.0
-      },
-      {
         "date": "2020-01-16",
         "opponent": "Wheatland",
         "home_away": "away",
@@ -32021,19 +31657,6 @@
       },
       {
         "date": "2020-01-30",
-        "opponent": "Walnut Grove",
-        "home_away": "away",
-        "team_score": 46,
-        "opp_score": 39,
-        "result": "W",
-        "predicted_team_score": 52.1,
-        "predicted_opp_score": 37.8,
-        "off_delta": -6.1,
-        "def_delta": -1.2,
-        "ovr_delta": -7.3
-      },
-      {
-        "date": "2020-01-31",
         "opponent": "Walnut Grove",
         "home_away": "away",
         "team_score": 46,
@@ -32789,19 +32412,6 @@
         "off_delta": -11.2,
         "def_delta": 7.5,
         "ovr_delta": -3.7
-      },
-      {
-        "date": "2020-02-21",
-        "opponent": "Bowling Green",
-        "home_away": "home",
-        "team_score": 35,
-        "opp_score": 33,
-        "result": "W",
-        "predicted_team_score": 42.5,
-        "predicted_opp_score": 43.9,
-        "off_delta": -7.5,
-        "def_delta": 10.9,
-        "ovr_delta": 3.4
       },
       {
         "date": "2020-02-25",
@@ -36327,19 +35937,6 @@
         "ovr_delta": 11.7
       },
       {
-        "date": "2019-12-13",
-        "opponent": "Orrick",
-        "home_away": "away",
-        "team_score": 74,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 61.9,
-        "predicted_opp_score": 43.6,
-        "off_delta": 12.1,
-        "def_delta": -0.4,
-        "ovr_delta": 11.7
-      },
-      {
         "date": "2019-12-14",
         "opponent": "St. Paul Lutheran (Concordia)",
         "home_away": "away",
@@ -39470,32 +39067,6 @@
         "off_delta": -0.7,
         "def_delta": 9.0,
         "ovr_delta": 8.3
-      },
-      {
-        "date": "2019-12-07",
-        "opponent": "North County",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 52,
-        "result": "L",
-        "predicted_team_score": 50.7,
-        "predicted_opp_score": 61.0,
-        "off_delta": -0.7,
-        "def_delta": 9.0,
-        "ovr_delta": 8.3
-      },
-      {
-        "date": "2019-12-07",
-        "opponent": "Ste. Genevieve",
-        "home_away": "away",
-        "team_score": 64,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 54.4,
-        "predicted_opp_score": 60.8,
-        "off_delta": 9.6,
-        "def_delta": -5.2,
-        "ovr_delta": 4.4
       },
       {
         "date": "2019-12-10",
@@ -42880,19 +42451,6 @@
         "ovr_delta": -7.8
       },
       {
-        "date": "2020-01-16",
-        "opponent": "Oakville",
-        "home_away": "home",
-        "team_score": 25,
-        "opp_score": 41,
-        "result": "L",
-        "predicted_team_score": 37.7,
-        "predicted_opp_score": 45.9,
-        "off_delta": -12.7,
-        "def_delta": 4.9,
-        "ovr_delta": -7.8
-      },
-      {
         "date": "2020-01-18",
         "opponent": "Whitfield",
         "home_away": "away",
@@ -44120,19 +43678,6 @@
         "ovr_delta": 1.8
       },
       {
-        "date": "2020-01-24",
-        "opponent": "Lesterville",
-        "home_away": "away",
-        "team_score": 67,
-        "opp_score": 66,
-        "result": "W",
-        "predicted_team_score": 62.7,
-        "predicted_opp_score": 63.5,
-        "off_delta": 4.3,
-        "def_delta": -2.5,
-        "ovr_delta": 1.8
-      },
-      {
         "date": "2020-01-25",
         "opponent": "South Iron",
         "home_away": "away",
@@ -44829,19 +44374,6 @@
       },
       {
         "date": "2020-01-28",
-        "opponent": "Twin Rivers",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 57.7,
-        "predicted_opp_score": 56.3,
-        "off_delta": 7.3,
-        "def_delta": 6.3,
-        "ovr_delta": 13.6
-      },
-      {
-        "date": "2020-01-30",
         "opponent": "Twin Rivers",
         "home_away": "away",
         "team_score": 65,
@@ -46325,19 +45857,6 @@
         "ovr_delta": 17.7
       },
       {
-        "date": "2020-01-21",
-        "opponent": "Louisiana",
-        "home_away": "away",
-        "team_score": 46,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 40.8,
-        "predicted_opp_score": 48.5,
-        "off_delta": 5.2,
-        "def_delta": 12.5,
-        "ovr_delta": 17.7
-      },
-      {
         "date": "2020-01-24",
         "opponent": "Lutheran St. Charles",
         "home_away": "home",
@@ -46982,19 +46501,6 @@
       },
       {
         "date": "2020-01-17",
-        "opponent": "Linn",
-        "home_away": "home",
-        "team_score": 42,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 54.4,
-        "predicted_opp_score": 52.3,
-        "off_delta": -12.4,
-        "def_delta": 14.3,
-        "ovr_delta": 1.9
-      },
-      {
-        "date": "2020-01-18",
         "opponent": "Linn",
         "home_away": "home",
         "team_score": 42,
@@ -47740,19 +47246,6 @@
       },
       {
         "date": "2020-01-23",
-        "opponent": "New Covenant Academy with The Summit Preparatory",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 53.3,
-        "predicted_opp_score": 51.9,
-        "off_delta": 1.7,
-        "def_delta": -8.1,
-        "ovr_delta": -6.4
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "New Covenant Academy with The Summit Preparatory",
         "home_away": "away",
         "team_score": 55,
@@ -48957,19 +48450,6 @@
       },
       {
         "date": "2019-12-03",
-        "opponent": "Hillcrest",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 60.7,
-        "predicted_opp_score": 49.5,
-        "off_delta": -7.7,
-        "def_delta": 12.5,
-        "ovr_delta": 4.8
-      },
-      {
-        "date": "2019-12-04",
         "opponent": "Hillcrest",
         "home_away": "home",
         "team_score": 53,
@@ -50974,19 +50454,6 @@
         "ovr_delta": 8.7
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Harrisburg",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 58.0,
-        "predicted_opp_score": 58.7,
-        "off_delta": 5.0,
-        "def_delta": 3.7,
-        "ovr_delta": 8.7
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Salisbury",
         "home_away": "away",
@@ -52808,32 +52275,6 @@
       },
       {
         "date": "2019-12-10",
-        "opponent": "Lutheran St. Charles",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 49.9,
-        "predicted_opp_score": 61.8,
-        "off_delta": 0.1,
-        "def_delta": 3.8,
-        "ovr_delta": 3.9
-      },
-      {
-        "date": "2019-12-10",
-        "opponent": "Ft. Zumwalt East",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 51.1,
-        "predicted_opp_score": 57.6,
-        "off_delta": 0.9,
-        "def_delta": -8.4,
-        "ovr_delta": -7.5
-      },
-      {
-        "date": "2019-12-11",
         "opponent": "Ft. Zumwalt East",
         "home_away": "away",
         "team_score": 52,
@@ -55041,19 +54482,6 @@
         "off_delta": null,
         "def_delta": null,
         "ovr_delta": null
-      },
-      {
-        "date": "2019-12-11",
-        "opponent": "Fox",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 57.6,
-        "predicted_opp_score": 51.1,
-        "off_delta": 8.4,
-        "def_delta": -0.9,
-        "ovr_delta": 7.5
       },
       {
         "date": "2019-12-13",
@@ -58877,19 +58305,6 @@
         "ovr_delta": 19.0
       },
       {
-        "date": "2019-12-31",
-        "opponent": "South Pemiscot",
-        "home_away": "away",
-        "team_score": 56,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 52.0,
-        "predicted_opp_score": 52.0,
-        "off_delta": 4.0,
-        "def_delta": 15.0,
-        "ovr_delta": 19.0
-      },
-      {
         "date": "2020-01-14",
         "opponent": "Southland",
         "home_away": "home",
@@ -58995,19 +58410,6 @@
       },
       {
         "date": "2020-02-06",
-        "opponent": "North Pemiscot",
-        "home_away": "away",
-        "team_score": 80,
-        "opp_score": 27,
-        "result": "W",
-        "predicted_team_score": 82.6,
-        "predicted_opp_score": 18.4,
-        "off_delta": -2.6,
-        "def_delta": -8.6,
-        "ovr_delta": -11.2
-      },
-      {
-        "date": "2020-02-10",
         "opponent": "North Pemiscot",
         "home_away": "away",
         "team_score": 80,
@@ -59309,19 +58711,6 @@
       },
       {
         "date": "2020-02-12",
-        "opponent": "Ridgeway with Cainsville",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 42.7,
-        "predicted_opp_score": 67.5,
-        "off_delta": -4.7,
-        "def_delta": -6.5,
-        "ovr_delta": -11.2
-      },
-      {
-        "date": "2020-02-14",
         "opponent": "Ridgeway with Cainsville",
         "home_away": "away",
         "team_score": 38,
@@ -60674,33 +60063,7 @@
         "ovr_delta": -0.3
       },
       {
-        "date": "2020-01-15",
-        "opponent": "Pembroke Hill",
-        "home_away": "away",
-        "team_score": 77,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 63.0,
-        "predicted_opp_score": 56.8,
-        "off_delta": 14.0,
-        "def_delta": -2.2,
-        "ovr_delta": 11.8
-      },
-      {
         "date": "2020-01-17",
-        "opponent": "Odessa",
-        "home_away": "home",
-        "team_score": 60,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 61.8,
-        "predicted_opp_score": 54.2,
-        "off_delta": -1.8,
-        "def_delta": 4.2,
-        "ovr_delta": 2.4
-      },
-      {
-        "date": "2020-01-18",
         "opponent": "Odessa",
         "home_away": "home",
         "team_score": 60,
@@ -60766,19 +60129,6 @@
       },
       {
         "date": "2020-01-31",
-        "opponent": "Van Horn",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 83,
-        "result": "L",
-        "predicted_team_score": 64.7,
-        "predicted_opp_score": 63.2,
-        "off_delta": -0.7,
-        "def_delta": -19.8,
-        "ovr_delta": -20.5
-      },
-      {
-        "date": "2020-02-01",
         "opponent": "Van Horn",
         "home_away": "home",
         "team_score": 64,
@@ -61043,19 +60393,6 @@
       },
       {
         "date": "2020-01-09",
-        "opponent": "Platte County",
-        "home_away": "home",
-        "team_score": 60,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 64.1,
-        "predicted_opp_score": 45.7,
-        "off_delta": -4.1,
-        "def_delta": 0.7,
-        "ovr_delta": -3.4
-      },
-      {
-        "date": "2020-01-10",
         "opponent": "Platte County",
         "home_away": "home",
         "team_score": 60,
@@ -62862,19 +62199,6 @@
         "ovr_delta": -2.5
       },
       {
-        "date": "2019-12-07",
-        "opponent": "Southwest (Washburn)",
-        "home_away": "away",
-        "team_score": 53,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 58.5,
-        "predicted_opp_score": 54.1,
-        "off_delta": -5.5,
-        "def_delta": 2.1,
-        "ovr_delta": -3.4
-      },
-      {
         "date": "2019-12-10",
         "opponent": "Stockton",
         "home_away": "away",
@@ -64034,19 +63358,6 @@
       },
       {
         "date": "2020-01-16",
-        "opponent": "Northwestern (Mendon)",
-        "home_away": "home",
-        "team_score": 74,
-        "opp_score": 65,
-        "result": "W",
-        "predicted_team_score": 58.0,
-        "predicted_opp_score": 64.5,
-        "off_delta": 16.0,
-        "def_delta": -0.5,
-        "ovr_delta": 15.5
-      },
-      {
-        "date": "2020-01-17",
         "opponent": "Northwestern (Mendon)",
         "home_away": "home",
         "team_score": 74,
@@ -66618,19 +65929,6 @@
         "ovr_delta": -8.7
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Fayette",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 58.7,
-        "predicted_opp_score": 58.0,
-        "off_delta": -3.7,
-        "def_delta": -5.0,
-        "ovr_delta": -8.7
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Scotland County",
         "home_away": "home",
@@ -68046,19 +67344,6 @@
       },
       {
         "date": "2019-12-04",
-        "opponent": "University City",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 56,
-        "result": "W",
-        "predicted_team_score": 60.2,
-        "predicted_opp_score": 56.0,
-        "off_delta": -2.2,
-        "def_delta": 0.0,
-        "ovr_delta": -2.2
-      },
-      {
-        "date": "2019-12-05",
         "opponent": "University City",
         "home_away": "away",
         "team_score": 58,
@@ -71496,19 +70781,6 @@
         "ovr_delta": 1.2
       },
       {
-        "date": "2020-01-14",
-        "opponent": "Canton",
-        "home_away": "away",
-        "team_score": 83,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 67.4,
-        "predicted_opp_score": 59.8,
-        "off_delta": 15.6,
-        "def_delta": 0.8,
-        "ovr_delta": 16.4
-      },
-      {
         "date": "2020-01-17",
         "opponent": "Macon",
         "home_away": "away",
@@ -71711,19 +70983,6 @@
       },
       {
         "date": "2019-12-03",
-        "opponent": "Fair Grove",
-        "home_away": "away",
-        "team_score": 37,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 49.5,
-        "predicted_opp_score": 60.7,
-        "off_delta": -12.5,
-        "def_delta": 7.7,
-        "ovr_delta": -4.8
-      },
-      {
-        "date": "2019-12-04",
         "opponent": "Fair Grove",
         "home_away": "away",
         "team_score": 37,
@@ -73306,19 +72565,6 @@
         "ovr_delta": 1.6
       },
       {
-        "date": "2020-02-11",
-        "opponent": "Archie",
-        "home_away": "home",
-        "team_score": 48,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 53.3,
-        "predicted_opp_score": 49.9,
-        "off_delta": -5.3,
-        "def_delta": 6.9,
-        "ovr_delta": 1.6
-      },
-      {
         "date": "2020-02-13",
         "opponent": "Adrian",
         "home_away": "home",
@@ -73644,19 +72890,6 @@
         "off_delta": -11.8,
         "def_delta": 3.1,
         "ovr_delta": -8.7
-      },
-      {
-        "date": "2020-02-03",
-        "opponent": "Omaha(Omaha, AR)",
-        "home_away": "home",
-        "team_score": 2,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
       },
       {
         "date": "2020-02-05",
@@ -75712,19 +74945,6 @@
       },
       {
         "date": "2020-01-16",
-        "opponent": "Licking",
-        "home_away": "home",
-        "team_score": 71,
-        "opp_score": 61,
-        "result": "W",
-        "predicted_team_score": 66.1,
-        "predicted_opp_score": 51.3,
-        "off_delta": 4.9,
-        "def_delta": -9.7,
-        "ovr_delta": -4.8
-      },
-      {
-        "date": "2020-01-17",
         "opponent": "Licking",
         "home_away": "home",
         "team_score": 71,
@@ -79736,19 +78956,6 @@
         "ovr_delta": -8.9
       },
       {
-        "date": "2020-02-01",
-        "opponent": "Union",
-        "home_away": "home",
-        "team_score": 41,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 42.2,
-        "predicted_opp_score": 42.3,
-        "off_delta": -1.2,
-        "def_delta": -7.7,
-        "ovr_delta": -8.9
-      },
-      {
         "date": "2020-02-03",
         "opponent": "Dupo(Dupo, IL)",
         "home_away": "home",
@@ -79825,19 +79032,6 @@
         "off_delta": -7.7,
         "def_delta": 11.8,
         "ovr_delta": 4.1
-      },
-      {
-        "date": "2020-02-13",
-        "opponent": "Soldan International Studies",
-        "home_away": "home",
-        "team_score": 44,
-        "opp_score": 68,
-        "result": "L",
-        "predicted_team_score": 37.2,
-        "predicted_opp_score": 62.4,
-        "off_delta": 6.8,
-        "def_delta": -5.6,
-        "ovr_delta": 1.2
       },
       {
         "date": "2020-02-29",
@@ -81495,19 +80689,6 @@
         "ovr_delta": -18.2
       },
       {
-        "date": "2020-02-14",
-        "opponent": "Northwestern (Mendon)",
-        "home_away": "away",
-        "team_score": 63,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 68.1,
-        "predicted_opp_score": 52.9,
-        "off_delta": -5.1,
-        "def_delta": -13.1,
-        "ovr_delta": -18.2
-      },
-      {
         "date": "2020-02-15",
         "opponent": "Hale with Bosworth",
         "home_away": "home",
@@ -82061,19 +81242,6 @@
       },
       {
         "date": "2020-01-09",
-        "opponent": "Albany",
-        "home_away": "away",
-        "team_score": 14,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 19.3,
-        "predicted_opp_score": 54.5,
-        "off_delta": -5.3,
-        "def_delta": -5.5,
-        "ovr_delta": -10.8
-      },
-      {
-        "date": "2020-01-10",
         "opponent": "Albany",
         "home_away": "away",
         "team_score": 14,
@@ -83383,19 +82551,6 @@
         "ovr_delta": 1.8
       },
       {
-        "date": "2019-12-27",
-        "opponent": "Trinity Catholic",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 64,
-        "result": "L",
-        "predicted_team_score": 56.6,
-        "predicted_opp_score": 68.4,
-        "off_delta": -2.6,
-        "def_delta": 4.4,
-        "ovr_delta": 1.8
-      },
-      {
         "date": "2019-12-28",
         "opponent": "Whitfield",
         "home_away": "away",
@@ -83854,19 +83009,6 @@
       },
       {
         "date": "2020-01-27",
-        "opponent": "Chilhowee",
-        "home_away": "away",
-        "team_score": 67,
-        "opp_score": 32,
-        "result": "W",
-        "predicted_team_score": 74.7,
-        "predicted_opp_score": 41.1,
-        "off_delta": -7.7,
-        "def_delta": 9.1,
-        "ovr_delta": 1.4
-      },
-      {
-        "date": "2020-01-28",
         "opponent": "Chilhowee",
         "home_away": "away",
         "team_score": 67,
@@ -84860,19 +84002,6 @@
         "ovr_delta": 2.2
       },
       {
-        "date": "2020-01-25",
-        "opponent": "Sacred Heart",
-        "home_away": "away",
-        "team_score": 30,
-        "opp_score": 68,
-        "result": "L",
-        "predicted_team_score": 28.5,
-        "predicted_opp_score": 68.7,
-        "off_delta": 1.5,
-        "def_delta": 0.7,
-        "ovr_delta": 2.2
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Cole Camp",
         "home_away": "away",
@@ -85473,19 +84602,6 @@
         "off_delta": -5.9,
         "def_delta": 8.7,
         "ovr_delta": 2.8
-      },
-      {
-        "date": "2019-12-28",
-        "opponent": "Trinity Catholic",
-        "home_away": "away",
-        "team_score": 40,
-        "opp_score": 45,
-        "result": "L",
-        "predicted_team_score": 52.8,
-        "predicted_opp_score": 58.3,
-        "off_delta": -12.8,
-        "def_delta": 13.3,
-        "ovr_delta": 0.5
       },
       {
         "date": "2019-12-30",
@@ -86961,19 +86077,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "Midway",
-        "home_away": "away",
-        "team_score": 77,
-        "opp_score": 30,
-        "result": "W",
-        "predicted_team_score": 79.6,
-        "predicted_opp_score": 35.5,
-        "off_delta": -2.6,
-        "def_delta": 5.5,
-        "ovr_delta": 2.9
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "Midway",
         "home_away": "away",
         "team_score": 77,
@@ -89681,19 +88784,6 @@
         "ovr_delta": 3.6
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Ruskin",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 73,
-        "result": "L",
-        "predicted_team_score": 53.2,
-        "predicted_opp_score": 70.8,
-        "off_delta": 5.8,
-        "def_delta": -2.2,
-        "ovr_delta": 3.6
-      },
-      {
         "date": "2020-01-03",
         "opponent": "Lee's Summit West",
         "home_away": "home",
@@ -91199,19 +90289,6 @@
         "ovr_delta": -1.8
       },
       {
-        "date": "2020-01-24",
-        "opponent": "East Carter",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 67,
-        "result": "L",
-        "predicted_team_score": 63.5,
-        "predicted_opp_score": 62.7,
-        "off_delta": 2.5,
-        "def_delta": -4.3,
-        "ovr_delta": -1.8
-      },
-      {
         "date": "2020-01-25",
         "opponent": "Clearwater",
         "home_away": "home",
@@ -91931,19 +91008,6 @@
         "ovr_delta": -12.1
       },
       {
-        "date": "2020-02-10",
-        "opponent": "Adrian",
-        "home_away": "away",
-        "team_score": 39,
-        "opp_score": 71,
-        "result": "L",
-        "predicted_team_score": 55.6,
-        "predicted_opp_score": 63.8,
-        "off_delta": -16.6,
-        "def_delta": -7.2,
-        "ovr_delta": -23.8
-      },
-      {
         "date": "2020-02-11",
         "opponent": "Rich Hill",
         "home_away": "away",
@@ -92625,19 +91689,6 @@
       },
       {
         "date": "2020-01-23",
-        "opponent": "Thayer",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 53.1,
-        "predicted_opp_score": 60.4,
-        "off_delta": -2.1,
-        "def_delta": -0.6,
-        "ovr_delta": -2.7
-      },
-      {
-        "date": "2020-01-24",
         "opponent": "Thayer",
         "home_away": "away",
         "team_score": 51,
@@ -93847,19 +92898,6 @@
         "ovr_delta": 4.8
       },
       {
-        "date": "2020-01-17",
-        "opponent": "Iberia",
-        "home_away": "away",
-        "team_score": 61,
-        "opp_score": 71,
-        "result": "L",
-        "predicted_team_score": 51.3,
-        "predicted_opp_score": 66.1,
-        "off_delta": 9.7,
-        "def_delta": -4.9,
-        "ovr_delta": 4.8
-      },
-      {
         "date": "2020-01-21",
         "opponent": "Blair Oaks",
         "home_away": "home",
@@ -95020,19 +94058,6 @@
         "ovr_delta": 14.5
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Northeast (Kansas City)",
-        "home_away": "away",
-        "team_score": 61,
-        "opp_score": 17,
-        "result": "W",
-        "predicted_team_score": 67.5,
-        "predicted_opp_score": 38.0,
-        "off_delta": -6.5,
-        "def_delta": 21.0,
-        "ovr_delta": 14.5
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Pembroke Hill",
         "home_away": "away",
@@ -95373,19 +94398,6 @@
         "ovr_delta": null
       },
       {
-        "date": "2019-12-29",
-        "opponent": "Ritenour",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 54.2,
-        "predicted_opp_score": 40.8,
-        "off_delta": 10.8,
-        "def_delta": -9.2,
-        "ovr_delta": 1.6
-      },
-      {
         "date": "2020-01-07",
         "opponent": "Vianney",
         "home_away": "home",
@@ -95569,19 +94581,6 @@
       },
       {
         "date": "2020-02-18",
-        "opponent": "McCluer North",
-        "home_away": "home",
-        "team_score": 32,
-        "opp_score": 43,
-        "result": "L",
-        "predicted_team_score": 43.4,
-        "predicted_opp_score": 50.0,
-        "off_delta": -11.4,
-        "def_delta": 7.0,
-        "ovr_delta": -4.4
-      },
-      {
-        "date": "2020-02-20",
         "opponent": "McCluer North",
         "home_away": "home",
         "team_score": 32,
@@ -95804,19 +94803,6 @@
         "ovr_delta": -1.9
       },
       {
-        "date": "2020-01-18",
-        "opponent": "Eugene",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 42,
-        "result": "L",
-        "predicted_team_score": 52.3,
-        "predicted_opp_score": 54.4,
-        "off_delta": -14.3,
-        "def_delta": 12.4,
-        "ovr_delta": -1.9
-      },
-      {
         "date": "2020-01-22",
         "opponent": "Steelville",
         "home_away": "home",
@@ -95831,19 +94817,6 @@
       },
       {
         "date": "2020-01-24",
-        "opponent": "New Bloomfield",
-        "home_away": "home",
-        "team_score": 69,
-        "opp_score": 33,
-        "result": "W",
-        "predicted_team_score": 69.1,
-        "predicted_opp_score": 23.1,
-        "off_delta": -0.1,
-        "def_delta": -9.9,
-        "ovr_delta": -10.0
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "New Bloomfield",
         "home_away": "home",
         "team_score": 69,
@@ -97140,19 +96113,6 @@
         "ovr_delta": 3.6
       },
       {
-        "date": "2019-12-11",
-        "opponent": "Sweet Springs with Malta Bend",
-        "home_away": "away",
-        "team_score": 41,
-        "opp_score": 42,
-        "result": "L",
-        "predicted_team_score": 49.7,
-        "predicted_opp_score": 54.3,
-        "off_delta": -8.7,
-        "def_delta": 12.3,
-        "ovr_delta": 3.6
-      },
-      {
         "date": "2019-12-13",
         "opponent": "Santa Fe",
         "home_away": "away",
@@ -97559,19 +96519,6 @@
       },
       {
         "date": "2020-01-17",
-        "opponent": "Elsberry",
-        "home_away": "home",
-        "team_score": 36,
-        "opp_score": 46,
-        "result": "L",
-        "predicted_team_score": 48.5,
-        "predicted_opp_score": 40.8,
-        "off_delta": -12.5,
-        "def_delta": -5.2,
-        "ovr_delta": -17.7
-      },
-      {
-        "date": "2020-01-21",
         "opponent": "Elsberry",
         "home_away": "home",
         "team_score": 36,
@@ -98913,19 +97860,6 @@
         "ovr_delta": -3.9
       },
       {
-        "date": "2019-12-10",
-        "opponent": "Fox",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 61.8,
-        "predicted_opp_score": 49.9,
-        "off_delta": -3.8,
-        "def_delta": -0.1,
-        "ovr_delta": -3.9
-      },
-      {
         "date": "2019-12-13",
         "opponent": "Priory",
         "home_away": "away",
@@ -100089,19 +99023,6 @@
         "ovr_delta": 10.0
       },
       {
-        "date": "2020-01-14",
-        "opponent": "Climax Springs",
-        "home_away": "home",
-        "team_score": 60,
-        "opp_score": 48,
-        "result": "W",
-        "predicted_team_score": 62.2,
-        "predicted_opp_score": 60.2,
-        "off_delta": -2.2,
-        "def_delta": 12.2,
-        "ovr_delta": 10.0
-      },
-      {
         "date": "2020-01-16",
         "opponent": "Skyline",
         "home_away": "away",
@@ -101121,19 +100042,6 @@
         "ovr_delta": -1.8
       },
       {
-        "date": "2019-12-30",
-        "opponent": "South Pemiscot",
-        "home_away": "away",
-        "team_score": 62,
-        "opp_score": 64,
-        "result": "L",
-        "predicted_team_score": 52.0,
-        "predicted_opp_score": 52.2,
-        "off_delta": 10.0,
-        "def_delta": -11.8,
-        "ovr_delta": -1.8
-      },
-      {
         "date": "2020-01-07",
         "opponent": "Caruthersville",
         "home_away": "home",
@@ -101567,19 +100475,6 @@
         "off_delta": -3.9,
         "def_delta": 16.1,
         "ovr_delta": 12.2
-      },
-      {
-        "date": "2020-01-15",
-        "opponent": "Bradleyville",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 66.3,
-        "predicted_opp_score": 61.5,
-        "off_delta": -2.3,
-        "def_delta": -4.5,
-        "ovr_delta": -6.8
       },
       {
         "date": "2020-01-24",
@@ -105221,19 +104116,6 @@
         "ovr_delta": 3.7
       },
       {
-        "date": "2020-02-27",
-        "opponent": "McDonald County",
-        "home_away": "away",
-        "team_score": 78,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 65.3,
-        "predicted_opp_score": 45.6,
-        "off_delta": 12.7,
-        "def_delta": 4.6,
-        "ovr_delta": 17.3
-      },
-      {
         "date": "2020-02-29",
         "opponent": "Hillcrest",
         "home_away": "away",
@@ -107138,19 +106020,6 @@
         "ovr_delta": 4.4
       },
       {
-        "date": "2020-02-20",
-        "opponent": "Lindbergh",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 32,
-        "result": "W",
-        "predicted_team_score": 50.0,
-        "predicted_opp_score": 43.4,
-        "off_delta": -7.0,
-        "def_delta": 11.4,
-        "ovr_delta": 4.4
-      },
-      {
         "date": "2020-02-25",
         "opponent": "Hazelwood West",
         "home_away": "home",
@@ -107521,19 +106390,6 @@
         "ovr_delta": -17.3
       },
       {
-        "date": "2020-02-27",
-        "opponent": "Marshfield",
-        "home_away": "home",
-        "team_score": 41,
-        "opp_score": 78,
-        "result": "L",
-        "predicted_team_score": 45.6,
-        "predicted_opp_score": 65.3,
-        "off_delta": -4.6,
-        "def_delta": -12.7,
-        "ovr_delta": -17.3
-      },
-      {
         "date": "2020-02-29",
         "opponent": "Monett",
         "home_away": "home",
@@ -107720,19 +106576,6 @@
         "ovr_delta": -6.8
       },
       {
-        "date": "2020-01-10",
-        "opponent": "Cleveland NJROTC",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 67.7,
-        "predicted_opp_score": 52.9,
-        "off_delta": -9.7,
-        "def_delta": 2.9,
-        "ovr_delta": -6.8
-      },
-      {
         "date": "2020-01-15",
         "opponent": "John Burroughs",
         "home_away": "home",
@@ -107822,19 +106665,6 @@
         "off_delta": 0.8,
         "def_delta": 8.0,
         "ovr_delta": 8.8
-      },
-      {
-        "date": "2020-01-31",
-        "opponent": "Transportation and Law",
-        "home_away": "away",
-        "team_score": 66,
-        "opp_score": 48,
-        "result": "W",
-        "predicted_team_score": 72.1,
-        "predicted_opp_score": 41.0,
-        "off_delta": -6.1,
-        "def_delta": -7.0,
-        "ovr_delta": -13.1
       },
       {
         "date": "2020-02-11",
@@ -111072,19 +109902,6 @@
         "ovr_delta": -2.9
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Lakeland",
-        "home_away": "home",
-        "team_score": 30,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 35.5,
-        "predicted_opp_score": 79.6,
-        "off_delta": -5.5,
-        "def_delta": 2.6,
-        "ovr_delta": -2.9
-      },
-      {
         "date": "2019-12-19",
         "opponent": "Archie",
         "home_away": "home",
@@ -111748,19 +110565,6 @@
         "off_delta": -6.7,
         "def_delta": -4.9,
         "ovr_delta": -11.6
-      },
-      {
-        "date": "2020-03-14",
-        "opponent": "Oran",
-        "home_away": "home",
-        "team_score": 0,
-        "opp_score": 0,
-        "result": "T",
-        "predicted_team_score": 56.0,
-        "predicted_opp_score": 57.3,
-        "off_delta": -56.0,
-        "def_delta": 57.3,
-        "ovr_delta": 1.3
       }
     ],
     "Mill Valley(Shawnee, KS)": [
@@ -114574,19 +113378,6 @@
       },
       {
         "date": "2019-12-02",
-        "opponent": "Bronaugh",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 55.4,
-        "predicted_opp_score": 45.6,
-        "off_delta": -5.4,
-        "def_delta": 7.6,
-        "ovr_delta": 2.2
-      },
-      {
-        "date": "2019-12-03",
         "opponent": "Bronaugh",
         "home_away": "away",
         "team_score": 50,
@@ -117724,19 +116515,6 @@
       },
       {
         "date": "2019-12-06",
-        "opponent": "Russellville",
-        "home_away": "away",
-        "team_score": 72,
-        "opp_score": 68,
-        "result": "W",
-        "predicted_team_score": 57.8,
-        "predicted_opp_score": 61.1,
-        "off_delta": 14.2,
-        "def_delta": -6.9,
-        "ovr_delta": 7.3
-      },
-      {
-        "date": "2019-12-06",
         "opponent": "Vienna",
         "home_away": "away",
         "team_score": 36,
@@ -117867,19 +116645,6 @@
       },
       {
         "date": "2020-01-24",
-        "opponent": "Linn",
-        "home_away": "away",
-        "team_score": 33,
-        "opp_score": 69,
-        "result": "L",
-        "predicted_team_score": 23.1,
-        "predicted_opp_score": 69.1,
-        "off_delta": 9.9,
-        "def_delta": 0.1,
-        "ovr_delta": 10.0
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "Linn",
         "home_away": "away",
         "team_score": 33,
@@ -118168,19 +116933,6 @@
       },
       {
         "date": "2020-01-23",
-        "opponent": "Everton",
-        "home_away": "home",
-        "team_score": 60,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 51.9,
-        "predicted_opp_score": 53.3,
-        "off_delta": 8.1,
-        "def_delta": -1.7,
-        "ovr_delta": 6.4
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "Everton",
         "home_away": "home",
         "team_score": 60,
@@ -118783,19 +117535,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "Pacific",
-        "home_away": "away",
-        "team_score": 63,
-        "opp_score": 56,
-        "result": "W",
-        "predicted_team_score": 56.5,
-        "predicted_opp_score": 56.3,
-        "off_delta": 6.5,
-        "def_delta": 0.3,
-        "ovr_delta": 6.8
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "Pacific",
         "home_away": "away",
         "team_score": 63,
@@ -120644,19 +119383,6 @@
         "ovr_delta": 0.8
       },
       {
-        "date": "2020-01-10",
-        "opponent": "Stewartsville",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 69,
-        "result": "L",
-        "predicted_team_score": 36.4,
-        "predicted_opp_score": 68.2,
-        "off_delta": 1.6,
-        "def_delta": -0.8,
-        "ovr_delta": 0.8
-      },
-      {
         "date": "2020-01-13",
         "opponent": "Tarkio with Fairfax",
         "home_away": "away",
@@ -122192,19 +120918,6 @@
         "ovr_delta": -17.6
       },
       {
-        "date": "2019-12-07",
-        "opponent": "DeSoto",
-        "home_away": "home",
-        "team_score": 52,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 61.0,
-        "predicted_opp_score": 50.7,
-        "off_delta": -9.0,
-        "def_delta": 0.7,
-        "ovr_delta": -8.3
-      },
-      {
         "date": "2019-12-10",
         "opponent": "Arcadia Valley",
         "home_away": "home",
@@ -123044,19 +121757,6 @@
       },
       {
         "date": "2019-12-19",
-        "opponent": "Oak Park",
-        "home_away": "away",
-        "team_score": 70,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 63.5,
-        "predicted_opp_score": 44.2,
-        "off_delta": 6.5,
-        "def_delta": -0.8,
-        "ovr_delta": 5.7
-      },
-      {
-        "date": "2019-12-20",
         "opponent": "Oak Park",
         "home_away": "away",
         "team_score": 70,
@@ -123918,19 +122618,6 @@
         "ovr_delta": 11.2
       },
       {
-        "date": "2020-02-10",
-        "opponent": "Gideon",
-        "home_away": "home",
-        "team_score": 27,
-        "opp_score": 80,
-        "result": "L",
-        "predicted_team_score": 18.4,
-        "predicted_opp_score": 82.6,
-        "off_delta": 8.6,
-        "def_delta": 2.6,
-        "ovr_delta": 11.2
-      },
-      {
         "date": "2020-02-11",
         "opponent": "Gideon",
         "home_away": "home",
@@ -124469,19 +123156,6 @@
       },
       {
         "date": "2020-01-22",
-        "opponent": "South Shelby",
-        "home_away": "away",
-        "team_score": 57,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 53.6,
-        "predicted_opp_score": 49.7,
-        "off_delta": 3.4,
-        "def_delta": -13.3,
-        "ovr_delta": -9.9
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "South Shelby",
         "home_away": "away",
         "team_score": 57,
@@ -125475,19 +124149,6 @@
         "ovr_delta": -14.5
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Lincoln College Prep",
-        "home_away": "home",
-        "team_score": 17,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 38.0,
-        "predicted_opp_score": 67.5,
-        "off_delta": -21.0,
-        "def_delta": 6.5,
-        "ovr_delta": -14.5
-      },
-      {
         "date": "2019-12-26",
         "opponent": "Central (New Madrid County)",
         "home_away": "away",
@@ -126261,19 +124922,6 @@
         "ovr_delta": 11.8
       },
       {
-        "date": "2020-02-10",
-        "opponent": "Ballard",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 42,
-        "result": "W",
-        "predicted_team_score": 56.6,
-        "predicted_opp_score": 46.3,
-        "off_delta": 6.4,
-        "def_delta": 4.3,
-        "ovr_delta": 10.7
-      },
-      {
         "date": "2020-02-13",
         "opponent": "Greenfield",
         "home_away": "home",
@@ -126551,19 +125199,6 @@
         "off_delta": 12.3,
         "def_delta": -1.4,
         "ovr_delta": 10.9
-      },
-      {
-        "date": "2020-01-14",
-        "opponent": "Van Horn",
-        "home_away": "home",
-        "team_score": 29,
-        "opp_score": 75,
-        "result": "L",
-        "predicted_team_score": 37.2,
-        "predicted_opp_score": 87.5,
-        "off_delta": -8.2,
-        "def_delta": 12.5,
-        "ovr_delta": 4.3
       },
       {
         "date": "2020-01-18",
@@ -127620,19 +126255,6 @@
         "ovr_delta": -15.5
       },
       {
-        "date": "2020-01-17",
-        "opponent": "Grundy County with Newtown-Harris",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 64.5,
-        "predicted_opp_score": 58.0,
-        "off_delta": 0.5,
-        "def_delta": -16.0,
-        "ovr_delta": -15.5
-      },
-      {
         "date": "2020-01-21",
         "opponent": "Bevier",
         "home_away": "away",
@@ -127725,19 +126347,6 @@
       },
       {
         "date": "2020-02-13",
-        "opponent": "Keytesville",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 63,
-        "result": "W",
-        "predicted_team_score": 52.9,
-        "predicted_opp_score": 68.1,
-        "off_delta": 13.1,
-        "def_delta": 5.1,
-        "ovr_delta": 18.2
-      },
-      {
-        "date": "2020-02-14",
         "opponent": "Keytesville",
         "home_away": "home",
         "team_score": 66,
@@ -128262,19 +126871,6 @@
       },
       {
         "date": "2019-12-12",
-        "opponent": "Central (New Madrid County)",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 60.1,
-        "predicted_opp_score": 47.2,
-        "off_delta": 0.9,
-        "def_delta": 0.2,
-        "ovr_delta": 1.1
-      },
-      {
-        "date": "2019-12-13",
         "opponent": "Central (New Madrid County)",
         "home_away": "home",
         "team_score": 61,
@@ -129090,19 +127686,6 @@
         "ovr_delta": 8.4
       },
       {
-        "date": "2020-01-09",
-        "opponent": "Van Horn",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 54,
-        "result": "W",
-        "predicted_team_score": 61.6,
-        "predicted_opp_score": 67.0,
-        "off_delta": -4.6,
-        "def_delta": 13.0,
-        "ovr_delta": 8.4
-      },
-      {
         "date": "2020-01-10",
         "opponent": "Pleasant Hill",
         "home_away": "away",
@@ -129409,19 +127992,6 @@
       },
       {
         "date": "2019-12-19",
-        "opponent": "North Kansas City",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 70,
-        "result": "L",
-        "predicted_team_score": 44.2,
-        "predicted_opp_score": 63.5,
-        "off_delta": 0.8,
-        "def_delta": -6.5,
-        "ovr_delta": -5.7
-      },
-      {
-        "date": "2019-12-20",
         "opponent": "North Kansas City",
         "home_away": "home",
         "team_score": 45,
@@ -130231,19 +128801,6 @@
         "ovr_delta": 7.8
       },
       {
-        "date": "2020-01-16",
-        "opponent": "Duchesne",
-        "home_away": "away",
-        "team_score": 41,
-        "opp_score": 25,
-        "result": "W",
-        "predicted_team_score": 45.9,
-        "predicted_opp_score": 37.7,
-        "off_delta": -4.9,
-        "def_delta": 12.7,
-        "ovr_delta": 7.8
-      },
-      {
         "date": "2020-01-18",
         "opponent": "Battle",
         "home_away": "away",
@@ -130597,19 +129154,6 @@
         "ovr_delta": -2.4
       },
       {
-        "date": "2020-01-18",
-        "opponent": "Grain Valley",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 54.2,
-        "predicted_opp_score": 61.8,
-        "off_delta": -4.2,
-        "def_delta": 1.8,
-        "ovr_delta": -2.4
-      },
-      {
         "date": "2020-01-21",
         "opponent": "Lone Jack",
         "home_away": "home",
@@ -130934,21 +129478,7 @@
         "ovr_delta": null
       }
     ],
-    "Omaha(Omaha, AR)": [
-      {
-        "date": "2020-02-03",
-        "opponent": "Hollister",
-        "home_away": "away",
-        "team_score": 0,
-        "opp_score": 2,
-        "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
-      }
-    ],
+    "Omaha(Omaha, AR)": [],
     "Oran": [
       {
         "date": "2019-12-02",
@@ -131365,19 +129895,6 @@
         "off_delta": -1.9,
         "def_delta": -9.1,
         "ovr_delta": -11.0
-      },
-      {
-        "date": "2020-03-14",
-        "opponent": "Milan",
-        "home_away": "away",
-        "team_score": 0,
-        "opp_score": 0,
-        "result": "T",
-        "predicted_team_score": 57.3,
-        "predicted_opp_score": 56.0,
-        "off_delta": -57.3,
-        "def_delta": 56.0,
-        "ovr_delta": -1.3
       }
     ],
     "Oran(Oran , TN)": [
@@ -131789,19 +130306,6 @@
         "ovr_delta": -11.7
       },
       {
-        "date": "2019-12-13",
-        "opponent": "Crest Ridge",
-        "home_away": "home",
-        "team_score": 44,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 43.6,
-        "predicted_opp_score": 61.9,
-        "off_delta": 0.4,
-        "def_delta": -12.1,
-        "ovr_delta": -11.7
-      },
-      {
         "date": "2019-12-14",
         "opponent": "Wellington-Napoleon",
         "home_away": "away",
@@ -131839,19 +130343,6 @@
         "off_delta": 6.1,
         "def_delta": -0.5,
         "ovr_delta": 5.6
-      },
-      {
-        "date": "2019-12-20",
-        "opponent": "Santa Fe",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 29,
-        "result": "W",
-        "predicted_team_score": 51.2,
-        "predicted_opp_score": 34.6,
-        "off_delta": -0.2,
-        "def_delta": 5.6,
-        "ovr_delta": 5.4
       },
       {
         "date": "2020-01-03",
@@ -132587,19 +131078,6 @@
       },
       {
         "date": "2020-01-14",
-        "opponent": "Union Star",
-        "home_away": "away",
-        "team_score": 85,
-        "opp_score": 26,
-        "result": "W",
-        "predicted_team_score": 61.4,
-        "predicted_opp_score": 30.1,
-        "off_delta": 23.6,
-        "def_delta": 4.1,
-        "ovr_delta": 27.7
-      },
-      {
-        "date": "2020-01-15",
         "opponent": "Union Star",
         "home_away": "away",
         "team_score": 85,
@@ -134388,19 +132866,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "New Haven",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 56.3,
-        "predicted_opp_score": 56.5,
-        "off_delta": -0.3,
-        "def_delta": -6.5,
-        "ovr_delta": -6.8
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "New Haven",
         "home_away": "home",
         "team_score": 56,
@@ -136754,19 +135219,6 @@
         "ovr_delta": -5.5
       },
       {
-        "date": "2020-02-27",
-        "opponent": "Parkway West",
-        "home_away": "away",
-        "team_score": 39,
-        "opp_score": 43,
-        "result": "L",
-        "predicted_team_score": 46.7,
-        "predicted_opp_score": 45.2,
-        "off_delta": -7.7,
-        "def_delta": 2.2,
-        "ovr_delta": -5.5
-      },
-      {
         "date": "2020-02-29",
         "opponent": "Francis Howell North",
         "home_away": "home",
@@ -137343,19 +135795,6 @@
         "ovr_delta": 5.8
       },
       {
-        "date": "2020-01-23",
-        "opponent": "Rockwood Summit",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 49.0,
-        "predicted_opp_score": 49.1,
-        "off_delta": -2.0,
-        "def_delta": -3.9,
-        "ovr_delta": -5.9
-      },
-      {
         "date": "2020-01-24",
         "opponent": "Eureka",
         "home_away": "home",
@@ -137801,19 +136240,6 @@
       },
       {
         "date": "2020-02-26",
-        "opponent": "Parkway Central",
-        "home_away": "home",
-        "team_score": 43,
-        "opp_score": 39,
-        "result": "W",
-        "predicted_team_score": 45.2,
-        "predicted_opp_score": 46.7,
-        "off_delta": -2.2,
-        "def_delta": 7.7,
-        "ovr_delta": 5.5
-      },
-      {
-        "date": "2020-02-27",
         "opponent": "Parkway Central",
         "home_away": "home",
         "team_score": 43,
@@ -138277,19 +136703,6 @@
       },
       {
         "date": "2019-12-03",
-        "opponent": "Whitfield",
-        "home_away": "away",
-        "team_score": 64,
-        "opp_score": 62,
-        "result": "W",
-        "predicted_team_score": 65.9,
-        "predicted_opp_score": 62.9,
-        "off_delta": -1.9,
-        "def_delta": 0.9,
-        "ovr_delta": -1.0
-      },
-      {
-        "date": "2019-12-04",
         "opponent": "Whitfield",
         "home_away": "away",
         "team_score": 64,
@@ -138833,45 +137246,6 @@
       },
       {
         "date": "2020-01-11",
-        "opponent": "Summit Christian Academy",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 63.0,
-        "predicted_opp_score": 66.3,
-        "off_delta": -4.0,
-        "def_delta": 1.3,
-        "ovr_delta": -2.7
-      },
-      {
-        "date": "2020-01-14",
-        "opponent": "Pleasant Hill",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 64.0,
-        "predicted_opp_score": 57.8,
-        "off_delta": -6.0,
-        "def_delta": 2.8,
-        "ovr_delta": -3.2
-      },
-      {
-        "date": "2020-01-15",
-        "opponent": "Grain Valley",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 56.8,
-        "predicted_opp_score": 63.0,
-        "off_delta": 2.2,
-        "def_delta": -14.0,
-        "ovr_delta": -11.8
-      },
-      {
-        "date": "2020-01-18",
         "opponent": "Summit Christian Academy",
         "home_away": "away",
         "team_score": 59,
@@ -141100,19 +139474,6 @@
         "ovr_delta": 3.4
       },
       {
-        "date": "2020-01-10",
-        "opponent": "Grandview",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 45.7,
-        "predicted_opp_score": 64.1,
-        "off_delta": -0.7,
-        "def_delta": 4.1,
-        "ovr_delta": 3.4
-      },
-      {
         "date": "2020-01-14",
         "opponent": "Blue Springs",
         "home_away": "home",
@@ -141830,19 +140191,6 @@
         "off_delta": -15.3,
         "def_delta": -2.3,
         "ovr_delta": -17.6
-      },
-      {
-        "date": "2020-01-14",
-        "opponent": "Pembroke Hill",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 57.8,
-        "predicted_opp_score": 64.0,
-        "off_delta": -2.8,
-        "def_delta": 6.0,
-        "ovr_delta": 3.2
       },
       {
         "date": "2020-01-15",
@@ -142651,19 +140999,6 @@
       },
       {
         "date": "2020-01-24",
-        "opponent": "Princeton",
-        "home_away": "home",
-        "team_score": 52,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 34.3,
-        "predicted_opp_score": 59.8,
-        "off_delta": 17.7,
-        "def_delta": -6.2,
-        "ovr_delta": 11.5
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "Princeton",
         "home_away": "home",
         "team_score": 52,
@@ -143579,19 +141914,6 @@
         "ovr_delta": 3.2
       },
       {
-        "date": "2019-12-27",
-        "opponent": "Central (Park Hills)",
-        "home_away": "away",
-        "team_score": 36,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 45.4,
-        "predicted_opp_score": 75.6,
-        "off_delta": -9.4,
-        "def_delta": 12.6,
-        "ovr_delta": 3.2
-      },
-      {
         "date": "2019-12-28",
         "opponent": "DeSoto",
         "home_away": "home",
@@ -144351,19 +142673,6 @@
       },
       {
         "date": "2020-01-24",
-        "opponent": "Polo",
-        "home_away": "away",
-        "team_score": 66,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 59.8,
-        "predicted_opp_score": 34.3,
-        "off_delta": 6.2,
-        "def_delta": -17.7,
-        "ovr_delta": -11.5
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "Polo",
         "home_away": "away",
         "team_score": 66,
@@ -146094,19 +144403,6 @@
       },
       {
         "date": "2019-12-03",
-        "opponent": "Bloomfield",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 54,
-        "result": "W",
-        "predicted_team_score": 56.7,
-        "predicted_opp_score": 54.7,
-        "off_delta": -0.7,
-        "def_delta": 0.7,
-        "ovr_delta": 0.0
-      },
-      {
-        "date": "2019-12-04",
         "opponent": "Bloomfield",
         "home_away": "home",
         "team_score": 56,
@@ -148548,19 +146844,6 @@
         "ovr_delta": -10.5
       },
       {
-        "date": "2020-01-25",
-        "opponent": "Sherwood",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 67,
-        "result": "L",
-        "predicted_team_score": 55.9,
-        "predicted_opp_score": 67.4,
-        "off_delta": -10.9,
-        "def_delta": 0.4,
-        "ovr_delta": -10.5
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Warsaw",
         "home_away": "away",
@@ -148914,19 +147197,6 @@
         "ovr_delta": -5.9
       },
       {
-        "date": "2020-01-25",
-        "opponent": "Belle",
-        "home_away": "away",
-        "team_score": 84,
-        "opp_score": 66,
-        "result": "W",
-        "predicted_team_score": 76.0,
-        "predicted_opp_score": 52.1,
-        "off_delta": 8.0,
-        "def_delta": -13.9,
-        "ovr_delta": -5.9
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Dixon",
         "home_away": "away",
@@ -149229,19 +147499,6 @@
       },
       {
         "date": "2020-01-16",
-        "opponent": "Advance",
-        "home_away": "away",
-        "team_score": 61,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 51.5,
-        "predicted_opp_score": 81.6,
-        "off_delta": 9.5,
-        "def_delta": 18.6,
-        "ovr_delta": 28.1
-      },
-      {
-        "date": "2020-01-17",
         "opponent": "Advance",
         "home_away": "away",
         "team_score": 61,
@@ -150038,19 +148295,6 @@
         "ovr_delta": 11.2
       },
       {
-        "date": "2020-02-14",
-        "opponent": "Gilman City with North Daviess",
-        "home_away": "home",
-        "team_score": 74,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 67.5,
-        "predicted_opp_score": 42.7,
-        "off_delta": 6.5,
-        "def_delta": 4.7,
-        "ovr_delta": 11.2
-      },
-      {
         "date": "2020-02-17",
         "opponent": "Tri-County",
         "home_away": "away",
@@ -150588,19 +148832,6 @@
         "ovr_delta": 2.1
       },
       {
-        "date": "2019-12-29",
-        "opponent": "Lindbergh",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 40.8,
-        "predicted_opp_score": 54.2,
-        "off_delta": 9.2,
-        "def_delta": -10.8,
-        "ovr_delta": -1.6
-      },
-      {
         "date": "2020-01-06",
         "opponent": "Parkway South",
         "home_away": "home",
@@ -151097,19 +149328,6 @@
       },
       {
         "date": "2020-01-15",
-        "opponent": "Westminster Christian Academy",
-        "home_away": "away",
-        "team_score": 42,
-        "opp_score": 62,
-        "result": "L",
-        "predicted_team_score": 40.9,
-        "predicted_opp_score": 65.3,
-        "off_delta": 1.1,
-        "def_delta": 3.3,
-        "ovr_delta": 4.4
-      },
-      {
-        "date": "2020-01-16",
         "opponent": "Westminster Christian Academy",
         "home_away": "away",
         "team_score": 42,
@@ -152512,19 +150730,6 @@
         "ovr_delta": -0.5
       },
       {
-        "date": "2020-01-23",
-        "opponent": "Parkway South",
-        "home_away": "away",
-        "team_score": 53,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 49.1,
-        "predicted_opp_score": 49.0,
-        "off_delta": 3.9,
-        "def_delta": 2.0,
-        "ovr_delta": 5.9
-      },
-      {
         "date": "2020-01-24",
         "opponent": "Hazelwood West",
         "home_away": "home",
@@ -152832,19 +151037,6 @@
         "ovr_delta": 27.0
       },
       {
-        "date": "2019-12-19",
-        "opponent": "Salem",
-        "home_away": "away",
-        "team_score": 74,
-        "opp_score": 42,
-        "result": "W",
-        "predicted_team_score": 64.9,
-        "predicted_opp_score": 59.9,
-        "off_delta": 9.1,
-        "def_delta": 17.9,
-        "ovr_delta": 27.0
-      },
-      {
         "date": "2019-12-26",
         "opponent": "Mexico",
         "home_away": "home",
@@ -152950,19 +151142,6 @@
       },
       {
         "date": "2020-01-22",
-        "opponent": "Salem",
-        "home_away": "home",
-        "team_score": 68,
-        "opp_score": 85,
-        "result": "L",
-        "predicted_team_score": 64.9,
-        "predicted_opp_score": 59.9,
-        "off_delta": 3.1,
-        "def_delta": -25.1,
-        "ovr_delta": -22.0
-      },
-      {
-        "date": "2020-01-24",
         "opponent": "Salem",
         "home_away": "home",
         "team_score": 68,
@@ -153581,19 +151760,6 @@
         "ovr_delta": -3.6
       },
       {
-        "date": "2019-12-18",
-        "opponent": "Lee's Summit North",
-        "home_away": "away",
-        "team_score": 73,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 70.8,
-        "predicted_opp_score": 53.2,
-        "off_delta": 2.2,
-        "def_delta": -5.8,
-        "ovr_delta": -3.6
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Rockhurst",
         "home_away": "home",
@@ -153906,19 +152072,6 @@
         "off_delta": 5.3,
         "def_delta": -8.8,
         "ovr_delta": -3.5
-      },
-      {
-        "date": "2019-12-06",
-        "opponent": "New Bloomfield",
-        "home_away": "home",
-        "team_score": 68,
-        "opp_score": 72,
-        "result": "L",
-        "predicted_team_score": 61.1,
-        "predicted_opp_score": 57.8,
-        "off_delta": 6.9,
-        "def_delta": -14.2,
-        "ovr_delta": -7.3
       },
       {
         "date": "2019-12-09",
@@ -154969,19 +153122,6 @@
         "ovr_delta": -2.2
       },
       {
-        "date": "2020-01-25",
-        "opponent": "La Monte",
-        "home_away": "home",
-        "team_score": 68,
-        "opp_score": 30,
-        "result": "W",
-        "predicted_team_score": 68.7,
-        "predicted_opp_score": 28.5,
-        "off_delta": -0.7,
-        "def_delta": -1.5,
-        "ovr_delta": -2.2
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Windsor",
         "home_away": "away",
@@ -155306,19 +153446,6 @@
         "ovr_delta": -27.0
       },
       {
-        "date": "2019-12-19",
-        "opponent": "Rolla",
-        "home_away": "home",
-        "team_score": 42,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 59.9,
-        "predicted_opp_score": 64.9,
-        "off_delta": -17.9,
-        "def_delta": -9.1,
-        "ovr_delta": -27.0
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Cuba",
         "home_away": "home",
@@ -155398,19 +153525,6 @@
       },
       {
         "date": "2020-01-22",
-        "opponent": "Rolla",
-        "home_away": "away",
-        "team_score": 85,
-        "opp_score": 68,
-        "result": "W",
-        "predicted_team_score": 59.9,
-        "predicted_opp_score": 64.9,
-        "off_delta": 25.1,
-        "def_delta": -3.1,
-        "ovr_delta": 22.0
-      },
-      {
-        "date": "2020-01-24",
         "opponent": "Rolla",
         "home_away": "away",
         "team_score": 85,
@@ -155541,19 +153655,6 @@
       },
       {
         "date": "2020-02-20",
-        "opponent": "Cabool",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 67.0,
-        "predicted_opp_score": 50.9,
-        "off_delta": -1.0,
-        "def_delta": 13.9,
-        "ovr_delta": 12.9
-      },
-      {
-        "date": "2020-02-21",
         "opponent": "Cabool",
         "home_away": "home",
         "team_score": 66,
@@ -156051,19 +154152,6 @@
         "off_delta": -3.9,
         "def_delta": 2.5,
         "ovr_delta": -1.4
-      },
-      {
-        "date": "2019-12-20",
-        "opponent": "Orrick",
-        "home_away": "home",
-        "team_score": 29,
-        "opp_score": 51,
-        "result": "L",
-        "predicted_team_score": 34.6,
-        "predicted_opp_score": 51.2,
-        "off_delta": -5.6,
-        "def_delta": 0.2,
-        "ovr_delta": -5.4
       },
       {
         "date": "2019-12-21",
@@ -161200,19 +159288,6 @@
         "ovr_delta": 10.5
       },
       {
-        "date": "2020-01-25",
-        "opponent": "Rich Hill",
-        "home_away": "home",
-        "team_score": 67,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 67.4,
-        "predicted_opp_score": 55.9,
-        "off_delta": -0.4,
-        "def_delta": 10.9,
-        "ovr_delta": 10.5
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Concordia",
         "home_away": "home",
@@ -164175,19 +162250,6 @@
         "ovr_delta": -1.2
       },
       {
-        "date": "2020-02-13",
-        "opponent": "KIPP St. Louis Sr.",
-        "home_away": "away",
-        "team_score": 68,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 62.4,
-        "predicted_opp_score": 37.2,
-        "off_delta": 5.6,
-        "def_delta": -6.8,
-        "ovr_delta": -1.2
-      },
-      {
         "date": "2020-02-18",
         "opponent": "SLUH",
         "home_away": "home",
@@ -164386,19 +162448,6 @@
       },
       {
         "date": "2020-01-21",
-        "opponent": "Chamois",
-        "home_away": "away",
-        "team_score": 36,
-        "opp_score": 52,
-        "result": "L",
-        "predicted_team_score": 50.1,
-        "predicted_opp_score": 54.1,
-        "off_delta": -14.1,
-        "def_delta": 2.1,
-        "ovr_delta": -12.0
-      },
-      {
-        "date": "2020-01-25",
         "opponent": "Chamois",
         "home_away": "away",
         "team_score": 36,
@@ -165786,32 +163835,6 @@
         "ovr_delta": -19.0
       },
       {
-        "date": "2019-12-30",
-        "opponent": "Malden",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 62,
-        "result": "W",
-        "predicted_team_score": 52.2,
-        "predicted_opp_score": 52.0,
-        "off_delta": 11.8,
-        "def_delta": -10.0,
-        "ovr_delta": 1.8
-      },
-      {
-        "date": "2019-12-31",
-        "opponent": "Gideon",
-        "home_away": "home",
-        "team_score": 37,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 52.0,
-        "predicted_opp_score": 52.0,
-        "off_delta": -15.0,
-        "def_delta": -4.0,
-        "ovr_delta": -19.0
-      },
-      {
         "date": "2020-01-07",
         "opponent": "Risco",
         "home_away": "away",
@@ -166204,19 +164227,6 @@
         "ovr_delta": 9.9
       },
       {
-        "date": "2020-01-25",
-        "opponent": "North Shelby",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 57,
-        "result": "W",
-        "predicted_team_score": 49.7,
-        "predicted_opp_score": 53.6,
-        "off_delta": 13.3,
-        "def_delta": -3.4,
-        "ovr_delta": 9.9
-      },
-      {
         "date": "2020-01-28",
         "opponent": "Macon",
         "home_away": "home",
@@ -166458,19 +164468,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "Central (Kansas City)",
-        "home_away": "home",
-        "team_score": 36,
-        "opp_score": 47,
-        "result": "L",
-        "predicted_team_score": 39.9,
-        "predicted_opp_score": 54.1,
-        "off_delta": -3.9,
-        "def_delta": 7.1,
-        "ovr_delta": 3.2
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "Central (Kansas City)",
         "home_away": "home",
         "team_score": 36,
@@ -167798,19 +165795,6 @@
       },
       {
         "date": "2019-12-06",
-        "opponent": "Greenfield",
-        "home_away": "home",
-        "team_score": 52,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 54.1,
-        "predicted_opp_score": 58.5,
-        "off_delta": -2.1,
-        "def_delta": 5.5,
-        "ovr_delta": 3.4
-      },
-      {
-        "date": "2019-12-07",
         "opponent": "Greenfield",
         "home_away": "home",
         "team_score": 52,
@@ -169990,19 +167974,6 @@
         "ovr_delta": 2.4
       },
       {
-        "date": "2019-12-03",
-        "opponent": "Sullivan",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 48.4,
-        "predicted_opp_score": 57.8,
-        "off_delta": 2.6,
-        "def_delta": -0.2,
-        "ovr_delta": 2.4
-      },
-      {
         "date": "2019-12-04",
         "opponent": "Salem",
         "home_away": "away",
@@ -171533,19 +169504,6 @@
       },
       {
         "date": "2019-12-16",
-        "opponent": "Union",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 24,
-        "result": "W",
-        "predicted_team_score": 64.7,
-        "predicted_opp_score": 34.0,
-        "off_delta": -6.7,
-        "def_delta": 10.0,
-        "ovr_delta": 3.3
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "Union",
         "home_away": "home",
         "team_score": 58,
@@ -173850,19 +171808,6 @@
         "ovr_delta": -2.6
       },
       {
-        "date": "2019-12-19",
-        "opponent": "Valley",
-        "home_away": "away",
-        "team_score": 41,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 42.8,
-        "predicted_opp_score": 58.2,
-        "off_delta": -1.8,
-        "def_delta": -0.8,
-        "ovr_delta": -2.6
-      },
-      {
         "date": "2019-12-26",
         "opponent": "Orchard Farm",
         "home_away": "home",
@@ -174165,19 +172110,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "Central (Park Hills)",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 68,
-        "result": "L",
-        "predicted_team_score": 54.2,
-        "predicted_opp_score": 66.4,
-        "off_delta": -4.2,
-        "def_delta": -1.6,
-        "ovr_delta": -5.8
-      },
-      {
-        "date": "2019-12-18",
         "opponent": "Central (Park Hills)",
         "home_away": "home",
         "team_score": 50,
@@ -176001,19 +173933,6 @@
       },
       {
         "date": "2019-12-07",
-        "opponent": "DeSoto",
-        "home_away": "home",
-        "team_score": 66,
-        "opp_score": 64,
-        "result": "W",
-        "predicted_team_score": 60.8,
-        "predicted_opp_score": 54.4,
-        "off_delta": 5.2,
-        "def_delta": -9.6,
-        "ovr_delta": -4.4
-      },
-      {
-        "date": "2019-12-07",
         "opponent": "Fox",
         "home_away": "home",
         "team_score": 63,
@@ -176862,19 +174781,6 @@
         "ovr_delta": -0.8
       },
       {
-        "date": "2020-01-10",
-        "opponent": "Nodaway-Holt",
-        "home_away": "home",
-        "team_score": 69,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 68.2,
-        "predicted_opp_score": 36.4,
-        "off_delta": 0.8,
-        "def_delta": -1.6,
-        "ovr_delta": -0.8
-      },
-      {
         "date": "2020-01-13",
         "opponent": "Polo",
         "home_away": "home",
@@ -177164,19 +175070,6 @@
       },
       {
         "date": "2019-12-17",
-        "opponent": "Butler",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 56.4,
-        "predicted_opp_score": 52.6,
-        "off_delta": 2.6,
-        "def_delta": 11.6,
-        "ovr_delta": 14.2
-      },
-      {
-        "date": "2019-12-19",
         "opponent": "Butler",
         "home_away": "away",
         "team_score": 59,
@@ -178904,19 +176797,6 @@
         "ovr_delta": -2.4
       },
       {
-        "date": "2019-12-03",
-        "opponent": "St. Clair",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 57.8,
-        "predicted_opp_score": 48.4,
-        "off_delta": 0.2,
-        "def_delta": -2.6,
-        "ovr_delta": -2.4
-      },
-      {
         "date": "2019-12-05",
         "opponent": "Farmington",
         "home_away": "home",
@@ -179701,19 +177581,6 @@
         "ovr_delta": -11.6
       },
       {
-        "date": "2020-01-18",
-        "opponent": "Pembroke Hill",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 66.3,
-        "predicted_opp_score": 63.0,
-        "off_delta": -1.3,
-        "def_delta": 4.0,
-        "ovr_delta": 2.7
-      },
-      {
         "date": "2020-01-21",
         "opponent": "Van Horn",
         "home_away": "away",
@@ -180243,19 +178110,6 @@
       },
       {
         "date": "2019-12-10",
-        "opponent": "Lone Jack",
-        "home_away": "home",
-        "team_score": 42,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 54.3,
-        "predicted_opp_score": 49.7,
-        "off_delta": -12.3,
-        "def_delta": 8.7,
-        "ovr_delta": -3.6
-      },
-      {
-        "date": "2019-12-11",
         "opponent": "Lone Jack",
         "home_away": "home",
         "team_score": 42,
@@ -181079,19 +178933,6 @@
       },
       {
         "date": "2020-01-23",
-        "opponent": "Liberty (Mountain View)",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 60.4,
-        "predicted_opp_score": 53.1,
-        "off_delta": 0.6,
-        "def_delta": 2.1,
-        "ovr_delta": 2.7
-      },
-      {
-        "date": "2020-01-24",
         "opponent": "Liberty (Mountain View)",
         "home_away": "home",
         "team_score": 61,
@@ -183128,19 +180969,6 @@
         "ovr_delta": 13.1
       },
       {
-        "date": "2020-01-31",
-        "opponent": "McKinley Classical Leadership",
-        "home_away": "home",
-        "team_score": 48,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 41.0,
-        "predicted_opp_score": 72.1,
-        "off_delta": 7.0,
-        "def_delta": 6.1,
-        "ovr_delta": 13.1
-      },
-      {
         "date": "2020-02-11",
         "opponent": "Gateway Science Charter",
         "home_away": "away",
@@ -183888,19 +181716,6 @@
         "ovr_delta": -10.7
       },
       {
-        "date": "2019-12-03",
-        "opponent": "Whitfield",
-        "home_away": "away",
-        "team_score": 67,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 70.5,
-        "predicted_opp_score": 51.8,
-        "off_delta": -3.5,
-        "def_delta": -7.2,
-        "ovr_delta": -10.7
-      },
-      {
         "date": "2019-12-05",
         "opponent": "Hazelwood East",
         "home_away": "home",
@@ -183993,32 +181808,6 @@
       },
       {
         "date": "2019-12-27",
-        "opponent": "Kirkwood",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 54,
-        "result": "W",
-        "predicted_team_score": 68.4,
-        "predicted_opp_score": 56.6,
-        "off_delta": -4.4,
-        "def_delta": 2.6,
-        "ovr_delta": -1.8
-      },
-      {
-        "date": "2019-12-27",
-        "opponent": "Ladue Horton Watkins",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 58.3,
-        "predicted_opp_score": 52.8,
-        "off_delta": -13.3,
-        "def_delta": 12.8,
-        "ovr_delta": -0.5
-      },
-      {
-        "date": "2019-12-28",
         "opponent": "Ladue Horton Watkins",
         "home_away": "home",
         "team_score": 45,
@@ -185594,19 +183383,6 @@
         "ovr_delta": -13.6
       },
       {
-        "date": "2020-01-30",
-        "opponent": "East Prairie",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 56.3,
-        "predicted_opp_score": 57.7,
-        "off_delta": -6.3,
-        "def_delta": -7.3,
-        "ovr_delta": -13.6
-      },
-      {
         "date": "2020-01-31",
         "opponent": "East Carter",
         "home_away": "home",
@@ -185765,19 +183541,6 @@
         "ovr_delta": -3.3
       },
       {
-        "date": "2019-12-18",
-        "opponent": "St. James",
-        "home_away": "away",
-        "team_score": 24,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 34.0,
-        "predicted_opp_score": 64.7,
-        "off_delta": -10.0,
-        "def_delta": 6.7,
-        "ovr_delta": -3.3
-      },
-      {
         "date": "2019-12-20",
         "opponent": "Pacific",
         "home_away": "home",
@@ -185883,19 +183646,6 @@
       },
       {
         "date": "2020-01-31",
-        "opponent": "KIPP St. Louis Sr.",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 42.3,
-        "predicted_opp_score": 42.2,
-        "off_delta": 7.7,
-        "def_delta": 1.2,
-        "ovr_delta": 8.9
-      },
-      {
-        "date": "2020-02-01",
         "opponent": "KIPP St. Louis Sr.",
         "home_away": "away",
         "team_score": 50,
@@ -186197,19 +183947,6 @@
       },
       {
         "date": "2020-01-14",
-        "opponent": "Osborn",
-        "home_away": "home",
-        "team_score": 26,
-        "opp_score": 85,
-        "result": "L",
-        "predicted_team_score": 30.1,
-        "predicted_opp_score": 61.4,
-        "off_delta": -4.1,
-        "def_delta": -23.6,
-        "ovr_delta": -27.7
-      },
-      {
-        "date": "2020-01-15",
         "opponent": "Osborn",
         "home_away": "home",
         "team_score": 26,
@@ -186594,19 +184331,6 @@
         "ovr_delta": -9.5
       },
       {
-        "date": "2020-01-18",
-        "opponent": "Van Horn",
-        "home_away": "home",
-        "team_score": 86,
-        "opp_score": 84,
-        "result": "W",
-        "predicted_team_score": 76.5,
-        "predicted_opp_score": 65.0,
-        "off_delta": 9.5,
-        "def_delta": -19.0,
-        "ovr_delta": -9.5
-      },
-      {
         "date": "2020-01-24",
         "opponent": "Van Horn",
         "home_away": "away",
@@ -186831,19 +184555,6 @@
       },
       {
         "date": "2019-12-04",
-        "opponent": "Hazelwood Central",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 56.0,
-        "predicted_opp_score": 60.2,
-        "off_delta": 0.0,
-        "def_delta": 2.2,
-        "ovr_delta": 2.2
-      },
-      {
-        "date": "2019-12-05",
         "opponent": "Hazelwood Central",
         "home_away": "home",
         "team_score": 56,
@@ -187739,19 +185450,6 @@
         "ovr_delta": 2.6
       },
       {
-        "date": "2019-12-19",
-        "opponent": "St. Paul Lutheran (Farmington)",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 58.2,
-        "predicted_opp_score": 42.8,
-        "off_delta": 0.8,
-        "def_delta": 1.8,
-        "ovr_delta": 2.6
-      },
-      {
         "date": "2020-01-06",
         "opponent": "Cuba",
         "home_away": "home",
@@ -188142,19 +185840,6 @@
         "off_delta": -7.3,
         "def_delta": 5.6,
         "ovr_delta": -1.7
-      },
-      {
-        "date": "2020-01-29",
-        "opponent": "Brentwood",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 43.3,
-        "predicted_opp_score": 62.5,
-        "off_delta": -5.3,
-        "def_delta": 12.5,
-        "ovr_delta": 7.2
       },
       {
         "date": "2020-01-31",
@@ -188748,19 +186433,6 @@
         "ovr_delta": -8.4
       },
       {
-        "date": "2020-01-09",
-        "opponent": "Oak Grove",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 67.0,
-        "predicted_opp_score": 61.6,
-        "off_delta": -13.0,
-        "def_delta": 4.6,
-        "ovr_delta": -8.4
-      },
-      {
         "date": "2020-01-10",
         "opponent": "Kansas City Christian School(Prairie Village, KS)",
         "home_away": "away",
@@ -188775,19 +186447,6 @@
       },
       {
         "date": "2020-01-13",
-        "opponent": "Northland Christian",
-        "home_away": "away",
-        "team_score": 75,
-        "opp_score": 29,
-        "result": "W",
-        "predicted_team_score": 87.5,
-        "predicted_opp_score": 37.2,
-        "off_delta": -12.5,
-        "def_delta": 8.2,
-        "ovr_delta": -4.3
-      },
-      {
-        "date": "2020-01-14",
         "opponent": "Northland Christian",
         "home_away": "away",
         "team_score": 75,
@@ -188827,19 +186486,6 @@
       },
       {
         "date": "2020-01-17",
-        "opponent": "University Academy Charter",
-        "home_away": "away",
-        "team_score": 84,
-        "opp_score": 86,
-        "result": "L",
-        "predicted_team_score": 65.0,
-        "predicted_opp_score": 76.5,
-        "off_delta": 19.0,
-        "def_delta": -9.5,
-        "ovr_delta": 9.5
-      },
-      {
-        "date": "2020-01-18",
         "opponent": "University Academy Charter",
         "home_away": "away",
         "team_score": 84,
@@ -188918,19 +186564,6 @@
       },
       {
         "date": "2020-01-31",
-        "opponent": "Grain Valley",
-        "home_away": "away",
-        "team_score": 83,
-        "opp_score": 64,
-        "result": "W",
-        "predicted_team_score": 63.2,
-        "predicted_opp_score": 64.7,
-        "off_delta": 19.8,
-        "def_delta": 0.7,
-        "ovr_delta": 20.5
-      },
-      {
-        "date": "2020-02-01",
         "opponent": "Grain Valley",
         "home_away": "away",
         "team_score": 83,
@@ -192131,19 +189764,6 @@
       },
       {
         "date": "2020-01-31",
-        "opponent": "Climax Springs",
-        "home_away": "home",
-        "team_score": 39,
-        "opp_score": 46,
-        "result": "L",
-        "predicted_team_score": 37.8,
-        "predicted_opp_score": 52.1,
-        "off_delta": 1.2,
-        "def_delta": 6.1,
-        "ovr_delta": 7.3
-      },
-      {
-        "date": "2020-01-31",
         "opponent": "Montrose",
         "home_away": "home",
         "team_score": 49,
@@ -193047,19 +190667,6 @@
       },
       {
         "date": "2020-01-13",
-        "opponent": "Weaubleau",
-        "home_away": "away",
-        "team_score": 48,
-        "opp_score": 79,
-        "result": "L",
-        "predicted_team_score": 41.5,
-        "predicted_opp_score": 70.5,
-        "off_delta": 6.5,
-        "def_delta": -8.5,
-        "ovr_delta": -2.0
-      },
-      {
-        "date": "2020-01-14",
         "opponent": "Weaubleau",
         "home_away": "away",
         "team_score": 48,
@@ -194306,19 +191913,6 @@
       },
       {
         "date": "2020-01-13",
-        "opponent": "Warsaw",
-        "home_away": "home",
-        "team_score": 79,
-        "opp_score": 48,
-        "result": "W",
-        "predicted_team_score": 70.5,
-        "predicted_opp_score": 41.5,
-        "off_delta": 8.5,
-        "def_delta": -6.5,
-        "ovr_delta": 2.0
-      },
-      {
-        "date": "2020-01-14",
         "opponent": "Warsaw",
         "home_away": "home",
         "team_score": 79,
@@ -195929,19 +193523,6 @@
         "ovr_delta": -11.0
       },
       {
-        "date": "2019-12-03",
-        "opponent": "Clearwater",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 69,
-        "result": "L",
-        "predicted_team_score": 52.8,
-        "predicted_opp_score": 72.8,
-        "off_delta": -14.8,
-        "def_delta": 3.8,
-        "ovr_delta": -11.0
-      },
-      {
         "date": "2019-12-06",
         "opponent": "Cuba",
         "home_away": "away",
@@ -197135,19 +194716,6 @@
         "ovr_delta": 3.9
       },
       {
-        "date": "2020-01-18",
-        "opponent": "Carrollton",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 62.0,
-        "predicted_opp_score": 53.1,
-        "off_delta": 1.0,
-        "def_delta": 2.1,
-        "ovr_delta": 3.1
-      },
-      {
         "date": "2020-01-21",
         "opponent": "Lutheran (Kansas City)",
         "home_away": "home",
@@ -197506,19 +195074,6 @@
       },
       {
         "date": "2020-01-15",
-        "opponent": "Riverview Gardens",
-        "home_away": "home",
-        "team_score": 62,
-        "opp_score": 42,
-        "result": "W",
-        "predicted_team_score": 65.3,
-        "predicted_opp_score": 40.9,
-        "off_delta": -3.3,
-        "def_delta": -1.1,
-        "ovr_delta": -4.4
-      },
-      {
-        "date": "2020-01-16",
         "opponent": "Riverview Gardens",
         "home_away": "home",
         "team_score": 62,
@@ -198818,32 +196373,6 @@
       },
       {
         "date": "2019-12-03",
-        "opponent": "Pattonville",
-        "home_away": "home",
-        "team_score": 62,
-        "opp_score": 64,
-        "result": "L",
-        "predicted_team_score": 62.9,
-        "predicted_opp_score": 65.9,
-        "off_delta": -0.9,
-        "def_delta": 1.9,
-        "ovr_delta": 1.0
-      },
-      {
-        "date": "2019-12-03",
-        "opponent": "Trinity Catholic",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 67,
-        "result": "L",
-        "predicted_team_score": 51.8,
-        "predicted_opp_score": 70.5,
-        "off_delta": 7.2,
-        "def_delta": 3.5,
-        "ovr_delta": 10.7
-      },
-      {
-        "date": "2019-12-04",
         "opponent": "Pattonville",
         "home_away": "home",
         "team_score": 62,

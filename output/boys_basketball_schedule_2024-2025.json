@@ -256,19 +256,6 @@
         "ovr_delta": -16.3
       },
       {
-        "date": "2024-12-21",
-        "opponent": "Pleasant Hill",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 64.1,
-        "predicted_opp_score": 60.8,
-        "off_delta": -21.1,
-        "def_delta": 4.8,
-        "ovr_delta": -16.3
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Versailles",
         "home_away": "away",
@@ -1155,19 +1142,6 @@
         "off_delta": -10.2,
         "def_delta": 7.9,
         "ovr_delta": -2.3
-      },
-      {
-        "date": "2025-03-03",
-        "opponent": "Ste. Genevieve",
-        "home_away": "away",
-        "team_score": 0,
-        "opp_score": 1,
-        "result": "L",
-        "predicted_team_score": 51.0,
-        "predicted_opp_score": 67.1,
-        "off_delta": -51.0,
-        "def_delta": 66.1,
-        "ovr_delta": 15.1
       }
     ],
     "Albany": [
@@ -2711,19 +2685,6 @@
         "ovr_delta": -20.9
       },
       {
-        "date": "2025-01-15",
-        "opponent": "Butler",
-        "home_away": "home",
-        "team_score": 28,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 43.7,
-        "predicted_opp_score": 51.8,
-        "off_delta": -15.7,
-        "def_delta": -5.2,
-        "ovr_delta": -20.9
-      },
-      {
         "date": "2025-01-16",
         "opponent": "Clinton",
         "home_away": "away",
@@ -3410,19 +3371,6 @@
         "ovr_delta": 14.8
       },
       {
-        "date": "2025-02-11",
-        "opponent": "Marionville",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 35,
-        "result": "W",
-        "predicted_team_score": 57.8,
-        "predicted_opp_score": 51.6,
-        "off_delta": -1.8,
-        "def_delta": 16.6,
-        "ovr_delta": 14.8
-      },
-      {
         "date": "2025-02-14",
         "opponent": "Stockton",
         "home_away": "away",
@@ -3689,19 +3637,6 @@
         "ovr_delta": -5.9
       },
       {
-        "date": "2025-01-22",
-        "opponent": "Putnam County",
-        "home_away": "home",
-        "team_score": 54,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 66.0,
-        "predicted_opp_score": 57.1,
-        "off_delta": -12.0,
-        "def_delta": 6.1,
-        "ovr_delta": -5.9
-      },
-      {
         "date": "2025-01-28",
         "opponent": "Marion County",
         "home_away": "home",
@@ -3796,19 +3731,6 @@
         "date": "2025-02-14",
         "opponent": "Brashear",
         "home_away": "away",
-        "team_score": 80,
-        "opp_score": 34,
-        "result": "W",
-        "predicted_team_score": 75.5,
-        "predicted_opp_score": 41.8,
-        "off_delta": 4.5,
-        "def_delta": 7.8,
-        "ovr_delta": 12.3
-      },
-      {
-        "date": "2025-02-15",
-        "opponent": "Brashear",
-        "home_away": "home",
         "team_score": 80,
         "opp_score": 34,
         "result": "W",
@@ -4603,19 +4525,6 @@
         "off_delta": 2.8,
         "def_delta": 3.7,
         "ovr_delta": 6.5
-      },
-      {
-        "date": "2025-02-24",
-        "opponent": "Reeds Spring",
-        "home_away": "home",
-        "team_score": 49,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 51.3,
-        "predicted_opp_score": 46.9,
-        "off_delta": -2.3,
-        "def_delta": 2.9,
-        "ovr_delta": 0.6
       },
       {
         "date": "2025-02-25",
@@ -5746,19 +5655,6 @@
         "ovr_delta": 8.7
       },
       {
-        "date": "2025-02-19",
-        "opponent": "Monroe City",
-        "home_away": "home",
-        "team_score": 76,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 78.7,
-        "predicted_opp_score": 52.4,
-        "off_delta": -2.7,
-        "def_delta": 11.4,
-        "ovr_delta": 8.7
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Hickman",
         "home_away": "away",
@@ -6408,19 +6304,6 @@
         "ovr_delta": 2.6
       },
       {
-        "date": "2025-01-10",
-        "opponent": "Risco",
-        "home_away": "away",
-        "team_score": 56,
-        "opp_score": 72,
-        "result": "L",
-        "predicted_team_score": 53.1,
-        "predicted_opp_score": 71.7,
-        "off_delta": 2.9,
-        "def_delta": -0.3,
-        "ovr_delta": 2.6
-      },
-      {
         "date": "2025-01-13",
         "opponent": "Delta",
         "home_away": "away",
@@ -6578,19 +6461,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Oak Ridge",
-        "home_away": "away",
-        "team_score": 74,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 66.3,
-        "predicted_opp_score": 45.1,
-        "off_delta": 7.7,
-        "def_delta": 5.1,
-        "ovr_delta": 12.8
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Oak Ridge",
         "home_away": "away",
         "team_score": 74,
@@ -6866,19 +6736,6 @@
       },
       {
         "date": "2025-01-27",
-        "opponent": "Warrenton",
-        "home_away": "away",
-        "team_score": 56,
-        "opp_score": 62,
-        "result": "L",
-        "predicted_team_score": 41.3,
-        "predicted_opp_score": 53.5,
-        "off_delta": 14.7,
-        "def_delta": -8.5,
-        "ovr_delta": 6.2
-      },
-      {
-        "date": "2025-01-28",
         "opponent": "Warrenton",
         "home_away": "away",
         "team_score": 56,
@@ -7477,19 +7334,6 @@
         "ovr_delta": -2.7
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Platte County",
-        "home_away": "away",
-        "team_score": 74,
-        "opp_score": 71,
-        "result": "W",
-        "predicted_team_score": 63.9,
-        "predicted_opp_score": 58.2,
-        "off_delta": 10.1,
-        "def_delta": -12.8,
-        "ovr_delta": -2.7
-      },
-      {
         "date": "2025-02-20",
         "opponent": "William Chrisman",
         "home_away": "away",
@@ -7831,19 +7675,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Savannah",
-        "home_away": "away",
-        "team_score": 79,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 72.7,
-        "predicted_opp_score": 30.7,
-        "off_delta": 6.3,
-        "def_delta": -5.3,
-        "ovr_delta": 1.0
-      },
-      {
-        "date": "2025-02-19",
         "opponent": "Savannah",
         "home_away": "away",
         "team_score": 79,
@@ -8708,19 +8539,6 @@
         "ovr_delta": 4.2
       },
       {
-        "date": "2024-11-30",
-        "opponent": "Winona",
-        "home_away": "away",
-        "team_score": 46,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 45.2,
-        "predicted_opp_score": 46.4,
-        "off_delta": 0.8,
-        "def_delta": 3.4,
-        "ovr_delta": 4.2
-      },
-      {
         "date": "2024-12-03",
         "opponent": "Gloria Deo Academy",
         "home_away": "away",
@@ -9361,19 +9179,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Lutheran South",
-        "home_away": "home",
-        "team_score": 41,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 33.4,
-        "predicted_opp_score": 75.5,
-        "off_delta": 7.6,
-        "def_delta": -1.5,
-        "ovr_delta": 6.1
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Lutheran South",
         "home_away": "home",
         "team_score": 41,
@@ -10288,19 +10093,6 @@
         "ovr_delta": 2.0
       },
       {
-        "date": "2025-02-13",
-        "opponent": "North County",
-        "home_away": "home",
-        "team_score": 52,
-        "opp_score": 70,
-        "result": "L",
-        "predicted_team_score": 48.8,
-        "predicted_opp_score": 68.8,
-        "off_delta": 3.2,
-        "def_delta": -1.2,
-        "ovr_delta": 2.0
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Brentwood",
         "home_away": "away",
@@ -10981,19 +10773,6 @@
         "ovr_delta": -3.7
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Richland (Essex)",
-        "home_away": "home",
-        "team_score": 41,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 38.8,
-        "predicted_opp_score": 54.3,
-        "off_delta": 2.2,
-        "def_delta": 4.3,
-        "ovr_delta": 6.5
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Chaffee",
         "home_away": "home",
@@ -11309,19 +11088,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Gloria Deo Academy",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 52.1,
-        "predicted_opp_score": 35.9,
-        "off_delta": -3.1,
-        "def_delta": -4.1,
-        "ovr_delta": -7.2
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Gloria Deo Academy",
         "home_away": "away",
         "team_score": 49,
@@ -11690,19 +11456,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Raymore-Peculiar",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 57,
-        "result": "W",
-        "predicted_team_score": 55.1,
-        "predicted_opp_score": 54.8,
-        "off_delta": 3.9,
-        "def_delta": -2.2,
-        "ovr_delta": 1.7
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Raymore-Peculiar",
         "home_away": "away",
         "team_score": 59,
@@ -14393,19 +14146,6 @@
         "ovr_delta": -3.8
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Rolla",
-        "home_away": "home",
-        "team_score": 69,
-        "opp_score": 81,
-        "result": "L",
-        "predicted_team_score": 63.9,
-        "predicted_opp_score": 72.1,
-        "off_delta": 5.1,
-        "def_delta": -8.9,
-        "ovr_delta": -3.8
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Parkview",
         "home_away": "away",
@@ -14866,19 +14606,6 @@
         "date": "2025-02-14",
         "opponent": "Atlanta",
         "home_away": "home",
-        "team_score": 34,
-        "opp_score": 80,
-        "result": "L",
-        "predicted_team_score": 41.8,
-        "predicted_opp_score": 75.5,
-        "off_delta": -7.8,
-        "def_delta": -4.5,
-        "ovr_delta": -12.3
-      },
-      {
-        "date": "2025-02-15",
-        "opponent": "Atlanta",
-        "home_away": "away",
         "team_score": 34,
         "opp_score": 80,
         "result": "L",
@@ -16567,19 +16294,6 @@
         "ovr_delta": -3.8
       },
       {
-        "date": "2025-02-21",
-        "opponent": "South Harrison",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 58,
-        "result": "W",
-        "predicted_team_score": 59.9,
-        "predicted_opp_score": 55.1,
-        "off_delta": -0.9,
-        "def_delta": -2.9,
-        "ovr_delta": -3.8
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Carrollton",
         "home_away": "away",
@@ -16635,19 +16349,6 @@
       },
       {
         "date": "2024-12-02",
-        "opponent": "Keytesville",
-        "home_away": "away",
-        "team_score": 81,
-        "opp_score": 12,
-        "result": "W",
-        "predicted_team_score": 93.2,
-        "predicted_opp_score": 5.9,
-        "off_delta": -12.2,
-        "def_delta": -6.1,
-        "ovr_delta": -18.3
-      },
-      {
-        "date": "2024-12-03",
         "opponent": "Keytesville",
         "home_away": "away",
         "team_score": 81,
@@ -16947,19 +16648,6 @@
       },
       {
         "date": "2025-02-14",
-        "opponent": "Hale with Bosworth",
-        "home_away": "away",
-        "team_score": 72,
-        "opp_score": 68,
-        "result": "W",
-        "predicted_team_score": 70.0,
-        "predicted_opp_score": 53.8,
-        "off_delta": 2.0,
-        "def_delta": -14.2,
-        "ovr_delta": -12.2
-      },
-      {
-        "date": "2025-02-15",
         "opponent": "Hale with Bosworth",
         "home_away": "away",
         "team_score": 72,
@@ -17844,19 +17532,6 @@
         "ovr_delta": 7.0
       },
       {
-        "date": "2024-12-19",
-        "opponent": "Pleasant Hill",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 49,
-        "result": "L",
-        "predicted_team_score": 46.0,
-        "predicted_opp_score": 59.0,
-        "off_delta": -3.0,
-        "def_delta": 10.0,
-        "ovr_delta": 7.0
-      },
-      {
         "date": "2024-12-21",
         "opponent": "University Academy Charter",
         "home_away": "away",
@@ -17884,19 +17559,6 @@
       },
       {
         "date": "2025-01-13",
-        "opponent": "Archie",
-        "home_away": "away",
-        "team_score": 57,
-        "opp_score": 28,
-        "result": "W",
-        "predicted_team_score": 51.8,
-        "predicted_opp_score": 43.7,
-        "off_delta": 5.2,
-        "def_delta": 15.7,
-        "ovr_delta": 20.9
-      },
-      {
-        "date": "2025-01-15",
         "opponent": "Archie",
         "home_away": "away",
         "team_score": 57,
@@ -19582,19 +19244,6 @@
         "ovr_delta": -16.3
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Smith-Cotton",
-        "home_away": "home",
-        "team_score": 40,
-        "opp_score": 72,
-        "result": "L",
-        "predicted_team_score": 52.3,
-        "predicted_opp_score": 68.0,
-        "off_delta": -12.3,
-        "def_delta": -4.0,
-        "ovr_delta": -16.3
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Waynesville",
         "home_away": "home",
@@ -19987,19 +19636,6 @@
         "ovr_delta": 2.2
       },
       {
-        "date": "2025-01-19",
-        "opponent": "Gallatin",
-        "home_away": "away",
-        "team_score": 41,
-        "opp_score": 47,
-        "result": "L",
-        "predicted_team_score": 43.1,
-        "predicted_opp_score": 51.3,
-        "off_delta": -2.1,
-        "def_delta": 4.3,
-        "ovr_delta": 2.2
-      },
-      {
         "date": "2025-01-20",
         "opponent": "Lathrop",
         "home_away": "home",
@@ -20356,19 +19992,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Leopold",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 59.0,
-        "predicted_opp_score": 43.7,
-        "off_delta": -14.0,
-        "def_delta": 3.7,
-        "ovr_delta": -10.3
-      },
-      {
-        "date": "2025-01-09",
         "opponent": "Leopold",
         "home_away": "away",
         "team_score": 45,
@@ -21691,19 +21314,6 @@
         "ovr_delta": 3.8
       },
       {
-        "date": "2025-02-25",
-        "opponent": "Jennings",
-        "home_away": "away",
-        "team_score": 77,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 73.8,
-        "predicted_opp_score": 51.6,
-        "off_delta": 3.2,
-        "def_delta": 0.6,
-        "ovr_delta": 3.8
-      },
-      {
         "date": "2025-03-05",
         "opponent": "SLUH",
         "home_away": "home",
@@ -22385,19 +21995,6 @@
       },
       {
         "date": "2025-02-13",
-        "opponent": "Lafayette County",
-        "home_away": "away",
-        "team_score": 57,
-        "opp_score": 72,
-        "result": "L",
-        "predicted_team_score": 40.0,
-        "predicted_opp_score": 66.5,
-        "off_delta": 17.0,
-        "def_delta": -5.5,
-        "ovr_delta": 11.5
-      },
-      {
-        "date": "2025-02-14",
         "opponent": "Lafayette County",
         "home_away": "away",
         "team_score": 57,
@@ -24680,19 +24277,6 @@
       },
       {
         "date": "2025-01-09",
-        "opponent": "Notre Dame (Cape Girardeau)",
-        "home_away": "away",
-        "team_score": 33,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 40.0,
-        "predicted_opp_score": 63.4,
-        "off_delta": -7.0,
-        "def_delta": 2.4,
-        "ovr_delta": -4.6
-      },
-      {
-        "date": "2025-01-10",
         "opponent": "Notre Dame (Cape Girardeau)",
         "home_away": "away",
         "team_score": 33,
@@ -29190,19 +28774,6 @@
       },
       {
         "date": "2024-12-28",
-        "opponent": "Clayton",
-        "home_away": "home",
-        "team_score": 77,
-        "opp_score": 63,
-        "result": "W",
-        "predicted_team_score": 72.6,
-        "predicted_opp_score": 65.9,
-        "off_delta": 4.4,
-        "def_delta": 2.9,
-        "ovr_delta": 7.3
-      },
-      {
-        "date": "2024-12-28",
         "opponent": "Ladue Horton Watkins",
         "home_away": "home",
         "team_score": 62,
@@ -29897,19 +29468,6 @@
         "ovr_delta": 0.3
       },
       {
-        "date": "2025-02-19",
-        "opponent": "Palmyra",
-        "home_away": "home",
-        "team_score": 39,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 42.0,
-        "predicted_opp_score": 57.3,
-        "off_delta": -3.0,
-        "def_delta": 3.3,
-        "ovr_delta": 0.3
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Centralia",
         "home_away": "home",
@@ -30055,19 +29613,6 @@
         "ovr_delta": 3.5
       },
       {
-        "date": "2024-12-20",
-        "opponent": "Greenville",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 64,
-        "result": "L",
-        "predicted_team_score": 46.1,
-        "predicted_opp_score": 62.6,
-        "off_delta": 4.9,
-        "def_delta": -1.4,
-        "ovr_delta": 3.5
-      },
-      {
         "date": "2025-01-07",
         "opponent": "Bernie",
         "home_away": "home",
@@ -30134,19 +29679,6 @@
       },
       {
         "date": "2025-01-23",
-        "opponent": "Cooter",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 53.9,
-        "predicted_opp_score": 59.9,
-        "off_delta": -3.9,
-        "def_delta": 1.9,
-        "ovr_delta": -2.0
-      },
-      {
-        "date": "2025-01-27",
         "opponent": "Cooter",
         "home_away": "away",
         "team_score": 50,
@@ -30261,19 +29793,6 @@
         "off_delta": -1.7,
         "def_delta": 11.0,
         "ovr_delta": 9.3
-      },
-      {
-        "date": "2025-02-11",
-        "opponent": "Delta (Deering)",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 55.1,
-        "predicted_opp_score": 54.0,
-        "off_delta": -0.1,
-        "def_delta": 3.0,
-        "ovr_delta": 2.9
       },
       {
         "date": "2025-02-21",
@@ -30436,19 +29955,6 @@
         "off_delta": 10.6,
         "def_delta": -3.7,
         "ovr_delta": 6.9
-      },
-      {
-        "date": "2024-12-28",
-        "opponent": "Christian Brothers College",
-        "home_away": "away",
-        "team_score": 63,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 65.9,
-        "predicted_opp_score": 72.6,
-        "off_delta": -2.9,
-        "def_delta": -4.4,
-        "ovr_delta": -7.3
       },
       {
         "date": "2024-12-30",
@@ -30935,19 +30441,6 @@
       },
       {
         "date": "2025-01-13",
-        "opponent": "Van Buren",
-        "home_away": "away",
-        "team_score": 38,
-        "opp_score": 81,
-        "result": "L",
-        "predicted_team_score": 46.5,
-        "predicted_opp_score": 87.6,
-        "off_delta": -8.5,
-        "def_delta": 6.6,
-        "ovr_delta": -1.9
-      },
-      {
-        "date": "2025-01-15",
         "opponent": "Van Buren",
         "home_away": "away",
         "team_score": 38,
@@ -32610,19 +32103,6 @@
         "ovr_delta": -0.5
       },
       {
-        "date": "2025-01-09",
-        "opponent": "Knob Noster",
-        "home_away": "home",
-        "team_score": 31,
-        "opp_score": 45,
-        "result": "L",
-        "predicted_team_score": 39.8,
-        "predicted_opp_score": 53.3,
-        "off_delta": -8.8,
-        "def_delta": 8.3,
-        "ovr_delta": -0.5
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Northwest (Hughesville)",
         "home_away": "home",
@@ -32686,19 +32166,6 @@
         "off_delta": -1.9,
         "def_delta": -0.1,
         "ovr_delta": -2.0
-      },
-      {
-        "date": "2025-01-25",
-        "opponent": "Stover",
-        "home_away": "away",
-        "team_score": 40,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 43.9,
-        "predicted_opp_score": 49.2,
-        "off_delta": -3.9,
-        "def_delta": -6.8,
-        "ovr_delta": -10.7
       },
       {
         "date": "2025-01-28",
@@ -32767,19 +32234,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Smithton",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 52,
-        "result": "L",
-        "predicted_team_score": 50.4,
-        "predicted_opp_score": 60.8,
-        "off_delta": -3.4,
-        "def_delta": 8.8,
-        "ovr_delta": 5.4
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Smithton",
         "home_away": "home",
         "team_score": 47,
@@ -33704,19 +33158,6 @@
         "ovr_delta": 1.2
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Westran",
-        "home_away": "home",
-        "team_score": 22,
-        "opp_score": 75,
-        "result": "L",
-        "predicted_team_score": 20.6,
-        "predicted_opp_score": 74.8,
-        "off_delta": 1.4,
-        "def_delta": -0.2,
-        "ovr_delta": 1.2
-      },
-      {
         "date": "2025-01-09",
         "opponent": "Pilot Grove",
         "home_away": "away",
@@ -34540,19 +33981,6 @@
         "ovr_delta": 3.1
       },
       {
-        "date": "2025-03-03",
-        "opponent": "Kairos Charter",
-        "home_away": "home",
-        "team_score": 1,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": 85.2,
-        "predicted_opp_score": 17.1,
-        "off_delta": -84.2,
-        "def_delta": 17.1,
-        "ovr_delta": -67.1
-      },
-      {
         "date": "2025-03-05",
         "opponent": "Miller Career Academy",
         "home_away": "away",
@@ -34800,19 +34228,6 @@
         "off_delta": 0.5,
         "def_delta": 0.5,
         "ovr_delta": 1.0
-      },
-      {
-        "date": "2025-01-27",
-        "opponent": "Skyline",
-        "home_away": "away",
-        "team_score": 56,
-        "opp_score": 85,
-        "result": "L",
-        "predicted_team_score": 51.5,
-        "predicted_opp_score": 71.7,
-        "off_delta": 4.5,
-        "def_delta": -13.3,
-        "ovr_delta": -8.8
       },
       {
         "date": "2025-01-30",
@@ -35158,19 +34573,6 @@
       },
       {
         "date": "2025-01-23",
-        "opponent": "Clarkton",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 59.9,
-        "predicted_opp_score": 53.9,
-        "off_delta": -1.9,
-        "def_delta": 3.9,
-        "ovr_delta": 2.0
-      },
-      {
-        "date": "2025-01-27",
         "opponent": "Clarkton",
         "home_away": "home",
         "team_score": 58,
@@ -35639,32 +35041,6 @@
         "off_delta": -7.4,
         "def_delta": -2.7,
         "ovr_delta": -10.1
-      },
-      {
-        "date": "2025-01-28",
-        "opponent": "Eminence",
-        "home_away": "home",
-        "team_score": 54,
-        "opp_score": 64,
-        "result": "L",
-        "predicted_team_score": 47.1,
-        "predicted_opp_score": 65.3,
-        "off_delta": 6.9,
-        "def_delta": 1.3,
-        "ovr_delta": 8.2
-      },
-      {
-        "date": "2025-01-29",
-        "opponent": "Summersville",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 56.2,
-        "predicted_opp_score": 52.9,
-        "off_delta": -7.2,
-        "def_delta": 7.9,
-        "ovr_delta": 0.7
       },
       {
         "date": "2025-02-01",
@@ -37035,19 +36411,6 @@
         "off_delta": 18.0,
         "def_delta": -3.9,
         "ovr_delta": 14.1
-      },
-      {
-        "date": "2025-02-24",
-        "opponent": "Lafayette County",
-        "home_away": "away",
-        "team_score": 0,
-        "opp_score": 1,
-        "result": "L",
-        "predicted_team_score": 30.7,
-        "predicted_opp_score": 71.9,
-        "off_delta": -30.7,
-        "def_delta": 70.9,
-        "ovr_delta": 40.2
       }
     ],
     "Crowley(Fort Worth , TX)": [
@@ -40225,19 +39588,6 @@
         "ovr_delta": -2.9
       },
       {
-        "date": "2025-02-11",
-        "opponent": "Clarkton",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 55,
-        "result": "L",
-        "predicted_team_score": 54.0,
-        "predicted_opp_score": 55.1,
-        "off_delta": -3.0,
-        "def_delta": 0.1,
-        "ovr_delta": -2.9
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Southland",
         "home_away": "away",
@@ -40792,19 +40142,6 @@
         "ovr_delta": null
       },
       {
-        "date": "2024-12-27",
-        "opponent": "Monett",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 49.9,
-        "predicted_opp_score": 56.3,
-        "off_delta": -2.9,
-        "def_delta": -1.7,
-        "ovr_delta": -4.6
-      },
-      {
         "date": "2024-12-30",
         "opponent": "Commerce(Commerce, OK)",
         "home_away": "home",
@@ -40988,19 +40325,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "Lockwood",
-        "home_away": "away",
-        "team_score": 44,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 54.7,
-        "predicted_opp_score": 49.8,
-        "off_delta": -10.7,
-        "def_delta": 12.8,
-        "ovr_delta": 2.1
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Lockwood",
         "home_away": "away",
         "team_score": 44,
@@ -43699,19 +43023,6 @@
         "ovr_delta": -2.3
       },
       {
-        "date": "2025-02-20",
-        "opponent": "North Platte",
-        "home_away": "away",
-        "team_score": 70,
-        "opp_score": 61,
-        "result": "W",
-        "predicted_team_score": 64.7,
-        "predicted_opp_score": 53.4,
-        "off_delta": 5.3,
-        "def_delta": -7.6,
-        "ovr_delta": -2.3
-      },
-      {
         "date": "2025-02-21",
         "opponent": "St. Joseph Christian",
         "home_away": "home",
@@ -43962,19 +43273,6 @@
       },
       {
         "date": "2025-01-09",
-        "opponent": "Van Buren",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 52.3,
-        "predicted_opp_score": 67.1,
-        "off_delta": 5.7,
-        "def_delta": 6.1,
-        "ovr_delta": 11.8
-      },
-      {
-        "date": "2025-01-10",
         "opponent": "Van Buren",
         "home_away": "away",
         "team_score": 58,
@@ -44733,19 +44031,6 @@
       },
       {
         "date": "2025-02-01",
-        "opponent": "Kelly",
-        "home_away": "away",
-        "team_score": 103,
-        "opp_score": 78,
-        "result": "W",
-        "predicted_team_score": 91.2,
-        "predicted_opp_score": 61.6,
-        "off_delta": 11.8,
-        "def_delta": -16.4,
-        "ovr_delta": -4.6
-      },
-      {
-        "date": "2025-02-03",
         "opponent": "Kelly",
         "home_away": "away",
         "team_score": 103,
@@ -45601,19 +44886,6 @@
         "ovr_delta": 1.3
       },
       {
-        "date": "2025-01-31",
-        "opponent": "Fatima",
-        "home_away": "away",
-        "team_score": 37,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 36.0,
-        "predicted_opp_score": 58.3,
-        "off_delta": 1.0,
-        "def_delta": 0.3,
-        "ovr_delta": 1.3
-      },
-      {
         "date": "2025-02-01",
         "opponent": "Versailles",
         "home_away": "away",
@@ -45693,19 +44965,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "Osage",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 62,
-        "result": "L",
-        "predicted_team_score": 41.1,
-        "predicted_opp_score": 69.8,
-        "off_delta": 3.9,
-        "def_delta": 7.8,
-        "ovr_delta": 11.7
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Osage",
         "home_away": "home",
         "team_score": 45,
@@ -46491,19 +45750,6 @@
         "ovr_delta": -4.3
       },
       {
-        "date": "2024-12-26",
-        "opponent": "Gainesville",
-        "home_away": "away",
-        "team_score": 48,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 57.3,
-        "predicted_opp_score": 52.0,
-        "off_delta": -9.3,
-        "def_delta": 5.0,
-        "ovr_delta": -4.3
-      },
-      {
         "date": "2024-12-27",
         "opponent": "Mammoth Springs Bears(Mammoth Springs, AR)",
         "home_away": "home",
@@ -46580,19 +45826,6 @@
         "off_delta": -4.8,
         "def_delta": -7.0,
         "ovr_delta": -11.8
-      },
-      {
-        "date": "2025-01-28",
-        "opponent": "Couch",
-        "home_away": "away",
-        "team_score": 64,
-        "opp_score": 54,
-        "result": "W",
-        "predicted_team_score": 65.3,
-        "predicted_opp_score": 47.1,
-        "off_delta": -1.3,
-        "def_delta": -6.9,
-        "ovr_delta": -8.2
       },
       {
         "date": "2025-01-30",
@@ -47055,19 +46288,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Linn",
-        "home_away": "away",
-        "team_score": 93,
-        "opp_score": 35,
-        "result": "W",
-        "predicted_team_score": 82.5,
-        "predicted_opp_score": 26.9,
-        "off_delta": 10.5,
-        "def_delta": -8.1,
-        "ovr_delta": 2.4
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Linn",
         "home_away": "away",
         "team_score": 93,
@@ -49325,19 +48545,6 @@
         "ovr_delta": 3.7
       },
       {
-        "date": "2024-12-07",
-        "opponent": "Macks Creek",
-        "home_away": "away",
-        "team_score": 30,
-        "opp_score": 31,
-        "result": "L",
-        "predicted_team_score": 41.8,
-        "predicted_opp_score": 46.5,
-        "off_delta": -11.8,
-        "def_delta": 15.5,
-        "ovr_delta": 3.7
-      },
-      {
         "date": "2024-12-12",
         "opponent": "Dadeville",
         "home_away": "home",
@@ -50169,19 +49376,6 @@
         "off_delta": 20.7,
         "def_delta": 3.5,
         "ovr_delta": 24.2
-      },
-      {
-        "date": "2025-01-15",
-        "opponent": "North County",
-        "home_away": "away",
-        "team_score": 83,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 82.5,
-        "predicted_opp_score": 46.0,
-        "off_delta": 0.5,
-        "def_delta": -1.0,
-        "ovr_delta": -0.5
       },
       {
         "date": "2025-01-17",
@@ -51022,19 +50216,6 @@
         "ovr_delta": -1.3
       },
       {
-        "date": "2025-01-31",
-        "opponent": "Eldon",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 58.3,
-        "predicted_opp_score": 36.0,
-        "off_delta": -0.3,
-        "def_delta": -1.0,
-        "ovr_delta": -1.3
-      },
-      {
         "date": "2025-02-01",
         "opponent": "Boonville",
         "home_away": "home",
@@ -51441,19 +50622,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "South Callaway",
-        "home_away": "home",
-        "team_score": 62,
-        "opp_score": 75,
-        "result": "L",
-        "predicted_team_score": 50.8,
-        "predicted_opp_score": 69.4,
-        "off_delta": 11.2,
-        "def_delta": -5.6,
-        "ovr_delta": 5.6
-      },
-      {
-        "date": "2025-02-20",
         "opponent": "South Callaway",
         "home_away": "home",
         "team_score": 62,
@@ -52230,19 +51398,6 @@
         "ovr_delta": 14.9
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Mansfield",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 66,
-        "result": "L",
-        "predicted_team_score": 52.5,
-        "predicted_opp_score": 74.4,
-        "off_delta": 6.5,
-        "def_delta": 8.4,
-        "ovr_delta": 14.9
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Bakersfield",
         "home_away": "away",
@@ -52583,19 +51738,6 @@
         "ovr_delta": 11.0
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Monett",
-        "home_away": "away",
-        "team_score": 85,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 70.8,
-        "predicted_opp_score": 47.8,
-        "off_delta": 14.2,
-        "def_delta": -3.2,
-        "ovr_delta": 11.0
-      },
-      {
         "date": "2025-02-27",
         "opponent": "Hillcrest",
         "home_away": "home",
@@ -52841,19 +51983,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Truman",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 67,
-        "result": "L",
-        "predicted_team_score": 61.7,
-        "predicted_opp_score": 66.9,
-        "off_delta": -2.7,
-        "def_delta": -0.1,
-        "ovr_delta": -2.8
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "Truman",
         "home_away": "away",
         "team_score": 59,
@@ -54635,19 +53764,6 @@
         "ovr_delta": -18.6
       },
       {
-        "date": "2025-01-14",
-        "opponent": "Potosi",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 86,
-        "result": "L",
-        "predicted_team_score": 50.9,
-        "predicted_opp_score": 69.3,
-        "off_delta": -1.9,
-        "def_delta": -16.7,
-        "ovr_delta": -18.6
-      },
-      {
         "date": "2025-01-17",
         "opponent": "North County",
         "home_away": "home",
@@ -55830,19 +54946,6 @@
         "off_delta": -5.7,
         "def_delta": -12.2,
         "ovr_delta": -17.9
-      },
-      {
-        "date": "2024-12-30",
-        "opponent": "Hazelwood East",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 55.9,
-        "predicted_opp_score": 62.3,
-        "off_delta": 3.1,
-        "def_delta": -2.7,
-        "ovr_delta": 0.4
       },
       {
         "date": "2025-01-09",
@@ -57231,19 +56334,6 @@
         "ovr_delta": 1.9
       },
       {
-        "date": "2024-12-26",
-        "opponent": "Eminence",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 48,
-        "result": "L",
-        "predicted_team_score": 52.0,
-        "predicted_opp_score": 57.3,
-        "off_delta": -5.0,
-        "def_delta": 9.3,
-        "ovr_delta": 4.3
-      },
-      {
         "date": "2024-12-27",
         "opponent": "Summersville",
         "home_away": "away",
@@ -58069,19 +57159,6 @@
         "ovr_delta": -2.2
       },
       {
-        "date": "2025-01-19",
-        "opponent": "Cameron",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 51.3,
-        "predicted_opp_score": 43.1,
-        "off_delta": -4.3,
-        "def_delta": 2.1,
-        "ovr_delta": -2.2
-      },
-      {
         "date": "2025-01-21",
         "opponent": "Marceline",
         "home_away": "home",
@@ -58213,19 +57290,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "Stanberry",
-        "home_away": "home",
-        "team_score": 62,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 57.0,
-        "predicted_opp_score": 32.4,
-        "off_delta": 5.0,
-        "def_delta": -19.6,
-        "ovr_delta": -14.6
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Stanberry",
         "home_away": "home",
         "team_score": 62,
@@ -60305,19 +59369,6 @@
         "ovr_delta": -5.4
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Slater",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 60.7,
-        "predicted_opp_score": 58.3,
-        "off_delta": -7.7,
-        "def_delta": 2.3,
-        "ovr_delta": -5.4
-      },
-      {
         "date": "2025-02-20",
         "opponent": "New Franklin",
         "home_away": "home",
@@ -60885,19 +59936,6 @@
         "ovr_delta": -24.6
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Miller",
-        "home_away": "home",
-        "team_score": 32,
-        "opp_score": 82,
-        "result": "L",
-        "predicted_team_score": 38.5,
-        "predicted_opp_score": 63.9,
-        "off_delta": -6.5,
-        "def_delta": -18.1,
-        "ovr_delta": -24.6
-      },
-      {
         "date": "2025-01-13",
         "opponent": "Sparta",
         "home_away": "home",
@@ -61055,19 +60093,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Blue Eye",
-        "home_away": "home",
-        "team_score": 40,
-        "opp_score": 49,
-        "result": "L",
-        "predicted_team_score": 35.9,
-        "predicted_opp_score": 52.1,
-        "off_delta": 4.1,
-        "def_delta": 3.1,
-        "ovr_delta": 7.2
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Blue Eye",
         "home_away": "home",
         "team_score": 40,
@@ -61421,19 +60446,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "New Heights Christian",
-        "home_away": "away",
-        "team_score": 44,
-        "opp_score": 85,
-        "result": "L",
-        "predicted_team_score": 50.1,
-        "predicted_opp_score": 81.2,
-        "off_delta": -6.1,
-        "def_delta": -3.8,
-        "ovr_delta": -9.9
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "New Heights Christian",
         "home_away": "away",
         "team_score": 44,
@@ -62092,19 +61104,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Smithville",
-        "home_away": "home",
-        "team_score": 71,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 67.9,
-        "predicted_opp_score": 43.3,
-        "off_delta": 3.1,
-        "def_delta": 7.3,
-        "ovr_delta": 10.4
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Smithville",
         "home_away": "home",
         "team_score": 71,
@@ -63857,19 +62856,6 @@
         "ovr_delta": -3.5
       },
       {
-        "date": "2024-12-20",
-        "opponent": "Clarkton",
-        "home_away": "home",
-        "team_score": 64,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 62.6,
-        "predicted_opp_score": 46.1,
-        "off_delta": 1.4,
-        "def_delta": -4.9,
-        "ovr_delta": -3.5
-      },
-      {
         "date": "2025-01-03",
         "opponent": "Campbell",
         "home_away": "home",
@@ -65255,19 +64241,6 @@
         "ovr_delta": -9.2
       },
       {
-        "date": "2025-01-09",
-        "opponent": "Northwestern (Mendon)",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 42,
-        "result": "W",
-        "predicted_team_score": 67.2,
-        "predicted_opp_score": 39.0,
-        "off_delta": -6.2,
-        "def_delta": -3.0,
-        "ovr_delta": -9.2
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Gilman City with North Daviess",
         "home_away": "away",
@@ -65412,19 +64385,6 @@
       },
       {
         "date": "2025-02-14",
-        "opponent": "Brunswick",
-        "home_away": "home",
-        "team_score": 68,
-        "opp_score": 72,
-        "result": "L",
-        "predicted_team_score": 53.8,
-        "predicted_opp_score": 70.0,
-        "off_delta": 14.2,
-        "def_delta": -2.0,
-        "ovr_delta": 12.2
-      },
-      {
-        "date": "2025-02-15",
         "opponent": "Brunswick",
         "home_away": "home",
         "team_score": 68,
@@ -65975,19 +64935,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Moberly",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 68.2,
-        "predicted_opp_score": 52.9,
-        "off_delta": -15.2,
-        "def_delta": 2.9,
-        "ovr_delta": -12.3
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "Moberly",
         "home_away": "home",
         "team_score": 53,
@@ -66781,33 +65728,7 @@
         "ovr_delta": -2.4
       },
       {
-        "date": "2025-01-21",
-        "opponent": "Van-Far",
-        "home_away": "away",
-        "team_score": 47,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 44.1,
-        "predicted_opp_score": 57.7,
-        "off_delta": 2.9,
-        "def_delta": -5.3,
-        "ovr_delta": -2.4
-      },
-      {
         "date": "2025-01-22",
-        "opponent": "Highland",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 55,
-        "result": "L",
-        "predicted_team_score": 53.0,
-        "predicted_opp_score": 40.4,
-        "off_delta": -8.0,
-        "def_delta": -14.6,
-        "ovr_delta": -22.6
-      },
-      {
-        "date": "2025-01-23",
         "opponent": "Highland",
         "home_away": "away",
         "team_score": 45,
@@ -67254,19 +66175,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Santa Fe",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 50.3,
-        "predicted_opp_score": 37.5,
-        "off_delta": 3.7,
-        "def_delta": -7.5,
-        "ovr_delta": -3.8
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Santa Fe",
         "home_away": "away",
         "team_score": 54,
@@ -67886,19 +66794,6 @@
       },
       {
         "date": "2024-12-16",
-        "opponent": "Pleasant Hill",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 50,
-        "result": "W",
-        "predicted_team_score": 66.4,
-        "predicted_opp_score": 53.5,
-        "off_delta": -1.4,
-        "def_delta": 3.5,
-        "ovr_delta": 2.1
-      },
-      {
-        "date": "2024-12-17",
         "opponent": "Pleasant Hill",
         "home_away": "away",
         "team_score": 65,
@@ -69334,45 +68229,6 @@
         "off_delta": -0.3,
         "def_delta": -1.9,
         "ovr_delta": -2.2
-      },
-      {
-        "date": "2024-12-27",
-        "opponent": "Jennings",
-        "home_away": "away",
-        "team_score": 87,
-        "opp_score": 73,
-        "result": "W",
-        "predicted_team_score": 81.4,
-        "predicted_opp_score": 60.8,
-        "off_delta": 5.6,
-        "def_delta": -12.2,
-        "ovr_delta": -6.6
-      },
-      {
-        "date": "2024-12-28",
-        "opponent": "St. Charles",
-        "home_away": "away",
-        "team_score": 69,
-        "opp_score": 57,
-        "result": "W",
-        "predicted_team_score": 69.3,
-        "predicted_opp_score": 55.1,
-        "off_delta": -0.3,
-        "def_delta": -1.9,
-        "ovr_delta": -2.2
-      },
-      {
-        "date": "2024-12-30",
-        "opponent": "Ft. Zumwalt North",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 62.3,
-        "predicted_opp_score": 55.9,
-        "off_delta": 2.7,
-        "def_delta": -3.1,
-        "ovr_delta": -0.4
       },
       {
         "date": "2025-01-15",
@@ -70977,19 +69833,6 @@
         "ovr_delta": 3.8
       },
       {
-        "date": "2025-01-15",
-        "opponent": "St. Clair",
-        "home_away": "away",
-        "team_score": 48,
-        "opp_score": 32,
-        "result": "W",
-        "predicted_team_score": 53.6,
-        "predicted_opp_score": 25.3,
-        "off_delta": -5.6,
-        "def_delta": -6.7,
-        "ovr_delta": -12.3
-      },
-      {
         "date": "2025-01-16",
         "opponent": "North Callaway",
         "home_away": "away",
@@ -72075,19 +70918,6 @@
         "ovr_delta": 8.5
       },
       {
-        "date": "2024-12-28",
-        "opponent": "Highland",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 53.1,
-        "predicted_opp_score": 45.6,
-        "off_delta": 0.9,
-        "def_delta": 7.6,
-        "ovr_delta": 8.5
-      },
-      {
         "date": "2024-12-31",
         "opponent": "Albany",
         "home_away": "home",
@@ -72271,19 +71101,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Prairie Home",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 75,
-        "result": "L",
-        "predicted_team_score": 54.2,
-        "predicted_opp_score": 70.0,
-        "off_delta": -2.2,
-        "def_delta": -5.0,
-        "ovr_delta": -7.2
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Prairie Home",
         "home_away": "away",
         "team_score": 52,
@@ -72493,19 +71310,6 @@
         "ovr_delta": -8.5
       },
       {
-        "date": "2024-12-28",
-        "opponent": "Higbee",
-        "home_away": "home",
-        "team_score": 38,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 45.6,
-        "predicted_opp_score": 53.1,
-        "off_delta": -7.6,
-        "def_delta": -0.9,
-        "ovr_delta": -8.5
-      },
-      {
         "date": "2025-01-03",
         "opponent": "Clopton",
         "home_away": "home",
@@ -72585,19 +71389,6 @@
       },
       {
         "date": "2025-01-22",
-        "opponent": "Hannibal",
-        "home_away": "home",
-        "team_score": 55,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 40.4,
-        "predicted_opp_score": 53.0,
-        "off_delta": 14.6,
-        "def_delta": 8.0,
-        "ovr_delta": 22.6
-      },
-      {
-        "date": "2025-01-23",
         "opponent": "Hannibal",
         "home_away": "home",
         "team_score": 55,
@@ -74415,19 +73206,6 @@
         "ovr_delta": 1.6
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Lexington",
-        "home_away": "home",
-        "team_score": 48,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 40.3,
-        "predicted_opp_score": 70.9,
-        "off_delta": 7.7,
-        "def_delta": -6.1,
-        "ovr_delta": 1.6
-      },
-      {
         "date": "2025-02-20",
         "opponent": "Lafayette County",
         "home_away": "away",
@@ -75297,19 +74075,6 @@
       },
       {
         "date": "2024-12-28",
-        "opponent": "Plato",
-        "home_away": "away",
-        "team_score": 34,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 47.3,
-        "predicted_opp_score": 60.4,
-        "off_delta": -13.3,
-        "def_delta": 3.4,
-        "ovr_delta": -9.9
-      },
-      {
-        "date": "2024-12-29",
         "opponent": "Plato",
         "home_away": "away",
         "team_score": 34,
@@ -77968,19 +76733,6 @@
         "ovr_delta": 11.2
       },
       {
-        "date": "2024-11-23",
-        "opponent": "Wheaton",
-        "home_away": "away",
-        "team_score": 60,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 59.5,
-        "predicted_opp_score": 47.7,
-        "off_delta": 0.5,
-        "def_delta": 10.7,
-        "ovr_delta": 11.2
-      },
-      {
         "date": "2024-11-25",
         "opponent": "Blue Eye",
         "home_away": "home",
@@ -79607,19 +78359,6 @@
         "ovr_delta": -22.2
       },
       {
-        "date": "2024-12-27",
-        "opponent": "Hazelwood East",
-        "home_away": "home",
-        "team_score": 73,
-        "opp_score": 87,
-        "result": "L",
-        "predicted_team_score": 60.8,
-        "predicted_opp_score": 81.4,
-        "off_delta": 12.2,
-        "def_delta": -5.6,
-        "ovr_delta": 6.6
-      },
-      {
         "date": "2024-12-28",
         "opponent": "Parkway Central",
         "home_away": "away",
@@ -79787,19 +78526,6 @@
         "off_delta": -16.0,
         "def_delta": -7.0,
         "ovr_delta": -23.0
-      },
-      {
-        "date": "2025-02-25",
-        "opponent": "Cardinal Ritter",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 51.6,
-        "predicted_opp_score": 73.8,
-        "off_delta": -0.6,
-        "def_delta": -3.2,
-        "ovr_delta": -3.8
       },
       {
         "date": "2025-02-27",
@@ -81496,19 +80222,6 @@
         "off_delta": -4.2,
         "def_delta": 4.2,
         "ovr_delta": 0.0
-      },
-      {
-        "date": "2025-03-03",
-        "opponent": "Confluence Prep Academy Charter",
-        "home_away": "away",
-        "team_score": 0,
-        "opp_score": 1,
-        "result": "L",
-        "predicted_team_score": 17.1,
-        "predicted_opp_score": 85.2,
-        "off_delta": -17.1,
-        "def_delta": 84.2,
-        "ovr_delta": 67.1
       }
     ],
     "Kankakee(, IL)": [
@@ -82345,19 +81058,6 @@
         "ovr_delta": 4.6
       },
       {
-        "date": "2025-02-03",
-        "opponent": "East Prairie",
-        "home_away": "home",
-        "team_score": 78,
-        "opp_score": 103,
-        "result": "L",
-        "predicted_team_score": 61.6,
-        "predicted_opp_score": 91.2,
-        "off_delta": 16.4,
-        "def_delta": -11.8,
-        "ovr_delta": 4.6
-      },
-      {
         "date": "2025-02-04",
         "opponent": "Scott County Central",
         "home_away": "away",
@@ -82874,19 +81574,6 @@
       },
       {
         "date": "2024-12-02",
-        "opponent": "Brunswick",
-        "home_away": "home",
-        "team_score": 12,
-        "opp_score": 81,
-        "result": "L",
-        "predicted_team_score": 5.9,
-        "predicted_opp_score": 93.2,
-        "off_delta": 6.1,
-        "def_delta": 12.2,
-        "ovr_delta": 18.3
-      },
-      {
-        "date": "2024-12-03",
         "opponent": "Brunswick",
         "home_away": "home",
         "team_score": 12,
@@ -84926,19 +83613,6 @@
         "ovr_delta": 4.3
       },
       {
-        "date": "2025-02-07",
-        "opponent": "Riverview Gardens",
-        "home_away": "away",
-        "team_score": 33,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 47.9,
-        "predicted_opp_score": 49.8,
-        "off_delta": -14.9,
-        "def_delta": -0.2,
-        "ovr_delta": -15.1
-      },
-      {
         "date": "2025-02-08",
         "opponent": "Southern Boone",
         "home_away": "home",
@@ -85541,19 +84215,6 @@
         "ovr_delta": 0.5
       },
       {
-        "date": "2025-01-09",
-        "opponent": "Cole Camp",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 31,
-        "result": "W",
-        "predicted_team_score": 53.3,
-        "predicted_opp_score": 39.8,
-        "off_delta": -8.3,
-        "def_delta": 8.8,
-        "ovr_delta": 0.5
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Lafayette County",
         "home_away": "away",
@@ -85763,19 +84424,6 @@
       },
       {
         "date": "2025-02-27",
-        "opponent": "Warrensburg",
-        "home_away": "home",
-        "team_score": 43,
-        "opp_score": 45,
-        "result": "L",
-        "predicted_team_score": 45.1,
-        "predicted_opp_score": 52.4,
-        "off_delta": -2.1,
-        "def_delta": 7.4,
-        "ovr_delta": 5.3
-      },
-      {
-        "date": "2025-02-28",
         "opponent": "Warrensburg",
         "home_away": "home",
         "team_score": 43,
@@ -87717,19 +86365,6 @@
         "ovr_delta": 7.6
       },
       {
-        "date": "2025-02-06",
-        "opponent": "Maryville",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 46,
-        "result": "W",
-        "predicted_team_score": 60.8,
-        "predicted_opp_score": 49.4,
-        "off_delta": 4.2,
-        "def_delta": 3.4,
-        "ovr_delta": 7.6
-      },
-      {
         "date": "2025-02-07",
         "opponent": "Cameron",
         "home_away": "home",
@@ -88631,19 +87266,6 @@
         "ovr_delta": -11.5
       },
       {
-        "date": "2025-02-14",
-        "opponent": "Carrollton",
-        "home_away": "home",
-        "team_score": 72,
-        "opp_score": 57,
-        "result": "W",
-        "predicted_team_score": 66.5,
-        "predicted_opp_score": 40.0,
-        "off_delta": 5.5,
-        "def_delta": -17.0,
-        "ovr_delta": -11.5
-      },
-      {
         "date": "2025-02-20",
         "opponent": "Holden",
         "home_away": "home",
@@ -88668,19 +87290,6 @@
         "off_delta": 12.9,
         "def_delta": -9.1,
         "ovr_delta": 3.8
-      },
-      {
-        "date": "2025-02-24",
-        "opponent": "Crossroads Prep Charter",
-        "home_away": "home",
-        "team_score": 1,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": 71.9,
-        "predicted_opp_score": 30.7,
-        "off_delta": -70.9,
-        "def_delta": 30.7,
-        "ovr_delta": -40.2
       },
       {
         "date": "2025-02-26",
@@ -89133,19 +87742,6 @@
         "ovr_delta": -24.3
       },
       {
-        "date": "2024-12-16",
-        "opponent": "McDonald County",
-        "home_away": "away",
-        "team_score": 53,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 72.8,
-        "predicted_opp_score": 60.5,
-        "off_delta": -19.8,
-        "def_delta": -4.5,
-        "ovr_delta": -24.3
-      },
-      {
         "date": "2024-12-17",
         "opponent": "Liberal",
         "home_away": "home",
@@ -89381,19 +87977,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Monett",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 60,
-        "result": "W",
-        "predicted_team_score": 61.7,
-        "predicted_opp_score": 60.3,
-        "off_delta": 1.3,
-        "def_delta": 0.3,
-        "ovr_delta": 1.6
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Monett",
         "home_away": "home",
         "team_score": 63,
@@ -90464,19 +89047,6 @@
         "ovr_delta": -10.6
       },
       {
-        "date": "2025-01-18",
-        "opponent": "Penney",
-        "home_away": "away",
-        "team_score": 44,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 48.4,
-        "predicted_opp_score": 46.8,
-        "off_delta": -4.4,
-        "def_delta": -6.2,
-        "ovr_delta": -10.6
-      },
-      {
         "date": "2025-01-22",
         "opponent": "Stewartsville with Osborn",
         "home_away": "away",
@@ -90556,19 +89126,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "North Platte",
-        "home_away": "away",
-        "team_score": 37,
-        "opp_score": 51,
-        "result": "L",
-        "predicted_team_score": 42.4,
-        "predicted_opp_score": 59.6,
-        "off_delta": -5.4,
-        "def_delta": 8.6,
-        "ovr_delta": 3.2
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "North Platte",
         "home_away": "away",
         "team_score": 37,
@@ -90941,19 +89498,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Ozark",
-        "home_away": "home",
-        "team_score": 55,
-        "opp_score": 83,
-        "result": "L",
-        "predicted_team_score": 50.0,
-        "predicted_opp_score": 74.5,
-        "off_delta": 5.0,
-        "def_delta": -8.5,
-        "ovr_delta": -3.5
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Ozark",
         "home_away": "home",
         "team_score": 55,
@@ -91504,19 +90048,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Staley",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 46,
-        "result": "W",
-        "predicted_team_score": 51.7,
-        "predicted_opp_score": 61.8,
-        "off_delta": -1.7,
-        "def_delta": 15.8,
-        "ovr_delta": 14.1
-      },
-      {
-        "date": "2025-01-09",
         "opponent": "Staley",
         "home_away": "away",
         "team_score": 50,
@@ -92499,19 +91030,6 @@
         "ovr_delta": -17.1
       },
       {
-        "date": "2024-12-04",
-        "opponent": "Oak Ridge",
-        "home_away": "away",
-        "team_score": 68,
-        "opp_score": 46,
-        "result": "W",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 41.2,
-        "off_delta": 8.4,
-        "def_delta": -4.8,
-        "ovr_delta": 3.6
-      },
-      {
         "date": "2024-12-06",
         "opponent": "Greenville",
         "home_away": "home",
@@ -92643,19 +91161,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Campbell",
-        "home_away": "home",
-        "team_score": 40,
-        "opp_score": 45,
-        "result": "L",
-        "predicted_team_score": 43.7,
-        "predicted_opp_score": 59.0,
-        "off_delta": -3.7,
-        "def_delta": 14.0,
-        "ovr_delta": 10.3
-      },
-      {
-        "date": "2025-01-09",
         "opponent": "Campbell",
         "home_away": "home",
         "team_score": 40,
@@ -93491,19 +91996,6 @@
         "ovr_delta": -1.6
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Holden",
-        "home_away": "away",
-        "team_score": 77,
-        "opp_score": 48,
-        "result": "W",
-        "predicted_team_score": 70.9,
-        "predicted_opp_score": 40.3,
-        "off_delta": 6.1,
-        "def_delta": -7.7,
-        "ovr_delta": -1.6
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Knob Noster",
         "home_away": "home",
@@ -94067,19 +92559,6 @@
         "ovr_delta": 5.2
       },
       {
-        "date": "2025-01-17",
-        "opponent": "Staley",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 48.0,
-        "predicted_opp_score": 67.2,
-        "off_delta": -3.0,
-        "def_delta": 8.2,
-        "ovr_delta": 5.2
-      },
-      {
         "date": "2025-01-21",
         "opponent": "William Chrisman",
         "home_away": "away",
@@ -94211,19 +92690,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Park Hill South",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 54,
-        "result": "W",
-        "predicted_team_score": 60.9,
-        "predicted_opp_score": 60.7,
-        "off_delta": -3.9,
-        "def_delta": 6.7,
-        "ovr_delta": 2.8
-      },
-      {
-        "date": "2025-02-19",
         "opponent": "Park Hill South",
         "home_away": "home",
         "team_score": 57,
@@ -97779,19 +96245,6 @@
         "ovr_delta": 0.7
       },
       {
-        "date": "2025-02-25",
-        "opponent": "Parkway South",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 53.7,
-        "predicted_opp_score": 52.4,
-        "off_delta": -2.7,
-        "def_delta": 3.4,
-        "ovr_delta": 0.7
-      },
-      {
         "date": "2025-02-27",
         "opponent": "John Burroughs",
         "home_away": "away",
@@ -97927,19 +96380,6 @@
         "date": "2024-12-12",
         "opponent": "Owensville",
         "home_away": "home",
-        "team_score": 49,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 31.2,
-        "predicted_opp_score": 59.6,
-        "off_delta": 17.8,
-        "def_delta": -5.4,
-        "ovr_delta": 12.4
-      },
-      {
-        "date": "2024-12-13",
-        "opponent": "Owensville",
-        "home_away": "away",
         "team_score": 49,
         "opp_score": 65,
         "result": "L",
@@ -98172,19 +96612,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Eugene",
-        "home_away": "home",
-        "team_score": 35,
-        "opp_score": 93,
-        "result": "L",
-        "predicted_team_score": 26.9,
-        "predicted_opp_score": 82.5,
-        "off_delta": 8.1,
-        "def_delta": -10.5,
-        "ovr_delta": -2.4
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Eugene",
         "home_away": "home",
         "team_score": 35,
@@ -98832,19 +97259,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "Diamond",
-        "home_away": "home",
-        "team_score": 37,
-        "opp_score": 44,
-        "result": "L",
-        "predicted_team_score": 49.8,
-        "predicted_opp_score": 54.7,
-        "off_delta": -12.8,
-        "def_delta": 10.7,
-        "ovr_delta": -2.1
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Diamond",
         "home_away": "home",
         "team_score": 37,
@@ -99626,19 +98040,6 @@
         "off_delta": 16.4,
         "def_delta": -20.9,
         "ovr_delta": -4.5
-      },
-      {
-        "date": "2025-02-21",
-        "opponent": "Wellington-Napoleon",
-        "home_away": "home",
-        "team_score": 49,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 48.3,
-        "predicted_opp_score": 50.1,
-        "off_delta": 0.7,
-        "def_delta": 7.1,
-        "ovr_delta": 7.8
       },
       {
         "date": "2025-02-24",
@@ -100966,19 +99367,6 @@
         "ovr_delta": -6.1
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Bishop DuBourg",
-        "home_away": "away",
-        "team_score": 77,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 75.5,
-        "predicted_opp_score": 33.4,
-        "off_delta": 1.5,
-        "def_delta": -7.6,
-        "ovr_delta": -6.1
-      },
-      {
         "date": "2025-02-21",
         "opponent": "MICDS",
         "home_away": "away",
@@ -102027,19 +100415,6 @@
         "off_delta": -10.4,
         "def_delta": -4.9,
         "ovr_delta": -15.3
-      },
-      {
-        "date": "2024-12-07",
-        "opponent": "Fair Play",
-        "home_away": "home",
-        "team_score": 31,
-        "opp_score": 30,
-        "result": "W",
-        "predicted_team_score": 46.5,
-        "predicted_opp_score": 41.8,
-        "off_delta": -15.5,
-        "def_delta": 11.8,
-        "ovr_delta": -3.7
       },
       {
         "date": "2024-12-10",
@@ -104131,19 +102506,6 @@
         "ovr_delta": -14.9
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Fordland",
-        "home_away": "away",
-        "team_score": 66,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 74.4,
-        "predicted_opp_score": 52.5,
-        "off_delta": -8.4,
-        "def_delta": -6.5,
-        "ovr_delta": -14.9
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Gainesville",
         "home_away": "home",
@@ -106096,19 +104458,6 @@
         "ovr_delta": -14.8
       },
       {
-        "date": "2025-02-11",
-        "opponent": "Ash Grove",
-        "home_away": "away",
-        "team_score": 35,
-        "opp_score": 56,
-        "result": "L",
-        "predicted_team_score": 51.6,
-        "predicted_opp_score": 57.8,
-        "off_delta": -16.6,
-        "def_delta": 1.8,
-        "ovr_delta": -14.8
-      },
-      {
         "date": "2025-02-14",
         "opponent": "Lockwood",
         "home_away": "home",
@@ -106123,19 +104472,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Miller",
-        "home_away": "home",
-        "team_score": 29,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 41.2,
-        "predicted_opp_score": 64.7,
-        "off_delta": -12.2,
-        "def_delta": 3.7,
-        "ovr_delta": -8.5
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Miller",
         "home_away": "home",
         "team_score": 29,
@@ -107514,19 +105850,6 @@
         "ovr_delta": -1.0
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Moberly",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 53.2,
-        "predicted_opp_score": 62.2,
-        "off_delta": 1.8,
-        "def_delta": -2.8,
-        "ovr_delta": -1.0
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Warrensburg",
         "home_away": "home",
@@ -108156,19 +106479,6 @@
       },
       {
         "date": "2025-02-05",
-        "opponent": "Lafayette (St. Joseph)",
-        "home_away": "home",
-        "team_score": 46,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 49.4,
-        "predicted_opp_score": 60.8,
-        "off_delta": -3.4,
-        "def_delta": -4.2,
-        "ovr_delta": -7.6
-      },
-      {
-        "date": "2025-02-06",
         "opponent": "Lafayette (St. Joseph)",
         "home_away": "home",
         "team_score": 46,
@@ -109202,19 +107512,6 @@
         "ovr_delta": -20.8
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Thomas Jefferson Independent Day",
-        "home_away": "home",
-        "team_score": 40,
-        "opp_score": 52,
-        "result": "L",
-        "predicted_team_score": 49.3,
-        "predicted_opp_score": 40.5,
-        "off_delta": -9.3,
-        "def_delta": -11.5,
-        "ovr_delta": -20.8
-      },
-      {
         "date": "2025-02-26",
         "opponent": "Walnut Grove",
         "home_away": "home",
@@ -109337,19 +107634,6 @@
         "date": "2024-12-11",
         "opponent": "St. Charles West",
         "home_away": "home",
-        "team_score": 37,
-        "opp_score": 45,
-        "result": "L",
-        "predicted_team_score": 37.5,
-        "predicted_opp_score": 55.6,
-        "off_delta": -0.5,
-        "def_delta": 10.6,
-        "ovr_delta": 10.1
-      },
-      {
-        "date": "2024-12-12",
-        "opponent": "St. Charles West",
-        "home_away": "away",
         "team_score": 37,
         "opp_score": 45,
         "result": "L",
@@ -110002,19 +108286,6 @@
       },
       {
         "date": "2024-12-14",
-        "opponent": "Lamar",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 53,
-        "result": "W",
-        "predicted_team_score": 60.5,
-        "predicted_opp_score": 72.8,
-        "off_delta": 4.5,
-        "def_delta": 19.8,
-        "ovr_delta": 24.3
-      },
-      {
-        "date": "2024-12-16",
         "opponent": "Lamar",
         "home_away": "home",
         "team_score": 65,
@@ -114641,19 +112912,6 @@
         "ovr_delta": 24.6
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Gloria Deo Academy",
-        "home_away": "away",
-        "team_score": 82,
-        "opp_score": 32,
-        "result": "W",
-        "predicted_team_score": 63.9,
-        "predicted_opp_score": 38.5,
-        "off_delta": 18.1,
-        "def_delta": 6.5,
-        "ovr_delta": 24.6
-      },
-      {
         "date": "2025-01-14",
         "opponent": "East Newton",
         "home_away": "home",
@@ -114797,19 +113055,6 @@
         "ovr_delta": 8.5
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Marionville",
-        "home_away": "away",
-        "team_score": 61,
-        "opp_score": 29,
-        "result": "W",
-        "predicted_team_score": 64.7,
-        "predicted_opp_score": 41.2,
-        "off_delta": -3.7,
-        "def_delta": 12.2,
-        "ovr_delta": 8.5
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Sarcoxie",
         "home_away": "home",
@@ -114878,19 +113123,6 @@
       },
       {
         "date": "2024-12-03",
-        "opponent": "University City",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 63.3,
-        "off_delta": -10.6,
-        "def_delta": 5.3,
-        "ovr_delta": -5.3
-      },
-      {
-        "date": "2024-12-04",
         "opponent": "University City",
         "home_away": "away",
         "team_score": 49,
@@ -115125,19 +113357,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Soldan International Studies",
-        "home_away": "home",
-        "team_score": 71,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 74.9,
-        "predicted_opp_score": 41.2,
-        "off_delta": -3.9,
-        "def_delta": -13.8,
-        "ovr_delta": -17.7
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Soldan International Studies",
         "home_away": "home",
         "team_score": 71,
@@ -115717,19 +113936,6 @@
         "ovr_delta": 12.3
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Hallsville",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 52.9,
-        "predicted_opp_score": 68.2,
-        "off_delta": -2.9,
-        "def_delta": 15.2,
-        "ovr_delta": 12.3
-      },
-      {
         "date": "2025-01-11",
         "opponent": "Harrisburg",
         "home_away": "home",
@@ -115887,19 +114093,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Marshall",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 62.2,
-        "predicted_opp_score": 53.2,
-        "off_delta": 2.8,
-        "def_delta": -1.8,
-        "ovr_delta": 1.0
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Marshall",
         "home_away": "home",
         "team_score": 65,
@@ -116077,19 +114270,6 @@
       },
       {
         "date": "2024-12-26",
-        "opponent": "Diamond",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 56.3,
-        "predicted_opp_score": 49.9,
-        "off_delta": 1.7,
-        "def_delta": 2.9,
-        "ovr_delta": 4.6
-      },
-      {
-        "date": "2024-12-27",
         "opponent": "Diamond",
         "home_away": "away",
         "team_score": 58,
@@ -116323,33 +114503,7 @@
         "ovr_delta": -1.6
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Lamar",
-        "home_away": "away",
-        "team_score": 60,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 60.3,
-        "predicted_opp_score": 61.7,
-        "off_delta": -0.3,
-        "def_delta": -1.3,
-        "ovr_delta": -1.6
-      },
-      {
         "date": "2025-02-20",
-        "opponent": "Forsyth",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 85,
-        "result": "L",
-        "predicted_team_score": 47.8,
-        "predicted_opp_score": 70.8,
-        "off_delta": 3.2,
-        "def_delta": -14.2,
-        "ovr_delta": -11.0
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Forsyth",
         "home_away": "home",
         "team_score": 51,
@@ -116690,19 +114844,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Battle",
-        "home_away": "away",
-        "team_score": 41,
-        "opp_score": 76,
-        "result": "L",
-        "predicted_team_score": 52.4,
-        "predicted_opp_score": 78.7,
-        "off_delta": -11.4,
-        "def_delta": 2.7,
-        "ovr_delta": -8.7
-      },
-      {
-        "date": "2025-02-19",
         "opponent": "Battle",
         "home_away": "away",
         "team_score": 41,
@@ -118303,33 +116444,7 @@
         "ovr_delta": 4.3
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Willow Springs",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 51,
-        "result": "W",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 60.9,
-        "off_delta": -5.6,
-        "def_delta": 9.9,
-        "ovr_delta": 4.3
-      },
-      {
         "date": "2025-02-21",
-        "opponent": "Salem",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 60.3,
-        "predicted_opp_score": 55.1,
-        "off_delta": 2.7,
-        "def_delta": 6.1,
-        "ovr_delta": 8.8
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Salem",
         "home_away": "home",
         "team_score": 63,
@@ -118767,19 +116882,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Seneca",
-        "home_away": "home",
-        "team_score": 74,
-        "opp_score": 58,
-        "result": "W",
-        "predicted_team_score": 58.7,
-        "predicted_opp_score": 50.0,
-        "off_delta": 15.3,
-        "def_delta": -8.0,
-        "ovr_delta": 7.3
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Seneca",
         "home_away": "home",
         "team_score": 74,
@@ -121184,19 +119286,6 @@
         "ovr_delta": -6.2
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Wellsville-Middletown",
-        "home_away": "home",
-        "team_score": 70,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 63.0,
-        "predicted_opp_score": 30.8,
-        "off_delta": 7.0,
-        "def_delta": -13.2,
-        "ovr_delta": -6.2
-      },
-      {
         "date": "2025-01-09",
         "opponent": "Fayette",
         "home_away": "home",
@@ -121719,19 +119808,6 @@
         "ovr_delta": -7.0
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Sullivan",
-        "home_away": "away",
-        "team_score": 32,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 35.8,
-        "predicted_opp_score": 53.8,
-        "off_delta": -3.8,
-        "def_delta": -3.2,
-        "ovr_delta": -7.0
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Hermann",
         "home_away": "home",
@@ -122073,19 +120149,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Golden City",
-        "home_away": "home",
-        "team_score": 85,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 81.2,
-        "predicted_opp_score": 50.1,
-        "off_delta": 3.8,
-        "def_delta": 6.1,
-        "ovr_delta": 9.9
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Golden City",
         "home_away": "home",
         "team_score": 85,
@@ -123005,19 +121068,6 @@
         "ovr_delta": -1.2
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Republic",
-        "home_away": "away",
-        "team_score": 53,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 58.6,
-        "predicted_opp_score": 51.4,
-        "off_delta": -5.6,
-        "def_delta": 4.4,
-        "ovr_delta": -1.2
-      },
-      {
         "date": "2025-01-17",
         "opponent": "Carthage",
         "home_away": "home",
@@ -123703,19 +121753,6 @@
       },
       {
         "date": "2025-01-23",
-        "opponent": "Northwest (Cedar Hill)",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 57,
-        "result": "W",
-        "predicted_team_score": 61.4,
-        "predicted_opp_score": 45.2,
-        "off_delta": -3.4,
-        "def_delta": -11.8,
-        "ovr_delta": -15.2
-      },
-      {
-        "date": "2025-01-24",
         "opponent": "Northwest (Cedar Hill)",
         "home_away": "away",
         "team_score": 58,
@@ -124819,19 +122856,6 @@
         "ovr_delta": 11.3
       },
       {
-        "date": "2025-01-15",
-        "opponent": "Farmington",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 83,
-        "result": "L",
-        "predicted_team_score": 46.0,
-        "predicted_opp_score": 82.5,
-        "off_delta": 1.0,
-        "def_delta": -0.5,
-        "ovr_delta": 0.5
-      },
-      {
         "date": "2025-01-17",
         "opponent": "Fredericktown",
         "home_away": "away",
@@ -124937,19 +122961,6 @@
       },
       {
         "date": "2025-02-12",
-        "opponent": "Bismarck",
-        "home_away": "away",
-        "team_score": 70,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 68.8,
-        "predicted_opp_score": 48.8,
-        "off_delta": 1.2,
-        "def_delta": -3.2,
-        "ovr_delta": -2.0
-      },
-      {
-        "date": "2025-02-13",
         "opponent": "Bismarck",
         "home_away": "away",
         "team_score": 70,
@@ -126655,19 +124666,6 @@
         "ovr_delta": -8.4
       },
       {
-        "date": "2024-12-10",
-        "opponent": "Penney",
-        "home_away": "away",
-        "team_score": 81,
-        "opp_score": 25,
-        "result": "W",
-        "predicted_team_score": 64.6,
-        "predicted_opp_score": 45.8,
-        "off_delta": 16.4,
-        "def_delta": 20.8,
-        "ovr_delta": 37.2
-      },
-      {
         "date": "2024-12-12",
         "opponent": "Mid-Buchanan",
         "home_away": "home",
@@ -126915,19 +124913,6 @@
         "ovr_delta": -3.2
       },
       {
-        "date": "2025-02-11",
-        "opponent": "Lawson",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 42.4,
-        "off_delta": -8.6,
-        "def_delta": 5.4,
-        "ovr_delta": -3.2
-      },
-      {
         "date": "2025-02-14",
         "opponent": "Lathrop",
         "home_away": "away",
@@ -126942,19 +124927,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "East Buchanan",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 70,
-        "result": "L",
-        "predicted_team_score": 53.4,
-        "predicted_opp_score": 64.7,
-        "off_delta": 7.6,
-        "def_delta": -5.3,
-        "ovr_delta": 2.3
-      },
-      {
-        "date": "2025-02-20",
         "opponent": "East Buchanan",
         "home_away": "home",
         "team_score": 61,
@@ -129483,19 +127455,6 @@
         "ovr_delta": 15.2
       },
       {
-        "date": "2025-01-24",
-        "opponent": "Normandy Collaborative",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 45.2,
-        "predicted_opp_score": 61.4,
-        "off_delta": 11.8,
-        "def_delta": 3.4,
-        "ovr_delta": 15.2
-      },
-      {
         "date": "2025-01-27",
         "opponent": "Herculaneum",
         "home_away": "away",
@@ -130164,19 +128123,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Hale with Bosworth",
-        "home_away": "away",
-        "team_score": 42,
-        "opp_score": 61,
-        "result": "L",
-        "predicted_team_score": 39.0,
-        "predicted_opp_score": 67.2,
-        "off_delta": 3.0,
-        "def_delta": 6.2,
-        "ovr_delta": 9.2
-      },
-      {
-        "date": "2025-01-09",
         "opponent": "Hale with Bosworth",
         "home_away": "away",
         "team_score": 42,
@@ -130909,19 +128855,6 @@
       },
       {
         "date": "2025-01-09",
-        "opponent": "Central (New Madrid County)",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 33,
-        "result": "W",
-        "predicted_team_score": 63.4,
-        "predicted_opp_score": 40.0,
-        "off_delta": -2.4,
-        "def_delta": 7.0,
-        "ovr_delta": 4.6
-      },
-      {
-        "date": "2025-01-10",
         "opponent": "Central (New Madrid County)",
         "home_away": "home",
         "team_score": 61,
@@ -132229,19 +130162,6 @@
         "ovr_delta": -3.6
       },
       {
-        "date": "2024-12-04",
-        "opponent": "Leopold",
-        "home_away": "home",
-        "team_score": 46,
-        "opp_score": 68,
-        "result": "L",
-        "predicted_team_score": 41.2,
-        "predicted_opp_score": 59.6,
-        "off_delta": 4.8,
-        "def_delta": -8.4,
-        "ovr_delta": -3.6
-      },
-      {
         "date": "2024-12-06",
         "opponent": "Perryville",
         "home_away": "away",
@@ -132360,19 +130280,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Scott City",
-        "home_away": "home",
-        "team_score": 33,
-        "opp_score": 69,
-        "result": "L",
-        "predicted_team_score": 30.5,
-        "predicted_opp_score": 83.5,
-        "off_delta": 2.5,
-        "def_delta": 14.5,
-        "ovr_delta": 17.0
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "Scott City",
         "home_away": "home",
         "team_score": 33,
@@ -132516,19 +130423,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Bell City",
-        "home_away": "home",
-        "team_score": 40,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 45.1,
-        "predicted_opp_score": 66.3,
-        "off_delta": -5.1,
-        "def_delta": -7.7,
-        "ovr_delta": -12.8
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Bell City",
         "home_away": "home",
         "team_score": 40,
@@ -134815,19 +132709,6 @@
         "ovr_delta": 13.6
       },
       {
-        "date": "2025-02-22",
-        "opponent": "Eldon",
-        "home_away": "away",
-        "team_score": 62,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 69.8,
-        "predicted_opp_score": 41.1,
-        "off_delta": -7.8,
-        "def_delta": -3.9,
-        "ovr_delta": -11.7
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Boonville",
         "home_away": "away",
@@ -135737,19 +133618,6 @@
         "ovr_delta": -12.4
       },
       {
-        "date": "2024-12-13",
-        "opponent": "Linn",
-        "home_away": "home",
-        "team_score": 65,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 31.2,
-        "off_delta": 5.4,
-        "def_delta": -17.8,
-        "ovr_delta": -12.4
-      },
-      {
         "date": "2024-12-16",
         "opponent": "St. Francis Borgia",
         "home_away": "home",
@@ -136222,19 +134090,6 @@
         "ovr_delta": 17.9
       },
       {
-        "date": "2025-01-13",
-        "opponent": "Willard",
-        "home_away": "away",
-        "team_score": 65,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 62.6,
-        "predicted_opp_score": 53.5,
-        "off_delta": 2.4,
-        "def_delta": 15.5,
-        "ovr_delta": 17.9
-      },
-      {
         "date": "2025-01-17",
         "opponent": "West Plains",
         "home_away": "away",
@@ -136353,19 +134208,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Lebanon",
-        "home_away": "away",
-        "team_score": 83,
-        "opp_score": 55,
-        "result": "W",
-        "predicted_team_score": 74.5,
-        "predicted_opp_score": 50.0,
-        "off_delta": 8.5,
-        "def_delta": -5.0,
-        "ovr_delta": 3.5
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Lebanon",
         "home_away": "away",
         "team_score": 83,
@@ -137134,19 +134976,6 @@
         "off_delta": -2.1,
         "def_delta": -2.3,
         "ovr_delta": -4.4
-      },
-      {
-        "date": "2025-02-19",
-        "opponent": "Clark County",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 39,
-        "result": "W",
-        "predicted_team_score": 57.3,
-        "predicted_opp_score": 42.0,
-        "off_delta": -3.3,
-        "def_delta": 3.0,
-        "ovr_delta": -0.3
       },
       {
         "date": "2025-02-21",
@@ -138249,19 +136078,6 @@
         "ovr_delta": -2.8
       },
       {
-        "date": "2025-02-19",
-        "opponent": "Liberty",
-        "home_away": "away",
-        "team_score": 54,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 60.7,
-        "predicted_opp_score": 60.9,
-        "off_delta": -6.7,
-        "def_delta": 3.9,
-        "ovr_delta": -2.8
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Park Hill",
         "home_away": "home",
@@ -138564,19 +136380,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Willard",
-        "home_away": "home",
-        "team_score": 55,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 64.5,
-        "predicted_opp_score": 51.2,
-        "off_delta": -9.5,
-        "def_delta": -0.8,
-        "ovr_delta": -10.3
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Willard",
         "home_away": "home",
         "team_score": 55,
@@ -139596,19 +137399,6 @@
         "ovr_delta": 8.5
       },
       {
-        "date": "2025-01-14",
-        "opponent": "Seckman",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 46,
-        "result": "W",
-        "predicted_team_score": 52.9,
-        "predicted_opp_score": 49.4,
-        "off_delta": 5.1,
-        "def_delta": 3.4,
-        "ovr_delta": 8.5
-      },
-      {
         "date": "2025-01-17",
         "opponent": "Riverview Gardens",
         "home_away": "away",
@@ -139789,19 +137579,6 @@
         "off_delta": 1.0,
         "def_delta": 4.6,
         "ovr_delta": 5.6
-      },
-      {
-        "date": "2025-02-25",
-        "opponent": "Lindbergh",
-        "home_away": "home",
-        "team_score": 49,
-        "opp_score": 51,
-        "result": "L",
-        "predicted_team_score": 52.4,
-        "predicted_opp_score": 53.7,
-        "off_delta": -3.4,
-        "def_delta": 2.7,
-        "ovr_delta": -0.7
       },
       {
         "date": "2025-02-27",
@@ -140253,19 +138030,6 @@
       },
       {
         "date": "2024-12-06",
-        "opponent": "University Academy Charter",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 51.3,
-        "predicted_opp_score": 49.9,
-        "off_delta": -1.3,
-        "def_delta": 2.9,
-        "ovr_delta": 1.6
-      },
-      {
-        "date": "2024-12-07",
         "opponent": "University Academy Charter",
         "home_away": "away",
         "team_score": 50,
@@ -141250,19 +139014,6 @@
         "ovr_delta": -3.7
       },
       {
-        "date": "2024-12-14",
-        "opponent": "Raytown South",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 56.2,
-        "predicted_opp_score": 44.5,
-        "off_delta": -5.2,
-        "def_delta": 1.5,
-        "ovr_delta": -3.7
-      },
-      {
         "date": "2024-12-27",
         "opponent": "Blue Springs South",
         "home_away": "home",
@@ -141316,19 +139067,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Platte County",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 53,
-        "result": "W",
-        "predicted_team_score": 63.7,
-        "predicted_opp_score": 51.9,
-        "off_delta": -4.7,
-        "def_delta": -1.1,
-        "ovr_delta": -5.8
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "Platte County",
         "home_away": "away",
         "team_score": 59,
@@ -141629,19 +139367,6 @@
         "ovr_delta": -37.2
       },
       {
-        "date": "2024-12-10",
-        "opponent": "North Platte",
-        "home_away": "home",
-        "team_score": 25,
-        "opp_score": 81,
-        "result": "L",
-        "predicted_team_score": 45.8,
-        "predicted_opp_score": 64.6,
-        "off_delta": -20.8,
-        "def_delta": -16.4,
-        "ovr_delta": -37.2
-      },
-      {
         "date": "2024-12-11",
         "opponent": "Lathrop",
         "home_away": "home",
@@ -141747,19 +139472,6 @@
       },
       {
         "date": "2025-01-17",
-        "opponent": "Lawson",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 44,
-        "result": "W",
-        "predicted_team_score": 46.8,
-        "predicted_opp_score": 48.4,
-        "off_delta": 6.2,
-        "def_delta": 4.4,
-        "ovr_delta": 10.6
-      },
-      {
-        "date": "2025-01-18",
         "opponent": "Lawson",
         "home_away": "home",
         "team_score": 53,
@@ -142483,19 +140195,6 @@
       },
       {
         "date": "2025-01-10",
-        "opponent": "Thomas Jefferson Independent Day",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 42,
-        "result": "W",
-        "predicted_team_score": 53.0,
-        "predicted_opp_score": 43.8,
-        "off_delta": 4.0,
-        "def_delta": 1.8,
-        "ovr_delta": 5.8
-      },
-      {
-        "date": "2025-01-11",
         "opponent": "Thomas Jefferson Independent Day",
         "home_away": "home",
         "team_score": 57,
@@ -143367,19 +141066,6 @@
         "ovr_delta": 9.9
       },
       {
-        "date": "2024-12-29",
-        "opponent": "Houston",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 34,
-        "result": "W",
-        "predicted_team_score": 60.4,
-        "predicted_opp_score": 47.3,
-        "off_delta": -3.4,
-        "def_delta": 13.3,
-        "ovr_delta": 9.9
-      },
-      {
         "date": "2024-12-30",
         "opponent": "Gainesville",
         "home_away": "home",
@@ -143694,19 +141380,6 @@
         "ovr_delta": 5.8
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Pembroke Hill",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 51.9,
-        "predicted_opp_score": 63.7,
-        "off_delta": 1.1,
-        "def_delta": 4.7,
-        "ovr_delta": 5.8
-      },
-      {
         "date": "2025-01-10",
         "opponent": "Truman",
         "home_away": "home",
@@ -143877,19 +141550,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Belton",
-        "home_away": "home",
-        "team_score": 71,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 58.2,
-        "predicted_opp_score": 63.9,
-        "off_delta": 12.8,
-        "def_delta": -10.1,
-        "ovr_delta": 2.7
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Belton",
         "home_away": "home",
         "team_score": 71,
@@ -144389,19 +142049,6 @@
         "ovr_delta": -2.1
       },
       {
-        "date": "2024-12-17",
-        "opponent": "Harrisonville",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 53.5,
-        "predicted_opp_score": 66.4,
-        "off_delta": -3.5,
-        "def_delta": 1.4,
-        "ovr_delta": -2.1
-      },
-      {
         "date": "2024-12-18",
         "opponent": "Butler",
         "home_away": "home",
@@ -144415,33 +142062,7 @@
         "ovr_delta": -7.0
       },
       {
-        "date": "2024-12-19",
-        "opponent": "Butler",
-        "home_away": "home",
-        "team_score": 49,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 59.0,
-        "predicted_opp_score": 46.0,
-        "off_delta": -10.0,
-        "def_delta": 3.0,
-        "ovr_delta": -7.0
-      },
-      {
         "date": "2024-12-20",
-        "opponent": "Adrian",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 60.8,
-        "predicted_opp_score": 64.1,
-        "off_delta": -4.8,
-        "def_delta": 21.1,
-        "ovr_delta": 16.3
-      },
-      {
-        "date": "2024-12-21",
         "opponent": "Adrian",
         "home_away": "home",
         "team_score": 56,
@@ -145551,19 +143172,6 @@
         "ovr_delta": 6.9
       },
       {
-        "date": "2025-02-22",
-        "opponent": "Putnam County",
-        "home_away": "home",
-        "team_score": 75,
-        "opp_score": 83,
-        "result": "L",
-        "predicted_team_score": 58.7,
-        "predicted_opp_score": 60.5,
-        "off_delta": 16.3,
-        "def_delta": -22.5,
-        "ovr_delta": -6.2
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Northland Christian",
         "home_away": "home",
@@ -146363,19 +143971,6 @@
         "ovr_delta": 18.6
       },
       {
-        "date": "2025-01-14",
-        "opponent": "Fredericktown",
-        "home_away": "home",
-        "team_score": 86,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 69.3,
-        "predicted_opp_score": 50.9,
-        "off_delta": 16.7,
-        "def_delta": 1.9,
-        "ovr_delta": 18.6
-      },
-      {
         "date": "2025-01-15",
         "opponent": "Union",
         "home_away": "home",
@@ -146953,19 +144548,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Higbee",
-        "home_away": "home",
-        "team_score": 75,
-        "opp_score": 52,
-        "result": "W",
-        "predicted_team_score": 70.0,
-        "predicted_opp_score": 54.2,
-        "off_delta": 5.0,
-        "def_delta": 2.2,
-        "ovr_delta": 7.2
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Higbee",
         "home_away": "home",
         "team_score": 75,
@@ -148803,19 +146385,6 @@
         "ovr_delta": 5.9
       },
       {
-        "date": "2025-01-22",
-        "opponent": "Atlanta",
-        "home_away": "away",
-        "team_score": 51,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 57.1,
-        "predicted_opp_score": 66.0,
-        "off_delta": -6.1,
-        "def_delta": 12.0,
-        "ovr_delta": 5.9
-      },
-      {
         "date": "2025-01-24",
         "opponent": "South Harrison",
         "home_away": "home",
@@ -148921,19 +146490,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Polo",
-        "home_away": "away",
-        "team_score": 83,
-        "opp_score": 75,
-        "result": "W",
-        "predicted_team_score": 60.5,
-        "predicted_opp_score": 58.7,
-        "off_delta": 22.5,
-        "def_delta": -16.3,
-        "ovr_delta": 6.2
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Polo",
         "home_away": "away",
         "team_score": 83,
@@ -149274,19 +146830,6 @@
       },
       {
         "date": "2025-02-14",
-        "opponent": "Twin Rivers",
-        "home_away": "home",
-        "team_score": 77,
-        "opp_score": 36,
-        "result": "W",
-        "predicted_team_score": 69.0,
-        "predicted_opp_score": 45.0,
-        "off_delta": 8.0,
-        "def_delta": 9.0,
-        "ovr_delta": 17.0
-      },
-      {
-        "date": "2025-02-15",
         "opponent": "Twin Rivers",
         "home_away": "home",
         "team_score": 77,
@@ -150142,19 +147685,6 @@
         "ovr_delta": -1.7
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Blue Springs",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 54.8,
-        "predicted_opp_score": 55.1,
-        "off_delta": 2.2,
-        "def_delta": -3.9,
-        "ovr_delta": -1.7
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Lee's Summit",
         "home_away": "away",
@@ -150703,19 +148233,6 @@
         "off_delta": null,
         "def_delta": null,
         "ovr_delta": null
-      },
-      {
-        "date": "2024-12-14",
-        "opponent": "Pembroke Hill",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 51,
-        "result": "L",
-        "predicted_team_score": 44.5,
-        "predicted_opp_score": 56.2,
-        "off_delta": -1.5,
-        "def_delta": 5.2,
-        "ovr_delta": 3.7
       },
       {
         "date": "2024-12-17",
@@ -151309,19 +148826,6 @@
         "ovr_delta": -0.6
       },
       {
-        "date": "2025-02-24",
-        "opponent": "Ava",
-        "home_away": "away",
-        "team_score": 44,
-        "opp_score": 49,
-        "result": "L",
-        "predicted_team_score": 46.9,
-        "predicted_opp_score": 51.3,
-        "off_delta": -2.9,
-        "def_delta": 2.3,
-        "ovr_delta": -0.6
-      },
-      {
         "date": "2025-02-25",
         "opponent": "Monett",
         "home_away": "away",
@@ -151535,19 +149039,6 @@
       },
       {
         "date": "2025-01-10",
-        "opponent": "Nixa",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 51.4,
-        "predicted_opp_score": 58.6,
-        "off_delta": -4.4,
-        "def_delta": 5.6,
-        "ovr_delta": 1.2
-      },
-      {
-        "date": "2025-01-11",
         "opponent": "Nixa",
         "home_away": "home",
         "team_score": 47,
@@ -152751,19 +150242,6 @@
         "ovr_delta": -6.5
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Bloomfield",
-        "home_away": "away",
-        "team_score": 50,
-        "opp_score": 41,
-        "result": "W",
-        "predicted_team_score": 54.3,
-        "predicted_opp_score": 38.8,
-        "off_delta": -4.3,
-        "def_delta": -2.2,
-        "ovr_delta": -6.5
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Zalma",
         "home_away": "home",
@@ -153410,19 +150888,6 @@
       },
       {
         "date": "2025-01-09",
-        "opponent": "Bell City",
-        "home_away": "home",
-        "team_score": 72,
-        "opp_score": 56,
-        "result": "W",
-        "predicted_team_score": 71.7,
-        "predicted_opp_score": 53.1,
-        "off_delta": 0.3,
-        "def_delta": -2.9,
-        "ovr_delta": -2.6
-      },
-      {
-        "date": "2025-01-10",
         "opponent": "Bell City",
         "home_away": "home",
         "team_score": 72,
@@ -154291,19 +151756,6 @@
       },
       {
         "date": "2025-02-05",
-        "opponent": "Kirksville",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 33,
-        "result": "W",
-        "predicted_team_score": 49.8,
-        "predicted_opp_score": 47.9,
-        "off_delta": 0.2,
-        "def_delta": 14.9,
-        "ovr_delta": 15.1
-      },
-      {
-        "date": "2025-02-07",
         "opponent": "Kirksville",
         "home_away": "home",
         "team_score": 50,
@@ -156091,19 +153543,6 @@
         "ovr_delta": 3.8
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Branson",
-        "home_away": "away",
-        "team_score": 81,
-        "opp_score": 69,
-        "result": "W",
-        "predicted_team_score": 72.1,
-        "predicted_opp_score": 63.9,
-        "off_delta": 8.9,
-        "def_delta": -5.1,
-        "ovr_delta": 3.8
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Hillcrest",
         "home_away": "away",
@@ -156284,19 +153723,6 @@
         "off_delta": -7.1,
         "def_delta": -6.1,
         "ovr_delta": -13.2
-      },
-      {
-        "date": "2025-02-24",
-        "opponent": "St. Francis Borgia",
-        "home_away": "away",
-        "team_score": 74,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 68.1,
-        "predicted_opp_score": 56.8,
-        "off_delta": 5.9,
-        "def_delta": -2.2,
-        "ovr_delta": 3.7
       },
       {
         "date": "2025-02-25",
@@ -158902,19 +156328,6 @@
         "ovr_delta": -8.8
       },
       {
-        "date": "2025-02-22",
-        "opponent": "Mountain Grove",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 55.1,
-        "predicted_opp_score": 60.3,
-        "off_delta": -6.1,
-        "def_delta": -2.7,
-        "ovr_delta": -8.8
-      },
-      {
         "date": "2025-02-25",
         "opponent": "St. Clair",
         "home_away": "home",
@@ -159634,19 +157047,6 @@
         "ovr_delta": 3.8
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Hardin-Central",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 37.5,
-        "predicted_opp_score": 50.3,
-        "off_delta": 7.5,
-        "def_delta": -3.7,
-        "ovr_delta": 3.8
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Penney",
         "home_away": "away",
@@ -160289,19 +157689,6 @@
       },
       {
         "date": "2025-02-18",
-        "opponent": "Benton",
-        "home_away": "home",
-        "team_score": 36,
-        "opp_score": 79,
-        "result": "L",
-        "predicted_team_score": 30.7,
-        "predicted_opp_score": 72.7,
-        "off_delta": 5.3,
-        "def_delta": -6.3,
-        "ovr_delta": -1.0
-      },
-      {
-        "date": "2025-02-19",
         "opponent": "Benton",
         "home_away": "home",
         "team_score": 36,
@@ -161964,19 +159351,6 @@
         "ovr_delta": -17.0
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Oak Ridge",
-        "home_away": "away",
-        "team_score": 69,
-        "opp_score": 33,
-        "result": "W",
-        "predicted_team_score": 83.5,
-        "predicted_opp_score": 30.5,
-        "off_delta": -14.5,
-        "def_delta": -2.5,
-        "ovr_delta": -17.0
-      },
-      {
         "date": "2025-01-14",
         "opponent": "Delta",
         "home_away": "home",
@@ -162647,19 +160021,6 @@
       },
       {
         "date": "2025-01-13",
-        "opponent": "Parkway South",
-        "home_away": "home",
-        "team_score": 46,
-        "opp_score": 58,
-        "result": "L",
-        "predicted_team_score": 49.4,
-        "predicted_opp_score": 52.9,
-        "off_delta": -3.4,
-        "def_delta": -5.1,
-        "ovr_delta": -8.5
-      },
-      {
-        "date": "2025-01-14",
         "opponent": "Parkway South",
         "home_away": "home",
         "team_score": 46,
@@ -163482,19 +160843,6 @@
         "ovr_delta": -7.3
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Mt. Vernon",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 50.0,
-        "predicted_opp_score": 58.7,
-        "off_delta": 8.0,
-        "def_delta": -15.3,
-        "ovr_delta": -7.3
-      },
-      {
         "date": "2025-02-21",
         "opponent": "McDonald County",
         "home_away": "home",
@@ -163877,19 +161225,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Sparta",
-        "home_away": "home",
-        "team_score": 50,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 53.2,
-        "predicted_opp_score": 42.6,
-        "off_delta": -3.2,
-        "def_delta": -0.4,
-        "ovr_delta": -3.6
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Sparta",
         "home_away": "home",
         "team_score": 50,
@@ -165700,19 +163035,6 @@
         "ovr_delta": 3.2
       },
       {
-        "date": "2025-01-27",
-        "opponent": "Conway",
-        "home_away": "home",
-        "team_score": 85,
-        "opp_score": 56,
-        "result": "W",
-        "predicted_team_score": 71.7,
-        "predicted_opp_score": 51.5,
-        "off_delta": 13.3,
-        "def_delta": -4.5,
-        "ovr_delta": 8.8
-      },
-      {
         "date": "2025-01-29",
         "opponent": "Seymour",
         "home_away": "home",
@@ -166105,19 +163427,6 @@
         "ovr_delta": 5.4
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Glasgow",
-        "home_away": "away",
-        "team_score": 56,
-        "opp_score": 53,
-        "result": "W",
-        "predicted_team_score": 58.3,
-        "predicted_opp_score": 60.7,
-        "off_delta": -2.3,
-        "def_delta": 7.7,
-        "ovr_delta": 5.4
-      },
-      {
         "date": "2025-02-20",
         "opponent": "Pilot Grove",
         "home_away": "home",
@@ -166305,19 +163614,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "Camdenton",
-        "home_away": "away",
-        "team_score": 72,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 68.0,
-        "predicted_opp_score": 52.3,
-        "off_delta": 4.0,
-        "def_delta": 12.3,
-        "ovr_delta": 16.3
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "Camdenton",
         "home_away": "away",
         "team_score": 72,
@@ -166852,19 +164148,6 @@
         "ovr_delta": -5.4
       },
       {
-        "date": "2025-02-18",
-        "opponent": "Cole Camp",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 60.8,
-        "predicted_opp_score": 50.4,
-        "off_delta": -8.8,
-        "def_delta": 3.4,
-        "ovr_delta": -5.4
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Stover",
         "home_away": "home",
@@ -167179,19 +164462,6 @@
         "ovr_delta": -10.4
       },
       {
-        "date": "2025-02-11",
-        "opponent": "Grandview",
-        "home_away": "away",
-        "team_score": 36,
-        "opp_score": 71,
-        "result": "L",
-        "predicted_team_score": 43.3,
-        "predicted_opp_score": 67.9,
-        "off_delta": -7.3,
-        "def_delta": -3.1,
-        "ovr_delta": -10.4
-      },
-      {
         "date": "2025-02-14",
         "opponent": "Winnetonka",
         "home_away": "home",
@@ -167455,19 +164725,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Miller Career Academy",
-        "home_away": "away",
-        "team_score": 55,
-        "opp_score": 71,
-        "result": "L",
-        "predicted_team_score": 41.2,
-        "predicted_opp_score": 74.9,
-        "off_delta": 13.8,
-        "def_delta": 3.9,
-        "ovr_delta": 17.7
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Miller Career Academy",
         "home_away": "away",
         "team_score": 55,
@@ -167898,19 +165155,6 @@
         "ovr_delta": -5.6
       },
       {
-        "date": "2025-02-20",
-        "opponent": "Fayette",
-        "home_away": "away",
-        "team_score": 75,
-        "opp_score": 62,
-        "result": "W",
-        "predicted_team_score": 69.4,
-        "predicted_opp_score": 50.8,
-        "off_delta": 5.6,
-        "def_delta": -11.2,
-        "ovr_delta": -5.6
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Missouri Military Academy",
         "home_away": "away",
@@ -168200,19 +165444,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Brookfield",
-        "home_away": "away",
-        "team_score": 58,
-        "opp_score": 59,
-        "result": "L",
-        "predicted_team_score": 55.1,
-        "predicted_opp_score": 59.9,
-        "off_delta": 2.9,
-        "def_delta": 0.9,
-        "ovr_delta": 3.8
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "Brookfield",
         "home_away": "away",
         "team_score": 58,
@@ -171315,19 +168546,6 @@
         "ovr_delta": 2.0
       },
       {
-        "date": "2025-02-22",
-        "opponent": "Wheaton",
-        "home_away": "home",
-        "team_score": 82,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 79.5,
-        "predicted_opp_score": 48.5,
-        "off_delta": 2.5,
-        "def_delta": -0.5,
-        "ovr_delta": 2.0
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Diamond",
         "home_away": "away",
@@ -171669,19 +168887,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Seymour",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 42.6,
-        "predicted_opp_score": 53.2,
-        "off_delta": 0.4,
-        "def_delta": 3.2,
-        "ovr_delta": 3.6
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Seymour",
         "home_away": "away",
         "team_score": 43,
@@ -172689,19 +169894,6 @@
         "ovr_delta": 10.1
       },
       {
-        "date": "2024-12-28",
-        "opponent": "Hazelwood East",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 69,
-        "result": "L",
-        "predicted_team_score": 55.1,
-        "predicted_opp_score": 69.3,
-        "off_delta": 1.9,
-        "def_delta": 0.3,
-        "ovr_delta": 2.2
-      },
-      {
         "date": "2025-01-13",
         "opponent": "Washington",
         "home_away": "away",
@@ -172965,32 +170157,6 @@
       },
       {
         "date": "2024-12-12",
-        "opponent": "McCluer",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 37,
-        "result": "W",
-        "predicted_team_score": 55.6,
-        "predicted_opp_score": 37.5,
-        "off_delta": -10.6,
-        "def_delta": 0.5,
-        "ovr_delta": -10.1
-      },
-      {
-        "date": "2024-12-12",
-        "opponent": "St. Francis Borgia",
-        "home_away": "away",
-        "team_score": 47,
-        "opp_score": 53,
-        "result": "L",
-        "predicted_team_score": 47.8,
-        "predicted_opp_score": 59.6,
-        "off_delta": -0.8,
-        "def_delta": 6.6,
-        "ovr_delta": 5.8
-      },
-      {
-        "date": "2024-12-13",
         "opponent": "St. Francis Borgia",
         "home_away": "away",
         "team_score": 47,
@@ -173447,19 +170613,6 @@
         "ovr_delta": 11.0
       },
       {
-        "date": "2025-01-15",
-        "opponent": "Hermann",
-        "home_away": "home",
-        "team_score": 32,
-        "opp_score": 48,
-        "result": "L",
-        "predicted_team_score": 25.3,
-        "predicted_opp_score": 53.6,
-        "off_delta": 6.7,
-        "def_delta": 5.6,
-        "ovr_delta": 12.3
-      },
-      {
         "date": "2025-01-21",
         "opponent": "Belle",
         "home_away": "away",
@@ -173591,19 +170744,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Union",
-        "home_away": "home",
-        "team_score": 54,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 48.2,
-        "predicted_opp_score": 52.0,
-        "off_delta": 5.8,
-        "def_delta": 5.0,
-        "ovr_delta": 10.8
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Union",
         "home_away": "home",
         "team_score": 54,
@@ -174614,19 +171754,6 @@
         "ovr_delta": -5.8
       },
       {
-        "date": "2024-12-13",
-        "opponent": "St. Charles West",
-        "home_away": "home",
-        "team_score": 53,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 59.6,
-        "predicted_opp_score": 47.8,
-        "off_delta": -6.6,
-        "def_delta": 0.8,
-        "ovr_delta": -5.8
-      },
-      {
         "date": "2024-12-16",
         "opponent": "Owensville",
         "home_away": "away",
@@ -174846,19 +171973,6 @@
         "off_delta": 15.1,
         "def_delta": -16.7,
         "ovr_delta": -1.6
-      },
-      {
-        "date": "2025-02-24",
-        "opponent": "Rolla",
-        "home_away": "home",
-        "team_score": 59,
-        "opp_score": 74,
-        "result": "L",
-        "predicted_team_score": 56.8,
-        "predicted_opp_score": 68.1,
-        "off_delta": 2.2,
-        "def_delta": -5.9,
-        "ovr_delta": -3.7
       },
       {
         "date": "2025-02-28",
@@ -178989,19 +176103,6 @@
         "ovr_delta": -14.1
       },
       {
-        "date": "2025-01-09",
-        "opponent": "Lee's Summit North",
-        "home_away": "home",
-        "team_score": 46,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 61.8,
-        "predicted_opp_score": 51.7,
-        "off_delta": -15.8,
-        "def_delta": 1.7,
-        "ovr_delta": -14.1
-      },
-      {
         "date": "2025-01-10",
         "opponent": "Liberty North",
         "home_away": "away",
@@ -179029,19 +176130,6 @@
       },
       {
         "date": "2025-01-16",
-        "opponent": "Liberty",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 45,
-        "result": "W",
-        "predicted_team_score": 67.2,
-        "predicted_opp_score": 48.0,
-        "off_delta": -8.2,
-        "def_delta": 3.0,
-        "ovr_delta": -5.2
-      },
-      {
-        "date": "2025-01-17",
         "opponent": "Liberty",
         "home_away": "away",
         "team_score": 59,
@@ -179550,19 +176638,6 @@
         "ovr_delta": 14.6
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Gallatin",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 62,
-        "result": "L",
-        "predicted_team_score": 32.4,
-        "predicted_opp_score": 57.0,
-        "off_delta": 19.6,
-        "def_delta": -5.0,
-        "ovr_delta": 14.6
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Mound City",
         "home_away": "home",
@@ -179864,19 +176939,6 @@
         "ovr_delta": -9.0
       },
       {
-        "date": "2025-02-13",
-        "opponent": "Valley",
-        "home_away": "away",
-        "team_score": 59,
-        "opp_score": 63,
-        "result": "L",
-        "predicted_team_score": 64.5,
-        "predicted_opp_score": 59.5,
-        "off_delta": -5.5,
-        "def_delta": -3.5,
-        "ovr_delta": -9.0
-      },
-      {
         "date": "2025-02-22",
         "opponent": "West County",
         "home_away": "home",
@@ -179914,19 +176976,6 @@
         "off_delta": 5.4,
         "def_delta": 12.8,
         "ovr_delta": 18.2
-      },
-      {
-        "date": "2025-03-03",
-        "opponent": "Affton",
-        "home_away": "home",
-        "team_score": 1,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": 67.1,
-        "predicted_opp_score": 51.0,
-        "off_delta": -66.1,
-        "def_delta": 51.0,
-        "ovr_delta": -15.1
       },
       {
         "date": "2025-03-05",
@@ -181578,19 +178627,6 @@
       },
       {
         "date": "2025-01-25",
-        "opponent": "Cole Camp",
-        "home_away": "home",
-        "team_score": 56,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 49.2,
-        "predicted_opp_score": 43.9,
-        "off_delta": 6.8,
-        "def_delta": 3.9,
-        "ovr_delta": 10.7
-      },
-      {
-        "date": "2025-01-25",
         "opponent": "Higbee",
         "home_away": "home",
         "team_score": 52,
@@ -182768,19 +179804,6 @@
         "ovr_delta": 7.0
       },
       {
-        "date": "2025-02-18",
-        "opponent": "New Haven",
-        "home_away": "home",
-        "team_score": 57,
-        "opp_score": 32,
-        "result": "W",
-        "predicted_team_score": 53.8,
-        "predicted_opp_score": 35.8,
-        "off_delta": 3.2,
-        "def_delta": 3.8,
-        "ovr_delta": 7.0
-      },
-      {
         "date": "2025-02-21",
         "opponent": "Pacific",
         "home_away": "away",
@@ -183028,19 +180051,6 @@
         "off_delta": -13.6,
         "def_delta": 6.2,
         "ovr_delta": -7.4
-      },
-      {
-        "date": "2025-01-29",
-        "opponent": "Couch",
-        "home_away": "home",
-        "team_score": 45,
-        "opp_score": 49,
-        "result": "L",
-        "predicted_team_score": 52.9,
-        "predicted_opp_score": 56.2,
-        "off_delta": -7.9,
-        "def_delta": 7.2,
-        "ovr_delta": -0.7
       },
       {
         "date": "2025-02-03",
@@ -185177,19 +182187,6 @@
         "ovr_delta": -5.8
       },
       {
-        "date": "2025-01-11",
-        "opponent": "Pierce City",
-        "home_away": "away",
-        "team_score": 42,
-        "opp_score": 57,
-        "result": "L",
-        "predicted_team_score": 43.8,
-        "predicted_opp_score": 53.0,
-        "off_delta": -1.8,
-        "def_delta": -4.0,
-        "ovr_delta": -5.8
-      },
-      {
         "date": "2025-01-13",
         "opponent": "Sarcoxie",
         "home_away": "home",
@@ -185386,19 +182383,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "McAuley Catholic",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 40,
-        "result": "W",
-        "predicted_team_score": 40.5,
-        "predicted_opp_score": 49.3,
-        "off_delta": 11.5,
-        "def_delta": 9.3,
-        "ovr_delta": 20.8
-      },
-      {
-        "date": "2025-02-21",
         "opponent": "McAuley Catholic",
         "home_away": "away",
         "team_score": 52,
@@ -187786,19 +184770,6 @@
         "ovr_delta": 2.8
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Fort Osage",
-        "home_away": "home",
-        "team_score": 67,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 66.9,
-        "predicted_opp_score": 61.7,
-        "off_delta": 0.1,
-        "def_delta": 2.7,
-        "ovr_delta": 2.8
-      },
-      {
         "date": "2025-01-10",
         "opponent": "Platte County",
         "home_away": "away",
@@ -188665,19 +185636,6 @@
         "ovr_delta": -17.0
       },
       {
-        "date": "2025-02-15",
-        "opponent": "Puxico",
-        "home_away": "away",
-        "team_score": 36,
-        "opp_score": 77,
-        "result": "L",
-        "predicted_team_score": 45.0,
-        "predicted_opp_score": 69.0,
-        "off_delta": -9.0,
-        "def_delta": -8.0,
-        "ovr_delta": -17.0
-      },
-      {
         "date": "2025-02-17",
         "opponent": "Portageville",
         "home_away": "home",
@@ -189008,19 +185966,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "St. Clair",
-        "home_away": "away",
-        "team_score": 47,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 52.0,
-        "predicted_opp_score": 48.2,
-        "off_delta": -5.0,
-        "def_delta": -5.8,
-        "ovr_delta": -10.8
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "St. Clair",
         "home_away": "away",
         "team_score": 47,
@@ -189524,19 +186469,6 @@
         "ovr_delta": -1.6
       },
       {
-        "date": "2024-12-07",
-        "opponent": "Paseo Academy",
-        "home_away": "home",
-        "team_score": 47,
-        "opp_score": 50,
-        "result": "L",
-        "predicted_team_score": 49.9,
-        "predicted_opp_score": 51.3,
-        "off_delta": -2.9,
-        "def_delta": 1.3,
-        "ovr_delta": -1.6
-      },
-      {
         "date": "2024-12-10",
         "opponent": "Schlagle(Kansas City, KS)",
         "home_away": "home",
@@ -189865,19 +186797,6 @@
       },
       {
         "date": "2024-12-03",
-        "opponent": "Miller Career Academy",
-        "home_away": "home",
-        "team_score": 58,
-        "opp_score": 49,
-        "result": "W",
-        "predicted_team_score": 63.3,
-        "predicted_opp_score": 59.6,
-        "off_delta": -5.3,
-        "def_delta": 10.6,
-        "ovr_delta": 5.3
-      },
-      {
-        "date": "2024-12-04",
         "opponent": "Miller Career Academy",
         "home_away": "home",
         "team_score": 58,
@@ -190832,19 +187751,6 @@
         "ovr_delta": 9.0
       },
       {
-        "date": "2025-02-13",
-        "opponent": "Ste. Genevieve",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 59,
-        "result": "W",
-        "predicted_team_score": 59.5,
-        "predicted_opp_score": 64.5,
-        "off_delta": 3.5,
-        "def_delta": 5.5,
-        "ovr_delta": 9.0
-      },
-      {
         "date": "2025-02-15",
         "opponent": "North County",
         "home_away": "home",
@@ -191529,33 +188435,7 @@
         "ovr_delta": -11.8
       },
       {
-        "date": "2025-01-10",
-        "opponent": "East Carter",
-        "home_away": "home",
-        "team_score": 61,
-        "opp_score": 58,
-        "result": "W",
-        "predicted_team_score": 67.1,
-        "predicted_opp_score": 52.3,
-        "off_delta": -6.1,
-        "def_delta": -5.7,
-        "ovr_delta": -11.8
-      },
-      {
         "date": "2025-01-13",
-        "opponent": "Clearwater",
-        "home_away": "home",
-        "team_score": 81,
-        "opp_score": 38,
-        "result": "W",
-        "predicted_team_score": 87.6,
-        "predicted_opp_score": 46.5,
-        "off_delta": -6.6,
-        "def_delta": 8.5,
-        "ovr_delta": 1.9
-      },
-      {
-        "date": "2025-01-15",
         "opponent": "Clearwater",
         "home_away": "home",
         "team_score": 81,
@@ -192333,19 +189213,6 @@
       },
       {
         "date": "2025-01-20",
-        "opponent": "Hannibal",
-        "home_away": "home",
-        "team_score": 63,
-        "opp_score": 47,
-        "result": "W",
-        "predicted_team_score": 57.7,
-        "predicted_opp_score": 44.1,
-        "off_delta": 5.3,
-        "def_delta": -2.9,
-        "ovr_delta": 2.4
-      },
-      {
-        "date": "2025-01-21",
         "opponent": "Hannibal",
         "home_away": "home",
         "team_score": 63,
@@ -195489,19 +192356,6 @@
         "ovr_delta": -5.3
       },
       {
-        "date": "2025-02-28",
-        "opponent": "Knob Noster",
-        "home_away": "away",
-        "team_score": 45,
-        "opp_score": 43,
-        "result": "W",
-        "predicted_team_score": 52.4,
-        "predicted_opp_score": 45.1,
-        "off_delta": -7.4,
-        "def_delta": 2.1,
-        "ovr_delta": -5.3
-      },
-      {
         "date": "2025-03-05",
         "opponent": "Raytown",
         "home_away": "away",
@@ -195674,19 +192528,6 @@
       },
       {
         "date": "2025-01-27",
-        "opponent": "Belle",
-        "home_away": "home",
-        "team_score": 62,
-        "opp_score": 56,
-        "result": "W",
-        "predicted_team_score": 53.5,
-        "predicted_opp_score": 41.3,
-        "off_delta": 8.5,
-        "def_delta": -14.7,
-        "ovr_delta": -6.2
-      },
-      {
-        "date": "2025-01-28",
         "opponent": "Belle",
         "home_away": "home",
         "team_score": 62,
@@ -198606,19 +195447,6 @@
         "ovr_delta": -7.8
       },
       {
-        "date": "2025-02-21",
-        "opponent": "Lone Jack",
-        "home_away": "away",
-        "team_score": 43,
-        "opp_score": 49,
-        "result": "L",
-        "predicted_team_score": 50.1,
-        "predicted_opp_score": 48.3,
-        "off_delta": -7.1,
-        "def_delta": -0.7,
-        "ovr_delta": -7.8
-      },
-      {
         "date": "2025-02-24",
         "opponent": "Plattsburg",
         "home_away": "away",
@@ -198752,19 +195580,6 @@
       },
       {
         "date": "2025-01-07",
-        "opponent": "New Franklin",
-        "home_away": "away",
-        "team_score": 44,
-        "opp_score": 70,
-        "result": "L",
-        "predicted_team_score": 30.8,
-        "predicted_opp_score": 63.0,
-        "off_delta": 13.2,
-        "def_delta": -7.0,
-        "ovr_delta": 6.2
-      },
-      {
-        "date": "2025-01-08",
         "opponent": "New Franklin",
         "home_away": "away",
         "team_score": 44,
@@ -201067,19 +197882,6 @@
         "ovr_delta": -1.2
       },
       {
-        "date": "2025-01-08",
-        "opponent": "Community",
-        "home_away": "away",
-        "team_score": 75,
-        "opp_score": 22,
-        "result": "W",
-        "predicted_team_score": 74.8,
-        "predicted_opp_score": 20.6,
-        "off_delta": 0.2,
-        "def_delta": -1.4,
-        "ovr_delta": -1.2
-      },
-      {
         "date": "2025-01-09",
         "opponent": "Sturgeon",
         "home_away": "away",
@@ -201944,19 +198746,6 @@
         "ovr_delta": -11.2
       },
       {
-        "date": "2024-11-23",
-        "opponent": "Jasper",
-        "home_away": "home",
-        "team_score": 37,
-        "opp_score": 60,
-        "result": "L",
-        "predicted_team_score": 47.7,
-        "predicted_opp_score": 59.5,
-        "off_delta": -10.7,
-        "def_delta": -0.5,
-        "ovr_delta": -11.2
-      },
-      {
         "date": "2024-11-25",
         "opponent": "Fordland",
         "home_away": "home",
@@ -202270,19 +199059,6 @@
       },
       {
         "date": "2025-02-20",
-        "opponent": "Southwest (Washburn)",
-        "home_away": "away",
-        "team_score": 49,
-        "opp_score": 82,
-        "result": "L",
-        "predicted_team_score": 48.5,
-        "predicted_opp_score": 79.5,
-        "off_delta": 0.5,
-        "def_delta": -2.5,
-        "ovr_delta": -2.0
-      },
-      {
-        "date": "2025-02-22",
         "opponent": "Southwest (Washburn)",
         "home_away": "away",
         "team_score": 49,
@@ -202849,19 +199625,6 @@
         "ovr_delta": -17.9
       },
       {
-        "date": "2025-01-13",
-        "opponent": "Ozark",
-        "home_away": "home",
-        "team_score": 38,
-        "opp_score": 65,
-        "result": "L",
-        "predicted_team_score": 53.5,
-        "predicted_opp_score": 62.6,
-        "off_delta": -15.5,
-        "def_delta": -2.4,
-        "ovr_delta": -17.9
-      },
-      {
         "date": "2025-01-16",
         "opponent": "Lebanon",
         "home_away": "away",
@@ -202967,19 +199730,6 @@
       },
       {
         "date": "2025-02-10",
-        "opponent": "Parkview",
-        "home_away": "away",
-        "team_score": 52,
-        "opp_score": 55,
-        "result": "L",
-        "predicted_team_score": 51.2,
-        "predicted_opp_score": 64.5,
-        "off_delta": 0.8,
-        "def_delta": 9.5,
-        "ovr_delta": 10.3
-      },
-      {
-        "date": "2025-02-11",
         "opponent": "Parkview",
         "home_away": "away",
         "team_score": 52,
@@ -203725,19 +200475,6 @@
       },
       {
         "date": "2025-02-17",
-        "opponent": "Mountain Grove",
-        "home_away": "home",
-        "team_score": 51,
-        "opp_score": 54,
-        "result": "L",
-        "predicted_team_score": 60.9,
-        "predicted_opp_score": 59.6,
-        "off_delta": -9.9,
-        "def_delta": 5.6,
-        "ovr_delta": -4.3
-      },
-      {
-        "date": "2025-02-18",
         "opponent": "Mountain Grove",
         "home_away": "home",
         "team_score": 51,
@@ -205206,19 +201943,6 @@
     "Winona": [
       {
         "date": "2024-11-29",
-        "opponent": "Billings",
-        "home_away": "home",
-        "team_score": 43,
-        "opp_score": 46,
-        "result": "L",
-        "predicted_team_score": 46.4,
-        "predicted_opp_score": 45.2,
-        "off_delta": -3.4,
-        "def_delta": -0.8,
-        "ovr_delta": -4.2
-      },
-      {
-        "date": "2024-11-30",
         "opponent": "Billings",
         "home_away": "home",
         "team_score": 43,
