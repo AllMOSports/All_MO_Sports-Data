@@ -19260,6 +19260,26 @@
           "points_against": 274,
           "point_diff": -69,
           "mov": -6.9
+        },
+        "2024": {
+          "ovr_rank": 212,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": -17.54,
+          "off_rating": -12.12,
+          "off_rank": 226,
+          "def_rating": -5.42,
+          "def_rank": 190,
+          "wins": 5,
+          "losses": 6,
+          "win_pct": 45.45,
+          "games_played": 11,
+          "ppg": 19.73,
+          "papg": 22.91,
+          "points_for": 217,
+          "points_against": 252,
+          "point_diff": -35,
+          "mov": -3.18
         }
       }
     },
