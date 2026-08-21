@@ -25935,7 +25935,7 @@
       }
     },
     "miller-career-academy": {
-      "mshsaa_name": "Miller Career Academy",
+      "mshsaa_name": "Miller Career Academy with Sumner",
       "name": "Miller Career Academy",
       "sports": {
         "baseball": {
@@ -25989,6 +25989,20 @@
           "sos_rating": null,
           "win_pct": 40.91,
           "wins": 9
+        },
+        "football": {
+          "classification": 5,
+          "def_rating": -21.8,
+          "games_played": 10,
+          "losses": 7,
+          "off_rating": -12.71,
+          "ovr_rating": -34.51,
+          "papg": 38,
+          "pdpg": -22.3,
+          "ppg": 15.7,
+          "sos_rating": null,
+          "win_pct": 30.0,
+          "wins": 3
         }
       }
     },
@@ -47071,21 +47085,6 @@
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
-        }
-      }
-    },
-    "miller-career-academy-with-sumner": {
-      "mshsaa_name": "Miller Career Academy with Sumner",
-      "name": "Miller Career Academy with Sumner",
-      "sports": {
-        "football": {
-          "games_played": 10,
-          "losses": 7,
-          "papg": 38,
-          "pdpg": -22.3,
-          "ppg": 15.7,
-          "win_pct": 30.0,
-          "wins": 3
         }
       }
     }
