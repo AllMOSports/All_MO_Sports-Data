@@ -12360,11 +12360,11 @@
         "team_score": 16,
         "opp_score": 2,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 24.9,
+        "predicted_opp_score": 8.2,
+        "off_delta": -8.9,
+        "def_delta": 6.2,
+        "ovr_delta": -2.7
       },
       {
         "date": "2024-09-27",
@@ -13870,11 +13870,11 @@
         "team_score": 22,
         "opp_score": 8,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 20.2,
+        "predicted_opp_score": 6.7,
+        "off_delta": 1.8,
+        "def_delta": -1.3,
+        "ovr_delta": 0.5
       },
       {
         "date": "2024-09-06",
@@ -16103,11 +16103,11 @@
         "team_score": 55,
         "opp_score": 14,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 60.0,
+        "predicted_opp_score": -4.9,
+        "off_delta": -5.0,
+        "def_delta": -18.9,
+        "ovr_delta": -23.9
       },
       {
         "date": "2024-10-25",
@@ -21870,11 +21870,11 @@
         "team_score": 80,
         "opp_score": 0,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 67.1,
+        "predicted_opp_score": -10.0,
+        "off_delta": 12.9,
+        "def_delta": -10.0,
+        "ovr_delta": 2.9
       },
       {
         "date": "2024-11-23",
@@ -22108,11 +22108,11 @@
         "team_score": 27,
         "opp_score": 26,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 21.6,
+        "predicted_opp_score": 28.2,
+        "off_delta": 5.4,
+        "def_delta": 2.2,
+        "ovr_delta": 7.6
       },
       {
         "date": "2024-10-04",
@@ -25122,11 +25122,11 @@
         "team_score": 8,
         "opp_score": 22,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 6.7,
+        "predicted_opp_score": 20.2,
+        "off_delta": 1.3,
+        "def_delta": -1.8,
+        "ovr_delta": -0.5
       },
       {
         "date": "2024-09-07",
@@ -25148,11 +25148,11 @@
         "team_score": 2,
         "opp_score": 16,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 8.2,
+        "predicted_opp_score": 24.9,
+        "off_delta": -6.2,
+        "def_delta": 8.9,
+        "ovr_delta": 2.7
       },
       {
         "date": "2024-09-28",
@@ -25161,11 +25161,11 @@
         "team_score": 26,
         "opp_score": 27,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 28.2,
+        "predicted_opp_score": 21.6,
+        "off_delta": -2.2,
+        "def_delta": -5.4,
+        "ovr_delta": -7.6
       },
       {
         "date": "2024-10-11",
@@ -25174,11 +25174,11 @@
         "team_score": 18,
         "opp_score": 29,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 12.3,
+        "predicted_opp_score": 24.3,
+        "off_delta": 5.7,
+        "def_delta": -4.7,
+        "ovr_delta": 1.0
       },
       {
         "date": "2024-10-19",
@@ -25187,11 +25187,11 @@
         "team_score": 14,
         "opp_score": 55,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": -4.9,
+        "predicted_opp_score": 60.0,
+        "off_delta": 18.9,
+        "def_delta": 5.0,
+        "ovr_delta": 23.9
       },
       {
         "date": "2024-10-26",
@@ -25200,11 +25200,11 @@
         "team_score": 26,
         "opp_score": 6,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 26.5,
+        "predicted_opp_score": 7.9,
+        "off_delta": -0.5,
+        "def_delta": 1.9,
+        "ovr_delta": 1.4
       },
       {
         "date": "2024-11-01",
@@ -25226,11 +25226,11 @@
         "team_score": 16,
         "opp_score": 11,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 22.5,
+        "predicted_opp_score": 14.5,
+        "off_delta": -6.5,
+        "def_delta": 3.5,
+        "ovr_delta": -3.0
       },
       {
         "date": "2024-11-15",
@@ -25239,11 +25239,11 @@
         "team_score": 0,
         "opp_score": 80,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": -10.0,
+        "predicted_opp_score": 67.1,
+        "off_delta": 10.0,
+        "def_delta": -12.9,
+        "ovr_delta": -2.9
       }
     ],
     "Mission Valley (KS.)": [
@@ -34344,11 +34344,11 @@
         "team_score": 6,
         "opp_score": 26,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 7.9,
+        "predicted_opp_score": 26.5,
+        "off_delta": -1.9,
+        "def_delta": 0.5,
+        "ovr_delta": -1.4
       },
       {
         "date": "2024-11-01",
@@ -39080,11 +39080,11 @@
         "team_score": 29,
         "opp_score": 18,
         "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 24.3,
+        "predicted_opp_score": 12.3,
+        "off_delta": 4.7,
+        "def_delta": -5.7,
+        "ovr_delta": -1.0
       },
       {
         "date": "2024-10-18",
@@ -41724,11 +41724,11 @@
         "team_score": 11,
         "opp_score": 16,
         "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null
+        "predicted_team_score": 14.5,
+        "predicted_opp_score": 22.5,
+        "off_delta": -3.5,
+        "def_delta": 6.5,
+        "ovr_delta": 3.0
       }
     ],
     "Valle Catholic": [
