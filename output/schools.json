@@ -25992,21 +25992,6 @@
         }
       }
     },
-    "miller-career-academy-with-vashon,-sumner": {
-      "mshsaa_name": "Miller Career Academy with Vashon, Sumner",
-      "name": "Miller Career Academy with Vashon, Sumner",
-      "sports": {
-        "football": {
-          "games_played": 10,
-          "losses": 7,
-          "papg": 38,
-          "pdpg": -22.3,
-          "ppg": 15.7,
-          "win_pct": 30.0,
-          "wins": 3
-        }
-      }
-    },
     "missouri-military-academy": {
       "mshsaa_name": "Missouri Military Academy",
       "name": "Missouri Military Academy",
@@ -47086,6 +47071,21 @@
           "sos_rating": null,
           "win_pct": 23.33,
           "wins": 7
+        }
+      }
+    },
+    "miller-career-academy-with-sumner": {
+      "mshsaa_name": "Miller Career Academy with Sumner",
+      "name": "Miller Career Academy with Sumner",
+      "sports": {
+        "football": {
+          "games_played": 10,
+          "losses": 7,
+          "papg": 38,
+          "pdpg": -22.3,
+          "ppg": 15.7,
+          "win_pct": 30.0,
+          "wins": 3
         }
       }
     }
