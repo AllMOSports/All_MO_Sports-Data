@@ -179,6 +179,43 @@ def get_current_schedule_path(sport: str, season: int, config: dict) -> Path | N
     return None  # not built yet for this sport
 
 
+def get_schedule_path_for_year(sport: str, year: int, config: dict) -> Path | None:
+    """Same as get_current_schedule_path but for an arbitrary historical year."""
+    return get_current_schedule_path(sport, year, config)
+
+
+def discover_available_schedule_years(sport: str, config: dict) -> list[int]:
+    """
+    Scan output/ for every schedule file that actually exists for this sport,
+    across all years -- not just the "current" one passed via --season.
+    Used to build the full historical schedule archive (see
+    build_schedule_history below) without needing to know in advance which
+    years have schedule data, since that varies a lot by sport (Football
+    only goes back to 2019, other sports may have gaps).
+    """
+    style = config.get("schedule_style")
+    if style is None:
+        return []
+
+    output_root = DATA_REPO / "output"
+    if not output_root.exists():
+        return []
+
+    if style == "year_range":
+        pattern = re.compile(rf"^{re.escape(sport)}_schedule_(\d{{4}})-\d{{4}}\.json$")
+    elif style == "single_year":
+        pattern = re.compile(rf"^{re.escape(sport)}_schedule_(\d{{4}})\.json$")
+    else:
+        return []
+
+    years = []
+    for fname in os.listdir(output_root):
+        m = pattern.match(fname)
+        if m:
+            years.append(int(m.group(1)))
+    return sorted(years)
+
+
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -203,6 +240,13 @@ def build_name_to_slug_map(schools_json: dict) -> dict:
 def load_aliases() -> dict:
     """Single shared alias file across all 9 sports."""
     if not SCHOOL_ALIASES_PATH.exists():
+        print(
+            f"  *** WARNING: {SCHOOL_ALIASES_PATH} not found. Proceeding with ZERO aliases. ***\n"
+            f"  *** This means every co-op/renamed/historical name that needs an alias will be\n"
+            f"  *** silently dropped from every team's history, INCLUDING seasons for teams that\n"
+            f"  *** otherwise resolve correctly. Verify this file is actually committed before\n"
+            f"  *** trusting this run's output. ***"
+        )
         return {}
     return load_json(SCHOOL_ALIASES_PATH)
 
@@ -247,6 +291,38 @@ def load_ratings_and_stats_history(sport: str, config: dict):
         d = load_json(sport_folder / fname)
         seasons.append(d)
     return seasons, seasons  # same data serves both roles for these 3 sports
+
+
+def build_schedule_history(sport: str, config: dict, name_to_slug: dict, aliases: dict,
+                            unmatched: set, output_dir: Path) -> int:
+    """
+    Writes output/{sport}/schedule_history/{slug}/{year}.json for every year
+    that has a schedule file on disk (including the current year -- keeping
+    it in both places is intentional: current_schedule in the main team file
+    is a fast-path duplicate of the latest year, schedule_history/ is the
+    complete, always-consistent archive a frontend can page through without
+    special-casing "is this the newest season").
+
+    Each file holds just that one team's games for that one season -- small
+    and independently cacheable, so a team page only pays for archived
+    seasons a visitor actually clicks into, never on the default page load.
+    Returns the number of years processed (for logging).
+    """
+    years = discover_available_schedule_years(sport, config)
+    for year in years:
+        path = get_schedule_path_for_year(sport, year, config)
+        if not path or not path.exists():
+            continue
+        raw = load_json(path)
+        for team_name, games in raw["teams"].items():
+            slug = resolve_slug(team_name, name_to_slug, aliases, unmatched)
+            if not slug:
+                continue
+            team_hist_dir = output_dir / "schedule_history" / slug
+            team_hist_dir.mkdir(parents=True, exist_ok=True)
+            with open(team_hist_dir / f"{year}.json", "w", encoding="utf-8") as f:
+                json.dump(games, f, separators=(",", ":"))
+    return len(years)
 
 
 def process_sport(sport: str, season: int, schools_json: dict, name_to_slug: dict, aliases: dict):
@@ -304,6 +380,11 @@ def process_sport(sport: str, season: int, schools_json: dict, name_to_slug: dic
         print(f"  [{sport}] NOTE: no schedule scraper built for this sport yet, skipping current_schedule field")
     else:
         print(f"  [{sport}] WARNING: current-season schedule not found at {current_schedule_path}, skipping current_schedule field")
+
+    # --- full historical schedule archive (lazy-loaded per team per season on the site) ---
+    schedule_years_written = build_schedule_history(sport, config, name_to_slug, aliases, unmatched, output_dir)
+    if schedule_years_written:
+        print(f"  [{sport}] wrote schedule_history/ for {schedule_years_written} season(s)")
 
     # --- write merged per-team files ---
     all_slugs = set(current_by_slug) | set(ratings_hist_by_slug) | set(stats_hist_by_slug)
