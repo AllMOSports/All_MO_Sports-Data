@@ -51,6 +51,26 @@ on:
         description: "Season start year, e.g. 2025 for the 2025-26 school year"
         required: true
         type: number
+  workflow_dispatch:
+    inputs:
+      sport:
+        description: "Sport to build"
+        required: true
+        type: choice
+        options:
+          - boys_basketball
+          - girls_basketball
+          - boys_soccer
+          - fall_softball
+          - girls_volleyball
+          - football
+          - girls_soccer
+          - spring_softball
+          - baseball
+      season:
+        description: "Season start year, e.g. 2025 for the 2025-26 school year"
+        required: true
+        type: number
 
 permissions:
   contents: write
