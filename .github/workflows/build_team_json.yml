@@ -1,0 +1,102 @@
+# .github/workflows/build_team_json.yml
+#
+# Reusable workflow -- runs build_all_team_json.py for ONE sport/season and
+# commits the resulting per-team JSON files back to All_MO_Sports-Data.
+#
+# build_all_team_json.py and school_aliases.json both live in THIS repo
+# (All_MO_Sports-Data), alongside the output/ folder they read from and
+# write to -- so this workflow does a single checkout of this repo, then
+# checks out the relevant current-season ratings repo as a subdirectory
+# inside it (present on disk for the script to read, never committed,
+# since the commit step only stages output/{sport}/).
+#
+# This is designed to be called as the LAST job in each sport's own existing
+# nightly generator workflow (the one that produces that sport's ratings),
+# passing whatever season value that workflow already knows. It deliberately
+# does NOT try to guess or compute the season itself -- each sport's own
+# pipeline already tracks that correctly (fall sports, winter sports, and
+# spring sports all label "season" differently), and duplicating that logic
+# here would risk drifting out of sync the same way the repo-naming
+# assumptions did before they were verified against the real repos.
+#
+# Place this file at: All_MO_Sports-Data/.github/workflows/build_team_json.yml
+#
+# Example call from another workflow (e.g. in the Boys_Soccer_Ratings repo,
+# or wherever that sport's generator lives):
+#
+#   jobs:
+#     generate-ratings:
+#       # ... existing steps that produce this season's ratings ...
+#
+#     build-team-json:
+#       needs: generate-ratings
+#       uses: AllMOSports/All_MO_Sports-Data/.github/workflows/build_team_json.yml@main
+#       with:
+#         sport: boys_soccer
+#         season: 2025
+#       secrets: inherit
+
+name: Build Team JSON
+
+on:
+  workflow_call:
+    inputs:
+      sport:
+        description: >
+          One of: boys_basketball, girls_basketball, boys_soccer, fall_softball,
+          girls_volleyball, football, girls_soccer, spring_softball, baseball
+        required: true
+        type: string
+      season:
+        description: "Season start year, e.g. 2025 for the 2025-26 school year"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+
+jobs:
+  build-team-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout All_MO_Sports-Data
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve current-season ratings repo name
+        id: resolve
+        run: |
+          REPO_NAME=$(python3 build_all_team_json.py --sport "${{ inputs.sport }}" --season "${{ inputs.season }}" --print-ratings-repo)
+          echo "repo_name=$REPO_NAME" >> "$GITHUB_OUTPUT"
+          echo "Resolved current-season ratings repo: $REPO_NAME"
+
+      - name: Checkout current-season ratings repo
+        if: steps.resolve.outputs.repo_name != ''
+        uses: actions/checkout@v4
+        with:
+          repository: AllMOSports/${{ steps.resolve.outputs.repo_name }}
+          path: ${{ steps.resolve.outputs.repo_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true  # repo may not exist yet early in a season -- script degrades gracefully
+
+      - name: Run build_all_team_json.py
+        run: |
+          python3 build_all_team_json.py --sport "${{ inputs.sport }}" --season "${{ inputs.season }}"
+
+      - name: Commit and push updated team JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "output/${{ inputs.sport }}/"
+          if git diff --cached --quiet; then
+            echo "No changes to commit for ${{ inputs.sport }}"
+          else
+            git commit -m "Update ${{ inputs.sport }} team JSON (season ${{ inputs.season }})"
+            git push
+          fi
