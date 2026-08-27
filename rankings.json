@@ -1,5 +1,5 @@
 {
-  "updated": "August 26, 2026",
+  "updated": "August 27, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
@@ -74,33 +74,7 @@
     "badgeBg": "#fbeaf0",
     "badgeFg": "#993556",
     "url": "https://allmosports.com/girls-basketball-all-classes-rankings-25-26/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Incarnate Word Academy",
-        "ovr": "76.82"
-      },
-      {
-        "rank": "2",
-        "school": "Staley",
-        "ovr": "74.12"
-      },
-      {
-        "rank": "3",
-        "school": "Lee's Summit West",
-        "ovr": "64.32"
-      },
-      {
-        "rank": "4",
-        "school": "Jackson",
-        "ovr": "56.80"
-      },
-      {
-        "rank": "5",
-        "school": "Strafford",
-        "ovr": "54.44"
-      }
-    ]
+    "teams": []
   },
   "BSB": {
     "name": "Baseball",
