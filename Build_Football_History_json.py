@@ -47,7 +47,7 @@ from pathlib import Path
  
 # ---------- CONFIG ----------
 ORG = "AllMOSports"
-YEARS = range(2010, 2025)  # 2010-2024 inclusive
+YEARS = range(2010, 2026)  # 2010-2025 inclusive
  
 # CONFIRM/EDIT: repo containing football-ratings-2010.json actually also
 # holds 2011 and 2019 files. If other years live in that SAME repo rather
@@ -74,8 +74,22 @@ RECORDS_URL_TEMPLATE = (
  
 # Source of truth for slugs (your live schools.json feed) and the
 # co-op / renamed-school alias table already used by add_slugs.py.
-SCHOOLS_JSON_PATH = "output/schools.json"   # local path or raw.githubusercontent.com URL
-ALIASES_JSON_PATH = "Aliases.json"          # local path or URL; optional
+# Raw GitHub URLs by default -- this script is meant to be runnable from
+# ANY repo checkout (football-ratings-2026, All_MO_Sports-Data, wherever),
+# not just from inside a local All_MO_Sports-Data clone, so it can't
+# depend on a relative local path existing. load_json() below already
+# handles both a local path and an http(s) URL for SCHOOLS_JSON_PATH; if
+# you DO have All_MO_Sports-Data checked out locally, swap this back to
+# "output/schools.json" to skip the network fetch.
+SCHOOLS_JSON_PATH = "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/schools.json"
+ALIASES_JSON_PATH = "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/Aliases.json"
+# football_history.json is read by the Sport Detail snippet from
+# All_MO_Sports-Data's repo root (HISTORY_URLS.football), not wherever
+# this script happens to run -- if you're running this from
+# football-ratings-2026 (or anywhere else), you still need to move/copy
+# the resulting football_history.json into your All_MO_Sports-Data repo
+# and push it there. This just controls where the script writes it
+# locally.
 OUTPUT_PATH = "football_history.json"
  
  
@@ -134,8 +148,13 @@ def build_name_to_slug_map(schools_json_path: str, aliases_json_path: str):
                 name_to_slug[nm.strip().lower()] = slug
  
     aliases = {}
-    if aliases_json_path and Path(aliases_json_path).exists():
-        aliases = load_json(aliases_json_path)  # {"Old/Co-op Name": "Canonical Name"}
+    if aliases_json_path:
+        is_url = aliases_json_path.startswith("http")
+        if is_url or Path(aliases_json_path).exists():
+            try:
+                aliases = load_json(aliases_json_path)  # {"Old/Co-op Name": "Canonical Name"}
+            except Exception as e:
+                print(f"  !! Could not load aliases from {aliases_json_path}: {e}")
  
     return name_to_slug, aliases
  
