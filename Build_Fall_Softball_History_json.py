@@ -58,7 +58,7 @@ from pathlib import Path
  
 # ---------- CONFIG ----------
 ORG = "AllMOSports"
-YEARS = range(2012, 2025)  # 2012-2024 inclusive
+YEARS = range(2012, 2026)  # 2012-2025 inclusive
  
 YEAR_REPO_OVERRIDES = {
     # 2013: "Fall_Softball_Ratings_2012",

@@ -55,7 +55,7 @@ from pathlib import Path
  
 # ---------- CONFIG ----------
 ORG = "AllMOSports"
-YEARS = range(2012, 2025)  # 2012-2024 inclusive (NOT 2010-2011, see docstring)
+YEARS = range(2012, 2026)  # 2012-2025 inclusive (NOT 2010-2011, see docstring)
  
 # CONFIRM/EDIT: unlike football, there's no known evidence yet that any
 # year's data lives in a different repo than its own "Boys_Soccer_Ratings_YYYY"
