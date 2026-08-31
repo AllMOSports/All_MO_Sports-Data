@@ -1,22 +1,22 @@
 """
-scrape_mshsaa_season_records.py
+Scrape_MSHSAA_Season_Records_2026-2027.py
  
 Scrapes MSHSAA's "Season Records" page for the CURRENT season, all 9 sports:
   https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg={alg}
-(no &year= param -- omitting it returns the current/in-progress season)
  
-Parsing logic (row selector, cell schemas, school-ID extraction) is carried
-over as-is from scrape_mshsaa_history_records.py, which has this confirmed
-against live 2025-26 HTML. If you already have a working
-scrape_mshsaa_season_records.py, prefer that one and use this only as a
-reference/merge candidate -- see the chat note.
+Schemas below are CONFIRMED against real View Page Source for all 9 sports
+(Football, Boys Soccer, Fall Softball, Girls Volleyball from live 2026-27
+in-progress pages; Baseball, Boys/Girls Basketball, Girls Soccer, Spring
+Softball from their most recently completed 2025-26 pages, since those
+sports haven't started yet -- format should carry over, but re-verify with
+a fresh View Page Source once each one's 2026-27 page goes live, in case
+MSHSAA changes anything between seasons).
  
-Sport coverage: includes all 9 sports now (not just the 4 fall sports
-currently in season) so nothing needs to be added later. Winter/spring
-sports (baseball, boys/girls basketball, girls soccer, spring softball)
-will simply come back with 0 teams until their season's data appears on
-MSHSAA's site -- that's expected and logged as "no data yet", not treated
-as a failure.
+There is no raw "Win%" column on 4 of the 9 sports (see SPORT_SCHEMA below)
+-- where it's missing, win_pct is computed here from Win/Loss/Tie using the
+tie-counts-as-half-a-win convention. Confirm this convention against a real
+tied team if you want certainty; MSHSAA doesn't document it anywhere I
+could find.
 """
  
 import json
@@ -46,65 +46,64 @@ SPORT_ALG_MAP = {
     "spring_softball": 68,
 }
  
+# Confirmed via View Page Source, one per sport, 2026-08-31/09-01:
+#   POINTS      - 12 cells, ends in "Points" (MSHSAA seeding points, no raw Win%)
+#   WINPCT      - 12 cells, ends in raw "Win%" text (e.g. "92.86%")
+#   NOPCT       - 11 cells, ends at "Tie" -- no Win%, no Points column at all
+#   VOLLEYBALL  - 8 cells, no PF/PA/PPG/OPPG, has MOV and raw Win%
+SPORT_SCHEMA = {
+    "football": "POINTS",
+    "baseball": "WINPCT",
+    "boys_basketball": "NOPCT",
+    "girls_basketball": "NOPCT",
+    "boys_soccer": "WINPCT",
+    "girls_soccer": "WINPCT",
+    "fall_softball": "WINPCT",
+    "spring_softball": "WINPCT",
+    "girls_volleyball": "VOLLEYBALL",
+}
+ 
 OUTPUT_DIR_DEFAULT = "output/season_records"
- 
 REQUEST_DELAY_SECONDS = 1.5
- 
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     )
 }
- 
 MAX_FETCH_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 5
- 
-# ---------------------------------------------------------------------------
-# COLUMN SCHEMAS (carried over from scrape_mshsaa_history_records.py)
-# ---------------------------------------------------------------------------
- 
 ROW_SELECTOR_CLASS = "fs_tablecolumn"
  
-SCHEMA_A_CELL_INDEX = {
-    "classification_label": 1,
-    "district": 2,
-    "points_for": 3,
-    "points_against": 4,
-    "ppg": 5,
-    "oppg": 6,
-    "mov": 7,
-    "wins": 8,
-    "losses": 9,
-    "win_pct": 10,
-    "mshsaa_points": 11,  # only present when cell count is 12
-}
-SCHEMA_A_VALID_CELL_COUNTS = {11, 12}
+# ---------------------------------------------------------------------------
+# CELL INDEX MAPS (all confirmed against raw HTML, not rendered text)
+# ---------------------------------------------------------------------------
  
-SCHEMA_B_CELL_INDEX = {
-    "classification_label": 1,
-    "district": 2,
-    "mov": 3,
-    "wins": 4,
-    "losses": 5,
-    "win_pct": 6,
+POINTS_CELL_INDEX = {
+    "classification_label": 1, "district": 2, "points_for": 3, "points_against": 4,
+    "ppg": 5, "oppg": 6, "mov": 7, "wins": 8, "losses": 9, "ties": 10,
+    "mshsaa_points": 11,
 }
-SCHEMA_B_VALID_CELL_COUNTS = {7}
+POINTS_VALID_COUNTS = {12}
  
-# Girls Volleyball is scored in sets, not points -- MSHSAA doesn't publish
-# PF/PA/PPG/OPPG for it, so it uses the reduced schema. All other sports
-# use the full schema. Revisit this if MSHSAA changes their markup.
-SPORT_SCHEMA = {
-    "football": "A",
-    "baseball": "A",
-    "boys_basketball": "A",
-    "girls_basketball": "A",
-    "boys_soccer": "A",
-    "girls_soccer": "A",
-    "fall_softball": "A",
-    "spring_softball": "A",
-    "girls_volleyball": "B",
+WINPCT_CELL_INDEX = {
+    "classification_label": 1, "district": 2, "points_for": 3, "points_against": 4,
+    "ppg": 5, "oppg": 6, "mov": 7, "wins": 8, "losses": 9, "ties": 10,
+    "win_pct_raw": 11,
 }
+WINPCT_VALID_COUNTS = {12}
+ 
+NOPCT_CELL_INDEX = {
+    "classification_label": 1, "district": 2, "points_for": 3, "points_against": 4,
+    "ppg": 5, "oppg": 6, "mov": 7, "wins": 8, "losses": 9, "ties": 10,
+}
+NOPCT_VALID_COUNTS = {11}
+ 
+VOLLEYBALL_CELL_INDEX = {
+    "classification_label": 1, "district": 2, "mov": 3,
+    "wins": 4, "losses": 5, "ties": 6, "win_pct_raw": 7,
+}
+VOLLEYBALL_VALID_COUNTS = {8}
  
  
 # ---------------------------------------------------------------------------
@@ -137,9 +136,7 @@ def _common_fields(row, cells, cell_index):
     school_name = cells[0].get_text(strip=True)
     if not school_name:
         return None
- 
     classification_label = cells[cell_index["classification_label"]].get_text(strip=True)
- 
     return {
         "school": school_name,
         "mshsaa_school_id": _extract_school_id(cells[0]),
@@ -150,15 +147,24 @@ def _common_fields(row, cells, cell_index):
     }
  
  
-def _parse_schema_a_row(row, cells):
-    if len(cells) not in SCHEMA_A_VALID_CELL_COUNTS:
-        return None
-    base = _common_fields(row, cells, SCHEMA_A_CELL_INDEX)
+def _compute_win_pct(wins, losses, ties):
+    gp = sum(v for v in (wins, losses, ties) if v is not None) or None
+    if not gp:
+        return None, gp
+    # tie = half a win convention -- unconfirmed against MSHSAA's own math,
+    # spot check a tied team's displayed % if you need certainty
+    return round((((wins or 0) + 0.5 * (ties or 0)) / gp) * 100, 2), gp
+ 
+ 
+def _parse_points_or_winpct_row(row, cells, cell_index, has_raw_pct):
+    ci = cell_index
+    base = _common_fields(row, cells, ci)
     if base is None:
         return None
  
-    ci = SCHEMA_A_CELL_INDEX
-    has_points_column = len(cells) >= 12
+    wins = parse_number(cells[ci["wins"]].get_text(strip=True))
+    losses = parse_number(cells[ci["losses"]].get_text(strip=True))
+    ties = parse_number(cells[ci["ties"]].get_text(strip=True))
  
     team = {
         **base,
@@ -167,50 +173,98 @@ def _parse_schema_a_row(row, cells):
         "ppg": parse_number(cells[ci["ppg"]].get_text(strip=True)),
         "oppg": parse_number(cells[ci["oppg"]].get_text(strip=True)),
         "mov": parse_number(cells[ci["mov"]].get_text(strip=True)),
-        "wins": parse_number(cells[ci["wins"]].get_text(strip=True)),
-        "losses": parse_number(cells[ci["losses"]].get_text(strip=True)),
-        "win_pct": parse_number(cells[ci["win_pct"]].get_text(strip=True)),
-        "mshsaa_points": (
-            parse_number(cells[ci["mshsaa_points"]].get_text(strip=True))
-            if has_points_column else None
-        ),
+        "wins": wins,
+        "losses": losses,
+        "ties": ties,
+        "mshsaa_points": None,
+        "win_pct": None,
         "games_played": None,
     }
-    if team["wins"] is not None and team["losses"] is not None:
-        team["games_played"] = team["wins"] + team["losses"]
+ 
+    if has_raw_pct:
+        team["win_pct"] = parse_number(cells[ci["win_pct_raw"]].get_text(strip=True))
+        team["games_played"] = sum(v for v in (wins, losses, ties) if v is not None) or None
+    else:
+        team["mshsaa_points"] = parse_number(cells[ci["mshsaa_points"]].get_text(strip=True))
+        team["win_pct"], team["games_played"] = _compute_win_pct(wins, losses, ties)
+ 
     return team
  
  
-def _parse_schema_b_row(row, cells):
-    if len(cells) not in SCHEMA_B_VALID_CELL_COUNTS:
-        return None
-    base = _common_fields(row, cells, SCHEMA_B_CELL_INDEX)
+def _parse_nopct_row(row, cells):
+    ci = NOPCT_CELL_INDEX
+    base = _common_fields(row, cells, ci)
     if base is None:
         return None
  
-    ci = SCHEMA_B_CELL_INDEX
-    team = {
+    wins = parse_number(cells[ci["wins"]].get_text(strip=True))
+    losses = parse_number(cells[ci["losses"]].get_text(strip=True))
+    ties = parse_number(cells[ci["ties"]].get_text(strip=True))
+    win_pct, games_played = _compute_win_pct(wins, losses, ties)
+ 
+    return {
         **base,
+        "points_for": parse_number(cells[ci["points_for"]].get_text(strip=True)),
+        "points_against": parse_number(cells[ci["points_against"]].get_text(strip=True)),
+        "ppg": parse_number(cells[ci["ppg"]].get_text(strip=True)),
+        "oppg": parse_number(cells[ci["oppg"]].get_text(strip=True)),
         "mov": parse_number(cells[ci["mov"]].get_text(strip=True)),
-        "wins": parse_number(cells[ci["wins"]].get_text(strip=True)),
-        "losses": parse_number(cells[ci["losses"]].get_text(strip=True)),
-        "win_pct": parse_number(cells[ci["win_pct"]].get_text(strip=True)),
-        "games_played": None,
+        "wins": wins,
+        "losses": losses,
+        "ties": ties,
+        "mshsaa_points": None,
+        "win_pct": win_pct,
+        "games_played": games_played,
     }
-    if team["wins"] is not None and team["losses"] is not None:
-        team["games_played"] = team["wins"] + team["losses"]
-    return team
+ 
+ 
+def _parse_volleyball_row(row, cells):
+    ci = VOLLEYBALL_CELL_INDEX
+    base = _common_fields(row, cells, ci)
+    if base is None:
+        return None
+ 
+    wins = parse_number(cells[ci["wins"]].get_text(strip=True))
+    losses = parse_number(cells[ci["losses"]].get_text(strip=True))
+    ties = parse_number(cells[ci["ties"]].get_text(strip=True))
+ 
+    return {
+        **base,
+        "points_for": None,
+        "points_against": None,
+        "ppg": None,
+        "oppg": None,
+        "mov": parse_number(cells[ci["mov"]].get_text(strip=True)),
+        "wins": wins,
+        "losses": losses,
+        "ties": ties,
+        "mshsaa_points": None,
+        "win_pct": parse_number(cells[ci["win_pct_raw"]].get_text(strip=True)),
+        "games_played": sum(v for v in (wins, losses, ties) if v is not None) or None,
+    }
  
  
 def parse_season_records_html(html, sport_key):
-    schema = SPORT_SCHEMA.get(sport_key, "A")
+    schema = SPORT_SCHEMA.get(sport_key, "WINPCT")
     soup = BeautifulSoup(html, "html.parser")
- 
     rows = soup.find_all("tr", class_=ROW_SELECTOR_CLASS)
+ 
     teams = []
     for row in rows:
         cells = row.find_all("td")
-        team = _parse_schema_b_row(row, cells) if schema == "B" else _parse_schema_a_row(row, cells)
+        n = len(cells)
+ 
+        if schema == "POINTS" and n in POINTS_VALID_COUNTS:
+            team = _parse_points_or_winpct_row(row, cells, POINTS_CELL_INDEX, has_raw_pct=False)
+        elif schema == "WINPCT" and n in WINPCT_VALID_COUNTS:
+            team = _parse_points_or_winpct_row(row, cells, WINPCT_CELL_INDEX, has_raw_pct=True)
+        elif schema == "NOPCT" and n in NOPCT_VALID_COUNTS:
+            team = _parse_nopct_row(row, cells)
+        elif schema == "VOLLEYBALL" and n in VOLLEYBALL_VALID_COUNTS:
+            team = _parse_volleyball_row(row, cells)
+        else:
+            team = None  # cell count didn't match expected schema -- skip, don't guess
+ 
         if team is not None:
             teams.append(team)
     return teams
@@ -247,6 +301,7 @@ def scrape_sport(sport_key, sport_alg, output_dir):
  
     output = {
         "sport": sport_key,
+        "schema": SPORT_SCHEMA.get(sport_key),
         "source_url": url,
         "scraped_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "teams": teams,
@@ -262,7 +317,7 @@ def main():
     all_records = {}
  
     for sport_key, sport_alg in SPORT_ALG_MAP.items():
-        print(f"Scraping {sport_key} (alg={sport_alg})...")
+        print(f"Scraping {sport_key} (alg={sport_alg}, schema={SPORT_SCHEMA[sport_key]})...")
         try:
             team_count, out_path = scrape_sport(sport_key, sport_alg, output_dir)
         except Exception as e:
@@ -270,7 +325,7 @@ def main():
             continue
  
         if team_count == 0:
-            print(f"  -> 0 teams (no data yet -- expected if {sport_key}'s season hasn't started)")
+            print(f"  -> 0 teams (expected if {sport_key}'s season hasn't started)")
         else:
             print(f"  -> {team_count} teams -> {out_path}")
  
