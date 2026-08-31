@@ -1,4 +1,4 @@
-name: Scrape MSHSAA Season Records
+name: Scrape MSHSAA Season Records 2026-2027
  
 on:
   schedule:
