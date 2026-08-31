@@ -13,7 +13,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "teams": {
     "troy-buchanan": {
@@ -278,6 +279,26 @@
           "points_against": 111,
           "point_diff": 85,
           "mov": 2.93
+        },
+        "2025": {
+          "ovr_rank": 16,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 9.49,
+          "off_rating": 3.12,
+          "off_rank": 29,
+          "def_rating": 6.37,
+          "def_rank": 12,
+          "wins": 18,
+          "losses": 11,
+          "win_pct": 62.07,
+          "games_played": 29,
+          "ppg": 4.97,
+          "papg": 3.83,
+          "points_for": 144,
+          "points_against": 111,
+          "point_diff": 33,
+          "mov": 1.14
         }
       }
     },
@@ -543,6 +564,26 @@
           "points_against": 275,
           "point_diff": -172,
           "mov": -6.62
+        },
+        "2025": {
+          "ovr_rank": 138,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": -0.78,
+          "off_rating": 0.52,
+          "off_rank": 105,
+          "def_rating": -1.31,
+          "def_rank": 167,
+          "wins": 10,
+          "losses": 16,
+          "win_pct": 38.46,
+          "games_played": 26,
+          "ppg": 7.31,
+          "papg": 8.46,
+          "points_for": 190,
+          "points_against": 220,
+          "point_diff": -30,
+          "mov": -1.15
         }
       }
     },
@@ -808,6 +849,26 @@
           "points_against": 108,
           "point_diff": 138,
           "mov": 4.31
+        },
+        "2025": {
+          "ovr_rank": 81,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 3.45,
+          "off_rating": 0.21,
+          "off_rank": 116,
+          "def_rating": 3.23,
+          "def_rank": 58,
+          "wins": 15,
+          "losses": 9,
+          "win_pct": 62.5,
+          "games_played": 24,
+          "ppg": 6.76,
+          "papg": 4.28,
+          "points_for": 169,
+          "points_against": 107,
+          "point_diff": 62,
+          "mov": 2.48
         }
       }
     },
@@ -993,6 +1054,26 @@
           "points_against": 116,
           "point_diff": 194,
           "mov": 4.97
+        },
+        "2025": {
+          "ovr_rank": 5,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 12.3,
+          "off_rating": 5.78,
+          "off_rank": 2,
+          "def_rating": 6.52,
+          "def_rank": 9,
+          "wins": 26,
+          "losses": 11,
+          "win_pct": 70.27,
+          "games_played": 37,
+          "ppg": 7.43,
+          "papg": 3.76,
+          "points_for": 275,
+          "points_against": 139,
+          "point_diff": 136,
+          "mov": 3.68
         }
       }
     },
@@ -1258,6 +1339,26 @@
           "points_against": 136,
           "point_diff": 0,
           "mov": 0
+        },
+        "2025": {
+          "ovr_rank": 10,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 10.63,
+          "off_rating": 3.92,
+          "off_rank": 18,
+          "def_rating": 6.7,
+          "def_rank": 7,
+          "wins": 22,
+          "losses": 6,
+          "win_pct": 78.57,
+          "games_played": 28,
+          "ppg": 6.71,
+          "papg": 2.82,
+          "points_for": 188,
+          "points_against": 79,
+          "point_diff": 109,
+          "mov": 3.89
         }
       }
     },
@@ -1523,6 +1624,26 @@
           "points_against": 70,
           "point_diff": 168,
           "mov": 5.79
+        },
+        "2025": {
+          "ovr_rank": 28,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 7.91,
+          "off_rating": 1.96,
+          "off_rank": 64,
+          "def_rating": 5.94,
+          "def_rank": 16,
+          "wins": 20,
+          "losses": 9,
+          "win_pct": 68.97,
+          "games_played": 29,
+          "ppg": 6.97,
+          "papg": 2.17,
+          "points_for": 202,
+          "points_against": 63,
+          "point_diff": 139,
+          "mov": 4.79
         }
       }
     },
@@ -1788,6 +1909,26 @@
           "points_against": 193,
           "point_diff": -16,
           "mov": -0.47
+        },
+        "2025": {
+          "ovr_rank": 13,
+          "classification": 5,
+          "district": 6,
+          "ovr_rating": 10.18,
+          "off_rating": 4.25,
+          "off_rank": 14,
+          "def_rating": 5.92,
+          "def_rank": 17,
+          "wins": 22,
+          "losses": 11,
+          "win_pct": 66.67,
+          "games_played": 33,
+          "ppg": 6.33,
+          "papg": 3.7,
+          "points_for": 209,
+          "points_against": 122,
+          "point_diff": 87,
+          "mov": 2.64
         }
       }
     },
@@ -2013,6 +2154,26 @@
           "points_against": 347,
           "point_diff": -285,
           "mov": -14.25
+        },
+        "2025": {
+          "ovr_rank": 203,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -6.93,
+          "off_rating": -1.84,
+          "off_rank": 177,
+          "def_rating": -5.09,
+          "def_rank": 211,
+          "wins": 10,
+          "losses": 11,
+          "win_pct": 47.62,
+          "games_played": 21,
+          "ppg": 7.19,
+          "papg": 8.95,
+          "points_for": 151,
+          "points_against": 188,
+          "point_diff": -37,
+          "mov": -1.76
         }
       }
     },
@@ -2278,6 +2439,26 @@
           "points_against": 67,
           "point_diff": 194,
           "mov": 5.88
+        },
+        "2025": {
+          "ovr_rank": 15,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 10.13,
+          "off_rating": 3.53,
+          "off_rank": 22,
+          "def_rating": 6.61,
+          "def_rank": 8,
+          "wins": 23,
+          "losses": 5,
+          "win_pct": 82.14,
+          "games_played": 28,
+          "ppg": 8.68,
+          "papg": 2.32,
+          "points_for": 243,
+          "points_against": 65,
+          "point_diff": 178,
+          "mov": 6.36
         }
       }
     },
@@ -2543,6 +2724,26 @@
           "points_against": 119,
           "point_diff": 58,
           "mov": 2.07
+        },
+        "2025": {
+          "ovr_rank": 41,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 6.49,
+          "off_rating": 2.13,
+          "off_rank": 55,
+          "def_rating": 4.36,
+          "def_rank": 36,
+          "wins": 16,
+          "losses": 11,
+          "win_pct": 59.26,
+          "games_played": 27,
+          "ppg": 5.96,
+          "papg": 4.96,
+          "points_for": 161,
+          "points_against": 134,
+          "point_diff": 27,
+          "mov": 1
         }
       }
     },
@@ -2808,6 +3009,26 @@
           "points_against": 123,
           "point_diff": 94,
           "mov": 3.03
+        },
+        "2025": {
+          "ovr_rank": 22,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 9.04,
+          "off_rating": 4.29,
+          "off_rank": 13,
+          "def_rating": 4.75,
+          "def_rank": 33,
+          "wins": 13,
+          "losses": 12,
+          "win_pct": 52.0,
+          "games_played": 25,
+          "ppg": 6.2,
+          "papg": 5.04,
+          "points_for": 155,
+          "points_against": 126,
+          "point_diff": 29,
+          "mov": 1.16
         }
       }
     },
@@ -3013,6 +3234,26 @@
           "points_against": 169,
           "point_diff": -43,
           "mov": -1.79
+        },
+        "2025": {
+          "ovr_rank": 35,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 7.32,
+          "off_rating": 4.4,
+          "off_rank": 11,
+          "def_rating": 2.91,
+          "def_rank": 69,
+          "wins": 16,
+          "losses": 11,
+          "win_pct": 59.26,
+          "games_played": 27,
+          "ppg": 7.41,
+          "papg": 5.93,
+          "points_for": 200,
+          "points_against": 160,
+          "point_diff": 40,
+          "mov": 1.48
         }
       }
     },
@@ -3278,6 +3519,26 @@
           "points_against": 139,
           "point_diff": 14,
           "mov": 0.4
+        },
+        "2025": {
+          "ovr_rank": 87,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": 2.91,
+          "off_rating": 1.98,
+          "off_rank": 63,
+          "def_rating": 0.93,
+          "def_rank": 117,
+          "wins": 12,
+          "losses": 17,
+          "win_pct": 41.38,
+          "games_played": 29,
+          "ppg": 6.28,
+          "papg": 7,
+          "points_for": 182,
+          "points_against": 203,
+          "point_diff": -21,
+          "mov": -0.72
         }
       }
     },
@@ -3543,6 +3804,26 @@
           "points_against": 196,
           "point_diff": -17,
           "mov": -0.61
+        },
+        "2025": {
+          "ovr_rank": 73,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 4.08,
+          "off_rating": 1.06,
+          "off_rank": 88,
+          "def_rating": 3.01,
+          "def_rank": 65,
+          "wins": 17,
+          "losses": 9,
+          "win_pct": 65.38,
+          "games_played": 26,
+          "ppg": 7.31,
+          "papg": 4.12,
+          "points_for": 190,
+          "points_against": 107,
+          "point_diff": 83,
+          "mov": 3.19
         }
       }
     },
@@ -3808,6 +4089,26 @@
           "points_against": 144,
           "point_diff": 95,
           "mov": 3.96
+        },
+        "2025": {
+          "ovr_rank": 89,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 2.71,
+          "off_rating": 2.58,
+          "off_rank": 40,
+          "def_rating": 0.13,
+          "def_rank": 136,
+          "wins": 13,
+          "losses": 13,
+          "win_pct": 50.0,
+          "games_played": 26,
+          "ppg": 8.77,
+          "papg": 7.19,
+          "points_for": 228,
+          "points_against": 187,
+          "point_diff": 41,
+          "mov": 1.58
         }
       }
     },
@@ -4073,6 +4374,26 @@
           "points_against": 131,
           "point_diff": 131,
           "mov": 3.64
+        },
+        "2025": {
+          "ovr_rank": 70,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": 4.25,
+          "off_rating": 1.19,
+          "off_rank": 84,
+          "def_rating": 3.06,
+          "def_rank": 62,
+          "wins": 22,
+          "losses": 14,
+          "win_pct": 61.11,
+          "games_played": 36,
+          "ppg": 5.44,
+          "papg": 4.94,
+          "points_for": 196,
+          "points_against": 178,
+          "point_diff": 18,
+          "mov": 0.5
         }
       }
     },
@@ -4338,6 +4659,26 @@
           "points_against": 191,
           "point_diff": -14,
           "mov": -0.44
+        },
+        "2025": {
+          "ovr_rank": 26,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": 8.38,
+          "off_rating": 4.1,
+          "off_rank": 17,
+          "def_rating": 4.29,
+          "def_rank": 37,
+          "wins": 14,
+          "losses": 20,
+          "win_pct": 41.18,
+          "games_played": 34,
+          "ppg": 5.88,
+          "papg": 5.85,
+          "points_for": 200,
+          "points_against": 199,
+          "point_diff": 1,
+          "mov": 0.03
         }
       }
     },
@@ -4603,6 +4944,26 @@
           "points_against": 124,
           "point_diff": 143,
           "mov": 3.97
+        },
+        "2025": {
+          "ovr_rank": 8,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": 10.79,
+          "off_rating": 5.71,
+          "off_rank": 3,
+          "def_rating": 5.08,
+          "def_rank": 27,
+          "wins": 27,
+          "losses": 9,
+          "win_pct": 75.0,
+          "games_played": 36,
+          "ppg": 9.19,
+          "papg": 3.64,
+          "points_for": 331,
+          "points_against": 131,
+          "point_diff": 200,
+          "mov": 5.56
         }
       }
     },
@@ -4868,6 +5229,26 @@
           "points_against": 89,
           "point_diff": 184,
           "mov": 5.11
+        },
+        "2025": {
+          "ovr_rank": 6,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": 11.74,
+          "off_rating": 4.19,
+          "off_rank": 15,
+          "def_rating": 7.55,
+          "def_rank": 2,
+          "wins": 31,
+          "losses": 6,
+          "win_pct": 83.78,
+          "games_played": 37,
+          "ppg": 8.05,
+          "papg": 1.73,
+          "points_for": 298,
+          "points_against": 64,
+          "point_diff": 234,
+          "mov": 6.32
         }
       }
     },
@@ -5133,6 +5514,26 @@
           "points_against": 116,
           "point_diff": 61,
           "mov": 1.97
+        },
+        "2025": {
+          "ovr_rank": 7,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 11.11,
+          "off_rating": 4.69,
+          "off_rank": 10,
+          "def_rating": 6.43,
+          "def_rank": 11,
+          "wins": 23,
+          "losses": 7,
+          "win_pct": 76.67,
+          "games_played": 30,
+          "ppg": 7.33,
+          "papg": 3.07,
+          "points_for": 220,
+          "points_against": 92,
+          "point_diff": 128,
+          "mov": 4.27
         }
       }
     },
@@ -5398,6 +5799,26 @@
           "points_against": 244,
           "point_diff": -85,
           "mov": -2.5
+        },
+        "2025": {
+          "ovr_rank": 133,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": -0.24,
+          "off_rating": -0.83,
+          "off_rank": 144,
+          "def_rating": 0.59,
+          "def_rank": 127,
+          "wins": 10,
+          "losses": 21,
+          "win_pct": 32.26,
+          "games_played": 31,
+          "ppg": 4.55,
+          "papg": 6.84,
+          "points_for": 141,
+          "points_against": 212,
+          "point_diff": -71,
+          "mov": -2.29
         }
       }
     },
@@ -5788,6 +6209,26 @@
           "points_against": 125,
           "point_diff": 79,
           "mov": 2.63
+        },
+        "2025": {
+          "ovr_rank": 135,
+          "classification": 2,
+          "district": 6,
+          "ovr_rating": -0.29,
+          "off_rating": -1.08,
+          "off_rank": 151,
+          "def_rating": 0.78,
+          "def_rank": 119,
+          "wins": 17,
+          "losses": 14,
+          "win_pct": 54.84,
+          "games_played": 31,
+          "ppg": 6.13,
+          "papg": 4.87,
+          "points_for": 190,
+          "points_against": 151,
+          "point_diff": 39,
+          "mov": 1.26
         }
       }
     },
@@ -6053,6 +6494,26 @@
           "points_against": 39,
           "point_diff": 248,
           "mov": 6.89
+        },
+        "2025": {
+          "ovr_rank": 9,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": 10.72,
+          "off_rating": 4.38,
+          "off_rank": 12,
+          "def_rating": 6.34,
+          "def_rank": 14,
+          "wins": 30,
+          "losses": 8,
+          "win_pct": 78.95,
+          "games_played": 38,
+          "ppg": 8.42,
+          "papg": 3,
+          "points_for": 320,
+          "points_against": 114,
+          "point_diff": 206,
+          "mov": 5.42
         }
       }
     },
@@ -6318,6 +6779,26 @@
           "points_against": 213,
           "point_diff": -105,
           "mov": -6.18
+        },
+        "2025": {
+          "ovr_rank": 150,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": -1.6,
+          "off_rating": 0.16,
+          "off_rank": 119,
+          "def_rating": -1.75,
+          "def_rank": 171,
+          "wins": 7,
+          "losses": 11,
+          "win_pct": 38.89,
+          "games_played": 18,
+          "ppg": 6.11,
+          "papg": 8.67,
+          "points_for": 110,
+          "points_against": 156,
+          "point_diff": -46,
+          "mov": -2.56
         }
       }
     },
@@ -6583,6 +7064,26 @@
           "points_against": 138,
           "point_diff": 39,
           "mov": 1.34
+        },
+        "2025": {
+          "ovr_rank": 72,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 4.16,
+          "off_rating": 2.12,
+          "off_rank": 56,
+          "def_rating": 2.04,
+          "def_rank": 93,
+          "wins": 15,
+          "losses": 14,
+          "win_pct": 51.72,
+          "games_played": 29,
+          "ppg": 6.52,
+          "papg": 6.14,
+          "points_for": 189,
+          "points_against": 178,
+          "point_diff": 11,
+          "mov": 0.38
         }
       }
     },
@@ -6848,6 +7349,26 @@
           "points_against": 69,
           "point_diff": 154,
           "mov": 5.13
+        },
+        "2025": {
+          "ovr_rank": 4,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": 12.4,
+          "off_rating": 5.5,
+          "off_rank": 6,
+          "def_rating": 6.9,
+          "def_rank": 5,
+          "wins": 19,
+          "losses": 12,
+          "win_pct": 61.29,
+          "games_played": 31,
+          "ppg": 7.77,
+          "papg": 3.9,
+          "points_for": 241,
+          "points_against": 121,
+          "point_diff": 120,
+          "mov": 3.87
         }
       }
     },
@@ -7113,6 +7634,26 @@
           "points_against": 109,
           "point_diff": 95,
           "mov": 3.06
+        },
+        "2025": {
+          "ovr_rank": 75,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": 3.72,
+          "off_rating": 1.13,
+          "off_rank": 85,
+          "def_rating": 2.59,
+          "def_rank": 78,
+          "wins": 13,
+          "losses": 14,
+          "win_pct": 48.15,
+          "games_played": 27,
+          "ppg": 4.93,
+          "papg": 5.7,
+          "points_for": 133,
+          "points_against": 154,
+          "point_diff": -21,
+          "mov": -0.78
         }
       }
     },
@@ -7378,6 +7919,26 @@
           "points_against": 236,
           "point_diff": -98,
           "mov": -2.72
+        },
+        "2025": {
+          "ovr_rank": 23,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": 9.04,
+          "off_rating": 3.72,
+          "off_rank": 20,
+          "def_rating": 5.32,
+          "def_rank": 23,
+          "wins": 16,
+          "losses": 16,
+          "win_pct": 50.0,
+          "games_played": 32,
+          "ppg": 5.47,
+          "papg": 4.75,
+          "points_for": 175,
+          "points_against": 152,
+          "point_diff": 23,
+          "mov": 0.72
         }
       }
     },
@@ -7643,6 +8204,26 @@
           "points_against": 98,
           "point_diff": 115,
           "mov": 4.42
+        },
+        "2025": {
+          "ovr_rank": 34,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": 7.36,
+          "off_rating": 2.51,
+          "off_rank": 45,
+          "def_rating": 4.85,
+          "def_rank": 32,
+          "wins": 20,
+          "losses": 12,
+          "win_pct": 62.5,
+          "games_played": 32,
+          "ppg": 6.72,
+          "papg": 3.31,
+          "points_for": 215,
+          "points_against": 106,
+          "point_diff": 109,
+          "mov": 3.41
         }
       }
     },
@@ -7908,6 +8489,26 @@
           "points_against": 142,
           "point_diff": 137,
           "mov": 4.42
+        },
+        "2025": {
+          "ovr_rank": 53,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": 5.29,
+          "off_rating": 2.86,
+          "off_rank": 32,
+          "def_rating": 2.43,
+          "def_rank": 81,
+          "wins": 21,
+          "losses": 12,
+          "win_pct": 63.64,
+          "games_played": 33,
+          "ppg": 8.12,
+          "papg": 5.64,
+          "points_for": 268,
+          "points_against": 186,
+          "point_diff": 82,
+          "mov": 2.48
         }
       }
     },
@@ -8173,6 +8774,26 @@
           "points_against": 71,
           "point_diff": 119,
           "mov": 3.84
+        },
+        "2025": {
+          "ovr_rank": 1,
+          "classification": 5,
+          "district": 6,
+          "ovr_rating": 13.21,
+          "off_rating": 5.17,
+          "off_rank": 8,
+          "def_rating": 8.04,
+          "def_rank": 1,
+          "wins": 25,
+          "losses": 4,
+          "win_pct": 86.21,
+          "games_played": 29,
+          "ppg": 6.59,
+          "papg": 3.14,
+          "points_for": 191,
+          "points_against": 91,
+          "point_diff": 100,
+          "mov": 3.45
         }
       }
     },
@@ -8438,6 +9059,26 @@
           "points_against": 71,
           "point_diff": 121,
           "mov": 4.03
+        },
+        "2025": {
+          "ovr_rank": 247,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": -16.1,
+          "off_rating": -5.74,
+          "off_rank": 244,
+          "def_rating": -10.36,
+          "def_rank": 247,
+          "wins": 0,
+          "losses": 19,
+          "win_pct": 0.0,
+          "games_played": 19,
+          "ppg": 1,
+          "papg": 16,
+          "points_for": 19,
+          "points_against": 304,
+          "point_diff": -285,
+          "mov": -15
         }
       }
     },
@@ -8703,6 +9344,26 @@
           "points_against": 102,
           "point_diff": 86,
           "mov": 3.58
+        },
+        "2025": {
+          "ovr_rank": 178,
+          "classification": 2,
+          "district": 6,
+          "ovr_rating": -3.68,
+          "off_rating": -1.35,
+          "off_rank": 161,
+          "def_rating": -2.33,
+          "def_rank": 183,
+          "wins": 10,
+          "losses": 13,
+          "win_pct": 43.48,
+          "games_played": 23,
+          "ppg": 6.3,
+          "papg": 7.04,
+          "points_for": 145,
+          "points_against": 162,
+          "point_diff": -17,
+          "mov": -0.74
         }
       }
     },
@@ -8968,6 +9629,26 @@
           "points_against": 161,
           "point_diff": 80,
           "mov": 2.22
+        },
+        "2025": {
+          "ovr_rank": 14,
+          "classification": 5,
+          "district": 6,
+          "ovr_rating": 10.16,
+          "off_rating": 4.75,
+          "off_rank": 9,
+          "def_rating": 5.4,
+          "def_rank": 22,
+          "wins": 20,
+          "losses": 15,
+          "win_pct": 57.14,
+          "games_played": 35,
+          "ppg": 6.66,
+          "papg": 4.74,
+          "points_for": 233,
+          "points_against": 166,
+          "point_diff": 67,
+          "mov": 1.91
         }
       }
     },
@@ -9233,6 +9914,26 @@
           "points_against": 131,
           "point_diff": 21,
           "mov": 0.68
+        },
+        "2025": {
+          "ovr_rank": 52,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": 5.3,
+          "off_rating": 0.17,
+          "off_rank": 118,
+          "def_rating": 5.14,
+          "def_rank": 26,
+          "wins": 15,
+          "losses": 12,
+          "win_pct": 55.56,
+          "games_played": 27,
+          "ppg": 4.56,
+          "papg": 3.41,
+          "points_for": 123,
+          "points_against": 92,
+          "point_diff": 31,
+          "mov": 1.15
         }
       }
     },
@@ -9498,6 +10199,26 @@
           "points_against": 72,
           "point_diff": 135,
           "mov": 3.86
+        },
+        "2025": {
+          "ovr_rank": 18,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 9.34,
+          "off_rating": 5.22,
+          "off_rank": 7,
+          "def_rating": 4.12,
+          "def_rank": 39,
+          "wins": 19,
+          "losses": 11,
+          "win_pct": 63.33,
+          "games_played": 30,
+          "ppg": 8.17,
+          "papg": 5.37,
+          "points_for": 245,
+          "points_against": 161,
+          "point_diff": 84,
+          "mov": 2.8
         }
       }
     },
@@ -9763,6 +10484,26 @@
           "points_against": 150,
           "point_diff": -36,
           "mov": -1.71
+        },
+        "2025": {
+          "ovr_rank": 145,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": -1.38,
+          "off_rating": -0.68,
+          "off_rank": 140,
+          "def_rating": -0.7,
+          "def_rank": 152,
+          "wins": 14,
+          "losses": 16,
+          "win_pct": 46.67,
+          "games_played": 30,
+          "ppg": 6.5,
+          "papg": 6.23,
+          "points_for": 195,
+          "points_against": 187,
+          "point_diff": 8,
+          "mov": 0.27
         }
       }
     },
@@ -10028,6 +10769,26 @@
           "points_against": 131,
           "point_diff": 117,
           "mov": 3.44
+        },
+        "2025": {
+          "ovr_rank": 76,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": 3.72,
+          "off_rating": 1.06,
+          "off_rank": 89,
+          "def_rating": 2.66,
+          "def_rank": 75,
+          "wins": 24,
+          "losses": 10,
+          "win_pct": 70.59,
+          "games_played": 34,
+          "ppg": 9.26,
+          "papg": 3.15,
+          "points_for": 315,
+          "points_against": 107,
+          "point_diff": 208,
+          "mov": 6.12
         }
       }
     },
@@ -10293,6 +11054,26 @@
           "points_against": 191,
           "point_diff": -24,
           "mov": -0.86
+        },
+        "2025": {
+          "ovr_rank": 103,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": 2.26,
+          "off_rating": 1.55,
+          "off_rank": 77,
+          "def_rating": 0.71,
+          "def_rank": 122,
+          "wins": 14,
+          "losses": 15,
+          "win_pct": 48.28,
+          "games_played": 29,
+          "ppg": 7.55,
+          "papg": 5.69,
+          "points_for": 219,
+          "points_against": 165,
+          "point_diff": 54,
+          "mov": 1.86
         }
       }
     },
@@ -10558,6 +11339,26 @@
           "points_against": 137,
           "point_diff": -5,
           "mov": -0.2
+        },
+        "2025": {
+          "ovr_rank": 100,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 2.31,
+          "off_rating": 0.45,
+          "off_rank": 108,
+          "def_rating": 1.86,
+          "def_rank": 97,
+          "wins": 15,
+          "losses": 9,
+          "win_pct": 62.5,
+          "games_played": 24,
+          "ppg": 6.88,
+          "papg": 4.13,
+          "points_for": 165,
+          "points_against": 99,
+          "point_diff": 66,
+          "mov": 2.75
         }
       }
     },
@@ -10823,6 +11624,26 @@
           "points_against": 140,
           "point_diff": -15,
           "mov": -0.75
+        },
+        "2025": {
+          "ovr_rank": 142,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": -1.23,
+          "off_rating": -0.63,
+          "off_rank": 139,
+          "def_rating": -0.6,
+          "def_rank": 149,
+          "wins": 7,
+          "losses": 16,
+          "win_pct": 30.43,
+          "games_played": 23,
+          "ppg": 5.87,
+          "papg": 9.39,
+          "points_for": 135,
+          "points_against": 216,
+          "point_diff": -81,
+          "mov": -3.52
         }
       }
     },
@@ -11088,6 +11909,26 @@
           "points_against": 112,
           "point_diff": 86,
           "mov": 2.69
+        },
+        "2025": {
+          "ovr_rank": 51,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 5.55,
+          "off_rating": 2.15,
+          "off_rank": 54,
+          "def_rating": 3.4,
+          "def_rank": 51,
+          "wins": 23,
+          "losses": 7,
+          "win_pct": 76.67,
+          "games_played": 30,
+          "ppg": 8,
+          "papg": 3.8,
+          "points_for": 240,
+          "points_against": 114,
+          "point_diff": 126,
+          "mov": 4.2
         }
       }
     },
@@ -11353,6 +12194,26 @@
           "points_against": 256,
           "point_diff": -196,
           "mov": -10.32
+        },
+        "2025": {
+          "ovr_rank": 128,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": 0.28,
+          "off_rating": 0.79,
+          "off_rank": 99,
+          "def_rating": -0.5,
+          "def_rank": 147,
+          "wins": 7,
+          "losses": 12,
+          "win_pct": 36.84,
+          "games_played": 19,
+          "ppg": 5.79,
+          "papg": 8.53,
+          "points_for": 110,
+          "points_against": 162,
+          "point_diff": -52,
+          "mov": -2.74
         }
       }
     },
@@ -11618,6 +12479,26 @@
           "points_against": 94,
           "point_diff": 124,
           "mov": 3.88
+        },
+        "2025": {
+          "ovr_rank": 3,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 12.48,
+          "off_rating": 5.52,
+          "off_rank": 5,
+          "def_rating": 6.97,
+          "def_rank": 4,
+          "wins": 29,
+          "losses": 6,
+          "win_pct": 82.86,
+          "games_played": 35,
+          "ppg": 8.26,
+          "papg": 2.97,
+          "points_for": 289,
+          "points_against": 104,
+          "point_diff": 185,
+          "mov": 5.29
         }
       }
     },
@@ -11883,6 +12764,26 @@
           "points_against": 96,
           "point_diff": 171,
           "mov": 4.89
+        },
+        "2025": {
+          "ovr_rank": 27,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": 7.94,
+          "off_rating": 3.4,
+          "off_rank": 26,
+          "def_rating": 4.54,
+          "def_rank": 34,
+          "wins": 23,
+          "losses": 14,
+          "win_pct": 62.16,
+          "games_played": 37,
+          "ppg": 7.76,
+          "papg": 3.65,
+          "points_for": 287,
+          "points_against": 135,
+          "point_diff": 152,
+          "mov": 4.11
         }
       }
     },
@@ -12148,6 +13049,26 @@
           "points_against": 173,
           "point_diff": -67,
           "mov": -2.91
+        },
+        "2025": {
+          "ovr_rank": 164,
+          "classification": 2,
+          "district": 6,
+          "ovr_rating": -2.69,
+          "off_rating": -1.46,
+          "off_rank": 168,
+          "def_rating": -1.24,
+          "def_rank": 164,
+          "wins": 9,
+          "losses": 12,
+          "win_pct": 42.86,
+          "games_played": 21,
+          "ppg": 5.24,
+          "papg": 7.86,
+          "points_for": 110,
+          "points_against": 165,
+          "point_diff": -55,
+          "mov": -2.62
         }
       }
     },
@@ -12413,6 +13334,26 @@
           "points_against": 246,
           "point_diff": -20,
           "mov": -0.59
+        },
+        "2025": {
+          "ovr_rank": 123,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": 0.98,
+          "off_rating": 0.39,
+          "off_rank": 111,
+          "def_rating": 0.59,
+          "def_rank": 126,
+          "wins": 15,
+          "losses": 20,
+          "win_pct": 42.86,
+          "games_played": 35,
+          "ppg": 5.83,
+          "papg": 6.46,
+          "points_for": 204,
+          "points_against": 226,
+          "point_diff": -22,
+          "mov": -0.63
         }
       }
     },
@@ -12703,6 +13644,26 @@
           "points_against": 251,
           "point_diff": -111,
           "mov": -5.05
+        },
+        "2025": {
+          "ovr_rank": 227,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": -10.84,
+          "off_rating": -4.98,
+          "off_rank": 234,
+          "def_rating": -5.85,
+          "def_rank": 219,
+          "wins": 4,
+          "losses": 19,
+          "win_pct": 17.39,
+          "games_played": 23,
+          "ppg": 3.91,
+          "papg": 10.78,
+          "points_for": 90,
+          "points_against": 248,
+          "point_diff": -158,
+          "mov": -6.87
         }
       }
     },
@@ -12968,6 +13929,26 @@
           "points_against": 215,
           "point_diff": 24,
           "mov": 0.75
+        },
+        "2025": {
+          "ovr_rank": 108,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 2.1,
+          "off_rating": 0.73,
+          "off_rank": 100,
+          "def_rating": 1.38,
+          "def_rank": 104,
+          "wins": 14,
+          "losses": 15,
+          "win_pct": 48.28,
+          "games_played": 29,
+          "ppg": 6.14,
+          "papg": 5.83,
+          "points_for": 178,
+          "points_against": 169,
+          "point_diff": 9,
+          "mov": 0.31
         }
       }
     },
@@ -13233,6 +14214,26 @@
           "points_against": 77,
           "point_diff": 180,
           "mov": 6.92
+        },
+        "2025": {
+          "ovr_rank": 120,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": 1.4,
+          "off_rating": -1.65,
+          "off_rank": 175,
+          "def_rating": 3.05,
+          "def_rank": 63,
+          "wins": 15,
+          "losses": 12,
+          "win_pct": 55.56,
+          "games_played": 27,
+          "ppg": 5.11,
+          "papg": 3.3,
+          "points_for": 138,
+          "points_against": 89,
+          "point_diff": 49,
+          "mov": 1.81
         }
       }
     },
@@ -13498,6 +14499,26 @@
           "points_against": 150,
           "point_diff": 38,
           "mov": 1.52
+        },
+        "2025": {
+          "ovr_rank": 163,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": -2.66,
+          "off_rating": -2.19,
+          "off_rank": 187,
+          "def_rating": -0.47,
+          "def_rank": 146,
+          "wins": 19,
+          "losses": 7,
+          "win_pct": 73.08,
+          "games_played": 26,
+          "ppg": 10.08,
+          "papg": 4.42,
+          "points_for": 262,
+          "points_against": 115,
+          "point_diff": 147,
+          "mov": 5.65
         }
       }
     },
@@ -13763,6 +14784,26 @@
           "points_against": 83,
           "point_diff": 171,
           "mov": 6.11
+        },
+        "2025": {
+          "ovr_rank": 36,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": 7.06,
+          "off_rating": 2.21,
+          "off_rank": 52,
+          "def_rating": 4.86,
+          "def_rank": 31,
+          "wins": 19,
+          "losses": 11,
+          "win_pct": 63.33,
+          "games_played": 30,
+          "ppg": 7.13,
+          "papg": 3.17,
+          "points_for": 214,
+          "points_against": 95,
+          "point_diff": 119,
+          "mov": 3.97
         }
       }
     },
@@ -14028,6 +15069,26 @@
           "points_against": 158,
           "point_diff": 94,
           "mov": 2.76
+        },
+        "2025": {
+          "ovr_rank": 62,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": 4.66,
+          "off_rating": 1.01,
+          "off_rank": 93,
+          "def_rating": 3.64,
+          "def_rank": 43,
+          "wins": 21,
+          "losses": 11,
+          "win_pct": 65.62,
+          "games_played": 32,
+          "ppg": 6.91,
+          "papg": 3.66,
+          "points_for": 221,
+          "points_against": 117,
+          "point_diff": 104,
+          "mov": 3.25
         }
       }
     },
@@ -14293,6 +15354,26 @@
           "points_against": 204,
           "point_diff": -37,
           "mov": -1.32
+        },
+        "2025": {
+          "ovr_rank": 37,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 7.05,
+          "off_rating": 3.42,
+          "off_rank": 25,
+          "def_rating": 3.63,
+          "def_rank": 44,
+          "wins": 15,
+          "losses": 12,
+          "win_pct": 55.56,
+          "games_played": 27,
+          "ppg": 6.07,
+          "papg": 5.96,
+          "points_for": 164,
+          "points_against": 161,
+          "point_diff": 3,
+          "mov": 0.11
         }
       }
     },
@@ -14558,6 +15639,26 @@
           "points_against": 222,
           "point_diff": -70,
           "mov": -2.92
+        },
+        "2025": {
+          "ovr_rank": 190,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": -4.7,
+          "off_rating": -1.06,
+          "off_rank": 150,
+          "def_rating": -3.64,
+          "def_rank": 198,
+          "wins": 1,
+          "losses": 28,
+          "win_pct": 3.45,
+          "games_played": 29,
+          "ppg": 3.72,
+          "papg": 11.59,
+          "points_for": 108,
+          "points_against": 336,
+          "point_diff": -228,
+          "mov": -7.86
         }
       }
     },
@@ -14823,6 +15924,26 @@
           "points_against": 231,
           "point_diff": 10,
           "mov": 0.28
+        },
+        "2025": {
+          "ovr_rank": 11,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 10.61,
+          "off_rating": 4.11,
+          "off_rank": 16,
+          "def_rating": 6.5,
+          "def_rank": 10,
+          "wins": 27,
+          "losses": 11,
+          "win_pct": 71.05,
+          "games_played": 38,
+          "ppg": 7.11,
+          "papg": 3.68,
+          "points_for": 270,
+          "points_against": 140,
+          "point_diff": 130,
+          "mov": 3.42
         }
       }
     },
@@ -15088,6 +16209,26 @@
           "points_against": 135,
           "point_diff": 77,
           "mov": 2.75
+        },
+        "2025": {
+          "ovr_rank": 60,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": 4.85,
+          "off_rating": 2.22,
+          "off_rank": 51,
+          "def_rating": 2.63,
+          "def_rank": 76,
+          "wins": 20,
+          "losses": 8,
+          "win_pct": 71.43,
+          "games_played": 28,
+          "ppg": 8.29,
+          "papg": 4.29,
+          "points_for": 232,
+          "points_against": 120,
+          "point_diff": 112,
+          "mov": 4
         }
       }
     },
@@ -15353,6 +16494,26 @@
           "points_against": 137,
           "point_diff": 115,
           "mov": 3.71
+        },
+        "2025": {
+          "ovr_rank": 17,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 9.43,
+          "off_rating": 3.84,
+          "off_rank": 19,
+          "def_rating": 5.59,
+          "def_rank": 21,
+          "wins": 22,
+          "losses": 6,
+          "win_pct": 78.57,
+          "games_played": 28,
+          "ppg": 7.96,
+          "papg": 2.86,
+          "points_for": 223,
+          "points_against": 80,
+          "point_diff": 143,
+          "mov": 5.11
         }
       }
     },
@@ -15618,6 +16779,26 @@
           "points_against": 317,
           "point_diff": -144,
           "mov": -5.54
+        },
+        "2025": {
+          "ovr_rank": 212,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -8.74,
+          "off_rating": -2.52,
+          "off_rank": 195,
+          "def_rating": -6.22,
+          "def_rank": 225,
+          "wins": 8,
+          "losses": 11,
+          "win_pct": 42.11,
+          "games_played": 19,
+          "ppg": 8.63,
+          "papg": 10.74,
+          "points_for": 164,
+          "points_against": 204,
+          "point_diff": -40,
+          "mov": -2.11
         }
       }
     },
@@ -15883,6 +17064,26 @@
           "points_against": 112,
           "point_diff": 93,
           "mov": 3.58
+        },
+        "2025": {
+          "ovr_rank": 116,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": 1.63,
+          "off_rating": 0.88,
+          "off_rank": 96,
+          "def_rating": 0.76,
+          "def_rank": 120,
+          "wins": 15,
+          "losses": 14,
+          "win_pct": 51.72,
+          "games_played": 29,
+          "ppg": 6.83,
+          "papg": 5.76,
+          "points_for": 198,
+          "points_against": 167,
+          "point_diff": 31,
+          "mov": 1.07
         }
       }
     },
@@ -16518,6 +17719,26 @@
           "points_against": 167,
           "point_diff": 28,
           "mov": 0.97
+        },
+        "2025": {
+          "ovr_rank": 24,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 8.9,
+          "off_rating": 2.61,
+          "off_rank": 38,
+          "def_rating": 6.28,
+          "def_rank": 15,
+          "wins": 15,
+          "losses": 13,
+          "win_pct": 53.57,
+          "games_played": 28,
+          "ppg": 5.32,
+          "papg": 3.29,
+          "points_for": 149,
+          "points_against": 92,
+          "point_diff": 57,
+          "mov": 2.04
         }
       }
     },
@@ -16783,6 +18004,26 @@
           "points_against": 132,
           "point_diff": 78,
           "mov": 2.36
+        },
+        "2025": {
+          "ovr_rank": 43,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": 6.2,
+          "off_rating": 2.99,
+          "off_rank": 31,
+          "def_rating": 3.2,
+          "def_rank": 59,
+          "wins": 21,
+          "losses": 13,
+          "win_pct": 61.76,
+          "games_played": 34,
+          "ppg": 7.15,
+          "papg": 4.5,
+          "points_for": 243,
+          "points_against": 153,
+          "point_diff": 90,
+          "mov": 2.65
         }
       }
     },
@@ -17048,6 +18289,26 @@
           "points_against": 130,
           "point_diff": 53,
           "mov": 1.77
+        },
+        "2025": {
+          "ovr_rank": 67,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 4.42,
+          "off_rating": 1.86,
+          "off_rank": 66,
+          "def_rating": 2.56,
+          "def_rank": 79,
+          "wins": 18,
+          "losses": 11,
+          "win_pct": 62.07,
+          "games_played": 29,
+          "ppg": 7.24,
+          "papg": 4.72,
+          "points_for": 210,
+          "points_against": 137,
+          "point_diff": 73,
+          "mov": 2.52
         }
       }
     },
@@ -17313,6 +18574,26 @@
           "points_against": 179,
           "point_diff": -3,
           "mov": -0.1
+        },
+        "2025": {
+          "ovr_rank": 90,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": 2.63,
+          "off_rating": -0.18,
+          "off_rank": 125,
+          "def_rating": 2.81,
+          "def_rank": 71,
+          "wins": 22,
+          "losses": 11,
+          "win_pct": 66.67,
+          "games_played": 33,
+          "ppg": 6.76,
+          "papg": 3.15,
+          "points_for": 223,
+          "points_against": 104,
+          "point_diff": 119,
+          "mov": 3.61
         }
       }
     },
@@ -17623,6 +18904,26 @@
           "points_against": 227,
           "point_diff": 39,
           "mov": 1.22
+        },
+        "2025": {
+          "ovr_rank": 147,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": -1.51,
+          "off_rating": -0.29,
+          "off_rank": 131,
+          "def_rating": -1.22,
+          "def_rank": 163,
+          "wins": 10,
+          "losses": 18,
+          "win_pct": 35.71,
+          "games_played": 28,
+          "ppg": 7.21,
+          "papg": 7.14,
+          "points_for": 202,
+          "points_against": 200,
+          "point_diff": 2,
+          "mov": 0.07
         }
       }
     },
@@ -17888,6 +19189,26 @@
           "points_against": 119,
           "point_diff": 61,
           "mov": 2.26
+        },
+        "2025": {
+          "ovr_rank": 161,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": -2.56,
+          "off_rating": -2.38,
+          "off_rank": 192,
+          "def_rating": -0.19,
+          "def_rank": 140,
+          "wins": 10,
+          "losses": 17,
+          "win_pct": 37.04,
+          "games_played": 27,
+          "ppg": 4.37,
+          "papg": 5.93,
+          "points_for": 118,
+          "points_against": 160,
+          "point_diff": -42,
+          "mov": -1.56
         }
       }
     },
@@ -18153,6 +19474,26 @@
           "points_against": 213,
           "point_diff": -80,
           "mov": -3.33
+        },
+        "2025": {
+          "ovr_rank": 183,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": -4.17,
+          "off_rating": -2.82,
+          "off_rank": 203,
+          "def_rating": -1.35,
+          "def_rank": 168,
+          "wins": 12,
+          "losses": 14,
+          "win_pct": 46.15,
+          "games_played": 26,
+          "ppg": 6.46,
+          "papg": 7.15,
+          "points_for": 168,
+          "points_against": 186,
+          "point_diff": -18,
+          "mov": -0.69
         }
       }
     },
@@ -18418,6 +19759,26 @@
           "points_against": 225,
           "point_diff": -64,
           "mov": -2.06
+        },
+        "2025": {
+          "ovr_rank": 83,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": 3.01,
+          "off_rating": 1.57,
+          "off_rank": 76,
+          "def_rating": 1.44,
+          "def_rank": 101,
+          "wins": 20,
+          "losses": 9,
+          "win_pct": 68.97,
+          "games_played": 29,
+          "ppg": 8.9,
+          "papg": 5.21,
+          "points_for": 258,
+          "points_against": 151,
+          "point_diff": 107,
+          "mov": 3.69
         }
       }
     },
@@ -18683,6 +20044,26 @@
           "points_against": 218,
           "point_diff": -120,
           "mov": -6.32
+        },
+        "2025": {
+          "ovr_rank": 204,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -7.04,
+          "off_rating": -2.03,
+          "off_rank": 182,
+          "def_rating": -5.01,
+          "def_rank": 209,
+          "wins": 8,
+          "losses": 12,
+          "win_pct": 40.0,
+          "games_played": 20,
+          "ppg": 6.05,
+          "papg": 9.9,
+          "points_for": 121,
+          "points_against": 198,
+          "point_diff": -77,
+          "mov": -3.85
         }
       }
     },
@@ -18948,6 +20329,26 @@
           "points_against": 90,
           "point_diff": 101,
           "mov": 3.26
+        },
+        "2025": {
+          "ovr_rank": 50,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 5.68,
+          "off_rating": 1.54,
+          "off_rank": 78,
+          "def_rating": 4.14,
+          "def_rank": 38,
+          "wins": 23,
+          "losses": 9,
+          "win_pct": 71.88,
+          "games_played": 32,
+          "ppg": 8.36,
+          "papg": 3.03,
+          "points_for": 276,
+          "points_against": 100,
+          "point_diff": 176,
+          "mov": 5.33
         }
       }
     },
@@ -19213,6 +20614,26 @@
           "points_against": 301,
           "point_diff": -116,
           "mov": -3.41
+        },
+        "2025": {
+          "ovr_rank": 71,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": 4.17,
+          "off_rating": 2.11,
+          "off_rank": 57,
+          "def_rating": 2.06,
+          "def_rank": 92,
+          "wins": 13,
+          "losses": 22,
+          "win_pct": 37.14,
+          "games_played": 35,
+          "ppg": 4.37,
+          "papg": 8.29,
+          "points_for": 153,
+          "points_against": 290,
+          "point_diff": -137,
+          "mov": -3.91
         }
       }
     },
@@ -19478,6 +20899,26 @@
           "points_against": 114,
           "point_diff": 126,
           "mov": 3.82
+        },
+        "2025": {
+          "ovr_rank": 59,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": 4.87,
+          "off_rating": 1.39,
+          "off_rank": 83,
+          "def_rating": 3.48,
+          "def_rank": 47,
+          "wins": 22,
+          "losses": 15,
+          "win_pct": 59.46,
+          "games_played": 37,
+          "ppg": 6.14,
+          "papg": 4,
+          "points_for": 227,
+          "points_against": 148,
+          "point_diff": 79,
+          "mov": 2.14
         }
       }
     },
@@ -19743,6 +21184,26 @@
           "points_against": 75,
           "point_diff": 253,
           "mov": 7.67
+        },
+        "2025": {
+          "ovr_rank": 40,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": 6.56,
+          "off_rating": 3.46,
+          "off_rank": 24,
+          "def_rating": 3.1,
+          "def_rank": 60,
+          "wins": 23,
+          "losses": 8,
+          "win_pct": 74.19,
+          "games_played": 31,
+          "ppg": 10.03,
+          "papg": 4,
+          "points_for": 311,
+          "points_against": 124,
+          "point_diff": 187,
+          "mov": 6.03
         }
       }
     },
@@ -20008,6 +21469,26 @@
           "points_against": 109,
           "point_diff": 147,
           "mov": 5.07
+        },
+        "2025": {
+          "ovr_rank": 58,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": 4.92,
+          "off_rating": 2.5,
+          "off_rank": 46,
+          "def_rating": 2.41,
+          "def_rank": 82,
+          "wins": 24,
+          "losses": 11,
+          "win_pct": 68.57,
+          "games_played": 35,
+          "ppg": 8.54,
+          "papg": 4.77,
+          "points_for": 299,
+          "points_against": 167,
+          "point_diff": 132,
+          "mov": 3.77
         }
       }
     },
@@ -20273,6 +21754,26 @@
           "points_against": 125,
           "point_diff": 113,
           "mov": 3.65
+        },
+        "2025": {
+          "ovr_rank": 94,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 2.58,
+          "off_rating": 0.43,
+          "off_rank": 110,
+          "def_rating": 2.15,
+          "def_rank": 90,
+          "wins": 10,
+          "losses": 20,
+          "win_pct": 33.33,
+          "games_played": 30,
+          "ppg": 4.83,
+          "papg": 6.33,
+          "points_for": 145,
+          "points_against": 190,
+          "point_diff": -45,
+          "mov": -1.5
         }
       }
     },
@@ -20583,6 +22084,26 @@
           "points_against": 159,
           "point_diff": 113,
           "mov": 3.14
+        },
+        "2025": {
+          "ovr_rank": 2,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": 13.01,
+          "off_rating": 6.24,
+          "off_rank": 1,
+          "def_rating": 6.77,
+          "def_rank": 6,
+          "wins": 27,
+          "losses": 10,
+          "win_pct": 72.97,
+          "games_played": 37,
+          "ppg": 7.38,
+          "papg": 3.89,
+          "points_for": 273,
+          "points_against": 144,
+          "point_diff": 129,
+          "mov": 3.49
         }
       }
     },
@@ -20848,6 +22369,26 @@
           "points_against": 171,
           "point_diff": -92,
           "mov": -4.6
+        },
+        "2025": {
+          "ovr_rank": 231,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": -11.3,
+          "off_rating": -4.52,
+          "off_rank": 227,
+          "def_rating": -6.78,
+          "def_rank": 228,
+          "wins": 4,
+          "losses": 17,
+          "win_pct": 19.05,
+          "games_played": 21,
+          "ppg": 4.48,
+          "papg": 11.76,
+          "points_for": 94,
+          "points_against": 247,
+          "point_diff": -153,
+          "mov": -7.29
         }
       }
     },
@@ -21113,6 +22654,26 @@
           "points_against": 295,
           "point_diff": -183,
           "mov": -6.31
+        },
+        "2025": {
+          "ovr_rank": 221,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": -9.82,
+          "off_rating": -3.73,
+          "off_rank": 215,
+          "def_rating": -6.09,
+          "def_rank": 223,
+          "wins": 8,
+          "losses": 20,
+          "win_pct": 28.57,
+          "games_played": 28,
+          "ppg": 4.54,
+          "papg": 10.64,
+          "points_for": 127,
+          "points_against": 298,
+          "point_diff": -171,
+          "mov": -6.11
         }
       }
     },
@@ -21378,6 +22939,26 @@
           "points_against": 202,
           "point_diff": 8,
           "mov": 0.24
+        },
+        "2025": {
+          "ovr_rank": 91,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": 2.62,
+          "off_rating": 0.43,
+          "off_rank": 109,
+          "def_rating": 2.19,
+          "def_rank": 87,
+          "wins": 14,
+          "losses": 22,
+          "win_pct": 38.89,
+          "games_played": 36,
+          "ppg": 5.36,
+          "papg": 5.83,
+          "points_for": 193,
+          "points_against": 210,
+          "point_diff": -17,
+          "mov": -0.47
         }
       }
     },
@@ -21643,6 +23224,26 @@
           "points_against": 98,
           "point_diff": 81,
           "mov": 3.12
+        },
+        "2025": {
+          "ovr_rank": 54,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 5.24,
+          "off_rating": 1.77,
+          "off_rank": 68,
+          "def_rating": 3.47,
+          "def_rank": 48,
+          "wins": 18,
+          "losses": 13,
+          "win_pct": 58.06,
+          "games_played": 31,
+          "ppg": 7.09,
+          "papg": 4.09,
+          "points_for": 227,
+          "points_against": 131,
+          "point_diff": 96,
+          "mov": 3
         }
       }
     },
@@ -21908,6 +23509,26 @@
           "points_against": 178,
           "point_diff": -62,
           "mov": -3.65
+        },
+        "2025": {
+          "ovr_rank": 130,
+          "classification": 3,
+          "district": 3,
+          "ovr_rating": 0.25,
+          "off_rating": -0.05,
+          "off_rank": 123,
+          "def_rating": 0.3,
+          "def_rank": 133,
+          "wins": 10,
+          "losses": 9,
+          "win_pct": 52.63,
+          "games_played": 19,
+          "ppg": 7.84,
+          "papg": 6.58,
+          "points_for": 149,
+          "points_against": 125,
+          "point_diff": 24,
+          "mov": 1.26
         }
       }
     },
@@ -22173,6 +23794,26 @@
           "points_against": 152,
           "point_diff": 83,
           "mov": 2.31
+        },
+        "2025": {
+          "ovr_rank": 119,
+          "classification": 5,
+          "district": 6,
+          "ovr_rating": 1.49,
+          "off_rating": 0.31,
+          "off_rank": 113,
+          "def_rating": 1.18,
+          "def_rank": 111,
+          "wins": 11,
+          "losses": 22,
+          "win_pct": 33.33,
+          "games_played": 33,
+          "ppg": 5.39,
+          "papg": 6.09,
+          "points_for": 178,
+          "points_against": 201,
+          "point_diff": -23,
+          "mov": -0.7
         }
       }
     },
@@ -22603,6 +24244,26 @@
           "points_against": 214,
           "point_diff": -29,
           "mov": -1.07
+        },
+        "2025": {
+          "ovr_rank": 181,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": -3.91,
+          "off_rating": -1.38,
+          "off_rank": 165,
+          "def_rating": -2.54,
+          "def_rank": 185,
+          "wins": 10,
+          "losses": 15,
+          "win_pct": 40.0,
+          "games_played": 25,
+          "ppg": 5.8,
+          "papg": 8.4,
+          "points_for": 145,
+          "points_against": 210,
+          "point_diff": -65,
+          "mov": -2.6
         }
       }
     },
@@ -22868,6 +24529,26 @@
           "points_against": 240,
           "point_diff": -70,
           "mov": -2.59
+        },
+        "2025": {
+          "ovr_rank": 194,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": -5.04,
+          "off_rating": -0.26,
+          "off_rank": 130,
+          "def_rating": -4.77,
+          "def_rank": 208,
+          "wins": 3,
+          "losses": 12,
+          "win_pct": 20.0,
+          "games_played": 15,
+          "ppg": 6.2,
+          "papg": 12.73,
+          "points_for": 93,
+          "points_against": 191,
+          "point_diff": -98,
+          "mov": -6.53
         }
       }
     },
@@ -23133,6 +24814,26 @@
           "points_against": 149,
           "point_diff": 117,
           "mov": 3.55
+        },
+        "2025": {
+          "ovr_rank": 47,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": 5.88,
+          "off_rating": 3.06,
+          "off_rank": 30,
+          "def_rating": 2.82,
+          "def_rank": 70,
+          "wins": 18,
+          "losses": 16,
+          "win_pct": 52.94,
+          "games_played": 34,
+          "ppg": 7.91,
+          "papg": 5.26,
+          "points_for": 269,
+          "points_against": 179,
+          "point_diff": 90,
+          "mov": 2.65
         }
       }
     },
@@ -23398,6 +25099,26 @@
           "points_against": 145,
           "point_diff": 22,
           "mov": 0.96
+        },
+        "2025": {
+          "ovr_rank": 64,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 4.57,
+          "off_rating": 1.64,
+          "off_rank": 72,
+          "def_rating": 2.93,
+          "def_rank": 67,
+          "wins": 23,
+          "losses": 13,
+          "win_pct": 63.89,
+          "games_played": 36,
+          "ppg": 6.75,
+          "papg": 4.58,
+          "points_for": 243,
+          "points_against": 165,
+          "point_diff": 78,
+          "mov": 2.17
         }
       }
     },
@@ -23663,6 +25384,26 @@
           "points_against": 143,
           "point_diff": -9,
           "mov": -0.45
+        },
+        "2025": {
+          "ovr_rank": 124,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": 0.97,
+          "off_rating": 0.88,
+          "off_rank": 97,
+          "def_rating": 0.09,
+          "def_rank": 138,
+          "wins": 10,
+          "losses": 14,
+          "win_pct": 41.67,
+          "games_played": 24,
+          "ppg": 6.58,
+          "papg": 7.88,
+          "points_for": 158,
+          "points_against": 189,
+          "point_diff": -31,
+          "mov": -1.29
         }
       }
     },
@@ -23928,6 +25669,26 @@
           "points_against": 223,
           "point_diff": -117,
           "mov": -5.09
+        },
+        "2025": {
+          "ovr_rank": 187,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": -4.52,
+          "off_rating": -2.37,
+          "off_rank": 191,
+          "def_rating": -2.14,
+          "def_rank": 179,
+          "wins": 5,
+          "losses": 16,
+          "win_pct": 23.81,
+          "games_played": 21,
+          "ppg": 5.67,
+          "papg": 9,
+          "points_for": 119,
+          "points_against": 189,
+          "point_diff": -70,
+          "mov": -3.33
         }
       }
     },
@@ -24193,6 +25954,26 @@
           "points_against": 140,
           "point_diff": -35,
           "mov": -1.35
+        },
+        "2025": {
+          "ovr_rank": 105,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 2.17,
+          "off_rating": -0.23,
+          "off_rank": 128,
+          "def_rating": 2.4,
+          "def_rank": 83,
+          "wins": 16,
+          "losses": 14,
+          "win_pct": 53.33,
+          "games_played": 30,
+          "ppg": 5.37,
+          "papg": 4.77,
+          "points_for": 161,
+          "points_against": 143,
+          "point_diff": 18,
+          "mov": 0.6
         }
       }
     },
@@ -24458,6 +26239,26 @@
           "points_against": 268,
           "point_diff": -173,
           "mov": -6.92
+        },
+        "2025": {
+          "ovr_rank": 196,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -5.31,
+          "off_rating": -2.13,
+          "off_rank": 184,
+          "def_rating": -3.18,
+          "def_rank": 194,
+          "wins": 12,
+          "losses": 13,
+          "win_pct": 48.0,
+          "games_played": 25,
+          "ppg": 6.8,
+          "papg": 7.2,
+          "points_for": 170,
+          "points_against": 180,
+          "point_diff": -10,
+          "mov": -0.4
         }
       }
     },
@@ -24723,6 +26524,26 @@
           "points_against": 202,
           "point_diff": -42,
           "mov": -1.45
+        },
+        "2025": {
+          "ovr_rank": 184,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": -4.34,
+          "off_rating": -1.57,
+          "off_rank": 172,
+          "def_rating": -2.77,
+          "def_rank": 188,
+          "wins": 4,
+          "losses": 16,
+          "win_pct": 20.0,
+          "games_played": 20,
+          "ppg": 4.15,
+          "papg": 9.85,
+          "points_for": 83,
+          "points_against": 197,
+          "point_diff": -114,
+          "mov": -5.7
         }
       }
     },
@@ -24988,6 +26809,26 @@
           "points_against": 137,
           "point_diff": 168,
           "mov": 4.54
+        },
+        "2025": {
+          "ovr_rank": 38,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 6.92,
+          "off_rating": 2.01,
+          "off_rank": 62,
+          "def_rating": 4.9,
+          "def_rank": 29,
+          "wins": 23,
+          "losses": 10,
+          "win_pct": 69.7,
+          "games_played": 33,
+          "ppg": 6.97,
+          "papg": 3.27,
+          "points_for": 230,
+          "points_against": 108,
+          "point_diff": 122,
+          "mov": 3.7
         }
       }
     },
@@ -25253,6 +27094,26 @@
           "points_against": 106,
           "point_diff": 40,
           "mov": 1.6
+        },
+        "2025": {
+          "ovr_rank": 97,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 2.43,
+          "off_rating": 1.68,
+          "off_rank": 71,
+          "def_rating": 0.75,
+          "def_rank": 121,
+          "wins": 12,
+          "losses": 13,
+          "win_pct": 48.0,
+          "games_played": 25,
+          "ppg": 6.72,
+          "papg": 6.92,
+          "points_for": 168,
+          "points_against": 173,
+          "point_diff": -5,
+          "mov": -0.2
         }
       }
     },
@@ -25518,6 +27379,26 @@
           "points_against": 125,
           "point_diff": 154,
           "mov": 4.4
+        },
+        "2025": {
+          "ovr_rank": 30,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": 7.87,
+          "off_rating": 2.05,
+          "off_rank": 60,
+          "def_rating": 5.82,
+          "def_rank": 20,
+          "wins": 23,
+          "losses": 6,
+          "win_pct": 79.31,
+          "games_played": 29,
+          "ppg": 7.28,
+          "papg": 1.72,
+          "points_for": 211,
+          "points_against": 50,
+          "point_diff": 161,
+          "mov": 5.55
         }
       }
     },
@@ -25783,6 +27664,26 @@
           "points_against": 194,
           "point_diff": -8,
           "mov": -0.28
+        },
+        "2025": {
+          "ovr_rank": 141,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": -0.95,
+          "off_rating": -0.04,
+          "off_rank": 122,
+          "def_rating": -0.91,
+          "def_rank": 158,
+          "wins": 13,
+          "losses": 12,
+          "win_pct": 52.0,
+          "games_played": 25,
+          "ppg": 7,
+          "papg": 7.12,
+          "points_for": 175,
+          "points_against": 178,
+          "point_diff": -3,
+          "mov": -0.12
         }
       }
     },
@@ -26048,6 +27949,26 @@
           "points_against": 73,
           "point_diff": 178,
           "mov": 6.36
+        },
+        "2025": {
+          "ovr_rank": 126,
+          "classification": 2,
+          "district": 4,
+          "ovr_rating": 0.66,
+          "off_rating": 0.03,
+          "off_rank": 121,
+          "def_rating": 0.63,
+          "def_rank": 123,
+          "wins": 13,
+          "losses": 13,
+          "win_pct": 50.0,
+          "games_played": 26,
+          "ppg": 7.12,
+          "papg": 5.46,
+          "points_for": 185,
+          "points_against": 142,
+          "point_diff": 43,
+          "mov": 1.65
         }
       }
     },
@@ -26313,6 +28234,26 @@
           "points_against": 177,
           "point_diff": -148,
           "mov": -11.38
+        },
+        "2025": {
+          "ovr_rank": 209,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -8.42,
+          "off_rating": -4.81,
+          "off_rank": 231,
+          "def_rating": -3.61,
+          "def_rank": 197,
+          "wins": 7,
+          "losses": 13,
+          "win_pct": 35.0,
+          "games_played": 20,
+          "ppg": 5.55,
+          "papg": 7.95,
+          "points_for": 111,
+          "points_against": 159,
+          "point_diff": -48,
+          "mov": -2.4
         }
       }
     },
@@ -26578,6 +28519,26 @@
           "points_against": 306,
           "point_diff": -185,
           "mov": -6.61
+        },
+        "2025": {
+          "ovr_rank": 165,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": -2.71,
+          "off_rating": 0.25,
+          "off_rank": 114,
+          "def_rating": -2.96,
+          "def_rank": 191,
+          "wins": 7,
+          "losses": 20,
+          "win_pct": 25.93,
+          "games_played": 27,
+          "ppg": 6.85,
+          "papg": 8.89,
+          "points_for": 185,
+          "points_against": 240,
+          "point_diff": -55,
+          "mov": -2.04
         }
       }
     },
@@ -26843,6 +28804,26 @@
           "points_against": 150,
           "point_diff": -55,
           "mov": -3.93
+        },
+        "2025": {
+          "ovr_rank": 251,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": -17.04,
+          "off_rating": -5.6,
+          "off_rank": 242,
+          "def_rating": -11.44,
+          "def_rank": 253,
+          "wins": 2,
+          "losses": 10,
+          "win_pct": 16.67,
+          "games_played": 12,
+          "ppg": 5.33,
+          "papg": 14.58,
+          "points_for": 64,
+          "points_against": 175,
+          "point_diff": -111,
+          "mov": -9.25
         }
       }
     },
@@ -27108,6 +29089,26 @@
           "points_against": 151,
           "point_diff": -50,
           "mov": -2.27
+        },
+        "2025": {
+          "ovr_rank": 215,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": -9.17,
+          "off_rating": -2.28,
+          "off_rank": 189,
+          "def_rating": -6.89,
+          "def_rank": 230,
+          "wins": 3,
+          "losses": 24,
+          "win_pct": 11.11,
+          "games_played": 27,
+          "ppg": 4,
+          "papg": 14.22,
+          "points_for": 108,
+          "points_against": 384,
+          "point_diff": -276,
+          "mov": -10.22
         }
       }
     },
@@ -27373,6 +29374,26 @@
           "points_against": 137,
           "point_diff": 33,
           "mov": 1.27
+        },
+        "2025": {
+          "ovr_rank": 134,
+          "classification": 3,
+          "district": 1,
+          "ovr_rating": -0.25,
+          "off_rating": 0.17,
+          "off_rank": 117,
+          "def_rating": -0.42,
+          "def_rank": 144,
+          "wins": 10,
+          "losses": 11,
+          "win_pct": 47.62,
+          "games_played": 21,
+          "ppg": 7.57,
+          "papg": 6.76,
+          "points_for": 159,
+          "points_against": 142,
+          "point_diff": 17,
+          "mov": 0.81
         }
       }
     },
@@ -27638,6 +29659,26 @@
           "points_against": 240,
           "point_diff": -147,
           "mov": -5.88
+        },
+        "2025": {
+          "ovr_rank": 191,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": -4.76,
+          "off_rating": -2.72,
+          "off_rank": 200,
+          "def_rating": -2.04,
+          "def_rank": 177,
+          "wins": 8,
+          "losses": 18,
+          "win_pct": 30.77,
+          "games_played": 26,
+          "ppg": 6.65,
+          "papg": 8.08,
+          "points_for": 173,
+          "points_against": 210,
+          "point_diff": -37,
+          "mov": -1.42
         }
       }
     },
@@ -27948,6 +29989,26 @@
           "points_against": 187,
           "point_diff": 120,
           "mov": 3.43
+        },
+        "2025": {
+          "ovr_rank": 102,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": 2.28,
+          "off_rating": 1.68,
+          "off_rank": 70,
+          "def_rating": 0.6,
+          "def_rank": 125,
+          "wins": 18,
+          "losses": 15,
+          "win_pct": 54.55,
+          "games_played": 33,
+          "ppg": 7.24,
+          "papg": 6.09,
+          "points_for": 239,
+          "points_against": 201,
+          "point_diff": 38,
+          "mov": 1.15
         }
       }
     },
@@ -28213,6 +30274,26 @@
           "points_against": 88,
           "point_diff": 161,
           "mov": 4.88
+        },
+        "2025": {
+          "ovr_rank": 21,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": 9.11,
+          "off_rating": 2.11,
+          "off_rank": 59,
+          "def_rating": 7.0,
+          "def_rank": 3,
+          "wins": 24,
+          "losses": 9,
+          "win_pct": 72.73,
+          "games_played": 33,
+          "ppg": 6.73,
+          "papg": 2.27,
+          "points_for": 222,
+          "points_against": 75,
+          "point_diff": 147,
+          "mov": 4.45
         }
       }
     },
@@ -28583,6 +30664,26 @@
           "points_against": 50,
           "point_diff": 164,
           "mov": 6.31
+        },
+        "2025": {
+          "ovr_rank": 80,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 3.6,
+          "off_rating": 1.58,
+          "off_rank": 75,
+          "def_rating": 2.02,
+          "def_rank": 94,
+          "wins": 12,
+          "losses": 13,
+          "win_pct": 48.0,
+          "games_played": 25,
+          "ppg": 6.2,
+          "papg": 5.28,
+          "points_for": 155,
+          "points_against": 132,
+          "point_diff": 23,
+          "mov": 0.92
         }
       }
     },
@@ -28973,6 +31074,26 @@
           "points_against": 116,
           "point_diff": 145,
           "mov": 5.18
+        },
+        "2025": {
+          "ovr_rank": 56,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": 5.12,
+          "off_rating": 2.81,
+          "off_rank": 34,
+          "def_rating": 2.31,
+          "def_rank": 85,
+          "wins": 19,
+          "losses": 7,
+          "win_pct": 73.08,
+          "games_played": 26,
+          "ppg": 9.54,
+          "papg": 3.81,
+          "points_for": 248,
+          "points_against": 99,
+          "point_diff": 149,
+          "mov": 5.73
         }
       }
     },
@@ -29238,6 +31359,26 @@
           "points_against": 161,
           "point_diff": 16,
           "mov": 0.59
+        },
+        "2025": {
+          "ovr_rank": 127,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 0.36,
+          "off_rating": -0.83,
+          "off_rank": 145,
+          "def_rating": 1.2,
+          "def_rank": 110,
+          "wins": 15,
+          "losses": 13,
+          "win_pct": 53.57,
+          "games_played": 28,
+          "ppg": 6.11,
+          "papg": 5.14,
+          "points_for": 171,
+          "points_against": 144,
+          "point_diff": 27,
+          "mov": 0.96
         }
       }
     },
@@ -29548,6 +31689,26 @@
           "points_against": 68,
           "point_diff": 131,
           "mov": 4.52
+        },
+        "2025": {
+          "ovr_rank": 33,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": 7.37,
+          "off_rating": 2.11,
+          "off_rank": 58,
+          "def_rating": 5.26,
+          "def_rank": 24,
+          "wins": 29,
+          "losses": 7,
+          "win_pct": 80.56,
+          "games_played": 36,
+          "ppg": 7.19,
+          "papg": 2.81,
+          "points_for": 259,
+          "points_against": 101,
+          "point_diff": 158,
+          "mov": 4.39
         }
       }
     },
@@ -30078,6 +32239,26 @@
           "points_against": 183,
           "point_diff": -22,
           "mov": -0.81
+        },
+        "2025": {
+          "ovr_rank": 177,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -3.61,
+          "off_rating": -4.53,
+          "off_rank": 228,
+          "def_rating": 0.93,
+          "def_rank": 118,
+          "wins": 12,
+          "losses": 16,
+          "win_pct": 42.86,
+          "games_played": 28,
+          "ppg": 3.75,
+          "papg": 4.29,
+          "points_for": 105,
+          "points_against": 120,
+          "point_diff": -15,
+          "mov": -0.54
         }
       }
     },
@@ -30343,6 +32524,26 @@
           "points_against": 150,
           "point_diff": 37,
           "mov": 1.42
+        },
+        "2025": {
+          "ovr_rank": 118,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": 1.55,
+          "off_rating": 1.44,
+          "off_rank": 80,
+          "def_rating": 0.11,
+          "def_rank": 137,
+          "wins": 18,
+          "losses": 10,
+          "win_pct": 64.29,
+          "games_played": 28,
+          "ppg": 8.32,
+          "papg": 5.61,
+          "points_for": 233,
+          "points_against": 157,
+          "point_diff": 76,
+          "mov": 2.71
         }
       }
     },
@@ -30608,6 +32809,26 @@
           "points_against": 154,
           "point_diff": 92,
           "mov": 2.79
+        },
+        "2025": {
+          "ovr_rank": 131,
+          "classification": 1,
+          "district": 6,
+          "ovr_rating": -0.05,
+          "off_rating": -1.03,
+          "off_rank": 149,
+          "def_rating": 0.98,
+          "def_rank": 116,
+          "wins": 18,
+          "losses": 14,
+          "win_pct": 56.25,
+          "games_played": 32,
+          "ppg": 5.97,
+          "papg": 4.59,
+          "points_for": 191,
+          "points_against": 147,
+          "point_diff": 44,
+          "mov": 1.38
         }
       }
     },
@@ -30873,6 +33094,26 @@
           "points_against": 82,
           "point_diff": 166,
           "mov": 5.72
+        },
+        "2025": {
+          "ovr_rank": 92,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": 2.61,
+          "off_rating": -0.76,
+          "off_rank": 142,
+          "def_rating": 3.37,
+          "def_rank": 52,
+          "wins": 21,
+          "losses": 6,
+          "win_pct": 77.78,
+          "games_played": 27,
+          "ppg": 8,
+          "papg": 2.26,
+          "points_for": 216,
+          "points_against": 61,
+          "point_diff": 155,
+          "mov": 5.74
         }
       }
     },
@@ -31303,6 +33544,26 @@
           "points_against": 106,
           "point_diff": 96,
           "mov": 4
+        },
+        "2025": {
+          "ovr_rank": 213,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -8.74,
+          "off_rating": -2.87,
+          "off_rank": 207,
+          "def_rating": -5.87,
+          "def_rank": 220,
+          "wins": 8,
+          "losses": 15,
+          "win_pct": 34.78,
+          "games_played": 23,
+          "ppg": 7.91,
+          "papg": 9.04,
+          "points_for": 182,
+          "points_against": 208,
+          "point_diff": -26,
+          "mov": -1.13
         }
       }
     },
@@ -31568,6 +33829,26 @@
           "points_against": 115,
           "point_diff": 60,
           "mov": 2.14
+        },
+        "2025": {
+          "ovr_rank": 25,
+          "classification": 5,
+          "district": 1,
+          "ovr_rating": 8.49,
+          "off_rating": 2.58,
+          "off_rank": 39,
+          "def_rating": 5.91,
+          "def_rank": 18,
+          "wins": 23,
+          "losses": 8,
+          "win_pct": 74.19,
+          "games_played": 31,
+          "ppg": 6.29,
+          "papg": 3.03,
+          "points_for": 195,
+          "points_against": 94,
+          "point_diff": 101,
+          "mov": 3.26
         }
       }
     },
@@ -31833,6 +34114,26 @@
           "points_against": 140,
           "point_diff": 39,
           "mov": 1.86
+        },
+        "2025": {
+          "ovr_rank": 253,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -17.11,
+          "off_rating": -5.68,
+          "off_rank": 243,
+          "def_rating": -11.43,
+          "def_rank": 252,
+          "wins": 5,
+          "losses": 17,
+          "win_pct": 22.73,
+          "games_played": 22,
+          "ppg": 7.55,
+          "papg": 12.23,
+          "points_for": 166,
+          "points_against": 269,
+          "point_diff": -103,
+          "mov": -4.68
         }
       }
     },
@@ -32098,6 +34399,26 @@
           "points_against": 241,
           "point_diff": -61,
           "mov": -2.26
+        },
+        "2025": {
+          "ovr_rank": 160,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": -2.54,
+          "off_rating": -1.85,
+          "off_rank": 178,
+          "def_rating": -0.69,
+          "def_rank": 151,
+          "wins": 5,
+          "losses": 19,
+          "win_pct": 20.83,
+          "games_played": 24,
+          "ppg": 4.58,
+          "papg": 7.58,
+          "points_for": 110,
+          "points_against": 182,
+          "point_diff": -72,
+          "mov": -3
         }
       }
     },
@@ -32363,6 +34684,26 @@
           "points_against": 224,
           "point_diff": -135,
           "mov": -5.87
+        },
+        "2025": {
+          "ovr_rank": 82,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": 3.21,
+          "off_rating": 2.04,
+          "off_rank": 61,
+          "def_rating": 1.17,
+          "def_rank": 112,
+          "wins": 7,
+          "losses": 16,
+          "win_pct": 30.43,
+          "games_played": 23,
+          "ppg": 5.57,
+          "papg": 8.35,
+          "points_for": 128,
+          "points_against": 192,
+          "point_diff": -64,
+          "mov": -2.78
         }
       }
     },
@@ -32793,6 +35134,26 @@
           "points_against": 178,
           "point_diff": -90,
           "mov": -5
+        },
+        "2025": {
+          "ovr_rank": 222,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": -9.88,
+          "off_rating": -4.62,
+          "off_rank": 229,
+          "def_rating": -5.26,
+          "def_rank": 212,
+          "wins": 4,
+          "losses": 16,
+          "win_pct": 20.0,
+          "games_played": 20,
+          "ppg": 3.6,
+          "papg": 11.35,
+          "points_for": 72,
+          "points_against": 227,
+          "point_diff": -155,
+          "mov": -7.75
         }
       }
     },
@@ -33123,6 +35484,26 @@
           "points_against": 176,
           "point_diff": -78,
           "mov": -3
+        },
+        "2025": {
+          "ovr_rank": 166,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": -2.77,
+          "off_rating": -1.37,
+          "off_rank": 163,
+          "def_rating": -1.4,
+          "def_rank": 169,
+          "wins": 10,
+          "losses": 17,
+          "win_pct": 37.04,
+          "games_played": 27,
+          "ppg": 5.3,
+          "papg": 8,
+          "points_for": 143,
+          "points_against": 216,
+          "point_diff": -73,
+          "mov": -2.7
         }
       }
     },
@@ -33388,6 +35769,26 @@
           "points_against": 187,
           "point_diff": 35,
           "mov": 1
+        },
+        "2025": {
+          "ovr_rank": 57,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": 4.99,
+          "off_rating": 2.81,
+          "off_rank": 35,
+          "def_rating": 2.18,
+          "def_rank": 89,
+          "wins": 20,
+          "losses": 15,
+          "win_pct": 57.14,
+          "games_played": 35,
+          "ppg": 7.71,
+          "papg": 6.06,
+          "points_for": 270,
+          "points_against": 212,
+          "point_diff": 58,
+          "mov": 1.66
         }
       }
     },
@@ -33653,6 +36054,26 @@
           "points_against": 204,
           "point_diff": -8,
           "mov": -0.26
+        },
+        "2025": {
+          "ovr_rank": 200,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -6.19,
+          "off_rating": -3.39,
+          "off_rank": 212,
+          "def_rating": -2.8,
+          "def_rank": 189,
+          "wins": 8,
+          "losses": 21,
+          "win_pct": 27.59,
+          "games_played": 29,
+          "ppg": 4.59,
+          "papg": 7.34,
+          "points_for": 133,
+          "points_against": 213,
+          "point_diff": -80,
+          "mov": -2.76
         }
       }
     },
@@ -34208,6 +36629,26 @@
           "points_against": 149,
           "point_diff": 64,
           "mov": 2.21
+        },
+        "2025": {
+          "ovr_rank": 88,
+          "classification": 2,
+          "district": 6,
+          "ovr_rating": 2.89,
+          "off_rating": 1.02,
+          "off_rank": 92,
+          "def_rating": 1.87,
+          "def_rank": 96,
+          "wins": 21,
+          "losses": 7,
+          "win_pct": 75.0,
+          "games_played": 28,
+          "ppg": 8.46,
+          "papg": 3.21,
+          "points_for": 237,
+          "points_against": 90,
+          "point_diff": 147,
+          "mov": 5.25
         }
       }
     },
@@ -34473,6 +36914,26 @@
           "points_against": 234,
           "point_diff": -103,
           "mov": -4.48
+        },
+        "2025": {
+          "ovr_rank": 207,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": -8.15,
+          "off_rating": -2.71,
+          "off_rank": 199,
+          "def_rating": -5.44,
+          "def_rank": 214,
+          "wins": 7,
+          "losses": 17,
+          "win_pct": 29.17,
+          "games_played": 24,
+          "ppg": 6.25,
+          "papg": 10.17,
+          "points_for": 150,
+          "points_against": 244,
+          "point_diff": -94,
+          "mov": -3.92
         }
       }
     },
@@ -34738,6 +37199,26 @@
           "points_against": 302,
           "point_diff": -179,
           "mov": -5.42
+        },
+        "2025": {
+          "ovr_rank": 159,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": -2.53,
+          "off_rating": -3.8,
+          "off_rank": 216,
+          "def_rating": 1.27,
+          "def_rank": 108,
+          "wins": 10,
+          "losses": 14,
+          "win_pct": 41.67,
+          "games_played": 24,
+          "ppg": 3.33,
+          "papg": 4.5,
+          "points_for": 80,
+          "points_against": 108,
+          "point_diff": -28,
+          "mov": -1.17
         }
       }
     },
@@ -35003,6 +37484,26 @@
           "points_against": 192,
           "point_diff": -25,
           "mov": -0.89
+        },
+        "2025": {
+          "ovr_rank": 232,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": -11.43,
+          "off_rating": -4.01,
+          "off_rank": 220,
+          "def_rating": -7.42,
+          "def_rank": 234,
+          "wins": 1,
+          "losses": 24,
+          "win_pct": 4.0,
+          "games_played": 25,
+          "ppg": 2.64,
+          "papg": 13.12,
+          "points_for": 66,
+          "points_against": 328,
+          "point_diff": -262,
+          "mov": -10.48
         }
       }
     },
@@ -35268,6 +37769,26 @@
           "points_against": 254,
           "point_diff": -159,
           "mov": -7.23
+        },
+        "2025": {
+          "ovr_rank": 175,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": -3.6,
+          "off_rating": -0.43,
+          "off_rank": 134,
+          "def_rating": -3.17,
+          "def_rank": 193,
+          "wins": 18,
+          "losses": 10,
+          "win_pct": 64.29,
+          "games_played": 28,
+          "ppg": 9,
+          "papg": 7.43,
+          "points_for": 252,
+          "points_against": 208,
+          "point_diff": 44,
+          "mov": 1.57
         }
       }
     },
@@ -35798,6 +38319,26 @@
           "points_against": 245,
           "point_diff": -54,
           "mov": -1.86
+        },
+        "2025": {
+          "ovr_rank": 169,
+          "classification": 5,
+          "district": 8,
+          "ovr_rating": -3.22,
+          "off_rating": -1.95,
+          "off_rank": 179,
+          "def_rating": -1.27,
+          "def_rank": 165,
+          "wins": 10,
+          "losses": 19,
+          "win_pct": 34.48,
+          "games_played": 29,
+          "ppg": 5.38,
+          "papg": 7.59,
+          "points_for": 156,
+          "points_against": 220,
+          "point_diff": -64,
+          "mov": -2.21
         }
       }
     },
@@ -36063,6 +38604,26 @@
           "points_against": 73,
           "point_diff": 210,
           "mov": 6.56
+        },
+        "2025": {
+          "ovr_rank": 44,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": 6.07,
+          "off_rating": 2.69,
+          "off_rank": 37,
+          "def_rating": 3.37,
+          "def_rank": 53,
+          "wins": 28,
+          "losses": 7,
+          "win_pct": 80.0,
+          "games_played": 35,
+          "ppg": 10.11,
+          "papg": 3.63,
+          "points_for": 354,
+          "points_against": 127,
+          "point_diff": 227,
+          "mov": 6.49
         }
       }
     },
@@ -36328,6 +38889,26 @@
           "points_against": 65,
           "point_diff": 250,
           "mov": 6.58
+        },
+        "2025": {
+          "ovr_rank": 19,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": 9.29,
+          "off_rating": 3.47,
+          "off_rank": 23,
+          "def_rating": 5.82,
+          "def_rank": 19,
+          "wins": 32,
+          "losses": 8,
+          "win_pct": 80.0,
+          "games_played": 40,
+          "ppg": 8.3,
+          "papg": 2.23,
+          "points_for": 332,
+          "points_against": 89,
+          "point_diff": 243,
+          "mov": 6.08
         }
       }
     },
@@ -36758,6 +39339,26 @@
           "points_against": 175,
           "point_diff": -23,
           "mov": -1
+        },
+        "2025": {
+          "ovr_rank": 125,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": 0.92,
+          "off_rating": -0.22,
+          "off_rank": 126,
+          "def_rating": 1.14,
+          "def_rank": 114,
+          "wins": 12,
+          "losses": 12,
+          "win_pct": 50.0,
+          "games_played": 24,
+          "ppg": 5.54,
+          "papg": 5.46,
+          "points_for": 133,
+          "points_against": 131,
+          "point_diff": 2,
+          "mov": 0.08
         }
       }
     },
@@ -37023,6 +39624,26 @@
           "points_against": 215,
           "point_diff": -79,
           "mov": -3.04
+        },
+        "2025": {
+          "ovr_rank": 79,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": 3.64,
+          "off_rating": 0.61,
+          "off_rank": 103,
+          "def_rating": 3.02,
+          "def_rank": 64,
+          "wins": 26,
+          "losses": 10,
+          "win_pct": 72.22,
+          "games_played": 36,
+          "ppg": 7.33,
+          "papg": 2.97,
+          "points_for": 264,
+          "points_against": 107,
+          "point_diff": 157,
+          "mov": 4.36
         }
       }
     },
@@ -37268,6 +39889,26 @@
           "points_against": 134,
           "point_diff": -25,
           "mov": -1.25
+        },
+        "2025": {
+          "ovr_rank": 78,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": 3.67,
+          "off_rating": 1.61,
+          "off_rank": 74,
+          "def_rating": 2.06,
+          "def_rank": 91,
+          "wins": 7,
+          "losses": 13,
+          "win_pct": 35.0,
+          "games_played": 20,
+          "ppg": 5.7,
+          "papg": 7.85,
+          "points_for": 114,
+          "points_against": 157,
+          "point_diff": -43,
+          "mov": -2.15
         }
       }
     },
@@ -37533,6 +40174,26 @@
           "points_against": 120,
           "point_diff": 59,
           "mov": 2.27
+        },
+        "2025": {
+          "ovr_rank": 176,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": -3.6,
+          "off_rating": 0.08,
+          "off_rank": 120,
+          "def_rating": -3.67,
+          "def_rank": 199,
+          "wins": 6,
+          "losses": 19,
+          "win_pct": 24.0,
+          "games_played": 25,
+          "ppg": 6.12,
+          "papg": 10.48,
+          "points_for": 153,
+          "points_against": 262,
+          "point_diff": -109,
+          "mov": -4.36
         }
       }
     },
@@ -37798,6 +40459,26 @@
           "points_against": 70,
           "point_diff": 117,
           "mov": 4.03
+        },
+        "2025": {
+          "ovr_rank": 39,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": 6.83,
+          "off_rating": 1.62,
+          "off_rank": 73,
+          "def_rating": 5.21,
+          "def_rank": 25,
+          "wins": 25,
+          "losses": 6,
+          "win_pct": 80.65,
+          "games_played": 31,
+          "ppg": 6.84,
+          "papg": 2.71,
+          "points_for": 212,
+          "points_against": 84,
+          "point_diff": 128,
+          "mov": 4.13
         }
       }
     },
@@ -38063,6 +40744,26 @@
           "points_against": 267,
           "point_diff": -170,
           "mov": -7.73
+        },
+        "2025": {
+          "ovr_rank": 170,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -3.29,
+          "off_rating": -1.38,
+          "off_rank": 166,
+          "def_rating": -1.91,
+          "def_rank": 174,
+          "wins": 9,
+          "losses": 14,
+          "win_pct": 39.13,
+          "games_played": 23,
+          "ppg": 6.04,
+          "papg": 7.78,
+          "points_for": 139,
+          "points_against": 179,
+          "point_diff": -40,
+          "mov": -1.74
         }
       }
     },
@@ -38578,6 +41279,26 @@
           "points_against": 185,
           "point_diff": 127,
           "mov": 3.53
+        },
+        "2025": {
+          "ovr_rank": 45,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": 6.06,
+          "off_rating": 3.14,
+          "off_rank": 28,
+          "def_rating": 2.92,
+          "def_rank": 68,
+          "wins": 21,
+          "losses": 11,
+          "win_pct": 65.62,
+          "games_played": 32,
+          "ppg": 7.67,
+          "papg": 4.42,
+          "points_for": 253,
+          "points_against": 146,
+          "point_diff": 107,
+          "mov": 3.24
         }
       }
     },
@@ -38843,6 +41564,26 @@
           "points_against": 251,
           "point_diff": -46,
           "mov": -1.35
+        },
+        "2025": {
+          "ovr_rank": 152,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": -1.92,
+          "off_rating": -1.28,
+          "off_rank": 159,
+          "def_rating": -0.64,
+          "def_rank": 150,
+          "wins": 10,
+          "losses": 24,
+          "win_pct": 29.41,
+          "games_played": 34,
+          "ppg": 5.44,
+          "papg": 7.24,
+          "points_for": 185,
+          "points_against": 246,
+          "point_diff": -61,
+          "mov": -1.79
         }
       }
     },
@@ -39108,6 +41849,26 @@
           "points_against": 170,
           "point_diff": -100,
           "mov": -4.55
+        },
+        "2025": {
+          "ovr_rank": 189,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -4.58,
+          "off_rating": -2.25,
+          "off_rank": 188,
+          "def_rating": -2.33,
+          "def_rank": 182,
+          "wins": 8,
+          "losses": 15,
+          "win_pct": 34.78,
+          "games_played": 23,
+          "ppg": 5.52,
+          "papg": 7.3,
+          "points_for": 127,
+          "points_against": 168,
+          "point_diff": -41,
+          "mov": -1.78
         }
       }
     },
@@ -39373,6 +42134,26 @@
           "points_against": 177,
           "point_diff": 78,
           "mov": 2.29
+        },
+        "2025": {
+          "ovr_rank": 110,
+          "classification": 5,
+          "district": 6,
+          "ovr_rating": 2.06,
+          "off_rating": -0.95,
+          "off_rank": 146,
+          "def_rating": 3.01,
+          "def_rank": 66,
+          "wins": 14,
+          "losses": 19,
+          "win_pct": 42.42,
+          "games_played": 33,
+          "ppg": 5,
+          "papg": 4.3,
+          "points_for": 165,
+          "points_against": 142,
+          "point_diff": 23,
+          "mov": 0.7
         }
       }
     },
@@ -39638,6 +42419,26 @@
           "points_against": 183,
           "point_diff": -112,
           "mov": -6.59
+        },
+        "2025": {
+          "ovr_rank": 228,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": -11.05,
+          "off_rating": -4.05,
+          "off_rank": 221,
+          "def_rating": -7.0,
+          "def_rank": 231,
+          "wins": 6,
+          "losses": 15,
+          "win_pct": 28.57,
+          "games_played": 21,
+          "ppg": 5.81,
+          "papg": 10.43,
+          "points_for": 122,
+          "points_against": 219,
+          "point_diff": -97,
+          "mov": -4.62
         }
       }
     },
@@ -39903,6 +42704,26 @@
           "points_against": 38,
           "point_diff": 259,
           "mov": 9.59
+        },
+        "2025": {
+          "ovr_rank": 85,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": 2.96,
+          "off_rating": 1.4,
+          "off_rank": 82,
+          "def_rating": 1.56,
+          "def_rank": 99,
+          "wins": 20,
+          "losses": 7,
+          "win_pct": 74.07,
+          "games_played": 27,
+          "ppg": 10.44,
+          "papg": 4.15,
+          "points_for": 282,
+          "points_against": 112,
+          "point_diff": 170,
+          "mov": 6.3
         }
       }
     },
@@ -40168,6 +42989,26 @@
           "points_against": 202,
           "point_diff": -131,
           "mov": -9.36
+        },
+        "2025": {
+          "ovr_rank": 261,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": -22.45,
+          "off_rating": -6.53,
+          "off_rank": 249,
+          "def_rating": -15.92,
+          "def_rank": 263,
+          "wins": 1,
+          "losses": 24,
+          "win_pct": 4.0,
+          "games_played": 25,
+          "ppg": 3.76,
+          "papg": 19.88,
+          "points_for": 94,
+          "points_against": 497,
+          "point_diff": -403,
+          "mov": -16.12
         }
       }
     },
@@ -40433,6 +43274,26 @@
           "points_against": 189,
           "point_diff": -90,
           "mov": -4.5
+        },
+        "2025": {
+          "ovr_rank": 114,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": 1.81,
+          "off_rating": -0.98,
+          "off_rank": 147,
+          "def_rating": 2.79,
+          "def_rank": 73,
+          "wins": 20,
+          "losses": 6,
+          "win_pct": 76.92,
+          "games_played": 26,
+          "ppg": 7.15,
+          "papg": 3.35,
+          "points_for": 186,
+          "points_against": 87,
+          "point_diff": 99,
+          "mov": 3.81
         }
       }
     },
@@ -40723,6 +43584,26 @@
           "points_against": 129,
           "point_diff": 121,
           "mov": 4.17
+        },
+        "2025": {
+          "ovr_rank": 84,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": 2.96,
+          "off_rating": 1.51,
+          "off_rank": 79,
+          "def_rating": 1.45,
+          "def_rank": 100,
+          "wins": 19,
+          "losses": 11,
+          "win_pct": 63.33,
+          "games_played": 30,
+          "ppg": 9.53,
+          "papg": 4.3,
+          "points_for": 286,
+          "points_against": 129,
+          "point_diff": 157,
+          "mov": 5.23
         }
       }
     },
@@ -40988,6 +43869,26 @@
           "points_against": 206,
           "point_diff": -110,
           "mov": -5.5
+        },
+        "2025": {
+          "ovr_rank": 199,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -5.9,
+          "off_rating": -2.61,
+          "off_rank": 197,
+          "def_rating": -3.29,
+          "def_rank": 196,
+          "wins": 7,
+          "losses": 13,
+          "win_pct": 35.0,
+          "games_played": 20,
+          "ppg": 5.75,
+          "papg": 8.85,
+          "points_for": 115,
+          "points_against": 177,
+          "point_diff": -62,
+          "mov": -3.1
         }
       }
     },
@@ -41253,6 +44154,26 @@
           "points_against": 291,
           "point_diff": -228,
           "mov": -9.5
+        },
+        "2025": {
+          "ovr_rank": 246,
+          "classification": 4,
+          "district": 1,
+          "ovr_rating": -16.0,
+          "off_rating": -5.24,
+          "off_rank": 239,
+          "def_rating": -10.76,
+          "def_rank": 250,
+          "wins": 0,
+          "losses": 21,
+          "win_pct": 0.0,
+          "games_played": 21,
+          "ppg": 2.81,
+          "papg": 16.29,
+          "points_for": 59,
+          "points_against": 342,
+          "point_diff": -283,
+          "mov": -13.48
         }
       }
     },
@@ -41518,6 +44439,26 @@
           "points_against": 95,
           "point_diff": 54,
           "mov": 2.84
+        },
+        "2025": {
+          "ovr_rank": 252,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": -17.08,
+          "off_rating": -6.77,
+          "off_rank": 251,
+          "def_rating": -10.31,
+          "def_rank": 246,
+          "wins": 0,
+          "losses": 16,
+          "win_pct": 0.0,
+          "games_played": 16,
+          "ppg": 1.44,
+          "papg": 14.75,
+          "points_for": 23,
+          "points_against": 236,
+          "point_diff": -213,
+          "mov": -13.31
         }
       }
     },
@@ -41908,6 +44849,26 @@
           "points_against": 84,
           "point_diff": 206,
           "mov": 5.57
+        },
+        "2025": {
+          "ovr_rank": 12,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": 10.4,
+          "off_rating": 5.53,
+          "off_rank": 4,
+          "def_rating": 4.88,
+          "def_rank": 30,
+          "wins": 26,
+          "losses": 10,
+          "win_pct": 72.22,
+          "games_played": 36,
+          "ppg": 8.64,
+          "papg": 4.03,
+          "points_for": 311,
+          "points_against": 145,
+          "point_diff": 166,
+          "mov": 4.61
         }
       }
     },
@@ -42523,6 +45484,26 @@
           "points_against": 163,
           "point_diff": -26,
           "mov": -1.24
+        },
+        "2025": {
+          "ovr_rank": 149,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -1.56,
+          "off_rating": -2.17,
+          "off_rank": 185,
+          "def_rating": 0.6,
+          "def_rank": 124,
+          "wins": 14,
+          "losses": 8,
+          "win_pct": 63.64,
+          "games_played": 22,
+          "ppg": 8.5,
+          "papg": 3.36,
+          "points_for": 187,
+          "points_against": 74,
+          "point_diff": 113,
+          "mov": 5.14
         }
       }
     },
@@ -43033,6 +46014,26 @@
           "points_against": 138,
           "point_diff": 99,
           "mov": 4.71
+        },
+        "2025": {
+          "ovr_rank": 193,
+          "classification": 2,
+          "district": 4,
+          "ovr_rating": -4.81,
+          "off_rating": -2.82,
+          "off_rank": 204,
+          "def_rating": -1.99,
+          "def_rank": 176,
+          "wins": 12,
+          "losses": 11,
+          "win_pct": 52.17,
+          "games_played": 23,
+          "ppg": 8.3,
+          "papg": 6.22,
+          "points_for": 191,
+          "points_against": 143,
+          "point_diff": 48,
+          "mov": 2.09
         }
       }
     },
@@ -43298,6 +46299,26 @@
           "points_against": 255,
           "point_diff": -46,
           "mov": -1.84
+        },
+        "2025": {
+          "ovr_rank": 206,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": -8.06,
+          "off_rating": -2.36,
+          "off_rank": 190,
+          "def_rating": -5.69,
+          "def_rank": 217,
+          "wins": 10,
+          "losses": 11,
+          "win_pct": 47.62,
+          "games_played": 21,
+          "ppg": 8.57,
+          "papg": 7.81,
+          "points_for": 180,
+          "points_against": 164,
+          "point_diff": 16,
+          "mov": 0.76
         }
       }
     },
@@ -43563,6 +46584,26 @@
           "points_against": 127,
           "point_diff": 42,
           "mov": 1.56
+        },
+        "2025": {
+          "ovr_rank": 101,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": 2.31,
+          "off_rating": 1.82,
+          "off_rank": 67,
+          "def_rating": 0.5,
+          "def_rank": 130,
+          "wins": 17,
+          "losses": 16,
+          "win_pct": 51.52,
+          "games_played": 33,
+          "ppg": 7.64,
+          "papg": 7.03,
+          "points_for": 252,
+          "points_against": 232,
+          "point_diff": 20,
+          "mov": 0.61
         }
       }
     },
@@ -43828,6 +46869,26 @@
           "points_against": 215,
           "point_diff": -98,
           "mov": -3.63
+        },
+        "2025": {
+          "ovr_rank": 122,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 1.01,
+          "off_rating": 0.47,
+          "off_rank": 107,
+          "def_rating": 0.55,
+          "def_rank": 128,
+          "wins": 16,
+          "losses": 13,
+          "win_pct": 55.17,
+          "games_played": 29,
+          "ppg": 6.9,
+          "papg": 6.17,
+          "points_for": 200,
+          "points_against": 179,
+          "point_diff": 21,
+          "mov": 0.72
         }
       }
     },
@@ -44278,6 +47339,26 @@
           "points_against": 156,
           "point_diff": 61,
           "mov": 2.18
+        },
+        "2025": {
+          "ovr_rank": 155,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": -2.21,
+          "off_rating": -1.01,
+          "off_rank": 148,
+          "def_rating": -1.21,
+          "def_rank": 162,
+          "wins": 12,
+          "losses": 14,
+          "win_pct": 46.15,
+          "games_played": 26,
+          "ppg": 6.42,
+          "papg": 7.5,
+          "points_for": 167,
+          "points_against": 195,
+          "point_diff": -28,
+          "mov": -1.08
         }
       }
     },
@@ -44543,6 +47624,26 @@
           "points_against": 135,
           "point_diff": 31,
           "mov": 1.19
+        },
+        "2025": {
+          "ovr_rank": 162,
+          "classification": 2,
+          "district": 4,
+          "ovr_rating": -2.59,
+          "off_rating": -2.38,
+          "off_rank": 193,
+          "def_rating": -0.2,
+          "def_rank": 141,
+          "wins": 12,
+          "losses": 12,
+          "win_pct": 50.0,
+          "games_played": 24,
+          "ppg": 5.04,
+          "papg": 5.46,
+          "points_for": 121,
+          "points_against": 131,
+          "point_diff": -10,
+          "mov": -0.42
         }
       }
     },
@@ -44808,6 +47909,26 @@
           "points_against": 184,
           "point_diff": -53,
           "mov": -2.3
+        },
+        "2025": {
+          "ovr_rank": 63,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": 4.57,
+          "off_rating": 1.77,
+          "off_rank": 69,
+          "def_rating": 2.79,
+          "def_rank": 72,
+          "wins": 16,
+          "losses": 11,
+          "win_pct": 59.26,
+          "games_played": 27,
+          "ppg": 7.04,
+          "papg": 5.07,
+          "points_for": 190,
+          "points_against": 137,
+          "point_diff": 53,
+          "mov": 1.96
         }
       }
     },
@@ -45183,6 +48304,26 @@
           "points_against": 97,
           "point_diff": 144,
           "mov": 4.65
+        },
+        "2025": {
+          "ovr_rank": 55,
+          "classification": 3,
+          "district": 4,
+          "ovr_rating": 5.15,
+          "off_rating": 2.44,
+          "off_rank": 48,
+          "def_rating": 2.71,
+          "def_rank": 74,
+          "wins": 24,
+          "losses": 14,
+          "win_pct": 63.16,
+          "games_played": 38,
+          "ppg": 7.26,
+          "papg": 5.37,
+          "points_for": 276,
+          "points_against": 204,
+          "point_diff": 72,
+          "mov": 1.89
         }
       }
     },
@@ -45448,6 +48589,26 @@
           "points_against": 144,
           "point_diff": 75,
           "mov": 2.59
+        },
+        "2025": {
+          "ovr_rank": 113,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": 1.9,
+          "off_rating": 0.61,
+          "off_rank": 102,
+          "def_rating": 1.29,
+          "def_rank": 107,
+          "wins": 14,
+          "losses": 15,
+          "win_pct": 48.28,
+          "games_played": 29,
+          "ppg": 7.34,
+          "papg": 5.03,
+          "points_for": 213,
+          "points_against": 146,
+          "point_diff": 67,
+          "mov": 2.31
         }
       }
     },
@@ -45693,6 +48854,26 @@
           "points_against": 120,
           "point_diff": 75,
           "mov": 2.78
+        },
+        "2025": {
+          "ovr_rank": 132,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": -0.18,
+          "off_rating": -1.58,
+          "off_rank": 173,
+          "def_rating": 1.4,
+          "def_rank": 102,
+          "wins": 17,
+          "losses": 6,
+          "win_pct": 73.91,
+          "games_played": 23,
+          "ppg": 8.65,
+          "papg": 3.96,
+          "points_for": 199,
+          "points_against": 91,
+          "point_diff": 108,
+          "mov": 4.7
         }
       }
     },
@@ -45958,6 +49139,26 @@
           "points_against": 204,
           "point_diff": -45,
           "mov": -1.45
+        },
+        "2025": {
+          "ovr_rank": 139,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -0.84,
+          "off_rating": -1.24,
+          "off_rank": 157,
+          "def_rating": 0.4,
+          "def_rank": 132,
+          "wins": 15,
+          "losses": 17,
+          "win_pct": 46.88,
+          "games_played": 32,
+          "ppg": 5.56,
+          "papg": 5.69,
+          "points_for": 178,
+          "points_against": 182,
+          "point_diff": -4,
+          "mov": -0.13
         }
       }
     },
@@ -46223,6 +49424,26 @@
           "points_against": 297,
           "point_diff": -215,
           "mov": -7.68
+        },
+        "2025": {
+          "ovr_rank": 188,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": -4.57,
+          "off_rating": -2.01,
+          "off_rank": 181,
+          "def_rating": -2.56,
+          "def_rank": 186,
+          "wins": 6,
+          "losses": 21,
+          "win_pct": 22.22,
+          "games_played": 27,
+          "ppg": 4.22,
+          "papg": 9.26,
+          "points_for": 114,
+          "points_against": 250,
+          "point_diff": -136,
+          "mov": -5.04
         }
       }
     },
@@ -46533,6 +49754,26 @@
           "points_against": 142,
           "point_diff": 164,
           "mov": 4.32
+        },
+        "2025": {
+          "ovr_rank": 29,
+          "classification": 4,
+          "district": 2,
+          "ovr_rating": 7.87,
+          "off_rating": 2.82,
+          "off_rank": 33,
+          "def_rating": 5.05,
+          "def_rank": 28,
+          "wins": 23,
+          "losses": 8,
+          "win_pct": 74.19,
+          "games_played": 31,
+          "ppg": 8,
+          "papg": 2.84,
+          "points_for": 248,
+          "points_against": 88,
+          "point_diff": 160,
+          "mov": 5.16
         }
       }
     },
@@ -46798,6 +50039,26 @@
           "points_against": 122,
           "point_diff": 130,
           "mov": 3.82
+        },
+        "2025": {
+          "ovr_rank": 46,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": 5.96,
+          "off_rating": 2.46,
+          "off_rank": 47,
+          "def_rating": 3.51,
+          "def_rank": 46,
+          "wins": 22,
+          "losses": 9,
+          "win_pct": 70.97,
+          "games_played": 31,
+          "ppg": 8.03,
+          "papg": 4.52,
+          "points_for": 249,
+          "points_against": 140,
+          "point_diff": 109,
+          "mov": 3.52
         }
       }
     },
@@ -47063,6 +50324,26 @@
           "points_against": 88,
           "point_diff": 60,
           "mov": 2.5
+        },
+        "2025": {
+          "ovr_rank": 148,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -1.51,
+          "off_rating": -1.51,
+          "off_rank": 170,
+          "def_rating": -0.0,
+          "def_rank": 139,
+          "wins": 10,
+          "losses": 11,
+          "win_pct": 47.62,
+          "games_played": 21,
+          "ppg": 4.95,
+          "papg": 6,
+          "points_for": 104,
+          "points_against": 126,
+          "point_diff": -22,
+          "mov": -1.05
         }
       }
     },
@@ -47328,6 +50609,26 @@
           "points_against": 124,
           "point_diff": 65,
           "mov": 2.6
+        },
+        "2025": {
+          "ovr_rank": 74,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": 3.93,
+          "off_rating": 0.83,
+          "off_rank": 98,
+          "def_rating": 3.1,
+          "def_rank": 61,
+          "wins": 21,
+          "losses": 6,
+          "win_pct": 77.78,
+          "games_played": 27,
+          "ppg": 7.37,
+          "papg": 3.56,
+          "points_for": 199,
+          "points_against": 96,
+          "point_diff": 103,
+          "mov": 3.81
         }
       }
     },
@@ -47593,6 +50894,26 @@
           "points_against": 248,
           "point_diff": -62,
           "mov": -2.07
+        },
+        "2025": {
+          "ovr_rank": 115,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": 1.72,
+          "off_rating": -0.5,
+          "off_rank": 136,
+          "def_rating": 2.21,
+          "def_rank": 86,
+          "wins": 20,
+          "losses": 12,
+          "win_pct": 62.5,
+          "games_played": 32,
+          "ppg": 5.91,
+          "papg": 4.41,
+          "points_for": 189,
+          "points_against": 141,
+          "point_diff": 48,
+          "mov": 1.5
         }
       }
     },
@@ -47858,6 +51179,26 @@
           "points_against": 243,
           "point_diff": 16,
           "mov": 0.5
+        },
+        "2025": {
+          "ovr_rank": 211,
+          "classification": 2,
+          "district": 5,
+          "ovr_rating": -8.6,
+          "off_rating": -3.51,
+          "off_rank": 213,
+          "def_rating": -5.08,
+          "def_rank": 210,
+          "wins": 2,
+          "losses": 24,
+          "win_pct": 7.69,
+          "games_played": 26,
+          "ppg": 3.27,
+          "papg": 11.19,
+          "points_for": 85,
+          "points_against": 291,
+          "point_diff": -206,
+          "mov": -7.92
         }
       }
     },
@@ -48533,6 +51874,26 @@
           "points_against": 303,
           "point_diff": -221,
           "mov": -8.5
+        },
+        "2025": {
+          "ovr_rank": 186,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": -4.47,
+          "off_rating": -2.17,
+          "off_rank": 186,
+          "def_rating": -2.3,
+          "def_rank": 181,
+          "wins": 6,
+          "losses": 26,
+          "win_pct": 18.75,
+          "games_played": 32,
+          "ppg": 4.06,
+          "papg": 9.91,
+          "points_for": 130,
+          "points_against": 317,
+          "point_diff": -187,
+          "mov": -5.84
         }
       }
     },
@@ -48923,6 +52284,26 @@
           "points_against": 111,
           "point_diff": 87,
           "mov": 3.63
+        },
+        "2025": {
+          "ovr_rank": 111,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": 1.99,
+          "off_rating": 0.65,
+          "off_rank": 101,
+          "def_rating": 1.34,
+          "def_rank": 106,
+          "wins": 13,
+          "losses": 11,
+          "win_pct": 54.17,
+          "games_played": 24,
+          "ppg": 6.46,
+          "papg": 5.42,
+          "points_for": 155,
+          "points_against": 130,
+          "point_diff": 25,
+          "mov": 1.04
         }
       }
     },
@@ -49188,6 +52569,26 @@
           "points_against": 101,
           "point_diff": 130,
           "mov": 4.48
+        },
+        "2025": {
+          "ovr_rank": 48,
+          "classification": 2,
+          "district": 4,
+          "ovr_rating": 5.87,
+          "off_rating": 2.41,
+          "off_rank": 49,
+          "def_rating": 3.46,
+          "def_rank": 49,
+          "wins": 22,
+          "losses": 10,
+          "win_pct": 68.75,
+          "games_played": 32,
+          "ppg": 8.72,
+          "papg": 3.63,
+          "points_for": 279,
+          "points_against": 116,
+          "point_diff": 163,
+          "mov": 5.09
         }
       }
     },
@@ -49498,6 +52899,26 @@
           "points_against": 135,
           "point_diff": 30,
           "mov": 1.43
+        },
+        "2025": {
+          "ovr_rank": 168,
+          "classification": 1,
+          "district": 8,
+          "ovr_rating": -3.06,
+          "off_rating": -2.08,
+          "off_rank": 183,
+          "def_rating": -0.98,
+          "def_rank": 160,
+          "wins": 12,
+          "losses": 6,
+          "win_pct": 66.67,
+          "games_played": 18,
+          "ppg": 7.22,
+          "papg": 5.83,
+          "points_for": 130,
+          "points_against": 105,
+          "point_diff": 25,
+          "mov": 1.39
         }
       }
     },
@@ -49763,6 +53184,26 @@
           "points_against": 146,
           "point_diff": 36,
           "mov": 1.24
+        },
+        "2025": {
+          "ovr_rank": 86,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": 2.94,
+          "off_rating": 0.56,
+          "off_rank": 104,
+          "def_rating": 2.38,
+          "def_rank": 84,
+          "wins": 16,
+          "losses": 13,
+          "win_pct": 55.17,
+          "games_played": 29,
+          "ppg": 5.59,
+          "papg": 4.66,
+          "points_for": 162,
+          "points_against": 135,
+          "point_diff": 27,
+          "mov": 0.93
         }
       }
     },
@@ -50253,6 +53694,26 @@
           "points_against": 109,
           "point_diff": 7,
           "mov": 0.35
+        },
+        "2025": {
+          "ovr_rank": 220,
+          "classification": 1,
+          "district": 6,
+          "ovr_rating": -9.56,
+          "off_rating": -3.95,
+          "off_rank": 219,
+          "def_rating": -5.61,
+          "def_rank": 216,
+          "wins": 6,
+          "losses": 12,
+          "win_pct": 33.33,
+          "games_played": 18,
+          "ppg": 6.5,
+          "papg": 8.94,
+          "points_for": 117,
+          "points_against": 161,
+          "point_diff": -44,
+          "mov": -2.44
         }
       }
     },
@@ -50518,6 +53979,26 @@
           "points_against": 237,
           "point_diff": -174,
           "mov": -8.29
+        },
+        "2025": {
+          "ovr_rank": 234,
+          "classification": 3,
+          "district": 1,
+          "ovr_rating": -12.02,
+          "off_rating": -4.93,
+          "off_rank": 233,
+          "def_rating": -7.09,
+          "def_rank": 233,
+          "wins": 3,
+          "losses": 15,
+          "win_pct": 16.67,
+          "games_played": 18,
+          "ppg": 3.67,
+          "papg": 10.83,
+          "points_for": 66,
+          "points_against": 195,
+          "point_diff": -129,
+          "mov": -7.17
         }
       }
     },
@@ -50783,6 +54264,26 @@
           "points_against": 336,
           "point_diff": -156,
           "mov": -6.24
+        },
+        "2025": {
+          "ovr_rank": 245,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": -15.4,
+          "off_rating": -2.86,
+          "off_rank": 206,
+          "def_rating": -12.54,
+          "def_rank": 255,
+          "wins": 2,
+          "losses": 21,
+          "win_pct": 8.7,
+          "games_played": 23,
+          "ppg": 5.57,
+          "papg": 16.04,
+          "points_for": 128,
+          "points_against": 369,
+          "point_diff": -241,
+          "mov": -10.48
         }
       }
     },
@@ -51233,6 +54734,26 @@
           "points_against": 151,
           "point_diff": 1,
           "mov": 0.04
+        },
+        "2025": {
+          "ovr_rank": 154,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -2.16,
+          "off_rating": -1.36,
+          "off_rank": 162,
+          "def_rating": -0.8,
+          "def_rank": 155,
+          "wins": 13,
+          "losses": 16,
+          "win_pct": 44.83,
+          "games_played": 29,
+          "ppg": 5.86,
+          "papg": 6.45,
+          "points_for": 170,
+          "points_against": 187,
+          "point_diff": -17,
+          "mov": -0.59
         }
       }
     },
@@ -51763,6 +55284,26 @@
           "points_against": 65,
           "point_diff": 208,
           "mov": 7.17
+        },
+        "2025": {
+          "ovr_rank": 195,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -5.22,
+          "off_rating": -1.23,
+          "off_rank": 156,
+          "def_rating": -3.99,
+          "def_rank": 202,
+          "wins": 5,
+          "losses": 23,
+          "win_pct": 17.86,
+          "games_played": 28,
+          "ppg": 5.21,
+          "papg": 9.93,
+          "points_for": 146,
+          "points_against": 278,
+          "point_diff": -132,
+          "mov": -4.71
         }
       }
     },
@@ -52213,6 +55754,26 @@
           "points_against": 122,
           "point_diff": 134,
           "mov": 4.32
+        },
+        "2025": {
+          "ovr_rank": 66,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": 4.48,
+          "off_rating": 1.03,
+          "off_rank": 90,
+          "def_rating": 3.45,
+          "def_rank": 50,
+          "wins": 24,
+          "losses": 8,
+          "win_pct": 75.0,
+          "games_played": 32,
+          "ppg": 8.41,
+          "papg": 2.91,
+          "points_for": 269,
+          "points_against": 93,
+          "point_diff": 176,
+          "mov": 5.5
         }
       }
     },
@@ -52478,6 +56039,26 @@
           "points_against": 64,
           "point_diff": 104,
           "mov": 4.16
+        },
+        "2025": {
+          "ovr_rank": 171,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": -3.34,
+          "off_rating": -1.61,
+          "off_rank": 174,
+          "def_rating": -1.74,
+          "def_rank": 170,
+          "wins": 10,
+          "losses": 14,
+          "win_pct": 41.67,
+          "games_played": 24,
+          "ppg": 6.58,
+          "papg": 6.92,
+          "points_for": 158,
+          "points_against": 166,
+          "point_diff": -8,
+          "mov": -0.33
         }
       }
     },
@@ -52743,6 +56324,26 @@
           "points_against": 304,
           "point_diff": -174,
           "mov": -6.21
+        },
+        "2025": {
+          "ovr_rank": 192,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": -4.8,
+          "off_rating": -0.8,
+          "off_rank": 143,
+          "def_rating": -3.99,
+          "def_rank": 203,
+          "wins": 7,
+          "losses": 19,
+          "win_pct": 26.92,
+          "games_played": 26,
+          "ppg": 6.35,
+          "papg": 10.08,
+          "points_for": 165,
+          "points_against": 262,
+          "point_diff": -97,
+          "mov": -3.73
         }
       }
     },
@@ -53053,6 +56654,26 @@
           "points_against": 201,
           "point_diff": -10,
           "mov": -0.37
+        },
+        "2025": {
+          "ovr_rank": 182,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": -3.99,
+          "off_rating": -1.33,
+          "off_rank": 160,
+          "def_rating": -2.65,
+          "def_rank": 187,
+          "wins": 10,
+          "losses": 15,
+          "win_pct": 40.0,
+          "games_played": 25,
+          "ppg": 7.6,
+          "papg": 7.28,
+          "points_for": 190,
+          "points_against": 182,
+          "point_diff": 8,
+          "mov": 0.32
         }
       }
     },
@@ -53318,6 +56939,26 @@
           "points_against": 77,
           "point_diff": 69,
           "mov": 3.45
+        },
+        "2025": {
+          "ovr_rank": 107,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": 2.11,
+          "off_rating": -0.41,
+          "off_rank": 133,
+          "def_rating": 2.52,
+          "def_rank": 80,
+          "wins": 16,
+          "losses": 8,
+          "win_pct": 66.67,
+          "games_played": 24,
+          "ppg": 7,
+          "papg": 3.79,
+          "points_for": 168,
+          "points_against": 91,
+          "point_diff": 77,
+          "mov": 3.21
         }
       }
     },
@@ -53583,6 +57224,26 @@
           "points_against": 156,
           "point_diff": 45,
           "mov": 1.61
+        },
+        "2025": {
+          "ovr_rank": 242,
+          "classification": 2,
+          "district": 6,
+          "ovr_rating": -15.32,
+          "off_rating": -7.81,
+          "off_rank": 257,
+          "def_rating": -7.51,
+          "def_rank": 235,
+          "wins": 2,
+          "losses": 23,
+          "win_pct": 8.0,
+          "games_played": 25,
+          "ppg": 3.56,
+          "papg": 12.16,
+          "points_for": 89,
+          "points_against": 304,
+          "point_diff": -215,
+          "mov": -8.6
         }
       }
     },
@@ -53893,6 +57554,26 @@
           "points_against": 80,
           "point_diff": 136,
           "mov": 5.91
+        },
+        "2025": {
+          "ovr_rank": 117,
+          "classification": 3,
+          "district": 1,
+          "ovr_rating": 1.58,
+          "off_rating": 2.18,
+          "off_rank": 53,
+          "def_rating": -0.6,
+          "def_rank": 148,
+          "wins": 18,
+          "losses": 6,
+          "win_pct": 75.0,
+          "games_played": 24,
+          "ppg": 10.63,
+          "papg": 5.13,
+          "points_for": 255,
+          "points_against": 123,
+          "point_diff": 132,
+          "mov": 5.5
         }
       }
     },
@@ -54158,6 +57839,26 @@
           "points_against": 261,
           "point_diff": -124,
           "mov": -4.28
+        },
+        "2025": {
+          "ovr_rank": 179,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": -3.7,
+          "off_rating": -2.43,
+          "off_rank": 194,
+          "def_rating": -1.27,
+          "def_rank": 166,
+          "wins": 10,
+          "losses": 18,
+          "win_pct": 35.71,
+          "games_played": 28,
+          "ppg": 4.96,
+          "papg": 7.5,
+          "points_for": 139,
+          "points_against": 210,
+          "point_diff": -71,
+          "mov": -2.54
         }
       }
     },
@@ -54548,6 +58249,26 @@
           "points_against": 348,
           "point_diff": -288,
           "mov": -12.52
+        },
+        "2025": {
+          "ovr_rank": 240,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": -14.69,
+          "off_rating": -5.9,
+          "off_rank": 245,
+          "def_rating": -8.79,
+          "def_rank": 240,
+          "wins": 1,
+          "losses": 21,
+          "win_pct": 4.55,
+          "games_played": 22,
+          "ppg": 2.77,
+          "papg": 13.5,
+          "points_for": 61,
+          "points_against": 297,
+          "point_diff": -236,
+          "mov": -10.73
         }
       }
     },
@@ -54813,6 +58534,26 @@
           "points_against": 76,
           "point_diff": 76,
           "mov": 2.53
+        },
+        "2025": {
+          "ovr_rank": 151,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": -1.61,
+          "off_rating": 0.25,
+          "off_rank": 115,
+          "def_rating": -1.86,
+          "def_rank": 173,
+          "wins": 8,
+          "losses": 18,
+          "win_pct": 30.77,
+          "games_played": 26,
+          "ppg": 5.27,
+          "papg": 9.35,
+          "points_for": 137,
+          "points_against": 243,
+          "point_diff": -106,
+          "mov": -4.08
         }
       }
     },
@@ -55078,6 +58819,26 @@
           "points_against": 154,
           "point_diff": 74,
           "mov": 2.24
+        },
+        "2025": {
+          "ovr_rank": 121,
+          "classification": 1,
+          "district": 8,
+          "ovr_rating": 1.16,
+          "off_rating": -0.22,
+          "off_rank": 127,
+          "def_rating": 1.38,
+          "def_rank": 103,
+          "wins": 27,
+          "losses": 9,
+          "win_pct": 75.0,
+          "games_played": 36,
+          "ppg": 8.97,
+          "papg": 2.75,
+          "points_for": 323,
+          "points_against": 99,
+          "point_diff": 224,
+          "mov": 6.22
         }
       }
     },
@@ -55343,6 +59104,26 @@
           "points_against": 123,
           "point_diff": 130,
           "mov": 3.94
+        },
+        "2025": {
+          "ovr_rank": 104,
+          "classification": 1,
+          "district": 8,
+          "ovr_rating": 2.19,
+          "off_rating": -0.41,
+          "off_rank": 132,
+          "def_rating": 2.6,
+          "def_rank": 77,
+          "wins": 27,
+          "losses": 8,
+          "win_pct": 77.14,
+          "games_played": 35,
+          "ppg": 8.26,
+          "papg": 2.6,
+          "points_for": 289,
+          "points_against": 91,
+          "point_diff": 198,
+          "mov": 5.66
         }
       }
     },
@@ -55608,6 +59389,26 @@
           "points_against": 114,
           "point_diff": 55,
           "mov": 1.67
+        },
+        "2025": {
+          "ovr_rank": 112,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": 1.92,
+          "off_rating": -0.26,
+          "off_rank": 129,
+          "def_rating": 2.19,
+          "def_rank": 88,
+          "wins": 18,
+          "losses": 12,
+          "win_pct": 60.0,
+          "games_played": 30,
+          "ppg": 6.27,
+          "papg": 3.57,
+          "points_for": 188,
+          "points_against": 107,
+          "point_diff": 81,
+          "mov": 2.7
         }
       }
     },
@@ -55873,6 +59674,26 @@
           "points_against": 193,
           "point_diff": -123,
           "mov": -7.24
+        },
+        "2025": {
+          "ovr_rank": 218,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": -9.37,
+          "off_rating": -3.9,
+          "off_rank": 218,
+          "def_rating": -5.48,
+          "def_rank": 215,
+          "wins": 3,
+          "losses": 17,
+          "win_pct": 15.0,
+          "games_played": 20,
+          "ppg": 5.1,
+          "papg": 15.9,
+          "points_for": 102,
+          "points_against": 318,
+          "point_diff": -216,
+          "mov": -10.8
         }
       }
     },
@@ -56223,6 +60044,26 @@
           "points_against": 68,
           "point_diff": 199,
           "mov": 6.03
+        },
+        "2025": {
+          "ovr_rank": 31,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": 7.63,
+          "off_rating": 3.23,
+          "off_rank": 27,
+          "def_rating": 4.39,
+          "def_rank": 35,
+          "wins": 25,
+          "losses": 4,
+          "win_pct": 86.21,
+          "games_played": 29,
+          "ppg": 9.55,
+          "papg": 2.34,
+          "points_for": 277,
+          "points_against": 68,
+          "point_diff": 209,
+          "mov": 7.21
         }
       }
     },
@@ -57193,6 +61034,26 @@
           "points_against": 221,
           "point_diff": -180,
           "mov": -15
+        },
+        "2025": {
+          "ovr_rank": 244,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -15.34,
+          "off_rating": -4.8,
+          "off_rank": 230,
+          "def_rating": -10.54,
+          "def_rank": 248,
+          "wins": 5,
+          "losses": 11,
+          "win_pct": 31.25,
+          "games_played": 16,
+          "ppg": 8.38,
+          "papg": 13.5,
+          "points_for": 134,
+          "points_against": 216,
+          "point_diff": -82,
+          "mov": -5.13
         }
       }
     },
@@ -57458,6 +61319,26 @@
           "points_against": 217,
           "point_diff": -145,
           "mov": -7.63
+        },
+        "2025": {
+          "ovr_rank": 268,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": -27.29,
+          "off_rating": -9.78,
+          "off_rank": 267,
+          "def_rating": -17.5,
+          "def_rank": 265,
+          "wins": 1,
+          "losses": 20,
+          "win_pct": 4.76,
+          "games_played": 21,
+          "ppg": 2.67,
+          "papg": 18.57,
+          "points_for": 56,
+          "points_against": 390,
+          "point_diff": -334,
+          "mov": -15.9
         }
       }
     },
@@ -57723,6 +61604,26 @@
           "points_against": 330,
           "point_diff": -192,
           "mov": -6.86
+        },
+        "2025": {
+          "ovr_rank": 197,
+          "classification": 3,
+          "district": 6,
+          "ovr_rating": -5.56,
+          "off_rating": -3.04,
+          "off_rank": 209,
+          "def_rating": -2.52,
+          "def_rank": 184,
+          "wins": 8,
+          "losses": 20,
+          "win_pct": 28.57,
+          "games_played": 28,
+          "ppg": 3.93,
+          "papg": 8.07,
+          "points_for": 110,
+          "points_against": 226,
+          "point_diff": -116,
+          "mov": -4.14
         }
       }
     },
@@ -58013,6 +61914,26 @@
           "points_against": 299,
           "point_diff": -208,
           "mov": -7.7
+        },
+        "2025": {
+          "ovr_rank": 205,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": -7.79,
+          "off_rating": -3.12,
+          "off_rank": 210,
+          "def_rating": -4.67,
+          "def_rank": 207,
+          "wins": 7,
+          "losses": 21,
+          "win_pct": 25.0,
+          "games_played": 28,
+          "ppg": 4.43,
+          "papg": 11,
+          "points_for": 124,
+          "points_against": 308,
+          "point_diff": -184,
+          "mov": -6.57
         }
       }
     },
@@ -58858,6 +62779,26 @@
           "points_against": 217,
           "point_diff": -22,
           "mov": -0.88
+        },
+        "2025": {
+          "ovr_rank": 241,
+          "classification": 1,
+          "district": 6,
+          "ovr_rating": -14.69,
+          "off_rating": -8.25,
+          "off_rank": 260,
+          "def_rating": -6.44,
+          "def_rank": 226,
+          "wins": 10,
+          "losses": 14,
+          "win_pct": 41.67,
+          "games_played": 24,
+          "ppg": 7.21,
+          "papg": 8.79,
+          "points_for": 173,
+          "points_against": 211,
+          "point_diff": -38,
+          "mov": -1.58
         }
       }
     },
@@ -59123,6 +63064,26 @@
           "points_against": 218,
           "point_diff": -84,
           "mov": -3.23
+        },
+        "2025": {
+          "ovr_rank": 202,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": -6.51,
+          "off_rating": -2.75,
+          "off_rank": 202,
+          "def_rating": -3.76,
+          "def_rank": 200,
+          "wins": 4,
+          "losses": 22,
+          "win_pct": 15.38,
+          "games_played": 26,
+          "ppg": 4.62,
+          "papg": 9.54,
+          "points_for": 120,
+          "points_against": 248,
+          "point_diff": -128,
+          "mov": -4.92
         }
       }
     },
@@ -59388,6 +63349,26 @@
           "points_against": 158,
           "point_diff": -26,
           "mov": -1.24
+        },
+        "2025": {
+          "ovr_rank": 174,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": -3.44,
+          "off_rating": -1.38,
+          "off_rank": 164,
+          "def_rating": -2.06,
+          "def_rank": 178,
+          "wins": 11,
+          "losses": 19,
+          "win_pct": 36.67,
+          "games_played": 30,
+          "ppg": 6.17,
+          "papg": 8.37,
+          "points_for": 185,
+          "points_against": 251,
+          "point_diff": -66,
+          "mov": -2.2
         }
       }
     },
@@ -59698,6 +63679,26 @@
           "points_against": 374,
           "point_diff": -343,
           "mov": -16.33
+        },
+        "2025": {
+          "ovr_rank": 226,
+          "classification": 3,
+          "district": 8,
+          "ovr_rating": -10.79,
+          "off_rating": -5.52,
+          "off_rank": 241,
+          "def_rating": -5.27,
+          "def_rank": 213,
+          "wins": 5,
+          "losses": 12,
+          "win_pct": 29.41,
+          "games_played": 17,
+          "ppg": 4.12,
+          "papg": 10.59,
+          "points_for": 70,
+          "points_against": 180,
+          "point_diff": -110,
+          "mov": -6.47
         }
       }
     },
@@ -59963,6 +63964,26 @@
           "points_against": 207,
           "point_diff": -133,
           "mov": -7
+        },
+        "2025": {
+          "ovr_rank": 198,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": -5.85,
+          "off_rating": -2.84,
+          "off_rank": 205,
+          "def_rating": -3.01,
+          "def_rank": 192,
+          "wins": 6,
+          "losses": 13,
+          "win_pct": 31.58,
+          "games_played": 19,
+          "ppg": 5.53,
+          "papg": 8.58,
+          "points_for": 105,
+          "points_against": 163,
+          "point_diff": -58,
+          "mov": -3.05
         }
       }
     },
@@ -60653,6 +64674,26 @@
           "points_against": 238,
           "point_diff": -106,
           "mov": -4.82
+        },
+        "2025": {
+          "ovr_rank": 216,
+          "classification": 1,
+          "district": 8,
+          "ovr_rating": -9.2,
+          "off_rating": -3.29,
+          "off_rank": 211,
+          "def_rating": -5.91,
+          "def_rank": 222,
+          "wins": 9,
+          "losses": 12,
+          "win_pct": 42.86,
+          "games_played": 21,
+          "ppg": 6.48,
+          "papg": 9.24,
+          "points_for": 136,
+          "points_against": 194,
+          "point_diff": -58,
+          "mov": -2.76
         }
       }
     },
@@ -60918,6 +64959,26 @@
           "points_against": 148,
           "point_diff": 45,
           "mov": 1.8
+        },
+        "2025": {
+          "ovr_rank": 156,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": -2.33,
+          "off_rating": -2.56,
+          "off_rank": 196,
+          "def_rating": 0.23,
+          "def_rank": 134,
+          "wins": 13,
+          "losses": 13,
+          "win_pct": 50.0,
+          "games_played": 26,
+          "ppg": 6.69,
+          "papg": 5.08,
+          "points_for": 174,
+          "points_against": 132,
+          "point_diff": 42,
+          "mov": 1.62
         }
       }
     },
@@ -61183,6 +65244,26 @@
           "points_against": 145,
           "point_diff": 174,
           "mov": 6
+        },
+        "2025": {
+          "ovr_rank": 172,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -3.35,
+          "off_rating": -1.09,
+          "off_rank": 152,
+          "def_rating": -2.26,
+          "def_rank": 180,
+          "wins": 16,
+          "losses": 14,
+          "win_pct": 53.33,
+          "games_played": 30,
+          "ppg": 9.1,
+          "papg": 6.17,
+          "points_for": 273,
+          "points_against": 185,
+          "point_diff": 88,
+          "mov": 2.93
         }
       }
     },
@@ -61448,6 +65529,26 @@
           "points_against": 193,
           "point_diff": -33,
           "mov": -1.38
+        },
+        "2025": {
+          "ovr_rank": 99,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": 2.35,
+          "off_rating": 1.11,
+          "off_rank": 86,
+          "def_rating": 1.24,
+          "def_rank": 109,
+          "wins": 24,
+          "losses": 9,
+          "win_pct": 72.73,
+          "games_played": 33,
+          "ppg": 7.85,
+          "papg": 4.82,
+          "points_for": 259,
+          "points_against": 159,
+          "point_diff": 100,
+          "mov": 3.03
         }
       }
     },
@@ -61938,6 +66039,26 @@
           "points_against": 127,
           "point_diff": 94,
           "mov": 3.76
+        },
+        "2025": {
+          "ovr_rank": 96,
+          "classification": 4,
+          "district": 3,
+          "ovr_rating": 2.44,
+          "off_rating": 1.09,
+          "off_rank": 87,
+          "def_rating": 1.35,
+          "def_rank": 105,
+          "wins": 15,
+          "losses": 12,
+          "win_pct": 55.56,
+          "games_played": 27,
+          "ppg": 6.93,
+          "papg": 6,
+          "points_for": 187,
+          "points_against": 162,
+          "point_diff": 25,
+          "mov": 0.93
         }
       }
     },
@@ -62203,6 +66324,26 @@
           "points_against": 153,
           "point_diff": 37,
           "mov": 1.68
+        },
+        "2025": {
+          "ovr_rank": 210,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": -8.53,
+          "off_rating": -4.22,
+          "off_rank": 223,
+          "def_rating": -4.31,
+          "def_rank": 206,
+          "wins": 5,
+          "losses": 18,
+          "win_pct": 21.74,
+          "games_played": 23,
+          "ppg": 4.61,
+          "papg": 9.43,
+          "points_for": 106,
+          "points_against": 217,
+          "point_diff": -111,
+          "mov": -4.83
         }
       }
     },
@@ -62578,6 +66719,26 @@
           "points_against": 252,
           "point_diff": -185,
           "mov": -10.88
+        },
+        "2025": {
+          "ovr_rank": 257,
+          "classification": 3,
+          "district": 1,
+          "ovr_rating": -20.49,
+          "off_rating": -8.11,
+          "off_rank": 258,
+          "def_rating": -12.38,
+          "def_rank": 254,
+          "wins": 3,
+          "losses": 16,
+          "win_pct": 15.79,
+          "games_played": 19,
+          "ppg": 4.21,
+          "papg": 14.74,
+          "points_for": 80,
+          "points_against": 280,
+          "point_diff": -200,
+          "mov": -10.53
         }
       }
     },
@@ -62843,6 +67004,26 @@
           "points_against": 126,
           "point_diff": 128,
           "mov": 4.13
+        },
+        "2025": {
+          "ovr_rank": 143,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -1.26,
+          "off_rating": -1.67,
+          "off_rank": 176,
+          "def_rating": 0.41,
+          "def_rank": 131,
+          "wins": 25,
+          "losses": 11,
+          "win_pct": 69.44,
+          "games_played": 36,
+          "ppg": 7.39,
+          "papg": 3.58,
+          "points_for": 266,
+          "points_against": 129,
+          "point_diff": 137,
+          "mov": 3.81
         }
       }
     },
@@ -63108,6 +67289,26 @@
           "points_against": 93,
           "point_diff": 91,
           "mov": 3.96
+        },
+        "2025": {
+          "ovr_rank": 109,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": 2.1,
+          "off_rating": -1.24,
+          "off_rank": 158,
+          "def_rating": 3.34,
+          "def_rank": 54,
+          "wins": 18,
+          "losses": 5,
+          "win_pct": 78.26,
+          "games_played": 23,
+          "ppg": 6.43,
+          "papg": 2.39,
+          "points_for": 148,
+          "points_against": 55,
+          "point_diff": 93,
+          "mov": 4.04
         }
       }
     },
@@ -63703,6 +67904,26 @@
           "points_against": 96,
           "point_diff": 54,
           "mov": 3.18
+        },
+        "2025": {
+          "ovr_rank": 233,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -11.55,
+          "off_rating": -3.89,
+          "off_rank": 217,
+          "def_rating": -7.66,
+          "def_rank": 236,
+          "wins": 6,
+          "losses": 10,
+          "win_pct": 37.5,
+          "games_played": 16,
+          "ppg": 8,
+          "papg": 9.06,
+          "points_for": 128,
+          "points_against": 145,
+          "point_diff": -17,
+          "mov": -1.06
         }
       }
     },
@@ -64318,6 +68539,26 @@
           "points_against": 300,
           "point_diff": -129,
           "mov": -5.16
+        },
+        "2025": {
+          "ovr_rank": 250,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -17.0,
+          "off_rating": -7.61,
+          "off_rank": 256,
+          "def_rating": -9.39,
+          "def_rank": 243,
+          "wins": 5,
+          "losses": 15,
+          "win_pct": 25.0,
+          "games_played": 20,
+          "ppg": 5.05,
+          "papg": 11.55,
+          "points_for": 101,
+          "points_against": 231,
+          "point_diff": -130,
+          "mov": -6.5
         }
       }
     },
@@ -64853,6 +69094,26 @@
           "points_against": 197,
           "point_diff": 72,
           "mov": 2.18
+        },
+        "2025": {
+          "ovr_rank": 158,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -2.44,
+          "off_rating": -0.62,
+          "off_rank": 138,
+          "def_rating": -1.82,
+          "def_rank": 172,
+          "wins": 12,
+          "losses": 22,
+          "win_pct": 35.29,
+          "games_played": 34,
+          "ppg": 6.03,
+          "papg": 7.26,
+          "points_for": 205,
+          "points_against": 247,
+          "point_diff": -42,
+          "mov": -1.24
         }
       }
     },
@@ -65118,6 +69379,26 @@
           "points_against": 213,
           "point_diff": -101,
           "mov": -5.32
+        },
+        "2025": {
+          "ovr_rank": 238,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": -13.93,
+          "off_rating": -5.03,
+          "off_rank": 235,
+          "def_rating": -8.91,
+          "def_rank": 241,
+          "wins": 4,
+          "losses": 16,
+          "win_pct": 20.0,
+          "games_played": 20,
+          "ppg": 4.65,
+          "papg": 13.6,
+          "points_for": 93,
+          "points_against": 272,
+          "point_diff": -179,
+          "mov": -8.95
         }
       }
     },
@@ -65363,6 +69644,26 @@
           "points_against": 247,
           "point_diff": -177,
           "mov": -13.62
+        },
+        "2025": {
+          "ovr_rank": 269,
+          "classification": 2,
+          "district": 1,
+          "ovr_rating": -28.75,
+          "off_rating": -11.89,
+          "off_rank": 269,
+          "def_rating": -16.86,
+          "def_rank": 264,
+          "wins": 2,
+          "losses": 11,
+          "win_pct": 15.38,
+          "games_played": 13,
+          "ppg": 5.77,
+          "papg": 14.77,
+          "points_for": 75,
+          "points_against": 192,
+          "point_diff": -117,
+          "mov": -9
         }
       }
     },
@@ -65628,6 +69929,26 @@
           "points_against": 158,
           "point_diff": 19,
           "mov": 0.83
+        },
+        "2025": {
+          "ovr_rank": 217,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -9.32,
+          "off_rating": -5.05,
+          "off_rank": 236,
+          "def_rating": -4.27,
+          "def_rank": 205,
+          "wins": 10,
+          "losses": 10,
+          "win_pct": 50.0,
+          "games_played": 20,
+          "ppg": 7.4,
+          "papg": 7.25,
+          "points_for": 148,
+          "points_against": 145,
+          "point_diff": 3,
+          "mov": 0.15
         }
       }
     },
@@ -65893,6 +70214,26 @@
           "points_against": 108,
           "point_diff": 80,
           "mov": 3.33
+        },
+        "2025": {
+          "ovr_rank": 98,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": 2.42,
+          "off_rating": 1.44,
+          "off_rank": 81,
+          "def_rating": 0.98,
+          "def_rank": 115,
+          "wins": 19,
+          "losses": 6,
+          "win_pct": 76.0,
+          "games_played": 25,
+          "ppg": 10.16,
+          "papg": 2.76,
+          "points_for": 254,
+          "points_against": 69,
+          "point_diff": 185,
+          "mov": 7.4
         }
       }
     },
@@ -66158,6 +70499,26 @@
           "points_against": 84,
           "point_diff": 153,
           "mov": 5.28
+        },
+        "2025": {
+          "ovr_rank": 42,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": 6.37,
+          "off_rating": 2.56,
+          "off_rank": 42,
+          "def_rating": 3.81,
+          "def_rank": 42,
+          "wins": 22,
+          "losses": 9,
+          "win_pct": 70.97,
+          "games_played": 31,
+          "ppg": 7.48,
+          "papg": 3.19,
+          "points_for": 232,
+          "points_against": 99,
+          "point_diff": 133,
+          "mov": 4.29
         }
       }
     },
@@ -66448,6 +70809,26 @@
           "points_against": 74,
           "point_diff": 140,
           "mov": 8.24
+        },
+        "2025": {
+          "ovr_rank": 266,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": -26.58,
+          "off_rating": -8.76,
+          "off_rank": 263,
+          "def_rating": -17.82,
+          "def_rank": 266,
+          "wins": 12,
+          "losses": 4,
+          "win_pct": 75.0,
+          "games_played": 16,
+          "ppg": 13.69,
+          "papg": 9.44,
+          "points_for": 219,
+          "points_against": 151,
+          "point_diff": 68,
+          "mov": 4.25
         }
       }
     },
@@ -66798,6 +71179,26 @@
           "points_against": 182,
           "point_diff": -109,
           "mov": -5.74
+        },
+        "2025": {
+          "ovr_rank": 254,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": -17.65,
+          "off_rating": -6.96,
+          "off_rank": 253,
+          "def_rating": -10.7,
+          "def_rank": 249,
+          "wins": 1,
+          "losses": 12,
+          "win_pct": 7.69,
+          "games_played": 13,
+          "ppg": 2.31,
+          "papg": 15.92,
+          "points_for": 30,
+          "points_against": 207,
+          "point_diff": -177,
+          "mov": -13.62
         }
       }
     },
@@ -67063,6 +71464,26 @@
           "points_against": 126,
           "point_diff": 81,
           "mov": 3.86
+        },
+        "2025": {
+          "ovr_rank": 146,
+          "classification": 2,
+          "district": 7,
+          "ovr_rating": -1.46,
+          "off_rating": -1.13,
+          "off_rank": 154,
+          "def_rating": -0.33,
+          "def_rank": 143,
+          "wins": 10,
+          "losses": 10,
+          "win_pct": 50.0,
+          "games_played": 20,
+          "ppg": 6.85,
+          "papg": 5.4,
+          "points_for": 137,
+          "points_against": 108,
+          "point_diff": 29,
+          "mov": 1.45
         }
       }
     },
@@ -67328,6 +71749,26 @@
           "points_against": 192,
           "point_diff": -54,
           "mov": -2.7
+        },
+        "2025": {
+          "ovr_rank": 243,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -15.33,
+          "off_rating": -6.73,
+          "off_rank": 250,
+          "def_rating": -8.6,
+          "def_rank": 239,
+          "wins": 4,
+          "losses": 10,
+          "win_pct": 28.57,
+          "games_played": 14,
+          "ppg": 7.43,
+          "papg": 11.07,
+          "points_for": 104,
+          "points_against": 155,
+          "point_diff": -51,
+          "mov": -3.64
         }
       }
     },
@@ -67593,6 +72034,26 @@
           "points_against": 199,
           "point_diff": -68,
           "mov": -2.43
+        },
+        "2025": {
+          "ovr_rank": 129,
+          "classification": 3,
+          "district": 5,
+          "ovr_rating": 0.27,
+          "off_rating": -1.45,
+          "off_rank": 167,
+          "def_rating": 1.72,
+          "def_rank": 98,
+          "wins": 12,
+          "losses": 16,
+          "win_pct": 42.86,
+          "games_played": 28,
+          "ppg": 4.14,
+          "papg": 5.54,
+          "points_for": 116,
+          "points_against": 155,
+          "point_diff": -39,
+          "mov": -1.39
         }
       }
     },
@@ -68063,6 +72524,26 @@
           "points_against": 179,
           "point_diff": 73,
           "mov": 2.28
+        },
+        "2025": {
+          "ovr_rank": 65,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": 4.57,
+          "off_rating": 2.55,
+          "off_rank": 43,
+          "def_rating": 2.02,
+          "def_rank": 95,
+          "wins": 19,
+          "losses": 13,
+          "win_pct": 59.38,
+          "games_played": 32,
+          "ppg": 7.63,
+          "papg": 5.56,
+          "points_for": 244,
+          "points_against": 178,
+          "point_diff": 66,
+          "mov": 2.06
         }
       }
     },
@@ -68328,6 +72809,26 @@
           "points_against": 353,
           "point_diff": -301,
           "mov": -15.84
+        },
+        "2025": {
+          "ovr_rank": 262,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -23.16,
+          "off_rating": -9.76,
+          "off_rank": 266,
+          "def_rating": -13.4,
+          "def_rank": 259,
+          "wins": 1,
+          "losses": 16,
+          "win_pct": 5.88,
+          "games_played": 17,
+          "ppg": 4.06,
+          "papg": 13.29,
+          "points_for": 69,
+          "points_against": 226,
+          "point_diff": -157,
+          "mov": -9.24
         }
       }
     },
@@ -69188,6 +73689,26 @@
           "points_against": 360,
           "point_diff": -204,
           "mov": -8.16
+        },
+        "2025": {
+          "ovr_rank": 239,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": -14.59,
+          "off_rating": -1.11,
+          "off_rank": 153,
+          "def_rating": -13.47,
+          "def_rank": 260,
+          "wins": 5,
+          "losses": 18,
+          "win_pct": 21.74,
+          "games_played": 23,
+          "ppg": 7.43,
+          "papg": 17.26,
+          "points_for": 171,
+          "points_against": 397,
+          "point_diff": -226,
+          "mov": -9.83
         }
       }
     },
@@ -69783,6 +74304,26 @@
           "points_against": 266,
           "point_diff": -174,
           "mov": -7.57
+        },
+        "2025": {
+          "ovr_rank": 236,
+          "classification": 5,
+          "district": 7,
+          "ovr_rating": -13.1,
+          "off_rating": -5.06,
+          "off_rank": 237,
+          "def_rating": -8.03,
+          "def_rank": 237,
+          "wins": 6,
+          "losses": 19,
+          "win_pct": 24.0,
+          "games_played": 25,
+          "ppg": 4.84,
+          "papg": 12.52,
+          "points_for": 121,
+          "points_against": 313,
+          "point_diff": -192,
+          "mov": -7.68
         }
       }
     },
@@ -70273,6 +74814,26 @@
           "points_against": 80,
           "point_diff": 95,
           "mov": 3.52
+        },
+        "2025": {
+          "ovr_rank": 167,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -2.8,
+          "off_rating": -2.99,
+          "off_rank": 208,
+          "def_rating": 0.19,
+          "def_rank": 135,
+          "wins": 12,
+          "losses": 12,
+          "win_pct": 50.0,
+          "games_played": 24,
+          "ppg": 5.13,
+          "papg": 4.21,
+          "points_for": 123,
+          "points_against": 101,
+          "point_diff": 22,
+          "mov": 0.92
         }
       }
     },
@@ -70538,6 +75099,26 @@
           "points_against": 101,
           "point_diff": 55,
           "mov": 2.89
+        },
+        "2025": {
+          "ovr_rank": 201,
+          "classification": 5,
+          "district": 2,
+          "ovr_rating": -6.3,
+          "off_rating": -4.37,
+          "off_rank": 226,
+          "def_rating": -1.93,
+          "def_rank": 175,
+          "wins": 11,
+          "losses": 9,
+          "win_pct": 55.0,
+          "games_played": 20,
+          "ppg": 8.7,
+          "papg": 6,
+          "points_for": 174,
+          "points_against": 120,
+          "point_diff": 54,
+          "mov": 2.7
         }
       }
     },
@@ -71048,6 +75629,26 @@
           "points_against": 204,
           "point_diff": 12,
           "mov": 0.36
+        },
+        "2025": {
+          "ovr_rank": 49,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": 5.83,
+          "off_rating": 2.29,
+          "off_rank": 50,
+          "def_rating": 3.54,
+          "def_rank": 45,
+          "wins": 31,
+          "losses": 7,
+          "win_pct": 81.58,
+          "games_played": 38,
+          "ppg": 7.89,
+          "papg": 3.34,
+          "points_for": 300,
+          "points_against": 127,
+          "point_diff": 173,
+          "mov": 4.55
         }
       }
     },
@@ -71273,6 +75874,26 @@
           "points_against": 258,
           "point_diff": -117,
           "mov": -5.09
+        },
+        "2025": {
+          "ovr_rank": 263,
+          "classification": 1,
+          "district": 8,
+          "ovr_rating": -24.76,
+          "off_rating": -6.8,
+          "off_rank": 252,
+          "def_rating": -17.96,
+          "def_rank": 267,
+          "wins": 1,
+          "losses": 20,
+          "win_pct": 4.76,
+          "games_played": 21,
+          "ppg": 3.48,
+          "papg": 17.43,
+          "points_for": 73,
+          "points_against": 366,
+          "point_diff": -293,
+          "mov": -13.95
         }
       }
     },
@@ -71853,6 +76474,26 @@
           "points_against": 128,
           "point_diff": 16,
           "mov": 0.64
+        },
+        "2025": {
+          "ovr_rank": 173,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": -3.37,
+          "off_rating": 0.51,
+          "off_rank": 106,
+          "def_rating": -3.88,
+          "def_rank": 201,
+          "wins": 9,
+          "losses": 19,
+          "win_pct": 32.14,
+          "games_played": 28,
+          "ppg": 6.93,
+          "papg": 10,
+          "points_for": 194,
+          "points_against": 280,
+          "point_diff": -86,
+          "mov": -3.07
         }
       }
     },
@@ -72388,6 +77029,26 @@
           "points_against": 146,
           "point_diff": 56,
           "mov": 2.43
+        },
+        "2025": {
+          "ovr_rank": 136,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": -0.65,
+          "off_rating": 0.32,
+          "off_rank": 112,
+          "def_rating": -0.96,
+          "def_rank": 159,
+          "wins": 15,
+          "losses": 11,
+          "win_pct": 57.69,
+          "games_played": 26,
+          "ppg": 10.62,
+          "papg": 6.08,
+          "points_for": 276,
+          "points_against": 158,
+          "point_diff": 118,
+          "mov": 4.54
         }
       }
     },
@@ -72903,6 +77564,26 @@
           "points_against": 237,
           "point_diff": -59,
           "mov": -1.97
+        },
+        "2025": {
+          "ovr_rank": 144,
+          "classification": 3,
+          "district": 2,
+          "ovr_rating": -1.32,
+          "off_rating": -0.53,
+          "off_rank": 137,
+          "def_rating": -0.79,
+          "def_rank": 154,
+          "wins": 12,
+          "losses": 18,
+          "win_pct": 40.0,
+          "games_played": 30,
+          "ppg": 6.27,
+          "papg": 7.07,
+          "points_for": 188,
+          "points_against": 212,
+          "point_diff": -24,
+          "mov": -0.8
         }
       }
     },
@@ -73168,6 +77849,26 @@
           "points_against": 296,
           "point_diff": -149,
           "mov": -6.77
+        },
+        "2025": {
+          "ovr_rank": 237,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -13.86,
+          "off_rating": -5.44,
+          "off_rank": 240,
+          "def_rating": -8.43,
+          "def_rank": 238,
+          "wins": 11,
+          "losses": 17,
+          "win_pct": 39.29,
+          "games_played": 28,
+          "ppg": 9.5,
+          "papg": 11.61,
+          "points_for": 266,
+          "points_against": 325,
+          "point_diff": -59,
+          "mov": -2.11
         }
       }
     },
@@ -73828,6 +78529,26 @@
           "points_against": 387,
           "point_diff": -326,
           "mov": -13.58
+        },
+        "2025": {
+          "ovr_rank": 264,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -25.08,
+          "off_rating": -6.52,
+          "off_rank": 248,
+          "def_rating": -18.56,
+          "def_rank": 268,
+          "wins": 0,
+          "losses": 20,
+          "win_pct": 0.0,
+          "games_played": 20,
+          "ppg": 5.8,
+          "papg": 20,
+          "points_for": 116,
+          "points_against": 400,
+          "point_diff": -284,
+          "mov": -14.2
         }
       }
     },
@@ -74138,6 +78859,26 @@
           "points_against": 131,
           "point_diff": 34,
           "mov": 1.36
+        },
+        "2025": {
+          "ovr_rank": 153,
+          "classification": 2,
+          "district": 8,
+          "ovr_rating": -2.01,
+          "off_rating": -1.16,
+          "off_rank": 155,
+          "def_rating": -0.85,
+          "def_rank": 156,
+          "wins": 14,
+          "losses": 14,
+          "win_pct": 50.0,
+          "games_played": 28,
+          "ppg": 6.18,
+          "papg": 6.25,
+          "points_for": 173,
+          "points_against": 175,
+          "point_diff": -2,
+          "mov": -0.07
         }
       }
     },
@@ -74343,6 +79084,26 @@
           "points_against": 344,
           "point_diff": -311,
           "mov": -16.37
+        },
+        "2025": {
+          "ovr_rank": 258,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": -22.01,
+          "off_rating": -8.88,
+          "off_rank": 264,
+          "def_rating": -13.13,
+          "def_rank": 257,
+          "wins": 3,
+          "losses": 19,
+          "win_pct": 13.64,
+          "games_played": 22,
+          "ppg": 3.95,
+          "papg": 15.86,
+          "points_for": 87,
+          "points_against": 349,
+          "point_diff": -262,
+          "mov": -11.91
         }
       }
     },
@@ -74713,6 +79474,26 @@
           "points_against": 237,
           "point_diff": -45,
           "mov": -1.41
+        },
+        "2025": {
+          "ovr_rank": 157,
+          "classification": 5,
+          "district": 5,
+          "ovr_rating": -2.41,
+          "off_rating": -1.52,
+          "off_rank": 171,
+          "def_rating": -0.89,
+          "def_rank": 157,
+          "wins": 12,
+          "losses": 18,
+          "win_pct": 40.0,
+          "games_played": 30,
+          "ppg": 4.87,
+          "papg": 8.1,
+          "points_for": 146,
+          "points_against": 243,
+          "point_diff": -97,
+          "mov": -3.23
         }
       }
     },
@@ -75023,6 +79804,26 @@
           "points_against": 207,
           "point_diff": -77,
           "mov": -4.05
+        },
+        "2025": {
+          "ovr_rank": 219,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -9.37,
+          "off_rating": -6.09,
+          "off_rank": 246,
+          "def_rating": -3.28,
+          "def_rank": 195,
+          "wins": 5,
+          "losses": 9,
+          "win_pct": 35.71,
+          "games_played": 14,
+          "ppg": 5.71,
+          "papg": 7.29,
+          "points_for": 80,
+          "points_against": 102,
+          "point_diff": -22,
+          "mov": -1.57
         }
       }
     },
@@ -75288,6 +80089,26 @@
           "points_against": 293,
           "point_diff": -70,
           "mov": -2.59
+        },
+        "2025": {
+          "ovr_rank": 229,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -11.08,
+          "off_rating": -4.24,
+          "off_rank": 224,
+          "def_rating": -6.84,
+          "def_rank": 229,
+          "wins": 15,
+          "losses": 9,
+          "win_pct": 62.5,
+          "games_played": 24,
+          "ppg": 9.96,
+          "papg": 8.63,
+          "points_for": 239,
+          "points_against": 207,
+          "point_diff": 32,
+          "mov": 1.33
         }
       }
     },
@@ -75958,6 +80779,26 @@
           "points_against": 130,
           "point_diff": 101,
           "mov": 4.59
+        },
+        "2025": {
+          "ovr_rank": 223,
+          "classification": 1,
+          "district": 1,
+          "ovr_rating": -10.16,
+          "off_rating": -4.25,
+          "off_rank": 225,
+          "def_rating": -5.91,
+          "def_rank": 221,
+          "wins": 7,
+          "losses": 12,
+          "win_pct": 36.84,
+          "games_played": 19,
+          "ppg": 6.58,
+          "papg": 9.74,
+          "points_for": 125,
+          "points_against": 185,
+          "point_diff": -60,
+          "mov": -3.16
         }
       }
     },
@@ -76478,6 +81319,26 @@
           "points_against": 257,
           "point_diff": -75,
           "mov": -3.26
+        },
+        "2025": {
+          "ovr_rank": 235,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -12.83,
+          "off_rating": -2.66,
+          "off_rank": 198,
+          "def_rating": -10.17,
+          "def_rank": 245,
+          "wins": 12,
+          "losses": 14,
+          "win_pct": 46.15,
+          "games_played": 26,
+          "ppg": 9.58,
+          "papg": 12.5,
+          "points_for": 249,
+          "points_against": 325,
+          "point_diff": -76,
+          "mov": -2.92
         }
       }
     },
@@ -76743,6 +81604,26 @@
           "points_against": 81,
           "point_diff": 78,
           "mov": 3.9
+        },
+        "2025": {
+          "ovr_rank": 225,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -10.6,
+          "off_rating": -4.85,
+          "off_rank": 232,
+          "def_rating": -5.76,
+          "def_rank": 218,
+          "wins": 4,
+          "losses": 12,
+          "win_pct": 25.0,
+          "games_played": 16,
+          "ppg": 6.38,
+          "papg": 10.63,
+          "points_for": 102,
+          "points_against": 170,
+          "point_diff": -68,
+          "mov": -4.25
         }
       }
     },
@@ -76988,6 +81869,26 @@
           "points_against": 48,
           "point_diff": 132,
           "mov": 5.74
+        },
+        "2025": {
+          "ovr_rank": 93,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": 2.58,
+          "off_rating": -0.75,
+          "off_rank": 141,
+          "def_rating": 3.33,
+          "def_rank": 55,
+          "wins": 17,
+          "losses": 7,
+          "win_pct": 70.83,
+          "games_played": 24,
+          "ppg": 7.71,
+          "papg": 3.13,
+          "points_for": 185,
+          "points_against": 75,
+          "point_diff": 110,
+          "mov": 4.58
         }
       }
     },
@@ -78028,6 +82929,26 @@
           "points_against": 174,
           "point_diff": 128,
           "mov": 4.13
+        },
+        "2025": {
+          "ovr_rank": 140,
+          "classification": 1,
+          "district": 2,
+          "ovr_rating": -0.87,
+          "off_rating": -0.15,
+          "off_rank": 124,
+          "def_rating": -0.72,
+          "def_rank": 153,
+          "wins": 26,
+          "losses": 6,
+          "win_pct": 81.25,
+          "games_played": 32,
+          "ppg": 11.25,
+          "papg": 4.34,
+          "points_for": 360,
+          "points_against": 139,
+          "point_diff": 221,
+          "mov": 6.91
         }
       }
     },
@@ -78338,6 +83259,26 @@
           "points_against": 228,
           "point_diff": -24,
           "mov": -0.96
+        },
+        "2025": {
+          "ovr_rank": 230,
+          "classification": 1,
+          "district": 5,
+          "ovr_rating": -11.19,
+          "off_rating": -5.08,
+          "off_rank": 238,
+          "def_rating": -6.11,
+          "def_rank": 224,
+          "wins": 11,
+          "losses": 9,
+          "win_pct": 55.0,
+          "games_played": 20,
+          "ppg": 8.85,
+          "papg": 8.3,
+          "points_for": 177,
+          "points_against": 166,
+          "point_diff": 11,
+          "mov": 0.55
         }
       }
     },
@@ -78603,6 +83544,26 @@
           "points_against": 123,
           "point_diff": 102,
           "mov": 3.52
+        },
+        "2025": {
+          "ovr_rank": 69,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": 4.26,
+          "off_rating": 0.98,
+          "off_rank": 94,
+          "def_rating": 3.28,
+          "def_rank": 56,
+          "wins": 28,
+          "losses": 7,
+          "win_pct": 80.0,
+          "games_played": 35,
+          "ppg": 7.89,
+          "papg": 3.83,
+          "points_for": 276,
+          "points_against": 134,
+          "point_diff": 142,
+          "mov": 4.06
         }
       }
     },
@@ -78933,6 +83894,26 @@
           "points_against": 198,
           "point_diff": -29,
           "mov": -1.32
+        },
+        "2025": {
+          "ovr_rank": 185,
+          "classification": 2,
+          "district": 2,
+          "ovr_rating": -4.43,
+          "off_rating": -1.47,
+          "off_rank": 169,
+          "def_rating": -2.96,
+          "def_rank": 190,
+          "wins": 10,
+          "losses": 12,
+          "win_pct": 45.45,
+          "games_played": 22,
+          "ppg": 7.05,
+          "papg": 8.09,
+          "points_for": 155,
+          "points_against": 178,
+          "point_diff": -23,
+          "mov": -1.05
         }
       }
     },
@@ -79348,6 +84329,26 @@
           "points_against": 283,
           "point_diff": -267,
           "mov": -15.71
+        },
+        "2025": {
+          "ovr_rank": 259,
+          "classification": 4,
+          "district": 6,
+          "ovr_rating": -22.09,
+          "off_rating": -8.31,
+          "off_rank": 261,
+          "def_rating": -13.77,
+          "def_rank": 261,
+          "wins": 1,
+          "losses": 17,
+          "win_pct": 5.56,
+          "games_played": 18,
+          "ppg": 1.89,
+          "papg": 17.11,
+          "points_for": 34,
+          "points_against": 308,
+          "point_diff": -274,
+          "mov": -15.22
         }
       }
     },
@@ -79613,6 +84614,26 @@
           "points_against": 308,
           "point_diff": -307,
           "mov": -17.06
+        },
+        "2025": {
+          "ovr_rank": 265,
+          "classification": 4,
+          "district": 7,
+          "ovr_rating": -25.25,
+          "off_rating": -10.05,
+          "off_rank": 268,
+          "def_rating": -15.2,
+          "def_rank": 262,
+          "wins": 2,
+          "losses": 24,
+          "win_pct": 7.69,
+          "games_played": 26,
+          "ppg": 2.58,
+          "papg": 17.23,
+          "points_for": 67,
+          "points_against": 448,
+          "point_diff": -381,
+          "mov": -14.65
         }
       }
     },
@@ -80418,6 +85439,26 @@
           "points_against": 108,
           "point_diff": 69,
           "mov": 2.76
+        },
+        "2025": {
+          "ovr_rank": 68,
+          "classification": 3,
+          "district": 1,
+          "ovr_rating": 4.28,
+          "off_rating": 1.03,
+          "off_rank": 91,
+          "def_rating": 3.25,
+          "def_rank": 57,
+          "wins": 21,
+          "losses": 10,
+          "win_pct": 67.74,
+          "games_played": 31,
+          "ppg": 8.16,
+          "papg": 3.48,
+          "points_for": 253,
+          "points_against": 108,
+          "point_diff": 145,
+          "mov": 4.68
         }
       }
     },
@@ -81013,6 +86054,26 @@
           "points_against": 250,
           "point_diff": -36,
           "mov": -1.57
+        },
+        "2025": {
+          "ovr_rank": 248,
+          "classification": 1,
+          "district": 6,
+          "ovr_rating": -16.15,
+          "off_rating": -7.11,
+          "off_rank": 254,
+          "def_rating": -9.04,
+          "def_rank": 242,
+          "wins": 8,
+          "losses": 12,
+          "win_pct": 40.0,
+          "games_played": 20,
+          "ppg": 7.9,
+          "papg": 9.85,
+          "points_for": 158,
+          "points_against": 197,
+          "point_diff": -39,
+          "mov": -1.95
         }
       }
     },
@@ -81718,6 +86779,26 @@
           "points_against": 139,
           "point_diff": 36,
           "mov": 1.64
+        },
+        "2025": {
+          "ovr_rank": 208,
+          "classification": 1,
+          "district": 3,
+          "ovr_rating": -8.17,
+          "off_rating": -4.1,
+          "off_rank": 222,
+          "def_rating": -4.08,
+          "def_rank": 204,
+          "wins": 9,
+          "losses": 10,
+          "win_pct": 47.37,
+          "games_played": 19,
+          "ppg": 6.63,
+          "papg": 7,
+          "points_for": 126,
+          "points_against": 133,
+          "point_diff": -7,
+          "mov": -0.37
         }
       }
     },
@@ -81963,6 +87044,26 @@
           "points_against": 254,
           "point_diff": 107,
           "mov": 4.86
+        },
+        "2025": {
+          "ovr_rank": 255,
+          "classification": 4,
+          "district": 4,
+          "ovr_rating": -19.02,
+          "off_rating": -6.28,
+          "off_rank": 247,
+          "def_rating": -12.74,
+          "def_rank": 256,
+          "wins": 9,
+          "losses": 6,
+          "win_pct": 60.0,
+          "games_played": 15,
+          "ppg": 12.94,
+          "papg": 10.63,
+          "points_for": 207,
+          "points_against": 170,
+          "point_diff": 37,
+          "mov": 2.31
         }
       }
     },
@@ -82378,6 +87479,26 @@
           "points_against": 212,
           "point_diff": -133,
           "mov": -8.31
+        },
+        "2025": {
+          "ovr_rank": 270,
+          "classification": 3,
+          "district": 3,
+          "ovr_rating": -42.73,
+          "off_rating": -21.47,
+          "off_rank": 270,
+          "def_rating": -21.26,
+          "def_rank": 270,
+          "wins": 3,
+          "losses": 12,
+          "win_pct": 20.0,
+          "games_played": 15,
+          "ppg": 4.33,
+          "papg": 13.33,
+          "points_for": 65,
+          "points_against": 200,
+          "point_diff": -135,
+          "mov": -9
         }
       }
     },
@@ -82938,6 +88059,26 @@
           "points_against": 162,
           "point_diff": 1,
           "mov": 0.03
+        },
+        "2025": {
+          "ovr_rank": 61,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": 4.82,
+          "off_rating": 0.88,
+          "off_rank": 95,
+          "def_rating": 3.94,
+          "def_rank": 40,
+          "wins": 21,
+          "losses": 12,
+          "win_pct": 63.64,
+          "games_played": 33,
+          "ppg": 6.27,
+          "papg": 3.42,
+          "points_for": 207,
+          "points_against": 113,
+          "point_diff": 94,
+          "mov": 2.85
         }
       }
     },
@@ -83368,6 +88509,26 @@
           "points_against": 119,
           "point_diff": 88,
           "mov": 2.59
+        },
+        "2025": {
+          "ovr_rank": 20,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": 9.12,
+          "off_rating": 2.77,
+          "off_rank": 36,
+          "def_rating": 6.35,
+          "def_rank": 13,
+          "wins": 32,
+          "losses": 5,
+          "win_pct": 86.49,
+          "games_played": 37,
+          "ppg": 6.68,
+          "papg": 1.95,
+          "points_for": 247,
+          "points_against": 72,
+          "point_diff": 175,
+          "mov": 4.73
         }
       }
     },
@@ -83553,6 +88714,26 @@
           "points_against": 299,
           "point_diff": -282,
           "mov": -16.59
+        },
+        "2025": {
+          "ovr_rank": 260,
+          "classification": 1,
+          "district": 4,
+          "ovr_rating": -22.09,
+          "off_rating": -8.91,
+          "off_rank": 265,
+          "def_rating": -13.18,
+          "def_rank": 258,
+          "wins": 1,
+          "losses": 17,
+          "win_pct": 5.56,
+          "games_played": 18,
+          "ppg": 2.17,
+          "papg": 17.28,
+          "points_for": 39,
+          "points_against": 311,
+          "point_diff": -272,
+          "mov": -15.11
         }
       }
     },
@@ -83973,6 +89154,26 @@
           "points_against": 125,
           "point_diff": 4,
           "mov": 0.17
+        },
+        "2025": {
+          "ovr_rank": 32,
+          "classification": 5,
+          "district": 3,
+          "ovr_rating": 7.54,
+          "off_rating": 3.7,
+          "off_rank": 21,
+          "def_rating": 3.84,
+          "def_rank": 41,
+          "wins": 18,
+          "losses": 11,
+          "win_pct": 62.07,
+          "games_played": 29,
+          "ppg": 6.34,
+          "papg": 5.21,
+          "points_for": 184,
+          "points_against": 151,
+          "point_diff": 33,
+          "mov": 1.14
         }
       }
     },
@@ -84158,6 +89359,26 @@
           "points_against": 111,
           "point_diff": 17,
           "mov": 1
+        },
+        "2025": {
+          "ovr_rank": 77,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": 3.69,
+          "off_rating": 2.53,
+          "off_rank": 44,
+          "def_rating": 1.16,
+          "def_rank": 113,
+          "wins": 17,
+          "losses": 9,
+          "win_pct": 65.38,
+          "games_played": 26,
+          "ppg": 9.42,
+          "papg": 4.73,
+          "points_for": 245,
+          "points_against": 123,
+          "point_diff": 122,
+          "mov": 4.69
         }
       }
     },
@@ -84513,6 +89734,26 @@
           "points_against": 233,
           "point_diff": -74,
           "mov": -2.64
+        },
+        "2025": {
+          "ovr_rank": 224,
+          "classification": 2,
+          "district": 4,
+          "ovr_rating": -10.34,
+          "off_rating": -3.62,
+          "off_rank": 214,
+          "def_rating": -6.72,
+          "def_rank": 227,
+          "wins": 2,
+          "losses": 21,
+          "win_pct": 8.7,
+          "games_played": 23,
+          "ppg": 3.61,
+          "papg": 12.91,
+          "points_for": 83,
+          "points_against": 297,
+          "point_diff": -214,
+          "mov": -9.3
         }
       }
     },
@@ -84848,6 +90089,26 @@
           "points_against": 167,
           "point_diff": 35,
           "mov": 1.3
+        },
+        "2025": {
+          "ovr_rank": 180,
+          "classification": 3,
+          "district": 7,
+          "ovr_rating": -3.73,
+          "off_rating": -2.75,
+          "off_rank": 201,
+          "def_rating": -0.99,
+          "def_rank": 161,
+          "wins": 13,
+          "losses": 13,
+          "win_pct": 50.0,
+          "games_played": 26,
+          "ppg": 8.85,
+          "papg": 5.23,
+          "points_for": 230,
+          "points_against": 136,
+          "point_diff": 94,
+          "mov": 3.62
         }
       }
     },
@@ -84978,6 +90239,26 @@
           "points_against": 169,
           "point_diff": -40,
           "mov": -2.5
+        },
+        "2025": {
+          "ovr_rank": 249,
+          "classification": 3,
+          "district": 3,
+          "ovr_rating": -16.88,
+          "off_rating": -7.49,
+          "off_rank": 255,
+          "def_rating": -9.39,
+          "def_rank": 244,
+          "wins": 4,
+          "losses": 10,
+          "win_pct": 28.57,
+          "games_played": 14,
+          "ppg": 5.64,
+          "papg": 11.07,
+          "points_for": 79,
+          "points_against": 155,
+          "point_diff": -76,
+          "mov": -5.43
         }
       }
     },
@@ -85168,6 +90449,26 @@
           "points_against": 206,
           "point_diff": -41,
           "mov": -1.24
+        },
+        "2025": {
+          "ovr_rank": 106,
+          "classification": 4,
+          "district": 5,
+          "ovr_rating": 2.14,
+          "off_rating": 2.57,
+          "off_rank": 41,
+          "def_rating": -0.44,
+          "def_rank": 145,
+          "wins": 13,
+          "losses": 17,
+          "win_pct": 43.33,
+          "games_played": 30,
+          "ppg": 7.37,
+          "papg": 7.73,
+          "points_for": 221,
+          "points_against": 232,
+          "point_diff": -11,
+          "mov": -0.37
         }
       }
     },
@@ -85233,6 +90534,26 @@
           "points_against": 215,
           "point_diff": -134,
           "mov": -8.38
+        },
+        "2025": {
+          "ovr_rank": 256,
+          "classification": 4,
+          "district": 8,
+          "ovr_rating": -19.21,
+          "off_rating": -8.24,
+          "off_rank": 259,
+          "def_rating": -10.97,
+          "def_rank": 251,
+          "wins": 7,
+          "losses": 12,
+          "win_pct": 36.84,
+          "games_played": 19,
+          "ppg": 8,
+          "papg": 13.05,
+          "points_for": 152,
+          "points_against": 248,
+          "point_diff": -96,
+          "mov": -5.05
         }
       }
     },
@@ -85318,6 +90639,26 @@
           "points_against": 185,
           "point_diff": -76,
           "mov": -3.3
+        },
+        "2025": {
+          "ovr_rank": 95,
+          "classification": 5,
+          "district": 4,
+          "ovr_rating": 2.46,
+          "off_rating": 1.96,
+          "off_rank": 65,
+          "def_rating": 0.5,
+          "def_rank": 129,
+          "wins": 10,
+          "losses": 10,
+          "win_pct": 50.0,
+          "games_played": 20,
+          "ppg": 6.9,
+          "papg": 7.05,
+          "points_for": 138,
+          "points_against": 141,
+          "point_diff": -3,
+          "mov": -0.15
         }
       }
     },
@@ -85428,6 +90769,26 @@
           "points_against": 287,
           "point_diff": -54,
           "mov": -2.57
+        },
+        "2025": {
+          "ovr_rank": 267,
+          "classification": 3,
+          "district": 3,
+          "ovr_rating": -27.23,
+          "off_rating": -8.5,
+          "off_rank": 262,
+          "def_rating": -18.73,
+          "def_rank": 269,
+          "wins": 9,
+          "losses": 10,
+          "win_pct": 47.37,
+          "games_played": 19,
+          "ppg": 13.16,
+          "papg": 13.26,
+          "points_for": 250,
+          "points_against": 252,
+          "point_diff": -2,
+          "mov": -0.11
         }
       }
     },
@@ -85523,6 +90884,51 @@
           "points_against": 208,
           "point_diff": -28,
           "mov": -1
+        },
+        "2025": {
+          "ovr_rank": 137,
+          "classification": 1,
+          "district": 7,
+          "ovr_rating": -0.77,
+          "off_rating": -0.44,
+          "off_rank": 135,
+          "def_rating": -0.33,
+          "def_rank": 142,
+          "wins": 12,
+          "losses": 7,
+          "win_pct": 63.16,
+          "games_played": 19,
+          "ppg": 7.63,
+          "papg": 5.11,
+          "points_for": 145,
+          "points_against": 97,
+          "point_diff": 48,
+          "mov": 2.53
+        }
+      }
+    },
+    "south-callaway": {
+      "school": "South Callaway",
+      "history": {
+        "2025": {
+          "ovr_rank": 214,
+          "classification": 2,
+          "district": 3,
+          "ovr_rating": -9.03,
+          "off_rating": -2.01,
+          "off_rank": 180,
+          "def_rating": -7.02,
+          "def_rank": 232,
+          "wins": 2,
+          "losses": 24,
+          "win_pct": 7.69,
+          "games_played": 26,
+          "ppg": 3.81,
+          "papg": 13.15,
+          "points_for": 99,
+          "points_against": 342,
+          "point_diff": -243,
+          "mov": -9.35
         }
       }
     }
