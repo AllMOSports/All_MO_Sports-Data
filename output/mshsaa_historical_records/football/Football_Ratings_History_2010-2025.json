@@ -2256,7 +2256,7 @@
         },
         {
           "ovr_rank": 133,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 12,
           "ovr_rating": 5.92,
@@ -2494,7 +2494,7 @@
         },
         {
           "ovr_rank": 147,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": 3.57,
@@ -4279,7 +4279,7 @@
         },
         {
           "ovr_rank": 252,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": null,
           "district": null,
           "ovr_rating": -21.12,
@@ -4347,7 +4347,7 @@
         },
         {
           "ovr_rank": 256,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 10,
           "ovr_rating": -23.13,
@@ -4721,7 +4721,7 @@
         },
         {
           "ovr_rank": 278,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": 1,
           "district": 16,
           "ovr_rating": -29.48,
@@ -5027,7 +5027,7 @@
         },
         {
           "ovr_rank": 296,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 4,
           "ovr_rating": -35.11,
@@ -5350,7 +5350,7 @@
         },
         {
           "ovr_rank": 315,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": null,
           "district": null,
           "ovr_rating": -46.34,
@@ -5367,7 +5367,7 @@
         },
         {
           "ovr_rank": 316,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": null,
           "district": null,
           "ovr_rating": -48.11,
@@ -5401,7 +5401,7 @@
         },
         {
           "ovr_rank": 318,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 6,
           "ovr_rating": -48.82,
@@ -5503,7 +5503,7 @@
         },
         {
           "ovr_rank": 324,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -54.82,
@@ -5605,7 +5605,7 @@
         },
         {
           "ovr_rank": 330,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 7,
           "ovr_rating": -61.91,
@@ -7975,7 +7975,7 @@
         },
         {
           "ovr_rank": 132,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 8,
           "ovr_rating": 7.34,
@@ -8893,7 +8893,7 @@
         },
         {
           "ovr_rank": 186,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -5.27,
@@ -9403,7 +9403,7 @@
         },
         {
           "ovr_rank": 216,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 10,
           "ovr_rating": -12.71,
@@ -9624,7 +9624,7 @@
         },
         {
           "ovr_rank": 229,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 12,
           "ovr_rating": -15.7,
@@ -9998,7 +9998,7 @@
         },
         {
           "ovr_rank": 251,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": 1,
           "district": 16,
           "ovr_rating": -22.11,
@@ -10287,7 +10287,7 @@
         },
         {
           "ovr_rank": 268,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 4,
           "ovr_rating": -26.46,
@@ -10967,7 +10967,7 @@
         },
         {
           "ovr_rank": 308,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 7,
           "ovr_rating": -45.69,
@@ -11120,7 +11120,7 @@
         },
         {
           "ovr_rank": 317,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -51.7,
@@ -11171,7 +11171,7 @@
         },
         {
           "ovr_rank": 320,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 6,
           "ovr_rating": -54.68,
@@ -11256,7 +11256,7 @@
         },
         {
           "ovr_rank": 325,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 7,
           "ovr_rating": -60.39,
@@ -11290,7 +11290,7 @@
         },
         {
           "ovr_rank": 327,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": null,
           "district": null,
           "ovr_rating": -65.6,
@@ -13626,7 +13626,7 @@
         },
         {
           "ovr_rank": 130,
-          "school": "Chaminade College Preparatory",
+          "school": "Chaminade College Prep",
           "classification": 5,
           "district": 2,
           "ovr_rating": 7.19,
@@ -14646,7 +14646,7 @@
         },
         {
           "ovr_rank": 190,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 3,
           "ovr_rating": -5.28,
@@ -15326,7 +15326,7 @@
         },
         {
           "ovr_rank": 230,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 2,
           "ovr_rating": -15.28,
@@ -15496,7 +15496,7 @@
         },
         {
           "ovr_rank": 240,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": 4,
           "district": 1,
           "ovr_rating": -18.22,
@@ -15581,7 +15581,7 @@
         },
         {
           "ovr_rank": 245,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 6,
           "ovr_rating": -18.62,
@@ -16159,7 +16159,7 @@
         },
         {
           "ovr_rank": 279,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": 1,
           "district": 8,
           "ovr_rating": -30.44,
@@ -16261,7 +16261,7 @@
         },
         {
           "ovr_rank": 285,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 5,
           "ovr_rating": -32.04,
@@ -16669,7 +16669,7 @@
         },
         {
           "ovr_rank": 309,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 5,
           "ovr_rating": -41.18,
@@ -16754,7 +16754,7 @@
         },
         {
           "ovr_rank": 314,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 3,
           "ovr_rating": -43.94,
@@ -16788,7 +16788,7 @@
         },
         {
           "ovr_rank": 316,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -44.84,
@@ -16924,7 +16924,7 @@
         },
         {
           "ovr_rank": 324,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -52.95,
@@ -16958,7 +16958,7 @@
         },
         {
           "ovr_rank": 326,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 2,
           "ovr_rating": -53.39,
@@ -17009,7 +17009,7 @@
         },
         {
           "ovr_rank": 329,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 4,
           "ovr_rating": -58.98,
@@ -18988,7 +18988,7 @@
         },
         {
           "ovr_rank": 108,
-          "school": "Chaminade College Preparatory",
+          "school": "Chaminade College Prep",
           "classification": 5,
           "district": 2,
           "ovr_rating": 14.23,
@@ -20671,7 +20671,7 @@
         },
         {
           "ovr_rank": 207,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 3,
           "ovr_rating": -12.99,
@@ -21436,7 +21436,7 @@
         },
         {
           "ovr_rank": 252,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 2,
           "ovr_rating": -24.28,
@@ -21538,7 +21538,7 @@
         },
         {
           "ovr_rank": 258,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": 4,
           "district": 1,
           "ovr_rating": -27.51,
@@ -21929,7 +21929,7 @@
         },
         {
           "ovr_rank": 281,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 5,
           "ovr_rating": -36.49,
@@ -21946,7 +21946,7 @@
         },
         {
           "ovr_rank": 282,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -36.85,
@@ -22082,7 +22082,7 @@
         },
         {
           "ovr_rank": 290,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -39.07,
@@ -22354,7 +22354,7 @@
         },
         {
           "ovr_rank": 306,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 2,
           "ovr_rating": -44.07,
@@ -22490,7 +22490,7 @@
         },
         {
           "ovr_rank": 314,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 3,
           "ovr_rating": -48.65,
@@ -22626,7 +22626,7 @@
         },
         {
           "ovr_rank": 322,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": 1,
           "district": 8,
           "ovr_rating": -55.06,
@@ -22643,7 +22643,7 @@
         },
         {
           "ovr_rank": 323,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 6,
           "ovr_rating": -56.28,
@@ -22694,7 +22694,7 @@
         },
         {
           "ovr_rank": 326,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 4,
           "ovr_rating": -59.11,
@@ -22711,7 +22711,7 @@
         },
         {
           "ovr_rank": 327,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 5,
           "ovr_rating": -59.22,
@@ -23483,7 +23483,7 @@
         },
         {
           "ovr_rank": 38,
-          "school": "Chaminade College Preparatory",
+          "school": "Chaminade College Prep",
           "classification": 5,
           "district": 2,
           "ovr_rating": 34.38,
@@ -23738,7 +23738,7 @@
         },
         {
           "ovr_rank": 53,
-          "school": "Lafayette Wildwood",
+          "school": "Lafayette (Wildwood)",
           "classification": 6,
           "district": 1,
           "ovr_rating": 30.47,
@@ -25829,7 +25829,7 @@
         },
         {
           "ovr_rank": 176,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -2.69,
@@ -26900,7 +26900,7 @@
         },
         {
           "ovr_rank": 239,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": null,
           "district": null,
           "ovr_rating": -16.25,
@@ -27342,7 +27342,7 @@
         },
         {
           "ovr_rank": 265,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": null,
           "district": null,
           "ovr_rating": -25.47,
@@ -27410,7 +27410,7 @@
         },
         {
           "ovr_rank": 269,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -26.65,
@@ -27512,7 +27512,7 @@
         },
         {
           "ovr_rank": 275,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": null,
           "district": null,
           "ovr_rating": -28.05,
@@ -27665,7 +27665,7 @@
         },
         {
           "ovr_rank": 284,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -30.7,
@@ -27750,7 +27750,7 @@
         },
         {
           "ovr_rank": 289,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": null,
           "district": null,
           "ovr_rating": -32.04,
@@ -27886,7 +27886,7 @@
         },
         {
           "ovr_rank": 297,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": null,
           "district": null,
           "ovr_rating": -35.2,
@@ -28039,7 +28039,7 @@
         },
         {
           "ovr_rank": 306,
-          "school": "Northeast Kansas City",
+          "school": "Northeast (Kansas City)",
           "classification": 3,
           "district": 8,
           "ovr_rating": -41.07,
@@ -28294,7 +28294,7 @@
         },
         {
           "ovr_rank": 321,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": null,
           "district": null,
           "ovr_rating": -49.42,
@@ -28396,7 +28396,7 @@
         },
         {
           "ovr_rank": 327,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": null,
           "district": null,
           "ovr_rating": -50.6,
@@ -28464,7 +28464,7 @@
         },
         {
           "ovr_rank": 331,
-          "school": "East Kansas City",
+          "school": "East (Kansas City)",
           "classification": 3,
           "district": 8,
           "ovr_rating": -55.06,
@@ -28566,7 +28566,7 @@
         },
         {
           "ovr_rank": 337,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": null,
           "district": null,
           "ovr_rating": -62.33,
@@ -28634,7 +28634,7 @@
         },
         {
           "ovr_rank": 341,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": null,
           "district": null,
           "ovr_rating": -73.26,
@@ -31072,7 +31072,7 @@
         },
         {
           "ovr_rank": 140,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 2,
           "ovr_rating": 5.42,
@@ -31616,7 +31616,7 @@
         },
         {
           "ovr_rank": 172,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -1.88,
@@ -32177,7 +32177,7 @@
         },
         {
           "ovr_rank": 205,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": 4,
           "district": 1,
           "ovr_rating": -11.19,
@@ -33061,7 +33061,7 @@
         },
         {
           "ovr_rank": 257,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 3,
           "ovr_rating": -23.49,
@@ -33180,7 +33180,7 @@
         },
         {
           "ovr_rank": 264,
-          "school": "King City with Pattonsburg",
+          "school": "King City",
           "classification": null,
           "district": null,
           "ovr_rating": -28.55,
@@ -33282,7 +33282,7 @@
         },
         {
           "ovr_rank": 270,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 4,
           "ovr_rating": -29.45,
@@ -33350,7 +33350,7 @@
         },
         {
           "ovr_rank": 274,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -30.74,
@@ -33809,7 +33809,7 @@
         },
         {
           "ovr_rank": 301,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 6,
           "ovr_rating": -43.21,
@@ -33996,7 +33996,7 @@
         },
         {
           "ovr_rank": 312,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 8,
           "ovr_rating": -48.81,
@@ -34047,7 +34047,7 @@
         },
         {
           "ovr_rank": 315,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -51.31,
@@ -34064,7 +34064,7 @@
         },
         {
           "ovr_rank": 316,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 3,
           "ovr_rating": -51.58,
@@ -34234,7 +34234,7 @@
         },
         {
           "ovr_rank": 326,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 6,
           "ovr_rating": -67.82,
@@ -37556,7 +37556,7 @@
         },
         {
           "ovr_rank": 189,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": 4,
           "district": 1,
           "ovr_rating": -6.81,
@@ -37794,7 +37794,7 @@
         },
         {
           "ovr_rank": 203,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -8.98,
@@ -38491,7 +38491,7 @@
         },
         {
           "ovr_rank": 244,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -21.65,
@@ -38627,7 +38627,7 @@
         },
         {
           "ovr_rank": 252,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 3,
           "ovr_rating": -24.45,
@@ -38763,7 +38763,7 @@
         },
         {
           "ovr_rank": 260,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 4,
           "ovr_rating": -27.56,
@@ -38950,7 +38950,7 @@
         },
         {
           "ovr_rank": 271,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 3,
           "ovr_rating": -30.04,
@@ -39018,7 +39018,7 @@
         },
         {
           "ovr_rank": 275,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 8,
           "ovr_rating": -32.59,
@@ -39239,7 +39239,7 @@
         },
         {
           "ovr_rank": 288,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 6,
           "ovr_rating": -40.6,
@@ -39426,7 +39426,7 @@
         },
         {
           "ovr_rank": 299,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -46.18,
@@ -39460,7 +39460,7 @@
         },
         {
           "ovr_rank": 301,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 3,
           "ovr_rating": -48.31,
@@ -39715,7 +39715,7 @@
         },
         {
           "ovr_rank": 316,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 6,
           "ovr_rating": -62.61,
@@ -41796,7 +41796,7 @@
         },
         {
           "ovr_rank": 113,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 8,
           "ovr_rating": 12.38,
@@ -42833,7 +42833,7 @@
         },
         {
           "ovr_rank": 174,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -4.43,
@@ -43105,7 +43105,7 @@
         },
         {
           "ovr_rank": 190,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": 4,
           "district": 1,
           "ovr_rating": -9.77,
@@ -43326,7 +43326,7 @@
         },
         {
           "ovr_rank": 203,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 3,
           "ovr_rating": -12.77,
@@ -44023,7 +44023,7 @@
         },
         {
           "ovr_rank": 244,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 3,
           "ovr_rating": -24.17,
@@ -44686,7 +44686,7 @@
         },
         {
           "ovr_rank": 283,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 6,
           "ovr_rating": -35.69,
@@ -44907,7 +44907,7 @@
         },
         {
           "ovr_rank": 296,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 3,
           "ovr_rating": -44.11,
@@ -45060,7 +45060,7 @@
         },
         {
           "ovr_rank": 305,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 6,
           "ovr_rating": -51.69,
@@ -45077,7 +45077,7 @@
         },
         {
           "ovr_rank": 306,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -53.1,
@@ -45111,7 +45111,7 @@
         },
         {
           "ovr_rank": 308,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 4,
           "ovr_rating": -55.03,
@@ -45247,7 +45247,7 @@
         },
         {
           "ovr_rank": 316,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -65.31,
@@ -47583,7 +47583,7 @@
         },
         {
           "ovr_rank": 132,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": 5.69,
@@ -48943,7 +48943,7 @@
         },
         {
           "ovr_rank": 212,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -11.44,
@@ -49402,7 +49402,7 @@
         },
         {
           "ovr_rank": 239,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 8,
           "ovr_rating": -19.01,
@@ -49827,7 +49827,7 @@
         },
         {
           "ovr_rank": 264,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 3,
           "ovr_rating": -27.05,
@@ -50048,7 +50048,7 @@
         },
         {
           "ovr_rank": 277,
-          "school": "Liberal with Bronaugh",
+          "school": "Liberal",
           "classification": 1,
           "district": 3,
           "ovr_rating": -33.2,
@@ -50150,7 +50150,7 @@
         },
         {
           "ovr_rank": 283,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 5,
           "ovr_rating": -37.37,
@@ -50337,7 +50337,7 @@
         },
         {
           "ovr_rank": 294,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -44.77,
@@ -50439,7 +50439,7 @@
         },
         {
           "ovr_rank": 300,
-          "school": "Appleton City with Montrose",
+          "school": "Appleton City",
           "classification": 1,
           "district": 3,
           "ovr_rating": -47.78,
@@ -50473,7 +50473,7 @@
         },
         {
           "ovr_rank": 302,
-          "school": "Drexel with Miami (Amoret)",
+          "school": "Drexel",
           "classification": 1,
           "district": 4,
           "ovr_rating": -48.28,
@@ -50490,7 +50490,7 @@
         },
         {
           "ovr_rank": 303,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 6,
           "ovr_rating": -49.26,
@@ -50558,7 +50558,7 @@
         },
         {
           "ovr_rank": 307,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 7,
           "ovr_rating": -51.33,
@@ -50694,7 +50694,7 @@
         },
         {
           "ovr_rank": 315,
-          "school": "Rich Hill with Hume",
+          "school": "Rich Hill",
           "classification": 1,
           "district": 3,
           "ovr_rating": -56.47,
@@ -53965,7 +53965,7 @@
         },
         {
           "ovr_rank": 181,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 8,
           "ovr_rating": -7.13,
@@ -54033,7 +54033,7 @@
         },
         {
           "ovr_rank": 185,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": null,
           "district": null,
           "ovr_rating": -7.89,
@@ -54305,7 +54305,7 @@
         },
         {
           "ovr_rank": 201,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -11.52,
@@ -55019,7 +55019,7 @@
         },
         {
           "ovr_rank": 243,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 3,
           "ovr_rating": -19.91,
@@ -55172,7 +55172,7 @@
         },
         {
           "ovr_rank": 252,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -22.15,
@@ -55376,7 +55376,7 @@
         },
         {
           "ovr_rank": 264,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -27.34,
@@ -56039,7 +56039,7 @@
         },
         {
           "ovr_rank": 303,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 6,
           "ovr_rating": -52.71,
@@ -56073,7 +56073,7 @@
         },
         {
           "ovr_rank": 305,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 7,
           "ovr_rating": -54.84,
@@ -59123,7 +59123,7 @@
         },
         {
           "ovr_rank": 164,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 7,
           "ovr_rating": -5.34,
@@ -59259,7 +59259,7 @@
         },
         {
           "ovr_rank": 172,
-          "school": "Lockwood with Golden City",
+          "school": "Lockwood",
           "classification": 1,
           "district": 4,
           "ovr_rating": -6.14,
@@ -59650,7 +59650,7 @@
         },
         {
           "ovr_rank": 195,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -14.3,
@@ -60075,7 +60075,7 @@
         },
         {
           "ovr_rank": 220,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 5,
           "ovr_rating": -20.31,
@@ -60806,7 +60806,7 @@
         },
         {
           "ovr_rank": 263,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -40.37,
@@ -60823,7 +60823,7 @@
         },
         {
           "ovr_rank": 264,
-          "school": "Clopton with Elsberry",
+          "school": "Clopton",
           "classification": 2,
           "district": 6,
           "ovr_rating": -40.69,
@@ -60942,7 +60942,7 @@
         },
         {
           "ovr_rank": 271,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": 2,
           "district": 5,
           "ovr_rating": -42.83,
@@ -61248,7 +61248,7 @@
         },
         {
           "ovr_rank": 289,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 7,
           "ovr_rating": -62.67,
@@ -64859,7 +64859,7 @@
         },
         {
           "ovr_rank": 208,
-          "school": "Sweet Springs with Malta Bend",
+          "school": "Sweet Springs",
           "classification": 1,
           "district": 5,
           "ovr_rating": -16.79,
@@ -65505,7 +65505,7 @@
         },
         {
           "ovr_rank": 246,
-          "school": "Crest Ridge with Chilhowee",
+          "school": "Crest Ridge",
           "classification": 1,
           "district": 4,
           "ovr_rating": -25.84,
@@ -65692,7 +65692,7 @@
         },
         {
           "ovr_rank": 257,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -28.69,
@@ -66100,7 +66100,7 @@
         },
         {
           "ovr_rank": 281,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -39.34,
@@ -66168,7 +66168,7 @@
         },
         {
           "ovr_rank": 285,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": 1,
           "district": 7,
           "ovr_rating": -42.37,
@@ -66321,7 +66321,7 @@
         },
         {
           "ovr_rank": 294,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -52.88,
@@ -66372,7 +66372,7 @@
         },
         {
           "ovr_rank": 297,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 5,
           "ovr_rating": -53.99,
@@ -67603,7 +67603,7 @@
         },
         {
           "ovr_rank": 65,
-          "school": "Gallatin with Tri-County",
+          "school": "Gallatin",
           "classification": 1,
           "district": 7,
           "ovr_rating": 23.36,
@@ -70272,7 +70272,7 @@
         },
         {
           "ovr_rank": 222,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": -22.56,
@@ -70765,7 +70765,7 @@
         },
         {
           "ovr_rank": 251,
-          "school": "Princeton with Mercer",
+          "school": "Princeton",
           "classification": null,
           "district": null,
           "ovr_rating": -30.53,
@@ -70952,7 +70952,7 @@
         },
         {
           "ovr_rank": 262,
-          "school": "Crest Ridge with Chilhowee",
+          "school": "Crest Ridge",
           "classification": 1,
           "district": 4,
           "ovr_rating": -33.26,
@@ -71241,7 +71241,7 @@
         },
         {
           "ovr_rank": 279,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -40.97,
@@ -71275,7 +71275,7 @@
         },
         {
           "ovr_rank": 281,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -42.59,
@@ -73475,7 +73475,7 @@
         },
         {
           "ovr_rank": 110,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": 8.8,
@@ -74937,7 +74937,7 @@
         },
         {
           "ovr_rank": 196,
-          "school": "Clayton with Brentwood",
+          "school": "Clayton",
           "classification": 4,
           "district": 3,
           "ovr_rating": -15.61,
@@ -74971,7 +74971,7 @@
         },
         {
           "ovr_rank": 198,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -16.21,
@@ -75566,7 +75566,7 @@
         },
         {
           "ovr_rank": 233,
-          "school": "Crest Ridge with Chilhowee",
+          "school": "Crest Ridge",
           "classification": 1,
           "district": 3,
           "ovr_rating": -25.08,
@@ -75787,7 +75787,7 @@
         },
         {
           "ovr_rank": 246,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -30.45,
@@ -76399,7 +76399,7 @@
         },
         {
           "ovr_rank": 282,
-          "school": "Gallatin with Tri-County",
+          "school": "Gallatin",
           "classification": 1,
           "district": 4,
           "ovr_rating": -48.77,
@@ -76654,7 +76654,7 @@
         },
         {
           "ovr_rank": 297,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 6,
           "ovr_rating": -71.96,
@@ -78667,7 +78667,7 @@
         },
         {
           "ovr_rank": 118,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": 5.42,
@@ -79330,7 +79330,7 @@
         },
         {
           "ovr_rank": 157,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -4.48,
@@ -79381,7 +79381,7 @@
         },
         {
           "ovr_rank": 160,
-          "school": "Knob Noster with Leeton",
+          "school": "Knob Noster",
           "classification": 3,
           "district": 4,
           "ovr_rating": -4.79,
@@ -79653,7 +79653,7 @@
         },
         {
           "ovr_rank": 176,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -8.4,
@@ -80264,7 +80264,7 @@
           "def_rank_class_alltime": 655
         },
         {
-          "school": "Miller Career Academy with Vashon",
+          "school": "Miller Career Academy",
           "classification": 4,
           "district": 3,
           "ovr_rating": -17.54,
@@ -80690,7 +80690,7 @@
         },
         {
           "ovr_rank": 237,
-          "school": "Clayton with Brentwood",
+          "school": "Clayton",
           "classification": 4,
           "district": 4,
           "ovr_rating": -24.27,
@@ -81353,7 +81353,7 @@
         },
         {
           "ovr_rank": 276,
-          "school": "Crest Ridge with Chilhowee",
+          "school": "Crest Ridge",
           "classification": 1,
           "district": 2,
           "ovr_rating": -41.46,
@@ -81455,7 +81455,7 @@
         },
         {
           "ovr_rank": 282,
-          "school": "Gallatin with Tri-County",
+          "school": "Gallatin",
           "classification": 1,
           "district": 4,
           "ovr_rating": -44.52,
@@ -81591,7 +81591,7 @@
         },
         {
           "ovr_rank": 289,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 6,
           "ovr_rating": -49.67,
@@ -83315,7 +83315,7 @@
         },
         {
           "ovr_rank": 92,
-          "school": "Father Tolton with Calvary Lutheran",
+          "school": "Father Tolton",
           "classification": null,
           "district": null,
           "ovr_rating": 15.49,
@@ -84539,7 +84539,7 @@
         },
         {
           "ovr_rank": 164,
-          "school": "DeSoto with Kingston",
+          "school": "DeSoto",
           "classification": null,
           "district": null,
           "ovr_rating": -5.2,
@@ -85491,7 +85491,7 @@
         },
         {
           "ovr_rank": 220,
-          "school": "Van-Far with Community",
+          "school": "Van-Far",
           "classification": null,
           "district": null,
           "ovr_rating": -22.86,
@@ -85576,7 +85576,7 @@
         },
         {
           "ovr_rank": 225,
-          "school": "Gallatin with Tri-County",
+          "school": "Gallatin",
           "classification": 1,
           "district": 6,
           "ovr_rating": -24.99,
@@ -86086,7 +86086,7 @@
         },
         {
           "ovr_rank": 255,
-          "school": "Crest Ridge with Chilhowee",
+          "school": "Crest Ridge",
           "classification": 1,
           "district": 5,
           "ovr_rating": -34.5,
@@ -86102,7 +86102,7 @@
           "def_rank_class_alltime": 675
         },
         {
-          "school": "Miller Career Academy with Sumner",
+          "school": "Miller Career Academy",
           "classification": 5,
           "district": 1,
           "ovr_rating": -34.51,
@@ -86477,7 +86477,7 @@
         },
         {
           "ovr_rank": 278,
-          "school": "Clayton with Brentwood",
+          "school": "Clayton",
           "classification": 4,
           "district": 4,
           "ovr_rating": -50.7,
@@ -86681,7 +86681,7 @@
         },
         {
           "ovr_rank": 290,
-          "school": "Lone Jack with Kingsville",
+          "school": "Lone Jack",
           "classification": 2,
           "district": 6,
           "ovr_rating": -58.26,
