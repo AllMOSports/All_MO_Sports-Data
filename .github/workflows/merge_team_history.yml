@@ -1,0 +1,44 @@
+name: Merge Team History
+ 
+# Manual trigger only -- no schedule/cron. Run from the Actions tab
+# (or `gh workflow run merge_team_history.yml`) whenever you want to
+# regenerate the team_history_{sport}.json files.
+on:
+  workflow_dispatch:
+    inputs:
+      sports:
+        description: >
+          Space-separated sport keys to run (e.g. "boys_basketball girls_volleyball").
+          Leave blank to run all 9 sports.
+        required: false
+        default: ""
+ 
+permissions:
+  contents: write  # needed to push the generated JSON back to the repo
+ 
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      - name: Run merge script
+        run: python merge_team_history.py ${{ github.event.inputs.sports }}
+ 
+      - name: Commit and push output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/mshsaa_historical_records/team_history/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update team_history JSON (manual run)"
+            git push
+          fi
