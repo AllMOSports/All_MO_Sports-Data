@@ -2,7 +2,7 @@
   "sport": "football",
   "schema": "POINTS",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=19",
-  "scraped_at": "2026-09-07T13:57:24+00:00",
+  "scraped_at": "2026-09-08T12:36:24+00:00",
   "teams": [
     {
       "school": "Portageville",
@@ -334,11 +334,11 @@
       "classification_code": 0,
       "classification_label": "8-Man",
       "district": 7,
-      "points_for": 142,
+      "points_for": 143,
       "points_against": 84,
-      "ppg": 71,
+      "ppg": 71.5,
       "oppg": 42,
-      "mov": 29,
+      "mov": 29.5,
       "wins": 2,
       "losses": 0,
       "ties": 0,
