@@ -26003,6 +26003,19 @@
         "def_delta": 3.4,
         "ovr_delta": 13.5
       }
+      {
+        "date": "2016-11-26",
+        "opponent": "Monroe City",
+        "home_away": "Away",
+        "team_score": 14,
+        "opp_score": 47,
+        "result": "L",
+        "predicted_team_score": 12,
+        "predicted_opp_score": 39.3,
+        "off_delta": 2,
+        "def_delta": -7.7,
+        "ovr_delta": -5.7
+      }
     ],
     "Montgomery County": [
       {
@@ -31184,6 +31197,32 @@
         "off_delta": 4.5,
         "def_delta": -14.0,
         "ovr_delta": -9.5
+      }
+      {
+        "date": "2016-11-19",
+        "opponent": "Valle Catholic",
+        "home_away": "Home",
+        "team_score": 33,
+        "opp_score": 19,
+        "result": "W",
+        "predicted_team_score": 35.9,
+        "predicted_opp_score": 29,
+        "off_delta": -2.9,
+        "def_delta": 10,
+        "ovr_delta": 7.1
+      }
+      {
+        "date": "2016-11-26",
+        "opponent": "Monroe City",
+        "home_away": "Home",
+        "team_score": 47,
+        "opp_score": 14,
+        "result": "W",
+        "predicted_team_score": 39.3,
+        "predicted_opp_score": 12,
+        "off_delta": 7.7,
+        "def_delta": -2,
+        "ovr_delta": 5.7
       }
     ],
     "Perryville": [
@@ -42532,6 +42571,19 @@
         "off_delta": -3.4,
         "def_delta": 1.8,
         "ovr_delta": -1.6
+      }
+      {
+        "date": "2016-11-19",
+        "opponent": "Penney",
+        "home_away": "away",
+        "team_score": 19,
+        "opp_score": 33,
+        "result": "L",
+        "predicted_team_score": 29,
+        "predicted_opp_score": 35.9,
+        "off_delta": -10,
+        "def_delta": 2.9,
+        "ovr_delta": -7.1
       }
     ],
     "Van Horn": [
