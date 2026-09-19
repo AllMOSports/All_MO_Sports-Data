@@ -1,38 +1,12 @@
 {
-  "updated": "September 18, 2026",
+  "updated": "September 19, 2026",
   "FTB": {
     "name": "Football",
     "season": "2025 season",
     "badgeBg": "#e6f1fb",
     "badgeFg": "#185fa5",
     "url": "https://allmosports.com/ftb-2025-all-classes-rankings/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Blue Springs South",
-        "ovr": "77.13"
-      },
-      {
-        "rank": "2",
-        "school": "Christian Brothers College",
-        "ovr": "71.51"
-      },
-      {
-        "rank": "3",
-        "school": "Platte County",
-        "ovr": "66.63"
-      },
-      {
-        "rank": "4",
-        "school": "Jackson",
-        "ovr": "65.59"
-      },
-      {
-        "rank": "5",
-        "school": "Nixa",
-        "ovr": "62.72"
-      }
-    ]
+    "teams": []
   },
   "BBB": {
     "name": "Boys Basketball",
@@ -40,33 +14,7 @@
     "badgeBg": "#faeeda",
     "badgeFg": "#854f0b",
     "url": "https://allmosports.com/2025-2026-boys-basketball-all-teams-rankings/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Principia",
-        "ovr": "64.79"
-      },
-      {
-        "rank": "2",
-        "school": "Logan-Rogersville",
-        "ovr": "55.08"
-      },
-      {
-        "rank": "3",
-        "school": "Kickapoo",
-        "ovr": "54.37"
-      },
-      {
-        "rank": "4",
-        "school": "De Smet Jesuit",
-        "ovr": "54.10"
-      },
-      {
-        "rank": "5",
-        "school": "Rockhurst",
-        "ovr": "53.82"
-      }
-    ]
+    "teams": []
   },
   "GBB": {
     "name": "Girls Basketball",
@@ -74,33 +22,7 @@
     "badgeBg": "#fbeaf0",
     "badgeFg": "#993556",
     "url": "https://allmosports.com/girls-basketball-all-classes-rankings-25-26/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Incarnate Word Academy",
-        "ovr": "76.82"
-      },
-      {
-        "rank": "2",
-        "school": "Staley",
-        "ovr": "74.12"
-      },
-      {
-        "rank": "3",
-        "school": "Lee's Summit West",
-        "ovr": "64.32"
-      },
-      {
-        "rank": "4",
-        "school": "Jackson",
-        "ovr": "56.80"
-      },
-      {
-        "rank": "5",
-        "school": "Strafford",
-        "ovr": "54.44"
-      }
-    ]
+    "teams": []
   },
   "BSB": {
     "name": "Baseball",
@@ -108,33 +30,7 @@
     "badgeBg": "#e1f5ee",
     "badgeFg": "#0f6e56",
     "url": "https://allmosports.com/baseball-rankings-all-teams-2026-season/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Blue Springs South",
-        "ovr": "14.89"
-      },
-      {
-        "rank": "2",
-        "school": "Liberty North",
-        "ovr": "13.57"
-      },
-      {
-        "rank": "3",
-        "school": "Eureka",
-        "ovr": "13.01"
-      },
-      {
-        "rank": "4",
-        "school": "Rockhurst",
-        "ovr": "12.98"
-      },
-      {
-        "rank": "5",
-        "school": "Staley",
-        "ovr": "12.50"
-      }
-    ]
+    "teams": []
   },
   "GSC": {
     "name": "Girls Soccer",
@@ -142,33 +38,7 @@
     "badgeBg": "#eaf3de",
     "badgeFg": "#3b6d11",
     "url": "https://allmosports.com/girls-soccer-rankings-all-classes-2026/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Cor Jesu Academy",
-        "ovr": "10.32"
-      },
-      {
-        "rank": "2",
-        "school": "Nerinx Hall",
-        "ovr": "8.37"
-      },
-      {
-        "rank": "3",
-        "school": "St. Joseph's Academy",
-        "ovr": "7.74"
-      },
-      {
-        "rank": "4",
-        "school": "Ft. Zumwalt South",
-        "ovr": "7.61"
-      },
-      {
-        "rank": "5",
-        "school": "St. Dominic",
-        "ovr": "7.55"
-      }
-    ]
+    "teams": []
   },
   "SFT": {
     "name": "Spring Softball",
@@ -176,33 +46,7 @@
     "badgeBg": "#faece7",
     "badgeFg": "#993c1d",
     "url": "https://allmosports.com/spring-softball-rankings-all-classes-2026/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Mt. Vernon",
-        "ovr": "15.50"
-      },
-      {
-        "rank": "2",
-        "school": "Skyline",
-        "ovr": "15.22"
-      },
-      {
-        "rank": "3",
-        "school": "East Newton",
-        "ovr": "14.50"
-      },
-      {
-        "rank": "4",
-        "school": "Warsaw",
-        "ovr": "13.37"
-      },
-      {
-        "rank": "5",
-        "school": "Clever",
-        "ovr": "12.09"
-      }
-    ]
+    "teams": []
   },
   "BSC": {
     "name": "Boys Soccer",
@@ -210,33 +54,7 @@
     "badgeBg": "#ede9fe",
     "badgeFg": "#4c1d95",
     "url": "https://allmosports.com/boys-soccer-rankings-all-classes-2025-season/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Rockhurst",
-        "ovr": "7.57"
-      },
-      {
-        "rank": "2",
-        "school": "SLUH",
-        "ovr": "5.98"
-      },
-      {
-        "rank": "3",
-        "school": "Springfield Catholic",
-        "ovr": "5.69"
-      },
-      {
-        "rank": "4",
-        "school": "Ladue Horton Watkins",
-        "ovr": "5.46"
-      },
-      {
-        "rank": "5",
-        "school": "Glendale",
-        "ovr": "5.05"
-      }
-    ]
+    "teams": []
   },
   "GVB": {
     "name": "Girls Volleyball",
@@ -244,33 +62,7 @@
     "badgeBg": "#fdf2ff",
     "badgeFg": "#7e22ce",
     "url": "https://allmosports.com/girls-volleyball-rankings-all-classes-2025-season/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Lafayette (Wildwood)",
-        "ovr": "6.94"
-      },
-      {
-        "rank": "2",
-        "school": "Lee's Summit West",
-        "ovr": "5.98"
-      },
-      {
-        "rank": "3",
-        "school": "Lee's Summit North",
-        "ovr": "5.91"
-      },
-      {
-        "rank": "4",
-        "school": "Nixa",
-        "ovr": "5.87"
-      },
-      {
-        "rank": "5",
-        "school": "Ozark",
-        "ovr": "5.83"
-      }
-    ]
+    "teams": []
   },
   "FST": {
     "name": "Fall Softball",
@@ -278,32 +70,6 @@
     "badgeBg": "#e0f2fe",
     "badgeFg": "#0369a1",
     "url": "https://allmosports.com/fall-softball-rankings-all-classes-2025-season/",
-    "teams": [
-      {
-        "rank": "1",
-        "school": "Raymore-Peculiar",
-        "ovr": "13.95"
-      },
-      {
-        "rank": "2",
-        "school": "Liberty North",
-        "ovr": "13.73"
-      },
-      {
-        "rank": "3",
-        "school": "Ft. Zumwalt West",
-        "ovr": "13.08"
-      },
-      {
-        "rank": "4",
-        "school": "Blue Springs South",
-        "ovr": "12.99"
-      },
-      {
-        "rank": "5",
-        "school": "Rock Bridge",
-        "ovr": "12.97"
-      }
-    ]
+    "teams": []
   }
 }
