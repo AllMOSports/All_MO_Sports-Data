@@ -2,12 +2,12 @@ name: Scrape MSHSAA Season Records 2026-2027
  
 on:
   schedule:
-    # 08:00 UTC = 2:00 AM CST (Central Standard Time, UTC-6)
+    # 11:00 UTC = 5:00 AM CST (Central Standard Time, UTC-6)
     # NOTE: GitHub Actions cron is fixed UTC and does not shift for DST.
-    # During CDT (mid-March - early November), this fires at 3:00 AM local
-    # instead of 2:00 AM. See chat note if you want true year-round 2:00 AM
+    # During CDT (mid-March - early November), this fires at 6:00 AM local
+    # instead of 5:00 AM. See chat note if you want true year-round 5:00 AM
     # local time instead (requires two schedule entries + seasonal upkeep).
-    - cron: '0 8 * * *'
+    - cron: '0 11 * * *'
   workflow_dispatch: {}  # lets you trigger it manually from the Actions tab for testing
  
 jobs:
@@ -37,3 +37,4 @@ jobs:
           git add output/season_records/
           git diff --cached --quiet || git commit -m "Nightly season records scrape: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+ 
