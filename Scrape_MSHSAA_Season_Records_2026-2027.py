@@ -19,8 +19,10 @@ tied team if you want certainty; MSHSAA doesn't document it anywhere I
 could find.
 """
  
+import functools
 import json
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,7 +31,7 @@ import requests
 from bs4 import BeautifulSoup
 import socket
 import urllib3.util.connection as urllib3_cn
-
+ 
 # Added after the football scraper (same machine) hit "Network is
 # unreachable" (errno 101) -- traced to mshsaa.org resolving to both
 # IPv4 and IPv6 addresses, with this network's IPv6 route not actually
@@ -38,8 +40,12 @@ import urllib3.util.connection as urllib3_cn
 # particular script was never hitting it.
 def _force_ipv4_only():
     return socket.AF_INET
-
+ 
 urllib3_cn.allowed_gai_family = _force_ipv4_only
+ 
+# GitHub Actions isn't a TTY, so stdout is block-buffered and prints can
+# vanish entirely if the job is cancelled. Flush every print immediately.
+print = functools.partial(print, flush=True)
  
 # ---------------------------------------------------------------------------
 # CONFIG
@@ -96,6 +102,13 @@ REQUEST_HEADERS = {
 }
 MAX_FETCH_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 5
+# (connect, read). A blocked IP usually fails at connect, so keep that short.
+# Note: read timeout is per socket read, not a cap on total download time.
+CONNECT_TIMEOUT_SECONDS = 10
+READ_TIMEOUT_SECONDS = 30
+# If this many sports in a row fail to fetch, assume we're blocked and stop
+# instead of burning ~100s per remaining sport on timeouts.
+MAX_CONSECUTIVE_FETCH_FAILURES = 2
 ROW_SELECTOR_CLASS = "fs_tablecolumn"
  
 # ---------------------------------------------------------------------------
@@ -302,7 +315,11 @@ def fetch_page(sport_alg):
     last_error = None
     for attempt in range(1, MAX_FETCH_ATTEMPTS + 1):
         try:
-            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
+            resp = requests.get(
+                url,
+                headers=REQUEST_HEADERS,
+                timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
+            )
             resp.raise_for_status()
             return resp.text, url
         except requests.exceptions.RequestException as e:
@@ -338,14 +355,24 @@ def scrape_sport(sport_key, sport_alg, output_dir):
 def main():
     output_dir = Path(OUTPUT_DIR_DEFAULT)
     all_records = {}
+    consecutive_failures = 0
  
     for sport_key, sport_alg in SPORT_ALG_MAP.items():
         print(f"Scraping {sport_key} (alg={sport_alg}, schema={SPORT_SCHEMA[sport_key]})...")
+        started = time.monotonic()
         try:
             team_count, out_path = scrape_sport(sport_key, sport_alg, output_dir)
         except Exception as e:
-            print(f"  [ERROR] {e}")
+            print(f"  [ERROR] after {time.monotonic() - started:.1f}s: {e}")
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_FETCH_FAILURES:
+                print(
+                    f"\n[ABORT] {consecutive_failures} sports in a row failed to fetch -- "
+                    "mshsaa.org is likely blocking this machine's IP. Stopping early."
+                )
+                sys.exit(1)
             continue
+        consecutive_failures = 0
  
         if team_count == 0:
             print(f"  -> 0 teams (expected if {sport_key}'s season hasn't started)")
