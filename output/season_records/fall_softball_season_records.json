@@ -2,7 +2,7 @@
   "sport": "fall_softball",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=38",
-  "scraped_at": "2026-09-30T15:41:34+00:00",
+  "scraped_at": "2026-09-30T16:36:06+00:00",
   "teams": [
     {
       "school": "Grain Valley",
@@ -4595,24 +4595,6 @@
       "games_played": 17
     },
     {
-      "school": "East Buchanan",
-      "mshsaa_school_id": 45,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 7,
-      "points_for": 72,
-      "points_against": 144,
-      "ppg": 5.54,
-      "oppg": 11.08,
-      "mov": -5.54,
-      "wins": 3,
-      "losses": 10,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 23.08,
-      "games_played": 13
-    },
-    {
       "school": "Orchard Farm",
       "mshsaa_school_id": 403,
       "classification_code": 3,
@@ -4695,6 +4677,24 @@
       "ppg": 3.4,
       "oppg": 13.8,
       "mov": -10.4,
+      "wins": 3,
+      "losses": 12,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 20.0,
+      "games_played": 15
+    },
+    {
+      "school": "East Buchanan",
+      "mshsaa_school_id": 45,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 7,
+      "points_for": 84,
+      "points_against": 183,
+      "ppg": 5.6,
+      "oppg": 12.2,
+      "mov": -6.6,
       "wins": 3,
       "losses": 12,
       "ties": 0,
