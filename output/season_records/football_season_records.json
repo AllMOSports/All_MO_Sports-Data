@@ -2,7 +2,7 @@
   "sport": "football",
   "schema": "POINTS",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=19",
-  "scraped_at": "2026-10-05T19:27:13+00:00",
+  "scraped_at": "2026-10-06T17:03:49+00:00",
   "teams": [
     {
       "school": "Lockwood",
@@ -6077,10 +6077,10 @@
       "classification_label": "4",
       "district": 8,
       "points_for": 66,
-      "points_against": 223,
+      "points_against": 222,
       "ppg": 11,
-      "oppg": 37.17,
-      "mov": -26.17,
+      "oppg": 37,
+      "mov": -26,
       "wins": 0,
       "losses": 6,
       "ties": 0,
