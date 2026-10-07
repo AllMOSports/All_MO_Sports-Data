@@ -1,0 +1,86 @@
+# All MO Sports Weekly - newsletter settings
+# ------------------------------------------------------------
+# Edit this file to change what the weekly draft includes.
+# No code changes needed: turn sports on/off, change list sizes,
+# or feature specific teams here.
+
+brand: All MO Sports
+site_url: https://allmosports.com
+twitter_handle: "@All_MO_Sports"
+
+# How many teams in each sport's "Statewide top" table.
+top_n: 5
+
+# "What happened": results between two teams ranked this high or better.
+results_rank_cutoff: 25
+results_max: 4
+
+# "Games to watch": upcoming games (next 7 days) between ranked teams.
+watch_rank_cutoff: 25
+watch_max: 3
+
+# "Still unbeaten": teams with no losses and at least this many wins.
+# Ties still count as unbeaten.
+unbeaten_min_wins: 5
+unbeaten_max_listed: 12
+
+# Upsets shown per sport (the biggest by rating gap).
+upsets_max: 1
+
+# Always add a short "Featured teams" section with these schools' results
+# for the week (use the exact school name from the ratings files).
+featured_teams: []
+
+# Schools to leave out of every list (rarely needed).
+exclude_teams: []
+
+sports:
+  football:
+    enabled: true
+    label: Football
+    unit: points
+    ratings_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/football_ratings_2026.json
+    # Football uses the per-team schedule file instead of a flat games list.
+    schedule_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/team_schedules_2026.json
+    rankings_page: https://allmosports.com/football-rankings/
+    upset_min_gap: 10        # rating points the loser had to be better by
+    predicted_scores: true   # show "Our pick: Team 31-21" for football
+    league_average: 26       # same constant as the Matchup Predictor
+
+  boys_soccer:
+    enabled: true
+    label: Boys Soccer
+    unit: goals
+    ratings_url: https://raw.githubusercontent.com/AllMOSports/Boys_Soccer_Ratings_2026/main/boys_soccer_ratings_2026.json
+    games_url: https://raw.githubusercontent.com/AllMOSports/Boys_Soccer_Ratings_2026/main/boys_soccer_games_2026_all.json
+    rankings_page: https://allmosports.com/boys-soccer-rankings/
+    upset_min_gap: 1.5
+
+  girls_volleyball:
+    enabled: true
+    label: Girls Volleyball
+    unit: sets
+    ratings_url: https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Ratings_2026/main/girls_volleyball_ratings_2026.json
+    games_url: https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Ratings_2026/main/girls_volleyball_games_2026_all.json
+    rankings_page: https://allmosports.com/girls-volleyball-rankings/
+    upset_min_gap: 1.0
+
+  fall_softball:
+    enabled: true
+    label: Fall Softball
+    unit: runs
+    ratings_url: https://raw.githubusercontent.com/AllMOSports/Fall_Softball_Ratings_2026/main/fall_softball_ratings_2026.json
+    games_url: https://raw.githubusercontent.com/AllMOSports/Fall_Softball_Ratings_2026/main/fall_softball_games_2026_all.json
+    rankings_page: https://allmosports.com/fall-softball-rankings/
+    upset_min_gap: 4
+
+# Closing call-to-action at the bottom of the newsletter.
+closing_cta:
+  enabled: true
+  heading: Districts are almost here
+  text: See where your football team would be seeded today, then fill in the bracket yourself.
+  links:
+    - label: Bracket Predictor
+      url: https://allmosports.com/football-postseason-bracket-predictor/
+    - label: District Points
+      url: https://allmosports.com/district-points-predictor/
