@@ -1,0 +1,52 @@
+# Builds the All MO Sports Weekly draft every Monday morning and commits
+# the ratings snapshot + draft files back to the repo.
+#
+# Step 1 (now): drafts land in newsletter/newsletter_output/drafts/<week>/
+#   Open preview.html to review; copy draft_blocks.html into a new
+#   WordPress post (Code editor) to edit and send.
+# Step 2 (later): this job will create the WordPress draft post directly.
+
+name: Weekly newsletter draft
+
+on:
+  schedule:
+    # 11:00 UTC Monday = 6:00 AM CDT / 5:00 AM CST, after the nightly ratings runs
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+    inputs:
+      week_ending:
+        description: "Sunday the week ends on (YYYY-MM-DD). Leave blank for last week."
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Build draft
+        working-directory: newsletter
+        run: |
+          if [ -n "${{ github.event.inputs.week_ending }}" ]; then
+            python build_weekly_newsletter.py --week-ending "${{ github.event.inputs.week_ending }}"
+          else
+            python build_weekly_newsletter.py
+          fi
+
+      - name: Commit snapshot and draft
+        run: |
+          git config user.name "All MO Sports Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add newsletter/newsletter_output
+          git diff --cached --quiet || git commit -m "Weekly newsletter draft and ratings snapshot"
+          git push
