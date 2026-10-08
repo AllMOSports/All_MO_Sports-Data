@@ -48,7 +48,10 @@ movers_rank_window: 50
 movers_min: 3            # smallest move worth listing
 movers_max: 2            # risers and fallers shown per sport
 
-# This week in history: try these seasons in order (years ago).
+# This week in history.
+#   best  = search every past season and feature the best game from this week in any year
+#   years = only try the seasons listed in history_years_ago, in that order
+history_mode: best
 history_years_ago: [10, 5, 15]
 
 # Always add a short "Featured teams" section with these schools' results

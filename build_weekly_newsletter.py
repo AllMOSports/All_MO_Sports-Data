@@ -481,7 +481,17 @@ def save_pending_picks(out_dir):
 # ----------------------------------------------------------------------
 
 def history_items(sport_key, cfg, settings, week_start, week_end):
-    """One notable game per sport from this same week in an earlier season."""
+    """The most notable game from this same calendar week in any past season.
+
+    history_mode "best" (default): search every season in the history files
+    and pick the best game from this week in any year.
+    history_mode "years": only try history_years_ago, in order (old behavior).
+
+    "Best" = the matchup between two teams that finished highest (both top 10,
+    lowest combined final rank; ties go to the closer game, then the more
+    recent year). If no week in any season had a top-10 matchup, it uses the
+    biggest upset by end-of-season rating gap instead.
+    """
     pattern = cfg.get("history_schedule_url")
     ratings_url = cfg.get("history_ratings_url")
     if not pattern or not ratings_url:
@@ -497,18 +507,34 @@ def history_items(sport_key, cfg, settings, week_start, week_end):
         ranked = sorted(s["teams"], key=lambda t: -t["ovr_rating"])
         seasons[s["year"]] = {t["school"]: dict(t, ovr_rank=i + 1) for i, t in enumerate(ranked)}
     ws, we = dt.date.fromisoformat(week_start), dt.date.fromisoformat(week_end)
-    for ago in settings.get("history_years_ago", [10, 5, 15]):
-        year = ws.year - ago
+
+    if settings.get("history_mode", "best") == "years":
+        years = [ws.year - a for a in settings.get("history_years_ago", [10, 5, 15])]
+        stop_at_first = True
+    else:
+        years = sorted((y for y in seasons if y < ws.year), reverse=True)
+        stop_at_first = False
+
+    best_match, best_upset = None, None
+
+    def match_key(m):
+        # lower = better: combined rank, then closer game, then more recent
+        return (m["w_rank"] + m["l_rank"], m["w_score"] - m["l_score"], -m["year"])
+
+    for year in years:
         if year not in seasons:
             continue
         try:
             sched = fetch_json(pattern.format(year=year))
         except Exception:
             continue
-        lo = ws.replace(year=year).isoformat()
-        hi = we.replace(year=year).isoformat()
+        try:
+            lo = ws.replace(year=year).isoformat()
+            hi = we.replace(year=year).isoformat()
+        except ValueError:  # Feb. 29
+            continue
         R = seasons[year]
-        seen, best_match, best_upset = set(), None, None
+        seen = set()
         for team, lst in sched.get("teams", {}).items():
             for g in lst:
                 if not (lo <= g["date"] <= hi) or g.get("team_score") is None or g.get("opp_score") is None:
@@ -525,17 +551,18 @@ def history_items(sport_key, cfg, settings, week_start, week_end):
                     continue
                 w, l, wsc, lsc = (team, opp, ts, os_) if ts > os_ else (opp, team, os_, ts)
                 rw, rl = R[w]["ovr_rank"], R[l]["ovr_rank"]
-                item = {"years_ago": ago, "year": year, "date": g["date"], "winner": w, "loser": l,
+                item = {"years_ago": ws.year - year, "year": year, "date": g["date"], "winner": w, "loser": l,
                         "w_score": wsc, "l_score": lsc, "w_rank": rw, "l_rank": rl}
-                if rw <= 10 and rl <= 10 and (best_match is None or rw + rl < best_match["w_rank"] + best_match["l_rank"]):
-                    best_match = dict(item, kind="matchup")
+                if rw <= 10 and rl <= 10:
+                    cand = dict(item, kind="matchup")
+                    if best_match is None or match_key(cand) < match_key(best_match):
+                        best_match = cand
                 gap = R[l]["ovr_rating"] - R[w]["ovr_rating"]
                 if gap > 0 and (best_upset is None or gap > best_upset["gap"]):
                     best_upset = dict(item, kind="upset", gap=round(gap, 1))
-        pick = best_match or best_upset
-        if pick:
-            return pick
-    return None
+        if stop_at_first and (best_match or best_upset):
+            break
+    return best_match or best_upset
 
 
 # ----------------------------------------------------------------------
@@ -860,7 +887,8 @@ def build_blocks(data, settings):
         out.append(b_heading("This week in history"))
         items = []
         for label, h in hist:
-            when = f"{h['years_ago']} years ago this week ({short_date(h['date'])}, {h['year']})"
+            ago = "Last year" if h["years_ago"] == 1 else f"{h['years_ago']} years ago"
+            when = f"{ago} this week ({short_date(h['date'])}, {h['year']})"
             game = f"No. {h['w_rank']} {esc(h['winner'])} beat No. {h['l_rank']} {esc(h['loser'])}, {h['w_score']}–{h['l_score']}"
             if h["kind"] == "matchup":
                 tail = "Ranks are where each team finished that season."
