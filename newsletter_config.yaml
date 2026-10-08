@@ -35,6 +35,22 @@ unbeaten_max_listed: 12
 # Upsets shown per sport (the biggest by rating gap).
 upsets_max: 1
 
+# Sections you can turn on or off.
+sections:
+  class_leaders: true    # No. 1 team in each class, per sport
+  picks_record: true     # "How our picks did": grades last week's picks (starts after the first week)
+  movers: true           # Biggest movers (needs last week's snapshot, so starts the second week)
+  by_the_numbers: true   # Highest-scoring game, biggest margin, win streaks, top offense/defense
+  history: true          # "This week in history" from past seasons
+
+# Biggest movers: only teams ranked this high now (risers) or last week (fallers).
+movers_rank_window: 50
+movers_min: 3            # smallest move worth listing
+movers_max: 2            # risers and fallers shown per sport
+
+# This week in history: try these seasons in order (years ago).
+history_years_ago: [10, 5, 15]
+
 # Always add a short "Featured teams" section with these schools' results
 # for the week (use the exact school name from the ratings files).
 featured_teams: []
@@ -54,6 +70,9 @@ sports:
     upset_min_gap: 10        # rating points the loser had to be better by
     predicted_scores: true   # show "Our pick: Team 31-21" for football
     league_average: 26       # same constant as the Matchup Predictor
+    numbers: [high_score, margin, streak, offense, defense]
+    history_ratings_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json
+    history_schedule_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/football_schedule_{year}.json
 
   boys_soccer:
     enabled: true
@@ -63,6 +82,9 @@ sports:
     games_url: https://raw.githubusercontent.com/AllMOSports/Boys_Soccer_Ratings_2026/main/boys_soccer_games_2026_all.json
     rankings_page: https://allmosports.com/boys-soccer-rankings/
     upset_min_gap: 1.5
+    numbers: [high_score, margin, streak, offense, defense]
+    history_ratings_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/boys_soccer/Boys_Soccer_Ratings_History_2012-2025.json
+    history_schedule_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/boys_soccer_schedule_{year}.json
 
   girls_volleyball:
     enabled: true
@@ -72,6 +94,9 @@ sports:
     games_url: https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Ratings_2026/main/girls_volleyball_games_2026_all.json
     rankings_page: https://allmosports.com/girls-volleyball-rankings/
     upset_min_gap: 1.0
+    numbers: [streak]        # volleyball: OVR only, no OFF/DEF or point totals
+    history_ratings_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/girls_volleyball/Girls_Volleyball_Ratings_History_2012-2025.json
+    history_schedule_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/girls_volleyball_schedule_{year}.json
 
   fall_softball:
     enabled: true
@@ -81,6 +106,9 @@ sports:
     games_url: https://raw.githubusercontent.com/AllMOSports/Fall_Softball_Ratings_2026/main/fall_softball_games_2026_all.json
     rankings_page: https://allmosports.com/fall-softball-rankings/
     upset_min_gap: 4
+    numbers: [high_score, margin, streak, offense, defense]
+    history_ratings_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/fall_softball/Fall_Softball_Ratings_History_2012-2025.json
+    history_schedule_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/fall_softball_schedule_{year}.json
 
 # Closing call-to-action at the bottom of the newsletter.
 closing_cta:
