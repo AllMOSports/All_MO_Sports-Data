@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07 23:52",
+ "generated": "2026-10-08 00:21",
  "week_start": "2026-09-28",
  "week_end": "2026-10-04",
  "sports": [
@@ -9,7 +9,7 @@
    "unit": "points",
    "rankings_page": "https://allmosports.com/football-rankings/",
    "ratings_updated": "October 05, 2026 at 12:15 AM",
-   "previous_snapshot": null,
+   "previous_snapshot": "2026-10-07",
    "games_this_week": 152,
    "top": [
     {
@@ -20,7 +20,7 @@
      "ovr": 76.64,
      "off": 40.84,
      "def": 35.81,
-     "move": null
+     "move": 0
     },
     {
      "rank": 2,
@@ -30,7 +30,7 @@
      "ovr": 70.08,
      "off": 36.23,
      "def": 33.85,
-     "move": null
+     "move": 0
     },
     {
      "rank": 3,
@@ -40,7 +40,7 @@
      "ovr": 69.14,
      "off": 31.57,
      "def": 37.57,
-     "move": null
+     "move": 0
     },
     {
      "rank": 4,
@@ -50,7 +50,7 @@
      "ovr": 68.96,
      "off": 34.21,
      "def": 34.75,
-     "move": null
+     "move": 0
     },
     {
      "rank": 5,
@@ -60,7 +60,7 @@
      "ovr": 66.6,
      "off": 23.07,
      "def": 43.53,
-     "move": null
+     "move": 0
     }
    ],
    "results": [
@@ -147,7 +147,7 @@
      "w_rank": 102,
      "l_rank": 46,
      "gap": 20.08,
-     "gap_basis": "current"
+     "gap_basis": "pre-game"
     }
    ],
    "unbeaten": [
@@ -306,7 +306,7 @@
    "unit": "goals",
    "rankings_page": "https://allmosports.com/boys-soccer-rankings/",
    "ratings_updated": "October 07, 2026 at 02:24 PM",
-   "previous_snapshot": null,
+   "previous_snapshot": "2026-10-07",
    "games_this_week": 266,
    "top": [
     {
@@ -317,7 +317,7 @@
      "ovr": 8.19,
      "off": 4.64,
      "def": 3.55,
-     "move": null
+     "move": 0
     },
     {
      "rank": 2,
@@ -327,7 +327,7 @@
      "ovr": 6.63,
      "off": 3.0,
      "def": 3.63,
-     "move": null
+     "move": 0
     },
     {
      "rank": 3,
@@ -337,7 +337,7 @@
      "ovr": 6.56,
      "off": 2.99,
      "def": 3.57,
-     "move": null
+     "move": 0
     },
     {
      "rank": 4,
@@ -347,7 +347,7 @@
      "ovr": 6.37,
      "off": 2.84,
      "def": 3.53,
-     "move": null
+     "move": 0
     },
     {
      "rank": 5,
@@ -357,7 +357,7 @@
      "ovr": 6.17,
      "off": 2.69,
      "def": 3.47,
-     "move": null
+     "move": 0
     }
    ],
    "results": [
@@ -456,7 +456,7 @@
      "w_rank": 197,
      "l_rank": 131,
      "gap": 4.23,
-     "gap_basis": "current"
+     "gap_basis": "pre-game"
     }
    ],
    "unbeaten": [
@@ -516,7 +516,7 @@
    "unit": "sets",
    "rankings_page": "https://allmosports.com/girls-volleyball-rankings/",
    "ratings_updated": "October 07, 2026 at 03:54 PM",
-   "previous_snapshot": null,
+   "previous_snapshot": "2026-10-07",
    "games_this_week": 878,
    "top": [
     {
@@ -527,7 +527,7 @@
      "ovr": 6.72,
      "off": 3.29,
      "def": 3.43,
-     "move": null
+     "move": 0
     },
     {
      "rank": 2,
@@ -537,7 +537,7 @@
      "ovr": 6.54,
      "off": 3.16,
      "def": 3.38,
-     "move": null
+     "move": 0
     },
     {
      "rank": 3,
@@ -547,7 +547,7 @@
      "ovr": 6.11,
      "off": 2.88,
      "def": 3.22,
-     "move": null
+     "move": 0
     },
     {
      "rank": 4,
@@ -557,7 +557,7 @@
      "ovr": 5.79,
      "off": 2.86,
      "def": 2.92,
-     "move": null
+     "move": 0
     },
     {
      "rank": 5,
@@ -567,7 +567,7 @@
      "ovr": 5.74,
      "off": 3.27,
      "def": 2.48,
-     "move": null
+     "move": 0
     }
    ],
    "results": [
@@ -666,7 +666,7 @@
      "w_rank": 125,
      "l_rank": 47,
      "gap": 1.81,
-     "gap_basis": "current"
+     "gap_basis": "pre-game"
     }
    ],
    "unbeaten": [
@@ -720,7 +720,7 @@
    "unit": "runs",
    "rankings_page": "https://allmosports.com/fall-softball-rankings/",
    "ratings_updated": "October 07, 2026 at 02:59 PM",
-   "previous_snapshot": null,
+   "previous_snapshot": "2026-10-07",
    "games_this_week": 478,
    "top": [
     {
@@ -731,7 +731,7 @@
      "ovr": 15.62,
      "off": 8.87,
      "def": 6.75,
-     "move": null
+     "move": 0
     },
     {
      "rank": 2,
@@ -741,7 +741,7 @@
      "ovr": 15.41,
      "off": 6.13,
      "def": 9.28,
-     "move": null
+     "move": 0
     },
     {
      "rank": 3,
@@ -751,7 +751,7 @@
      "ovr": 13.63,
      "off": 4.63,
      "def": 8.99,
-     "move": null
+     "move": 0
     },
     {
      "rank": 4,
@@ -761,7 +761,7 @@
      "ovr": 13.3,
      "off": 4.47,
      "def": 8.83,
-     "move": null
+     "move": 0
     },
     {
      "rank": 5,
@@ -771,7 +771,7 @@
      "ovr": 13.29,
      "off": 5.67,
      "def": 7.62,
-     "move": null
+     "move": 0
     }
    ],
    "results": [
@@ -882,7 +882,7 @@
      "w_rank": 161,
      "l_rank": 32,
      "gap": 9.67,
-     "gap_basis": "current"
+     "gap_basis": "pre-game"
     }
    ],
    "unbeaten": [
