@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08 00:21",
+ "generated": "2026-10-08 00:41",
  "week_start": "2026-09-28",
  "week_end": "2026-10-04",
  "sports": [
@@ -298,7 +298,94 @@
      "pick": "31\u201314"
     }
    ],
-   "featured": []
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Tipton with Bunceton",
+     "record": "6-0",
+     "rank": 56
+    },
+    {
+     "class": 2,
+     "school": "Valle Catholic",
+     "record": "6-0",
+     "rank": 20
+    },
+    {
+     "class": 3,
+     "school": "St. Pius X (Kansas City)",
+     "record": "5-1",
+     "rank": 14
+    },
+    {
+     "class": 4,
+     "school": "Kearney",
+     "record": "6-0",
+     "rank": 3
+    },
+    {
+     "class": 5,
+     "school": "Carthage",
+     "record": "5-1",
+     "rank": 12
+    },
+    {
+     "class": 6,
+     "school": "Jackson",
+     "record": "6-0",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Hayti 54, Principia 42 (96 points)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Troy Buchanan 80, Francis Howell North 0"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Jackson (OFF 40.84)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Lee's Summit (DEF 43.53)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     0,
+     0
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": null
+   },
+   "history": {
+    "years_ago": 10,
+    "year": 2016,
+    "date": "2016-09-29",
+    "winner": "Vianney",
+    "loser": "SLUH",
+    "w_score": 42,
+    "l_score": 32,
+    "w_rank": 7,
+    "l_rank": 10,
+    "kind": "matchup"
+   }
   },
   {
    "sport": "boys_soccer",
@@ -508,7 +595,86 @@
      "sort": 22
     }
    ],
-   "featured": []
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Pembroke Hill",
+     "record": "6-4",
+     "rank": 18
+    },
+    {
+     "class": 2,
+     "school": "Notre Dame (Cape Girardeau)",
+     "record": "11-2",
+     "rank": 16
+    },
+    {
+     "class": 3,
+     "school": "Chaminade College Prep",
+     "record": "13-0-2",
+     "rank": 4
+    },
+    {
+     "class": 4,
+     "school": "Rockhurst",
+     "record": "10-0-1",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Fredericktown 10, Kennett 2 (12 goals)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Raytown 9, Raytown South 0"
+    },
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Helias Catholic (15 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Rockhurst (OFF 4.64)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: SLUH (DEF 3.63)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     0,
+     0
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": null
+   },
+   "history": {
+    "years_ago": 10,
+    "year": 2016,
+    "date": "2016-09-30",
+    "winner": "Christian Brothers College",
+    "loser": "Rockhurst",
+    "w_score": 2,
+    "l_score": 1,
+    "w_rank": 2,
+    "l_rank": 6,
+    "kind": "matchup"
+   }
   },
   {
    "sport": "girls_volleyball",
@@ -517,7 +683,7 @@
    "rankings_page": "https://allmosports.com/girls-volleyball-rankings/",
    "ratings_updated": "October 07, 2026 at 03:54 PM",
    "previous_snapshot": "2026-10-07",
-   "games_this_week": 878,
+   "games_this_week": 877,
    "top": [
     {
      "rank": 1,
@@ -712,7 +878,76 @@
      "sort": 20
     }
    ],
-   "featured": []
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Leopold",
+     "record": "23-4-3",
+     "rank": 61
+    },
+    {
+     "class": 2,
+     "school": "New Covenant Academy",
+     "record": "22-1-1",
+     "rank": 39
+    },
+    {
+     "class": 3,
+     "school": "Potosi",
+     "record": "26-0-1",
+     "rank": 12
+    },
+    {
+     "class": 4,
+     "school": "St. Teresa's Academy",
+     "record": "9-10",
+     "rank": 8
+    },
+    {
+     "class": 5,
+     "school": "Lafayette (Wildwood)",
+     "record": "24-3",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Helias Catholic (27 straight)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     0,
+     0
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": null
+   },
+   "history": {
+    "years_ago": 10,
+    "year": 2016,
+    "date": "2016-09-30",
+    "winner": "St. Joseph's Academy",
+    "loser": "St. Teresa's Academy",
+    "w_score": 2,
+    "l_score": 0,
+    "w_rank": 1,
+    "l_rank": 3,
+    "kind": "matchup"
+   }
   },
   {
    "sport": "fall_softball",
@@ -934,7 +1169,92 @@
      "sort": 24
     }
    ],
-   "featured": []
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Silex",
+     "record": "19-4",
+     "rank": 41
+    },
+    {
+     "class": 2,
+     "school": "Chaffee",
+     "record": "22-3",
+     "rank": 13
+    },
+    {
+     "class": 3,
+     "school": "Chillicothe",
+     "record": "26-2",
+     "rank": 4
+    },
+    {
+     "class": 4,
+     "school": "Helias Catholic",
+     "record": "19-4",
+     "rank": 5
+    },
+    {
+     "class": 5,
+     "school": "Blue Springs South",
+     "record": "16-11",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Notre Dame de Sion 37, Lincoln College Prep 15 (52 runs)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Hermann with New Haven 28, Cuba 1"
+    },
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Grain Valley (24 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Blue Springs South (OFF 8.87)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Grain Valley (DEF 9.28)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     0,
+     0
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": null
+   },
+   "history": {
+    "years_ago": 10,
+    "year": 2016,
+    "date": "2016-09-28",
+    "winner": "Lee's Summit West",
+    "loser": "Blue Springs South",
+    "w_score": 13,
+    "l_score": 1,
+    "w_rank": 3,
+    "l_rank": 4,
+    "kind": "matchup"
+   }
   }
  ],
  "lead_candidates": [
