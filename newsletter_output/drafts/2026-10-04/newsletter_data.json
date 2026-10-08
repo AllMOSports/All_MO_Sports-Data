@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08 00:41",
+ "generated": "2026-10-08 00:53",
  "week_start": "2026-09-28",
  "week_end": "2026-10-04",
  "sports": [
@@ -375,15 +375,15 @@
     "season_since": null
    },
    "history": {
-    "years_ago": 10,
-    "year": 2016,
-    "date": "2016-09-29",
-    "winner": "Vianney",
-    "loser": "SLUH",
-    "w_score": 42,
-    "l_score": 32,
-    "w_rank": 7,
-    "l_rank": 10,
+    "years_ago": 2,
+    "year": 2024,
+    "date": "2024-10-04",
+    "winner": "Lee's Summit North",
+    "loser": "Blue Springs South",
+    "w_score": 36,
+    "l_score": 28,
+    "w_rank": 3,
+    "l_rank": 7,
     "kind": "matchup"
    }
   },
@@ -664,15 +664,15 @@
     "season_since": null
    },
    "history": {
-    "years_ago": 10,
-    "year": 2016,
-    "date": "2016-09-30",
-    "winner": "Christian Brothers College",
-    "loser": "Rockhurst",
-    "w_score": 2,
-    "l_score": 1,
-    "w_rank": 2,
-    "l_rank": 6,
+    "years_ago": 2,
+    "year": 2024,
+    "date": "2024-09-30",
+    "winner": "De Smet Jesuit",
+    "loser": "St. Dominic",
+    "w_score": 1,
+    "l_score": 0,
+    "w_rank": 3,
+    "l_rank": 2,
     "kind": "matchup"
    }
   },
@@ -937,11 +937,11 @@
     "season_since": null
    },
    "history": {
-    "years_ago": 10,
-    "year": 2016,
-    "date": "2016-09-30",
-    "winner": "St. Joseph's Academy",
-    "loser": "St. Teresa's Academy",
+    "years_ago": 8,
+    "year": 2018,
+    "date": "2018-09-29",
+    "winner": "St. Teresa's Academy",
+    "loser": "Blue Springs South",
     "w_score": 2,
     "l_score": 0,
     "w_rank": 1,
@@ -1244,15 +1244,15 @@
     "season_since": null
    },
    "history": {
-    "years_ago": 10,
-    "year": 2016,
-    "date": "2016-09-28",
-    "winner": "Lee's Summit West",
-    "loser": "Blue Springs South",
-    "w_score": 13,
+    "years_ago": 3,
+    "year": 2023,
+    "date": "2023-10-02",
+    "winner": "Blue Springs South",
+    "loser": "Raymore-Peculiar",
+    "w_score": 3,
     "l_score": 1,
-    "w_rank": 3,
-    "l_rank": 4,
+    "w_rank": 1,
+    "l_rank": 2,
     "kind": "matchup"
    }
   }
