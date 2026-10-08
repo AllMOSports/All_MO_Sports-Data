@@ -2,27 +2,27 @@
 """
 All MO Sports Weekly - newsletter draft builder
 ================================================
-
+ 
 Pulls each in-season sport's ratings and games from GitHub, saves a weekly
 ratings snapshot (so next week's issue can show rank movement), finds the
 week's stories, and writes a DRAFT newsletter for a human to edit.
-
+ 
 Nothing is sent. The output is a draft you edit before it goes out.
-
+ 
 Outputs (in --out, default ./newsletter_output):
   snapshots/<run-date>/<sport>.json        ratings as of this run
   drafts/<week-ending>/newsletter_data.json every story the script found
   drafts/<week-ending>/draft_blocks.html   WordPress block markup (the draft)
   drafts/<week-ending>/preview.html        open in a browser to review
-
+ 
 Usage:
   python build_weekly_newsletter.py                      # last full Mon-Sun week
   python build_weekly_newsletter.py --week-ending 2026-10-04
   python build_weekly_newsletter.py --no-snapshot        # test run, don't save a snapshot
-
+ 
 Requires: Python 3.9+, PyYAML (pip install pyyaml)
 """
-
+ 
 import argparse
 import datetime as dt
 import html
@@ -31,19 +31,19 @@ import os
 import sys
 import urllib.request
 from collections import defaultdict
-
+ 
 try:
     import yaml
 except ImportError:
     sys.exit("PyYAML is required: pip install pyyaml")
-
+ 
 HERE = os.path.dirname(os.path.abspath(__file__))
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Loading
 # ----------------------------------------------------------------------
-
+ 
 def fetch_json(url):
     """Fetch JSON from a URL or read it from a local path."""
     if url.startswith("http://") or url.startswith("https://"):
@@ -52,8 +52,8 @@ def fetch_json(url):
             return json.loads(r.read().decode("utf-8"))
     with open(url, encoding="utf-8") as f:
         return json.load(f)
-
-
+ 
+ 
 def to_iso(d):
     """'10/2/2026' or '2026-10-02' -> '2026-10-02'."""
     d = str(d).strip()
@@ -61,8 +61,8 @@ def to_iso(d):
         m, day, y = d.split("/")
         return f"{int(y):04d}-{int(m):02d}-{int(day):02d}"
     return d[:10]
-
-
+ 
+ 
 def load_games(sport_key, cfg):
     """Return a flat list of games: {date, team1, team2, score1, score2, forfeit, overtime}.
     Unplayed games have score1/score2 = None."""
@@ -102,23 +102,23 @@ def load_games(sport_key, cfg):
             "overtime": bool(g.get("overtime")),
         })
     return games
-
-
+ 
+ 
 def is_played(g):
     return g["score1"] is not None and g["score2"] is not None
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Snapshots (for week-over-week rank movement)
 # ----------------------------------------------------------------------
-
+ 
 def save_snapshot(out_dir, run_date, sport_key, ratings):
     path = os.path.join(out_dir, "snapshots", run_date, f"{sport_key}.json")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(ratings, f, indent=1)
-
-
+ 
+ 
 def load_previous_snapshot(out_dir, run_date, sport_key):
     """Most recent snapshot saved on a date BEFORE run_date, or None."""
     root = os.path.join(out_dir, "snapshots")
@@ -130,15 +130,15 @@ def load_previous_snapshot(out_dir, run_date, sport_key):
     d = dates[-1]
     with open(os.path.join(root, d, f"{sport_key}.json"), encoding="utf-8") as f:
         return json.load(f), d
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Per-sport analysis
 # ----------------------------------------------------------------------
-
+ 
 TYPICAL_FOOTBALL = sorted([7 * k for k in range(15)] + [7 * k + 3 for k in range(15)])
-
-
+ 
+ 
 def predict_football(a, b, league_average):
     """Same logic as the site's Matchup Predictor: returns (score_a, score_b)."""
     ra = a["off_rating"] - b["def_rating"] + league_average
@@ -156,8 +156,8 @@ def predict_football(a, b, league_average):
         else:
             sa = TYPICAL_FOOTBALL[max(0, TYPICAL_FOOTBALL.index(sa) - 1)]
     return sa, sb
-
-
+ 
+ 
 def records_from(games, until=None):
     rec = defaultdict(lambda: [0, 0, 0])
     for g in games:
@@ -168,21 +168,21 @@ def records_from(games, until=None):
         for a, sa, sb in ((g["team1"], g["score1"], g["score2"]), (g["team2"], g["score2"], g["score1"])):
             rec[a][0 if sa > sb else (1 if sa < sb else 2)] += 1
     return rec
-
-
+ 
+ 
 def fmt_rec(r):
     w, l, t = r
     return f"{w}-{l}" + (f"-{t}" if t else "")
-
-
+ 
+ 
 def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_date, save_snap):
     ratings = fetch_json(cfg["ratings_url"])
     games = load_games(sport_key, cfg)
     exclude = set(settings.get("exclude_teams") or [])
-
+ 
     teams = [t for t in ratings["teams"] if t["school"] not in exclude]
     by_name = {t["school"]: t for t in teams}
-
+ 
     # Class ranks (by OVR within classification)
     class_rank = {}
     by_class = defaultdict(list)
@@ -191,21 +191,21 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
     for c, lst in by_class.items():
         for i, t in enumerate(sorted(lst, key=lambda x: -x["ovr_rating"])):
             class_rank[t["school"]] = i + 1
-
+ 
     # Previous snapshot -> rank movement and pre-game ratings for upsets
     prev, prev_date = load_previous_snapshot(out_dir, run_date, sport_key)
     prev_rank = {t["school"]: t["ovr_rank"] for t in prev["teams"]} if prev else {}
     pre_game = {t["school"]: t for t in prev["teams"]} if prev else by_name
-
+ 
     if save_snap:
         save_snapshot(out_dir, run_date, sport_key, ratings)
-
+ 
     rec = records_from(games)  # season record through the latest data
-
+ 
     def rank_of(name):
         t = by_name.get(name)
         return t["ovr_rank"] if t else None
-
+ 
     def movement(name):
         if not prev:
             return None
@@ -213,7 +213,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         if before is None:
             return "new"
         return before - now  # positive = moved up
-
+ 
     # --- Top N ---
     top = []
     for t in sorted(teams, key=lambda x: x["ovr_rank"])[: settings["top_n"]]:
@@ -223,9 +223,9 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             "off": t.get("off_rating"), "def": t.get("def_rating"),
             "move": movement(t["school"]),
         })
-
+ 
     week_games = [g for g in games if week_start <= g["date"] <= week_end and is_played(g)]
-
+ 
     def describe(g):
         a, b = g["team1"], g["team2"]
         if g["score1"] >= g["score2"]:
@@ -237,7 +237,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             "tie": ws == ls, "overtime": g["overtime"], "forfeit": g["forfeit"],
             "w_rank": rank_of(w), "l_rank": rank_of(l),
         }
-
+ 
     # --- Big results: both teams ranked within cutoff ---
     cut = settings["results_rank_cutoff"]
     big = []
@@ -261,11 +261,11 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         if len(picked) >= settings["results_max"]:
             break
     big = picked
-
+ 
     # --- No. 1 team's week ---
     number_one = teams and min(teams, key=lambda x: x["ovr_rank"])["school"]
     one_week = [describe(g) for g in week_games if number_one in (g["team1"], g["team2"])]
-
+ 
     # --- Upsets (pre-game ratings when a snapshot exists) ---
     ups = []
     for g in week_games:
@@ -282,7 +282,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             ups.append(d)
     ups.sort(key=lambda d: -d["gap"])
     upsets = ups[: settings["upsets_max"]]
-
+ 
     # --- Unbeaten ---
     unbeaten = []
     for name, r in rec.items():
@@ -290,7 +290,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             unbeaten.append({"school": name, "record": fmt_rec(r), "rank": rank_of(name),
                              "class": by_name[name]["classification"]})
     unbeaten.sort(key=lambda u: u["rank"])
-
+ 
     # --- Games to watch: next 7 days ---
     nxt0 = (dt.date.fromisoformat(week_end) + dt.timedelta(days=1)).isoformat()
     nxt1 = (dt.date.fromisoformat(week_end) + dt.timedelta(days=7)).isoformat()
@@ -317,9 +317,9 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         watch.append(item)
     watch.sort(key=lambda w: w["sort"])
     watch = watch[: settings["watch_max"]]
-
+ 
     sections = settings.get("sections") or {}
-
+ 
     # --- No. 1 in each class ---
     class_leaders = []
     if sections.get("class_leaders", True):
@@ -327,7 +327,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             best = max(by_class[c], key=lambda x: x["ovr_rating"])
             class_leaders.append({"class": c, "school": best["school"], "record": fmt_rec(rec[best["school"]]),
                                   "rank": best["ovr_rank"]})
-
+ 
     # --- Biggest movers (needs last week's snapshot) ---
     movers = {"up": [], "down": []}
     if prev and sections.get("movers", True):
@@ -346,7 +346,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
             for mv, name, before, now in lst:
                 gs = [describe(g) for g in week_games if name in (g["team1"], g["team2"])]
                 movers[key_].append({"school": name, "from": before, "to": now, "move": mv, "games": gs})
-
+ 
     # --- By the numbers ---
     numbers = []
     wanted = cfg.get("numbers", ["high_score", "margin", "streak", "offense", "defense"])
@@ -387,53 +387,12 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         if "defense" in wanted and teams:
             t = min(teams, key=lambda x: x.get("def_rank") or 10**6)
             numbers.append({"kind": "defense", "text": f"Top-rated defense: {t['school']} (DEF {t['def_rating']})"})
-
-    # --- Picks: grade past weeks, save picks for the coming week ---
-    picks_dir = os.path.join(out_dir, "picks")
+ 
+    # --- Picks: grade the daily locked picks (see lock_daily_picks) ---
     graded = {"last_week": [0, 0], "season": [0, 0], "ranked_last_week": [0, 0], "season_since": None}
     if sections.get("picks_record", True):
-        results_by_key = {}
-        for g in games:
-            if is_played(g) and not g["forfeit"] and g["score1"] != g["score2"]:
-                w = g["team1"] if g["score1"] > g["score2"] else g["team2"]
-                results_by_key[(g["date"],) + tuple(sorted([g["team1"], g["team2"]]))] = w
-        if os.path.isdir(picks_dir):
-            for fn in sorted(os.listdir(picks_dir)):
-                start = fn[:10]
-                if not fn.endswith(".json") or start > week_start:
-                    continue
-                with open(os.path.join(picks_dir, fn), encoding="utf-8") as f:
-                    pk = json.load(f).get(sport_key, [])
-                for p in pk:
-                    w = results_by_key.get((p["date"],) + tuple(sorted([p["team1"], p["team2"]])))
-                    if not w:
-                        continue
-                    ok = int(w == p["pick"])
-                    graded["season"][0] += ok; graded["season"][1] += 1
-                    graded["season_since"] = min(graded["season_since"] or start, start)
-                    if start == week_start:
-                        graded["last_week"][0] += ok; graded["last_week"][1] += 1
-                        if p.get("ranked"):
-                            graded["ranked_last_week"][0] += ok; graded["ranked_last_week"][1] += 1
-        # Save this week's picks (once, so a re-run mid-week doesn't pick games
-        # with ratings that already include their results).
-        new_picks = []
-        seen_p = set()
-        for g in games:
-            if not (nxt0 <= g["date"] <= nxt1) or is_played(g):
-                continue
-            a, b = g["team1"], g["team2"]
-            if a not in by_name or b not in by_name:
-                continue
-            k = (g["date"],) + tuple(sorted([a, b]))
-            if k in seen_p:
-                continue
-            seen_p.add(k)
-            pick = a if by_name[a]["ovr_rating"] >= by_name[b]["ovr_rating"] else b
-            ranked = rank_of(a) <= wcut and rank_of(b) <= wcut
-            new_picks.append({"date": g["date"], "team1": a, "team2": b, "pick": pick, "ranked": ranked})
-        PENDING_PICKS[(nxt0, sport_key)] = new_picks
-
+        graded = grade_picks(sport_key, games, out_dir, week_start, week_end)
+ 
     # --- Featured teams ---
     featured = []
     for name in settings.get("featured_teams") or []:
@@ -441,7 +400,7 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         if name in by_name:
             featured.append({"school": name, "record": fmt_rec(rec[name]), "rank": rank_of(name),
                              "class": by_name[name]["classification"], "games": gs})
-
+ 
     return {
         "sport": sport_key, "label": cfg["label"], "unit": cfg.get("unit", "points"),
         "rankings_page": cfg.get("rankings_page"),
@@ -453,40 +412,101 @@ def analyze_sport(sport_key, cfg, settings, week_start, week_end, out_dir, run_d
         "class_leaders": class_leaders, "movers": movers, "numbers": numbers, "picks": graded,
         "_class_rank": class_rank,
     }
-
-
-PENDING_PICKS = {}  # (week_start, sport) -> picks, written once all sports load
-
-
-def save_pending_picks(out_dir):
-    """Write this week's picks. Never overwrites a week already saved."""
-    by_week = defaultdict(dict)
-    for (week, sport), picks in PENDING_PICKS.items():
-        by_week[week][sport] = picks
-    for week, sports in by_week.items():
-        path = os.path.join(out_dir, "picks", f"{week}.json")
-        if os.path.exists(path):
-            with open(path, encoding="utf-8") as f:
-                existing = json.load(f)
-            for s, p in sports.items():
-                existing.setdefault(s, p)  # only add sports missing from the file
-            sports = existing
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(sports, f, indent=1)
-
-
+ 
+ 
+def game_key(date, a, b):
+    return (date,) + tuple(sorted([a, b]))
+ 
+ 
+def make_picks(games, by_name, day, ranked_cutoff):
+    """Pick every unplayed game on `day` between two rated teams, by OVR."""
+    rank = {n: t["ovr_rank"] for n, t in by_name.items()}
+    picks, seen = [], set()
+    for g in games:
+        if g["date"] != day or is_played(g):
+            continue
+        a, b = g["team1"], g["team2"]
+        if a not in by_name or b not in by_name:
+            continue
+        k = game_key(day, a, b)
+        if k in seen:
+            continue
+        seen.add(k)
+        pick = a if by_name[a]["ovr_rating"] >= by_name[b]["ovr_rating"] else b
+        picks.append({"date": day, "team1": a, "team2": b, "pick": pick,
+                      "ranked": rank[a] <= ranked_cutoff and rank[b] <= ranked_cutoff})
+    return picks
+ 
+ 
+def lock_daily_picks(settings, out_dir, day):
+    """Run each morning: lock picks for today's games with today's ratings.
+    A day that's already locked is never changed (sports missing from the
+    file are added, e.g. if one sport's data failed to load earlier)."""
+    path = os.path.join(out_dir, "picks", "daily", f"{day}.json")
+    existing = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            existing = json.load(f)
+    exclude = set(settings.get("exclude_teams") or [])
+    for key, cfg in settings["sports"].items():
+        if not cfg.get("enabled") or key in existing:
+            continue
+        try:
+            ratings = fetch_json(cfg["ratings_url"])
+            games = load_games(key, cfg)
+        except Exception as e:
+            print(f"[{key}] FAILED: {e}", file=sys.stderr)
+            continue
+        by_name = {t["school"]: t for t in ratings["teams"] if t["school"] not in exclude}
+        existing[key] = {"ratings_updated": ratings.get("last_updated"),
+                         "games": make_picks(games, by_name, day, settings["watch_rank_cutoff"])}
+        print(f"[{key}] locked {len(existing[key]['games'])} picks for {day} (ratings: {ratings.get('last_updated')})")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(existing, f, indent=1)
+ 
+ 
+def grade_picks(sport_key, games, out_dir, week_start, week_end):
+    """Grade every locked daily pick against final scores."""
+    out = {"last_week": [0, 0], "season": [0, 0], "ranked_last_week": [0, 0], "season_since": None}
+    winners = {}
+    for g in games:
+        if is_played(g) and not g["forfeit"] and g["score1"] != g["score2"]:
+            winners[game_key(g["date"], g["team1"], g["team2"])] = g["team1"] if g["score1"] > g["score2"] else g["team2"]
+    daily = os.path.join(out_dir, "picks", "daily")
+    if not os.path.isdir(daily):
+        return out
+    for fn in sorted(os.listdir(daily)):
+        day = fn[:10]
+        if not fn.endswith(".json") or day > week_end:
+            continue
+        with open(os.path.join(daily, fn), encoding="utf-8") as f:
+            entry = json.load(f).get(sport_key) or {}
+        for p in entry.get("games", []):
+            w = winners.get(game_key(p["date"], p["team1"], p["team2"]))
+            if not w:
+                continue  # not played yet, tie, forfeit, or moved to another day
+            ok = int(w == p["pick"])
+            out["season"][0] += ok; out["season"][1] += 1
+            out["season_since"] = min(out["season_since"] or day, day)
+            if week_start <= day <= week_end:
+                out["last_week"][0] += ok; out["last_week"][1] += 1
+                if p.get("ranked"):
+                    out["ranked_last_week"][0] += ok; out["ranked_last_week"][1] += 1
+    return out
+ 
+ 
 # ----------------------------------------------------------------------
 # This week in history (same week, N years ago)
 # ----------------------------------------------------------------------
-
+ 
 def history_items(sport_key, cfg, settings, week_start, week_end):
     """The most notable game from this same calendar week in any past season.
-
+ 
     history_mode "best" (default): search every season in the history files
     and pick the best game from this week in any year.
     history_mode "years": only try history_years_ago, in order (old behavior).
-
+ 
     "Best" = the matchup between two teams that finished highest (both top 10,
     lowest combined final rank; ties go to the closer game, then the more
     recent year). If no week in any season had a top-10 matchup, it uses the
@@ -507,20 +527,20 @@ def history_items(sport_key, cfg, settings, week_start, week_end):
         ranked = sorted(s["teams"], key=lambda t: -t["ovr_rating"])
         seasons[s["year"]] = {t["school"]: dict(t, ovr_rank=i + 1) for i, t in enumerate(ranked)}
     ws, we = dt.date.fromisoformat(week_start), dt.date.fromisoformat(week_end)
-
+ 
     if settings.get("history_mode", "best") == "years":
         years = [ws.year - a for a in settings.get("history_years_ago", [10, 5, 15])]
         stop_at_first = True
     else:
         years = sorted((y for y in seasons if y < ws.year), reverse=True)
         stop_at_first = False
-
+ 
     best_match, best_upset = None, None
-
+ 
     def match_key(m):
         # lower = better: combined rank, then closer game, then more recent
         return (m["w_rank"] + m["l_rank"], m["w_score"] - m["l_score"], -m["year"])
-
+ 
     for year in years:
         if year not in seasons:
             continue
@@ -563,12 +583,12 @@ def history_items(sport_key, cfg, settings, week_start, week_end):
         if stop_at_first and (best_match or best_upset):
             break
     return best_match or best_upset
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Cross-sport lead-story candidates
 # ----------------------------------------------------------------------
-
+ 
 def lead_candidates(sports):
     cands = []
     # Schools unbeaten in 2+ sports
@@ -604,16 +624,16 @@ def lead_candidates(sports):
                                     f"No. {u['w_rank']} beat No. {u['l_rank']}; rating gap {u['gap']} {s['unit']}"]})
     cands.sort(key=lambda c: -c["score"])
     return cands
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Writing: template sentences -> WordPress blocks
 # ----------------------------------------------------------------------
-
+ 
 def esc(s):
     return html.escape(tidy(s), quote=False)
-
-
+ 
+ 
 def tidy(s):
     """Display cleanup: 'Belleville West(Belleville, IL)' -> 'Belleville West (Belleville, IL)'."""
     s = str(s)
@@ -621,11 +641,11 @@ def tidy(s):
     if i > 0 and s[i - 1] != " ":
         s = s[:i] + " " + s[i:]
     return s
-
-
+ 
+ 
 LOGO_SLUGS = {}
-
-
+ 
+ 
 def load_logo_slugs(settings):
     """School name -> logo slug, from schools.json (same lookup the site snippets use)."""
     url = settings.get("schools_url")
@@ -640,8 +660,8 @@ def load_logo_slugs(settings):
         for k in ("name", "mshsaa_name"):
             if info.get(k):
                 LOGO_SLUGS[info[k].lower().strip()] = slug
-
-
+ 
+ 
 def logo_img(name, settings, size=24):
     base = settings.get("logo_base_url")
     if not base:
@@ -653,24 +673,24 @@ def logo_img(name, settings, size=24):
     if not slug:
         return ""
     return f'<img src="{base}{slug}.png" alt="" width="{size}" height="{size}" style="width:{size}px;height:{size}px;vertical-align:middle"/> '
-
-
+ 
+ 
 def nice_date(iso):
     d = dt.date.fromisoformat(iso)
     mon = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."][d.month - 1]
     return f"{d.strftime('%a')}., {mon} {d.day}"
-
-
+ 
+ 
 def short_date(iso):
     d = dt.date.fromisoformat(iso)
     mon = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."][d.month - 1]
     return f"{mon} {d.day}"
-
-
+ 
+ 
 def team_ref(name, rank):
     return f"No. {rank} {name}" if rank else name
-
-
+ 
+ 
 def move_text(m):
     if m is None:
         return ""
@@ -681,53 +701,53 @@ def move_text(m):
     if m < 0:
         return f"▼{-m}"
     return "–"
-
-
+ 
+ 
 # Block helpers (Gutenberg markup the WordPress editor opens as normal blocks)
 def b_heading(text, level=2):
     return f'<!-- wp:heading {{"level":{level}}} -->\n<h{level} class="wp-block-heading">{text}</h{level}>\n<!-- /wp:heading -->'
-
-
+ 
+ 
 def b_para(text, cls=None):
     if cls:
         return f'<!-- wp:paragraph {{"className":"{cls}"}} -->\n<p class="{cls}">{text}</p>\n<!-- /wp:paragraph -->'
     return f"<!-- wp:paragraph -->\n<p>{text}</p>\n<!-- /wp:paragraph -->"
-
-
+ 
+ 
 def b_list(items):
     lis = "".join(f"<!-- wp:list-item -->\n<li>{i}</li>\n<!-- /wp:list-item -->\n" for i in items)
     return f'<!-- wp:list -->\n<ul class="wp-block-list">{lis}</ul>\n<!-- /wp:list -->'
-
-
+ 
+ 
 def b_table(head, rows):
     th = "".join(f"<th>{h}</th>" for h in head)
     tr = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
     return (f'<!-- wp:table -->\n<figure class="wp-block-table"><table><thead><tr>{th}</tr></thead>'
             f"<tbody>{tr}</tbody></table></figure>\n<!-- /wp:table -->")
-
-
+ 
+ 
 def b_sep():
     return '<!-- wp:separator -->\n<hr class="wp-block-separator has-alpha-channel-opacity"/>\n<!-- /wp:separator -->'
-
-
+ 
+ 
 def b_buttons(links):
     btns = "".join(
         f'<!-- wp:button -->\n<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="{esc(l["url"])}">{esc(l["label"])}</a></div>\n<!-- /wp:button -->\n'
         for l in links)
     return f"<!-- wp:buttons -->\n<div class=\"wp-block-buttons\">{btns}</div>\n<!-- /wp:buttons -->"
-
-
+ 
+ 
 EDIT = "editor-note"  # paragraphs with this class are reminders for you; delete before sending
-
-
+ 
+ 
 def result_sentence(r):
     if r["tie"]:
         return f"<strong>{esc(team_ref(r['winner'], r['w_rank']))} and {esc(team_ref(r['loser'], r['l_rank']))} tied {r['w_score']}–{r['l_score']}.</strong>"
     ot = " in overtime" if r["overtime"] else ""
     return (f"<strong>{esc(team_ref(r['winner'], r['w_rank']))} beat {esc(team_ref(r['loser'], r['l_rank']))}, "
             f"{r['w_score']}–{r['l_score']}{ot}</strong> ({short_date(r['date'])}).")
-
-
+ 
+ 
 def build_blocks(data, settings):
     brand = settings["brand"]
     out = []
@@ -737,7 +757,7 @@ def build_blocks(data, settings):
     labels = [s["label"].lower() for s in data["sports"]]
     sport_list = ", ".join(labels[:-1]) + (" and " + labels[-1] if len(labels) > 1 else labels[0])
     out.append(b_para(f"About {total:,} games were played across {sport_list} last week. Here's what mattered and which games to circle this week."))
-
+ 
     # Lead story placeholder with the top candidates
     out.append(b_heading("The big story"))
     if data["lead_candidates"]:
@@ -748,7 +768,7 @@ def build_blocks(data, settings):
             out.append(b_para("✏️ <em>Other options: " + esc(" | ".join(o["headline"] for o in others)) + ". Delete these notes before sending.</em>", EDIT))
     else:
         out.append(b_para("✏️ <em>Write the lead story here.</em>", EDIT))
-
+ 
     # How our picks did (appears once there's a graded week)
     graded_sports = [s for s in data["sports"] if s.get("picks") and s["picks"]["last_week"][1]]
     if graded_sports:
@@ -759,20 +779,24 @@ def build_blocks(data, settings):
         rk = [sum(s["picks"]["ranked_last_week"][0] for s in graded_sports), sum(s["picks"]["ranked_last_week"][1] for s in graded_sports)]
         since = min(s["picks"]["season_since"] for s in data["sports"] if s.get("picks") and s["picks"]["season_since"])
         out.append(b_heading("How our picks did"))
-        line = f"Last week we picked <strong>{lw[0]}-{lw[1] - lw[0]} ({pct(*lw)})</strong>"
+        line = (f"Our ratings picked <strong>{lw[0]:,} of {lw[1]:,} games</strong> correctly last week "
+                f"(<strong>{pct(*lw)}</strong>)")
         if rk[1]:
-            line += f", including {rk[0]}-{rk[1] - rk[0]} in games between ranked teams"
-        line += f". Since {short_date(since)}: {se[0]}-{se[1] - se[0]} ({pct(*se)})."
+            line += f", including {rk[0]} of {rk[1]} games between two ranked teams"
+        line += f". Since {short_date(since)}: {se[0]:,} of {se[1]:,} ({pct(*se)})."
         out.append(b_para(line))
-        out.append(b_para(" · ".join(f"{esc(s['label'])} {s['picks']['last_week'][0]}-{s['picks']['last_week'][1] - s['picks']['last_week'][0]}" for s in graded_sports)))
-
+        out.append(b_para("<br>".join(
+            f"<strong>{esc(s['label'])}:</strong> {s['picks']['last_week'][0]:,} of {s['picks']['last_week'][1]:,} ({pct(*s['picks']['last_week'])})"
+            for s in graded_sports)))
+        out.append(b_para("<em>Every game between two rated Missouri teams is picked the morning of the game, using that day's ratings. Ties and forfeits don't count.</em>"))
+ 
     for s in data["sports"]:
         out.append(b_sep())
         link = f' <a href="{esc(s["rankings_page"])}">Full rankings</a>' if s.get("rankings_page") else ""
         out.append(b_heading(esc(s["label"])))
         if link:
             out.append(b_para(link.strip()))
-
+ 
         # Top N
         show_move = any(t["move"] is not None for t in s["top"])
         out.append(b_heading(f"Statewide top {len(s['top'])}", 3))
@@ -796,14 +820,14 @@ def build_blocks(data, settings):
                              f" · Class {t['class']} · {t['record']} · OVR {ovr(t)}" + (f" · {mv}" if mv else ""))
             # One paragraph with line breaks: no bullets next to the logos.
             out.append(b_para("<br>".join(items)))
-
+ 
         # No. 1 in each class
         if s.get("class_leaders"):
             out.append(b_heading("No. 1 in each class", 3))
             out.append(b_para("<br>".join(
                 f"{logo_img(c['school'], settings, 20)}<strong>Class {c['class']}:</strong> {esc(c['school'])} ({c['record']})"
                 for c in s["class_leaders"])))
-
+ 
         # Biggest movers
         mv = s.get("movers") or {}
         if mv.get("up") or mv.get("down"):
@@ -822,7 +846,7 @@ def build_blocks(data, settings):
                             why = f" after losing to {esc(g['winner'])} {g['w_score']}–{g['l_score']}"
                     items.append(f"<strong>{esc(m['school'])}</strong> {arrow}{abs(m['move'])} (No. {m['from']} to No. {m['to']}){why}.")
             out.append(b_list(items))
-
+ 
         # What happened
         items = [result_sentence(r) for r in s["results"]]
         one = s["number_one"]
@@ -842,7 +866,7 @@ def build_blocks(data, settings):
         if items:
             out.append(b_heading("What happened", 3))
             out.append(b_list(items))
-
+ 
         # Upset
         for u in s["upsets"]:
             out.append(b_heading("Upset of the week", 3))
@@ -850,12 +874,12 @@ def build_blocks(data, settings):
             out.append(b_para(
                 f"<strong>{esc(u['winner'])} {u['w_score']}, {esc(u['loser'])} {u['l_score']}</strong> ({short_date(u['date'])}). "
                 f"No. {u['w_rank']} beat No. {u['l_rank']}; {esc(u['loser'])} rated about {u['gap']:.1f} {s['unit']} better {basis}."))
-
+ 
         # By the numbers
         if s.get("numbers"):
             out.append(b_heading("By the numbers", 3))
             out.append(b_list([esc(n["text"]) + "." for n in s["numbers"]]))
-
+ 
         # Unbeaten
         unb = s["unbeaten"][: settings["unbeaten_max_listed"]]
         if unb:
@@ -864,14 +888,14 @@ def build_blocks(data, settings):
             more = len(s["unbeaten"]) - len(unb)
             tail = f", plus {more} more" if more > 0 else ""
             out.append(b_para(f"{names}{tail}."))
-
+ 
         # Featured
         for f in s["featured"]:
             out.append(b_heading(f"Featured: {esc(f['school'])}", 3))
             gl = [result_sentence(g) for g in f["games"]] or ["No games this week."]
             out.append(b_para(f"{esc(f['school'])} is {f['record']}, No. {f['rank']} in the state and No. {s['_class_rank'].get(f['school'], '?')} in Class {f['class']}."))
             out.append(b_list(gl))
-
+ 
         # Games to watch
         if s["watch"]:
             out.append(b_heading("Games to watch", 3))
@@ -880,7 +904,7 @@ def build_blocks(data, settings):
                 pick = f" Our pick: {esc(w['favorite'])} {w['pick']}." if w.get("pick") else f" Favorite: {esc(w['favorite'])}."
                 items.append(f"<strong>{esc(team_ref(w['team1'], w['rank1']))} vs. {esc(team_ref(w['team2'], w['rank2']))}</strong>, {nice_date(w['date'])}.{pick}")
             out.append(b_list(items))
-
+ 
     hist = [(s["label"], s["history"]) for s in data["sports"] if s.get("history")]
     if hist:
         out.append(b_sep())
@@ -896,22 +920,22 @@ def build_blocks(data, settings):
                 tail = f"{esc(h['loser'])} finished that season rated about {h['gap']} better."
             items.append(f"<strong>{esc(label)}:</strong> {when}, {game}. {tail}")
         out.append(b_list(items))
-
+ 
     cta = settings.get("closing_cta") or {}
     if cta.get("enabled"):
         out.append(b_sep())
         out.append(b_heading(esc(cta["heading"])))
         out.append(b_para(esc(cta["text"])))
         out.append(b_buttons(cta.get("links", [])))
-
+ 
     out.append(b_sep())
     out.append(b_para(
         f"Rankings use {esc(brand)} overall ratings, which account for strength of schedule. "
         f'<a href="{esc(settings["site_url"])}/ratings-explained/">How our ratings work</a>. '
         f"Want your team featured? Reply with the school you follow."))
     return "\n\n".join(out)
-
-
+ 
+ 
 PREVIEW_CSS = """
 body{margin:0;background:#eceae4;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1b2430;line-height:1.55}
 .banner{max-width:680px;margin:20px auto 0;padding:10px 16px;background:#fff6dd;border:1px solid #e8b84b;border-radius:8px;font-size:14px}
@@ -931,8 +955,8 @@ a{color:#14304d}
 .wp-block-buttons{display:flex;gap:8px;flex-wrap:wrap}
 .wp-block-button__link{display:inline-block;background:#e8b84b;color:#14304d;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:999px}
 """
-
-
+ 
+ 
 def build_preview(blocks, data, settings):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -942,33 +966,40 @@ def build_preview(blocks, data, settings):
 <div class="mail"><div class="mast"><b>{esc(settings['brand'])} Weekly</b><span>Fall Sports Roundup</span></div>
 {blocks}
 </div></body></html>"""
-
-
+ 
+ 
 # ----------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------
-
+ 
 def last_full_week(today):
     """Mon-Sun week that ended most recently before `today`."""
     end = today - dt.timedelta(days=today.weekday() + 1)  # last Sunday
     return end - dt.timedelta(days=6), end
-
-
+ 
+ 
 def strip_private(sport):
     return {k: v for k, v in sport.items() if not k.startswith("_")}
-
-
+ 
+ 
 def main():
     ap = argparse.ArgumentParser(description="Build the All MO Sports weekly newsletter draft.")
     ap.add_argument("--config", default=os.path.join(HERE, "newsletter_config.yaml"))
     ap.add_argument("--out", default=os.path.join(HERE, "newsletter_output"))
     ap.add_argument("--week-ending", help="Sunday the week ends on, YYYY-MM-DD (default: last full week)")
     ap.add_argument("--no-snapshot", action="store_true", help="Don't save this run's ratings snapshot")
+    ap.add_argument("--lock-picks", nargs="?", const="today", metavar="YYYY-MM-DD",
+                    help="Only lock picks for one day's games (default today), then exit. Run every morning.")
     args = ap.parse_args()
-
+ 
     with open(args.config, encoding="utf-8") as f:
         settings = yaml.safe_load(f)
-
+ 
+    if args.lock_picks:
+        day = dt.date.today().isoformat() if args.lock_picks == "today" else args.lock_picks
+        lock_daily_picks(settings, args.out, day)
+        return
+ 
     today = dt.date.today()
     if args.week_ending:
         we = dt.date.fromisoformat(args.week_ending)
@@ -976,7 +1007,7 @@ def main():
     else:
         ws, we = last_full_week(today)
     week_start, week_end, run_date = ws.isoformat(), we.isoformat(), today.isoformat()
-
+ 
     load_logo_slugs(settings)
     sports = []
     for key, cfg in settings["sports"].items():
@@ -996,19 +1027,18 @@ def main():
         print(f"[{key}] {s['games_this_week']} games, {len(s['results'])} big results, "
               f"{len(s['upsets'])} upset(s), {len(s['unbeaten'])} unbeaten, {len(s['watch'])} to watch")
         sports.append(s)
-
+ 
     if not sports:
         sys.exit("No sport data loaded; nothing to build.")
-    if not args.no_snapshot:
-        save_pending_picks(args.out)
-
+ 
+ 
     data = {
         "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "week_start": week_start, "week_end": week_end,
         "sports": sports,
         "lead_candidates": lead_candidates(sports),
     }
-
+ 
     blocks = build_blocks(data, settings)
     draft_dir = os.path.join(args.out, "drafts", week_end)
     os.makedirs(draft_dir, exist_ok=True)
@@ -1018,12 +1048,12 @@ def main():
         f.write(blocks)
     with open(os.path.join(draft_dir, "preview.html"), "w", encoding="utf-8") as f:
         f.write(build_preview(blocks, data, settings))
-
+ 
     print(f"\nDraft written to {draft_dir}")
     print("Lead story ideas:")
     for c in data["lead_candidates"][:5]:
         print(f"  - {c['headline']}")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
