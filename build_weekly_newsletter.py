@@ -394,6 +394,38 @@ def tidy(s):
     return s
 
 
+LOGO_SLUGS = {}
+
+
+def load_logo_slugs(settings):
+    """School name -> logo slug, from schools.json (same lookup the site snippets use)."""
+    url = settings.get("schools_url")
+    if not url:
+        return
+    try:
+        data = fetch_json(url).get("schools", {})
+    except Exception as e:
+        print(f"[logos] schools.json not loaded ({e}); continuing without logos", file=sys.stderr)
+        return
+    for slug, info in data.items():
+        for k in ("name", "mshsaa_name"):
+            if info.get(k):
+                LOGO_SLUGS[info[k].lower().strip()] = slug
+
+
+def logo_img(name, settings, size=24):
+    base = settings.get("logo_base_url")
+    if not base:
+        return ""
+    key = str(name).lower().strip()
+    slug = LOGO_SLUGS.get(key)
+    if not slug and " with " in key:
+        slug = LOGO_SLUGS.get(key.split(" with ")[0].strip())
+    if not slug:
+        return ""
+    return f'<img src="{base}{slug}.png" alt="" width="{size}" height="{size}" style="width:{size}px;height:{size}px;vertical-align:middle"/> '
+
+
 def nice_date(iso):
     d = dt.date.fromisoformat(iso)
     mon = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."][d.month - 1]
@@ -495,17 +527,29 @@ def build_blocks(data, settings):
         if link:
             out.append(b_para(link.strip()))
 
-        # Top N table
+        # Top N
         show_move = any(t["move"] is not None for t in s["top"])
-        head = ["Rank", "Team", "Class", "Record", "OVR"] + (["Move"] if show_move else [])
-        rows = []
-        for t in s["top"]:
-            row = [str(t["rank"]), esc(t["school"]), f"Class {t['class']}", t["record"], f"{t['ovr']:.2f}" if abs(t["ovr"]) < 20 else f"{t['ovr']:.1f}"]
-            if show_move:
-                row.append(move_text(t["move"]))
-            rows.append(row)
         out.append(b_heading(f"Statewide top {len(s['top'])}", 3))
-        out.append(b_table(head, rows))
+        ovr = lambda t: f"{t['ovr']:.2f}" if abs(t["ovr"]) < 20 else f"{t['ovr']:.1f}"
+        if settings.get("top_style", "list") == "table":
+            head = ["Rank", "Team", "Class", "Record", "OVR"] + (["Move"] if show_move else [])
+            rows = []
+            for t in s["top"]:
+                row = [str(t["rank"]), logo_img(t["school"], settings, 20) + esc(t["school"]), f"Class {t['class']}", t["record"], ovr(t)]
+                if show_move:
+                    row.append(move_text(t["move"]))
+                rows.append(row)
+            out.append(b_table(head, rows))
+        else:
+            # Plain lines (not a table) so site plugins that add search boxes
+            # to tables leave it alone, and it reads well in every email app.
+            items = []
+            for t in s["top"]:
+                mv = move_text(t["move"]) if show_move else ""
+                items.append(f"{logo_img(t['school'], settings)}<strong>{t['rank']}. {esc(t['school'])}</strong>"
+                             f" · Class {t['class']} · {t['record']} · OVR {ovr(t)}" + (f" · {mv}" if mv else ""))
+            # One paragraph with line breaks: no bullets next to the logos.
+            out.append(b_para("<br>".join(items)))
 
         # What happened
         items = [result_sentence(r) for r in s["results"]]
@@ -640,6 +684,7 @@ def main():
         ws, we = last_full_week(today)
     week_start, week_end, run_date = ws.isoformat(), we.isoformat(), today.isoformat()
 
+    load_logo_slugs(settings)
     sports = []
     for key, cfg in settings["sports"].items():
         if not cfg.get("enabled"):

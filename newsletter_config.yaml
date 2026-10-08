@@ -8,8 +8,16 @@ brand: All MO Sports
 site_url: https://allmosports.com
 twitter_handle: "@All_MO_Sports"
 
-# How many teams in each sport's "Statewide top" table.
+# How many teams in each sport's "Statewide top" list.
 top_n: 5
+
+# "list" (default) shows the top teams as a list with logos.
+# "table" uses a table instead; some site plugins add a search box to tables.
+top_style: list
+
+# School logos (same files the site uses). Remove logo_base_url to turn logos off.
+schools_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/schools.json
+logo_base_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/
 
 # "What happened": results between two teams ranked this high or better.
 results_rank_cutoff: 25
