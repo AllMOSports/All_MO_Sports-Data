@@ -1,3 +1,6 @@
+# Started by cron-job.org at Mondays 6:00 AM Central via GitHub's API (workflow_dispatch),
+# because GitHub's own schedule was starting these runs hours late.
+# The "Run workflow" button in the Actions tab still works too.
 # Builds the All MO Sports Weekly draft every Monday morning and commits
 # the ratings snapshot + draft files back to the repo.
 #
@@ -10,9 +13,6 @@
 name: Weekly newsletter draft
  
 on:
-  schedule:
-    # 11:00 UTC Monday = 6:00 AM CDT / 5:00 AM CST, after the nightly ratings runs
-    - cron: "0 11 * * 1"
   workflow_dispatch:
     inputs:
       week_ending:
@@ -36,9 +36,14 @@ jobs:
         run: pip install pyyaml
  
       - name: Build draft
+        env:
+          WEEK_ENDING: ${{ github.event.inputs.week_ending }}   # passed as data, never pasted into the script
         run: |
-          if [ -n "${{ github.event.inputs.week_ending }}" ]; then
-            python build_weekly_newsletter.py --week-ending "${{ github.event.inputs.week_ending }}"
+          if [ -n "$WEEK_ENDING" ]; then
+            if ! [[ "$WEEK_ENDING" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "::error::week_ending must look like 2026-10-04"; exit 1
+            fi
+            python build_weekly_newsletter.py --week-ending "$WEEK_ENDING"
           else
             python build_weekly_newsletter.py
           fi
@@ -51,3 +56,4 @@ jobs:
           git diff --cached --quiet || git commit -m "Weekly newsletter draft and ratings snapshot"
           git pull --rebase
           git push
+ 
