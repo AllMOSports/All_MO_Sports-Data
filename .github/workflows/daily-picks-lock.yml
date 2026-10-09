@@ -1,31 +1,26 @@
-# Locks All MO Sports picks for today's games every morning at 10:39 AM
+# Started by cron-job.org at 5:49 AM Central via GitHub's API (workflow_dispatch),
+# because GitHub's own schedule was starting these runs hours late.
+# The "Run workflow" button in the Actions tab still works too.
+# Locks All MO Sports picks for today's games every morning at 5:49 AM
 # Central, using the latest ratings. The weekly newsletter grades these
 # picks each Monday. A day that's already locked is never changed.
-#
-# GitHub cron only runs on UTC, so there are two entries -- one for
-# Daylight time (CDT, UTC-5) and one for Standard time (CST, UTC-6) -- and
-# the "gate" job lets only the one matching Chicago's current offset go
-# ahead. That keeps it at 10:39 AM local all year, across the time changes.
-
+ 
 name: Daily picks lock
-
+ 
 on:
-  schedule:
-    - cron: "39 15 * * *"     # 10:39 AM CDT
-    - cron: "39 16 * * *"     # 10:39 AM CST
   workflow_dispatch:
     inputs:
       day:
         description: "Day to lock (YYYY-MM-DD). Leave blank for today."
         required: false
-
+ 
 permissions:
   contents: write
-
+ 
 concurrency:
   group: daily-picks-lock
   cancel-in-progress: false
-
+ 
 jobs:
   gate:
     runs-on: ubuntu-latest
@@ -47,7 +42,7 @@ jobs:
           fi
           echo "Chicago is on $ZONE; trigger '${SCHEDULE:-manual}' -> run=$RUN"
           echo "run=$RUN" >> "$GITHUB_OUTPUT"
-
+ 
   lock:
     needs: gate
     if: needs.gate.outputs.run == 'true'
@@ -57,22 +52,27 @@ jobs:
       TZ: America/Chicago        # so "today" means today in Missouri
     steps:
       - uses: actions/checkout@v4
-
+ 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
+ 
       - name: Install dependencies
         run: pip install pyyaml
-
+ 
       - name: Lock today's picks
+        env:
+          DAY: ${{ github.event.inputs.day }}   # passed as data, never pasted into the script
         run: |
-          if [ -n "${{ github.event.inputs.day }}" ]; then
-            python build_weekly_newsletter.py --lock-picks "${{ github.event.inputs.day }}"
+          if [ -n "$DAY" ]; then
+            if ! [[ "$DAY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "::error::day must look like 2026-10-09"; exit 1
+            fi
+            python build_weekly_newsletter.py --lock-picks "$DAY"
           else
             python build_weekly_newsletter.py --lock-picks
           fi
-
+ 
       - name: Commit picks
         run: |
           git config user.name "All MO Sports Bot"
