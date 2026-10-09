@@ -50,7 +50,7 @@ In `newsletter_output/`:
 Each issue includes, when there's something to show:
  
 - **The big story** (you write it; the script suggests ideas)
-- **How our picks did**: every morning at 10:39 the `Daily picks lock` workflow picks
+- **How our picks did**: every morning at 5:49 a.m. the `Daily picks lock` workflow picks
   every game that day between two rated teams, using that morning's ratings
   (saved in `newsletter_output/picks/daily/`). Monday's issue grades the
   whole week. A locked day is never changed.
@@ -71,3 +71,4 @@ Everything is in `newsletter_config.yaml`:
 - `featured_teams: ["Helias Catholic"]` adds a section with that team's week.
 - `upset_min_gap` is per sport because the rating scales differ (football points
   vs. soccer goals).
+ 
