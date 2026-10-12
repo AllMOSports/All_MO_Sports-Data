@@ -2,7 +2,7 @@
   "sport": "football",
   "schema": "POINTS",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=19",
-  "scraped_at": "2026-10-11T16:28:20+00:00",
+  "scraped_at": "2026-10-12T20:04:22+00:00",
   "teams": [
     {
       "school": "Lockwood",
@@ -396,7 +396,7 @@
       "wins": 7,
       "losses": 0,
       "ties": 0,
-      "mshsaa_points": 48.6,
+      "mshsaa_points": 48.71,
       "win_pct": 100.0,
       "games_played": 7
     },
@@ -918,7 +918,7 @@
       "wins": 6,
       "losses": 1,
       "ties": 0,
-      "mshsaa_points": 40.4,
+      "mshsaa_points": 40.52,
       "win_pct": 85.71,
       "games_played": 7
     },
@@ -936,7 +936,7 @@
       "wins": 6,
       "losses": 1,
       "ties": 0,
-      "mshsaa_points": 44.33,
+      "mshsaa_points": 44.45,
       "win_pct": 85.71,
       "games_played": 7
     },
@@ -972,7 +972,7 @@
       "wins": 6,
       "losses": 1,
       "ties": 0,
-      "mshsaa_points": 41.4,
+      "mshsaa_points": 41.26,
       "win_pct": 85.71,
       "games_played": 7
     },
@@ -1080,7 +1080,7 @@
       "wins": 5,
       "losses": 1,
       "ties": 0,
-      "mshsaa_points": 42.75,
+      "mshsaa_points": 42.89,
       "win_pct": 83.33,
       "games_played": 6
     },
@@ -1800,7 +1800,7 @@
       "wins": 5,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 36.52,
+      "mshsaa_points": 36.37,
       "win_pct": 71.43,
       "games_played": 7
     },
@@ -1836,7 +1836,7 @@
       "wins": 5,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 36.05,
+      "mshsaa_points": 36.17,
       "win_pct": 71.43,
       "games_played": 7
     },
@@ -1962,7 +1962,7 @@
       "wins": 5,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 37.39,
+      "mshsaa_points": 37.26,
       "win_pct": 71.43,
       "games_played": 7
     },
@@ -3042,7 +3042,7 @@
       "wins": 3,
       "losses": 3,
       "ties": 0,
-      "mshsaa_points": 41.83,
+      "mshsaa_points": 41.68,
       "win_pct": 50.0,
       "games_played": 6
     },
@@ -3924,7 +3924,7 @@
       "wins": 3,
       "losses": 4,
       "ties": 0,
-      "mshsaa_points": 35.73,
+      "mshsaa_points": 36.44,
       "win_pct": 42.86,
       "games_played": 7
     },
@@ -3942,7 +3942,7 @@
       "wins": 3,
       "losses": 4,
       "ties": 0,
-      "mshsaa_points": 35.82,
+      "mshsaa_points": 35.64,
       "win_pct": 42.86,
       "games_played": 7
     },
@@ -4303,24 +4303,6 @@
       "losses": 4,
       "ties": 0,
       "mshsaa_points": 23.44,
-      "win_pct": 33.33,
-      "games_played": 6
-    },
-    {
-      "school": "Lift for Life Academy Charter",
-      "mshsaa_school_id": 810,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 3,
-      "points_for": 77,
-      "points_against": 89,
-      "ppg": 12.83,
-      "oppg": 14.83,
-      "mov": -2,
-      "wins": 2,
-      "losses": 4,
-      "ties": 0,
-      "mshsaa_points": 38.28,
       "win_pct": 33.33,
       "games_played": 6
     },
@@ -4739,6 +4721,24 @@
       "games_played": 7
     },
     {
+      "school": "Lift for Life Academy Charter",
+      "mshsaa_school_id": 810,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 3,
+      "points_for": 99,
+      "points_against": 119,
+      "ppg": 14.14,
+      "oppg": 17,
+      "mov": -2.86,
+      "wins": 2,
+      "losses": 5,
+      "ties": 0,
+      "mshsaa_points": 36.43,
+      "win_pct": 28.57,
+      "games_played": 7
+    },
+    {
       "school": "Jennings",
       "mshsaa_school_id": 86,
       "classification_code": 4,
@@ -4932,7 +4932,7 @@
       "wins": 2,
       "losses": 5,
       "ties": 0,
-      "mshsaa_points": 21.33,
+      "mshsaa_points": 21.45,
       "win_pct": 28.57,
       "games_played": 7
     },
@@ -5472,7 +5472,7 @@
       "wins": 1,
       "losses": 6,
       "ties": 0,
-      "mshsaa_points": 24.71,
+      "mshsaa_points": 24.62,
       "win_pct": 14.29,
       "games_played": 7
     },
@@ -6102,7 +6102,7 @@
       "wins": 0,
       "losses": 7,
       "ties": 0,
-      "mshsaa_points": 13.57,
+      "mshsaa_points": 13.69,
       "win_pct": 0.0,
       "games_played": 7
     },
