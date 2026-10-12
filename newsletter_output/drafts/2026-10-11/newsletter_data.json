@@ -1,0 +1,2070 @@
+{
+ "generated": "2026-10-12 20:36",
+ "week_start": "2026-10-05",
+ "week_end": "2026-10-11",
+ "sports": [
+  {
+   "sport": "football",
+   "label": "Football",
+   "unit": "points",
+   "rankings_page": "https://allmosports.com/football-rankings/",
+   "ratings_updated": "October 12, 2026 at 01:55 PM",
+   "previous_snapshot": "2026-10-08",
+   "games_this_week": 153,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Jackson",
+     "class": 6,
+     "record": "7-0",
+     "ovr": 73.98,
+     "off": 38.36,
+     "def": 35.62,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Kearney",
+     "class": 4,
+     "record": "7-0",
+     "ovr": 71.65,
+     "off": 32.8,
+     "def": 38.85,
+     "move": 1
+    },
+    {
+     "rank": 3,
+     "school": "Blue Springs",
+     "class": 6,
+     "record": "5-2",
+     "ovr": 68.52,
+     "off": 32.53,
+     "def": 35.99,
+     "move": 1
+    },
+    {
+     "rank": 4,
+     "school": "North Kansas City",
+     "class": 6,
+     "record": "5-2",
+     "ovr": 65.41,
+     "off": 33.1,
+     "def": 32.31,
+     "move": 4
+    },
+    {
+     "rank": 5,
+     "school": "Nixa",
+     "class": 6,
+     "record": "6-1",
+     "ovr": 64.19,
+     "off": 34.62,
+     "def": 29.57,
+     "move": 1
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-10-09",
+     "winner": "Rockhurst",
+     "loser": "Blue Springs",
+     "w_score": 21,
+     "l_score": 14,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 10,
+     "l_rank": 3,
+     "sort": 13
+    },
+    {
+     "date": "2026-10-09",
+     "winner": "Liberty North",
+     "loser": "Lee's Summit",
+     "w_score": 41,
+     "l_score": 27,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 6,
+     "l_rank": 8,
+     "sort": 14
+    },
+    {
+     "date": "2026-10-09",
+     "winner": "North Kansas City",
+     "loser": "Lee's Summit North",
+     "w_score": 49,
+     "l_score": 14,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 4,
+     "l_rank": 11,
+     "sort": 15
+    },
+    {
+     "date": "2026-10-10",
+     "winner": "De Smet Jesuit",
+     "loser": "St. Pius X (Kansas City)",
+     "w_score": 34,
+     "l_score": 28,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 14,
+     "l_rank": 13,
+     "sort": 27
+    }
+   ],
+   "number_one": {
+    "school": "Jackson",
+    "games": [
+     {
+      "date": "2026-10-09",
+      "winner": "Jackson",
+      "loser": "Central (Cape Girardeau)",
+      "w_score": 44,
+      "l_score": 3,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 97
+     }
+    ]
+   },
+   "upsets": [
+    {
+     "date": "2026-10-09",
+     "winner": "Reeds Spring",
+     "loser": "Buffalo",
+     "w_score": 38,
+     "l_score": 13,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 232,
+     "l_rank": 201,
+     "gap": 24.3,
+     "gap_basis": "pre-game"
+    }
+   ],
+   "unbeaten": [
+    {
+     "school": "Jackson",
+     "record": "7-0",
+     "rank": 1,
+     "class": 6
+    },
+    {
+     "school": "Kearney",
+     "record": "7-0",
+     "rank": 2,
+     "class": 4
+    },
+    {
+     "school": "Helias Catholic",
+     "record": "7-0",
+     "rank": 18,
+     "class": 5
+    },
+    {
+     "school": "Valle Catholic",
+     "record": "7-0",
+     "rank": 19,
+     "class": 2
+    },
+    {
+     "school": "Savannah",
+     "record": "7-0",
+     "rank": 23,
+     "class": 4
+    },
+    {
+     "school": "Lamar",
+     "record": "7-0",
+     "rank": 34,
+     "class": 2
+    },
+    {
+     "school": "Ladue Horton Watkins",
+     "record": "7-0",
+     "rank": 37,
+     "class": 5
+    },
+    {
+     "school": "Maryville",
+     "record": "7-0",
+     "rank": 47,
+     "class": 3
+    },
+    {
+     "school": "Logan-Rogersville",
+     "record": "7-0",
+     "rank": 48,
+     "class": 4
+    },
+    {
+     "school": "Tipton with Bunceton",
+     "record": "7-0",
+     "rank": 61,
+     "class": 1
+    },
+    {
+     "school": "Centralia",
+     "record": "7-0",
+     "rank": 62,
+     "class": 2
+    },
+    {
+     "school": "Mid-Buchanan",
+     "record": "7-0",
+     "rank": 70,
+     "class": 2
+    },
+    {
+     "school": "Pembroke Hill",
+     "record": "7-0",
+     "rank": 86,
+     "class": 3
+    },
+    {
+     "school": "St. Charles West",
+     "record": "7-0",
+     "rank": 118,
+     "class": 4
+    },
+    {
+     "school": "Springfield Catholic",
+     "record": "7-0",
+     "rank": 122,
+     "class": 2
+    },
+    {
+     "school": "Salisbury",
+     "record": "7-0",
+     "rank": 141,
+     "class": 1
+    },
+    {
+     "school": "University City",
+     "record": "7-0",
+     "rank": 142,
+     "class": 4
+    },
+    {
+     "school": "Brookfield",
+     "record": "7-0",
+     "rank": 152,
+     "class": 2
+    },
+    {
+     "school": "Russellville",
+     "record": "7-0",
+     "rank": 191,
+     "class": 1
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-16",
+     "team1": "Blue Springs",
+     "team2": "Lee's Summit",
+     "rank1": 3,
+     "rank2": 8,
+     "favorite": "Blue Springs",
+     "sort": 11,
+     "pick": "17\u201314"
+    },
+    {
+     "date": "2026-10-16",
+     "team1": "Raymore-Peculiar",
+     "team2": "Liberty North",
+     "rank1": 9,
+     "rank2": 6,
+     "favorite": "Liberty North",
+     "sort": 15,
+     "pick": "35\u201331"
+    },
+    {
+     "date": "2026-10-16",
+     "team1": "Blue Springs South",
+     "team2": "Rockhurst",
+     "rank1": 7,
+     "rank2": 10,
+     "favorite": "Blue Springs South",
+     "sort": 17,
+     "pick": "24\u201321"
+    }
+   ],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Tipton with Bunceton",
+     "record": "7-0",
+     "rank": 61
+    },
+    {
+     "class": 2,
+     "school": "Valle Catholic",
+     "record": "7-0",
+     "rank": 19
+    },
+    {
+     "class": 3,
+     "school": "St. Pius X (Kansas City)",
+     "record": "5-2",
+     "rank": 13
+    },
+    {
+     "class": 4,
+     "school": "Kearney",
+     "record": "7-0",
+     "rank": 2
+    },
+    {
+     "class": 5,
+     "school": "Carthage",
+     "record": "6-1",
+     "rank": 15
+    },
+    {
+     "class": 6,
+     "school": "Jackson",
+     "record": "7-0",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "Lift for Life Academy Charter",
+      "from": 59,
+      "to": 50,
+      "move": 9,
+      "games": [
+       {
+        "date": "2026-10-08",
+        "winner": "Cardinal Ritter",
+        "loser": "Lift for Life Academy Charter",
+        "w_score": 30,
+        "l_score": 22,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 21,
+        "l_rank": 50
+       }
+      ]
+     },
+     {
+      "school": "Park Hill",
+      "from": 30,
+      "to": 25,
+      "move": 5,
+      "games": [
+       {
+        "date": "2026-10-09",
+        "winner": "Park Hill",
+        "loser": "Central (St. Joseph)",
+        "w_score": 45,
+        "l_score": 6,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 75
+       }
+      ]
+     }
+    ],
+    "down": [
+     {
+      "school": "Lee's Summit North",
+      "from": 2,
+      "to": 11,
+      "move": -9,
+      "games": [
+       {
+        "date": "2026-10-09",
+        "winner": "North Kansas City",
+        "loser": "Lee's Summit North",
+        "w_score": 49,
+        "l_score": 14,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 4,
+        "l_rank": 11
+       }
+      ]
+     },
+     {
+      "school": "Hannibal",
+      "from": 50,
+      "to": 57,
+      "move": -7,
+      "games": [
+       {
+        "date": "2026-10-09",
+        "winner": "Festus",
+        "loser": "Hannibal",
+        "w_score": 21,
+        "l_score": 12,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 52,
+        "l_rank": 57
+       }
+      ]
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Principia 70, Veritas Christian Academy 35 (105 points)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Grain Valley 85, Truman 6"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: De Smet Jesuit (OFF 39.66)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Lee's Summit (DEF 39.56)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     10,
+     11
+    ],
+    "season": [
+     10,
+     11
+    ],
+    "ranked_last_week": [
+     0,
+     1
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 10,
+    "year": 2016,
+    "date": "2016-10-07",
+    "winner": "Christian Brothers College",
+    "loser": "Rockhurst",
+    "w_score": 10,
+    "l_score": 3,
+    "w_rank": 1,
+    "l_rank": 2,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "boys_soccer",
+   "label": "Boys Soccer",
+   "unit": "goals",
+   "rankings_page": "https://allmosports.com/boys-soccer-rankings/",
+   "ratings_updated": "October 12, 2026 at 07:19 AM",
+   "previous_snapshot": "2026-10-08",
+   "games_this_week": 246,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Rockhurst",
+     "class": 4,
+     "record": "11-0-1",
+     "ovr": 8.48,
+     "off": 4.95,
+     "def": 3.53,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Liberty North",
+     "class": 4,
+     "record": "11-2",
+     "ovr": 6.65,
+     "off": 3.31,
+     "def": 3.34,
+     "move": 4
+    },
+    {
+     "rank": 3,
+     "school": "SLUH",
+     "class": 4,
+     "record": "13-1-4",
+     "ovr": 6.47,
+     "off": 2.84,
+     "def": 3.62,
+     "move": -1
+    },
+    {
+     "rank": 4,
+     "school": "Chaminade College Prep",
+     "class": 3,
+     "record": "15-0-2",
+     "ovr": 6.26,
+     "off": 2.76,
+     "def": 3.5,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Lee's Summit",
+     "class": 4,
+     "record": "7-2",
+     "ovr": 6.01,
+     "off": 2.86,
+     "def": 3.15,
+     "move": -2
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-10-08",
+     "winner": "Liberty North",
+     "loser": "Lee's Summit",
+     "w_score": 4,
+     "l_score": 1,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 2,
+     "l_rank": 5,
+     "sort": 7
+    },
+    {
+     "date": "2026-10-08",
+     "winner": "Christian Brothers College",
+     "loser": "SLUH",
+     "w_score": 1,
+     "l_score": 1,
+     "tie": true,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 12,
+     "l_rank": 3,
+     "sort": 15
+    },
+    {
+     "date": "2026-10-06",
+     "winner": "Rockhurst",
+     "loser": "Pembroke Hill",
+     "w_score": 7,
+     "l_score": 3,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 1,
+     "l_rank": 17,
+     "sort": 18
+    },
+    {
+     "date": "2026-10-08",
+     "winner": "Marquette",
+     "loser": "Kirkwood",
+     "w_score": 2,
+     "l_score": 1,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 9,
+     "l_rank": 14,
+     "sort": 23
+    }
+   ],
+   "number_one": {
+    "school": "Rockhurst",
+    "games": [
+     {
+      "date": "2026-10-06",
+      "winner": "Rockhurst",
+      "loser": "Pembroke Hill",
+      "w_score": 7,
+      "l_score": 3,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 17
+     },
+     {
+      "date": "2026-10-08",
+      "winner": "Rockhurst",
+      "loser": "Lincoln College Prep",
+      "w_score": 8,
+      "l_score": 2,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 50
+     }
+    ]
+   },
+   "upsets": [
+    {
+     "date": "2026-10-07",
+     "winner": "Boonville",
+     "loser": "Smith-Cotton",
+     "w_score": 1,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 143,
+     "l_rank": 79,
+     "gap": 3.37,
+     "gap_basis": "pre-game"
+    }
+   ],
+   "unbeaten": [
+    {
+     "school": "Rockhurst",
+     "record": "11-0-1",
+     "rank": 1,
+     "class": 4
+    },
+    {
+     "school": "Chaminade College Prep",
+     "record": "15-0-2",
+     "rank": 4,
+     "class": 3
+    },
+    {
+     "school": "Helias Catholic",
+     "record": "16-0",
+     "rank": 33,
+     "class": 2
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-15",
+     "team1": "Lee's Summit West",
+     "team2": "Liberty North",
+     "rank1": 16,
+     "rank2": 2,
+     "favorite": "Liberty North",
+     "sort": 18
+    },
+    {
+     "date": "2026-10-13",
+     "team1": "Northeast (Kansas City)",
+     "team2": "Rockhurst",
+     "rank1": 19,
+     "rank2": 1,
+     "favorite": "Rockhurst",
+     "sort": 20
+    },
+    {
+     "date": "2026-10-13",
+     "team1": "Blue Springs",
+     "team2": "Liberty North",
+     "rank1": 20,
+     "rank2": 2,
+     "favorite": "Liberty North",
+     "sort": 22
+    }
+   ],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Pembroke Hill",
+     "record": "6-4-2",
+     "rank": 17
+    },
+    {
+     "class": 2,
+     "school": "Notre Dame (Cape Girardeau)",
+     "record": "14-2",
+     "rank": 21
+    },
+    {
+     "class": 3,
+     "school": "Chaminade College Prep",
+     "record": "15-0-2",
+     "rank": 4
+    },
+    {
+     "class": 4,
+     "school": "Rockhurst",
+     "record": "11-0-1",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "Lafayette (Wildwood)",
+      "from": 23,
+      "to": 15,
+      "move": 8,
+      "games": [
+       {
+        "date": "2026-10-06",
+        "winner": "Lafayette (Wildwood)",
+        "loser": "Ft. Zumwalt West",
+        "w_score": 3,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 15,
+        "l_rank": 37
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Lafayette (Wildwood)",
+        "loser": "Eureka",
+        "w_score": 5,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 15,
+        "l_rank": 28
+       }
+      ]
+     },
+     {
+      "school": "Blue Springs",
+      "from": 26,
+      "to": 20,
+      "move": 6,
+      "games": [
+       {
+        "date": "2026-10-06",
+        "winner": "Blue Springs",
+        "loser": "Raymore-Peculiar",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 20,
+        "l_rank": 62
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Blue Springs",
+        "loser": "St. Michael the Archangel",
+        "w_score": 4,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 20,
+        "l_rank": 64
+       }
+      ]
+     }
+    ],
+    "down": [
+     {
+      "school": "Francis Howell",
+      "from": 33,
+      "to": 43,
+      "move": -10,
+      "games": [
+       {
+        "date": "2026-10-08",
+        "winner": "Ft. Zumwalt South",
+        "loser": "Francis Howell",
+        "w_score": 4,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 30,
+        "l_rank": 43
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Ft. Zumwalt West",
+        "loser": "Francis Howell",
+        "w_score": 1,
+        "l_score": 1,
+        "tie": true,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 37,
+        "l_rank": 43
+       }
+      ]
+     },
+     {
+      "school": "Parkway West",
+      "from": 19,
+      "to": 26,
+      "move": -7,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "Parkway West",
+        "loser": "Seckman",
+        "w_score": 1,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 26,
+        "l_rank": 66
+       },
+       {
+        "date": "2026-10-06",
+        "winner": "Oakville",
+        "loser": "Parkway West",
+        "w_score": 1,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 8,
+        "l_rank": 26
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Parkway South",
+        "loser": "Parkway West",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 46,
+        "l_rank": 26
+       }
+      ]
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: New Covenant Academy 9, Crocker 1 (10 goals)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Dixon 8, Iberia 0"
+    },
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Helias Catholic (16 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Rockhurst (OFF 4.95)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: SLUH (DEF 3.62)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     58,
+     74
+    ],
+    "season": [
+     58,
+     74
+    ],
+    "ranked_last_week": [
+     3,
+     5
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 13,
+    "year": 2013,
+    "date": "2013-10-05",
+    "winner": "Marquette",
+    "loser": "Rockhurst",
+    "w_score": 1,
+    "l_score": 0,
+    "w_rank": 1,
+    "l_rank": 4,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "girls_volleyball",
+   "label": "Girls Volleyball",
+   "unit": "sets",
+   "rankings_page": "https://allmosports.com/girls-volleyball-rankings/",
+   "ratings_updated": "October 12, 2026 at 09:44 AM",
+   "previous_snapshot": "2026-10-08",
+   "games_this_week": 699,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Lafayette (Wildwood)",
+     "class": 5,
+     "record": "25-3",
+     "ovr": 6.84,
+     "off": 3.37,
+     "def": 3.47,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Lee's Summit West",
+     "class": 5,
+     "record": "25-3",
+     "ovr": 6.51,
+     "off": 3.15,
+     "def": 3.35,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Jackson",
+     "class": 5,
+     "record": "31-3",
+     "ovr": 6.32,
+     "off": 2.9,
+     "def": 3.42,
+     "move": 0
+    },
+    {
+     "rank": 4,
+     "school": "Lee's Summit North",
+     "class": 5,
+     "record": "27-4",
+     "ovr": 5.69,
+     "off": 2.82,
+     "def": 2.87,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Eureka",
+     "class": 5,
+     "record": "22-7",
+     "ovr": 5.42,
+     "off": 2.73,
+     "def": 2.69,
+     "move": 1
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-10-08",
+     "winner": "Lafayette (Wildwood)",
+     "loser": "Eureka",
+     "w_score": 3,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 1,
+     "l_rank": 5,
+     "sort": 6
+    },
+    {
+     "date": "2026-10-07",
+     "winner": "Jackson",
+     "loser": "Incarnate Word Academy",
+     "w_score": 3,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 3,
+     "l_rank": 7,
+     "sort": 10
+    },
+    {
+     "date": "2026-10-06",
+     "winner": "Ozark",
+     "loser": "Nixa",
+     "w_score": 3,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 6,
+     "l_rank": 14,
+     "sort": 20
+    },
+    {
+     "date": "2026-10-08",
+     "winner": "Lee's Summit North",
+     "loser": "Raymore-Peculiar",
+     "w_score": 3,
+     "l_score": 1,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 4,
+     "l_rank": 17,
+     "sort": 21
+    }
+   ],
+   "number_one": {
+    "school": "Lafayette (Wildwood)",
+    "games": [
+     {
+      "date": "2026-10-05",
+      "winner": "Lafayette (Wildwood)",
+      "loser": "Ft. Zumwalt West",
+      "w_score": 2,
+      "l_score": 0,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 13
+     },
+     {
+      "date": "2026-10-05",
+      "winner": "Lafayette (Wildwood)",
+      "loser": "St. Louis Christian Sr.",
+      "w_score": 2,
+      "l_score": 0,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": null
+     },
+     {
+      "date": "2026-10-08",
+      "winner": "Lafayette (Wildwood)",
+      "loser": "Eureka",
+      "w_score": 3,
+      "l_score": 0,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 5
+     }
+    ]
+   },
+   "upsets": [
+    {
+     "date": "2026-10-05",
+     "winner": "Vashon",
+     "loser": "West Plains",
+     "w_score": 3,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 427,
+     "l_rank": 26,
+     "gap": 9.99,
+     "gap_basis": "pre-game"
+    }
+   ],
+   "unbeaten": [
+    {
+     "school": "Helias Catholic",
+     "record": "27-0-1",
+     "rank": 9,
+     "class": 4
+    },
+    {
+     "school": "Potosi",
+     "record": "26-0-1",
+     "rank": 12,
+     "class": 3
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-13",
+     "team1": "Incarnate Word Academy",
+     "team2": "Lafayette (Wildwood)",
+     "rank1": 7,
+     "rank2": 1,
+     "favorite": "Lafayette (Wildwood)",
+     "sort": 8
+    },
+    {
+     "date": "2026-10-15",
+     "team1": "Jackson",
+     "team2": "Eureka",
+     "rank1": 3,
+     "rank2": 5,
+     "favorite": "Jackson",
+     "sort": 8
+    },
+    {
+     "date": "2026-10-15",
+     "team1": "Ozark",
+     "team2": "Kickapoo",
+     "rank1": 6,
+     "rank2": 15,
+     "favorite": "Ozark",
+     "sort": 21
+    }
+   ],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Valle Catholic",
+     "record": "20-8-1",
+     "rank": 66
+    },
+    {
+     "class": 2,
+     "school": "New Covenant Academy",
+     "record": "24-1-1",
+     "rank": 36
+    },
+    {
+     "class": 3,
+     "school": "Potosi",
+     "record": "26-0-1",
+     "rank": 12
+    },
+    {
+     "class": 4,
+     "school": "St. Teresa's Academy",
+     "record": "10-10",
+     "rank": 8
+    },
+    {
+     "class": 5,
+     "school": "Lafayette (Wildwood)",
+     "record": "25-3",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "Liberty North",
+      "from": 28,
+      "to": 19,
+      "move": 9,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "Park Hill South",
+        "loser": "Liberty North",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 56,
+        "l_rank": 19
+       },
+       {
+        "date": "2026-10-06",
+        "winner": "Liberty North",
+        "loser": "Blue Springs",
+        "w_score": 3,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 19,
+        "l_rank": 24
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Liberty North",
+        "loser": "Lee's Summit",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 19,
+        "l_rank": 21
+       }
+      ]
+     },
+     {
+      "school": "Westminster Christian Academy",
+      "from": 35,
+      "to": 29,
+      "move": 6,
+      "games": [
+       {
+        "date": "2026-10-06",
+        "winner": "Westminster Christian Academy",
+        "loser": "MICDS",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 29,
+        "l_rank": 38
+       },
+       {
+        "date": "2026-10-07",
+        "winner": "Westminster Christian Academy",
+        "loser": "Lindbergh",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 29,
+        "l_rank": 37
+       }
+      ]
+     }
+    ],
+    "down": [
+     {
+      "school": "St. Francis Borgia",
+      "from": 22,
+      "to": 31,
+      "move": -9,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "St. Francis Borgia",
+        "loser": "Duchesne",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 31,
+        "l_rank": 127
+       },
+       {
+        "date": "2026-10-07",
+        "winner": "St. Francis Borgia",
+        "loser": "Festus",
+        "w_score": 3,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 31,
+        "l_rank": 60
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "Logan-Rogersville",
+        "loser": "St. Francis Borgia",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 80,
+        "l_rank": 31
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "West Plains",
+        "loser": "St. Francis Borgia",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 26,
+        "l_rank": 31
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Greenwood(Greenwood, AR)",
+        "loser": "St. Francis Borgia",
+        "w_score": 2,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": null,
+        "l_rank": 31
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Olathe NW(Olathe, KS)",
+        "loser": "St. Francis Borgia",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": null,
+        "l_rank": 31
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Ozark",
+        "loser": "St. Francis Borgia",
+        "w_score": 2,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 6,
+        "l_rank": 31
+       }
+      ]
+     },
+     {
+      "school": "St. Joseph's Academy",
+      "from": 21,
+      "to": 27,
+      "move": -6,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "Oakville",
+        "loser": "St. Joseph's Academy",
+        "w_score": 3,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 27
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "Nixa",
+        "loser": "St. Joseph's Academy",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 14,
+        "l_rank": 27
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "St. Joseph's Academy",
+        "loser": "Jefferson City",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 27,
+        "l_rank": 39
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "St. Joseph's Academy",
+        "loser": "Logan-Rogersville",
+        "w_score": 2,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 27,
+        "l_rank": 80
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Ozark",
+        "loser": "St. Joseph's Academy",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 6,
+        "l_rank": 27
+       }
+      ]
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Helias Catholic (27 straight)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     173,
+     204
+    ],
+    "season": [
+     173,
+     204
+    ],
+    "ranked_last_week": [
+     5,
+     6
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 4,
+    "year": 2022,
+    "date": "2022-10-08",
+    "winner": "Lafayette (Wildwood)",
+    "loser": "Liberty North",
+    "w_score": 2,
+    "l_score": 0,
+    "w_rank": 2,
+    "l_rank": 1,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "fall_softball",
+   "label": "Fall Softball",
+   "unit": "runs",
+   "rankings_page": "https://allmosports.com/fall-softball-rankings/",
+   "ratings_updated": "October 12, 2026 at 08:32 AM",
+   "previous_snapshot": "2026-10-08",
+   "games_this_week": 486,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Blue Springs South",
+     "class": 5,
+     "record": "17-12",
+     "ovr": 15.49,
+     "off": 8.6,
+     "def": 6.89,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Grain Valley",
+     "class": 5,
+     "record": "25-0",
+     "ovr": 15.45,
+     "off": 6.17,
+     "def": 9.28,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Troy Buchanan",
+     "class": 5,
+     "record": "26-5",
+     "ovr": 13.54,
+     "off": 4.7,
+     "def": 8.83,
+     "move": 0
+    },
+    {
+     "rank": 4,
+     "school": "Chillicothe",
+     "class": 3,
+     "record": "27-2",
+     "ovr": 13.44,
+     "off": 4.57,
+     "def": 8.87,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Ft. Zumwalt West",
+     "class": 5,
+     "record": "26-5",
+     "ovr": 13.39,
+     "off": 5.72,
+     "def": 7.66,
+     "move": 1
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-10-06",
+     "winner": "Blue Springs South",
+     "loser": "Raymore-Peculiar",
+     "w_score": 12,
+     "l_score": 7,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 1,
+     "l_rank": 8,
+     "sort": 9
+    },
+    {
+     "date": "2026-10-08",
+     "winner": "Ft. Zumwalt West",
+     "loser": "Rock Bridge",
+     "w_score": 6,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 5,
+     "l_rank": 11,
+     "sort": 16
+    },
+    {
+     "date": "2026-10-07",
+     "winner": "Troy Buchanan",
+     "loser": "Westminster Christian Academy",
+     "w_score": 7,
+     "l_score": 3,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 3,
+     "l_rank": 24,
+     "sort": 27
+    },
+    {
+     "date": "2026-10-09",
+     "winner": "Washington",
+     "loser": "Helias Catholic",
+     "w_score": 6,
+     "l_score": 5,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 20,
+     "l_rank": 7,
+     "sort": 27
+    }
+   ],
+   "number_one": {
+    "school": "Blue Springs South",
+    "games": [
+     {
+      "date": "2026-10-05",
+      "winner": "Blue Springs South",
+      "loser": "Liberty North",
+      "w_score": 15,
+      "l_score": 0,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 13
+     },
+     {
+      "date": "2026-10-06",
+      "winner": "Blue Springs South",
+      "loser": "Raymore-Peculiar",
+      "w_score": 12,
+      "l_score": 7,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 8
+     },
+     {
+      "date": "2026-10-07",
+      "winner": "Raymore-Peculiar",
+      "loser": "Blue Springs South",
+      "w_score": 9,
+      "l_score": 7,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 8,
+      "l_rank": 1
+     },
+     {
+      "date": "2026-10-08",
+      "winner": "Blue Springs South",
+      "loser": "Blue Springs",
+      "w_score": 9,
+      "l_score": 4,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 1,
+      "l_rank": 46
+     }
+    ]
+   },
+   "upsets": [
+    {
+     "date": "2026-10-05",
+     "winner": "La Plata",
+     "loser": "Northeast (Cairo)",
+     "w_score": 17,
+     "l_score": 16,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 237,
+     "l_rank": 189,
+     "gap": 7.74,
+     "gap_basis": "pre-game"
+    }
+   ],
+   "unbeaten": [
+    {
+     "school": "Grain Valley",
+     "record": "25-0",
+     "rank": 2,
+     "class": 5
+    },
+    {
+     "school": "Marceline",
+     "record": "23-0",
+     "rank": 18,
+     "class": 2
+    },
+    {
+     "school": "Valley Park",
+     "record": "16-0-1",
+     "rank": 170,
+     "class": 2
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-12",
+     "team1": "Platte County",
+     "team2": "Liberty North",
+     "rank1": 6,
+     "rank2": 13,
+     "favorite": "Platte County",
+     "sort": 19
+    }
+   ],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Silex",
+     "record": "20-5",
+     "rank": 42
+    },
+    {
+     "class": 2,
+     "school": "Chaffee",
+     "record": "24-3",
+     "rank": 15
+    },
+    {
+     "class": 3,
+     "school": "Chillicothe",
+     "record": "27-2",
+     "rank": 4
+    },
+    {
+     "class": 4,
+     "school": "Platte County",
+     "record": "18-7",
+     "rank": 6
+    },
+    {
+     "class": 5,
+     "school": "Blue Springs South",
+     "record": "17-12",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "St. Elizabeth",
+      "from": 54,
+      "to": 47,
+      "move": 7,
+      "games": [
+       {
+        "date": "2026-10-06",
+        "winner": "St. Elizabeth",
+        "loser": "Eugene",
+        "w_score": 10,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 73
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Linn",
+        "loser": "St. Elizabeth",
+        "w_score": 5,
+        "l_score": 4,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 48,
+        "l_rank": 47
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "St. Elizabeth",
+        "loser": "Owensville",
+        "w_score": 11,
+        "l_score": 7,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 163
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "St. Elizabeth",
+        "loser": "Ozark",
+        "w_score": 3,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 36
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "St. Elizabeth",
+        "loser": "Nixa",
+        "w_score": 10,
+        "l_score": 7,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 50
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "St. Elizabeth",
+        "loser": "Willard",
+        "w_score": 3,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 47,
+        "l_rank": 12
+       }
+      ]
+     },
+     {
+      "school": "Pleasant Hill",
+      "from": 31,
+      "to": 25,
+      "move": 6,
+      "games": [
+       {
+        "date": "2026-10-06",
+        "winner": "Oak Grove",
+        "loser": "Pleasant Hill",
+        "w_score": 4,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 23,
+        "l_rank": 25
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Pleasant Hill",
+        "loser": "Warrensburg",
+        "w_score": 17,
+        "l_score": 3,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 110
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "Pleasant Hill",
+        "loser": "Harrisonville",
+        "w_score": 10,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 208
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "Pleasant Hill",
+        "loser": "St. Michael the Archangel",
+        "w_score": 18,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 177
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Pleasant Hill",
+        "loser": "Summit Christian Academy",
+        "w_score": 5,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 154
+       }
+      ]
+     }
+    ],
+    "down": [
+     {
+      "school": "Princeton",
+      "from": 47,
+      "to": 64,
+      "move": -17,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "Princeton",
+        "loser": "Kirksville",
+        "w_score": 3,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 76
+       },
+       {
+        "date": "2026-10-06",
+        "winner": "Princeton",
+        "loser": "Grundy County with Newtown-Harris",
+        "w_score": 20,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 287
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Princeton",
+        "loser": "Gallatin",
+        "w_score": 13,
+        "l_score": 7,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 167
+       },
+       {
+        "date": "2026-10-09",
+        "winner": "Princeton",
+        "loser": "Albany",
+        "w_score": 5,
+        "l_score": 4,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 127
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Princeton",
+        "loser": "Jefferson (Conception) with South Nodaway",
+        "w_score": 10,
+        "l_score": 5,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 180
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Lathrop",
+        "loser": "Princeton",
+        "w_score": 8,
+        "l_score": 5,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 65,
+        "l_rank": 64
+       },
+       {
+        "date": "2026-10-10",
+        "winner": "Princeton",
+        "loser": "Penney",
+        "w_score": 14,
+        "l_score": 3,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 64,
+        "l_rank": 169
+       }
+      ]
+     },
+     {
+      "school": "South Harrison",
+      "from": 49,
+      "to": 59,
+      "move": -10,
+      "games": [
+       {
+        "date": "2026-10-05",
+        "winner": "South Harrison",
+        "loser": "Maysville",
+        "w_score": 10,
+        "l_score": 2,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 59,
+        "l_rank": 157
+       },
+       {
+        "date": "2026-10-06",
+        "winner": "Chillicothe",
+        "loser": "South Harrison",
+        "w_score": 2,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 4,
+        "l_rank": 59
+       },
+       {
+        "date": "2026-10-08",
+        "winner": "Savannah",
+        "loser": "South Harrison",
+        "w_score": 10,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 21,
+        "l_rank": 59
+       }
+      ]
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Atlanta 30, Bucklin with Macon County 14 (44 runs)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Raytown South 22, Ruskin 1"
+    },
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Grain Valley (25 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Blue Springs South (OFF 8.6)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Grain Valley (DEF 9.28)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     107,
+     131
+    ],
+    "season": [
+     107,
+     131
+    ],
+    "ranked_last_week": [
+     1,
+     2
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 1,
+    "year": 2025,
+    "date": "2025-10-09",
+    "winner": "Raymore-Peculiar",
+    "loser": "Liberty North",
+    "w_score": 5,
+    "l_score": 3,
+    "w_rank": 1,
+    "l_rank": 2,
+    "kind": "matchup"
+   }
+  }
+ ],
+ "lead_candidates": [
+  {
+   "type": "multi_sport_unbeaten",
+   "score": 130,
+   "headline": "Helias Catholic is unbeaten in 3 sports",
+   "facts": [
+    "Football: 7-0",
+    "Boys Soccer: 16-0",
+    "Girls Volleyball: 27-0-1"
+   ]
+  },
+  {
+   "type": "number_one_lost",
+   "score": 90,
+   "headline": "Fall Softball: No. 1 Blue Springs South lost to Raymore-Peculiar",
+   "facts": [
+    "Raymore-Peculiar 9, Blue Springs South 7 (2026-10-07)"
+   ]
+  },
+  {
+   "type": "upset",
+   "score": 84.3,
+   "headline": "Football upset: Reeds Spring over Buffalo",
+   "facts": [
+    "Reeds Spring 38, Buffalo 13 (2026-10-09)",
+    "No. 232 beat No. 201; rating gap 24.3 points"
+   ]
+  },
+  {
+   "type": "upset",
+   "score": 69.99,
+   "headline": "Girls Volleyball upset: Vashon over West Plains",
+   "facts": [
+    "Vashon 3, West Plains 0 (2026-10-05)",
+    "No. 427 beat No. 26; rating gap 9.99 sets"
+   ]
+  },
+  {
+   "type": "upset",
+   "score": 67.74,
+   "headline": "Fall Softball upset: La Plata over Northeast (Cairo)",
+   "facts": [
+    "La Plata 17, Northeast (Cairo) 16 (2026-10-05)",
+    "No. 237 beat No. 189; rating gap 7.74 runs"
+   ]
+  },
+  {
+   "type": "upset",
+   "score": 63.37,
+   "headline": "Boys Soccer upset: Boonville over Smith-Cotton",
+   "facts": [
+    "Boonville 1, Smith-Cotton 0 (2026-10-07)",
+    "No. 143 beat No. 79; rating gap 3.37 goals"
+   ]
+  }
+ ]
+}
