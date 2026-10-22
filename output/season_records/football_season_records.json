@@ -2,7 +2,7 @@
   "sport": "football",
   "schema": "POINTS",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=19",
-  "scraped_at": "2026-10-21T15:46:37+00:00",
+  "scraped_at": "2026-10-22T15:45:13+00:00",
   "teams": [
     {
       "school": "Lockwood",
@@ -198,7 +198,7 @@
       "wins": 8,
       "losses": 0,
       "ties": 0,
-      "mshsaa_points": 52.39,
+      "mshsaa_points": 52.38,
       "win_pct": 100.0,
       "games_played": 8
     },
@@ -594,7 +594,7 @@
       "wins": 7,
       "losses": 1,
       "ties": 0,
-      "mshsaa_points": 43.54,
+      "mshsaa_points": 43.61,
       "win_pct": 87.5,
       "games_played": 8
     },
@@ -923,6 +923,24 @@
       "games_played": 7
     },
     {
+      "school": "Macon",
+      "mshsaa_school_id": 104,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 8,
+      "points_for": 278,
+      "points_against": 168,
+      "ppg": 30.89,
+      "oppg": 18.67,
+      "mov": 12.22,
+      "wins": 7,
+      "losses": 2,
+      "ties": 0,
+      "mshsaa_points": 38.96,
+      "win_pct": 77.78,
+      "games_played": 9
+    },
+    {
       "school": "Thayer",
       "mshsaa_school_id": 471,
       "classification_code": 1,
@@ -972,7 +990,7 @@
       "wins": 6,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 46.96,
+      "mshsaa_points": 46.91,
       "win_pct": 75.0,
       "games_played": 8
     },
@@ -1170,7 +1188,7 @@
       "wins": 6,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 41.71,
+      "mshsaa_points": 41.79,
       "win_pct": 75.0,
       "games_played": 8
     },
@@ -1333,24 +1351,6 @@
       "losses": 2,
       "ties": 0,
       "mshsaa_points": 40.8,
-      "win_pct": 75.0,
-      "games_played": 8
-    },
-    {
-      "school": "Macon",
-      "mshsaa_school_id": 104,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 8,
-      "points_for": 265,
-      "points_against": 168,
-      "ppg": 33.13,
-      "oppg": 21,
-      "mov": 12.13,
-      "wins": 6,
-      "losses": 2,
-      "ties": 0,
-      "mshsaa_points": 38.55,
       "win_pct": 75.0,
       "games_played": 8
     },
@@ -1800,7 +1800,7 @@
       "wins": 5,
       "losses": 2,
       "ties": 0,
-      "mshsaa_points": 42.43,
+      "mshsaa_points": 42.33,
       "win_pct": 71.43,
       "games_played": 7
     },
@@ -2196,7 +2196,7 @@
       "wins": 5,
       "losses": 3,
       "ties": 0,
-      "mshsaa_points": 39.77,
+      "mshsaa_points": 39.74,
       "win_pct": 62.5,
       "games_played": 8
     },
@@ -2898,7 +2898,7 @@
       "wins": 4,
       "losses": 4,
       "ties": 0,
-      "mshsaa_points": 37.96,
+      "mshsaa_points": 38.0,
       "win_pct": 50.0,
       "games_played": 8
     },
@@ -3816,7 +3816,7 @@
       "wins": 3,
       "losses": 5,
       "ties": 0,
-      "mshsaa_points": 38.94,
+      "mshsaa_points": 35.19,
       "win_pct": 37.5,
       "games_played": 8
     },
@@ -5022,7 +5022,7 @@
       "wins": 2,
       "losses": 6,
       "ties": 0,
-      "mshsaa_points": 23.21,
+      "mshsaa_points": 23.29,
       "win_pct": 25.0,
       "games_played": 8
     },
@@ -5508,7 +5508,7 @@
       "wins": 1,
       "losses": 7,
       "ties": 0,
-      "mshsaa_points": 19.59,
+      "mshsaa_points": 19.52,
       "win_pct": 12.5,
       "games_played": 8
     },
@@ -6005,16 +6005,16 @@
       "classification_label": "2",
       "district": 7,
       "points_for": 52,
-      "points_against": 392,
-      "ppg": 6.5,
-      "oppg": 49,
-      "mov": -42.5,
+      "points_against": 405,
+      "ppg": 5.78,
+      "oppg": 45,
+      "mov": -39.22,
       "wins": 0,
-      "losses": 8,
+      "losses": 9,
       "ties": 0,
-      "mshsaa_points": 12.0,
+      "mshsaa_points": 11.76,
       "win_pct": 0.0,
-      "games_played": 8
+      "games_played": 9
     },
     {
       "school": "Pleasant Hope with Marion C. Early, Halfway",
