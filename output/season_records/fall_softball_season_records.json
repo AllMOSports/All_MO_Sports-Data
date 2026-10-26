@@ -2,7 +2,7 @@
   "sport": "fall_softball",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=38",
-  "scraped_at": "2026-10-25T14:44:36+00:00",
+  "scraped_at": "2026-10-26T17:05:51+00:00",
   "teams": [
     {
       "school": "Marceline",
@@ -4145,24 +4145,6 @@
       "games_played": 22
     },
     {
-      "school": "Tina-Avalon with Hale, Bosworth",
-      "mshsaa_school_id": 473,
-      "classification_code": 1,
-      "classification_label": "1",
-      "district": 6,
-      "points_for": 113,
-      "points_against": 209,
-      "ppg": 7.06,
-      "oppg": 13.06,
-      "mov": -6,
-      "wins": 5,
-      "losses": 11,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 31.25,
-      "games_played": 16
-    },
-    {
       "school": "Braymer with Southwest (Livingston County), Breckenridge",
       "mshsaa_school_id": 240,
       "classification_code": 1,
@@ -4173,6 +4155,24 @@
       "ppg": 6.38,
       "oppg": 10.25,
       "mov": -3.88,
+      "wins": 5,
+      "losses": 11,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 31.25,
+      "games_played": 16
+    },
+    {
+      "school": "Tina-Avalon with Hale, Bosworth",
+      "mshsaa_school_id": 473,
+      "classification_code": 1,
+      "classification_label": "1",
+      "district": 6,
+      "points_for": 113,
+      "points_against": 209,
+      "ppg": 7.06,
+      "oppg": 13.06,
+      "mov": -6,
       "wins": 5,
       "losses": 11,
       "ties": 0,
