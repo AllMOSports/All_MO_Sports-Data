@@ -2,7 +2,7 @@
   "sport": "fall_softball",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=38",
-  "scraped_at": "2026-10-26T17:05:51+00:00",
+  "scraped_at": "2026-10-27T16:09:06+00:00",
   "teams": [
     {
       "school": "Marceline",
@@ -1301,24 +1301,6 @@
       "games_played": 34
     },
     {
-      "school": "Iberia",
-      "mshsaa_school_id": 325,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 4,
-      "points_for": 218,
-      "points_against": 149,
-      "ppg": 7.79,
-      "oppg": 5.32,
-      "mov": 2.46,
-      "wins": 18,
-      "losses": 10,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 64.29,
-      "games_played": 28
-    },
-    {
       "school": "Dixon",
       "mshsaa_school_id": 273,
       "classification_code": 2,
@@ -1329,6 +1311,24 @@
       "ppg": 11.14,
       "oppg": 5.93,
       "mov": 5.21,
+      "wins": 18,
+      "losses": 10,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 64.29,
+      "games_played": 28
+    },
+    {
+      "school": "Iberia",
+      "mshsaa_school_id": 325,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 4,
+      "points_for": 218,
+      "points_against": 149,
+      "ppg": 7.79,
+      "oppg": 5.32,
+      "mov": 2.46,
       "wins": 18,
       "losses": 10,
       "ties": 0,
