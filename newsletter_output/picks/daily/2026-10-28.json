@@ -1,0 +1,195 @@
+{
+ "football": {
+  "ratings_updated": "October 25, 2026 at 10:51 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "October 28, 2026 at 07:19 AM",
+  "games": [
+   {
+    "date": "2026-10-28",
+    "team1": "Benton",
+    "team2": "Cameron",
+    "pick": "Benton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "John Burroughs",
+    "team2": "Clayton",
+    "pick": "John Burroughs",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Winfield",
+    "team2": "Duchesne",
+    "pick": "Duchesne",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Farmington",
+    "team2": "Eureka",
+    "pick": "Eureka",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Jefferson City",
+    "team2": "Father Tolton",
+    "pick": "Father Tolton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Central (Cape Girardeau)",
+    "team2": "Fredericktown",
+    "pick": "Central (Cape Girardeau)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Lafayette (Wildwood)",
+    "team2": "Ft. Zumwalt East",
+    "pick": "Lafayette (Wildwood)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Parkway South",
+    "team2": "Kirkwood",
+    "pick": "Kirkwood",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Parkway Central",
+    "team2": "Ladue Horton Watkins",
+    "pick": "Ladue Horton Watkins",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Oakville",
+    "team2": "Liberty (Wentzville)",
+    "pick": "Oakville",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "De Smet Jesuit",
+    "team2": "Lindbergh",
+    "pick": "Lindbergh",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "MICDS",
+    "team2": "Lutheran North",
+    "pick": "MICDS",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "St. Francis Borgia",
+    "team2": "Lutheran St. Charles",
+    "pick": "Lutheran St. Charles",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Laquey with Richland",
+    "team2": "Marshfield",
+    "pick": "Laquey with Richland",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Windsor (Imperial)",
+    "team2": "North County",
+    "pick": "Windsor (Imperial)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "La Monte",
+    "team2": "Oak Grove",
+    "pick": "Oak Grove",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Northwest (Cedar Hill)",
+    "team2": "Pattonville",
+    "pick": "Northwest (Cedar Hill)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Ft. Zumwalt West",
+    "team2": "Rockwood Summit",
+    "pick": "Rockwood Summit",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Chillicothe",
+    "team2": "Savannah",
+    "pick": "Savannah",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Neosho",
+    "team2": "Springfield Catholic",
+    "pick": "Springfield Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Warrenton",
+    "team2": "Sullivan",
+    "pick": "Warrenton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Whitfield",
+    "team2": "Veritas Christian Academy",
+    "pick": "Veritas Christian Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "St. Charles",
+    "team2": "Washington",
+    "pick": "St. Charles",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-28",
+    "team1": "Festus",
+    "team2": "Wright City",
+    "pick": "Wright City",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "October 28, 2026 at 09:44 AM",
+  "games": [
+   {
+    "date": "2026-10-28",
+    "team1": "Ft. Zumwalt West",
+    "team2": "Rock Bridge",
+    "pick": "Ft. Zumwalt West",
+    "ranked": false
+   }
+  ]
+ },
+ "fall_softball": {
+  "ratings_updated": "October 28, 2026 at 08:32 AM",
+  "games": []
+ }
+}
