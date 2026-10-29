@@ -2,7 +2,7 @@
   "sport": "girls_volleyball",
   "schema": "VOLLEYBALL",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=57",
-  "scraped_at": "2026-10-28T16:56:24+00:00",
+  "scraped_at": "2026-10-29T17:13:34+00:00",
   "teams": [
     {
       "school": "Potosi",
@@ -2579,24 +2579,6 @@
       "games_played": 28
     },
     {
-      "school": "St. Teresa's Academy",
-      "mshsaa_school_id": 553,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 7,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": 0.54,
-      "wins": 17,
-      "losses": 11,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 60.71,
-      "games_played": 28
-    },
-    {
       "school": "Center",
       "mshsaa_school_id": 43,
       "classification_code": 3,
@@ -2793,6 +2775,24 @@
       "mshsaa_points": null,
       "win_pct": 58.82,
       "games_played": 17
+    },
+    {
+      "school": "St. Teresa's Academy",
+      "mshsaa_school_id": 553,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 7,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": 0.48,
+      "wins": 17,
+      "losses": 12,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 58.62,
+      "games_played": 29
     },
     {
       "school": "South Harrison",
@@ -4757,6 +4757,24 @@
       "games_played": 25
     },
     {
+      "school": "Warrenton",
+      "mshsaa_school_id": 489,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 4,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": -0.36,
+      "wins": 12,
+      "losses": 16,
+      "ties": 5,
+      "mshsaa_points": null,
+      "win_pct": 43.94,
+      "games_played": 33
+    },
+    {
       "school": "Marquette",
       "mshsaa_school_id": 109,
       "classification_code": 5,
@@ -5040,24 +5058,6 @@
       "wins": 12,
       "losses": 17,
       "ties": 3,
-      "mshsaa_points": null,
-      "win_pct": 42.19,
-      "games_played": 32
-    },
-    {
-      "school": "Warrenton",
-      "mshsaa_school_id": 489,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 4,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": -0.47,
-      "wins": 11,
-      "losses": 16,
-      "ties": 5,
       "mshsaa_points": null,
       "win_pct": 42.19,
       "games_played": 32
@@ -6719,24 +6719,6 @@
       "games_played": 32
     },
     {
-      "school": "St. Charles",
-      "mshsaa_school_id": 168,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 4,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": -1.25,
-      "wins": 6,
-      "losses": 18,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 25.0,
-      "games_played": 24
-    },
-    {
       "school": "Niangua",
       "mshsaa_school_id": 381,
       "classification_code": 1,
@@ -6807,6 +6789,24 @@
       "mshsaa_points": null,
       "win_pct": 24.29,
       "games_played": 35
+    },
+    {
+      "school": "St. Charles",
+      "mshsaa_school_id": 168,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 4,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": -1.32,
+      "wins": 6,
+      "losses": 19,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 24.0,
+      "games_played": 25
     },
     {
       "school": "Lutie",
