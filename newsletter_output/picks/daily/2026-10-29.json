@@ -1,0 +1,427 @@
+{
+ "football": {
+  "ratings_updated": "October 25, 2026 at 10:51 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "October 29, 2026 at 07:19 AM",
+  "games": [
+   {
+    "date": "2026-10-29",
+    "team1": "Seckman",
+    "team2": "Affton",
+    "pick": "Seckman",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Whitfield",
+    "team2": "Bayless",
+    "pick": "Bayless",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Moberly",
+    "team2": "Boonville",
+    "pick": "Moberly",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Roosevelt",
+    "team2": "Brentwood",
+    "pick": "Brentwood",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Paseo Academy",
+    "team2": "Central (Kansas City)",
+    "pick": "Central (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Kickapoo",
+    "team2": "Central (Springfield)",
+    "pick": "Central (Springfield)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Smithton",
+    "team2": "Clinton",
+    "pick": "Clinton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "St. Charles West",
+    "team2": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
+    "pick": "St. Charles West",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Iberia",
+    "team2": "Crocker",
+    "pick": "Crocker",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Center",
+    "team2": "Excelsior Springs",
+    "pick": "Excelsior Springs",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Cristo Rey",
+    "team2": "Faith Christian Academy",
+    "pick": "Faith Christian Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Holt",
+    "team2": "Hannibal",
+    "pick": "Hannibal",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Pembroke Hill",
+    "team2": "Harrisonville",
+    "pick": "Pembroke Hill",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "University City",
+    "team2": "Jennings",
+    "pick": "University City",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Ozark",
+    "team2": "Joplin",
+    "pick": "Ozark",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "East (Kansas City)",
+    "team2": "Kearney",
+    "pick": "East (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Westminster Christian Academy",
+    "team2": "Ladue Horton Watkins",
+    "pick": "Ladue Horton Watkins",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "La Monte",
+    "team2": "Lutheran (Kansas City)",
+    "pick": "Lutheran (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Saxony Lutheran with St. Vincent",
+    "team2": "Lutheran St. Charles",
+    "pick": "Lutheran St. Charles",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Logan-Rogersville",
+    "team2": "New Heights Christian with McAuley Catholic",
+    "pick": "Logan-Rogersville",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Winnetonka",
+    "team2": "North Kansas City",
+    "pick": "North Kansas City",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Eugene",
+    "team2": "Osage",
+    "pick": "Osage",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Waynesville",
+    "team2": "Parkview",
+    "pick": "Parkview",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "North Point",
+    "team2": "Parkway North",
+    "pick": "North Point",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Marshall",
+    "team2": "Smith-Cotton",
+    "pick": "Smith-Cotton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Green Ridge with Cole Camp",
+    "team2": "St. Paul Lutheran (Concordia)",
+    "pick": "St. Paul Lutheran (Concordia)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Lone Jack",
+    "team2": "Stover",
+    "pick": "Stover",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Battle with Columbia Independent",
+    "team2": "Warrenton",
+    "pick": "Battle with Columbia Independent",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Carl Junction",
+    "team2": "West Plains",
+    "pick": "West Plains",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Perryville",
+    "team2": "Windsor (Imperial)",
+    "pick": "Perryville",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "October 29, 2026 at 09:44 AM",
+  "games": [
+   {
+    "date": "2026-10-29",
+    "team1": "Gideon",
+    "team2": "North Pemiscot",
+    "pick": "Gideon",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Bismarck",
+    "team2": "Valle Catholic",
+    "pick": "Valle Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Lesterville",
+    "team2": "Calvary Lutheran",
+    "pick": "Lesterville",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "School of the Ozarks",
+    "team2": "Winona",
+    "pick": "Winona",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Lockwood",
+    "team2": "Billings",
+    "pick": "Lockwood",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Concordia",
+    "team2": "Liberal",
+    "pick": "Liberal",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Sacred Heart",
+    "team2": "Osceola",
+    "pick": "Osceola",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Rock Port",
+    "team2": "Northland Christian",
+    "pick": "Rock Port",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Woodland",
+    "team2": "Portageville",
+    "pick": "Woodland",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Collegiate School of Med-Bio Science",
+    "team2": "Arcadia Valley",
+    "pick": "Arcadia Valley",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Linn",
+    "team2": "Brentwood",
+    "pick": "Linn",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Liberty (Mountain View)",
+    "team2": "Licking",
+    "pick": "Liberty (Mountain View)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "New Covenant Academy",
+    "team2": "Springfield Catholic",
+    "pick": "New Covenant Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Cole Camp",
+    "team2": "Miller",
+    "pick": "Cole Camp",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Lafayette County",
+    "team2": "Adrian",
+    "pick": "Adrian",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Bishop LeBlond",
+    "team2": "Mid-Buchanan",
+    "pick": "Mid-Buchanan",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Potosi",
+    "team2": "Saxony Lutheran",
+    "pick": "Potosi",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "John Burroughs",
+    "team2": "Lutheran South",
+    "pick": "John Burroughs",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "St. Francis Borgia",
+    "team2": "Lutheran St. Charles",
+    "pick": "St. Francis Borgia",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Blair Oaks",
+    "team2": "Southern Boone",
+    "pick": "Blair Oaks",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Strafford",
+    "team2": "Sullivan",
+    "pick": "Sullivan",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Nevada",
+    "team2": "Clever",
+    "pick": "Nevada",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Notre Dame de Sion",
+    "team2": "Oak Grove",
+    "pick": "Oak Grove",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Savannah",
+    "team2": "St. Pius X (Kansas City)",
+    "pick": "St. Pius X (Kansas City)",
+    "ranked": false
+   }
+  ]
+ },
+ "fall_softball": {
+  "ratings_updated": "October 29, 2026 at 08:31 AM",
+  "games": [
+   {
+    "date": "2026-10-29",
+    "team1": "St. Dominic",
+    "team2": "Parkway West",
+    "pick": "Parkway West",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Platte County",
+    "team2": "Helias Catholic",
+    "pick": "Helias Catholic",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Troy Buchanan",
+    "team2": "Eureka",
+    "pick": "Troy Buchanan",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-29",
+    "team1": "Liberty",
+    "team2": "Lee's Summit",
+    "pick": "Liberty",
+    "ranked": false
+   }
+  ]
+ }
+}
