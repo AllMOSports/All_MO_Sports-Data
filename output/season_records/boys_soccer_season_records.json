@@ -2,7 +2,7 @@
   "sport": "boys_soccer",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=33",
-  "scraped_at": "2026-10-30T16:54:13+00:00",
+  "scraped_at": "2026-10-31T15:55:33+00:00",
   "teams": [
     {
       "school": "Rockhurst",
@@ -64,17 +64,17 @@
       "classification_code": 1,
       "classification_label": "1",
       "district": 1,
-      "points_for": 90,
+      "points_for": 95,
       "points_against": 9,
-      "ppg": 4.74,
-      "oppg": 0.47,
-      "mov": 4.26,
-      "wins": 17,
+      "ppg": 4.75,
+      "oppg": 0.45,
+      "mov": 4.3,
+      "wins": 18,
       "losses": 2,
       "ties": 0,
       "mshsaa_points": null,
-      "win_pct": 89.47,
-      "games_played": 19
+      "win_pct": 90.0,
+      "games_played": 20
     },
     {
       "school": "Blue Springs South",
@@ -725,6 +725,24 @@
       "games_played": 18
     },
     {
+      "school": "Central (Springfield)",
+      "mshsaa_school_id": 232,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 6,
+      "points_for": 53,
+      "points_against": 25,
+      "ppg": 2.12,
+      "oppg": 1,
+      "mov": 1.12,
+      "wins": 18,
+      "losses": 7,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 72.0,
+      "games_played": 25
+    },
+    {
       "school": "Pleasant Hill",
       "mshsaa_school_id": 416,
       "classification_code": 3,
@@ -759,24 +777,6 @@
       "mshsaa_points": null,
       "win_pct": 71.43,
       "games_played": 21
-    },
-    {
-      "school": "Central (Springfield)",
-      "mshsaa_school_id": 232,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 6,
-      "points_for": 49,
-      "points_against": 25,
-      "ppg": 2.04,
-      "oppg": 1.04,
-      "mov": 1,
-      "wins": 17,
-      "losses": 7,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 70.83,
-      "games_played": 24
     },
     {
       "school": "Faith Christian Academy",
@@ -887,6 +887,24 @@
       "games_played": 19
     },
     {
+      "school": "University City",
+      "mshsaa_school_id": 203,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 3,
+      "points_for": 93,
+      "points_against": 31,
+      "ppg": 4.89,
+      "oppg": 1.63,
+      "mov": 3.26,
+      "wins": 13,
+      "losses": 6,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 68.42,
+      "games_played": 19
+    },
+    {
       "school": "Perryville",
       "mshsaa_school_id": 411,
       "classification_code": 2,
@@ -975,24 +993,6 @@
       "mshsaa_points": null,
       "win_pct": 66.67,
       "games_played": 21
-    },
-    {
-      "school": "University City",
-      "mshsaa_school_id": 203,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 3,
-      "points_for": 85,
-      "points_against": 31,
-      "ppg": 4.72,
-      "oppg": 1.72,
-      "mov": 3,
-      "wins": 12,
-      "losses": 6,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 66.67,
-      "games_played": 18
     },
     {
       "school": "Lee's Summit",
@@ -1355,24 +1355,6 @@
       "games_played": 25
     },
     {
-      "school": "Laquey with Richland",
-      "mshsaa_school_id": 581,
-      "classification_code": 1,
-      "classification_label": "1",
-      "district": 4,
-      "points_for": 35,
-      "points_against": 26,
-      "ppg": 2.33,
-      "oppg": 1.73,
-      "mov": 0.6,
-      "wins": 9,
-      "losses": 6,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 60.0,
-      "games_played": 15
-    },
-    {
       "school": "Fulton",
       "mshsaa_school_id": 80,
       "classification_code": 2,
@@ -1605,6 +1587,24 @@
       "mshsaa_points": null,
       "win_pct": 56.52,
       "games_played": 23
+    },
+    {
+      "school": "Laquey with Richland",
+      "mshsaa_school_id": 581,
+      "classification_code": 1,
+      "classification_label": "1",
+      "district": 4,
+      "points_for": 35,
+      "points_against": 27,
+      "ppg": 2.19,
+      "oppg": 1.69,
+      "mov": 0.5,
+      "wins": 9,
+      "losses": 7,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 56.25,
+      "games_played": 16
     },
     {
       "school": "Camdenton",
@@ -2201,6 +2201,24 @@
       "games_played": 21
     },
     {
+      "school": "Crocker",
+      "mshsaa_school_id": 288,
+      "classification_code": 1,
+      "classification_label": "1",
+      "district": 4,
+      "points_for": 65,
+      "points_against": 51,
+      "ppg": 3.42,
+      "oppg": 2.68,
+      "mov": 0.74,
+      "wins": 9,
+      "losses": 10,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 47.37,
+      "games_played": 19
+    },
+    {
       "school": "Fredericktown",
       "mshsaa_school_id": 79,
       "classification_code": 2,
@@ -2361,24 +2379,6 @@
       "mshsaa_points": null,
       "win_pct": 45.0,
       "games_played": 20
-    },
-    {
-      "school": "Crocker",
-      "mshsaa_school_id": 288,
-      "classification_code": 1,
-      "classification_label": "1",
-      "district": 4,
-      "points_for": 60,
-      "points_against": 50,
-      "ppg": 3.33,
-      "oppg": 2.78,
-      "mov": 0.56,
-      "wins": 8,
-      "losses": 10,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 44.44,
-      "games_played": 18
     },
     {
       "school": "DeSoto",
@@ -2615,24 +2615,6 @@
       "games_played": 19
     },
     {
-      "school": "Republic",
-      "mshsaa_school_id": 423,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 5,
-      "points_for": 25,
-      "points_against": 43,
-      "ppg": 1.04,
-      "oppg": 1.79,
-      "mov": -0.75,
-      "wins": 10,
-      "losses": 14,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 41.67,
-      "games_played": 24
-    },
-    {
       "school": "Harrisonville",
       "mshsaa_school_id": 73,
       "classification_code": 3,
@@ -2721,6 +2703,24 @@
       "mshsaa_points": null,
       "win_pct": 40.91,
       "games_played": 22
+    },
+    {
+      "school": "Republic",
+      "mshsaa_school_id": 423,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 5,
+      "points_for": 25,
+      "points_against": 47,
+      "ppg": 1,
+      "oppg": 1.88,
+      "mov": -0.88,
+      "wins": 10,
+      "losses": 15,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 40.0,
+      "games_played": 25
     },
     {
       "school": "Whitfield",
@@ -3551,24 +3551,6 @@
       "games_played": 17
     },
     {
-      "school": "Bishop DuBourg",
-      "mshsaa_school_id": 509,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 2,
-      "points_for": 26,
-      "points_against": 59,
-      "ppg": 1.44,
-      "oppg": 3.28,
-      "mov": -1.83,
-      "wins": 4,
-      "losses": 14,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 22.22,
-      "games_played": 18
-    },
-    {
       "school": "Winnetonka",
       "mshsaa_school_id": 209,
       "classification_code": 3,
@@ -3585,6 +3567,24 @@
       "mshsaa_points": null,
       "win_pct": 21.43,
       "games_played": 14
+    },
+    {
+      "school": "Bishop DuBourg",
+      "mshsaa_school_id": 509,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 2,
+      "points_for": 26,
+      "points_against": 62,
+      "ppg": 1.37,
+      "oppg": 3.26,
+      "mov": -1.89,
+      "wins": 4,
+      "losses": 15,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 21.05,
+      "games_played": 19
     },
     {
       "school": "Central (Cape Girardeau)",
