@@ -1,0 +1,469 @@
+{
+ "football": {
+  "ratings_updated": "October 25, 2026 at 10:51 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "October 30, 2026 at 07:19 AM",
+  "games": [
+   {
+    "date": "2026-10-31",
+    "team1": "Elsberry",
+    "team2": "Lutheran North",
+    "pick": "Lutheran North",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Canton",
+    "team2": "Crossroads College Preparatory",
+    "pick": "Crossroads College Preparatory",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Principia",
+    "team2": "STEAM Academy",
+    "pick": "Principia",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Priory",
+    "team2": "Jennings",
+    "pick": "Priory",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "MICDS",
+    "team2": "Cardinal Ritter",
+    "pick": "MICDS",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Duchesne",
+    "team2": "Winfield",
+    "pick": "Duchesne",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Veritas Christian Academy",
+    "team2": "Wright City",
+    "pick": "Veritas Christian Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lutheran St. Charles",
+    "team2": "St. Charles West",
+    "pick": "Lutheran St. Charles",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Fulton",
+    "team2": "Missouri Military Academy",
+    "pick": "Missouri Military Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Moberly",
+    "team2": "Mexico",
+    "pick": "Moberly",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Boonville",
+    "team2": "Christian Fellowship Sr. with Hallsville",
+    "pick": "Boonville",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Cassville",
+    "team2": "Clinton",
+    "pick": "Clinton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Monett",
+    "team2": "Aurora",
+    "pick": "Monett",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Bolivar",
+    "team2": "Osage",
+    "pick": "Bolivar",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Savannah",
+    "team2": "Chillicothe",
+    "pick": "Savannah",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Excelsior Springs",
+    "team2": "Maryville",
+    "pick": "Excelsior Springs",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "St. Pius X (Kansas City)",
+    "team2": "Guadalupe Centers Charter",
+    "pick": "St. Pius X (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Farmington",
+    "team2": "Festus",
+    "pick": "Farmington",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "DeSoto",
+    "team2": "Windsor (Imperial)",
+    "pick": "DeSoto",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Sikeston",
+    "team2": "Hillsboro",
+    "pick": "Sikeston",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "West Plains",
+    "team2": "Central (Cape Girardeau)",
+    "pick": "West Plains",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Chaminade College Prep",
+    "team2": "Gateway with Soldan International Studies",
+    "pick": "Chaminade College Prep",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Parkway Central",
+    "team2": "Westminster Christian Academy",
+    "pick": "Westminster Christian Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Parkway West",
+    "team2": "University City",
+    "pick": "Parkway West",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Clayton",
+    "team2": "Parkway North",
+    "pick": "Clayton",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "SLUH",
+    "team2": "Parkway South",
+    "pick": "SLUH",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lafayette (Wildwood)",
+    "team2": "Vianney",
+    "pick": "Vianney",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Marquette",
+    "team2": "Eureka",
+    "pick": "Marquette",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Ladue Horton Watkins",
+    "team2": "Kirkwood",
+    "pick": "Kirkwood",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Glendale",
+    "team2": "Waynesville",
+    "pick": "Glendale",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Branson",
+    "team2": "Neosho",
+    "pick": "Branson",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Nixa",
+    "team2": "Kickapoo",
+    "pick": "Nixa",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Ozark",
+    "team2": "Republic",
+    "pick": "Ozark",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lee's Summit",
+    "team2": "Webb City",
+    "pick": "Lee's Summit",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Carthage",
+    "team2": "Lee's Summit North",
+    "pick": "Lee's Summit North",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lee's Summit West",
+    "team2": "Joplin",
+    "pick": "Lee's Summit West",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Raymore-Peculiar",
+    "team2": "Smith-Cotton",
+    "pick": "Raymore-Peculiar",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Rockhurst",
+    "team2": "Ruskin",
+    "pick": "Rockhurst",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Fort Osage",
+    "team2": "Grain Valley",
+    "pick": "Fort Osage",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Blue Springs",
+    "team2": "William Chrisman",
+    "pick": "Blue Springs",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Blue Springs South",
+    "team2": "Truman",
+    "pick": "Blue Springs South",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "October 31, 2026 at 09:44 AM",
+  "games": [
+   {
+    "date": "2026-10-31",
+    "team1": "Valle Catholic",
+    "team2": "Gideon",
+    "pick": "Valle Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Winona",
+    "team2": "Lesterville",
+    "pick": "Winona",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Liberal",
+    "team2": "Billings",
+    "pick": "Billings",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Rock Port",
+    "team2": "Osceola",
+    "pick": "Rock Port",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Arcadia Valley",
+    "team2": "Woodland",
+    "pick": "Woodland",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Liberty (Mountain View)",
+    "team2": "Linn",
+    "pick": "Liberty (Mountain View)",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Cole Camp",
+    "team2": "New Covenant Academy",
+    "pick": "New Covenant Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Mid-Buchanan",
+    "team2": "Adrian",
+    "pick": "Mid-Buchanan",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "John Burroughs",
+    "team2": "Potosi",
+    "pick": "Potosi",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Blair Oaks",
+    "team2": "St. Francis Borgia",
+    "pick": "St. Francis Borgia",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Nevada",
+    "team2": "Sullivan",
+    "pick": "Sullivan",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "St. Pius X (Kansas City)",
+    "team2": "Oak Grove",
+    "pick": "Oak Grove",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Rockwood Summit",
+    "team2": "Festus",
+    "pick": "Rockwood Summit",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "St. Dominic",
+    "team2": "St. Joseph's Academy",
+    "pick": "St. Dominic",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "West Plains",
+    "team2": "Helias Catholic",
+    "pick": "Helias Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Smithville",
+    "team2": "St. Teresa's Academy",
+    "pick": "St. Teresa's Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lafayette (Wildwood)",
+    "team2": "Jackson",
+    "pick": "Lafayette (Wildwood)",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Rock Bridge",
+    "team2": "Incarnate Word Academy",
+    "pick": "Incarnate Word Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Lee's Summit West",
+    "team2": "Ozark",
+    "pick": "Lee's Summit West",
+    "ranked": true
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Liberty North",
+    "team2": "Lee's Summit North",
+    "pick": "Lee's Summit North",
+    "ranked": true
+   }
+  ]
+ },
+ "fall_softball": {
+  "ratings_updated": "October 31, 2026 at 08:32 AM",
+  "games": [
+   {
+    "date": "2026-10-31",
+    "team1": "Princeton",
+    "team2": "Silex",
+    "pick": "Silex",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Mid-Buchanan",
+    "team2": "Chaffee",
+    "pick": "Chaffee",
+    "ranked": false
+   },
+   {
+    "date": "2026-10-31",
+    "team1": "Oak Grove",
+    "team2": "Centralia",
+    "pick": "Centralia",
+    "ranked": true
+   }
+  ]
+ }
+}
