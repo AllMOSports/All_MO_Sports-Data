@@ -1,0 +1,236 @@
+{
+ "football": {
+  "ratings_updated": "November 02, 2026 at 02:55 AM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "November 02, 2026 at 08:19 AM",
+  "games": [
+   {
+    "date": "2026-11-02",
+    "team1": "Brentwood",
+    "team2": "Valley Park",
+    "pick": "Valley Park",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "St. Pius X (Festus)",
+    "team2": "Hancock",
+    "pick": "St. Pius X (Festus)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Eugene",
+    "team2": "Calvary Lutheran",
+    "pick": "Eugene",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Green Ridge with Cole Camp",
+    "team2": "La Monte",
+    "pick": "Green Ridge with Cole Camp",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "New Heights Christian with McAuley Catholic",
+    "team2": "Thomas Jefferson Independent Day",
+    "pick": "New Heights Christian with McAuley Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Lutheran (Kansas City)",
+    "team2": "Cristo Rey",
+    "pick": "Lutheran (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Frontier STEM",
+    "team2": "Bishop LeBlond",
+    "pick": "Frontier STEM",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Fredericktown",
+    "team2": "North County",
+    "pick": "Fredericktown",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Perryville",
+    "team2": "Kennett",
+    "pick": "Perryville",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Bayless",
+    "team2": "Dexter",
+    "pick": "Bayless",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
+    "team2": "Gateway Science Charter",
+    "pick": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Sullivan",
+    "team2": "Roosevelt",
+    "pick": "Sullivan",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "St. Mary's South Side",
+    "team2": "Bishop DuBourg",
+    "pick": "St. Mary's South Side",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Helias Catholic",
+    "team2": "Cassville",
+    "pick": "Helias Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Monett",
+    "team2": "Bolivar",
+    "pick": "Monett",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Rockwood Summit",
+    "team2": "St. Francis Borgia",
+    "pick": "Rockwood Summit",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Affton",
+    "team2": "Rolla",
+    "pick": "Affton",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Webster Groves",
+    "team2": "Pacific",
+    "pick": "Webster Groves",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Washington",
+    "team2": "Union",
+    "pick": "Washington",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "St. Dominic",
+    "team2": "McCluer North",
+    "pick": "St. Dominic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Ft. Zumwalt East",
+    "team2": "Warrenton",
+    "pick": "Ft. Zumwalt East",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Ft. Zumwalt South",
+    "team2": "Hannibal",
+    "pick": "Ft. Zumwalt South",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "St. Charles",
+    "team2": "Holt",
+    "pick": "St. Charles",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Northeast (Kansas City)",
+    "team2": "Winnetonka",
+    "pick": "Northeast (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Smithville",
+    "team2": "Kearney",
+    "pick": "Smithville",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Lincoln College Prep",
+    "team2": "Benton",
+    "pick": "Lincoln College Prep",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Platte County",
+    "team2": "East (Kansas City)",
+    "pick": "East (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Christian Brothers College",
+    "team2": "Ritenour",
+    "pick": "Christian Brothers College",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "De Smet Jesuit",
+    "team2": "Francis Howell North",
+    "pick": "De Smet Jesuit",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Francis Howell Central",
+    "team2": "Ft. Zumwalt North",
+    "pick": "Francis Howell Central",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-02",
+    "team1": "Francis Howell",
+    "team2": "Pattonville",
+    "pick": "Francis Howell",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "November 02, 2026 at 10:44 AM",
+  "games": []
+ },
+ "fall_softball": {
+  "ratings_updated": "November 02, 2026 at 09:32 AM",
+  "games": []
+ }
+}
