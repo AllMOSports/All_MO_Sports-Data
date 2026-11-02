@@ -2,7 +2,7 @@
   "sport": "boys_soccer",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=33",
-  "scraped_at": "2026-11-01T16:58:11+00:00",
+  "scraped_at": "2026-11-02T20:36:35+00:00",
   "teams": [
     {
       "school": "Rockhurst",
@@ -491,6 +491,24 @@
       "games_played": 22
     },
     {
+      "school": "North Point",
+      "mshsaa_school_id": 1605,
+      "classification_code": 4,
+      "classification_label": "4",
+      "district": 4,
+      "points_for": 94,
+      "points_against": 25,
+      "ppg": 4.27,
+      "oppg": 1.14,
+      "mov": 3.14,
+      "wins": 17,
+      "losses": 5,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 77.27,
+      "games_played": 22
+    },
+    {
       "school": "Troy Buchanan",
       "mshsaa_school_id": 476,
       "classification_code": 4,
@@ -501,24 +519,6 @@
       "ppg": 2.19,
       "oppg": 0.76,
       "mov": 1.43,
-      "wins": 16,
-      "losses": 5,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 76.19,
-      "games_played": 21
-    },
-    {
-      "school": "North Point",
-      "mshsaa_school_id": 1605,
-      "classification_code": 4,
-      "classification_label": "4",
-      "district": 4,
-      "points_for": 88,
-      "points_against": 25,
-      "ppg": 4.19,
-      "oppg": 1.19,
-      "mov": 3,
       "wins": 16,
       "losses": 5,
       "ties": 0,
@@ -3317,24 +3317,6 @@
       "games_played": 22
     },
     {
-      "school": "Parkway North",
-      "mshsaa_school_id": 161,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 3,
-      "points_for": 21,
-      "points_against": 69,
-      "ppg": 0.95,
-      "oppg": 3.14,
-      "mov": -2.18,
-      "wins": 6,
-      "losses": 16,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 27.27,
-      "games_played": 22
-    },
-    {
       "school": "Kickapoo",
       "mshsaa_school_id": 90,
       "classification_code": 4,
@@ -3405,6 +3387,24 @@
       "mshsaa_points": null,
       "win_pct": 26.32,
       "games_played": 19
+    },
+    {
+      "school": "Parkway North",
+      "mshsaa_school_id": 161,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 3,
+      "points_for": 21,
+      "points_against": 75,
+      "ppg": 0.91,
+      "oppg": 3.26,
+      "mov": -2.35,
+      "wins": 6,
+      "losses": 17,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 26.09,
+      "games_played": 23
     },
     {
       "school": "Hillsboro",
