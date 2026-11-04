@@ -1,0 +1,4290 @@
+{
+ "generated": "2026-11-03",
+ "method": "Seeds 1-16: the 16 state champions (2010-2025) in each class, ordered by OVR. Seeds 17-32: next 16 highest-OVR non-champion team-seasons in that class (at-large). No program cap. Projections: off - opp def + 26.",
+ "classes": {
+  "1": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Hayti",
+     "slug": "hayti",
+     "w": 15,
+     "l": 0,
+     "ovr": 42.85,
+     "off": 23.84,
+     "dfn": 19.02,
+     "ppg": 55.87,
+     "oppg": 5.33,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 14,
+     "l": 1,
+     "ovr": 34.42,
+     "off": 20.3,
+     "dfn": 14.12,
+     "ppg": 47.8,
+     "oppg": 9.73,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "East Buchanan",
+     "slug": "east-buchanan",
+     "w": 14,
+     "l": 1,
+     "ovr": 31.55,
+     "off": 13.3,
+     "dfn": 18.25,
+     "ppg": 41.73,
+     "oppg": 8.33,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 15,
+     "l": 0,
+     "ovr": 30.41,
+     "off": 17.77,
+     "dfn": 12.64,
+     "ppg": 56.67,
+     "oppg": 9.27,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 15,
+     "l": 0,
+     "ovr": 30.32,
+     "off": 21.6,
+     "dfn": 8.72,
+     "ppg": 53.2,
+     "oppg": 10.27,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Penney",
+     "slug": "penney",
+     "w": 15,
+     "l": 0,
+     "ovr": 30.1,
+     "off": 16.16,
+     "dfn": 13.94,
+     "ppg": 42.87,
+     "oppg": 12.93,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Penney",
+     "slug": "penney",
+     "w": 15,
+     "l": 0,
+     "ovr": 27.43,
+     "off": 15.83,
+     "dfn": 11.61,
+     "ppg": 46.53,
+     "oppg": 11.27,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 14,
+     "l": 1,
+     "ovr": 23.23,
+     "off": 12.49,
+     "dfn": 10.74,
+     "ppg": 46.2,
+     "oppg": 11.8,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 15,
+     "l": 0,
+     "ovr": 23.11,
+     "off": 12.47,
+     "dfn": 10.64,
+     "ppg": 45.27,
+     "oppg": 8.07,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Windsor",
+     "slug": "windsor",
+     "w": 15,
+     "l": 0,
+     "ovr": 22.38,
+     "off": 11.66,
+     "dfn": 10.72,
+     "ppg": 45.07,
+     "oppg": 12.4,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Monroe City",
+     "slug": "monroe-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 21.85,
+     "off": 11.92,
+     "dfn": 9.93,
+     "ppg": 41.6,
+     "oppg": 12.73,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 14,
+     "l": 1,
+     "ovr": 21.45,
+     "off": 11.53,
+     "dfn": 9.92,
+     "ppg": 44.47,
+     "oppg": 10.67,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Tipton",
+     "slug": "tipton",
+     "w": 13,
+     "l": 1,
+     "ovr": 20.22,
+     "off": 8.75,
+     "dfn": 11.47,
+     "ppg": 43.79,
+     "oppg": 9.43,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "East Buchanan",
+     "slug": "east-buchanan",
+     "w": 14,
+     "l": 1,
+     "ovr": 19.26,
+     "off": 7.25,
+     "dfn": 12.01,
+     "ppg": 34,
+     "oppg": 13.6,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Marionville",
+     "slug": "marionville",
+     "w": 14,
+     "l": 0,
+     "ovr": 14.96,
+     "off": 1.58,
+     "dfn": 13.37,
+     "ppg": 39.79,
+     "oppg": 4.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "Adrian",
+     "slug": "adrian",
+     "w": 13,
+     "l": 1,
+     "ovr": 13.13,
+     "off": 3.48,
+     "dfn": 9.65,
+     "ppg": 34.5,
+     "oppg": 9.14,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2010,
+     "school": "Westran",
+     "slug": "westran",
+     "w": 14,
+     "l": 1,
+     "ovr": 32.65,
+     "off": 11.58,
+     "dfn": 21.07,
+     "ppg": 40.87,
+     "oppg": 6,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2010,
+     "school": "Concordia",
+     "slug": "concordia",
+     "w": 13,
+     "l": 1,
+     "ovr": 31.21,
+     "off": 20.34,
+     "dfn": 10.87,
+     "ppg": 51.93,
+     "oppg": 7.93,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2011,
+     "school": "Concordia",
+     "slug": "concordia",
+     "w": 12,
+     "l": 2,
+     "ovr": 24.99,
+     "off": 16.37,
+     "dfn": 8.62,
+     "ppg": 54.64,
+     "oppg": 10.43,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Thayer",
+     "slug": "thayer",
+     "w": 10,
+     "l": 2,
+     "ovr": 24.11,
+     "off": 9.52,
+     "dfn": 14.59,
+     "ppg": 36.25,
+     "oppg": 12.5,
+     "finish": ""
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Thayer",
+     "slug": "thayer",
+     "w": 11,
+     "l": 2,
+     "ovr": 24.03,
+     "off": 7.97,
+     "dfn": 16.06,
+     "ppg": 38.08,
+     "oppg": 11.08,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Gallatin",
+     "slug": "gallatin",
+     "w": 11,
+     "l": 1,
+     "ovr": 23.36,
+     "off": 7.64,
+     "dfn": 15.72,
+     "ppg": 35.17,
+     "oppg": 8.75,
+     "finish": ""
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Mid-Buchanan",
+     "slug": "mid-buchanan",
+     "w": 13,
+     "l": 1,
+     "ovr": 23.21,
+     "off": 15.87,
+     "dfn": 7.35,
+     "ppg": 51.86,
+     "oppg": 11.21,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Hayti",
+     "slug": "hayti",
+     "w": 12,
+     "l": 1,
+     "ovr": 23.17,
+     "off": 17.37,
+     "dfn": 5.8,
+     "ppg": 53.23,
+     "oppg": 12.92,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Skyline",
+     "slug": "skyline",
+     "w": 12,
+     "l": 1,
+     "ovr": 22.66,
+     "off": 17.62,
+     "dfn": 5.04,
+     "ppg": 45.85,
+     "oppg": 16.31,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Monroe City",
+     "slug": "monroe-city",
+     "w": 13,
+     "l": 1,
+     "ovr": 22.63,
+     "off": 12.26,
+     "dfn": 10.37,
+     "ppg": 44.14,
+     "oppg": 11.43,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Thayer",
+     "slug": "thayer",
+     "w": 10,
+     "l": 2,
+     "ovr": 22.5,
+     "off": 12.57,
+     "dfn": 9.93,
+     "ppg": 45.67,
+     "oppg": 16.17,
+     "finish": ""
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Monroe City",
+     "slug": "monroe-city",
+     "w": 11,
+     "l": 2,
+     "ovr": 21.87,
+     "off": 13.14,
+     "dfn": 8.73,
+     "ppg": 43.38,
+     "oppg": 14.46,
+     "finish": ""
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2023,
+     "school": "Portageville",
+     "slug": "portageville",
+     "w": 10,
+     "l": 2,
+     "ovr": 21.4,
+     "off": 14.19,
+     "dfn": 7.21,
+     "ppg": 49.92,
+     "oppg": 10.75,
+     "finish": ""
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2019,
+     "school": "Lincoln",
+     "slug": "lincoln",
+     "w": 14,
+     "l": 1,
+     "ovr": 21.25,
+     "off": 10.93,
+     "dfn": 10.32,
+     "ppg": 42.53,
+     "oppg": 11.13,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 12,
+     "l": 2,
+     "ovr": 20.71,
+     "off": 9.58,
+     "dfn": 11.12,
+     "ppg": 42.86,
+     "oppg": 14.79,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Mid-Buchanan",
+     "slug": "mid-buchanan",
+     "w": 10,
+     "l": 1,
+     "ovr": 20.55,
+     "off": 10.44,
+     "dfn": 10.1,
+     "ppg": 40.64,
+     "oppg": 10.82,
+     "finish": ""
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 40,
+      "sb": 17,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 8,
+      "sb": 28,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 33,
+      "sb": 33,
+      "winner": 8
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 33,
+      "sb": 33,
+      "winner": 24
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 37,
+      "sb": 28,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 20,
+      "sb": 24,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 39,
+      "sb": 30,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 21,
+      "sb": 24,
+      "winner": 21
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 35,
+      "sb": 21,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 17,
+      "sb": 33,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 31,
+      "sb": 27,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 30,
+      "sb": 31,
+      "winner": 23
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 29,
+      "sb": 19,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 25,
+      "sb": 30,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 32,
+      "sb": 25,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 22,
+      "sb": 24,
+      "winner": 22
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 29,
+      "sb": 19,
+      "winner": 1
+     },
+     {
+      "a": 8,
+      "b": 24,
+      "sa": 33,
+      "sb": 33,
+      "winner": 8
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 29,
+      "sb": 23,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 21,
+      "sa": 32,
+      "sb": 25,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 35,
+      "sb": 32,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 23,
+      "sa": 34,
+      "sb": 30,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 31,
+      "sb": 24,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 22,
+      "sa": 26,
+      "sb": 20,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 8,
+      "sa": 39,
+      "sb": 19,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 35,
+      "sb": 35,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 35,
+      "sb": 28,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 25,
+      "sb": 24,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 37,
+      "sb": 25,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 28,
+      "sb": 25,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 36,
+      "sb": 27,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  },
+  "2": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 14,
+     "l": 1,
+     "ovr": 59.56,
+     "off": 35.11,
+     "dfn": 24.45,
+     "ppg": 58.87,
+     "oppg": 8.13,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 15,
+     "l": 0,
+     "ovr": 58.02,
+     "off": 34.59,
+     "dfn": 23.43,
+     "ppg": 53.2,
+     "oppg": 8.53,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 14,
+     "l": 0,
+     "ovr": 55.46,
+     "off": 29.55,
+     "dfn": 25.9,
+     "ppg": 51.79,
+     "oppg": 9.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "Lutheran North",
+     "slug": "lutheran-north",
+     "w": 14,
+     "l": 0,
+     "ovr": 54.69,
+     "off": 28.5,
+     "dfn": 26.2,
+     "ppg": 47.07,
+     "oppg": 7.43,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 14,
+     "l": 0,
+     "ovr": 51.22,
+     "off": 31.35,
+     "dfn": 19.87,
+     "ppg": 55.21,
+     "oppg": 15.64,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 14,
+     "l": 0,
+     "ovr": 50.08,
+     "off": 26.8,
+     "dfn": 23.28,
+     "ppg": 52.57,
+     "oppg": 5.79,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 14,
+     "l": 1,
+     "ovr": 49.92,
+     "off": 24.29,
+     "dfn": 25.64,
+     "ppg": 51.33,
+     "oppg": 5.8,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "Lutheran St. Charles",
+     "slug": "lutheran-st-charles",
+     "w": 12,
+     "l": 2,
+     "ovr": 49.67,
+     "off": 31.69,
+     "dfn": 17.98,
+     "ppg": 47.21,
+     "oppg": 16.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 14,
+     "l": 0,
+     "ovr": 48.36,
+     "off": 21.76,
+     "dfn": 26.61,
+     "ppg": 44.71,
+     "oppg": 7.14,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 15,
+     "l": 0,
+     "ovr": 47.61,
+     "off": 22.73,
+     "dfn": 24.88,
+     "ppg": 48.73,
+     "oppg": 7.47,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 13,
+     "l": 2,
+     "ovr": 44.6,
+     "off": 26.78,
+     "dfn": 17.81,
+     "ppg": 48.87,
+     "oppg": 14.2,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 13,
+     "l": 1,
+     "ovr": 41.26,
+     "off": 17.58,
+     "dfn": 23.68,
+     "ppg": 38.71,
+     "oppg": 11.93,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Penney",
+     "slug": "penney",
+     "w": 15,
+     "l": 0,
+     "ovr": 35.81,
+     "off": 21.55,
+     "dfn": 14.27,
+     "ppg": 47.47,
+     "oppg": 10.4,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 14,
+     "l": 1,
+     "ovr": 34.69,
+     "off": 20.89,
+     "dfn": 13.79,
+     "ppg": 45.2,
+     "oppg": 12.13,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 12,
+     "l": 1,
+     "ovr": 25.86,
+     "off": 13.04,
+     "dfn": 12.82,
+     "ppg": 39.46,
+     "oppg": 13.46,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 11,
+     "l": 4,
+     "ovr": 20.54,
+     "off": 9.88,
+     "dfn": 10.66,
+     "ppg": 32.53,
+     "oppg": 20.93,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Lutheran North",
+     "slug": "lutheran-north",
+     "w": 12,
+     "l": 1,
+     "ovr": 55.49,
+     "off": 32.8,
+     "dfn": 22.69,
+     "ppg": 53.23,
+     "oppg": 11.31,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Trinity Catholic",
+     "slug": "trinity-catholic",
+     "w": 9,
+     "l": 1,
+     "ovr": 49.97,
+     "off": 30.58,
+     "dfn": 19.39,
+     "ppg": 46.8,
+     "oppg": 8,
+     "finish": ""
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Lutheran North",
+     "slug": "lutheran-north",
+     "w": 10,
+     "l": 4,
+     "ovr": 49.84,
+     "off": 26.42,
+     "dfn": 23.42,
+     "ppg": 41.86,
+     "oppg": 12.86,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 12,
+     "l": 2,
+     "ovr": 44.49,
+     "off": 23.49,
+     "dfn": 20.99,
+     "ppg": 46.14,
+     "oppg": 11.21,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2019,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 9,
+     "l": 2,
+     "ovr": 42.65,
+     "off": 22.43,
+     "dfn": 20.22,
+     "ppg": 45.64,
+     "oppg": 10.64,
+     "finish": ""
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "South Callaway",
+     "slug": "south-callaway",
+     "w": 14,
+     "l": 1,
+     "ovr": 41.61,
+     "off": 20.44,
+     "dfn": 21.17,
+     "ppg": 50.2,
+     "oppg": 7.27,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2016,
+     "school": "Trinity Catholic",
+     "slug": "trinity-catholic",
+     "w": 12,
+     "l": 1,
+     "ovr": 41.59,
+     "off": 22.82,
+     "dfn": 18.77,
+     "ppg": 49.15,
+     "oppg": 11.62,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Bowling Green",
+     "slug": "bowling-green",
+     "w": 12,
+     "l": 1,
+     "ovr": 41.55,
+     "off": 32.1,
+     "dfn": 9.46,
+     "ppg": 64.62,
+     "oppg": 13.31,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Lamar",
+     "slug": "lamar",
+     "w": 13,
+     "l": 1,
+     "ovr": 41.41,
+     "off": 17.98,
+     "dfn": 23.42,
+     "ppg": 41.71,
+     "oppg": 10.93,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2019,
+     "school": "Lathrop",
+     "slug": "lathrop",
+     "w": 13,
+     "l": 1,
+     "ovr": 40.82,
+     "off": 22.94,
+     "dfn": 17.87,
+     "ppg": 46.86,
+     "oppg": 11.07,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2023,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 12,
+     "l": 2,
+     "ovr": 38.81,
+     "off": 21.79,
+     "dfn": 17.02,
+     "ppg": 44.64,
+     "oppg": 13.14,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Lathrop",
+     "slug": "lathrop",
+     "w": 14,
+     "l": 1,
+     "ovr": 37.02,
+     "off": 19.03,
+     "dfn": 17.99,
+     "ppg": 46.47,
+     "oppg": 10.73,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Richmond",
+     "slug": "richmond",
+     "w": 11,
+     "l": 2,
+     "ovr": 36.65,
+     "off": 21.48,
+     "dfn": 15.16,
+     "ppg": 46.15,
+     "oppg": 13.69,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Liberty (Mountain View)",
+     "slug": "liberty-mountain-view",
+     "w": 12,
+     "l": 1,
+     "ovr": 34.43,
+     "off": 16.11,
+     "dfn": 18.32,
+     "ppg": 45.08,
+     "oppg": 10.15,
+     "finish": ""
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Liberty (Mountain View)",
+     "slug": "liberty-mountain-view",
+     "w": 12,
+     "l": 1,
+     "ovr": 33.87,
+     "off": 22.34,
+     "dfn": 11.53,
+     "ppg": 50.69,
+     "oppg": 16,
+     "finish": ""
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "Malden",
+     "slug": "malden",
+     "w": 13,
+     "l": 1,
+     "ovr": 33.64,
+     "off": 21.63,
+     "dfn": 12.02,
+     "ppg": 56.5,
+     "oppg": 11.29,
+     "finish": "Final Four"
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 49,
+      "sb": 23,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 13,
+      "sb": 48,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 34,
+      "sb": 26,
+      "winner": 8
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 38,
+      "sb": 31,
+      "winner": 9
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 39,
+      "sb": 21,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 27,
+      "sb": 35,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 39,
+      "sb": 25,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 23,
+      "sb": 25,
+      "winner": 21
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 49,
+      "sb": 25,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 20,
+      "sb": 44,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 32,
+      "sb": 23,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 30,
+      "sb": 24,
+      "winner": 10
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 37,
+      "sb": 16,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 23,
+      "sb": 39,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 36,
+      "sb": 25,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 32,
+      "sb": 29,
+      "winner": 11
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 38,
+      "sb": 34,
+      "winner": 1
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "sa": 31,
+      "sb": 30,
+      "winner": 8
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 34,
+      "sb": 23,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 21,
+      "sa": 37,
+      "sb": 29,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 41,
+      "sb": 33,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 10,
+      "sa": 25,
+      "sb": 23,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 32,
+      "sb": 27,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 11,
+      "sa": 35,
+      "sb": 30,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 8,
+      "sa": 43,
+      "sb": 33,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 35,
+      "sb": 31,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 35,
+      "sb": 27,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 32,
+      "sb": 27,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 35,
+      "sb": 30,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 35,
+      "sb": 32,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 38,
+      "sb": 36,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  },
+  "3": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "St. Mary's South Side",
+     "slug": "st-marys-south-side",
+     "w": 12,
+     "l": 1,
+     "ovr": 72.29,
+     "off": 36.54,
+     "dfn": 35.75,
+     "ppg": 45.31,
+     "oppg": 9.31,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Trinity Catholic",
+     "slug": "trinity-catholic",
+     "w": 13,
+     "l": 2,
+     "ovr": 58.73,
+     "off": 34.43,
+     "dfn": 24.3,
+     "ppg": 48.4,
+     "oppg": 11.53,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 14,
+     "l": 0,
+     "ovr": 56.64,
+     "off": 26.26,
+     "dfn": 30.38,
+     "ppg": 44,
+     "oppg": 8,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 13,
+     "l": 1,
+     "ovr": 53.36,
+     "off": 35.76,
+     "dfn": 17.6,
+     "ppg": 52.21,
+     "oppg": 16.86,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 15,
+     "l": 0,
+     "ovr": 51.41,
+     "off": 29.24,
+     "dfn": 22.16,
+     "ppg": 47.67,
+     "oppg": 9.27,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 13,
+     "l": 1,
+     "ovr": 50.94,
+     "off": 29.69,
+     "dfn": 21.24,
+     "ppg": 50.43,
+     "oppg": 11.79,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Oak Grove",
+     "slug": "oak-grove",
+     "w": 13,
+     "l": 2,
+     "ovr": 49.41,
+     "off": 33.06,
+     "dfn": 16.34,
+     "ppg": 48.87,
+     "oppg": 19,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "Odessa",
+     "slug": "odessa",
+     "w": 15,
+     "l": 0,
+     "ovr": 48.9,
+     "off": 32.27,
+     "dfn": 16.63,
+     "ppg": 54.67,
+     "oppg": 11.47,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 15,
+     "l": 0,
+     "ovr": 48.75,
+     "off": 23.55,
+     "dfn": 25.2,
+     "ppg": 39.27,
+     "oppg": 11.47,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Seneca",
+     "slug": "seneca",
+     "w": 13,
+     "l": 1,
+     "ovr": 42.11,
+     "off": 26.21,
+     "dfn": 15.91,
+     "ppg": 46.79,
+     "oppg": 20,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "John Burroughs",
+     "slug": "john-burroughs",
+     "w": 14,
+     "l": 1,
+     "ovr": 39.48,
+     "off": 15.3,
+     "dfn": 24.19,
+     "ppg": 40.93,
+     "oppg": 10.2,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Monett",
+     "slug": "monett",
+     "w": 14,
+     "l": 1,
+     "ovr": 37.7,
+     "off": 18.39,
+     "dfn": 19.32,
+     "ppg": 37.67,
+     "oppg": 15.67,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Logan-Rogersville",
+     "slug": "logan-rogersville",
+     "w": 14,
+     "l": 1,
+     "ovr": 34.35,
+     "off": 19.2,
+     "dfn": 15.15,
+     "ppg": 38.4,
+     "oppg": 16.6,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Richmond",
+     "slug": "richmond",
+     "w": 15,
+     "l": 0,
+     "ovr": 33.43,
+     "off": 16.31,
+     "dfn": 17.12,
+     "ppg": 37.67,
+     "oppg": 12.67,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 13,
+     "l": 2,
+     "ovr": 32.75,
+     "off": 11.9,
+     "dfn": 20.84,
+     "ppg": 35.13,
+     "oppg": 13.4,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Central (Park Hills)",
+     "slug": "central-park-hills",
+     "w": 11,
+     "l": 3,
+     "ovr": 32.52,
+     "off": 24.52,
+     "dfn": 7.99,
+     "ppg": 44.79,
+     "oppg": 23.86,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2016,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 14,
+     "l": 1,
+     "ovr": 52.33,
+     "off": 28.22,
+     "dfn": 24.11,
+     "ppg": 47.73,
+     "oppg": 10,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Seneca",
+     "slug": "seneca",
+     "w": 13,
+     "l": 1,
+     "ovr": 49.63,
+     "off": 28.84,
+     "dfn": 20.79,
+     "ppg": 49.71,
+     "oppg": 13.64,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2023,
+     "school": "Seneca",
+     "slug": "seneca",
+     "w": 13,
+     "l": 1,
+     "ovr": 48.44,
+     "off": 26.92,
+     "dfn": 21.52,
+     "ppg": 45.5,
+     "oppg": 13.79,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2012,
+     "school": "Cassville",
+     "slug": "cassville",
+     "w": 11,
+     "l": 1,
+     "ovr": 47.41,
+     "off": 19.75,
+     "dfn": 27.66,
+     "ppg": 34.5,
+     "oppg": 9.42,
+     "finish": ""
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2023,
+     "school": "Blair Oaks",
+     "slug": "blair-oaks",
+     "w": 11,
+     "l": 2,
+     "ovr": 46.15,
+     "off": 29.56,
+     "dfn": 16.59,
+     "ppg": 53.38,
+     "oppg": 20.23,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 4,
+     "l": 4,
+     "ovr": 45.85,
+     "off": 25.91,
+     "dfn": 19.94,
+     "ppg": 38.75,
+     "oppg": 27.25,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 12,
+     "l": 1,
+     "ovr": 44.86,
+     "off": 32.27,
+     "dfn": 12.6,
+     "ppg": 53.54,
+     "oppg": 21.31,
+     "finish": ""
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 14,
+     "l": 1,
+     "ovr": 44.51,
+     "off": 25.14,
+     "dfn": 19.37,
+     "ppg": 42.47,
+     "oppg": 14.13,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 10,
+     "l": 1,
+     "ovr": 44.38,
+     "off": 26.45,
+     "dfn": 17.93,
+     "ppg": 49.64,
+     "oppg": 14.64,
+     "finish": ""
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2012,
+     "school": "John Burroughs",
+     "slug": "john-burroughs",
+     "w": 13,
+     "l": 1,
+     "ovr": 44.13,
+     "off": 23.44,
+     "dfn": 20.7,
+     "ppg": 39.43,
+     "oppg": 9.79,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 12,
+     "l": 1,
+     "ovr": 42.76,
+     "off": 21.81,
+     "dfn": 20.95,
+     "ppg": 43.08,
+     "oppg": 8.08,
+     "finish": ""
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2016,
+     "school": "Center",
+     "slug": "center",
+     "w": 12,
+     "l": 1,
+     "ovr": 42.08,
+     "off": 22.21,
+     "dfn": 19.87,
+     "ppg": 43.85,
+     "oppg": 10.15,
+     "finish": ""
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Valle Catholic",
+     "slug": "valle-catholic",
+     "w": 9,
+     "l": 1,
+     "ovr": 41.84,
+     "off": 21.35,
+     "dfn": 20.49,
+     "ppg": 50.5,
+     "oppg": 15.3,
+     "finish": ""
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Maryville",
+     "slug": "maryville",
+     "w": 12,
+     "l": 2,
+     "ovr": 41.79,
+     "off": 16.62,
+     "dfn": 25.17,
+     "ppg": 41.57,
+     "oppg": 10.07,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Odessa",
+     "slug": "odessa",
+     "w": 9,
+     "l": 1,
+     "ovr": 41.3,
+     "off": 18.46,
+     "dfn": 22.85,
+     "ppg": 38.1,
+     "oppg": 8.2,
+     "finish": ""
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2020,
+     "school": "Lutheran North",
+     "slug": "lutheran-north",
+     "w": 5,
+     "l": 1,
+     "ovr": 41.16,
+     "off": 16.75,
+     "dfn": 24.4,
+     "ppg": 35.67,
+     "oppg": 14.5,
+     "finish": ""
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 38,
+      "sb": 7,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 26,
+      "sb": 46,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 40,
+      "sb": 36,
+      "winner": 8
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 30,
+      "sb": 26,
+      "winner": 9
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 41,
+      "sb": 30,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 18,
+      "sb": 31,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 35,
+      "sb": 26,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 28,
+      "sb": 36,
+      "winner": 21
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 38,
+      "sb": 20,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 17,
+      "sb": 34,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 38,
+      "sb": 33,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 40,
+      "sb": 42,
+      "winner": 23
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 27,
+      "sb": 12,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 21,
+      "sb": 36,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 35,
+      "sb": 27,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 21,
+      "sb": 28,
+      "winner": 22
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 38,
+      "sb": 18,
+      "winner": 1
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "sa": 33,
+      "sb": 33,
+      "winner": 8
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 34,
+      "sb": 28,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 21,
+      "sa": 39,
+      "sb": 33,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 40,
+      "sb": 31,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 23,
+      "sa": 46,
+      "sb": 42,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 31,
+      "sb": 23,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 22,
+      "sa": 36,
+      "sb": 31,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 8,
+      "sa": 46,
+      "sb": 23,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 40,
+      "sb": 38,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 44,
+      "sb": 35,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 31,
+      "sb": 25,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 45,
+      "sb": 26,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 30,
+      "sb": 28,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 38,
+      "sb": 25,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  },
+  "4": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 70.62,
+     "off": 35.46,
+     "dfn": 35.16,
+     "ppg": 44.2,
+     "oppg": 8.13,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 14,
+     "l": 1,
+     "ovr": 67.52,
+     "off": 34.7,
+     "dfn": 32.82,
+     "ppg": 43.73,
+     "oppg": 10.33,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 14,
+     "l": 1,
+     "ovr": 64.22,
+     "off": 31.35,
+     "dfn": 32.86,
+     "ppg": 44.93,
+     "oppg": 13.47,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "St. Mary's South Side",
+     "slug": "st-marys-south-side",
+     "w": 12,
+     "l": 2,
+     "ovr": 63.3,
+     "off": 38.4,
+     "dfn": 24.9,
+     "ppg": 44.57,
+     "oppg": 15.86,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 62.66,
+     "off": 32.65,
+     "dfn": 30.01,
+     "ppg": 45.8,
+     "oppg": 8.27,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 14,
+     "l": 1,
+     "ovr": 59.71,
+     "off": 27.43,
+     "dfn": 32.28,
+     "ppg": 43.07,
+     "oppg": 9.67,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "Lutheran North",
+     "slug": "lutheran-north",
+     "w": 13,
+     "l": 1,
+     "ovr": 59.64,
+     "off": 35.72,
+     "dfn": 23.92,
+     "ppg": 49,
+     "oppg": 13.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 58.68,
+     "off": 34.45,
+     "dfn": 24.22,
+     "ppg": 44,
+     "oppg": 13,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 14,
+     "l": 0,
+     "ovr": 55.53,
+     "off": 23.52,
+     "dfn": 32.01,
+     "ppg": 41.36,
+     "oppg": 11,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Ladue Horton Watkins",
+     "slug": "ladue-horton-watkins",
+     "w": 15,
+     "l": 0,
+     "ovr": 55.41,
+     "off": 24.04,
+     "dfn": 31.37,
+     "ppg": 38.73,
+     "oppg": 8.13,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 54.94,
+     "off": 27.56,
+     "dfn": 27.37,
+     "ppg": 42.93,
+     "oppg": 9.87,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 15,
+     "l": 0,
+     "ovr": 54.85,
+     "off": 23.03,
+     "dfn": 31.82,
+     "ppg": 37.67,
+     "oppg": 8.73,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "Smithville",
+     "slug": "smithville",
+     "w": 13,
+     "l": 0,
+     "ovr": 51.21,
+     "off": 21.77,
+     "dfn": 29.44,
+     "ppg": 40.23,
+     "oppg": 8.77,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Helias Catholic",
+     "slug": "helias-catholic",
+     "w": 14,
+     "l": 0,
+     "ovr": 47.34,
+     "off": 24.96,
+     "dfn": 22.39,
+     "ppg": 41.64,
+     "oppg": 17.29,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 13,
+     "l": 2,
+     "ovr": 43.91,
+     "off": 20.34,
+     "dfn": 23.58,
+     "ppg": 38.67,
+     "oppg": 13.4,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Harrisonville",
+     "slug": "harrisonville",
+     "w": 12,
+     "l": 3,
+     "ovr": 32.5,
+     "off": 13.05,
+     "dfn": 19.45,
+     "ppg": 29.8,
+     "oppg": 13.6,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 14,
+     "l": 1,
+     "ovr": 58.0,
+     "off": 22.72,
+     "dfn": 35.28,
+     "ppg": 35.93,
+     "oppg": 11.4,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 13,
+     "l": 1,
+     "ovr": 57.9,
+     "off": 29.7,
+     "dfn": 28.21,
+     "ppg": 39.07,
+     "oppg": 11.79,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "Helias Catholic",
+     "slug": "helias-catholic",
+     "w": 11,
+     "l": 2,
+     "ovr": 55.23,
+     "off": 27.49,
+     "dfn": 27.74,
+     "ppg": 39,
+     "oppg": 10.46,
+     "finish": ""
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2010,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 11,
+     "l": 1,
+     "ovr": 54.56,
+     "off": 27.24,
+     "dfn": 27.32,
+     "ppg": 42.17,
+     "oppg": 7.75,
+     "finish": ""
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Helias Catholic",
+     "slug": "helias-catholic",
+     "w": 12,
+     "l": 3,
+     "ovr": 51.71,
+     "off": 26.45,
+     "dfn": 25.26,
+     "ppg": 43.53,
+     "oppg": 14.6,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "West Plains",
+     "slug": "west-plains",
+     "w": 10,
+     "l": 2,
+     "ovr": 51.57,
+     "off": 29.12,
+     "dfn": 22.45,
+     "ppg": 47,
+     "oppg": 12.92,
+     "finish": ""
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 12,
+     "l": 2,
+     "ovr": 51.36,
+     "off": 19.88,
+     "dfn": 31.47,
+     "ppg": 33.64,
+     "oppg": 11.43,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 12,
+     "l": 1,
+     "ovr": 50.61,
+     "off": 23.27,
+     "dfn": 27.34,
+     "ppg": 40.69,
+     "oppg": 8.85,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Carl Junction",
+     "slug": "carl-junction",
+     "w": 10,
+     "l": 2,
+     "ovr": 48.87,
+     "off": 36.44,
+     "dfn": 12.42,
+     "ppg": 46.33,
+     "oppg": 28.92,
+     "finish": ""
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "West Plains",
+     "slug": "west-plains",
+     "w": 12,
+     "l": 1,
+     "ovr": 48.83,
+     "off": 22.87,
+     "dfn": 25.96,
+     "ppg": 45.38,
+     "oppg": 8.08,
+     "finish": ""
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Smithville",
+     "slug": "smithville",
+     "w": 12,
+     "l": 2,
+     "ovr": 47.96,
+     "off": 17.49,
+     "dfn": 30.48,
+     "ppg": 35.29,
+     "oppg": 8.43,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Carl Junction",
+     "slug": "carl-junction",
+     "w": 10,
+     "l": 2,
+     "ovr": 47.37,
+     "off": 22.01,
+     "dfn": 25.36,
+     "ppg": 34.58,
+     "oppg": 12.33,
+     "finish": ""
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2019,
+     "school": "Camdenton",
+     "slug": "camdenton",
+     "w": 12,
+     "l": 1,
+     "ovr": 47.08,
+     "off": 28.38,
+     "dfn": 18.7,
+     "ppg": 47.85,
+     "oppg": 16.85,
+     "finish": ""
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Hannibal",
+     "slug": "hannibal",
+     "w": 11,
+     "l": 3,
+     "ovr": 45.93,
+     "off": 21.11,
+     "dfn": 24.82,
+     "ppg": 38.86,
+     "oppg": 10.86,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Platte County",
+     "slug": "platte-county",
+     "w": 11,
+     "l": 3,
+     "ovr": 45.54,
+     "off": 24.87,
+     "dfn": 20.66,
+     "ppg": 36.21,
+     "oppg": 19.36,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2011,
+     "school": "Bolivar",
+     "slug": "bolivar",
+     "w": 9,
+     "l": 2,
+     "ovr": 45.53,
+     "off": 22.53,
+     "dfn": 23.0,
+     "ppg": 45.82,
+     "oppg": 8.36,
+     "finish": ""
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 38,
+      "sb": 13,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 4,
+      "sb": 29,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 48,
+      "sb": 38,
+      "winner": 8
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 22,
+      "sb": 17,
+      "winner": 9
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 46,
+      "sb": 29,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 20,
+      "sb": 24,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 33,
+      "sb": 18,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 24,
+      "sb": 21,
+      "winner": 12
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 40,
+      "sb": 18,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 18,
+      "sb": 32,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 36,
+      "sb": 25,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 19,
+      "sb": 15,
+      "winner": 10
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 33,
+      "sb": 14,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 23,
+      "sb": 31,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 23,
+      "sb": 11,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 31,
+      "sb": 28,
+      "winner": 11
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 26,
+      "sb": 14,
+      "winner": 1
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "sa": 28,
+      "sb": 25,
+      "winner": 8
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 37,
+      "sb": 28,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 12,
+      "sa": 27,
+      "sb": 19,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 32,
+      "sb": 23,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 10,
+      "sa": 30,
+      "sb": 26,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 30,
+      "sb": 21,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 11,
+      "sa": 26,
+      "sb": 21,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 8,
+      "sa": 37,
+      "sb": 25,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 34,
+      "sb": 34,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 37,
+      "sb": 29,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 25,
+      "sb": 21,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 37,
+      "sb": 29,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 28,
+      "sb": 25,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 29,
+      "sb": 26,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  },
+  "5": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Lee's Summit West",
+     "slug": "lees-summit-west",
+     "w": 13,
+     "l": 1,
+     "ovr": 74.87,
+     "off": 41.28,
+     "dfn": 33.59,
+     "ppg": 45.5,
+     "oppg": 11.93,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Platte County",
+     "slug": "platte-county",
+     "w": 14,
+     "l": 0,
+     "ovr": 66.63,
+     "off": 37.87,
+     "dfn": 28.75,
+     "ppg": 51.71,
+     "oppg": 15.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Jackson",
+     "slug": "jackson",
+     "w": 14,
+     "l": 0,
+     "ovr": 64.27,
+     "off": 39.45,
+     "dfn": 24.82,
+     "ppg": 55.64,
+     "oppg": 11.79,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Staley",
+     "slug": "staley",
+     "w": 14,
+     "l": 0,
+     "ovr": 62.86,
+     "off": 37.25,
+     "dfn": 25.61,
+     "ppg": 46.86,
+     "oppg": 15.64,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Vianney",
+     "slug": "vianney",
+     "w": 11,
+     "l": 3,
+     "ovr": 62.55,
+     "off": 36.06,
+     "dfn": 26.49,
+     "ppg": 42,
+     "oppg": 27.29,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "Francis Howell",
+     "slug": "francis-howell",
+     "w": 14,
+     "l": 0,
+     "ovr": 62.32,
+     "off": 33.91,
+     "dfn": 28.42,
+     "ppg": 48.36,
+     "oppg": 14.36,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "Platte County",
+     "slug": "platte-county",
+     "w": 14,
+     "l": 0,
+     "ovr": 58.71,
+     "off": 33.97,
+     "dfn": 24.73,
+     "ppg": 48.86,
+     "oppg": 12.57,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "Fort Osage",
+     "slug": "fort-osage",
+     "w": 13,
+     "l": 1,
+     "ovr": 55.59,
+     "off": 29.68,
+     "dfn": 25.91,
+     "ppg": 37.43,
+     "oppg": 16.14,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Staley",
+     "slug": "staley",
+     "w": 14,
+     "l": 0,
+     "ovr": 54.09,
+     "off": 30.24,
+     "dfn": 23.85,
+     "ppg": 38.86,
+     "oppg": 17.57,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 14,
+     "l": 0,
+     "ovr": 54.03,
+     "off": 35.01,
+     "dfn": 19.03,
+     "ppg": 46.71,
+     "oppg": 13.79,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Kirkwood",
+     "slug": "kirkwood",
+     "w": 13,
+     "l": 0,
+     "ovr": 53.78,
+     "off": 27.96,
+     "dfn": 25.82,
+     "ppg": 37.62,
+     "oppg": 12.62,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Vianney",
+     "slug": "vianney",
+     "w": 9,
+     "l": 5,
+     "ovr": 53.75,
+     "off": 33.88,
+     "dfn": 19.88,
+     "ppg": 39.57,
+     "oppg": 29,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "Carthage",
+     "slug": "carthage",
+     "w": 12,
+     "l": 2,
+     "ovr": 53.45,
+     "off": 28.77,
+     "dfn": 24.67,
+     "ppg": 37.71,
+     "oppg": 18.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Lee's Summit West",
+     "slug": "lees-summit-west",
+     "w": 14,
+     "l": 1,
+     "ovr": 52.84,
+     "off": 24.14,
+     "dfn": 28.7,
+     "ppg": 34.8,
+     "oppg": 14.33,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "Webb City",
+     "slug": "webb-city",
+     "w": 11,
+     "l": 3,
+     "ovr": 48.02,
+     "off": 27.03,
+     "dfn": 20.99,
+     "ppg": 38.79,
+     "oppg": 21.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Battle",
+     "slug": "battle",
+     "w": 11,
+     "l": 4,
+     "ovr": 35.41,
+     "off": 16.44,
+     "dfn": 18.96,
+     "ppg": 28.53,
+     "oppg": 20.73,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Fort Osage",
+     "slug": "fort-osage",
+     "w": 11,
+     "l": 1,
+     "ovr": 65.47,
+     "off": 28.07,
+     "dfn": 37.4,
+     "ppg": 39.75,
+     "oppg": 7.5,
+     "finish": ""
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 9,
+     "l": 2,
+     "ovr": 64.64,
+     "off": 34.47,
+     "dfn": 30.17,
+     "ppg": 39.64,
+     "oppg": 15.09,
+     "finish": ""
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Kearney",
+     "slug": "kearney",
+     "w": 11,
+     "l": 2,
+     "ovr": 59.49,
+     "off": 32.22,
+     "dfn": 27.27,
+     "ppg": 37.69,
+     "oppg": 20.23,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2012,
+     "school": "Lee's Summit West",
+     "slug": "lees-summit-west",
+     "w": 11,
+     "l": 1,
+     "ovr": 57.99,
+     "off": 27.71,
+     "dfn": 30.28,
+     "ppg": 40.83,
+     "oppg": 10.92,
+     "finish": ""
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Carthage",
+     "slug": "carthage",
+     "w": 12,
+     "l": 2,
+     "ovr": 57.95,
+     "off": 26.0,
+     "dfn": 31.96,
+     "ppg": 37.64,
+     "oppg": 18.07,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Vianney",
+     "slug": "vianney",
+     "w": 10,
+     "l": 2,
+     "ovr": 57.72,
+     "off": 36.41,
+     "dfn": 21.32,
+     "ppg": 47.08,
+     "oppg": 21.25,
+     "finish": ""
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2018,
+     "school": "Carthage",
+     "slug": "carthage",
+     "w": 11,
+     "l": 2,
+     "ovr": 56.85,
+     "off": 30.05,
+     "dfn": 26.79,
+     "ppg": 41.85,
+     "oppg": 15.38,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Cardinal Ritter",
+     "slug": "cardinal-ritter",
+     "w": 9,
+     "l": 4,
+     "ovr": 56.79,
+     "off": 25.84,
+     "dfn": 30.95,
+     "ppg": 35.15,
+     "oppg": 15.77,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2016,
+     "school": "Chaminade College Prep",
+     "slug": "chaminade-college-prep",
+     "w": 9,
+     "l": 2,
+     "ovr": 56.32,
+     "off": 30.04,
+     "dfn": 26.28,
+     "ppg": 39.64,
+     "oppg": 18.64,
+     "finish": ""
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Rockhurst",
+     "slug": "rockhurst",
+     "w": 9,
+     "l": 3,
+     "ovr": 56.03,
+     "off": 27.95,
+     "dfn": 28.09,
+     "ppg": 34.25,
+     "oppg": 18.33,
+     "finish": ""
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Staley",
+     "slug": "staley",
+     "w": 9,
+     "l": 2,
+     "ovr": 55.83,
+     "off": 21.13,
+     "dfn": 34.7,
+     "ppg": 30.18,
+     "oppg": 8.45,
+     "finish": ""
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2011,
+     "school": "Lee's Summit West",
+     "slug": "lees-summit-west",
+     "w": 12,
+     "l": 2,
+     "ovr": 55.55,
+     "off": 29.94,
+     "dfn": 25.6,
+     "ppg": 41.86,
+     "oppg": 12.36,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Parkway Central",
+     "slug": "parkway-central",
+     "w": 13,
+     "l": 2,
+     "ovr": 54.77,
+     "off": 25.27,
+     "dfn": 29.5,
+     "ppg": 39.47,
+     "oppg": 10.27,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2013,
+     "school": "Staley",
+     "slug": "staley",
+     "w": 6,
+     "l": 5,
+     "ovr": 54.62,
+     "off": 22.54,
+     "dfn": 32.08,
+     "ppg": 29.27,
+     "oppg": 15.64,
+     "finish": ""
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2011,
+     "school": "Kirkwood",
+     "slug": "kirkwood",
+     "w": 12,
+     "l": 2,
+     "ovr": 53.51,
+     "off": 29.83,
+     "dfn": 23.68,
+     "ppg": 42.29,
+     "oppg": 14,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2021,
+     "school": "Carthage",
+     "slug": "carthage",
+     "w": 10,
+     "l": 1,
+     "ovr": 53.26,
+     "off": 26.48,
+     "dfn": 26.78,
+     "ppg": 41.36,
+     "oppg": 14.64,
+     "finish": ""
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 40,
+      "sb": 19,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 5,
+      "sb": 35,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 29,
+      "sb": 30,
+      "winner": 25
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 25,
+      "sb": 28,
+      "winner": 24
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 34,
+      "sb": 26,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 24,
+      "sb": 29,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 36,
+      "sb": 29,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 28,
+      "sb": 32,
+      "winner": 21
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 40,
+      "sb": 27,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 23,
+      "sb": 39,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 32,
+      "sb": 29,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 34,
+      "sb": 37,
+      "winner": 23
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 33,
+      "sb": 24,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 23,
+      "sb": 30,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 25,
+      "sb": 19,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 33,
+      "sb": 37,
+      "winner": 22
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 30,
+      "sb": 20,
+      "winner": 1
+     },
+     {
+      "a": 25,
+      "b": 24,
+      "sa": 25,
+      "sb": 26,
+      "winner": 24
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 33,
+      "sb": 28,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 21,
+      "sa": 30,
+      "sb": 26,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 34,
+      "sb": 32,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 23,
+      "sa": 33,
+      "sb": 31,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 38,
+      "sb": 33,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 22,
+      "sa": 39,
+      "sb": 34,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 24,
+      "sa": 36,
+      "sb": 18,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 37,
+      "sb": 36,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 39,
+      "sb": 31,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 37,
+      "sb": 35,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 42,
+      "sb": 30,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 39,
+      "sb": 37,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 39,
+      "sb": 30,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  },
+  "6": {
+   "teams": [
+    {
+     "seed": 1,
+     "bid": "Champion",
+     "year": 2018,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 12,
+     "l": 1,
+     "ovr": 90.03,
+     "off": 55.97,
+     "dfn": 34.06,
+     "ppg": 56.38,
+     "oppg": 19.85,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 2,
+     "bid": "Champion",
+     "year": 2013,
+     "school": "Blue Springs",
+     "slug": "blue-springs",
+     "w": 14,
+     "l": 0,
+     "ovr": 79.56,
+     "off": 40.04,
+     "dfn": 39.52,
+     "ppg": 40.5,
+     "oppg": 11.14,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 3,
+     "bid": "Champion",
+     "year": 2014,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 12,
+     "l": 0,
+     "ovr": 76.76,
+     "off": 40.56,
+     "dfn": 36.2,
+     "ppg": 48.42,
+     "oppg": 9.25,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 4,
+     "bid": "Champion",
+     "year": 2019,
+     "school": "De Smet Jesuit",
+     "slug": "de-smet-jesuit",
+     "w": 14,
+     "l": 0,
+     "ovr": 70.98,
+     "off": 34.32,
+     "dfn": 36.66,
+     "ppg": 44.43,
+     "oppg": 8.57,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 5,
+     "bid": "Champion",
+     "year": 2017,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 13,
+     "l": 1,
+     "ovr": 70.57,
+     "off": 37.73,
+     "dfn": 32.84,
+     "ppg": 43.64,
+     "oppg": 15.21,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 6,
+     "bid": "Champion",
+     "year": 2023,
+     "school": "Liberty North",
+     "slug": "liberty-north",
+     "w": 13,
+     "l": 1,
+     "ovr": 69.8,
+     "off": 35.23,
+     "dfn": 34.57,
+     "ppg": 37,
+     "oppg": 12.5,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 7,
+     "bid": "Champion",
+     "year": 2021,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 13,
+     "l": 1,
+     "ovr": 69.18,
+     "off": 39.95,
+     "dfn": 29.23,
+     "ppg": 47.36,
+     "oppg": 16.71,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 8,
+     "bid": "Champion",
+     "year": 2022,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 13,
+     "l": 1,
+     "ovr": 69.01,
+     "off": 42.16,
+     "dfn": 26.85,
+     "ppg": 46.86,
+     "oppg": 21.29,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 9,
+     "bid": "Champion",
+     "year": 2012,
+     "school": "Blue Springs",
+     "slug": "blue-springs",
+     "w": 13,
+     "l": 1,
+     "ovr": 68.52,
+     "off": 39.71,
+     "dfn": 28.81,
+     "ppg": 44.71,
+     "oppg": 19.07,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 10,
+     "bid": "Champion",
+     "year": 2010,
+     "school": "Rockhurst",
+     "slug": "rockhurst",
+     "w": 14,
+     "l": 0,
+     "ovr": 66.47,
+     "off": 23.71,
+     "dfn": 42.76,
+     "ppg": 27.86,
+     "oppg": 10.21,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 11,
+     "bid": "Champion",
+     "year": 2015,
+     "school": "Blue Springs South",
+     "slug": "blue-springs-south",
+     "w": 14,
+     "l": 0,
+     "ovr": 63.26,
+     "off": 33.27,
+     "dfn": 29.99,
+     "ppg": 38.43,
+     "oppg": 15.93,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 12,
+     "bid": "Champion",
+     "year": 2011,
+     "school": "Blue Springs South",
+     "slug": "blue-springs-south",
+     "w": 12,
+     "l": 2,
+     "ovr": 59.9,
+     "off": 27.04,
+     "dfn": 32.86,
+     "ppg": 34.79,
+     "oppg": 13.14,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 13,
+     "bid": "Champion",
+     "year": 2025,
+     "school": "Lee's Summit",
+     "slug": "lees-summit",
+     "w": 10,
+     "l": 4,
+     "ovr": 59.39,
+     "off": 27.71,
+     "dfn": 31.68,
+     "ppg": 28.71,
+     "oppg": 23.21,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 14,
+     "bid": "Champion",
+     "year": 2020,
+     "school": "Raymore-Peculiar",
+     "slug": "raymore-peculiar",
+     "w": 12,
+     "l": 2,
+     "ovr": 59.09,
+     "off": 27.04,
+     "dfn": 32.05,
+     "ppg": 31.71,
+     "oppg": 15.07,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 15,
+     "bid": "Champion",
+     "year": 2016,
+     "school": "Kirkwood",
+     "slug": "kirkwood",
+     "w": 12,
+     "l": 1,
+     "ovr": 58.98,
+     "off": 25.84,
+     "dfn": 33.15,
+     "ppg": 36.38,
+     "oppg": 12.69,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 16,
+     "bid": "Champion",
+     "year": 2024,
+     "school": "De Smet Jesuit",
+     "slug": "de-smet-jesuit",
+     "w": 12,
+     "l": 2,
+     "ovr": 55.79,
+     "off": 24.81,
+     "dfn": 30.98,
+     "ppg": 34.71,
+     "oppg": 15.29,
+     "finish": "State Champion"
+    },
+    {
+     "seed": 17,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Blue Springs South",
+     "slug": "blue-springs-south",
+     "w": 9,
+     "l": 1,
+     "ovr": 77.13,
+     "off": 37.0,
+     "dfn": 40.13,
+     "ppg": 38,
+     "oppg": 12.5,
+     "finish": ""
+    },
+    {
+     "seed": 18,
+     "bid": "At-large",
+     "year": 2015,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 13,
+     "l": 1,
+     "ovr": 75.11,
+     "off": 38.99,
+     "dfn": 36.12,
+     "ppg": 49.86,
+     "oppg": 11.36,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 19,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 11,
+     "l": 1,
+     "ovr": 71.51,
+     "off": 43.39,
+     "dfn": 28.13,
+     "ppg": 55.25,
+     "oppg": 23.83,
+     "finish": ""
+    },
+    {
+     "seed": 20,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Liberty North",
+     "slug": "liberty-north",
+     "w": 12,
+     "l": 1,
+     "ovr": 67.54,
+     "off": 27.56,
+     "dfn": 39.98,
+     "ppg": 33.15,
+     "oppg": 11.23,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 21,
+     "bid": "At-large",
+     "year": 2017,
+     "school": "Blue Springs",
+     "slug": "blue-springs",
+     "w": 11,
+     "l": 3,
+     "ovr": 66.09,
+     "off": 28.09,
+     "dfn": 38.0,
+     "ppg": 30.71,
+     "oppg": 14.43,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 22,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Jackson",
+     "slug": "jackson",
+     "w": 12,
+     "l": 1,
+     "ovr": 65.59,
+     "off": 39.64,
+     "dfn": 25.95,
+     "ppg": 51.46,
+     "oppg": 17,
+     "finish": "Final Four"
+    },
+    {
+     "seed": 23,
+     "bid": "At-large",
+     "year": 2011,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 13,
+     "l": 1,
+     "ovr": 64.99,
+     "off": 37.84,
+     "dfn": 27.15,
+     "ppg": 44.29,
+     "oppg": 15.57,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 24,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 9,
+     "l": 2,
+     "ovr": 64.29,
+     "off": 31.76,
+     "dfn": 32.53,
+     "ppg": 43.45,
+     "oppg": 13.45,
+     "finish": ""
+    },
+    {
+     "seed": 25,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Lee's Summit North",
+     "slug": "lees-summit-north",
+     "w": 11,
+     "l": 1,
+     "ovr": 64.28,
+     "off": 31.32,
+     "dfn": 32.96,
+     "ppg": 35.33,
+     "oppg": 16,
+     "finish": ""
+    },
+    {
+     "seed": 26,
+     "bid": "At-large",
+     "year": 2014,
+     "school": "Rockhurst",
+     "slug": "rockhurst",
+     "w": 12,
+     "l": 2,
+     "ovr": 64.06,
+     "off": 30.43,
+     "dfn": 33.63,
+     "ppg": 33.21,
+     "oppg": 16.57,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 27,
+     "bid": "At-large",
+     "year": 2010,
+     "school": "Blue Springs",
+     "slug": "blue-springs",
+     "w": 9,
+     "l": 3,
+     "ovr": 63.96,
+     "off": 33.11,
+     "dfn": 30.85,
+     "ppg": 36.08,
+     "oppg": 16.25,
+     "finish": ""
+    },
+    {
+     "seed": 28,
+     "bid": "At-large",
+     "year": 2012,
+     "school": "Rockhurst",
+     "slug": "rockhurst",
+     "w": 9,
+     "l": 3,
+     "ovr": 63.54,
+     "off": 25.52,
+     "dfn": 38.02,
+     "ppg": 26.5,
+     "oppg": 13.92,
+     "finish": ""
+    },
+    {
+     "seed": 29,
+     "bid": "At-large",
+     "year": 2022,
+     "school": "Lee's Summit North",
+     "slug": "lees-summit-north",
+     "w": 12,
+     "l": 2,
+     "ovr": 62.89,
+     "off": 24.84,
+     "dfn": 38.04,
+     "ppg": 30.86,
+     "oppg": 15.5,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 30,
+     "bid": "At-large",
+     "year": 2025,
+     "school": "Nixa",
+     "slug": "nixa",
+     "w": 13,
+     "l": 1,
+     "ovr": 62.72,
+     "off": 34.62,
+     "dfn": 28.11,
+     "ppg": 45.29,
+     "oppg": 17.36,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 31,
+     "bid": "At-large",
+     "year": 2024,
+     "school": "Nixa",
+     "slug": "nixa",
+     "w": 13,
+     "l": 1,
+     "ovr": 62.44,
+     "off": 35.41,
+     "dfn": 27.04,
+     "ppg": 43.07,
+     "oppg": 14.79,
+     "finish": "State Runner-up"
+    },
+    {
+     "seed": 32,
+     "bid": "At-large",
+     "year": 2016,
+     "school": "Christian Brothers College",
+     "slug": "christian-brothers-college",
+     "w": 11,
+     "l": 2,
+     "ovr": 62.35,
+     "off": 35.08,
+     "dfn": 27.27,
+     "ppg": 40.92,
+     "oppg": 21.38,
+     "finish": "Final Four"
+    }
+   ],
+   "model_rounds": [
+    [
+     {
+      "a": 1,
+      "b": 32,
+      "sa": 55,
+      "sb": 27,
+      "winner": 1
+     },
+     {
+      "a": 16,
+      "b": 17,
+      "sa": 11,
+      "sb": 32,
+      "winner": 17
+     },
+     {
+      "a": 8,
+      "b": 25,
+      "sa": 35,
+      "sb": 30,
+      "winner": 8
+     },
+     {
+      "a": 9,
+      "b": 24,
+      "sa": 33,
+      "sb": 29,
+      "winner": 9
+     },
+     {
+      "a": 4,
+      "b": 29,
+      "sa": 22,
+      "sb": 14,
+      "winner": 4
+     },
+     {
+      "a": 13,
+      "b": 20,
+      "sa": 14,
+      "sb": 22,
+      "winner": 20
+     },
+     {
+      "a": 5,
+      "b": 28,
+      "sa": 26,
+      "sb": 19,
+      "winner": 5
+     },
+     {
+      "a": 12,
+      "b": 21,
+      "sa": 15,
+      "sb": 21,
+      "winner": 21
+     },
+     {
+      "a": 2,
+      "b": 31,
+      "sa": 39,
+      "sb": 22,
+      "winner": 2
+     },
+     {
+      "a": 15,
+      "b": 18,
+      "sa": 16,
+      "sb": 32,
+      "winner": 18
+     },
+     {
+      "a": 7,
+      "b": 26,
+      "sa": 32,
+      "sb": 27,
+      "winner": 7
+     },
+     {
+      "a": 10,
+      "b": 23,
+      "sa": 23,
+      "sb": 21,
+      "winner": 10
+     },
+     {
+      "a": 3,
+      "b": 30,
+      "sa": 38,
+      "sb": 24,
+      "winner": 3
+     },
+     {
+      "a": 14,
+      "b": 19,
+      "sa": 25,
+      "sb": 37,
+      "winner": 19
+     },
+     {
+      "a": 6,
+      "b": 27,
+      "sa": 30,
+      "sb": 25,
+      "winner": 6
+     },
+     {
+      "a": 11,
+      "b": 22,
+      "sa": 33,
+      "sb": 36,
+      "winner": 22
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 17,
+      "sa": 42,
+      "sb": 29,
+      "winner": 1
+     },
+     {
+      "a": 8,
+      "b": 9,
+      "sa": 39,
+      "sb": 39,
+      "winner": 8
+     },
+     {
+      "a": 4,
+      "b": 20,
+      "sa": 20,
+      "sb": 17,
+      "winner": 4
+     },
+     {
+      "a": 5,
+      "b": 21,
+      "sa": 26,
+      "sb": 21,
+      "winner": 5
+     },
+     {
+      "a": 2,
+      "b": 18,
+      "sa": 30,
+      "sb": 25,
+      "winner": 2
+     },
+     {
+      "a": 7,
+      "b": 10,
+      "sa": 23,
+      "sb": 20,
+      "winner": 7
+     },
+     {
+      "a": 3,
+      "b": 19,
+      "sa": 38,
+      "sb": 33,
+      "winner": 3
+     },
+     {
+      "a": 6,
+      "b": 22,
+      "sa": 35,
+      "sb": 31,
+      "winner": 6
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 8,
+      "sa": 55,
+      "sb": 34,
+      "winner": 1
+     },
+     {
+      "a": 4,
+      "b": 5,
+      "sa": 27,
+      "sb": 27,
+      "winner": 4
+     },
+     {
+      "a": 2,
+      "b": 7,
+      "sa": 37,
+      "sb": 26,
+      "winner": 2
+     },
+     {
+      "a": 3,
+      "b": 6,
+      "sa": 32,
+      "sb": 25,
+      "winner": 3
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 4,
+      "sa": 45,
+      "sb": 26,
+      "winner": 1
+     },
+     {
+      "a": 2,
+      "b": 3,
+      "sa": 30,
+      "sb": 27,
+      "winner": 2
+     }
+    ],
+    [
+     {
+      "a": 1,
+      "b": 2,
+      "sa": 42,
+      "sb": 32,
+      "winner": 1
+     }
+    ]
+   ],
+   "model_champion": 1
+  }
+ }
+}
