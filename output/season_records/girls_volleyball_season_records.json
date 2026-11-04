@@ -2,7 +2,7 @@
   "sport": "girls_volleyball",
   "schema": "VOLLEYBALL",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=57",
-  "scraped_at": "2026-11-03T18:13:32+00:00",
+  "scraped_at": "2026-11-04T18:22:05+00:00",
   "teams": [
     {
       "school": "Potosi",
@@ -4127,24 +4127,6 @@
       "games_played": 18
     },
     {
-      "school": "Vashon",
-      "mshsaa_school_id": 206,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 4,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": 0.11,
-      "wins": 9,
-      "losses": 9,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 50.0,
-      "games_played": 18
-    },
-    {
       "school": "Stockton",
       "mshsaa_school_id": 463,
       "classification_code": 2,
@@ -4341,6 +4323,24 @@
       "mshsaa_points": null,
       "win_pct": 47.83,
       "games_played": 23
+    },
+    {
+      "school": "Vashon",
+      "mshsaa_school_id": 206,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 4,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": -0.05,
+      "wins": 9,
+      "losses": 10,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 47.37,
+      "games_played": 19
     },
     {
       "school": "Joplin",
