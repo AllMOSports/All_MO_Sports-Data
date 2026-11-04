@@ -6,6 +6,11 @@ OUT=sys.argv[1]; LA=26
 R=json.load(open('output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json'))
 S=json.load(open('output/mshsaa_historical_records/football/Football_Stats_History_2010-2025.json'))
 T=json.load(open('output/state_tournament_history.json'))['teams']
+SCH=json.load(open('output/schools.json'))['schools']
+SLUG=dict(json.load(open('school_aliases.json')))
+for _slug,_v in SCH.items():
+  for _k in ('mshsaa_name','name'):
+    if _v.get(_k): SLUG[_v[_k]]=_slug
 ALIAS={"St. Mary's St. Louis":"St. Mary's South Side","DeSmet":"De Smet Jesuit"}  # title-history name -> ratings name
 stats={(s['year'],t['school']):t for s in S['seasons'] for t in s['teams']}
 fin={}; champs=collections.defaultdict(list)
@@ -54,7 +59,8 @@ for c in range(1,7):
       win=a if (sa-sb,a['ovr'])>(sb-sa,b['ovr']) else b
       games.append(dict(a=a['seed'],b=b['seed'],sa=sa,sb=sb,winner=win['seed']));nxt.append(win)
     rounds.append(games);cur=nxt
-  keep=['seed','bid','year','school','w','l','ovr','off','dfn','ppg','oppg','finish']
+  for r in pick: r['slug']=SLUG.get(r['school'],'')
+  keep=['seed','bid','year','school','slug','w','l','ovr','off','dfn','ppg','oppg','finish']
   out['classes'][c]=dict(teams=[{k:r[k] for k in keep} for r in pick],model_rounds=rounds,model_champion=cur[0]['seed'])
   for r in pick: flat.append({'class':c,**{k:r[k] for k in keep}})
   # report
