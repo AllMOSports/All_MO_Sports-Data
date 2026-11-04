@@ -1,0 +1,209 @@
+{
+ "football": {
+  "ratings_updated": "November 02, 2026 at 02:20 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "November 04, 2026 at 08:19 AM",
+  "games": [
+   {
+    "date": "2026-11-04",
+    "team1": "Maplewood-Richmond Hts.",
+    "team2": "Brentwood",
+    "pick": "Maplewood-Richmond Hts.",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Saxony Lutheran with St. Vincent",
+    "team2": "St. Pius X (Festus)",
+    "pick": "Saxony Lutheran with St. Vincent",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Father Tolton",
+    "team2": "Eugene",
+    "pick": "Father Tolton",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Smithton",
+    "team2": "Stover",
+    "pick": "Stover",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Pembroke Hill",
+    "team2": "Lutheran (Kansas City)",
+    "pick": "Pembroke Hill",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Barstow",
+    "team2": "Frontier School of Excellence Charter",
+    "pick": "Barstow",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Faith Christian Academy",
+    "team2": "Frontier STEM",
+    "pick": "Faith Christian Academy",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Northland Christian",
+    "team2": "Cameron",
+    "pick": "Northland Christian",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Notre Dame (Cape Girardeau)",
+    "team2": "Fredericktown",
+    "pick": "Notre Dame (Cape Girardeau)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Perryville",
+    "team2": "Bayless",
+    "pick": "Bayless",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Lutheran South",
+    "team2": "Collegiate School of Med-Bio Science with McKinley Classical Leadership",
+    "pick": "Lutheran South",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Sullivan",
+    "team2": "St. Mary's South Side",
+    "pick": "St. Mary's South Side",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "John Burroughs",
+    "team2": "Principia",
+    "pick": "John Burroughs",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Priory",
+    "team2": "MICDS",
+    "pick": "Priory",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Helias Catholic",
+    "team2": "Bolivar",
+    "pick": "Helias Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Farmington",
+    "team2": "DeSoto",
+    "pick": "Farmington",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Sikeston",
+    "team2": "West Plains",
+    "pick": "Sikeston",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Rockwood Summit",
+    "team2": "Affton",
+    "pick": "Rockwood Summit",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Webster Groves",
+    "team2": "Washington",
+    "pick": "Webster Groves",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Christian Brothers College",
+    "team2": "De Smet Jesuit",
+    "pick": "Christian Brothers College",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Francis Howell Central",
+    "team2": "Francis Howell",
+    "pick": "Francis Howell Central",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Glendale",
+    "team2": "Branson",
+    "pick": "Glendale",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Nixa",
+    "team2": "Ozark",
+    "pick": "Nixa",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "November 04, 2026 at 10:44 AM",
+  "games": [
+   {
+    "date": "2026-11-04",
+    "team1": "Winona",
+    "team2": "Valle Catholic",
+    "pick": "Valle Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Rock Port",
+    "team2": "Billings",
+    "pick": "Rock Port",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Liberty (Mountain View)",
+    "team2": "Woodland",
+    "pick": "Liberty (Mountain View)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-04",
+    "team1": "Mid-Buchanan",
+    "team2": "New Covenant Academy",
+    "pick": "New Covenant Academy",
+    "ranked": false
+   }
+  ]
+ },
+ "fall_softball": {
+  "ratings_updated": "November 04, 2026 at 09:32 AM",
+  "games": []
+ }
+}
