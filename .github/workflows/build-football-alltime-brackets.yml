@@ -1,0 +1,36 @@
+name: Build Football All-Time Brackets
+
+on:
+  workflow_dispatch:        # run manually from the Actions tab
+  push:
+    paths:                  # rebuild automatically when the source data changes
+      - 'output/mshsaa_historical_records/football/Football_Ratings_History_*.json'
+      - 'output/mshsaa_historical_records/football/Football_Stats_History_*.json'
+      - 'output/state_tournament_history.json'
+      - 'scripts/Build_Football_AllTime_Brackets.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build brackets
+        run: |
+          mkdir -p output/football
+          python scripts/Build_Football_AllTime_Brackets.py output/football
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/football/football_alltime_brackets.json output/football/football_alltime_brackets.csv
+          git diff --cached --quiet || git commit -m "Rebuild football all-time brackets"
+          git push
