@@ -1,0 +1,35 @@
+name: Build All MO Sports Cup
+
+on:
+  workflow_dispatch:          # run by hand, or trigger from cron-job.org like the other nightly jobs
+  schedule:
+    - cron: '0 13 * * *'      # backup run ~7-8 AM Central (GitHub often starts scheduled runs late)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: all-mo-sports-cup
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build standings
+        run: python scripts/Build_All_MO_Sports_Cup.py output/cup
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/cup
+          git diff --cached --quiet || git commit -m "All MO Sports Cup standings $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash
+          git push
