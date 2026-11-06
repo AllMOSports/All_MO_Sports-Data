@@ -1,0 +1,83 @@
+{
+ "football": {
+  "ratings_updated": "November 02, 2026 at 02:20 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "November 06, 2026 at 08:19 AM",
+  "games": [
+   {
+    "date": "2026-11-06",
+    "team1": "Maplewood-Richmond Hts.",
+    "team2": "Saxony Lutheran with St. Vincent",
+    "pick": "Maplewood-Richmond Hts.",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Pembroke Hill",
+    "team2": "Barstow",
+    "pick": "Pembroke Hill",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Lutheran South",
+    "team2": "St. Mary's South Side",
+    "pick": "St. Mary's South Side",
+    "ranked": false
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "November 06, 2026 at 10:44 AM",
+  "games": [
+   {
+    "date": "2026-11-06",
+    "team1": "St. Francis Borgia",
+    "team2": "Potosi",
+    "pick": "Potosi",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Oak Grove",
+    "team2": "Nevada",
+    "pick": "Oak Grove",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Helias Catholic",
+    "team2": "St. Dominic",
+    "pick": "Helias Catholic",
+    "ranked": true
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Smithville",
+    "team2": "Rockwood Summit",
+    "pick": "Smithville",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Incarnate Word Academy",
+    "team2": "Lafayette (Wildwood)",
+    "pick": "Lafayette (Wildwood)",
+    "ranked": true
+   },
+   {
+    "date": "2026-11-06",
+    "team1": "Lee's Summit North",
+    "team2": "Lee's Summit West",
+    "pick": "Lee's Summit West",
+    "ranked": true
+   }
+  ]
+ },
+ "fall_softball": {
+  "ratings_updated": "November 06, 2026 at 09:32 AM",
+  "games": []
+ }
+}
