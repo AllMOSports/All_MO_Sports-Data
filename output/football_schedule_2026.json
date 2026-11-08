@@ -699,6 +699,19 @@
         "off_delta": 17.8,
         "def_delta": -4.3,
         "ovr_delta": 13.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Sullivan",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 40.4,
+        "predicted_opp_score": 36.95,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Lindbergh": [
@@ -1240,6 +1253,19 @@
         "off_delta": 7.7,
         "def_delta": -15.9,
         "ovr_delta": -8.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Hannibal",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 19.74,
+        "predicted_opp_score": 34.14,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Parkway West": [
@@ -2131,6 +2157,19 @@
         "off_delta": 11.6,
         "def_delta": 11.6,
         "ovr_delta": 23.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Helias Catholic",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 17.22,
+        "predicted_opp_score": 31.72,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Heritage (AR.)": [
@@ -2689,6 +2728,19 @@
         "off_delta": 0.3,
         "def_delta": 1.6,
         "ovr_delta": 1.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "East Newton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 44.93,
+        "predicted_opp_score": 12.48,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Aurora": [
@@ -3494,6 +3546,19 @@
         "off_delta": 15.5,
         "def_delta": -11.6,
         "ovr_delta": 3.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "St. Pius X (Kansas City)",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 15.69,
+        "predicted_opp_score": 32.94,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Blair Oaks": [
@@ -3626,6 +3691,19 @@
         "off_delta": 1.9,
         "def_delta": -6.0,
         "ovr_delta": -4.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "North Callaway",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 53.96,
+        "predicted_opp_score": 29.29,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Excelsior Springs": [
@@ -3903,6 +3981,19 @@
         "off_delta": -17.8,
         "def_delta": 16.8,
         "ovr_delta": -1.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Pembroke Hill",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 24.72,
+        "predicted_opp_score": 35.47,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Harrison (AR.)": [
@@ -4195,6 +4286,19 @@
         "off_delta": 10.1,
         "def_delta": 1.5,
         "ovr_delta": 11.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "North Platte",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 18.05,
+        "predicted_opp_score": 28.53,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Butler": [
@@ -4340,6 +4444,19 @@
         "off_delta": 22.2,
         "def_delta": -5.5,
         "ovr_delta": 16.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Lafayette County",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 31.92,
+        "predicted_opp_score": 32.36,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Miller": [
@@ -4472,6 +4589,19 @@
         "off_delta": 7.2,
         "def_delta": 3.8,
         "ovr_delta": 11.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Marionville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.69,
+        "predicted_opp_score": 16.7,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Cabool": [
@@ -4881,6 +5011,19 @@
         "off_delta": 0.2,
         "def_delta": 0.6,
         "ovr_delta": 0.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Chaminade College Prep",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 37.91,
+        "predicted_opp_score": 23.17,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Fayette": [
@@ -5582,6 +5725,19 @@
         "off_delta": 27.1,
         "def_delta": 3.0,
         "ovr_delta": 30.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Seneca",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 27.58,
+        "predicted_opp_score": 22.5,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Liberty (Wentzville)": [
@@ -6004,6 +6160,19 @@
         "off_delta": -3.0,
         "def_delta": 8.6,
         "ovr_delta": 5.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Festus",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 12.88,
+        "predicted_opp_score": 23.9,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Central (Park Hills)": [
@@ -6571,6 +6740,19 @@
         "off_delta": -5.3,
         "def_delta": 10.1,
         "ovr_delta": 4.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Centralia",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 32.38,
+        "predicted_opp_score": 40.61,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Chillicothe": [
@@ -6850,6 +7032,19 @@
         "off_delta": -5.5,
         "def_delta": 13.9,
         "ovr_delta": 8.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Kirkwood",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 36.54,
+        "predicted_opp_score": 26.89,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Bowling Green": [
@@ -7523,6 +7718,19 @@
         "off_delta": 1.7,
         "def_delta": -6.0,
         "ovr_delta": -4.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "University City",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 19.82,
+        "predicted_opp_score": 3.32,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "De Smet Jesuit": [
@@ -7787,6 +7995,19 @@
         "off_delta": 9.5,
         "def_delta": -0.4,
         "ovr_delta": 9.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Kelly",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 30.17,
+        "predicted_opp_score": 7.33,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "DeSoto": [
@@ -8341,6 +8562,19 @@
         "off_delta": 7.6,
         "def_delta": 7.6,
         "ovr_delta": 15.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Putnam County",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 15.06,
+        "predicted_opp_score": 21.97,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Father Tolton": [
@@ -8618,6 +8852,19 @@
         "off_delta": 13.6,
         "def_delta": -8.4,
         "ovr_delta": 5.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Eureka",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 24.56,
+        "predicted_opp_score": 32.15,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Festus": [
@@ -8750,6 +8997,19 @@
         "off_delta": -3.9,
         "def_delta": -0.6,
         "ovr_delta": -4.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Sikeston",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 23.9,
+        "predicted_opp_score": 12.88,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Ava": [
@@ -9847,6 +10107,19 @@
         "off_delta": -2.5,
         "def_delta": -1.5,
         "ovr_delta": -4.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "SLUH",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 15.97,
+        "predicted_opp_score": 25.51,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Ft. Zumwalt North": [
@@ -9979,6 +10252,19 @@
         "off_delta": 21.3,
         "def_delta": 11.9,
         "ovr_delta": 33.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Timberland",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 36.89,
+        "predicted_opp_score": 20.13,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Moberly": [
@@ -10111,6 +10397,19 @@
         "off_delta": 13.5,
         "def_delta": 7.2,
         "ovr_delta": 20.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Warrensburg",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 26.85,
+        "predicted_opp_score": 32.66,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Fulton": [
@@ -10810,6 +11109,19 @@
         "off_delta": -10.3,
         "def_delta": 3.6,
         "ovr_delta": -6.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Smith-Cotton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 33.61,
+        "predicted_opp_score": 18.23,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Macon": [
@@ -11087,6 +11399,19 @@
         "off_delta": -1.9,
         "def_delta": 1.0,
         "ovr_delta": -0.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Southern Boone",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 24.63,
+        "predicted_opp_score": 27.65,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Helias Catholic": [
@@ -11219,6 +11544,19 @@
         "off_delta": 11.9,
         "def_delta": -0.5,
         "ovr_delta": 11.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Camdenton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 31.72,
+        "predicted_opp_score": 17.22,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Hannibal": [
@@ -11364,6 +11702,19 @@
         "off_delta": 3.5,
         "def_delta": -10.6,
         "ovr_delta": -7.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Parkway North",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 34.14,
+        "predicted_opp_score": 19.74,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "South Shelby": [
@@ -12037,6 +12388,19 @@
         "off_delta": 9.7,
         "def_delta": 4.7,
         "ovr_delta": 14.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Troy Buchanan",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.22,
+        "predicted_opp_score": 39.02,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Hickman": [
@@ -12565,6 +12929,19 @@
         "off_delta": 11.0,
         "def_delta": -8.4,
         "ovr_delta": 2.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Dexter",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 29.57,
+        "predicted_opp_score": 30.23,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Hillsboro": [
@@ -12842,6 +13219,19 @@
         "off_delta": -2.6,
         "def_delta": -22.0,
         "ovr_delta": -24.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Skyline",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 41.61,
+        "predicted_opp_score": 20.47,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Holden": [
@@ -13121,6 +13511,19 @@
         "off_delta": 5.2,
         "def_delta": -9.3,
         "ovr_delta": -4.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Seckman",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 47.98,
+        "predicted_opp_score": 2.18,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Windsor (Imperial)": [
@@ -13385,6 +13788,19 @@
         "off_delta": -4.0,
         "def_delta": 1.5,
         "ovr_delta": -2.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Valle Catholic",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": -6.61,
+        "predicted_opp_score": 57.62,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "John Burroughs": [
@@ -13900,6 +14316,19 @@
         "off_delta": -4.1,
         "def_delta": -15.0,
         "ovr_delta": -19.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Savannah",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 35.98,
+        "predicted_opp_score": 16.14,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Charleston": [
@@ -14190,6 +14619,19 @@
         "off_delta": 4.1,
         "def_delta": 24.2,
         "ovr_delta": 28.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "St. Vincent",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 7.33,
+        "predicted_opp_score": 30.17,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Joplin": [
@@ -14586,6 +15028,19 @@
         "off_delta": 1.3,
         "def_delta": -0.6,
         "ovr_delta": 0.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Hallsville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 27.65,
+        "predicted_opp_score": 24.63,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Kirksville": [
@@ -15153,6 +15608,19 @@
         "off_delta": 11.5,
         "def_delta": 11.0,
         "ovr_delta": 22.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Winfield",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 49.06,
+        "predicted_opp_score": 10.05,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Ladue Horton Watkins": [
@@ -15417,6 +15885,19 @@
         "off_delta": -12.4,
         "def_delta": -2.1,
         "ovr_delta": -14.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Ft. Zumwalt North",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.13,
+        "predicted_opp_score": 36.89,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Lafayette (Wildwood)": [
@@ -15826,6 +16307,19 @@
         "off_delta": 6.8,
         "def_delta": 16.9,
         "ovr_delta": 23.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Brookfield",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 27.08,
+        "predicted_opp_score": 25.76,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Republic": [
@@ -15958,6 +16452,19 @@
         "off_delta": 4.4,
         "def_delta": -4.5,
         "ovr_delta": -0.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Neosho",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 38.39,
+        "predicted_opp_score": 30.39,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Lebanon": [
@@ -16235,6 +16742,19 @@
         "off_delta": -5.4,
         "def_delta": 8.4,
         "ovr_delta": 3.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Blue Springs",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 22.59,
+        "predicted_opp_score": 33.52,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Lee's Summit": [
@@ -17053,6 +17573,19 @@
         "off_delta": 11.7,
         "def_delta": -20.4,
         "ovr_delta": -8.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Rockhurst",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 24.81,
+        "predicted_opp_score": 20.55,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Liberty": [
@@ -18280,6 +18813,19 @@
         "off_delta": 27.5,
         "def_delta": 5.1,
         "ovr_delta": 32.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Bolivar",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 37.86,
+        "predicted_opp_score": 19.55,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Grandview (Hillsboro)": [
@@ -18544,6 +19090,19 @@
         "off_delta": 16.8,
         "def_delta": 7.8,
         "ovr_delta": 24.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Crystal City",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 49.63,
+        "predicted_opp_score": -2.37,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Duchesne": [
@@ -18940,6 +19499,19 @@
         "off_delta": 5.9,
         "def_delta": 3.2,
         "ovr_delta": 9.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Lift for Life Academy Charter",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 3.32,
+        "predicted_opp_score": 19.82,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Lutheran St. Charles": [
@@ -19613,6 +20185,19 @@
         "off_delta": 4.6,
         "def_delta": -10.0,
         "ovr_delta": -5.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Miller",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 16.7,
+        "predicted_opp_score": 20.69,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Chaminade College Prep": [
@@ -19758,6 +20343,19 @@
         "off_delta": -6.9,
         "def_delta": -6.7,
         "ovr_delta": -13.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Cardinal Ritter",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 23.17,
+        "predicted_opp_score": 37.91,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Marquette": [
@@ -20299,6 +20897,19 @@
         "off_delta": -2.3,
         "def_delta": 4.3,
         "ovr_delta": 2.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Palmyra",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 40.61,
+        "predicted_opp_score": 32.38,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Mexico": [
@@ -20814,6 +21425,19 @@
         "off_delta": 6.3,
         "def_delta": 14.0,
         "ovr_delta": 20.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Lawson",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 25.76,
+        "predicted_opp_score": 27.08,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Monroe City": [
@@ -21394,6 +22018,19 @@
         "off_delta": 15.9,
         "def_delta": -11.4,
         "ovr_delta": 4.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Springfield Catholic",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 37.25,
+        "predicted_opp_score": 20.78,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Mountain Grove": [
@@ -21526,6 +22163,19 @@
         "off_delta": 6.4,
         "def_delta": 1.9,
         "ovr_delta": 8.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Strafford",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 35.87,
+        "predicted_opp_score": 5.85,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Nevada": [
@@ -22093,6 +22743,19 @@
         "off_delta": -13.0,
         "def_delta": -2.3,
         "ovr_delta": -15.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Ozark",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 45.07,
+        "predicted_opp_score": 13.78,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Farmington": [
@@ -22238,6 +22901,19 @@
         "off_delta": -11.1,
         "def_delta": 0.3,
         "ovr_delta": -10.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "St. Mary's South Side",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 28.58,
+        "predicted_opp_score": 14.09,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "North County": [
@@ -22502,6 +23178,19 @@
         "off_delta": 0.7,
         "def_delta": 4.2,
         "ovr_delta": 4.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Blue Springs South",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 33.52,
+        "predicted_opp_score": 22.59,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "North Kansas City": [
@@ -22924,6 +23613,19 @@
         "off_delta": 12.2,
         "def_delta": -1.0,
         "ovr_delta": 11.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Adrian",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 28.53,
+        "predicted_opp_score": 18.05,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Hogan Prep Academy Charter": [
@@ -23320,6 +24022,19 @@
         "off_delta": 3.7,
         "def_delta": -2.6,
         "ovr_delta": 1.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Platte County",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 14.5,
+        "predicted_opp_score": 29.46,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Oak Park": [
@@ -23465,6 +24180,19 @@
         "off_delta": 1.8,
         "def_delta": 12.2,
         "ovr_delta": 14.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Liberty North",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.91,
+        "predicted_opp_score": 35.16,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Cameron": [
@@ -23729,6 +24457,19 @@
         "off_delta": 3.9,
         "def_delta": -5.6,
         "ovr_delta": -1.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Pleasant Hill",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 22.48,
+        "predicted_opp_score": 19.26,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Bolivar": [
@@ -23874,6 +24615,19 @@
         "off_delta": -3.2,
         "def_delta": 13.0,
         "ovr_delta": 9.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Logan-Rogersville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 19.55,
+        "predicted_opp_score": 37.86,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Osage": [
@@ -24428,6 +25182,19 @@
         "off_delta": -4.3,
         "def_delta": 2.5,
         "ovr_delta": -1.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Republic",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 30.39,
+        "predicted_opp_score": 38.39,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Ozark": [
@@ -24560,6 +25327,19 @@
         "off_delta": 17.1,
         "def_delta": -2.4,
         "ovr_delta": 14.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Nixa",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 13.78,
+        "predicted_opp_score": 45.07,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "St. Francis Borgia": [
@@ -24969,6 +25749,19 @@
         "off_delta": 4.6,
         "def_delta": 8.1,
         "ovr_delta": 12.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Oak Park",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 35.16,
+        "predicted_opp_score": 20.91,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Park Hill": [
@@ -25787,6 +26580,19 @@
         "off_delta": 1.1,
         "def_delta": -3.2,
         "ovr_delta": -2.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Butler",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 32.36,
+        "predicted_opp_score": 31.92,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Penney": [
@@ -25919,6 +26725,19 @@
         "off_delta": 9.6,
         "def_delta": -2.2,
         "ovr_delta": 7.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "East Buchanan",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 37.0,
+        "predicted_opp_score": 39.86,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Fredericktown": [
@@ -26737,6 +27556,19 @@
         "off_delta": 2.2,
         "def_delta": -22.6,
         "ovr_delta": -20.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Fort Osage",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 29.46,
+        "predicted_opp_score": 14.5,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Windsor": [
@@ -27172,6 +28004,19 @@
         "off_delta": 3.9,
         "def_delta": 11.3,
         "ovr_delta": 15.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Kearney",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 16.14,
+        "predicted_opp_score": 35.98,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Pleasant Hill": [
@@ -27317,6 +28162,19 @@
         "off_delta": 3.5,
         "def_delta": -15.2,
         "ovr_delta": -11.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Odessa",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 19.26,
+        "predicted_opp_score": 22.48,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Jefferson City": [
@@ -27858,6 +28716,19 @@
         "off_delta": 2.0,
         "def_delta": -10.6,
         "ovr_delta": -8.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Thayer",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 21.68,
+        "predicted_opp_score": 47.44,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "St. Clair": [
@@ -27990,6 +28861,19 @@
         "off_delta": 7.9,
         "def_delta": 8.7,
         "ovr_delta": 16.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "St. Pius X (Festus)",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 12.58,
+        "predicted_opp_score": 34.67,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Potosi": [
@@ -28810,6 +29694,19 @@
         "ovr_delta": 12.7
       },
       {
+        "date": "2026-11-13",
+        "opponent": "Christian Brothers College",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 26.89,
+        "predicted_opp_score": 36.54,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
+      },
+      {
         "date": "2026-11-26",
         "opponent": "Webster Groves",
         "home_away": null,
@@ -29362,6 +30259,19 @@
         "off_delta": 0.3,
         "def_delta": -4.4,
         "ovr_delta": -4.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Maryville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 32.94,
+        "predicted_opp_score": 15.69,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Rockhurst": [
@@ -29494,6 +30404,19 @@
         "off_delta": 11.0,
         "def_delta": -4.7,
         "ovr_delta": 6.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Raymore-Peculiar",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.55,
+        "predicted_opp_score": 24.81,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Cole Camp": [
@@ -30009,6 +30932,19 @@
         "off_delta": 13.3,
         "def_delta": 3.1,
         "ovr_delta": 16.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Westran",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 53.27,
+        "predicted_opp_score": 11.85,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Commerce (OK.)": [
@@ -30565,6 +31501,19 @@
         "off_delta": -11.6,
         "def_delta": -0.8,
         "ovr_delta": -12.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Marceline",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 21.97,
+        "predicted_opp_score": 15.06,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Scotland County": [
@@ -30948,6 +31897,19 @@
         "off_delta": 12.0,
         "def_delta": 11.8,
         "ovr_delta": 23.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Jackson",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 2.18,
+        "predicted_opp_score": 47.98,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "East Newton": [
@@ -31093,6 +32055,19 @@
         "off_delta": 10.7,
         "def_delta": -1.6,
         "ovr_delta": 9.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Lamar",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 12.48,
+        "predicted_opp_score": 44.93,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Seneca": [
@@ -31225,6 +32200,19 @@
         "off_delta": 5.5,
         "def_delta": 0.4,
         "ovr_delta": 5.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Cassville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 22.5,
+        "predicted_opp_score": 27.58,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Crest Ridge with Chilhowee": [
@@ -31753,6 +32741,19 @@
         "off_delta": 10.4,
         "def_delta": -9.2,
         "ovr_delta": 1.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Tipton with Bunceton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.47,
+        "predicted_opp_score": 41.61,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Hazelwood Central": [
@@ -32017,6 +33018,19 @@
         "off_delta": 0.2,
         "def_delta": 2.6,
         "ovr_delta": 2.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Pattonville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 25.51,
+        "predicted_opp_score": 15.97,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Harrisonville": [
@@ -32439,6 +33453,19 @@
         "off_delta": 2.1,
         "def_delta": 11.9,
         "ovr_delta": 14.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Blair Oaks",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 29.29,
+        "predicted_opp_score": 53.96,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "South Callaway": [
@@ -32980,6 +34007,19 @@
         "off_delta": 8.6,
         "def_delta": 5.0,
         "ovr_delta": 13.6
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Boonville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 35.47,
+        "predicted_opp_score": 24.72,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Southeast": [
@@ -33246,6 +34286,19 @@
         "off_delta": 2.6,
         "def_delta": -0.5,
         "ovr_delta": 2.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Fair Grove",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 20.78,
+        "predicted_opp_score": 37.25,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "McCluer North": [
@@ -34211,6 +35264,19 @@
         "off_delta": -9.1,
         "def_delta": -4.4,
         "ovr_delta": -13.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Farmington",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 14.09,
+        "predicted_opp_score": 28.58,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Center": [
@@ -34620,6 +35686,19 @@
         "off_delta": 4.1,
         "def_delta": 9.8,
         "ovr_delta": 13.8
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Kennett",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 30.23,
+        "predicted_opp_score": 29.57,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Ste. Genevieve": [
@@ -35319,6 +36398,19 @@
         "off_delta": 11.1,
         "def_delta": 6.6,
         "ovr_delta": 17.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Mountain Grove",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 5.85,
+        "predicted_opp_score": 35.87,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Rolla": [
@@ -35596,6 +36688,19 @@
         "off_delta": -7.4,
         "def_delta": -1.7,
         "ovr_delta": -9.1
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Vianney",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 36.95,
+        "predicted_opp_score": 40.4,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "St. Mary's (KS) Academy": [
@@ -35929,6 +37034,19 @@
         "off_delta": 8.5,
         "def_delta": 14.3,
         "ovr_delta": 22.9
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Portageville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 47.44,
+        "predicted_opp_score": 21.68,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "East Buchanan": [
@@ -36061,6 +37179,19 @@
         "off_delta": -2.1,
         "def_delta": 11.5,
         "ovr_delta": 9.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Penney",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 39.86,
+        "predicted_opp_score": 37.0,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Trenton": [
@@ -36325,6 +37456,19 @@
         "off_delta": 2.0,
         "def_delta": 5.4,
         "ovr_delta": 7.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Rockwood Summit",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 32.15,
+        "predicted_opp_score": 24.56,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Troy Buchanan": [
@@ -36457,6 +37601,19 @@
         "off_delta": 6.0,
         "def_delta": -15.3,
         "ovr_delta": -9.3
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Ft. Zumwalt West",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 39.02,
+        "predicted_opp_score": 20.22,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Washington": [
@@ -36998,6 +38155,19 @@
         "off_delta": -18.6,
         "def_delta": -25.6,
         "ovr_delta": -44.2
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Jefferson (Festus)",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 57.62,
+        "predicted_opp_score": -6.61,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Westran": [
@@ -37130,6 +38300,19 @@
         "off_delta": -10.2,
         "def_delta": 14.7,
         "ovr_delta": 4.4
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Salisbury",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 11.85,
+        "predicted_opp_score": 53.27,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Van-Far": [
@@ -37407,6 +38590,19 @@
         "off_delta": 2.1,
         "def_delta": -0.4,
         "ovr_delta": 1.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Grain Valley",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 18.23,
+        "predicted_opp_score": 33.61,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Warrensburg": [
@@ -37552,6 +38748,19 @@
         "off_delta": 1.1,
         "def_delta": 13.4,
         "ovr_delta": 14.5
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Moberly",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 32.66,
+        "predicted_opp_score": 26.85,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Wright City": [
@@ -39320,6 +40529,19 @@
         "off_delta": null,
         "def_delta": null,
         "ovr_delta": null
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "Louisiana",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": -2.37,
+        "predicted_opp_score": 49.63,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Winfield": [
@@ -39465,6 +40687,19 @@
         "off_delta": -5.1,
         "def_delta": 8.2,
         "ovr_delta": 3.0
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "MICDS",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 10.05,
+        "predicted_opp_score": 49.06,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "St. Pius X (Festus)": [
@@ -39597,6 +40832,19 @@
         "off_delta": 0.6,
         "def_delta": -7.2,
         "ovr_delta": -6.7
+      },
+      {
+        "date": "2026-11-13",
+        "opponent": "St. Clair",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": 34.67,
+        "predicted_opp_score": 12.58,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null
       }
     ],
     "Gibson Southern": [
