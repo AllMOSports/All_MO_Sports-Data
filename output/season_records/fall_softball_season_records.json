@@ -2,7 +2,7 @@
   "sport": "fall_softball",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=38",
-  "scraped_at": "2026-11-08T16:53:35+00:00",
+  "scraped_at": "2026-11-09T21:14:02+00:00",
   "teams": [
     {
       "school": "Grain Valley",
@@ -1139,6 +1139,24 @@
       "games_played": 27
     },
     {
+      "school": "Odessa",
+      "mshsaa_school_id": 151,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 7,
+      "points_for": 182,
+      "points_against": 156,
+      "ppg": 7.58,
+      "oppg": 6.5,
+      "mov": 1.08,
+      "wins": 16,
+      "losses": 8,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 66.67,
+      "games_played": 24
+    },
+    {
       "school": "Kearney",
       "mshsaa_school_id": 329,
       "classification_code": 4,
@@ -1497,24 +1515,6 @@
       "mshsaa_points": null,
       "win_pct": 61.76,
       "games_played": 34
-    },
-    {
-      "school": "Odessa",
-      "mshsaa_school_id": 151,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 7,
-      "points_for": 238,
-      "points_against": 208,
-      "ppg": 7.68,
-      "oppg": 6.71,
-      "mov": 0.97,
-      "wins": 19,
-      "losses": 12,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 61.29,
-      "games_played": 31
     },
     {
       "school": "Rolla",

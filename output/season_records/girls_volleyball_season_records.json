@@ -2,7 +2,7 @@
   "sport": "girls_volleyball",
   "schema": "VOLLEYBALL",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=57",
-  "scraped_at": "2026-11-08T16:53:32+00:00",
+  "scraped_at": "2026-11-09T21:13:59+00:00",
   "teams": [
     {
       "school": "Potosi",
@@ -1283,6 +1283,24 @@
       "games_played": 33
     },
     {
+      "school": "North Callaway",
+      "mshsaa_school_id": 139,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 6,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": 1,
+      "wins": 22,
+      "losses": 8,
+      "ties": 3,
+      "mshsaa_points": null,
+      "win_pct": 71.21,
+      "games_played": 33
+    },
+    {
       "school": "Belton",
       "mshsaa_school_id": 12,
       "classification_code": 4,
@@ -1371,24 +1389,6 @@
       "mshsaa_points": null,
       "win_pct": 70.0,
       "games_played": 35
-    },
-    {
-      "school": "North Callaway",
-      "mshsaa_school_id": 139,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 6,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": 0.97,
-      "wins": 20,
-      "losses": 8,
-      "ties": 2,
-      "mshsaa_points": null,
-      "win_pct": 70.0,
-      "games_played": 30
     },
     {
       "school": "Rockwood Summit",
