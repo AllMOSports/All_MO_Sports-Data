@@ -1,0 +1,47 @@
+{
+ "football": {
+  "ratings_updated": "November 08, 2026 at 03:14 PM",
+  "games": []
+ },
+ "boys_soccer": {
+  "ratings_updated": "November 10, 2026 at 08:19 AM",
+  "games": [
+   {
+    "date": "2026-11-10",
+    "team1": "Oak Grove",
+    "team2": "Central (Kansas City)",
+    "pick": "Central (Kansas City)",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-10",
+    "team1": "Chaminade College Prep",
+    "team2": "Clayton",
+    "pick": "Chaminade College Prep",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-10",
+    "team1": "Springfield Catholic",
+    "team2": "Logan-Rogersville",
+    "pick": "Springfield Catholic",
+    "ranked": false
+   },
+   {
+    "date": "2026-11-10",
+    "team1": "Oakville",
+    "team2": "Lindbergh",
+    "pick": "Oakville",
+    "ranked": true
+   }
+  ]
+ },
+ "girls_volleyball": {
+  "ratings_updated": "November 10, 2026 at 10:44 AM",
+  "games": []
+ },
+ "fall_softball": {
+  "ratings_updated": "November 10, 2026 at 09:31 AM",
+  "games": []
+ }
+}
