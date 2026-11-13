@@ -2,7 +2,7 @@
   "sport": "fall_softball",
   "schema": "WINPCT",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=38",
-  "scraped_at": "2026-11-12T18:39:41+00:00",
+  "scraped_at": "2026-11-13T18:19:32+00:00",
   "teams": [
     {
       "school": "Grain Valley",
@@ -1319,24 +1319,6 @@
       "games_played": 34
     },
     {
-      "school": "Iberia",
-      "mshsaa_school_id": 325,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 4,
-      "points_for": 218,
-      "points_against": 149,
-      "ppg": 7.79,
-      "oppg": 5.32,
-      "mov": 2.46,
-      "wins": 18,
-      "losses": 10,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 64.29,
-      "games_played": 28
-    },
-    {
       "school": "Dixon",
       "mshsaa_school_id": 273,
       "classification_code": 2,
@@ -1347,6 +1329,24 @@
       "ppg": 11.14,
       "oppg": 5.93,
       "mov": 5.21,
+      "wins": 18,
+      "losses": 10,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 64.29,
+      "games_played": 28
+    },
+    {
+      "school": "Iberia",
+      "mshsaa_school_id": 325,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 4,
+      "points_for": 218,
+      "points_against": 149,
+      "ppg": 7.79,
+      "oppg": 5.32,
+      "mov": 2.46,
       "wins": 18,
       "losses": 10,
       "ties": 0,
@@ -3065,6 +3065,24 @@
       "games_played": 16
     },
     {
+      "school": "DeKalb",
+      "mshsaa_school_id": 265,
+      "classification_code": 1,
+      "classification_label": "1",
+      "district": 7,
+      "points_for": 112,
+      "points_against": 114,
+      "ppg": 7,
+      "oppg": 7.13,
+      "mov": -0.13,
+      "wins": 7,
+      "losses": 9,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 43.75,
+      "games_played": 16
+    },
+    {
       "school": "Norwood",
       "mshsaa_school_id": 397,
       "classification_code": 1,
@@ -3495,24 +3513,6 @@
       "mshsaa_points": null,
       "win_pct": 40.0,
       "games_played": 20
-    },
-    {
-      "school": "DeKalb",
-      "mshsaa_school_id": 265,
-      "classification_code": 1,
-      "classification_label": "1",
-      "district": 7,
-      "points_for": 103,
-      "points_against": 108,
-      "ppg": 6.87,
-      "oppg": 7.2,
-      "mov": -0.33,
-      "wins": 6,
-      "losses": 9,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 40.0,
-      "games_played": 15
     },
     {
       "school": "Oak Park",
