@@ -2,7 +2,7 @@
   "sport": "girls_volleyball",
   "schema": "VOLLEYBALL",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=57",
-  "scraped_at": "2026-11-13T18:19:29+00:00",
+  "scraped_at": "2026-11-14T16:48:15+00:00",
   "teams": [
     {
       "school": "Potosi",
@@ -4973,6 +4973,24 @@
       "games_played": 28
     },
     {
+      "school": "KIPP St. Louis Sr.",
+      "mshsaa_school_id": 1189,
+      "classification_code": 2,
+      "classification_label": "2",
+      "district": 4,
+      "points_for": null,
+      "points_against": null,
+      "ppg": null,
+      "oppg": null,
+      "mov": -1.14,
+      "wins": 3,
+      "losses": 4,
+      "ties": 0,
+      "mshsaa_points": null,
+      "win_pct": 42.86,
+      "games_played": 7
+    },
+    {
       "school": "Rich Hill",
       "mshsaa_school_id": 424,
       "classification_code": 1,
@@ -5871,24 +5889,6 @@
       "mshsaa_points": null,
       "win_pct": 33.33,
       "games_played": 21
-    },
-    {
-      "school": "KIPP St. Louis Sr.",
-      "mshsaa_school_id": 1189,
-      "classification_code": 2,
-      "classification_label": "2",
-      "district": 4,
-      "points_for": null,
-      "points_against": null,
-      "ppg": null,
-      "oppg": null,
-      "mov": -1.5,
-      "wins": 2,
-      "losses": 4,
-      "ties": 0,
-      "mshsaa_points": null,
-      "win_pct": 33.33,
-      "games_played": 6
     },
     {
       "school": "Liberty (Wentzville)",
