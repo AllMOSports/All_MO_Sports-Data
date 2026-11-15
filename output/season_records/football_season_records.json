@@ -2,7 +2,7 @@
   "sport": "football",
   "schema": "POINTS",
   "source_url": "https://www.mshsaa.org/Activities/SeasonRecords.aspx?alg=19",
-  "scraped_at": "2026-11-14T16:48:00+00:00",
+  "scraped_at": "2026-11-15T17:30:28+00:00",
   "teams": [
     {
       "school": "Lockwood",
@@ -1787,6 +1787,24 @@
       "games_played": 12
     },
     {
+      "school": "MICDS",
+      "mshsaa_school_id": 531,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 3,
+      "points_for": 517,
+      "points_against": 362,
+      "ppg": 43.08,
+      "oppg": 30.17,
+      "mov": 12.92,
+      "wins": 8,
+      "losses": 4,
+      "ties": 0,
+      "mshsaa_points": 40.24,
+      "win_pct": 66.67,
+      "games_played": 12
+    },
+    {
       "school": "Boonville",
       "mshsaa_school_id": 16,
       "classification_code": 3,
@@ -1999,24 +2017,6 @@
       "losses": 4,
       "ties": 0,
       "mshsaa_points": 39.83,
-      "win_pct": 63.64,
-      "games_played": 11
-    },
-    {
-      "school": "MICDS",
-      "mshsaa_school_id": 531,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 3,
-      "points_for": 465,
-      "points_against": 354,
-      "ppg": 42.27,
-      "oppg": 32.18,
-      "mov": 10.09,
-      "wins": 7,
-      "losses": 4,
-      "ties": 0,
-      "mshsaa_points": 40.24,
       "win_pct": 63.64,
       "games_played": 11
     },
@@ -2723,24 +2723,6 @@
       "games_played": 11
     },
     {
-      "school": "Winfield",
-      "mshsaa_school_id": 501,
-      "classification_code": 3,
-      "classification_label": "3",
-      "district": 3,
-      "points_for": 232,
-      "points_against": 251,
-      "ppg": 21.09,
-      "oppg": 22.82,
-      "mov": -1.73,
-      "wins": 6,
-      "losses": 5,
-      "ties": 0,
-      "mshsaa_points": 33.5,
-      "win_pct": 54.55,
-      "games_played": 11
-    },
-    {
       "school": "St. Francis Borgia",
       "mshsaa_school_id": 544,
       "classification_code": 3,
@@ -2899,6 +2881,24 @@
       "losses": 6,
       "ties": 0,
       "mshsaa_points": 33.57,
+      "win_pct": 50.0,
+      "games_played": 12
+    },
+    {
+      "school": "Winfield",
+      "mshsaa_school_id": 501,
+      "classification_code": 3,
+      "classification_label": "3",
+      "district": 3,
+      "points_for": 240,
+      "points_against": 303,
+      "ppg": 20,
+      "oppg": 25.25,
+      "mov": -5.25,
+      "wins": 6,
+      "losses": 6,
+      "ties": 0,
+      "mshsaa_points": 33.5,
       "win_pct": 50.0,
       "games_played": 12
     },
