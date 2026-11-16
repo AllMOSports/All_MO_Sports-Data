@@ -1,0 +1,913 @@
+{
+ "generated": "2026-11-16 12:00",
+ "week_start": "2026-11-09",
+ "week_end": "2026-11-15",
+ "sports": [
+  {
+   "sport": "football",
+   "label": "Football",
+   "unit": "points",
+   "rankings_page": "https://allmosports.com/football-rankings/",
+   "ratings_updated": "November 14, 2026 at 05:17 PM",
+   "previous_snapshot": "2026-11-09",
+   "games_this_week": 0,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Blue Springs",
+     "class": 6,
+     "record": "7-2",
+     "ovr": 71.83,
+     "off": 36.6,
+     "def": 35.23,
+     "move": 2
+    },
+    {
+     "rank": 2,
+     "school": "Kearney",
+     "class": 4,
+     "record": "9-0",
+     "ovr": 71.8,
+     "off": 31.95,
+     "def": 39.85,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Jackson",
+     "class": 6,
+     "record": "9-0",
+     "ovr": 70.86,
+     "off": 35.99,
+     "def": 34.87,
+     "move": -2
+    },
+    {
+     "rank": 4,
+     "school": "North Kansas City",
+     "class": 6,
+     "record": "7-2",
+     "ovr": 67.05,
+     "off": 36.47,
+     "def": 30.59,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Raymore-Peculiar",
+     "class": 6,
+     "record": "7-2",
+     "ovr": 64.76,
+     "off": 32.93,
+     "def": 31.83,
+     "move": 0
+    }
+   ],
+   "results": [],
+   "number_one": {
+    "school": "Blue Springs",
+    "games": []
+   },
+   "upsets": [],
+   "unbeaten": [
+    {
+     "school": "Kearney",
+     "record": "9-0",
+     "rank": 2,
+     "class": 4
+    },
+    {
+     "school": "Jackson",
+     "record": "9-0",
+     "rank": 3,
+     "class": 6
+    },
+    {
+     "school": "Savannah",
+     "record": "10-0",
+     "rank": 15,
+     "class": 4
+    },
+    {
+     "school": "Helias Catholic",
+     "record": "9-0",
+     "rank": 17,
+     "class": 5
+    },
+    {
+     "school": "Valle Catholic",
+     "record": "9-0",
+     "rank": 22,
+     "class": 2
+    },
+    {
+     "school": "Lamar",
+     "record": "9-0",
+     "rank": 30,
+     "class": 2
+    },
+    {
+     "school": "Ladue Horton Watkins",
+     "record": "9-0",
+     "rank": 44,
+     "class": 5
+    },
+    {
+     "school": "Tipton with Bunceton",
+     "record": "9-0",
+     "rank": 52,
+     "class": 1
+    },
+    {
+     "school": "Centralia",
+     "record": "9-0",
+     "rank": 59,
+     "class": 2
+    },
+    {
+     "school": "Pembroke Hill",
+     "record": "9-0",
+     "rank": 73,
+     "class": 3
+    },
+    {
+     "school": "Mid-Buchanan",
+     "record": "9-0",
+     "rank": 78,
+     "class": 2
+    },
+    {
+     "school": "University City",
+     "record": "9-0",
+     "rank": 100,
+     "class": 4
+    },
+    {
+     "school": "St. Charles West",
+     "record": "9-0",
+     "rank": 112,
+     "class": 4
+    },
+    {
+     "school": "Springfield Catholic",
+     "record": "9-0",
+     "rank": 127,
+     "class": 2
+    },
+    {
+     "school": "Salisbury",
+     "record": "9-0",
+     "rank": 136,
+     "class": 1
+    }
+   ],
+   "watch": [],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Tipton with Bunceton",
+     "record": "9-0",
+     "rank": 52
+    },
+    {
+     "class": 2,
+     "school": "Valle Catholic",
+     "record": "9-0",
+     "rank": 22
+    },
+    {
+     "class": 3,
+     "school": "St. Pius X (Kansas City)",
+     "record": "7-2",
+     "rank": 13
+    },
+    {
+     "class": 4,
+     "school": "Kearney",
+     "record": "9-0",
+     "rank": 2
+    },
+    {
+     "class": 5,
+     "school": "Republic",
+     "record": "8-1",
+     "rank": 14
+    },
+    {
+     "class": 6,
+     "school": "Blue Springs",
+     "record": "7-2",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "Blair Oaks",
+      "from": 37,
+      "to": 28,
+      "move": 9,
+      "games": []
+     },
+     {
+      "school": "Cassville",
+      "from": 33,
+      "to": 27,
+      "move": 6,
+      "games": []
+     }
+    ],
+    "down": [
+     {
+      "school": "Logan-Rogersville",
+      "from": 42,
+      "to": 51,
+      "move": -9,
+      "games": []
+     },
+     {
+      "school": "Neosho",
+      "from": 25,
+      "to": 33,
+      "move": -8,
+      "games": []
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Savannah (10 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: De Smet Jesuit (OFF 36.96)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Kearney (DEF 39.85)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     242,
+     303
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 14,
+    "year": 2012,
+    "date": "2012-11-09",
+    "winner": "Blue Springs",
+    "loser": "Rockhurst",
+    "w_score": 14,
+    "l_score": 11,
+    "w_rank": 1,
+    "l_rank": 2,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "boys_soccer",
+   "label": "Boys Soccer",
+   "unit": "goals",
+   "rankings_page": "https://allmosports.com/boys-soccer-rankings/",
+   "ratings_updated": "November 16, 2026 at 08:19 AM",
+   "previous_snapshot": "2026-11-09",
+   "games_this_week": 28,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Rockhurst",
+     "class": 4,
+     "record": "20-1-1",
+     "ovr": 7.92,
+     "off": 4.32,
+     "def": 3.6,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "SLUH",
+     "class": 4,
+     "record": "20-1-4",
+     "ovr": 7.1,
+     "off": 3.28,
+     "def": 3.82,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Liberty North",
+     "class": 4,
+     "record": "19-3",
+     "ovr": 6.64,
+     "off": 3.2,
+     "def": 3.44,
+     "move": 0
+    },
+    {
+     "rank": 4,
+     "school": "Blue Springs South",
+     "class": 4,
+     "record": "17-3",
+     "ovr": 6.13,
+     "off": 2.98,
+     "def": 3.15,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Chaminade College Prep",
+     "class": 3,
+     "record": "23-3-3",
+     "ovr": 6.0,
+     "off": 2.4,
+     "def": 3.6,
+     "move": 0
+    }
+   ],
+   "results": [
+    {
+     "date": "2026-11-14",
+     "winner": "Liberty North",
+     "loser": "Rockhurst",
+     "w_score": 2,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 3,
+     "l_rank": 1,
+     "sort": 4
+    },
+    {
+     "date": "2026-11-14",
+     "winner": "SLUH",
+     "loser": "Oakville",
+     "w_score": 3,
+     "l_score": 1,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 2,
+     "l_rank": 8,
+     "sort": 10
+    },
+    {
+     "date": "2026-11-14",
+     "winner": "Lee's Summit West",
+     "loser": "Nixa",
+     "w_score": 3,
+     "l_score": 2,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 16,
+     "l_rank": 14,
+     "sort": 30
+    },
+    {
+     "date": "2026-11-14",
+     "winner": "Northeast (Kansas City)",
+     "loser": "Van Horn",
+     "w_score": 2,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 19,
+     "l_rank": 15,
+     "sort": 34
+    }
+   ],
+   "number_one": {
+    "school": "Rockhurst",
+    "games": [
+     {
+      "date": "2026-11-14",
+      "winner": "Liberty North",
+      "loser": "Rockhurst",
+      "w_score": 2,
+      "l_score": 0,
+      "tie": false,
+      "overtime": false,
+      "forfeit": false,
+      "w_rank": 3,
+      "l_rank": 1
+     }
+    ]
+   },
+   "upsets": [
+    {
+     "date": "2026-11-14",
+     "winner": "Liberty North",
+     "loser": "Rockhurst",
+     "w_score": 2,
+     "l_score": 0,
+     "tie": false,
+     "overtime": false,
+     "forfeit": false,
+     "w_rank": 3,
+     "l_rank": 1,
+     "gap": 1.92,
+     "gap_basis": "pre-game"
+    }
+   ],
+   "unbeaten": [],
+   "watch": [
+    {
+     "date": "2026-11-20",
+     "team1": "Liberty North",
+     "team2": "SLUH",
+     "rank1": 3,
+     "rank2": 2,
+     "favorite": "SLUH",
+     "sort": 5
+    },
+    {
+     "date": "2026-11-20",
+     "team1": "Lee's Summit West",
+     "team2": "Francis Howell Central",
+     "rank1": 16,
+     "rank2": 7,
+     "favorite": "Francis Howell Central",
+     "sort": 23
+    }
+   ],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Pembroke Hill",
+     "record": "12-6-2",
+     "rank": 34
+    },
+    {
+     "class": 2,
+     "school": "Notre Dame (Cape Girardeau)",
+     "record": "20-3",
+     "rank": 17
+    },
+    {
+     "class": 3,
+     "school": "Chaminade College Prep",
+     "record": "23-3-3",
+     "rank": 5
+    },
+    {
+     "class": 4,
+     "school": "Rockhurst",
+     "record": "20-1-1",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [
+     {
+      "school": "Ladue Horton Watkins",
+      "from": 25,
+      "to": 21,
+      "move": 4,
+      "games": []
+     },
+     {
+      "school": "Ft. Zumwalt South",
+      "from": 30,
+      "to": 27,
+      "move": 3,
+      "games": [
+       {
+        "date": "2026-11-09",
+        "winner": "Ft. Zumwalt South",
+        "loser": "St. Dominic",
+        "w_score": 2,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 27,
+        "l_rank": 11
+       },
+       {
+        "date": "2026-11-14",
+        "winner": "Chaminade College Prep",
+        "loser": "Ft. Zumwalt South",
+        "w_score": 1,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 5,
+        "l_rank": 27
+       }
+      ]
+     }
+    ],
+    "down": [
+     {
+      "school": "Priory",
+      "from": 26,
+      "to": 29,
+      "move": -3,
+      "games": [
+       {
+        "date": "2026-11-09",
+        "winner": "John Burroughs",
+        "loser": "Priory",
+        "w_score": 1,
+        "l_score": 0,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 25,
+        "l_rank": 29
+       }
+      ]
+     },
+     {
+      "school": "Farmington",
+      "from": 48,
+      "to": 51,
+      "move": -3,
+      "games": [
+       {
+        "date": "2026-11-14",
+        "winner": "Webster Groves",
+        "loser": "Farmington",
+        "w_score": 3,
+        "l_score": 1,
+        "tie": false,
+        "overtime": false,
+        "forfeit": false,
+        "w_rank": 35,
+        "l_rank": 51
+       }
+      ]
+     }
+    ]
+   },
+   "numbers": [
+    {
+     "kind": "high_score",
+     "text": "Highest-scoring game: Father Tolton 8, Laquey with Richland 0 (8 goals)"
+    },
+    {
+     "kind": "margin",
+     "text": "Biggest margin: Father Tolton 8, Laquey with Richland 0"
+    },
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Father Tolton (15 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Rockhurst (OFF 4.32)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: SLUH (DEF 3.82)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     22,
+     28
+    ],
+    "season": [
+     714,
+     879
+    ],
+    "ranked_last_week": [
+     4,
+     7
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 6,
+    "year": 2020,
+    "date": "2020-11-10",
+    "winner": "St. Dominic",
+    "loser": "De Smet Jesuit",
+    "w_score": 2,
+    "l_score": 1,
+    "w_rank": 2,
+    "l_rank": 1,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "girls_volleyball",
+   "label": "Girls Volleyball",
+   "unit": "sets",
+   "rankings_page": "https://allmosports.com/girls-volleyball-rankings/",
+   "ratings_updated": "November 16, 2026 at 10:44 AM",
+   "previous_snapshot": "2026-11-09",
+   "games_this_week": 0,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Lafayette (Wildwood)",
+     "class": 5,
+     "record": "35-5",
+     "ovr": 7.1,
+     "off": 3.56,
+     "def": 3.54,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Lee's Summit West",
+     "class": 5,
+     "record": "32-4",
+     "ovr": 6.65,
+     "off": 3.36,
+     "def": 3.29,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Jackson",
+     "class": 5,
+     "record": "36-4",
+     "ovr": 6.19,
+     "off": 2.95,
+     "def": 3.24,
+     "move": 0
+    },
+    {
+     "rank": 4,
+     "school": "Lee's Summit North",
+     "class": 5,
+     "record": "34-5",
+     "ovr": 5.93,
+     "off": 3.0,
+     "def": 2.93,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Eureka",
+     "class": 5,
+     "record": "28-9",
+     "ovr": 5.63,
+     "off": 2.83,
+     "def": 2.8,
+     "move": 0
+    }
+   ],
+   "results": [],
+   "number_one": {
+    "school": "Lafayette (Wildwood)",
+    "games": []
+   },
+   "upsets": [],
+   "unbeaten": [],
+   "watch": [],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Valle Catholic",
+     "record": "29-10-1",
+     "rank": 63
+    },
+    {
+     "class": 2,
+     "school": "New Covenant Academy",
+     "record": "32-1-1",
+     "rank": 36
+    },
+    {
+     "class": 3,
+     "school": "Oak Grove",
+     "record": "32-3",
+     "rank": 9
+    },
+    {
+     "class": 4,
+     "school": "St. Dominic",
+     "record": "25-9",
+     "rank": 7
+    },
+    {
+     "class": 5,
+     "school": "Lafayette (Wildwood)",
+     "record": "35-5",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: New Covenant Academy (27 straight)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     1048,
+     1230
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": {
+    "years_ago": 13,
+    "year": 2013,
+    "date": "2013-11-09",
+    "winner": "Lafayette (Wildwood)",
+    "loser": "Park Hill South",
+    "w_score": 2,
+    "l_score": 0,
+    "w_rank": 1,
+    "l_rank": 3,
+    "kind": "matchup"
+   }
+  },
+  {
+   "sport": "fall_softball",
+   "label": "Fall Softball",
+   "unit": "runs",
+   "rankings_page": "https://allmosports.com/fall-softball-rankings/",
+   "ratings_updated": "November 16, 2026 at 09:32 AM",
+   "previous_snapshot": "2026-11-09",
+   "games_this_week": 0,
+   "top": [
+    {
+     "rank": 1,
+     "school": "Blue Springs South",
+     "class": 5,
+     "record": "21-13",
+     "ovr": 15.01,
+     "off": 7.79,
+     "def": 7.22,
+     "move": 0
+    },
+    {
+     "rank": 2,
+     "school": "Grain Valley",
+     "class": 5,
+     "record": "28-1",
+     "ovr": 14.84,
+     "off": 5.82,
+     "def": 9.02,
+     "move": 0
+    },
+    {
+     "rank": 3,
+     "school": "Helias Catholic",
+     "class": 4,
+     "record": "26-5",
+     "ovr": 13.57,
+     "off": 5.6,
+     "def": 7.97,
+     "move": 0
+    },
+    {
+     "rank": 4,
+     "school": "Ft. Zumwalt West",
+     "class": 5,
+     "record": "29-6",
+     "ovr": 13.0,
+     "off": 5.68,
+     "def": 7.32,
+     "move": 0
+    },
+    {
+     "rank": 5,
+     "school": "Troy Buchanan",
+     "class": 5,
+     "record": "31-6",
+     "ovr": 12.98,
+     "off": 4.35,
+     "def": 8.63,
+     "move": 0
+    }
+   ],
+   "results": [],
+   "number_one": {
+    "school": "Blue Springs South",
+    "games": []
+   },
+   "upsets": [],
+   "unbeaten": [],
+   "watch": [],
+   "featured": [],
+   "class_leaders": [
+    {
+     "class": 1,
+     "school": "Silex",
+     "record": "27-5",
+     "rank": 43
+    },
+    {
+     "class": 2,
+     "school": "Chaffee",
+     "record": "30-4",
+     "rank": 17
+    },
+    {
+     "class": 3,
+     "school": "Chillicothe",
+     "record": "29-3",
+     "rank": 6
+    },
+    {
+     "class": 4,
+     "school": "Helias Catholic",
+     "record": "26-5",
+     "rank": 3
+    },
+    {
+     "class": 5,
+     "school": "Blue Springs South",
+     "record": "21-13",
+     "rank": 1
+    }
+   ],
+   "movers": {
+    "up": [],
+    "down": []
+   },
+   "numbers": [
+    {
+     "kind": "streak",
+     "text": "Longest active win streak: Mid-Buchanan (16 straight)"
+    },
+    {
+     "kind": "offense",
+     "text": "Top-rated offense: Blue Springs South (OFF 7.79)"
+    },
+    {
+     "kind": "defense",
+     "text": "Top-rated defense: Grain Valley (DEF 9.02)"
+    }
+   ],
+   "picks": {
+    "last_week": [
+     0,
+     0
+    ],
+    "season": [
+     461,
+     559
+    ],
+    "ranked_last_week": [
+     0,
+     0
+    ],
+    "season_since": "2026-10-08"
+   },
+   "history": null
+  }
+ ],
+ "lead_candidates": [
+  {
+   "type": "new_number_one",
+   "score": 95,
+   "headline": "Football has a new No. 1: Blue Springs",
+   "facts": [
+    "Record 7-2"
+   ]
+  },
+  {
+   "type": "number_one_lost",
+   "score": 90,
+   "headline": "Boys Soccer: No. 1 Rockhurst lost to Liberty North",
+   "facts": [
+    "Liberty North 2, Rockhurst 0 (2026-11-14)"
+   ]
+  },
+  {
+   "type": "upset",
+   "score": 61.92,
+   "headline": "Boys Soccer upset: Liberty North over Rockhurst",
+   "facts": [
+    "Liberty North 2, Rockhurst 0 (2026-11-14)",
+    "No. 3 beat No. 1; rating gap 1.92 goals"
+   ]
+  }
+ ]
+}
