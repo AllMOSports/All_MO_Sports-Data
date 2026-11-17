@@ -34,6 +34,7 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import sys
 from collections import Counter
 
@@ -309,7 +310,7 @@ def history_context(data, sport, slug, wins, losses, ovr):
         return None
     seasons = team.get("history", {})
     past = [(int(y), v) for y, v in seasons.items() if v.get("wins") is not None]
-    if not past:
+    if len(past) < 6:          # too little history to call anything a program record
         return None
     first = min(y for y, _ in past)
     win_list = sorted((v["wins"] for _, v in past), reverse=True)
@@ -624,7 +625,12 @@ def add_live_stories(sec, rcfg, school):
             S.append(story("upset", 62, f"{name} {label} upsets #{r['opp_class_rank']} {r['opp']}", f"{r['us']}–{r['them']}."))
     # Highly ranked
     if sec["class_rank"] and sec["class_rank"] <= 5:
-        S.append(story("top5", 50 - sec["class_rank"], f"{name} {label} is ranked #{sec['class_rank']} in Class {cls}"))
+        verb = "finishes the season" if sec["state"] == "wrapup" else "is ranked"
+        S.append(story("top5", 68 if sec["class_rank"] == 1 else 50 - sec["class_rank"],     # a #1 finish beats most stories
+                       f"{name} {label} {verb} #{sec['class_rank']} in Class {cls}"))
+    if sec["state"] == "wrapup" and hc and hc.get("ovr_rank") == 1:
+        S.append(story("best_rating", 66, f"{name} {label} finishes with its best rating in our records",
+                       f"The highest rating for this program since our data starts in {hc['first']}."))
     # Only a winning season makes the wrap-up a headline; a rough season still
     # shows under "Seasons wrapped", just not as the subject line.
     if sec["state"] == "wrapup" and sec.get("news") is None and sec.get("sport_finished") and sec["class_rank"] \
@@ -671,7 +677,8 @@ def build_offline_section(data, sport, slug, school):
                 "wins": last.get("wins"), "losses": last.get("losses"),
                 "last_season": meta.get("last_season_label", "last season")})
     hc = history_context(data, sport, slug, last.get("wins") or 0, last.get("losses") or 0, None)
-    if hc and (last.get("wins") or 0) > hc["max_wins"] and hc.get("pct_rank", 99) <= 2:
+    if hc and (last.get("wins") or 0) > hc["max_wins"] and hc.get("pct_rank", 99) <= 2 \
+            and (last.get("wins") or 0) > (last.get("losses") or 0):
         sec["notes"].append(f"the most wins in our records, which start in {hc['first']}–{str(hc['first'] + 1)[2:]}"
                             if meta.get("season") == "winter" else f"the most wins in our records, which start in {hc['first']}")
     days_to_start = (start - we).days if start else None
@@ -709,6 +716,8 @@ def program_history(data, slug, sport):
         for season, rows, teams in past[n]:
             for g in rows:
                 if g.get("result") != "W" or g.get("team_score") is None or g.get("forfeit"):
+                    continue
+                if re.search(r"\(.*,\s*[A-Z]{2}\)\s*$", g.get("opponent", "")):   # "Piggott(Piggott, AR)": out-of-state entry
                     continue
                 gd = d(g["date"])
                 hit = False
@@ -780,8 +789,9 @@ def logo_colors(slug, rcfg):
     hexc = lambda c: "#%02x%02x%02x" % c
     primary = hexc(dark[0]) if dark else default[0]
     accent = hexc(bright[0]) if bright else (hexc(dark[1]) if len(dark) > 1 else default[1])
-    if accent == primary:
-        accent = default[1]
+    lum_hex = lambda h: lum(tuple(int(h[i:i + 2], 16) for i in (1, 3, 5)))
+    if accent == primary or abs(lum_hex(accent) - lum_hex(primary)) < 70:   # label must stand out on the header
+        accent = default[1] if abs(lum_hex(default[1]) - lum_hex(primary)) >= 70 else "#ffffff"
     return primary, accent
 
 
