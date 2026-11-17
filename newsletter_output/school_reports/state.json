@@ -1,0 +1,87 @@
+{
+ "headlines": {
+  "st-vincent:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "St. Vincent wins the Class 2 District 1 football title"
+   }
+  ],
+  "st-vincent:football": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "St. Vincent wins the Class 2 District 1 football title"
+   }
+  ],
+  "st-vincent:girls_basketball,girls_volleyball": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "preseason",
+    "sport": "girls_basketball",
+    "headline": "St. Vincent girls basketball opens after a #5 finish in Class 3"
+   }
+  ],
+  "blue-springs:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "Blue Springs wins the Class 6 District 6 football title"
+   }
+  ],
+  "rockhurst:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "Rockhurst wins the Class 6 District 7 football title"
+   }
+  ],
+  "east-prairie:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "best_rating",
+    "sport": "girls_volleyball",
+    "headline": "East Prairie girls volleyball finishes with its best rating in our records"
+   }
+  ],
+  "east-prairie:football": [],
+  "perryville:girls_basketball|st-vincent:football": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "St. Vincent wins the Class 2 District 1 football title"
+   }
+  ]
+ },
+ "last_sent": {
+  "st-vincent:all": [
+   "2026-11-15"
+  ],
+  "st-vincent:football": [
+   "2026-11-15"
+  ],
+  "st-vincent:girls_basketball,girls_volleyball": [
+   "2026-11-15"
+  ],
+  "blue-springs:all": [
+   "2026-11-15"
+  ],
+  "rockhurst:all": [
+   "2026-11-15"
+  ],
+  "east-prairie:all": [
+   "2026-11-15"
+  ],
+  "east-prairie:football": [
+   "2026-11-15"
+  ],
+  "perryville:girls_basketball|st-vincent:football": [
+   "2026-11-15"
+  ]
+ }
+}

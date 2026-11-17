@@ -2,7 +2,7 @@
  "week_start": "2026-11-09",
  "week_end": "2026-11-15",
  "as_of": "2026-11-16",
- "generated": "2026-11-17 19:54",
+ "generated": "2026-11-17 22:28",
  "emails": [
   {
    "id": "st-vincent-everything",
@@ -17,6 +17,8 @@
     "st-vincent/boys_basketball:preseason",
     "st-vincent/girls_basketball:preseason"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
     "St. Vincent football's 9 wins are its second-most since 2010",
     "St. Vincent girls basketball opens after a #5 finish in Class 3",
@@ -31,8 +33,11 @@
    "sections": [
     "st-vincent/football:live"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
-    "St. Vincent football's 9 wins are its second-most since 2010"
+    "St. Vincent football's 9 wins are its second-most since 2010",
+    "This week in 2024: St. Vincent football beat Van-Far 49\u20138"
    ]
   },
   {
@@ -44,9 +49,9 @@
     "st-vincent/girls_volleyball:wrapup",
     "st-vincent/girls_basketball:preseason"
    ],
-   "other_story_ideas": [
-    "St. Vincent girls volleyball wraps up at 7-15-1"
-   ]
+   "news": true,
+   "monthly": false,
+   "other_story_ideas": []
   },
   {
    "id": "blue-springs-everything",
@@ -61,10 +66,12 @@
     "blue-springs/boys_basketball:preseason",
     "blue-springs/girls_basketball:preseason"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
     "Blue Springs boys soccer has its most wins in our records (15, back to 2012)",
     "Blue Springs football is ranked #1 in Class 6",
-    "Blue Springs climbs 6 spots in the All MO Sports Cup"
+    "Blue Springs boys soccer finishes with its best rating in our records"
    ]
   },
   {
@@ -77,6 +84,8 @@
     "rockhurst/boys_soccer:live",
     "rockhurst/boys_basketball:preseason"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
     "Rockhurst boys soccer's season ends at 20-1-1",
     "Rockhurst boys soccer is ranked #1 in Class 4",
@@ -86,7 +95,7 @@
   {
    "id": "east-prairie-everything",
    "email": "",
-   "subject": "East Prairie girls volleyball's 15 wins are its second-most since 2019",
+   "subject": "East Prairie girls volleyball finishes with its best rating in our records",
    "file": "emails/east-prairie-everything.html",
    "sections": [
     "east-prairie/football:wrapup",
@@ -94,11 +103,24 @@
     "east-prairie/boys_basketball:preseason",
     "east-prairie/girls_basketball:preseason"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
-    "East Prairie football wraps up at 1-9",
     "East Prairie girls volleyball wraps up at 15-12",
     "East Prairie boys basketball opens after a #41 finish in Class 3"
    ]
+  },
+  {
+   "id": "east-prairie-football-only",
+   "email": "",
+   "subject": "Your East Prairie weekly report",
+   "file": "emails/east-prairie-football-only.html",
+   "sections": [
+    "east-prairie/football:wrapup"
+   ],
+   "news": false,
+   "monthly": false,
+   "other_story_ideas": []
   },
   {
    "id": "two-schools",
@@ -109,8 +131,11 @@
     "st-vincent/football:live",
     "perryville/girls_basketball:preseason"
    ],
+   "news": true,
+   "monthly": false,
    "other_story_ideas": [
     "St. Vincent football's 9 wins are its second-most since 2010",
+    "This week in 2024: St. Vincent football beat Van-Far 49\u20138",
     "Perryville girls basketball opens after a #39 finish in Class 4"
    ]
   }
