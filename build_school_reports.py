@@ -127,7 +127,7 @@ def team_names_for(school, slug, names_in_sport, aliases):
     for n in names_in_sport:
         if n in own or aliases.get(n) == slug:
             found.append(n)
-        elif " with " in n and any(p.strip() in own for p in n.split(" with ")):
+        elif " with " in n and any(p.strip() in own for part in n.split(" with ") for p in part.split(",")):
             found.append(n)
     # Prefer the school's own team over a co-op if both exist.
     found.sort(key=lambda n: (n not in own, n))
