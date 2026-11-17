@@ -253,7 +253,11 @@ def history_context(data, sport, slug, wins, losses, ovr):
     beat = [y for y, v in past if v["wins"] > wins]
     tie = [y for y, v in past if v["wins"] == wins]
     ovr_better = [y for y, v in past if (v.get("ovr_rating") or -999) > ovr] if ovr is not None else []
-    return {"first": first, "seasons": len(past), "wins_rank": len(beat) + 1,
+    gp = wins + losses
+    my_pct = wins / gp if gp else 0
+    pcts = [v["wins"] / (v["wins"] + (v.get("losses") or 0)) for _, v in past if v["wins"] + (v.get("losses") or 0)]
+    pct_rank = sum(1 for p in pcts if p > my_pct + 1e-9) + 1
+    return {"first": first, "seasons": len(past), "wins_rank": len(beat) + 1, "pct_rank": pct_rank,
             "better_years": sorted(beat), "tied_years": sorted(tie),
             "ovr_rank": len(ovr_better) + 1 if ovr is not None else None,
             "ovr_better_years": sorted(ovr_better), "max_wins": win_list[0]}
@@ -264,7 +268,7 @@ def football_round(rcfg, iso):
     rounds = (rcfg.get("football") or {}).get("rounds") or {}
     x = d(iso)
     for day, label in rounds.items():
-        if abs((x - d(str(day))).days) <= 1:
+        if 0 <= (x - d(str(day))).days <= 1:     # Friday or Saturday (not a Thanksgiving Thursday game)
             return label
     return None
 
@@ -288,6 +292,9 @@ def build_live_section(data, sport, slug, school, team, live):
     this_week = [g for g in played if data.week_start <= g["date"] <= data.week_end]
     horizon = (d(data.week_end) + dt.timedelta(days=7)).isoformat()
     upcoming = [g for g in mine if not g["played"] and data.week_end < g["date"] <= horizon]
+    if not upcoming:   # e.g. a Thanksgiving rivalry game two weeks out
+        far = (d(data.week_end) + dt.timedelta(days=21)).isoformat()
+        upcoming = [g for g in mine if not g["played"] and data.week_end < g["date"] <= far][:1]
     last_played = played[-1]["date"] if played else None
     any_future = any(not g["played"] and g["date"] > data.week_end for g in mine)
 
@@ -427,7 +434,9 @@ def add_live_stories(sec, rcfg, school):
         S.append(story(70, f"{name} {label} is still unbeaten at {sec['record']}"))
     # Win totals in the school's history
     hc = sec.get("history")
-    if hc and sec["wins"] >= 6:
+    # Only a record if the win percentage is also near the top: some sports play
+    # more games now than in early seasons, which inflates raw win totals.
+    if hc and sec["wins"] >= 6 and hc.get("pct_rank", 99) <= 2:
         if hc["wins_rank"] == 1:
             S.append(story(78, f"{name} {label} has its most wins in our records ({sec['wins']}, back to {hc['first']})"))
         elif hc["wins_rank"] <= 3:
@@ -480,14 +489,14 @@ def build_offline_section(data, sport, slug, school):
             for sl, s in data.schools.items()
             if sport in (s.get("sports") or {}) and s["sports"][sport].get("ovr_rating") is not None]
     cls = last.get("classification")
-    same = sorted([r for r in rows if r[2] == cls], key=lambda r: -r[0])
-    crank = next((i + 1 for i, r in enumerate(same) if r[1] == slug), None)
+    same = sorted([r for r in rows if r[2] == cls], key=lambda r: -r[0]) if cls else []
+    crank = next((i + 1 for i, r in enumerate(same) if r[1] == slug), None) if cls else None
     sec.update({"classification": cls, "class_rank": crank, "class_size": len(same),
                 "record": f"{last.get('wins', 0)}-{last.get('losses', 0)}",
                 "wins": last.get("wins"), "losses": last.get("losses"),
                 "last_season": meta.get("last_season_label", "last season")})
     hc = history_context(data, sport, slug, last.get("wins") or 0, last.get("losses") or 0, None)
-    if hc and (last.get("wins") or 0) > hc["max_wins"]:
+    if hc and (last.get("wins") or 0) > hc["max_wins"] and hc.get("pct_rank", 99) <= 2:
         sec["notes"].append(f"the most wins in our records, which start in {hc['first']}–{str(hc['first'] + 1)[2:]}"
                             if meta.get("season") == "winter" else f"the most wins in our records, which start in {hc['first']}")
     if sec["state"] == "preseason" and crank:
@@ -643,6 +652,11 @@ def render_live(sec, primary, rcfg):
         body = []
         if opp_bits:
             body.append(f"{esc(n['opp'])}: {esc(', '.join(opp_bits))}.")
+        cutoff = rcfg["sports"][sec["sport"]].get("blowout_margin")
+        if n.get("proj") and cutoff and abs(n["proj"][0] - n["proj"][1]) >= cutoff:
+            fav = sec["team"] if n["proj"][0] > n["proj"][1] else n["opp"]
+            body.append(f"Our ratings have <strong>{esc(fav)}</strong> heavily favored.")
+            n = {**n, "proj": None, "win_prob": None, "favored": None}
         if n.get("proj"):
             a, b = n["proj"]
             lead = f"{sec['team']} {a}, {n['opp']} {b}" if a >= b else f"{n['opp']} {b}, {sec['team']} {a}"
@@ -664,13 +678,14 @@ def render_live(sec, primary, rcfg):
     if sec.get("eliminated"):
         out.append('<div style="font-size:13px;color:#5b6577;margin-top:12px;">Season over. Thanks for following this team.</div>')
 
-    if sec.get("odds") and any(v for v in sec["odds"].values()) and not sec.get("eliminated"):
+    # Only show playoff odds while they mean something (Final Four chance of 1% or more).
+    if sec.get("odds") and sec["odds"].get("final_four") not in (None, "0%", "<1%") and not sec.get("eliminated"):
         o = sec["odds"]
         out.append(f'<div style="font-size:12px;color:#5b6577;margin-top:10px;">Playoff odds: Final Four {esc(o.get("final_four") or "–")} · '
                    f'State title {esc(o.get("state_title") or "–")}</div>')
 
     hc = sec.get("history")
-    if hc and sec["wins"] >= 5 and hc["wins_rank"] <= 3:
+    if hc and sec["wins"] >= 5 and hc["wins_rank"] <= 3 and hc.get("pct_rank", 99) <= 3:
         if hc["wins_rank"] == 1 and not hc["tied_years"]:
             txt = f"{sec['wins']} wins is the most for this program since our data starts in {hc['first']}."
         else:
