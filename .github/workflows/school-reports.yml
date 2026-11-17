@@ -6,6 +6,8 @@
 #
 # Nothing is sent. Emails land in newsletter_output/school_reports/<week>/
 # and are also attached to the run as a downloadable "school-reports" zip.
+# Every run also refreshes the web report data for every school in
+# output/school_reports/<slug>.json (read by the /school-report/ page).
 
 name: School reports
 
@@ -79,20 +81,23 @@ jobs:
             [[ "$FOLLOWS" =~ ^[A-Za-z0-9_./-]+\.json$ ]] || { echo "::error::follows_file must be a .json path"; exit 1; }
             args+=(--follows "$FOLLOWS")
           fi
-          python build_school_reports.py "${args[@]}"
+          # --pages: also refresh every school's web report data (output/school_reports/)
+          python build_school_reports.py "${args[@]}" --pages
 
       - name: Attach emails to the run
         uses: actions/upload-artifact@v4
         with:
           name: school-reports
-          path: newsletter_output/school_reports/
+          path: |
+            newsletter_output/school_reports/
+            output/school_reports/
 
       - name: Commit reports
         if: github.event.inputs.all_schools != 'true'   # all-school tests are only in the zip
         run: |
           git config user.name "All MO Sports Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add newsletter_output/school_reports
+          git add newsletter_output/school_reports output/school_reports
           git diff --cached --quiet || git commit -m "Weekly school reports"
           git pull --rebase
           git push
