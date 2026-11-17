@@ -163,7 +163,10 @@ class Data:
         self.previews = load(rcfg.get("football", {}).get("previews_url"), None)
         self.odds = load(rcfg.get("football", {}).get("playoff_odds_url"), None)
         self.fb_sched = load(rcfg.get("football", {}).get("team_schedule_file"), None)
+        self.quads = load(rcfg.get("football", {}).get("quad_records_url"), None)
+        self.seeds = load(rcfg.get("football", {}).get("seed_projections_url"), None)
         self._live, self._hist, self._official = {}, {}, {}
+        self._sos, self._past = {}, {}
 
     # --- live sports -------------------------------------------------
     def live(self, sport):
@@ -206,13 +209,68 @@ class Data:
             return json.load(f), dates[-1]
 
     def official_record(self, sport, team):
-        """(wins, losses, ties) from MSHSAA's season records page, if we have it."""
+        """(wins, losses, ties) from MSHSAA's season records page, if we have it.
+        Only used when those records were scraped around this report's date,
+        so re-running an old week counts that week's games instead."""
         if sport not in self._official:
             folder = self.rcfg.get("season_records_dir")
             raw = load(os.path.join(folder, f"{sport}_season_records.json"), None) if folder else None
             rows = raw if isinstance(raw, list) else next((v for v in (raw or {}).values() if isinstance(v, list)), [])
+            scraped = str((raw or {}).get("scraped_at", ""))[:10] if isinstance(raw, dict) else ""
+            if scraped and not (-3 <= (d(scraped) - d(self.as_of)).days <= 8):
+                rows = []
             self._official[sport] = {r["school"]: (r.get("wins") or 0, r.get("losses") or 0, r.get("ties") or 0) for r in rows if r.get("school")}
         return self._official[sport].get(team)
+
+    def sos(self, sport):
+        """Schedule strength: average OVR of opponents played, ranked statewide
+        (teams with 3+ rated opponents). {team: (rank, of, avg)}"""
+        if sport in self._sos:
+            return self._sos[sport]
+        live = self.live(sport)
+        out = {}
+        if live:
+            ovr = {t["school"]: t.get("ovr_rating") for t in teams_of(live["cur"])}
+            opps = {}
+            for g in live["games"]:
+                if not is_played(g) or g["date"] > self.week_end:
+                    continue
+                for a, b in ((g["team1"], g["team2"]), (g["team2"], g["team1"])):
+                    if ovr.get(b) is not None:
+                        opps.setdefault(a, []).append(ovr[b])
+            avg = {t: sum(v) / len(v) for t, v in opps.items() if len(v) >= 3 and t in ovr}
+            order = sorted(avg, key=lambda t: -avg[t])
+            out = {t: (i + 1, len(order), avg[t]) for i, t in enumerate(order)}
+        self._sos[sport] = out
+        return out
+
+    def past_games(self, sport):
+        """Every past season's per-team schedule for a sport: {team_name: [(season, game, file_teams)]}."""
+        if sport in self._past:
+            return self._past[sport]
+        import glob
+        pattern = (self.rcfg.get("program_history") or {}).get("schedule_glob", "output/{sport}_schedule_*.json")
+        we = d(self.week_end)
+        cur_start = we.year if we.month >= 8 else we.year - 1     # school year the email falls in
+
+        def is_current(season):
+            if "-" in season:                                     # winter: "2026-2027"
+                return int(season[:4]) >= cur_start
+            return int(season) >= we.year                         # fall/spring: "2026"
+        by_team = {}
+        for f in sorted(glob.glob(resolve(pattern.format(sport=sport)))):
+            season = os.path.basename(f).rsplit("_", 1)[-1][:-5]          # "2019" or "2019-2020"
+            if not season[:4].isdigit() or is_current(season):
+                continue                                                # only past seasons
+            try:
+                with open(f, encoding="utf-8") as fh:
+                    teams = (json.load(fh) or {}).get("teams") or {}
+            except Exception:
+                continue
+            for name, rows in teams.items():
+                by_team.setdefault(name, []).append((season, rows, teams))
+        self._past[sport] = by_team
+        return by_team
 
     # --- history -----------------------------------------------------
     def history(self, sport):
@@ -232,8 +290,13 @@ class Data:
 # Sections
 # ----------------------------------------------------------------------
 
-def story(score, headline, text=""):
-    return {"score": score, "headline": headline, "text": text}
+# Kinds that report a one-time event: repeating the kind is fine, only the
+# exact same headline counts as a repeat.
+EVENT_KINDS = {"district_title", "state_title", "playoff_win", "playoff_loss", "eliminated", "upset", "best_win"}
+
+
+def story(kind, score, headline, text=""):
+    return {"kind": kind, "score": score, "headline": headline, "text": text}
 
 
 def history_context(data, sport, slug, wins, losses, ovr):
@@ -258,6 +321,7 @@ def history_context(data, sport, slug, wins, losses, ovr):
     pcts = [v["wins"] / (v["wins"] + (v.get("losses") or 0)) for _, v in past if v["wins"] + (v.get("losses") or 0)]
     pct_rank = sum(1 for p in pcts if p > my_pct + 1e-9) + 1
     return {"first": first, "seasons": len(past), "wins_rank": len(beat) + 1, "pct_rank": pct_rank,
+            "season_wins": sorted((y, v["wins"]) for y, v in past),
             "better_years": sorted(beat), "tied_years": sorted(tie),
             "ovr_rank": len(ovr_better) + 1 if ovr is not None else None,
             "ovr_better_years": sorted(ovr_better), "max_wins": win_list[0]}
@@ -286,7 +350,8 @@ def build_live_section(data, sport, slug, school, team, live):
         mine.append({"date": g["date"], "opp": g["team2"] if us_first else g["team1"],
                      "us": g["score1"] if us_first else g["score2"],
                      "them": g["score2"] if us_first else g["score1"],
-                     "played": is_played(g), "forfeit": g.get("forfeit"), "ot": g.get("overtime")})
+                     # A game after the report week counts as not yet played (matters for re-runs of past weeks).
+                     "played": is_played(g) and g["date"] <= data.week_end, "forfeit": g.get("forfeit"), "ot": g.get("overtime")})
     rec = list(data.official_record(sport, team) or live["records"].get(team, [0, 0, 0]))
     played = [g for g in mine if g["played"] and g["date"] <= data.week_end]
     this_week = [g for g in played if data.week_start <= g["date"] <= data.week_end]
@@ -303,6 +368,7 @@ def build_live_section(data, sport, slug, school, team, live):
     # A finished team stays in "Seasons wrapped" until a few weeks after the
     # sport's last game statewide (state finals), not just its own last game.
     sport_last = max((g["date"] for g in live["games"] if is_played(g) and g["date"] <= data.week_end), default=None)
+    sport_has_future = any(g["date"] > data.week_end for g in live["games"])
     ref = max(x for x in (last_played, sport_last) if x) if (last_played or sport_last) else None
     if not this_week and not upcoming and not any_future:
         if last_played and ref and (d(data.week_end) - d(ref)).days <= wrapup_days:
@@ -339,7 +405,10 @@ def build_live_section(data, sport, slug, school, team, live):
              "opp_class_rank": opp_rank(g["opp"]), "forfeit": g["forfeit"], "ot": g["ot"],
              "round": football_round(rcfg, g["date"]) if sport == "football" else None}
         p = fb_pred.get(g["date"])
-        if p and p.get("predicted_team_score") is not None:
+        cutoff = meta.get("blowout_margin") or 999
+        if p and p.get("predicted_team_score") is not None and p.get("predicted_opp_score") is not None \
+                and min(p["predicted_team_score"], p["predicted_opp_score"]) >= 0 \
+                and abs(p["predicted_team_score"] - p["predicted_opp_score"]) < cutoff:   # skip impossible or blowout projections
             r["off_delta"] = round(g["us"] - p["predicted_team_score"])
             r["def_delta"] = round(p["predicted_opp_score"] - g["them"])
         sec["results"].append(r)
@@ -380,7 +449,6 @@ def build_live_section(data, sport, slug, school, team, live):
 
     # Knocked out of the playoffs: lost its last game, nothing left on its
     # schedule, while other teams in the sport still have games to play.
-    sport_has_future = any(not is_played(g) and g["date"] > data.week_end for g in live["games"])
     if this_week and not any_future and sport_has_future and this_week[-1]["us"] < this_week[-1]["them"]:
         last = sec["results"][-1]
         sec["eliminated"] = {"opp": last["opp"], "us": last["us"], "them": last["them"], "round": last.get("round")}
@@ -394,10 +462,113 @@ def build_live_section(data, sport, slug, school, team, live):
 
     hc = history_context(data, sport, slug, rec[0], rec[1], sec["ovr"]) if sec["co_op"] is None else None
     sec["history"] = hc
+    sec["season_year"] = int(data.week_end[:4])
+    remaining = sum(1 for g in mine if not g["played"] and g["date"] > data.week_end)
+    sec["sport_finished"] = (sport_last or "") >= data.week_start and not sport_has_future
+    add_season_arc(data, sec, sport, team, teams, played, remaining, school)
     add_live_stories(sec, rcfg, school)
+    # Is there anything new this week? (used by the quiet-week rule)
+    sec["news"] = bool(this_week) or bool(upcoming and upcoming[0]["date"] <= horizon) \
+        or (state == "live" and sec["class_rank_prev"] is not None and sec["class_rank_prev"] != sec["class_rank"]) \
+        or (state == "wrapup" and ((last_played or "") >= data.week_start
+                                   or ((sport_last or "") >= data.week_start and not sport_has_future)))
     if state in ("offseason", "none"):
         sec["stories"] = []
     return sec
+
+
+def season_phase(rcfg, sport, week_end, played_n, state):
+    """early / mid / late / playoffs for a live team; otherwise the state itself."""
+    if state != "live":
+        return state
+    ps = rcfg["sports"][sport].get("postseason_start")
+    we = d(week_end)
+    if ps and we >= d(str(ps)):
+        return "playoffs"
+    if ps and (d(str(ps)) - we).days <= 21:
+        return "late"
+    return "early" if played_n <= 3 else "mid"
+
+
+def add_season_arc(data, sec, sport, team, teams, played, remaining, school):
+    """Phase-specific extras, so the email reads differently as a season goes on:
+    early = best win so far, mid = schedule strength (+ Quad record for football),
+    late = district outlook (+ seed projection for football), every phase = milestone watch."""
+    rcfg = data.rcfg
+    name, label = school["name"], sec["label"].lower()
+    phase = season_phase(rcfg, sport, data.week_end, len(played), sec["state"])
+    sec["phase"] = phase
+    cls, dist = sec.get("classification"), sec.get("district")
+
+    # Best win so far: beat the opponent ranked highest within its own class.
+    if phase in ("early", "mid"):
+        best = None
+        for g in played:
+            if g["us"] > g["them"]:
+                _, r, n = class_rank(teams, g["opp"])
+                if r and (best is None or r < best["rank"]):
+                    opp = next(t for t in teams if t["school"] == g["opp"])
+                    best = {"opp": g["opp"], "rank": r, "cls": opp.get("classification"),
+                            "us": g["us"], "them": g["them"], "date": g["date"]}
+        if best:
+            sec["best_win"] = best
+            if best["rank"] <= 10 and best["date"] >= data.week_start:
+                sec["stories"].append(story("best_win", 52, f"{name} {label} beats #{best['rank']} {best['opp']} for its best win of the season",
+                                            f"{best['us']}–{best['them']} over the #{best['rank']} team in Class {best['cls']}."))
+
+    # Schedule strength (and football Quad records) from midseason on.
+    if phase in ("mid", "late", "playoffs"):
+        sos = data.sos(sport).get(team)
+        if sos and sos[0] <= sos[1] / 2:          # only show it when it's a point of pride
+            sec["sos"] = {"rank": sos[0], "of": sos[1]}
+            if sos[0] <= max(5, sos[1] // 20):
+                sec["stories"].append(story("sos", 36, f"{name} {label} has played the #{sos[0]} toughest schedule in Missouri"))
+        if sport == "football" and data.quads:
+            q = next((t for t in data.quads.get("teams", []) if t.get("school") == team), None)
+            if q:
+                sec["quads"] = [q.get("q1"), q.get("q2"), q.get("q3"), q.get("q4")]
+
+    # District outlook: where the team rates among its district.
+    if phase in ("mid", "late") and cls and dist:
+        mates = [t for t in teams if t.get("classification") == cls and t.get("district") == dist]
+        mates.sort(key=lambda t: -(t.get("ovr_rating") or -999))
+        recs = data.live(sport)["records"]
+        sec["district_mates"] = [{"team": t["school"], "class_rank": class_rank(teams, t["school"])[1],
+                                  "record": fmt_rec(list(data.official_record(sport, t["school"]) or recs.get(t["school"], [0, 0, 0]))),
+                                  "me": t["school"] == team} for t in mates]
+        my_pos = next(i + 1 for i, t in enumerate(mates) if t["school"] == team)
+        sec["district_pos"] = (my_pos, len(mates))
+        if phase == "late" and my_pos == 1 and len(mates) >= 3:
+            sec["stories"].append(story("district_top", 46, f"{name} {label} heads into districts as the top-rated team in Class {cls} District {dist}"))
+    if phase == "late" and sport == "football" and data.seeds:
+        dd = (data.seeds.get("districts") or {}).get(f"class{cls}_district{dist}", {})
+        row = next((t for t in dd.get("teams", []) if t.get("team") == team), None)
+        if row and row.get("seed_probs"):
+            probs = row["seed_probs"]
+            likely = max(range(len(probs)), key=lambda i: probs[i])
+            sec["seed_watch"] = {"seed": likely + 1, "prob": probs[likely], "top2": row.get("top2_prob")}
+
+    # Milestone watch: a few more wins would be the program's most since some year.
+    hc = sec.get("history")
+    if hc and remaining and phase != "wrapup":
+        season_year = int(data.week_end[:4])
+        for n in range(1, min(3, remaining) + 1):
+            tot = sec["wins"] + n
+            ge = [y for y, w in hc["season_wins"] if w >= tot]
+            if not ge or season_year - max(ge) >= 5:
+                words = {1: "One more win", 2: "Two more wins", 3: "Three more wins"}[n]
+                if not ge:
+                    txt = f"{words} would give {name} the most {label} wins in our records, which go back to {hc['first']}."
+                    sc = 44
+                else:
+                    txt = f"{words} would give {name} its most {label} wins since {max(ge)}."
+                    sc = 34
+                sec["milestone"] = txt
+                gap = f"{['one', 'two', 'three'][n - 1]} win{'s' if n > 1 else ''}"
+                head = (f"{name} {label} is {gap} from its most since {max(ge)}" if ge
+                        else f"{name} {label} is {gap} from a program record")
+                sec["stories"].append(story("milestone", sc, head, txt))
+                break
 
 
 def add_live_stories(sec, rcfg, school):
@@ -411,52 +582,56 @@ def add_live_stories(sec, rcfg, school):
         if not rnd:
             continue
         if r["result"] == "W" and rnd.lower().startswith("district final"):
-            S.append(story(95, f"{name} wins the Class {cls} District {school_district(sec)} {label} title",
+            S.append(story("district_title", 95, f"{name} wins the Class {cls} District {school_district(sec)} {label} title",
                            f"The {label} team beat {r['opp']} {r['us']}–{r['them']} in the district final."))
         elif r["result"] == "W" and rnd.lower() == "state final":
-            S.append(story(100, f"{name} wins the Class {cls} {label} state title!",
+            S.append(story("state_title", 100, f"{name} wins the Class {cls} {label} state title!",
                            f"A {r['us']}–{r['them']} win over {r['opp']} in the state final."))
         elif r["result"] == "W":
             nxt = sec["next"][0]["round"] if sec["next"] else None
-            S.append(story(85, f"{name} {label} wins its {rnd.lower()}" + (f" and moves on to the {nxt.lower()}" if nxt else ""),
+            S.append(story("playoff_win", 85, f"{name} {label} wins its {rnd.lower()}" + (f" and moves on to the {nxt.lower()}" if nxt else ""),
                            f"Beat {r['opp']} {r['us']}–{r['them']}."))
-        elif r["result"] == "L":
-            S.append(story(80, f"{name}'s {label} season ends in the {rnd.lower()} at {sec['record']}",
+        elif r["result"] == "L" and sec["wins"] > sec["losses"]:     # only a winning season's end is a headline
+            S.append(story("playoff_loss", 80, f"{name}'s {label} season ends in the {rnd.lower()} at {sec['record']}",
                            f"Lost to {r['opp']} {r['us']}–{r['them']}."))
     el = sec.get("eliminated")
-    if el and not el.get("round"):     # football rounds are handled above
+    if el and not el.get("round") and sec["wins"] > sec["losses"]:     # football rounds are handled above
         top = sec["class_rank"] and sec["class_rank"] <= 10
-        S.append(story(74 if top else 58, f"{name} {label}'s season ends at {sec['record']}",
+        S.append(story("eliminated", 74 if top else 58, f"{name} {label}'s season ends at {sec['record']}",
                        f"A {el['us']}–{el['them']} playoff loss to {el['opp']}"
                        + (f" ends a season that finished #{sec['class_rank']} in Class {cls}." if sec["class_rank"] else ".")))
     # Unbeaten
     if sec["losses"] == 0 and sec["wins"] >= 5:
-        S.append(story(70, f"{name} {label} is still unbeaten at {sec['record']}"))
+        S.append(story("unbeaten", 70, f"{name} {label} is still unbeaten at {sec['record']}"))
     # Win totals in the school's history
     hc = sec.get("history")
     # Only a record if the win percentage is also near the top: some sports play
     # more games now than in early seasons, which inflates raw win totals.
     if hc and sec["wins"] >= 6 and hc.get("pct_rank", 99) <= 2:
         if hc["wins_rank"] == 1:
-            S.append(story(78, f"{name} {label} has its most wins in our records ({sec['wins']}, back to {hc['first']})"))
+            S.append(story("most_wins", 78, f"{name} {label} has its most wins in our records ({sec['wins']}, back to {hc['first']})"))
         elif hc["wins_rank"] <= 3:
-            S.append(story(55, f"{name} {label}'s {sec['wins']} wins are its {ordinal_word(hc['wins_rank'])}most since {hc['first']}"))
+            S.append(story("nth_wins", 55, f"{name} {label}'s {sec['wins']} wins are its {ordinal_word(hc['wins_rank'])}most since {hc['first']}"))
     # Rank movement
     if sec["class_rank"] and sec["class_rank_prev"]:
         mv = sec["class_rank_prev"] - sec["class_rank"]
-        if abs(mv) >= 3:
-            word = "climbs" if mv > 0 else "slips"
-            S.append(story(min(75, 42 + 3 * abs(mv)) if mv > 0 else 35,
-                           f"{name} {label} {word} {abs(mv)} spots to #{sec['class_rank']} in Class {cls}"))
+        if mv >= 3:      # drops still show in the rank box, but never as the subject line
+            S.append(story("rank_move", min(75, 42 + 3 * mv),
+                           f"{name} {label} climbs {mv} spots to #{sec['class_rank']} in Class {cls}"))
     # Upset win: beat a team ranked 10+ spots better in its own class list
     for r in sec["results"]:
         if r["result"] == "W" and r["opp_class_rank"] and sec["class_rank"] and r["opp_class_rank"] + 10 <= sec["class_rank"]:
-            S.append(story(62, f"{name} {label} upsets #{r['opp_class_rank']} {r['opp']}", f"{r['us']}–{r['them']}."))
+            S.append(story("upset", 62, f"{name} {label} upsets #{r['opp_class_rank']} {r['opp']}", f"{r['us']}–{r['them']}."))
     # Highly ranked
     if sec["class_rank"] and sec["class_rank"] <= 5:
-        S.append(story(50 - sec["class_rank"], f"{name} {label} is ranked #{sec['class_rank']} in Class {cls}"))
-    if sec["state"] == "wrapup":
-        S.append(story(30, f"{name} {label} wraps up at {sec['record']}"))
+        S.append(story("top5", 50 - sec["class_rank"], f"{name} {label} is ranked #{sec['class_rank']} in Class {cls}"))
+    # Only a winning season makes the wrap-up a headline; a rough season still
+    # shows under "Seasons wrapped", just not as the subject line.
+    if sec["state"] == "wrapup" and sec.get("news") is None and sec.get("sport_finished") and sec["class_rank"] \
+            and sec["class_rank"] <= (sec["class_size"] or 0) / 2:
+        S.append(story("final_rank", 34, f"{name} {label} finishes #{sec['class_rank']} in Class {cls}"))
+    if sec["state"] == "wrapup" and sec["wins"] > sec["losses"]:
+        S.append(story("wrapup", 30, f"{name} {label} wraps up at {sec['record']}"))
 
 
 def school_district(sec):
@@ -499,9 +674,12 @@ def build_offline_section(data, sport, slug, school):
     if hc and (last.get("wins") or 0) > hc["max_wins"] and hc.get("pct_rank", 99) <= 2:
         sec["notes"].append(f"the most wins in our records, which start in {hc['first']}–{str(hc['first'] + 1)[2:]}"
                             if meta.get("season") == "winter" else f"the most wins in our records, which start in {hc['first']}")
-    if sec["state"] == "preseason" and crank:
+    days_to_start = (start - we).days if start else None
+    sec["news"] = sec["state"] == "preseason" and days_to_start is not None and (
+        days_to_start > pre_days - 7 or 0 <= days_to_start <= 7)      # first week shown, or the week it starts
+    if sec["state"] == "preseason" and crank and crank <= len(same) / 2:   # top half of the class only
         sc = 40 if crank <= 5 else (32 if crank <= 15 else 20)
-        sec["stories"].append(story(sc, f"{school['name']} {meta['label'].lower()} opens after a #{crank} finish in Class {cls}"))
+        sec["stories"].append(story("preseason", sc, f"{school['name']} {meta['label'].lower()} opens after a #{crank} finish in Class {cls}"))
     return sec
 
 
@@ -518,6 +696,41 @@ def build_section(data, sport, slug):
     return build_offline_section(data, sport, slug, school)
 
 
+def program_history(data, slug, sport):
+    """The school's best win from the coming week (Mon-Sun) in a past season."""
+    school = data.schools[slug]
+    own = {school.get("name"), school.get("mshsaa_name")} - {None}
+    past = data.past_games(sport)
+    names = [n for n in past if n in own or data.aliases.get(n) == slug
+             or (" with " in n and any(p.strip() in own for part in n.split(" with ") for p in part.split(",")))]
+    a = d(data.as_of)
+    best = None
+    for n in names:
+        for season, rows, teams in past[n]:
+            for g in rows:
+                if g.get("result") != "W" or g.get("team_score") is None or g.get("forfeit"):
+                    continue
+                gd = d(g["date"])
+                hit = False
+                for yr in (a.year - 1, a.year, a.year + 1):
+                    try:
+                        if 0 <= (gd.replace(year=yr) - a).days <= 6:
+                            hit = True
+                    except ValueError:
+                        pass
+                if not hit:
+                    continue
+                opp_rows = teams.get(g["opponent"]) or []
+                ow = sum(1 for x in opp_rows if x.get("result") == "W")
+                ol = sum(1 for x in opp_rows if x.get("result") == "L")
+                key = (ow > ol, g.get("ovr_delta") or 0, g["team_score"] - g["opp_score"])
+                if best is None or key > best["key"]:
+                    best = {"key": key, "year": gd.year, "date": g["date"], "sport": sport, "opp": g["opponent"],
+                            "us": g["team_score"], "them": g["opp_score"],
+                            "opp_record": f"{ow}-{ol}" if ow + ol else None, "opp_winning": ow > ol}
+    return best
+
+
 def cup_section(data, slug):
     if not data.cup:
         return None
@@ -530,7 +743,7 @@ def cup_section(data, slug):
            "of": len(data.cup.get("schools", [])), "stories": []}
     ch = row.get("change") or 0
     if ch >= 5:
-        out["stories"].append(story(40, f"{data.schools[slug]['name']} climbs {ch} spots in the All MO Sports Cup"))
+        out["stories"].append(story("cup_climb", 40, f"{data.schools[slug]['name']} climbs {ch} spots in the All MO Sports Cup"))
     return out
 
 
@@ -678,6 +891,35 @@ def render_live(sec, primary, rcfg):
     if sec.get("eliminated"):
         out.append('<div style="font-size:13px;color:#5b6577;margin-top:12px;">Season over. Thanks for following this team.</div>')
 
+    extras = []
+    b = sec.get("best_win")
+    if b:
+        extras.append(f"Best win so far: {b['us']}–{b['them']} over {b['opp']} (#{b['rank']} in Class {b['cls']}).")
+    if sec.get("sos"):
+        extras.append(f"Schedule strength: #{sec['sos']['rank']} of {sec['sos']['of']} statewide.")
+    if sec.get("quads") and any(sec["quads"]):
+        extras.append("Quad records: " + " · ".join(f"Q{i + 1} {q}" for i, q in enumerate(sec["quads"]) if q) + ".")
+    sw = sec.get("seed_watch")
+    if sw:
+        extras.append(f"Most likely district seed: #{sw['seed']} ({pct(sw['prob'])})"
+                      + (f"; chance of a top-2 seed: {pct(sw['top2'])}." if sw.get("top2") is not None else "."))
+    if extras:
+        out.append('<div style="font-size:13px;color:#3d4657;line-height:1.7;margin-top:12px;">'
+                   + "".join(f"<div>{esc(x)}</div>" for x in extras) + "</div>")
+    if sec.get("district_mates"):
+        rows = []
+        for i, t in enumerate(sec["district_mates"][:8]):
+            st = "font-weight:bold;" if t["me"] else ""
+            rows.append(f'<tr><td style="padding:4px 0;color:#8a92a3;{st}" width="22">{i + 1}</td>'
+                        f'<td style="padding:4px 0;{st}">{esc(t["team"])}</td>'
+                        f'<td align="right" style="padding:4px 0;color:#5b6577;{st}">{esc(t["record"])}</td>'
+                        f'<td align="right" style="padding:4px 0;color:#5b6577;white-space:nowrap;{st}" width="90">#{t["class_rank"]} in class</td></tr>')
+        out.append(f'<div style="font-size:12px;color:#5b6577;margin-top:14px;">Class {sec["classification"]} District {sec["district"]}, by rating</div>'
+                   f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;border-top:1px solid #f0f2f6;">{"".join(rows)}</table>')
+    if sec.get("milestone"):
+        out.append(f'<div style="border-left:3px solid {primary};padding:6px 10px;margin-top:12px;font-size:13px;color:#3d4657;border-radius:0;">'
+                   f'<strong>Milestone watch:</strong> {esc(sec["milestone"])}</div>')
+
     # Only show playoff odds while they mean something (Final Four chance of 1% or more).
     if sec.get("odds") and sec["odds"].get("final_four") not in (None, "0%", "<1%") and not sec.get("eliminated"):
         o = sec["odds"]
@@ -705,8 +947,15 @@ def render_wrapups(secs):
     for s in secs:
         co = f' <span style="color:#8a92a3;">(co-op)</span>' if s.get("co_op") else ""
         rank = f" · #{s['class_rank']} of {s['class_size']} in Class {s['classification']}" if s.get("class_rank") else ""
-        rows.append(f'<tr><td style="padding:6px 0;border-bottom:1px solid #f0f2f6;">{esc(s["label"])}{co}</td>'
-                    f'<td align="right" style="padding:6px 0;border-bottom:1px solid #f0f2f6;color:#5b6577;">{esc(s["record"] + rank)}</td></tr>')
+        note = ""
+        hc = s.get("history")
+        if hc and hc.get("ovr_rank") == 1:
+            note = f"Best rating in our records (since {hc['first']})"
+        elif hc and hc.get("ovr_better_years") and max(hc["ovr_better_years"]) <= int(s.get("season_year", 9999)) - 4:
+            note = f"Best rating since {max(hc['ovr_better_years'])}"
+        rows.append(f'<tr><td style="padding:6px 0;border-bottom:1px solid #f0f2f6;">{esc(s["label"])}{co}'
+                    + (f'<div style="font-size:11px;color:#1e7b34;">{esc(note)}</div>' if note else "")
+                    + f'</td><td align="right" style="padding:6px 0;border-bottom:1px solid #f0f2f6;color:#5b6577;" valign="top">{esc(s["record"] + rank)}</td></tr>')
     return ('<tr><td style="padding:20px 22px;border-bottom:1px solid #e6e9ef;">'
             '<div style="font-size:16px;font-weight:bold;margin-bottom:8px;">🏁 Seasons wrapped</div>'
             f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;">{"".join(rows)}</table></td></tr>')
@@ -738,7 +987,7 @@ def render_cup(cup):
             f'<div style="font-size:11px;color:{col};">{mv} · score {cup["score"]}</div></td></tr></table></td></tr>')
 
 
-def render_school_block(data, slug, secs, cup, show_header_label):
+def render_school_block(data, slug, secs, cup, show_header_label, history_item=None):
     """All sections for one followed school. Returns (html, primary_color)."""
     rcfg = data.rcfg
     primary, accent = logo_colors(slug, rcfg)
@@ -757,6 +1006,14 @@ def render_school_block(data, slug, secs, cup, show_header_label):
         parts.append(render_preseason(pre))
     if cup:
         parts.append(render_cup(cup))
+    if history_item:
+        h = history_item
+        lab = rcfg["sports"][h["sport"]]["label"]
+        extra = f" {h['opp']} finished {h['opp_record']} that season." if h.get("opp_winning") and h.get("opp_record") else ""
+        parts.append('<tr><td style="padding:20px 22px;border-bottom:1px solid #e6e9ef;">'
+                     '<div style="font-size:16px;font-weight:bold;margin-bottom:4px;">📜 This week in program history</div>'
+                     f'<div style="font-size:13px;line-height:1.6;color:#3d4657;"><strong>{esc(nice_date(h["date"], weekday=False))}, {h["year"]} · {esc(lab)}:</strong> '
+                     f'{esc(data.schools[slug]["name"])} beat {esc(h["opp"])} {h["us"]}–{h["them"]}.{esc(extra)}</div></td></tr>')
     return "".join(parts), primary, accent
 
 
@@ -808,6 +1065,12 @@ Ratings as of {esc(nice_date(data.as_of, weekday=False))}. Projections come from
 # Main
 # ----------------------------------------------------------------------
 
+def follow_signature(follows):
+    """Same follows -> same email, so memory is keyed by the follow set, not the person."""
+    parts = sorted(f"{fo['school']}:{'all' if fo['sports'] == 'all' else ','.join(sorted(fo['sports']))}" for fo in follows)
+    return "|".join(parts)
+
+
 def last_full_week(today):
     end = today - dt.timedelta(days=today.weekday() + 1)   # previous Sunday
     return end - dt.timedelta(days=6), end
@@ -822,6 +1085,8 @@ def main():
     ap.add_argument("--all-schools", action="store_true",
                     help="Test: one 'everything' email for every school in schools.json")
     ap.add_argument("--school", help="Quick test: one school slug")
+    ap.add_argument("--no-state", action="store_true",
+                    help="Don't update headline memory / last-sent dates (state.json). Test runs never update it.")
     ap.add_argument("--sports", default="all", help='Quick test: "all" or a comma list of sport keys')
     args = ap.parse_args()
 
@@ -878,8 +1143,18 @@ def main():
     manifest = {"week_start": ws.isoformat(), "week_end": we.isoformat(), "as_of": as_of,
                 "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "emails": [], "skipped": []}
 
+    state_path = os.path.join(args.out, "school_reports", "state.json")
+    state = {"headlines": {}, "last_sent": {}}
+    if os.path.exists(state_path):
+        with open(state_path, encoding="utf-8") as f:
+            state = json.load(f)
+    save_state = bool(args.follows) and not args.no_state
+    week_end = we.isoformat()
+    hist_cache = {}
+
     for sub in subs:
-        blocks, stories, included = [], [], []
+        sig = follow_signature(sub["follows"])
+        blocks, stories, included, news = [], [], [], False
         multi = len(sub["follows"]) > 1
         for fo in sub["follows"]:
             slug = fo["school"]
@@ -891,14 +1166,30 @@ def main():
             secs.sort(key=lambda s: (STATE_ORDER[s["state"]], SPORT_ORDER.index(s["sport"])))
             if not secs:
                 continue
+            # This week in program history: best match across the followed sports.
+            hist = None
+            for k in keys:
+                if k in (rcfg.get("program_history") or {}).get("sports", []):
+                    if (slug, k) not in hist_cache:
+                        hist_cache[(slug, k)] = program_history(data, slug, k)
+                    h = hist_cache[(slug, k)]
+                    if h and (hist is None or h["key"] > hist["key"]):
+                        hist = h
             cup = cups.get(slug) if fo["sports"] == "all" else None
-            h, primary, accent = render_school_block(data, slug, secs, cup, multi)
+            h, primary, accent = render_school_block(data, slug, secs, cup, multi, hist)
             blocks.append((slug, h, primary, accent))
-            for s in secs:
-                stories += s["stories"]
-                included.append(f"{slug}/{s['sport']}:{s['state']}")
+            for sec in secs:
+                for st in sec["stories"]:
+                    stories.append({**st, "sport": sec["sport"]})
+                included.append(f"{slug}/{sec['sport']}:{sec['state']}")
+                news = news or bool(sec.get("news"))
             if cup:
-                stories += cup["stories"]
+                stories += [{**st, "sport": "cup"} for st in cup["stories"]]
+            if hist:
+                lab = rcfg["sports"][hist["sport"]]["label"].lower()
+                stories.append({"kind": "history", "sport": hist["sport"], "score": 22,
+                                "headline": f"This week in {hist['year']}: {data.schools[slug]['name']} {lab} beat {hist['opp']} {hist['us']}–{hist['them']}",
+                                "text": ""})
         # Skip rule: nothing live, wrapping up or about to start.
         if not blocks:
             unknown = [fo["school"] for fo in sub["follows"] if fo["school"] not in data.schools]
@@ -906,19 +1197,57 @@ def main():
                       else "no followed sport is in season this week")
             manifest["skipped"].append({"id": sub["id"], "reason": reason})
             continue
-        big = max(stories, key=lambda s: s["score"]) if stories else None
+        # Quiet-week rule: nothing new for these sports -> skip, but send at
+        # least once every few weeks (a monthly check-in) so followers don't go dark.
+        sent_before = [w for w in state["last_sent"].get(sig, []) if w < week_end]
+        monthly = False
+        if not news:
+            gap = rcfg.get("quiet_resend_days", 28)
+            if sent_before and (d(week_end) - d(max(sent_before))).days < gap:
+                manifest["skipped"].append({"id": sub["id"], "reason": "quiet week: nothing new for the followed sports"})
+                continue
+            monthly = bool(sent_before)
+        # Headline memory: the same story kind (or the same exact headline) in
+        # the last few weeks counts against it, so something new leads.
+        lookback = rcfg.get("headline_memory_days", 21)
+        past = [h for h in state["headlines"].get(sig, [])
+                if h["week_end"] < week_end and (d(week_end) - d(h["week_end"])).days <= lookback]
+        for st in stories:
+            st["base_score"] = st["score"]
+            if any(h["headline"] == st["headline"] for h in past):
+                st["score"] -= 50
+            elif st["kind"] not in EVENT_KINDS and any(h["kind"] == st["kind"] and h.get("sport") == st.get("sport") for h in past):
+                st["score"] -= rcfg.get("repeat_penalty", 40)
+        stories = [st for st in stories if st["score"] > 0] or []
+        big = max(stories, key=lambda st: st["score"]) if stories else None
         page = render_email(data, sub, blocks, big, week_label)
         fn = f"{sub['id']}.html"
         with open(os.path.join(out_dir, "emails", fn), "w", encoding="utf-8") as f:
             f.write(page)
-        subject = (big["headline"] if big else f"Your {data.schools[blocks[0][0]]['name']} report")
+        if big:
+            subject = big["headline"]
+        else:
+            first = data.schools[blocks[0][0]]["name"]
+            soon = [x.split(":")[0].split("/")[1] for x in included if x.endswith(":preseason")]
+            sp = {rcfg["sports"][k].get("season") for k in soon}
+            subject = (f"Your {first} report: {'basketball' if sp == {'winter'} else 'a new'} season is almost here"
+                       if soon else f"Your {first} weekly report")
         manifest["emails"].append({"id": sub["id"], "email": sub.get("email", ""), "subject": subject,
-                                   "file": f"emails/{fn}", "sections": included,
-                                   "other_story_ideas": [s["headline"] for s in sorted(stories, key=lambda s: -s["score"])[1:4]]})
-        print(f"  {sub['id']}: {subject}")
+                                   "file": f"emails/{fn}", "sections": included, "news": news, "monthly": monthly,
+                                   "other_story_ideas": [st["headline"] for st in sorted(stories, key=lambda st: -st["score"])[1:4]]})
+        # Remember what was sent (keyed by the follow set, never by person).
+        hl = [h for h in state["headlines"].get(sig, []) if h["week_end"] != week_end]
+        if big:
+            hl.append({"week_end": week_end, "kind": big["kind"], "sport": big.get("sport"), "headline": big["headline"]})
+        state["headlines"][sig] = [h for h in hl if (d(week_end) - d(h["week_end"])).days <= 120]
+        state["last_sent"][sig] = sorted(set(sent_before + [week_end]))[-12:]
+        print(f"  {sub['id']}: {subject}" + ("  [monthly]" if monthly else ""))
 
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=1)
+    if save_state:
+        with open(state_path, "w", encoding="utf-8") as f:
+            json.dump(state, f, indent=1)
     with open(os.path.join(out_dir, "sections.json"), "w", encoding="utf-8") as f:
         json.dump({f"{a}/{b}": v for (a, b), v in sections.items()}, f, indent=1, default=str)
     idx = ["<!DOCTYPE html><html><head><meta charset='utf-8'><title>School reports preview</title></head>"

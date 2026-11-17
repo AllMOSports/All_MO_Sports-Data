@@ -1,10 +1,110 @@
 [
- {"id": "st-vincent-everything", "email": "", "follows": [{"school": "st-vincent", "sports": "all"}]},
- {"id": "st-vincent-football-only", "email": "", "follows": [{"school": "st-vincent", "sports": ["football"]}]},
- {"id": "st-vincent-volleyball-and-girls-hoops", "email": "", "follows": [{"school": "st-vincent", "sports": ["girls_volleyball", "girls_basketball"]}]},
- {"id": "st-vincent-spring-only", "email": "", "follows": [{"school": "st-vincent", "sports": ["baseball", "spring_softball"]}]},
- {"id": "blue-springs-everything", "email": "", "follows": [{"school": "blue-springs", "sports": "all"}]},
- {"id": "rockhurst-everything", "email": "", "follows": [{"school": "rockhurst", "sports": "all"}]},
- {"id": "east-prairie-everything", "email": "", "follows": [{"school": "east-prairie", "sports": "all"}]},
- {"id": "two-schools", "email": "", "follows": [{"school": "st-vincent", "sports": ["football"]}, {"school": "perryville", "sports": ["girls_basketball"]}]}
+ {
+  "id": "st-vincent-everything",
+  "email": "",
+  "follows": [
+   {
+    "school": "st-vincent",
+    "sports": "all"
+   }
+  ]
+ },
+ {
+  "id": "st-vincent-football-only",
+  "email": "",
+  "follows": [
+   {
+    "school": "st-vincent",
+    "sports": [
+     "football"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-vincent-volleyball-and-girls-hoops",
+  "email": "",
+  "follows": [
+   {
+    "school": "st-vincent",
+    "sports": [
+     "girls_volleyball",
+     "girls_basketball"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-vincent-spring-only",
+  "email": "",
+  "follows": [
+   {
+    "school": "st-vincent",
+    "sports": [
+     "baseball",
+     "spring_softball"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "blue-springs-everything",
+  "email": "",
+  "follows": [
+   {
+    "school": "blue-springs",
+    "sports": "all"
+   }
+  ]
+ },
+ {
+  "id": "rockhurst-everything",
+  "email": "",
+  "follows": [
+   {
+    "school": "rockhurst",
+    "sports": "all"
+   }
+  ]
+ },
+ {
+  "id": "east-prairie-everything",
+  "email": "",
+  "follows": [
+   {
+    "school": "east-prairie",
+    "sports": "all"
+   }
+  ]
+ },
+ {
+  "id": "east-prairie-football-only",
+  "email": "",
+  "follows": [
+   {
+    "school": "east-prairie",
+    "sports": [
+     "football"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "two-schools",
+  "email": "",
+  "follows": [
+   {
+    "school": "st-vincent",
+    "sports": [
+     "football"
+    ]
+   },
+   {
+    "school": "perryville",
+    "sports": [
+     "girls_basketball"
+    ]
+   }
+  ]
+ }
 ]

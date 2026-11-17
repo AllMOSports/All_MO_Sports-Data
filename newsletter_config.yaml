@@ -144,6 +144,14 @@ school_reports:
   #   st-vincent: {primary: "#0b4a9e", accent: "#fdb930"}
   school_colors: {}
   preseason_days: 21      # show "Up next" this many days before a season's first games
+  quiet_resend_days: 28   # quiet week (nothing new for a follower's sports): skip, unless the last email was this long ago
+  headline_memory_days: 21  # a story kind that led an email within this many days is marked down...
+  repeat_penalty: 40        # ...by this much, so something new leads
+
+  # "This week in program history": past seasons' schedules to search.
+  program_history:
+    schedule_glob: "output/{sport}_schedule_*.json"
+    sports: [football, boys_basketball, boys_soccer, fall_softball, girls_volleyball]
   wrapup_days: 21         # keep a finished season in "Seasons wrapped" this long
 
   history_files:
@@ -158,6 +166,8 @@ school_reports:
     previews_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/matchup_previews_2026.json
     playoff_odds_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/playoff_odds_2026.json
     team_schedule_file: output/football_schedule_2026.json
+    quad_records_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/quad_records_football_2026.json
+    seed_projections_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/district_seed_projections_2026.json
     # Postseason round by Friday date (Friday or Saturday games count). Update each season.
     rounds:
       "2026-10-30": District first round
@@ -171,13 +181,16 @@ school_reports:
   # when a sport that isn't live yet shows up as "Up next".
   # blowout_margin: if a projected score is this lopsided, the email says
   # "Our ratings have X heavily favored" instead of the score and win chance.
+  # postseason_start: first day of district play (APPROXIMATE, check each year).
+  # Sets the season arc: early (first 3 games) -> mid -> late (3 weeks before
+  # districts: district outlook, seed watch) -> playoffs.
   sports:
-    football:         {label: Football,         blowout_margin: 35,         emoji: "🏈", season: fall,   preview_page: "https://allmosports.com/football-playoff-hub/"}
-    boys_soccer:      {label: Boys soccer,      blowout_margin: 5,      emoji: "⚽", season: fall,   project_scores: true}
-    girls_volleyball: {label: Girls volleyball, emoji: "🏐", season: fall}
-    fall_softball:    {label: Fall softball,    blowout_margin: 8,    emoji: "🥎", season: fall,   project_scores: true}
-    boys_basketball:  {label: Boys basketball,  blowout_margin: 30,  emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26"}
-    girls_basketball: {label: Girls basketball, blowout_margin: 30, emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26"}
-    baseball:         {label: Baseball,         blowout_margin: 8,         emoji: "⚾", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
-    girls_soccer:     {label: Girls soccer,     blowout_margin: 5,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
-    spring_softball:  {label: Spring softball,  blowout_margin: 8,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
+    football:         {label: Football,         blowout_margin: 35,         emoji: "🏈", season: fall,   preview_page: "https://allmosports.com/football-playoff-hub/", postseason_start: 2026-10-30}
+    boys_soccer:      {label: Boys soccer,      blowout_margin: 5,      emoji: "⚽", season: fall,   project_scores: true, postseason_start: 2026-10-26}
+    girls_volleyball: {label: Girls volleyball, emoji: "🏐", season: fall, postseason_start: 2026-10-19}
+    fall_softball:    {label: Fall softball,    blowout_margin: 8,    emoji: "🥎", season: fall,   project_scores: true, postseason_start: 2026-10-05}
+    boys_basketball:  {label: Boys basketball,  blowout_margin: 30,  emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27}
+    girls_basketball: {label: Girls basketball, blowout_margin: 30, emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27}
+    baseball:         {label: Baseball,         blowout_margin: 8,         emoji: "⚾", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-15}
+    girls_soccer:     {label: Girls soccer,     blowout_margin: 5,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10}
+    spring_softball:  {label: Spring softball,  blowout_margin: 8,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10}
