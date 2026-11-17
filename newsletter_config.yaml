@@ -123,3 +123,59 @@ closing_cta:
       url: https://allmosports.com/football-postseason-bracket-predictor/
     - label: District Points
       url: https://allmosports.com/district-points-predictor/
+
+# ------------------------------------------------------------
+# Per-school reports ("Follow your school" emails)
+# Used by build_school_reports.py. Sports that are turned on under
+# `sports:` above are treated as live; the others use the season
+# dates below to decide between "Up next" and leaving them out.
+# ------------------------------------------------------------
+school_reports:
+  schools_file: output/schools.json
+  aliases_file: school_aliases.json
+  cup_file: output/cup/all_mo_sports_cup_2026-27.json
+  logo_dir: logos_main2
+  season_records_dir: output/season_records   # official MSHSAA records; used for W-L when present
+  logo_base_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/
+  manage_url: https://allmosports.com/account/
+  default_colors: {primary: "#0b2a55", accent: "#fdb930"}
+  # Override colors pulled from a logo, if they look wrong:
+  # school_colors:
+  #   st-vincent: {primary: "#0b4a9e", accent: "#fdb930"}
+  school_colors: {}
+  preseason_days: 21      # show "Up next" this many days before a season's first games
+  wrapup_days: 21         # keep a finished season in "Seasons wrapped" this long
+
+  history_files:
+    football: football_history.json
+    boys_soccer: boys_soccer_history.json
+    girls_volleyball: girls_volleyball_history.json
+    fall_softball: fall_softball_history.json
+    boys_basketball: boys_basketball_history.json
+
+  football:
+    league_average: 26
+    previews_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/matchup_previews_2026.json
+    playoff_odds_url: https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/playoff_odds_2026.json
+    team_schedule_file: output/football_schedule_2026.json
+    # Postseason round by Friday date (games within a day count). Update each season.
+    rounds:
+      "2026-10-30": District first round
+      "2026-11-06": District semifinal
+      "2026-11-13": District final
+      "2026-11-20": State quarterfinal
+      "2026-11-27": State semifinal
+      "2026-12-04": State final
+
+  # start/end are approximate first and last game dates; only used to decide
+  # when a sport that isn't live yet shows up as "Up next".
+  sports:
+    football:         {label: Football,         emoji: "🏈", season: fall,   preview_page: "https://allmosports.com/football-playoff-hub/"}
+    boys_soccer:      {label: Boys soccer,      emoji: "⚽", season: fall,   project_scores: true}
+    girls_volleyball: {label: Girls volleyball, emoji: "🏐", season: fall}
+    fall_softball:    {label: Fall softball,    emoji: "🥎", season: fall,   project_scores: true}
+    boys_basketball:  {label: Boys basketball,  emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26"}
+    girls_basketball: {label: Girls basketball, emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26"}
+    baseball:         {label: Baseball,         emoji: "⚾", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
+    girls_soccer:     {label: Girls soccer,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
+    spring_softball:  {label: Spring softball,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026"}
