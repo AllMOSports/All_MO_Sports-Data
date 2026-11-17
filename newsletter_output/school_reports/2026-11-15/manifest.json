@@ -1,0 +1,124 @@
+{
+ "week_start": "2026-11-09",
+ "week_end": "2026-11-15",
+ "as_of": "2026-11-16",
+ "generated": "2026-11-17 19:54",
+ "emails": [
+  {
+   "id": "st-vincent-everything",
+   "email": "",
+   "subject": "St. Vincent wins the Class 2 District 1 football title",
+   "file": "emails/st-vincent-everything.html",
+   "sections": [
+    "st-vincent/football:live",
+    "st-vincent/boys_soccer:wrapup",
+    "st-vincent/girls_volleyball:wrapup",
+    "st-vincent/fall_softball:wrapup",
+    "st-vincent/boys_basketball:preseason",
+    "st-vincent/girls_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "St. Vincent football's 9 wins are its second-most since 2010",
+    "St. Vincent girls basketball opens after a #5 finish in Class 3",
+    "St. Vincent boys basketball opens after a #15 finish in Class 2"
+   ]
+  },
+  {
+   "id": "st-vincent-football-only",
+   "email": "",
+   "subject": "St. Vincent wins the Class 2 District 1 football title",
+   "file": "emails/st-vincent-football-only.html",
+   "sections": [
+    "st-vincent/football:live"
+   ],
+   "other_story_ideas": [
+    "St. Vincent football's 9 wins are its second-most since 2010"
+   ]
+  },
+  {
+   "id": "st-vincent-volleyball-and-girls-hoops",
+   "email": "",
+   "subject": "St. Vincent girls basketball opens after a #5 finish in Class 3",
+   "file": "emails/st-vincent-volleyball-and-girls-hoops.html",
+   "sections": [
+    "st-vincent/girls_volleyball:wrapup",
+    "st-vincent/girls_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "St. Vincent girls volleyball wraps up at 7-15-1"
+   ]
+  },
+  {
+   "id": "blue-springs-everything",
+   "email": "",
+   "subject": "Blue Springs wins the Class 6 District 6 football title",
+   "file": "emails/blue-springs-everything.html",
+   "sections": [
+    "blue-springs/football:live",
+    "blue-springs/boys_soccer:wrapup",
+    "blue-springs/girls_volleyball:wrapup",
+    "blue-springs/fall_softball:wrapup",
+    "blue-springs/boys_basketball:preseason",
+    "blue-springs/girls_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "Blue Springs boys soccer has its most wins in our records (15, back to 2012)",
+    "Blue Springs football is ranked #1 in Class 6",
+    "Blue Springs climbs 6 spots in the All MO Sports Cup"
+   ]
+  },
+  {
+   "id": "rockhurst-everything",
+   "email": "",
+   "subject": "Rockhurst wins the Class 6 District 7 football title",
+   "file": "emails/rockhurst-everything.html",
+   "sections": [
+    "rockhurst/football:live",
+    "rockhurst/boys_soccer:live",
+    "rockhurst/boys_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "Rockhurst boys soccer's season ends at 20-1-1",
+    "Rockhurst boys soccer is ranked #1 in Class 4",
+    "Rockhurst football is ranked #5 in Class 6"
+   ]
+  },
+  {
+   "id": "east-prairie-everything",
+   "email": "",
+   "subject": "East Prairie girls volleyball's 15 wins are its second-most since 2019",
+   "file": "emails/east-prairie-everything.html",
+   "sections": [
+    "east-prairie/football:wrapup",
+    "east-prairie/girls_volleyball:wrapup",
+    "east-prairie/boys_basketball:preseason",
+    "east-prairie/girls_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "East Prairie football wraps up at 1-9",
+    "East Prairie girls volleyball wraps up at 15-12",
+    "East Prairie boys basketball opens after a #41 finish in Class 3"
+   ]
+  },
+  {
+   "id": "two-schools",
+   "email": "",
+   "subject": "St. Vincent wins the Class 2 District 1 football title",
+   "file": "emails/two-schools.html",
+   "sections": [
+    "st-vincent/football:live",
+    "perryville/girls_basketball:preseason"
+   ],
+   "other_story_ideas": [
+    "St. Vincent football's 9 wins are its second-most since 2010",
+    "Perryville girls basketball opens after a #39 finish in Class 4"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "id": "st-vincent-spring-only",
+   "reason": "no followed sport is in season this week"
+  }
+ ]
+}

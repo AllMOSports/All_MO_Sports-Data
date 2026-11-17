@@ -1,0 +1,1235 @@
+{
+ "st-vincent/football": {
+  "sport": "football",
+  "label": "Football",
+  "emoji": "\ud83c\udfc8",
+  "state": "live",
+  "team": "St. Vincent",
+  "co_op": null,
+  "classification": 2,
+  "district": 1,
+  "class_rank": 12,
+  "class_size": 54,
+  "class_rank_prev": 12,
+  "state_rank": 123,
+  "state_size": 300,
+  "ovr": 4.52,
+  "ovr_prev": 5.59,
+  "record": "9-2",
+  "wins": 9,
+  "losses": 2,
+  "results": [
+   {
+    "date": "2026-11-13",
+    "opp": "Kelly",
+    "us": 42,
+    "them": 25,
+    "result": "W",
+    "opp_class_rank": 31,
+    "forfeit": false,
+    "ot": false,
+    "round": "District final",
+    "off_delta": 9,
+    "def_delta": -14
+   }
+  ],
+  "next": [
+   {
+    "date": "2026-11-20",
+    "opp": "Valle Catholic",
+    "opp_class_rank": 1,
+    "opp_record": "11-0",
+    "round": "State quarterfinal",
+    "opp_classification": 2,
+    "proj": [
+     7,
+     49
+    ],
+    "win_prob": 0.0057,
+    "h2h": {
+     "since": 2010,
+     "w": 1,
+     "l": 18
+    },
+    "preview_id": "2026-11-20-st-vincent-vs-valle-catholic"
+   }
+  ],
+  "notes": [],
+  "stories": [
+   {
+    "score": 95,
+    "headline": "St. Vincent wins the Class 2 District 1 football title",
+    "text": "The football team beat Kelly 42\u201325 in the district final."
+   },
+   {
+    "score": 55,
+    "headline": "St. Vincent football's 9 wins are its second-most since 2010",
+    "text": ""
+   }
+  ],
+  "odds": {
+   "district_title": "61%",
+   "final_four": "<1%",
+   "state_final": "0%",
+   "state_title": "0%"
+  },
+  "history": {
+   "first": 2010,
+   "seasons": 16,
+   "wins_rank": 2,
+   "better_years": [
+    2024
+   ],
+   "tied_years": [
+    2023
+   ],
+   "ovr_rank": 2,
+   "ovr_better_years": [
+    2024
+   ],
+   "max_wins": 12
+  }
+ },
+ "st-vincent/boys_soccer": {
+  "sport": "boys_soccer",
+  "label": "Boys soccer",
+  "emoji": "\u26bd",
+  "state": "wrapup",
+  "team": "Saxony Lutheran with St. Vincent",
+  "co_op": "Saxony Lutheran with St. Vincent",
+  "classification": 1,
+  "district": 1,
+  "class_rank": 8,
+  "class_size": 42,
+  "class_rank_prev": 7,
+  "state_rank": 112,
+  "state_size": 226,
+  "ovr": -0.28,
+  "ovr_prev": -0.1,
+  "record": "10-9",
+  "wins": 10,
+  "losses": 9,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "St. Vincent boys soccer wraps up at 10-9",
+    "text": ""
+   }
+  ],
+  "history": null
+ },
+ "st-vincent/girls_volleyball": {
+  "sport": "girls_volleyball",
+  "label": "Girls volleyball",
+  "emoji": "\ud83c\udfd0",
+  "state": "wrapup",
+  "team": "St. Vincent",
+  "co_op": null,
+  "classification": 3,
+  "district": 2,
+  "class_rank": 45,
+  "class_size": 91,
+  "class_rank_prev": 45,
+  "state_rank": 183,
+  "state_size": 444,
+  "ovr": 0.43,
+  "ovr_prev": 0.43,
+  "record": "7-15-1",
+  "wins": 7,
+  "losses": 15,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "St. Vincent girls volleyball wraps up at 7-15-1",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2012,
+   "seasons": 14,
+   "wins_rank": 14,
+   "better_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "tied_years": [
+    2019
+   ],
+   "ovr_rank": 13,
+   "ovr_better_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "max_wins": 28
+  }
+ },
+ "st-vincent/fall_softball": {
+  "sport": "fall_softball",
+  "label": "Fall softball",
+  "emoji": "\ud83e\udd4e",
+  "state": "wrapup",
+  "team": "Saxony Lutheran with St. Vincent",
+  "co_op": "Saxony Lutheran with St. Vincent",
+  "classification": 3,
+  "district": 1,
+  "class_rank": 28,
+  "class_size": 59,
+  "class_rank_prev": 28,
+  "state_rank": 138,
+  "state_size": 304,
+  "ovr": 0.6,
+  "ovr_prev": 0.6,
+  "record": "12-8",
+  "wins": 12,
+  "losses": 8,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "St. Vincent fall softball wraps up at 12-8",
+    "text": ""
+   }
+  ],
+  "history": null
+ },
+ "st-vincent/boys_basketball": {
+  "sport": "boys_basketball",
+  "label": "Boys basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "St. Vincent",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [
+   "the most wins in our records, which start in 2012\u201313"
+  ],
+  "stories": [
+   {
+    "score": 32,
+    "headline": "St. Vincent boys basketball opens after a #15 finish in Class 2",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 2,
+  "class_rank": 15,
+  "class_size": 110,
+  "record": "22-7",
+  "wins": 22,
+  "losses": 7,
+  "last_season": "2025-26"
+ },
+ "st-vincent/girls_basketball": {
+  "sport": "girls_basketball",
+  "label": "Girls basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "St. Vincent",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 40,
+    "headline": "St. Vincent girls basketball opens after a #5 finish in Class 3",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 3,
+  "class_rank": 5,
+  "class_size": 91,
+  "record": "24-8",
+  "wins": 24,
+  "losses": 8,
+  "last_season": "2025-26"
+ },
+ "st-vincent/baseball": {
+  "sport": "baseball",
+  "label": "Baseball",
+  "emoji": "\u26be",
+  "team": "St. Vincent",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 2,
+  "class_rank": 37,
+  "class_size": 96,
+  "record": "10-13",
+  "wins": 10,
+  "losses": 13,
+  "last_season": "2026"
+ },
+ "st-vincent/girls_soccer": {
+  "sport": "girls_soccer",
+  "label": "Girls soccer",
+  "emoji": "\u26bd",
+  "team": "St. Vincent",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 2,
+  "class_rank": 1,
+  "class_size": 60,
+  "record": "21-3",
+  "wins": 21,
+  "losses": 3,
+  "last_season": "2026"
+ },
+ "st-vincent/spring_softball": {
+  "sport": "spring_softball",
+  "label": "Spring softball",
+  "emoji": "\ud83e\udd4e",
+  "team": "St. Vincent",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "blue-springs/football": {
+  "sport": "football",
+  "label": "Football",
+  "emoji": "\ud83c\udfc8",
+  "state": "live",
+  "team": "Blue Springs",
+  "co_op": null,
+  "classification": 6,
+  "district": 6,
+  "class_rank": 1,
+  "class_size": 42,
+  "class_rank_prev": 2,
+  "state_rank": 1,
+  "state_size": 300,
+  "ovr": 71.83,
+  "ovr_prev": 69.72,
+  "record": "9-2",
+  "wins": 9,
+  "losses": 2,
+  "results": [
+   {
+    "date": "2026-11-13",
+    "opp": "Blue Springs South",
+    "us": 44,
+    "them": 17,
+    "result": "W",
+    "opp_class_rank": 10,
+    "forfeit": false,
+    "ot": false,
+    "round": "District final",
+    "off_delta": 9,
+    "def_delta": 5
+   }
+  ],
+  "next": [
+   {
+    "date": "2026-11-20",
+    "opp": "Nixa",
+    "opp_class_rank": 9,
+    "opp_record": "10-1",
+    "round": "State quarterfinal",
+    "opp_classification": 6,
+    "proj": [
+     35,
+     24
+    ],
+    "win_prob": 0.8282,
+    "preview_id": "2026-11-20-nixa-vs-blue-springs"
+   }
+  ],
+  "notes": [],
+  "stories": [
+   {
+    "score": 95,
+    "headline": "Blue Springs wins the Class 6 District 6 football title",
+    "text": "The football team beat Blue Springs South 44\u201317 in the district final."
+   },
+   {
+    "score": 49,
+    "headline": "Blue Springs football is ranked #1 in Class 6",
+    "text": ""
+   }
+  ],
+  "odds": {
+   "district_title": "62%",
+   "final_four": "50%",
+   "state_final": "34%",
+   "state_title": "19%"
+  },
+  "history": {
+   "first": 2010,
+   "seasons": 16,
+   "wins_rank": 5,
+   "better_years": [
+    2012,
+    2013,
+    2016,
+    2017
+   ],
+   "tied_years": [
+    2010,
+    2018
+   ],
+   "ovr_rank": 2,
+   "ovr_better_years": [
+    2013
+   ],
+   "max_wins": 14
+  }
+ },
+ "blue-springs/boys_soccer": {
+  "sport": "boys_soccer",
+  "label": "Boys soccer",
+  "emoji": "\u26bd",
+  "state": "wrapup",
+  "team": "Blue Springs",
+  "co_op": null,
+  "classification": 4,
+  "district": 7,
+  "class_rank": 14,
+  "class_size": 64,
+  "class_rank_prev": 14,
+  "state_rank": 18,
+  "state_size": 226,
+  "ovr": 4.91,
+  "ovr_prev": 4.92,
+  "record": "15-4",
+  "wins": 15,
+  "losses": 4,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 78,
+    "headline": "Blue Springs boys soccer has its most wins in our records (15, back to 2012)",
+    "text": ""
+   },
+   {
+    "score": 30,
+    "headline": "Blue Springs boys soccer wraps up at 15-4",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2012,
+   "seasons": 14,
+   "wins_rank": 1,
+   "better_years": [],
+   "tied_years": [
+    2021
+   ],
+   "ovr_rank": 1,
+   "ovr_better_years": [],
+   "max_wins": 15
+  }
+ },
+ "blue-springs/girls_volleyball": {
+  "sport": "girls_volleyball",
+  "label": "Girls volleyball",
+  "emoji": "\ud83c\udfd0",
+  "state": "wrapup",
+  "team": "Blue Springs",
+  "co_op": null,
+  "classification": 5,
+  "district": 7,
+  "class_rank": 16,
+  "class_size": 68,
+  "class_rank_prev": 16,
+  "state_rank": 21,
+  "state_size": 444,
+  "ovr": 4.53,
+  "ovr_prev": 4.53,
+  "record": "18-14",
+  "wins": 18,
+  "losses": 14,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "Blue Springs girls volleyball wraps up at 18-14",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2012,
+   "seasons": 14,
+   "wins_rank": 7,
+   "better_years": [
+    2012,
+    2014,
+    2015,
+    2019,
+    2021,
+    2024
+   ],
+   "tied_years": [
+    2016
+   ],
+   "ovr_rank": 10,
+   "ovr_better_years": [
+    2012,
+    2014,
+    2015,
+    2016,
+    2018,
+    2019,
+    2020,
+    2021,
+    2024
+   ],
+   "max_wins": 25
+  }
+ },
+ "blue-springs/fall_softball": {
+  "sport": "fall_softball",
+  "label": "Fall softball",
+  "emoji": "\ud83e\udd4e",
+  "state": "wrapup",
+  "team": "Blue Springs",
+  "co_op": null,
+  "classification": 5,
+  "district": 7,
+  "class_rank": 24,
+  "class_size": 59,
+  "class_rank_prev": 24,
+  "state_rank": 48,
+  "state_size": 304,
+  "ovr": 7.63,
+  "ovr_prev": 7.63,
+  "record": "10-18",
+  "wins": 10,
+  "losses": 18,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "Blue Springs fall softball wraps up at 10-18",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2012,
+   "seasons": 14,
+   "wins_rank": 15,
+   "better_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "tied_years": [],
+   "ovr_rank": 15,
+   "ovr_better_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "max_wins": 29
+  }
+ },
+ "blue-springs/boys_basketball": {
+  "sport": "boys_basketball",
+  "label": "Boys basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "Blue Springs",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 20,
+    "headline": "Blue Springs boys basketball opens after a #31 finish in Class 6",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 6,
+  "class_rank": 31,
+  "class_size": 64,
+  "record": "11-16",
+  "wins": 11,
+  "losses": 16,
+  "last_season": "2025-26"
+ },
+ "blue-springs/girls_basketball": {
+  "sport": "girls_basketball",
+  "label": "Girls basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "Blue Springs",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 20,
+    "headline": "Blue Springs girls basketball opens after a #32 finish in Class 6",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 6,
+  "class_rank": 32,
+  "class_size": 64,
+  "record": "13-15",
+  "wins": 13,
+  "losses": 15,
+  "last_season": "2025-26"
+ },
+ "blue-springs/baseball": {
+  "sport": "baseball",
+  "label": "Baseball",
+  "emoji": "\u26be",
+  "team": "Blue Springs",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 6,
+  "class_rank": 41,
+  "class_size": 62,
+  "record": "9-26",
+  "wins": 9,
+  "losses": 26,
+  "last_season": "2026"
+ },
+ "blue-springs/girls_soccer": {
+  "sport": "girls_soccer",
+  "label": "Girls soccer",
+  "emoji": "\u26bd",
+  "team": "Blue Springs",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 4,
+  "class_rank": 41,
+  "class_size": 64,
+  "record": "9-14",
+  "wins": 9,
+  "losses": 14,
+  "last_season": "2026"
+ },
+ "blue-springs/spring_softball": {
+  "sport": "spring_softball",
+  "label": "Spring softball",
+  "emoji": "\ud83e\udd4e",
+  "team": "Blue Springs",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "rockhurst/football": {
+  "sport": "football",
+  "label": "Football",
+  "emoji": "\ud83c\udfc8",
+  "state": "live",
+  "team": "Rockhurst",
+  "co_op": null,
+  "classification": 6,
+  "district": 7,
+  "class_rank": 5,
+  "class_size": 42,
+  "class_rank_prev": 7,
+  "state_rank": 6,
+  "state_size": 300,
+  "ovr": 63.52,
+  "ovr_prev": 60.99,
+  "record": "7-4",
+  "wins": 7,
+  "losses": 4,
+  "results": [
+   {
+    "date": "2026-11-13",
+    "opp": "Raymore-Peculiar",
+    "us": 24,
+    "them": 16,
+    "result": "W",
+    "opp_class_rank": 4,
+    "forfeit": false,
+    "ot": false,
+    "round": "District final",
+    "off_delta": 3,
+    "def_delta": 6
+   }
+  ],
+  "next": [
+   {
+    "date": "2026-11-20",
+    "opp": "Liberty North",
+    "opp_class_rank": 6,
+    "opp_record": "8-3",
+    "round": "State quarterfinal",
+    "opp_classification": 6,
+    "proj": [
+     24,
+     21
+    ],
+    "win_prob": 0.503,
+    "h2h": {
+     "since": 2019,
+     "w": 0,
+     "l": 6
+    },
+    "preview_id": "2026-11-20-rockhurst-vs-liberty-north"
+   }
+  ],
+  "notes": [],
+  "stories": [
+   {
+    "score": 95,
+    "headline": "Rockhurst wins the Class 6 District 7 football title",
+    "text": "The football team beat Raymore-Peculiar 24\u201316 in the district final."
+   },
+   {
+    "score": 45,
+    "headline": "Rockhurst football is ranked #5 in Class 6",
+    "text": ""
+   }
+  ],
+  "odds": {
+   "district_title": "22%",
+   "final_four": "12%",
+   "state_final": "6%",
+   "state_title": "2%"
+  },
+  "history": {
+   "first": 2010,
+   "seasons": 16,
+   "wins_rank": 10,
+   "better_years": [
+    2010,
+    2011,
+    2012,
+    2014,
+    2016,
+    2017,
+    2018,
+    2023,
+    2025
+   ],
+   "tied_years": [
+    2019
+   ],
+   "ovr_rank": 4,
+   "ovr_better_years": [
+    2010,
+    2012,
+    2014
+   ],
+   "max_wins": 14
+  }
+ },
+ "rockhurst/boys_soccer": {
+  "sport": "boys_soccer",
+  "label": "Boys soccer",
+  "emoji": "\u26bd",
+  "state": "live",
+  "team": "Rockhurst",
+  "co_op": null,
+  "classification": 4,
+  "district": 7,
+  "class_rank": 1,
+  "class_size": 64,
+  "class_rank_prev": 1,
+  "state_rank": 1,
+  "state_size": 226,
+  "ovr": 7.92,
+  "ovr_prev": 8.38,
+  "record": "20-1-1",
+  "wins": 20,
+  "losses": 1,
+  "results": [
+   {
+    "date": "2026-11-14",
+    "opp": "Liberty North",
+    "us": 0,
+    "them": 2,
+    "result": "L",
+    "opp_class_rank": 3,
+    "forfeit": false,
+    "ot": false,
+    "round": null
+   }
+  ],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 74,
+    "headline": "Rockhurst boys soccer's season ends at 20-1-1",
+    "text": "A 0\u20132 playoff loss to Liberty North ends a season that finished #1 in Class 4."
+   },
+   {
+    "score": 49,
+    "headline": "Rockhurst boys soccer is ranked #1 in Class 4",
+    "text": ""
+   }
+  ],
+  "eliminated": {
+   "opp": "Liberty North",
+   "us": 0,
+   "them": 2,
+   "round": null
+  },
+  "history": {
+   "first": 2012,
+   "seasons": 14,
+   "wins_rank": 11,
+   "better_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "tied_years": [
+    2018
+   ],
+   "ovr_rank": 1,
+   "ovr_better_years": [],
+   "max_wins": 27
+  }
+ },
+ "rockhurst/girls_volleyball": {
+  "sport": "girls_volleyball",
+  "label": "Girls volleyball",
+  "state": "none",
+  "results": [],
+  "next": [],
+  "stories": [],
+  "notes": []
+ },
+ "rockhurst/fall_softball": {
+  "sport": "fall_softball",
+  "label": "Fall softball",
+  "state": "none",
+  "results": [],
+  "next": [],
+  "stories": [],
+  "notes": []
+ },
+ "rockhurst/boys_basketball": {
+  "sport": "boys_basketball",
+  "label": "Boys basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "Rockhurst",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [
+   "the most wins in our records, which start in 2012\u201313"
+  ],
+  "stories": [
+   {
+    "score": 40,
+    "headline": "Rockhurst boys basketball opens after a #3 finish in Class 6",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 6,
+  "class_rank": 3,
+  "class_size": 64,
+  "record": "28-2",
+  "wins": 28,
+  "losses": 2,
+  "last_season": "2025-26"
+ },
+ "rockhurst/girls_basketball": {
+  "sport": "girls_basketball",
+  "label": "Girls basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "Rockhurst",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "rockhurst/baseball": {
+  "sport": "baseball",
+  "label": "Baseball",
+  "emoji": "\u26be",
+  "team": "Rockhurst",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 6,
+  "class_rank": 4,
+  "class_size": 62,
+  "record": "26-17",
+  "wins": 26,
+  "losses": 17,
+  "last_season": "2026"
+ },
+ "rockhurst/girls_soccer": {
+  "sport": "girls_soccer",
+  "label": "Girls soccer",
+  "emoji": "\u26bd",
+  "team": "Rockhurst",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "rockhurst/spring_softball": {
+  "sport": "spring_softball",
+  "label": "Spring softball",
+  "emoji": "\ud83e\udd4e",
+  "team": "Rockhurst",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "east-prairie/football": {
+  "sport": "football",
+  "label": "Football",
+  "emoji": "\ud83c\udfc8",
+  "state": "wrapup",
+  "team": "East Prairie",
+  "co_op": null,
+  "classification": 2,
+  "district": 1,
+  "class_rank": 51,
+  "class_size": 54,
+  "class_rank_prev": 51,
+  "state_rank": 293,
+  "state_size": 300,
+  "ovr": -70.11,
+  "ovr_prev": -69.61,
+  "record": "1-9",
+  "wins": 1,
+  "losses": 9,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 30,
+    "headline": "East Prairie football wraps up at 1-9",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2010,
+   "seasons": 16,
+   "wins_rank": 13,
+   "better_years": [
+    2010,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "tied_years": [
+    2011,
+    2013,
+    2025
+   ],
+   "ovr_rank": 17,
+   "ovr_better_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "max_wins": 8
+  }
+ },
+ "east-prairie/boys_soccer": {
+  "sport": "boys_soccer",
+  "label": "Boys soccer",
+  "state": "none",
+  "results": [],
+  "next": [],
+  "stories": [],
+  "notes": []
+ },
+ "east-prairie/girls_volleyball": {
+  "sport": "girls_volleyball",
+  "label": "Girls volleyball",
+  "emoji": "\ud83c\udfd0",
+  "state": "wrapup",
+  "team": "East Prairie",
+  "co_op": null,
+  "classification": 2,
+  "district": 2,
+  "class_rank": 59,
+  "class_size": 106,
+  "class_rank_prev": 59,
+  "state_rank": 302,
+  "state_size": 444,
+  "ovr": -1.63,
+  "ovr_prev": -1.63,
+  "record": "15-12",
+  "wins": 15,
+  "losses": 12,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 55,
+    "headline": "East Prairie girls volleyball's 15 wins are its second-most since 2019",
+    "text": ""
+   },
+   {
+    "score": 30,
+    "headline": "East Prairie girls volleyball wraps up at 15-12",
+    "text": ""
+   }
+  ],
+  "history": {
+   "first": 2019,
+   "seasons": 7,
+   "wins_rank": 2,
+   "better_years": [
+    2022
+   ],
+   "tied_years": [
+    2024
+   ],
+   "ovr_rank": 1,
+   "ovr_better_years": [],
+   "max_wins": 18
+  }
+ },
+ "east-prairie/fall_softball": {
+  "sport": "fall_softball",
+  "label": "Fall softball",
+  "state": "none",
+  "results": [],
+  "next": [],
+  "stories": [],
+  "notes": []
+ },
+ "east-prairie/boys_basketball": {
+  "sport": "boys_basketball",
+  "label": "Boys basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "East Prairie",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 20,
+    "headline": "East Prairie boys basketball opens after a #41 finish in Class 3",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 3,
+  "class_rank": 41,
+  "class_size": 103,
+  "record": "11-14",
+  "wins": 11,
+  "losses": 14,
+  "last_season": "2025-26"
+ },
+ "east-prairie/girls_basketball": {
+  "sport": "girls_basketball",
+  "label": "Girls basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "East Prairie",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 20,
+    "headline": "East Prairie girls basketball opens after a #87 finish in Class 3",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 3,
+  "class_rank": 87,
+  "class_size": 91,
+  "record": "2-16",
+  "wins": 2,
+  "losses": 16,
+  "last_season": "2025-26"
+ },
+ "east-prairie/baseball": {
+  "sport": "baseball",
+  "label": "Baseball",
+  "emoji": "\u26be",
+  "team": "East Prairie",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 3,
+  "class_rank": 55,
+  "class_size": 82,
+  "record": "10-15",
+  "wins": 10,
+  "losses": 15,
+  "last_season": "2026"
+ },
+ "east-prairie/girls_soccer": {
+  "sport": "girls_soccer",
+  "label": "Girls soccer",
+  "emoji": "\u26bd",
+  "team": "East Prairie",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "none"
+ },
+ "east-prairie/spring_softball": {
+  "sport": "spring_softball",
+  "label": "Spring softball",
+  "emoji": "\ud83e\udd4e",
+  "team": "East Prairie",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [],
+  "state": "offseason",
+  "classification": 2,
+  "class_rank": 22,
+  "class_size": 66,
+  "record": "16-6",
+  "wins": 16,
+  "losses": 6,
+  "last_season": "2026"
+ },
+ "perryville/girls_basketball": {
+  "sport": "girls_basketball",
+  "label": "Girls basketball",
+  "emoji": "\ud83c\udfc0",
+  "team": "Perryville",
+  "co_op": null,
+  "results": [],
+  "next": [],
+  "notes": [],
+  "stories": [
+   {
+    "score": 20,
+    "headline": "Perryville girls basketball opens after a #39 finish in Class 4",
+    "text": ""
+   }
+  ],
+  "state": "preseason",
+  "classification": 4,
+  "class_rank": 39,
+  "class_size": 91,
+  "record": "15-11",
+  "wins": 15,
+  "losses": 11,
+  "last_season": "2025-26"
+ }
+}
