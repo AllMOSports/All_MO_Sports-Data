@@ -18,6 +18,10 @@ on:
       week_ending:
         description: "Sunday the week ends on (YYYY-MM-DD). Leave blank for last week."
         required: false
+      all_schools:
+        description: "Test: build an 'everything' email for every school (download the zip; not committed)"
+        type: boolean
+        default: false
       school:
         description: "Test one school by slug (e.g. st-vincent). Leave blank to use the follows file."
         required: false
@@ -53,6 +57,7 @@ jobs:
       - name: Build school reports
         env:   # inputs are passed as data, never pasted into the script
           WEEK_ENDING: ${{ github.event.inputs.week_ending }}
+          ALL_SCHOOLS: ${{ github.event.inputs.all_schools }}
           SCHOOL: ${{ github.event.inputs.school }}
           SPORTS: ${{ github.event.inputs.sports }}
           FOLLOWS: ${{ github.event.inputs.follows_file }}
@@ -62,7 +67,9 @@ jobs:
             [[ "$WEEK_ENDING" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error::week_ending must look like 2026-11-15"; exit 1; }
             args+=(--week-ending "$WEEK_ENDING")
           fi
-          if [ -n "$SCHOOL" ]; then
+          if [ "$ALL_SCHOOLS" = "true" ]; then
+            args+=(--all-schools)
+          elif [ -n "$SCHOOL" ]; then
             [[ "$SCHOOL" =~ ^[a-z0-9-]+$ ]] || { echo "::error::school must be a slug like st-vincent"; exit 1; }
             SPORTS="${SPORTS:-all}"
             [[ "$SPORTS" =~ ^(all|[a-z_]+(,[a-z_]+)*)$ ]] || { echo "::error::sports must be all or a comma list"; exit 1; }
@@ -81,6 +88,7 @@ jobs:
           path: newsletter_output/school_reports/
 
       - name: Commit reports
+        if: github.event.inputs.all_schools != 'true'   # all-school tests are only in the zip
         run: |
           git config user.name "All MO Sports Bot"
           git config user.email "actions@users.noreply.github.com"
