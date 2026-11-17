@@ -138,6 +138,9 @@ school_reports:
   season_records_dir: output/season_records   # official MSHSAA records; used for W-L when present
   logo_base_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/
   manage_url: https://allmosports.com/account/
+  # The per-school web report (WPCode snippet: school_report_snippet.html). {slug} is filled in.
+  report_page_url: "https://allmosports.com/school-report/?school={slug}"
+  report_data_dir: output/school_reports
   default_colors: {primary: "#0b2a55", accent: "#fdb930"}
   # Override colors pulled from a logo, if they look wrong:
   # school_colors:
@@ -181,16 +184,18 @@ school_reports:
   # when a sport that isn't live yet shows up as "Up next".
   # blowout_margin: if a projected score is this lopsided, the email says
   # "Our ratings have X heavily favored" instead of the score and win chance.
+  # beat_margin: winning by this much more than the pre-game projection makes a story.
+  # project_scores: show a projected score (otherwise just who's favored, as in volleyball).
   # postseason_start: first day of district play (APPROXIMATE, check each year).
   # Sets the season arc: early (first 3 games) -> mid -> late (3 weeks before
   # districts: district outlook, seed watch) -> playoffs.
   sports:
-    football:         {label: Football,         blowout_margin: 35,         emoji: "🏈", season: fall,   preview_page: "https://allmosports.com/football-playoff-hub/", postseason_start: 2026-10-30}
-    boys_soccer:      {label: Boys soccer,      blowout_margin: 5,      emoji: "⚽", season: fall,   project_scores: true, postseason_start: 2026-10-26}
+    football:         {label: Football,         blowout_margin: 35,         emoji: "🏈", season: fall,   preview_page: "https://allmosports.com/football-playoff-hub/", postseason_start: 2026-10-30, beat_margin: 14}
+    boys_soccer:      {label: Boys soccer,      blowout_margin: 5,      emoji: "⚽", season: fall,   project_scores: true, postseason_start: 2026-10-26, beat_margin: 2}
     girls_volleyball: {label: Girls volleyball, emoji: "🏐", season: fall, postseason_start: 2026-10-19}
-    fall_softball:    {label: Fall softball,    blowout_margin: 8,    emoji: "🥎", season: fall,   project_scores: true, postseason_start: 2026-10-05}
-    boys_basketball:  {label: Boys basketball,  blowout_margin: 30,  emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27}
-    girls_basketball: {label: Girls basketball, blowout_margin: 30, emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27}
-    baseball:         {label: Baseball,         blowout_margin: 8,         emoji: "⚾", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-15}
-    girls_soccer:     {label: Girls soccer,     blowout_margin: 5,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10}
-    spring_softball:  {label: Spring softball,  blowout_margin: 8,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10}
+    fall_softball:    {label: Fall softball,    blowout_margin: 8,    emoji: "🥎", season: fall,   project_scores: true, postseason_start: 2026-10-05, beat_margin: 4}
+    boys_basketball:  {label: Boys basketball,  blowout_margin: 30,  emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27, beat_margin: 12, project_scores: true}
+    girls_basketball: {label: Girls basketball, blowout_margin: 30, emoji: "🏀", season: winter, start: 2026-11-30, end: 2027-03-13, last_season_label: "2025-26", postseason_start: 2027-02-27, beat_margin: 12, project_scores: true}
+    baseball:         {label: Baseball,         blowout_margin: 8,         emoji: "⚾", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-15, beat_margin: 4, project_scores: true}
+    girls_soccer:     {label: Girls soccer,     blowout_margin: 5,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10, beat_margin: 2, project_scores: true}
+    spring_softball:  {label: Spring softball,  blowout_margin: 8,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10, beat_margin: 4, project_scores: true}

@@ -209,6 +209,81 @@ class Data:
         with open(os.path.join(root, dates[-1], f"{sport}.json"), encoding="utf-8") as f:
             return json.load(f), dates[-1]
 
+    def snapshots(self, sport):
+        """Every saved ratings snapshot for a sport, oldest first: [(date, {school: row}, league_average)]."""
+        key = ("snaps", sport)
+        if key not in self._sos:
+            out = []
+            root = os.path.join(self.out_dir, "snapshots")
+            if os.path.isdir(root):
+                for x in sorted(os.listdir(root)):
+                    f = os.path.join(root, x, f"{sport}.json")
+                    if x <= self.as_of and os.path.exists(f):
+                        with open(f, encoding="utf-8") as fh:
+                            raw = json.load(fh)
+                        out.append((x, {t["school"]: t for t in teams_of(raw)},
+                                    raw.get("league_average") if isinstance(raw, dict) else None))
+            self._sos[key] = out
+        return self._sos[key]
+
+    def pregame(self, sport, team, opp, game_date):
+        """Projection from the latest snapshot taken on or before the game date
+        (so the game itself isn't baked into the ratings). None if none is close enough."""
+        snaps = [x for x in self.snapshots(sport) if x[0] <= game_date and (d(game_date) - d(x[0])).days <= 14]
+        if snaps:
+            date, rows, la = snaps[-1]
+            if team in rows and opp in rows:
+                pr = project(self.rcfg, sport, rows[team], rows[opp], la)
+                if pr:
+                    pr["source"] = f"ratings of {date}"
+                    return pr
+        if sport == "football" and self.fb_sched:          # fallback: the football schedule's own projection
+            g = next((x for x in (self.fb_sched.get("teams") or {}).get(team, [])
+                      if x["date"][:10] == game_date and x.get("predicted_team_score") is not None), None)
+            if g:
+                return {"a": g["predicted_team_score"], "b": g["predicted_opp_score"],
+                        "score": (round(g["predicted_team_score"]), round(g["predicted_opp_score"])),
+                        "source": "football schedule projection"}
+        return None
+
+    def trend(self, sport, team):
+        """Week-by-week class ranks (OVR, OFF, DEF) and statewide schedule-strength rank."""
+        out = []
+        live = self.live(sport)
+        snaps = self.snapshots(sport)
+        for i, (date, rows, la) in enumerate(snaps):
+            if i + 1 < len(snaps) and (d(snaps[i + 1][0]) - d(date)).days <= 2:
+                continue
+            me = rows.get(team)
+            if not me:
+                continue
+            same = [t for t in rows.values() if t.get("classification") == me.get("classification")]
+            rk = lambda field: (1 + sum(1 for t in same if (t.get(field) if t.get(field) is not None else -999)
+                                        > (me.get(field) if me.get(field) is not None else -999)))
+            pt = {"date": date, "ovr": rk("ovr_rating"), "class_size": len(same), "ovr_rating": me.get("ovr_rating")}
+            if me.get("off_rating") is not None:
+                pt["off"], pt["def"] = rk("off_rating"), rk("def_rating")
+            sos = self.sos_on(sport, date, rows, live["games"] if live else []).get(team)
+            if sos:
+                pt["sos"], pt["sos_of"] = sos[0], sos[1]
+            out.append(pt)
+        return out
+
+    def sos_on(self, sport, date, rows, games):
+        key = ("sos_on", sport, date)
+        if key not in self._sos:
+            opps = {}
+            for g in games:
+                if not is_played(g) or g["date"] > date:
+                    continue
+                for a, b in ((g["team1"], g["team2"]), (g["team2"], g["team1"])):
+                    if b in rows and rows[b].get("ovr_rating") is not None:
+                        opps.setdefault(a, []).append(rows[b]["ovr_rating"])
+            avg = {t: sum(v) / len(v) for t, v in opps.items() if len(v) >= 3 and t in rows}
+            order = sorted(avg, key=lambda t: -avg[t])
+            self._sos[key] = {t: (i + 1, len(order)) for i, t in enumerate(order)}
+        return self._sos[key]
+
     def official_record(self, sport, team):
         """(wins, losses, ties) from MSHSAA's season records page, if we have it.
         Only used when those records were scraped around this report's date,
@@ -293,7 +368,25 @@ class Data:
 
 # Kinds that report a one-time event: repeating the kind is fine, only the
 # exact same headline counts as a repeat.
-EVENT_KINDS = {"district_title", "state_title", "playoff_win", "playoff_loss", "eliminated", "upset", "best_win"}
+EVENT_KINDS = {"district_title", "state_title", "playoff_win", "playoff_loss", "eliminated", "upset", "best_win",
+               "beat_projection"}
+
+
+def project(rcfg, sport, me, opp, la):
+    """Same formula as the Matchup Predictor: OFF - opponent DEF + league average.
+    Returns raw expected points for each side plus a display score (None for
+    volleyball, where only the favorite is shown)."""
+    if la is None or me.get("off_rating") is None or opp.get("off_rating") is None \
+            or me.get("def_rating") is None or opp.get("def_rating") is None:
+        return None
+    a = me["off_rating"] - opp["def_rating"] + la
+    b = opp["off_rating"] - me["def_rating"] + la
+    if sport == "football":
+        return {"a": a, "b": b, "score": predict_football(me, opp, la)}
+    if rcfg["sports"][sport].get("project_scores"):
+        sc = (max(0, round(a)), max(0, round(b)))
+        return {"a": a, "b": b, "score": sc if sc[0] != sc[1] else None}
+    return {"a": a, "b": b, "score": None}
 
 
 def story(kind, score, headline, text=""):
@@ -394,24 +487,50 @@ def build_live_section(data, sport, slug, school, team, live):
            "record": fmt_rec(rec), "wins": rec[0], "losses": rec[1],
            "results": [], "next": [], "notes": [], "stories": []}
 
-    # Football: projections the team was given for last week's games.
-    fb_pred = {}
-    if sport == "football" and data.fb_sched:
-        for g in (data.fb_sched.get("teams") or {}).get(team, []):
-            fb_pred[g["date"]] = g
+    # Every game this season with its pre-game projection (for the result
+    # breakdown, season-best tags and the report page's schedule table).
+    cutoff = meta.get("blowout_margin") or 999
+    season_games = []
+    for g in mine:
+        row = {"date": g["date"], "opp": g["opp"], "played": g["played"],
+               "us": g["us"] if g["played"] else None, "them": g["them"] if g["played"] else None,
+               "opp_class_rank": opp_rank(g["opp"]),
+               "round": football_round(rcfg, g["date"]) if sport == "football" else None}
+        if g["played"]:
+            row["result"] = "W" if g["us"] > g["them"] else ("L" if g["us"] < g["them"] else "T")
+        pr = data.pregame(sport, team, g["opp"], g["date"])
+        if pr:
+            row["proj"] = list(pr["score"]) if pr.get("score") else None
+            row["proj_favored"] = team if pr["a"] >= pr["b"] else g["opp"]
+            if pr.get("score") and (min(pr["a"], pr["b"]) < 0 or abs(pr["a"] - pr["b"]) >= cutoff):
+                row["proj"] = None                      # don't print a lopsided or impossible score
+                row["heavy_favorite"] = row["proj_favored"]
+            # Compare only against sensible projections (no negative or blowout ones).
+            if g["played"] and pr.get("score") and min(pr["a"], pr["b"]) >= 0 and abs(pr["a"] - pr["b"]) < cutoff:
+                row["off_delta"] = round(g["us"] - pr["a"])
+                row["def_delta"] = round(pr["b"] - g["them"])
+                row["margin_delta"] = round((g["us"] - g["them"]) - (pr["a"] - pr["b"]))
+        season_games.append(row)
+    sec["season_games"] = season_games
+    sec["trend"] = data.trend(sport, team)
+    compared = [x for x in season_games if x.get("off_delta") is not None]
 
     for g in this_week:
-        res = "W" if g["us"] > g["them"] else ("L" if g["us"] < g["them"] else "T")
-        r = {"date": g["date"], "opp": g["opp"], "us": g["us"], "them": g["them"], "result": res,
-             "opp_class_rank": opp_rank(g["opp"]), "forfeit": g["forfeit"], "ot": g["ot"],
-             "round": football_round(rcfg, g["date"]) if sport == "football" else None}
-        p = fb_pred.get(g["date"])
-        cutoff = meta.get("blowout_margin") or 999
-        if p and p.get("predicted_team_score") is not None and p.get("predicted_opp_score") is not None \
-                and min(p["predicted_team_score"], p["predicted_opp_score"]) >= 0 \
-                and abs(p["predicted_team_score"] - p["predicted_opp_score"]) < cutoff:   # skip impossible or blowout projections
-            r["off_delta"] = round(g["us"] - p["predicted_team_score"])
-            r["def_delta"] = round(p["predicted_opp_score"] - g["them"])
+        row = next(x for x in season_games if x["date"] == g["date"] and x["opp"] == g["opp"])
+        r = {**row, "forfeit": g["forfeit"], "ot": g["ot"]}
+        tags = []
+        if len(compared) >= 4 and r.get("off_delta") is not None:
+            if r["off_delta"] == max(x["off_delta"] for x in compared) and r["off_delta"] > 0:
+                tags.append("best offensive game of the season")
+            if r["def_delta"] == max(x["def_delta"] for x in compared) and r["def_delta"] > 0:
+                tags.append("best defensive game of the season")
+            if not tags and r["margin_delta"] == max(x["margin_delta"] for x in compared) and r["margin_delta"] > 0:
+                tags.append("best all-around game of the season")
+        if r.get("result") == "W":
+            if r.get("proj_favored"):
+                if r["proj_favored"] != team:
+                    tags.insert(0, "won as the underdog")
+        r["tags"] = tags
         sec["results"].append(r)
 
     for g in upcoming[:2]:
@@ -446,6 +565,9 @@ def build_live_section(data, sport, slug, school, team, live):
                     n["favored"] = team if a > b else g["opp"]
             else:
                 n["favored"] = team if me["ovr_rating"] >= opp["ovr_rating"] else g["opp"]
+        if n.get("proj") and abs(n["proj"][0] - n["proj"][1]) >= (meta.get("blowout_margin") or 999):
+            n["heavy_favorite"] = team if n["proj"][0] > n["proj"][1] else g["opp"]
+        n["meetings"] = last_meetings(data, sport, slug, team, g["opp"], mine)
         sec["next"].append(n)
 
     # Knocked out of the playoffs: lost its last game, nothing left on its
@@ -464,6 +586,13 @@ def build_live_section(data, sport, slug, school, team, live):
     hc = history_context(data, sport, slug, rec[0], rec[1], sec["ovr"]) if sec["co_op"] is None else None
     sec["history"] = hc
     sec["season_year"] = int(data.week_end[:4])
+    if sec.get("classification") and sec.get("district"):
+        mates = sorted((t for t in teams if t.get("classification") == sec["classification"] and t.get("district") == sec["district"]),
+                       key=lambda t: -(t.get("ovr_rating") or -999))
+        sec["district_table"] = [{"team": t["school"], "class_rank": class_rank(teams, t["school"])[1],
+                                  "record": fmt_rec(list(data.official_record(sport, t["school"]) or live["records"].get(t["school"], [0, 0, 0]))),
+                                  "ovr": t.get("ovr_rating"), "off": t.get("off_rating"), "def": t.get("def_rating"),
+                                  "me": t["school"] == team} for t in mates]
     remaining = sum(1 for g in mine if not g["played"] and g["date"] > data.week_end)
     sec["sport_finished"] = (sport_last or "") >= data.week_start and not sport_has_future
     add_season_arc(data, sec, sport, team, teams, played, remaining, school)
@@ -595,6 +724,11 @@ def add_live_stories(sec, rcfg, school):
         elif r["result"] == "L" and sec["wins"] > sec["losses"]:     # only a winning season's end is a headline
             S.append(story("playoff_loss", 80, f"{name}'s {label} season ends in the {rnd.lower()} at {sec['record']}",
                            f"Lost to {r['opp']} {r['us']}–{r['them']}."))
+    big = rcfg["sports"][sec["sport"]].get("beat_margin")
+    for r in sec["results"]:
+        if big and r["result"] == "W" and (r.get("margin_delta") or 0) >= big:
+            S.append(story("beat_projection", 50, f"{name} {label} beats its projection by {r['margin_delta']} in a {r['us']}–{r['them']} win over {r['opp']}",
+                           f"Our ratings projected {r['proj'][0]}–{r['proj'][1]} before the game."))
     el = sec.get("eliminated")
     if el and not el.get("round") and sec["wins"] > sec["losses"]:     # football rounds are handled above
         top = sec["class_rank"] and sec["class_rank"] <= 10
@@ -701,6 +835,31 @@ def build_section(data, sport, slug):
                "results": [], "next": [], "stories": [], "notes": []}
         return sec
     return build_offline_section(data, sport, slug, school)
+
+
+def last_meetings(data, sport, slug, team, opp, current_rows, limit=3):
+    """Most recent meetings with this opponent: this season first, then past seasons."""
+    out = [{"season": int(data.week_end[:4]), "date": g["date"], "us": g["us"], "them": g["them"]}
+           for g in current_rows if g["opp"] == opp and g["played"]]
+    school = data.schools[slug]
+    own = {school.get("name"), school.get("mshsaa_name"), team} - {None}
+    past = data.past_games(sport)
+    for n in past:
+        if n in own or data.aliases.get(n) == slug:
+            for season, rows, _ in past[n]:
+                for g in rows:
+                    if g.get("opponent") == opp and g.get("team_score") is not None:
+                        out.append({"season": int(season[:4]), "date": g["date"][:10],
+                                    "us": g["team_score"], "them": g["opp_score"]})
+    out.sort(key=lambda x: x["date"], reverse=True)
+    seen, uniq = set(), []
+    for x in out:
+        if x["date"] not in seen:
+            seen.add(x["date"])
+            uniq.append(x)
+    w = sum(1 for x in uniq if x["us"] > x["them"])
+    l = sum(1 for x in uniq if x["us"] < x["them"])
+    return {"games": uniq[:limit], "w": w, "l": l, "since": min((x["season"] for x in uniq), default=None)} if uniq else None
 
 
 def program_history(data, slug, sport):
@@ -843,6 +1002,7 @@ def render_live(sec, primary, rcfg):
     out.append(stat_box("Statewide", f"#{sec['state_rank']}" if sec.get("state_rank") else "–", f"of {sec['state_size']} teams"))
     out.append(stat_box("OVR rating", f"{sec['ovr']:.2f}" if sec.get("ovr") is not None else "–", ovr_sub, ovr_col))
     out.append('</tr></table>')
+    out.append(rank_sparkline(sec.get("trend") or [], primary))
 
     if sec["results"]:
         lines = []
@@ -852,13 +1012,17 @@ def render_live(sec, primary, rcfg):
             if r.get("round"):
                 line += f' · {esc(r["round"])}'
             if r.get("off_delta") is not None:
-                parts = []
-                if abs(r["off_delta"]) >= 3:
-                    parts.append(f"scored {abs(r['off_delta'])} {'more' if r['off_delta'] > 0 else 'fewer'} than projected")
-                if abs(r["def_delta"]) >= 3:
-                    parts.append(f"allowed {abs(r['def_delta'])} {'fewer' if r['def_delta'] > 0 else 'more'}")
-                if parts:
-                    line += f'<br><span style="color:#5b6577;">{esc(", ".join(parts).capitalize())}.</span>'
+                od, dd = r["off_delta"], r["def_delta"]
+                sign = lambda v: f"+{v}" if v > 0 else (f"−{abs(v)}" if v < 0 else "even")
+                line += (f'<br><span style="color:#5b6577;">Projected {r["proj"][0]}–{r["proj"][1]}. '
+                         f'Offense {sign(od)}, defense {sign(dd)} vs. the projection.</span>')
+            elif r.get("proj_favored") and not r.get("proj") and r["result"] in ("W", "L"):
+                fav = r["proj_favored"] == sec["team"]
+                if r["result"] == "L" and fav:
+                    line += '<br><span style="color:#5b6577;">Lost as the favorite.</span>'
+            for t in r.get("tags") or []:
+                line += (f'<br><span style="display:inline-block;margin-top:3px;background:#e8f3ea;color:#1e7b34;'
+                         f'font-size:11px;font-weight:bold;padding:2px 8px;border-radius:10px;">{esc(t.capitalize())}</span>')
             lines.append(f'<div style="margin-top:4px;">{line}</div>')
         out.append(f'<div style="font-size:13px;color:#3d4657;line-height:1.6;margin-top:12px;">'
                    f'<div style="font-size:12px;color:#5b6577;">Last week</div>{"".join(lines)}</div>')
@@ -875,9 +1039,8 @@ def render_live(sec, primary, rcfg):
         body = []
         if opp_bits:
             body.append(f"{esc(n['opp'])}: {esc(', '.join(opp_bits))}.")
-        cutoff = rcfg["sports"][sec["sport"]].get("blowout_margin")
-        if n.get("proj") and cutoff and abs(n["proj"][0] - n["proj"][1]) >= cutoff:
-            fav = sec["team"] if n["proj"][0] > n["proj"][1] else n["opp"]
+        if n.get("heavy_favorite"):
+            fav = n["heavy_favorite"]
             body.append(f"Our ratings have <strong>{esc(fav)}</strong> heavily favored.")
             n = {**n, "proj": None, "win_prob": None, "favored": None}
         if n.get("proj"):
@@ -890,6 +1053,13 @@ def render_live(sec, primary, rcfg):
             body.append(f"Win chance: <strong>{pct(n['win_prob'])}</strong>.")
         if n.get("h2h") and (n["h2h"]["w"] + n["h2h"]["l"]) >= 3:
             body.append(f"Series since {n['h2h']['since']}: {n['h2h']['w']}–{n['h2h']['l']}.")
+        mt = n.get("meetings")
+        if mt and mt["games"]:
+            g0 = mt["games"][0]
+            res = "W" if g0["us"] > g0["them"] else ("L" if g0["us"] < g0["them"] else "T")
+            body.append(f"Last meeting: {res} {g0['us']}–{g0['them']} ({nice_date(g0['date'], weekday=False)}, {g0['date'][:4]}).")
+            if not n.get("h2h") and mt["w"] + mt["l"] >= 3:
+                body.append(f"Series since {mt['since']}: {mt['w']}–{mt['l']}.")
         link = rcfg["sports"][sec["sport"]].get("preview_page")
         out.append(f'<div style="border:2px solid {primary};border-radius:10px;padding:12px 14px;margin-top:14px;">'
                    f'<div style="font-size:11px;color:{primary};font-weight:bold;text-transform:uppercase;letter-spacing:.5px;">{esc(tag)}</div>'
@@ -950,6 +1120,23 @@ def render_live(sec, primary, rcfg):
         out.append(f'<div style="background:#fff7e3;border-radius:8px;padding:10px 12px;margin-top:12px;font-size:13px;line-height:1.6;color:#5c4300;">{esc(txt)}</div>')
     out.append('</td></tr>')
     return "".join(out)
+
+
+def rank_sparkline(trend, color):
+    """Class rank by week as a row of bars (plain HTML table, so it shows in
+    every email client; taller bar = better rank)."""
+    pts = trend[-8:]
+    if len(pts) < 3:
+        return ""
+    cells, labels = [], []
+    for p in pts:
+        h = max(4, round(40 * (p["class_size"] - p["ovr"] + 1) / p["class_size"]))
+        cells.append(f'<td valign="bottom" align="center" style="padding:0 3px;"><div style="width:22px;height:{h}px;'
+                     f'background:{color};border-radius:3px 3px 0 0;font-size:0;line-height:0;">&nbsp;</div></td>')
+        labels.append(f'<td align="center" style="padding:2px 3px 0;font-size:10px;color:#5b6577;">#{p["ovr"]}</td>')
+    return ('<div style="margin-top:12px;"><div style="font-size:12px;color:#5b6577;margin-bottom:4px;">Class rank by week</div>'
+            f'<table role="presentation" cellpadding="0" cellspacing="0"><tr style="height:42px;">{"".join(cells)}</tr>'
+            f'<tr>{"".join(labels)}</tr></table></div>')
 
 
 def render_wrapups(secs):
@@ -1016,6 +1203,12 @@ def render_school_block(data, slug, secs, cup, show_header_label, history_item=N
         parts.append(render_preseason(pre))
     if cup:
         parts.append(render_cup(cup))
+    url = (rcfg.get("report_page_url") or "").replace("{slug}", slug)
+    if url:
+        parts.append(f'<tr><td style="padding:16px 22px;border-bottom:1px solid #e6e9ef;" align="center">'
+                     f'<a href="{esc(url)}" style="display:inline-block;background:{primary};color:#ffffff;font-size:14px;font-weight:bold;'
+                     f'text-decoration:none;padding:10px 18px;border-radius:8px;">See the full {esc(data.schools[slug]["name"])} report →</a>'
+                     '<div style="font-size:11px;color:#6b7385;margin-top:6px;">Trend charts, every game vs. our projection, and the district table</div></td></tr>')
     if history_item:
         h = history_item
         lab = rcfg["sports"][h["sport"]]["label"]
@@ -1075,6 +1268,58 @@ Ratings as of {esc(nice_date(data.as_of, weekday=False))}. Projections come from
 # Main
 # ----------------------------------------------------------------------
 
+PAGE_FIELDS = ["sport", "label", "state", "phase", "team", "co_op", "classification", "district", "record",
+               "class_rank", "class_size", "class_rank_prev", "state_rank", "state_size", "ovr", "ovr_prev",
+               "season_games", "trend", "next", "district_table", "milestone", "best_win", "sos", "quads",
+               "seed_watch", "odds", "eliminated", "last_season", "notes"]
+
+
+def build_pages(data, sections, cups, out_folder):
+    """One JSON file per school for the web report page, plus index.json for the school search."""
+    rcfg = data.rcfg
+    os.makedirs(out_folder, exist_ok=True)
+    index = []
+    for slug in sorted(data.schools):
+        secs = []
+        for k in SPORT_ORDER:
+            if (slug, k) not in sections:
+                try:
+                    sections[(slug, k)] = build_section(data, k, slug)
+                except Exception as e:
+                    print(f"[page {slug}/{k}] FAILED: {e}", file=sys.stderr)
+                    continue
+            sec = sections[(slug, k)]
+            if sec["state"] in ("live", "wrapup", "preseason"):
+                secs.append(sec)
+        if not secs:
+            continue
+        secs.sort(key=lambda x: (STATE_ORDER[x["state"]], SPORT_ORDER.index(x["sport"])))
+        stories = [st for x in secs for st in x["stories"]]
+        cup = cups.get(slug) if slug in cups else cup_section(data, slug)
+        if cup:
+            stories += cup["stories"]
+        hist = None
+        for k in (rcfg.get("program_history") or {}).get("sports", []):
+            h = program_history(data, slug, k)
+            if h and (hist is None or h["key"] > hist["key"]):
+                hist = h
+        primary, accent = logo_colors(slug, rcfg)
+        page = {"slug": slug, "school": data.schools[slug]["name"], "week_end": data.week_end, "as_of": data.as_of,
+                "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
+                "colors": {"primary": primary, "accent": accent},
+                "logo": (rcfg.get("logo_base_url") or "") + slug + ".png",
+                "big_story": max(stories, key=lambda st: st["score"]) if stories else None,
+                "sports": [{f: x.get(f) for f in PAGE_FIELDS if x.get(f) is not None} for x in secs],
+                "cup": {k: v for k, v in cup.items() if k != "stories"} if cup else None,
+                "history": {k: v for k, v in hist.items() if k != "key"} if hist else None}
+        with open(os.path.join(out_folder, f"{slug}.json"), "w", encoding="utf-8") as f:
+            json.dump(page, f, separators=(",", ":"), default=str)
+        index.append({"slug": slug, "name": page["school"]})
+    with open(os.path.join(out_folder, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"week_end": data.week_end, "schools": index}, f, separators=(",", ":"))
+    return len(index)
+
+
 def follow_signature(follows):
     """Same follows -> same email, so memory is keyed by the follow set, not the person."""
     parts = sorted(f"{fo['school']}:{'all' if fo['sports'] == 'all' else ','.join(sorted(fo['sports']))}" for fo in follows)
@@ -1095,6 +1340,9 @@ def main():
     ap.add_argument("--all-schools", action="store_true",
                     help="Test: one 'everything' email for every school in schools.json")
     ap.add_argument("--school", help="Quick test: one school slug")
+    ap.add_argument("--pages", action="store_true",
+                    help="Also write the web report data (one JSON per school) to school_reports.report_data_dir")
+    ap.add_argument("--pages-out", help="Folder for --pages output (default: the config's report_data_dir)")
     ap.add_argument("--no-state", action="store_true",
                     help="Don't update headline memory / last-sent dates (state.json). Test runs never update it.")
     ap.add_argument("--sports", default="all", help='Quick test: "all" or a comma list of sport keys')
@@ -1124,8 +1372,10 @@ def main():
     elif args.follows:
         with open(args.follows, encoding="utf-8") as f:
             subs = json.load(f)
+    elif args.pages:
+        subs = []
     else:
-        sys.exit("Give --follows FILE, --school SLUG or --all-schools.")
+        sys.exit("Give --follows FILE, --school SLUG, --all-schools or --pages.")
 
     data = Data(settings, rcfg, args.out, as_of, ws.isoformat(), we.isoformat())
 
@@ -1149,7 +1399,8 @@ def main():
     cups = {slug: cup_section(data, slug) for slug in needed}
 
     out_dir = os.path.join(args.out, "school_reports", we.isoformat())
-    os.makedirs(os.path.join(out_dir, "emails"), exist_ok=True)
+    if subs:
+        os.makedirs(os.path.join(out_dir, "emails"), exist_ok=True)
     manifest = {"week_start": ws.isoformat(), "week_end": we.isoformat(), "as_of": as_of,
                 "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "emails": [], "skipped": []}
 
@@ -1253,11 +1504,21 @@ def main():
         state["last_sent"][sig] = sorted(set(sent_before + [week_end]))[-12:]
         print(f"  {sub['id']}: {subject}" + ("  [monthly]" if monthly else ""))
 
+    if not subs:                      # pages-only run: leave the week's email files alone
+        if args.pages:
+            folder = args.pages_out or resolve(rcfg.get("report_data_dir", "output/school_reports"))
+            n = build_pages(data, sections, cups, folder)
+            print(f"Report pages: {n} school files → {folder}")
+        return
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=1)
     if save_state:
         with open(state_path, "w", encoding="utf-8") as f:
             json.dump(state, f, indent=1)
+    if args.pages:
+        folder = args.pages_out or resolve(rcfg.get("report_data_dir", "output/school_reports"))
+        n = build_pages(data, sections, cups, folder)
+        print(f"Report pages: {n} school files → {folder}")
     with open(os.path.join(out_dir, "sections.json"), "w", encoding="utf-8") as f:
         json.dump({f"{a}/{b}": v for (a, b), v in sections.items()}, f, indent=1, default=str)
     idx = ["<!DOCTYPE html><html><head><meta charset='utf-8'><title>School reports preview</title></head>"

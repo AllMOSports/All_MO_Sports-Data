@@ -138,6 +138,45 @@ Some things never become the subject line: a losing season's wrap-up or playoff 
 ### Re-running past weeks
 `--week-ending` on an old week treats games after that week as unplayed, and counts W-L from the games files, because the MSHSAA season records are only used near their scrape date. Some files only exist for today, such as Quad records, seed projections and the Cup, so back-tests show today's values for those.
 
+## Results vs. the projection, and next games
+
+- **Pre-game projections.** Every game is projected from the last ratings snapshot taken before it (within 14 days), using the Matchup Predictor formula (OFF − opponent DEF + league average). The game itself is never baked in. Football falls back to the schedule file's projection when no snapshot is close enough.
+- **The email's "Last week" lines** show the projected score and how far the offense and defense were above (+) or below (−) it. Lopsided or impossible projections (beyond `blowout_margin`, or a negative score) are left out.
+- **Tags:**
+  - "best offensive / defensive / all-around game of the season", when the team has at least 4 comparable games
+  - "won as the underdog"
+- **New story:** winning by `beat_margin` or more over the projection: "beats its projection by 17 in a 42–25 win".
+- **Next game:** last meeting, plus the series record in our data (current and past schedule files), and the matchup-preview link from `preview_page`.
+- **"Class rank by week" bars:** a plain HTML table, so it shows in every email client.
+
+## Web report page (one per school)
+
+`--pages` writes `output/school_reports/<slug>.json` for every school, plus `index.json` for the school search. It takes about 15 seconds for all schools, and the workflow runs it every time and commits the files.
+
+`school_report_snippet.html` is the WPCode snippet that turns those files into the page.
+
+**To set it up:**
+1. Create a WordPress page with the slug `school-report`.
+2. Add the snippet to it as a WPCode HTML snippet.
+3. Open `/school-report/?school=st-vincent`.
+
+Without `?school=`, the page shows a school search.
+
+**The page shows:**
+- the big story
+- for every sport:
+  - stat boxes
+  - trend charts by week (rank in class for OVR, OFF and DEF; schedule strength statewide)
+  - next games with the series history
+  - every game this season with its projection and the OFF/DEF result against it
+  - the district table with OVR, OFF and DEF
+- the All MO Sports Cup
+- program history
+
+Each email has a "See the full … report" button linking to the page, set by `report_page_url`. The snippet has no `&&` operators.
+
+**Trend charts** start from the first weekly snapshot (Oct. 7 for fall 2026). When two snapshots are 2 days apart or less, only the later one is used.
+
 ## Things to update each season
 
 - `school_reports.football.rounds`: the postseason Friday dates.
