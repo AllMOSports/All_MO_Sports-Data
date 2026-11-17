@@ -804,6 +804,8 @@ def main():
     ap.add_argument("--out", default=os.path.join(HERE, "newsletter_output"))
     ap.add_argument("--week-ending", help="Sunday the week ends on, YYYY-MM-DD (default: last full week)")
     ap.add_argument("--follows", help="JSON file: [{id, email, follows: [{school, sports}]}]")
+    ap.add_argument("--all-schools", action="store_true",
+                    help="Test: one 'everything' email for every school in schools.json")
     ap.add_argument("--school", help="Quick test: one school slug")
     ap.add_argument("--sports", default="all", help='Quick test: "all" or a comma list of sport keys')
     args = ap.parse_args()
@@ -820,7 +822,12 @@ def main():
     as_of = (we + dt.timedelta(days=1)).isoformat()   # the Monday the email goes out
     week_label = f"Week of {nice_date(as_of, weekday=False)}, {d(as_of).year}"
 
-    if args.school:
+    if args.all_schools:
+        sch = load(rcfg["schools_file"], {})
+        sch = sch.get("schools", sch)
+        slugs = sorted(sch) if isinstance(sch, dict) else sorted(x["slug"] for x in sch)
+        subs = [{"id": f"{slug}", "email": "", "follows": [{"school": slug, "sports": "all"}]} for slug in slugs]
+    elif args.school:
         subs = [{"id": f"{args.school}-{args.sports.replace(',', '-')}", "email": "",
                  "follows": [{"school": args.school,
                               "sports": "all" if args.sports == "all" else args.sports.split(",")}]}]
@@ -828,7 +835,7 @@ def main():
         with open(args.follows, encoding="utf-8") as f:
             subs = json.load(f)
     else:
-        sys.exit("Give --follows FILE or --school SLUG.")
+        sys.exit("Give --follows FILE, --school SLUG or --all-schools.")
 
     data = Data(settings, rcfg, args.out, as_of, ws.isoformat(), we.isoformat())
 
@@ -902,8 +909,15 @@ def main():
     idx = ["<!DOCTYPE html><html><head><meta charset='utf-8'><title>School reports preview</title></head>"
            "<body style='font-family:Arial,sans-serif;background:#f4f5f8;padding:20px;'>",
            f"<h1 style='font-size:20px;'>School reports · week ending {esc(we.isoformat())}</h1>"]
+    idx.append(f"<p>{len(manifest['emails'])} emails, {len(manifest['skipped'])} skipped</p>"
+               "<table style='border-collapse:collapse;font-size:13px;background:#fff;'>"
+               "<tr><th align='left' style='padding:6px;'>Email</th><th align='left' style='padding:6px;'>Subject</th>"
+               "<th align='left' style='padding:6px;'>Sections</th></tr>")
     for e in manifest["emails"]:
-        idx.append(f"<p><a href='{esc(e['file'])}'>{esc(e['id'])}</a> · {esc(e['subject'])}</p>")
+        secs = ", ".join(x.split("/", 1)[1] for x in e["sections"])
+        idx.append(f"<tr style='border-top:1px solid #ddd;'><td style='padding:6px;'><a href='{esc(e['file'])}'>{esc(e['id'])}</a></td>"
+                   f"<td style='padding:6px;'>{esc(e['subject'])}</td><td style='padding:6px;color:#666;'>{esc(secs)}</td></tr>")
+    idx.append("</table>")
     for s in manifest["skipped"]:
         idx.append(f"<p style='color:#888;'>{esc(s['id'])}: skipped ({esc(s['reason'])})</p>")
     idx.append("</body></html>")
