@@ -145,7 +145,7 @@ school_reports:
   # Leave enabled: false until the Worker is set up; then the fields below move out of the public
   # files into private_output/school_reports/ (uploaded to Cloudflare, never committed).
   private_data:
-    enabled: false
+    enabled: true
     out: private_output
     fields: [trend, district_table]
   default_colors: {primary: "#0b2a55", accent: "#fdb930"}
