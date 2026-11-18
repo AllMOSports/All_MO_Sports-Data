@@ -141,6 +141,13 @@ school_reports:
   # The per-school web report (WPCode snippet: school_report_snippet.html). {slug} is filled in.
   report_page_url: "https://allmosports.com/school-report/?school={slug}"
   report_data_dir: output/school_reports
+  # Member-only parts of each page (served by the Cloudflare data server, see README_member_data.md).
+  # Leave enabled: false until the Worker is set up; then the fields below move out of the public
+  # files into private_output/school_reports/ (uploaded to Cloudflare, never committed).
+  private_data:
+    enabled: false
+    out: private_output
+    fields: [trend, district_table]
   default_colors: {primary: "#0b2a55", accent: "#fdb930"}
   # Override colors pulled from a logo, if they look wrong:
   # school_colors:

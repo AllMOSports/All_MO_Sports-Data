@@ -229,3 +229,7 @@ Neither snippet uses `&&` operators.
 - `school_reports.sports.*.start/end`: approximate first and last game dates for winter and spring sports.
 - `school_reports.sports.*.postseason_start`: the first day of district play for each sport. These are approximate; check them.
 - When basketball ratings go live, add basketball to the newsletter `sports:` block. Its sections then switch from "Up next" to full live sections, with no code changes.
+
+## Member-only data
+
+The trend charts and district table can be served only to members through a Cloudflare data server. See README_member_data.md.

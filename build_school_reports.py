@@ -1302,10 +1302,18 @@ def page_sport(x):
     return out
 
 
-def build_pages(data, sections, cups, out_folder):
-    """One JSON file per school for the web report page, plus index.json for the school search."""
+def build_pages(data, sections, cups, out_folder, private_folder=None):
+    """One JSON file per school for the web report page, plus index.json for the school search.
+
+    With private_folder (school_reports.private_data.enabled), the member-only fields
+    (private_data.fields) are taken out of the public file and written to
+    private_folder/<slug>.json instead; that folder is uploaded to the Cloudflare data
+    server and never committed to the public repo."""
     rcfg = data.rcfg
     os.makedirs(out_folder, exist_ok=True)
+    private_fields = list(((rcfg.get("private_data") or {}).get("fields")) or ["trend", "district_table"])
+    if private_folder:
+        os.makedirs(private_folder, exist_ok=True)
     index = []
     for slug in sorted(data.schools):
         secs = []
@@ -1340,12 +1348,31 @@ def build_pages(data, sections, cups, out_folder):
                 "sports": [page_sport(x) for x in secs],
                 "cup": {k: v for k, v in cup.items() if k != "stories"} if cup else None,
                 "history": {k: v for k, v in hist.items() if k != "key"} if hist else None}
+        if private_folder:
+            deep = {}
+            for sp in page["sports"]:
+                part = {k: sp.pop(k) for k in private_fields if k in sp}
+                if part:
+                    deep[sp["sport"]] = part
+                    sp["locked"] = sorted(part)          # tells the page what to fetch from the data server
+            with open(os.path.join(private_folder, f"{slug}.json"), "w", encoding="utf-8") as f:
+                json.dump({"slug": slug, "week_end": data.week_end, "sports": deep}, f, separators=(",", ":"), default=str)
         with open(os.path.join(out_folder, f"{slug}.json"), "w", encoding="utf-8") as f:
             json.dump(page, f, separators=(",", ":"), default=str)
         index.append({"slug": slug, "name": page["school"]})
     with open(os.path.join(out_folder, "index.json"), "w", encoding="utf-8") as f:
         json.dump({"week_end": data.week_end, "schools": index}, f, separators=(",", ":"))
     return len(index)
+
+
+def private_pages_folder(rcfg, resolve):
+    """Where member-only page data goes, or None while private_data is switched off."""
+    pd = rcfg.get("private_data") or {}
+    if not pd.get("enabled"):
+        return None
+    folder = resolve(os.path.join(pd.get("out", "private_output"), "school_reports"))
+    print(f"Member-only page data → {folder}")
+    return folder
 
 
 def follow_signature(follows):
@@ -1535,7 +1562,7 @@ def main():
     if not subs:                      # pages-only run: leave the week's email files alone
         if args.pages:
             folder = args.pages_out or resolve(rcfg.get("report_data_dir", "output/school_reports"))
-            n = build_pages(data, sections, cups, folder)
+            n = build_pages(data, sections, cups, folder, private_pages_folder(rcfg, resolve))
             print(f"Report pages: {n} school files → {folder}")
         return
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
@@ -1545,7 +1572,7 @@ def main():
             json.dump(state, f, indent=1)
     if args.pages:
         folder = args.pages_out or resolve(rcfg.get("report_data_dir", "output/school_reports"))
-        n = build_pages(data, sections, cups, folder)
+        n = build_pages(data, sections, cups, folder, private_pages_folder(rcfg, resolve))
         print(f"Report pages: {n} school files → {folder}")
     with open(os.path.join(out_dir, "sections.json"), "w", encoding="utf-8") as f:
         json.dump({f"{a}/{b}": v for (a, b), v in sections.items()}, f, indent=1, default=str)
