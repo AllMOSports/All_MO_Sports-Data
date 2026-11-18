@@ -1,0 +1,14 @@
+# Optional: only needed if you deploy the Worker from the command line with Wrangler.
+# The setup guide (README_member_data.md) uses the Cloudflare dashboard instead.
+name = "amos-data"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://allmosports.com,https://www.allmosports.com"
+
+[[r2_buckets]]
+binding = "DATA"
+bucket_name = "amos-member-data"
+
+# Secret (never put it in this file):  npx wrangler secret put PASS_SECRET
