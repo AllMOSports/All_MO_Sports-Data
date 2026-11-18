@@ -92,6 +92,30 @@ jobs:
             newsletter_output/school_reports/
             output/school_reports/
 
+      # Member-only page data (private_output/) goes to the Cloudflare R2 bucket, never to this repo.
+      # Skipped until the R2 secrets are added (see README_member_data.md).
+      - name: Upload member data to Cloudflare
+        if: github.event.inputs.all_schools != 'true'
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          AWS_DEFAULT_REGION: auto
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+          AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+        run: |
+          if [ -z "$R2_ACCOUNT_ID" ] || [ -z "$AWS_ACCESS_KEY_ID" ] || [ -z "$R2_BUCKET" ]; then
+            echo "R2 secrets not set yet; skipping."; exit 0
+          fi
+          if [ ! -d private_output ]; then
+            echo "No member-only data this run (private_data.enabled is off); skipping."; exit 0
+          fi
+          endpoint="https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          aws s3 sync private_output/ "s3://${R2_BUCKET}/" --endpoint-url "$endpoint" --content-type application/json --only-show-errors
+          aws s3 cp access.json "s3://${R2_BUCKET}/_access.json" --endpoint-url "$endpoint" --content-type application/json --only-show-errors
+          echo "Uploaded $(find private_output -name '*.json' | wc -l) member files."
+
       - name: Commit reports
         if: github.event.inputs.all_schools != 'true'   # all-school tests are only in the zip
         run: |
