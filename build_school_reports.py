@@ -120,6 +120,14 @@ def games_from_team_schedules(sched):
     return games
 
 
+def clean_name(n):
+    """'Murphysboro(Murphysboro, IL)' -> 'Murphysboro (IL)' for out-of-state opponents."""
+    if not n:
+        return n
+    m = re.match(r"^(.*?)\s*\(([^()]*),\s*([A-Z]{2})\)\s*$", n)
+    return f"{m.group(1).strip()} ({m.group(3)})" if m else n
+
+
 def team_names_for(school, slug, names_in_sport, aliases):
     """Exact name, a co-op that includes the school ("Saxony Lutheran with
     St. Vincent"), or a name the alias file maps to this slug."""
@@ -492,7 +500,9 @@ def build_live_section(data, sport, slug, school, team, live):
     cutoff = meta.get("blowout_margin") or 999
     season_games = []
     for g in mine:
-        row = {"date": g["date"], "opp": g["opp"], "played": g["played"],
+        if not g["played"] and g["date"] <= data.week_end:
+            continue                     # a past game with no score (cancelled or never reported)
+        row = {"date": g["date"], "opp": clean_name(g["opp"]), "opp_raw": g["opp"], "played": g["played"],
                "us": g["us"] if g["played"] else None, "them": g["them"] if g["played"] else None,
                "opp_class_rank": opp_rank(g["opp"]),
                "round": football_round(rcfg, g["date"]) if sport == "football" else None}
@@ -501,7 +511,7 @@ def build_live_section(data, sport, slug, school, team, live):
         pr = data.pregame(sport, team, g["opp"], g["date"])
         if pr:
             row["proj"] = list(pr["score"]) if pr.get("score") else None
-            row["proj_favored"] = team if pr["a"] >= pr["b"] else g["opp"]
+            row["proj_favored"] = team if pr["a"] >= pr["b"] else clean_name(g["opp"])
             if pr.get("score") and (min(pr["a"], pr["b"]) < 0 or abs(pr["a"] - pr["b"]) >= cutoff):
                 row["proj"] = None                      # don't print a lopsided or impossible score
                 row["heavy_favorite"] = row["proj_favored"]
@@ -516,7 +526,7 @@ def build_live_section(data, sport, slug, school, team, live):
     compared = [x for x in season_games if x.get("off_delta") is not None]
 
     for g in this_week:
-        row = next(x for x in season_games if x["date"] == g["date"] and x["opp"] == g["opp"])
+        row = next(x for x in season_games if x["date"] == g["date"] and x["opp_raw"] == g["opp"])
         r = {**row, "forfeit": g["forfeit"], "ot": g["ot"]}
         tags = []
         if len(compared) >= 4 and r.get("off_delta") is not None:
@@ -568,6 +578,12 @@ def build_live_section(data, sport, slug, school, team, live):
         if n.get("proj") and abs(n["proj"][0] - n["proj"][1]) >= (meta.get("blowout_margin") or 999):
             n["heavy_favorite"] = team if n["proj"][0] > n["proj"][1] else g["opp"]
         n["meetings"] = last_meetings(data, sport, slug, team, g["opp"], mine)
+        # Same key for both schools' pages, so picks on a game add up in one place.
+        n["game_key"] = f"{sport}|{g['date']}|" + "|".join(sorted([team, g["opp"]]))
+        n["opp_raw"] = g["opp"]                       # exact name in game_key (picks); "opp" gets cleaned for display
+        for k in ("opp", "favored", "heavy_favorite"):
+            if n.get(k):
+                n[k] = clean_name(n[k])
         sec["next"].append(n)
 
     # Knocked out of the playoffs: lost its last game, nothing left on its
@@ -638,7 +654,7 @@ def add_season_arc(data, sec, sport, team, teams, played, remaining, school):
                 _, r, n = class_rank(teams, g["opp"])
                 if r and (best is None or r < best["rank"]):
                     opp = next(t for t in teams if t["school"] == g["opp"])
-                    best = {"opp": g["opp"], "rank": r, "cls": opp.get("classification"),
+                    best = {"opp": clean_name(g["opp"]), "rank": r, "cls": opp.get("classification"),
                             "us": g["us"], "them": g["them"], "date": g["date"]}
         if best:
             sec["best_win"] = best
@@ -809,7 +825,8 @@ def build_offline_section(data, sport, slug, school):
     sec.update({"classification": cls, "class_rank": crank, "class_size": len(same),
                 "record": f"{last.get('wins', 0)}-{last.get('losses', 0)}",
                 "wins": last.get("wins"), "losses": last.get("losses"),
-                "last_season": meta.get("last_season_label", "last season")})
+                "last_season": meta.get("last_season_label", "last season"),
+                "starts": str(meta["start"]) if meta.get("start") else None})
     hc = history_context(data, sport, slug, last.get("wins") or 0, last.get("losses") or 0, None)
     if hc and (last.get("wins") or 0) > hc["max_wins"] and hc.get("pct_rank", 99) <= 2 \
             and (last.get("wins") or 0) > (last.get("losses") or 0):
@@ -893,7 +910,7 @@ def program_history(data, slug, sport):
                 ol = sum(1 for x in opp_rows if x.get("result") == "L")
                 key = (ow > ol, g.get("ovr_delta") or 0, g["team_score"] - g["opp_score"])
                 if best is None or key > best["key"]:
-                    best = {"key": key, "year": gd.year, "date": g["date"], "sport": sport, "opp": g["opponent"],
+                    best = {"key": key, "year": gd.year, "date": g["date"], "sport": sport, "opp": clean_name(g["opponent"]),
                             "us": g["team_score"], "them": g["opp_score"],
                             "opp_record": f"{ow}-{ol}" if ow + ol else None, "opp_winning": ow > ol}
     return best
@@ -1271,7 +1288,18 @@ Ratings as of {esc(nice_date(data.as_of, weekday=False))}. Projections come from
 PAGE_FIELDS = ["sport", "label", "state", "phase", "team", "co_op", "classification", "district", "record",
                "class_rank", "class_size", "class_rank_prev", "state_rank", "state_size", "ovr", "ovr_prev",
                "season_games", "trend", "next", "district_table", "milestone", "best_win", "sos", "quads",
-               "seed_watch", "odds", "eliminated", "last_season", "notes"]
+               "seed_watch", "odds", "eliminated", "last_season", "notes", "starts", "results"]
+
+
+def strip_raw(rows):
+    return [{k: v for k, v in r.items() if k != "opp_raw"} for r in rows]
+
+
+def page_sport(x):
+    out = {f: (strip_raw(x.get(f)) if f == "season_games" else x.get(f)) for f in PAGE_FIELDS if x.get(f) is not None}
+    if x.get("stories"):
+        out["headline"] = max(x["stories"], key=lambda st: st["score"])["headline"]   # the sport's own top story
+    return out
 
 
 def build_pages(data, sections, cups, out_folder):
@@ -1309,7 +1337,7 @@ def build_pages(data, sections, cups, out_folder):
                 "colors": {"primary": primary, "accent": accent},
                 "logo": (rcfg.get("logo_base_url") or "") + slug + ".png",
                 "big_story": max(stories, key=lambda st: st["score"]) if stories else None,
-                "sports": [{f: x.get(f) for f in PAGE_FIELDS if x.get(f) is not None} for x in secs],
+                "sports": [page_sport(x) for x in secs],
                 "cup": {k: v for k, v in cup.items() if k != "stories"} if cup else None,
                 "history": {k: v for k, v in hist.items() if k != "key"} if hist else None}
         with open(os.path.join(out_folder, f"{slug}.json"), "w", encoding="utf-8") as f:

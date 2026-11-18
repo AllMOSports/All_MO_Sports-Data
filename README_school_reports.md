@@ -15,6 +15,8 @@ Nothing is sent. It writes files you can look over first.
 | `build_school_reports.py` | The script |
 | `newsletter_config.yaml` | New `school_reports:` block at the bottom (season dates, football rounds, history files, colors) |
 | `sample_follows.json` | Test subscribers covering the main cases |
+| `school_report_snippet.html` | WPCode HTML snippet: the team hub page |
+| `school_follows_wpcode.php` | WPCode PHP snippet: follows, picks, follows export |
 
 ## Run it
 
@@ -149,31 +151,75 @@ Some things never become the subject line: a losing season's wrap-up or playoff 
 - **Next game:** last meeting, plus the series record in our data (current and past schedule files), and the matchup-preview link from `preview_page`.
 - **"Class rank by week" bars:** a plain HTML table, so it shows in every email client.
 
-## Web report page (one per school)
+## Web report page: the team hub (one per school)
 
-`--pages` writes `output/school_reports/<slug>.json` for every school, plus `index.json` for the school search. It takes about 15 seconds for all schools, and the workflow runs it every time and commits the files.
+`--pages` writes `output/school_reports/<slug>.json` for every school, plus `index.json` for the school search. It takes about 15 seconds for all schools; the workflow runs it every time and commits the files.
 
-`school_report_snippet.html` is the WPCode snippet that turns those files into the page.
+### What visitors see (`/school-report/?school=st-vincent`)
 
-**To set it up:**
-1. Create a WordPress page with the slug `school-report`.
-2. Add the snippet to it as a WPCode HTML snippet.
-3. Open `/school-report/?school=st-vincent`.
+- **A team bar** in school colors that stays at the top of the screen, with a **Follow** button.
+- **The week's big story.**
+- **Sport tabs:**
+  - a green dot marks sports in season
+  - "soon" marks sports starting soon
+  - finished seasons are labeled "final"
+  - the page opens on the first sport in season, and `#football` etc. in the address opens a specific tab
+- **Each sport's tab:**
+  - record and class rank
+  - three stat boxes
+  - **the season strip:** one tile per game. Dark green means a win that beat the projected margin, light green a win, red a loss, and a dashed outline an upcoming game. Tap a tile for the score, projection and margin against it.
+  - the next game, with the projection (or "heavily favored"), the series record and **pick buttons** showing pick percentages
+  - milestone watch, best win, Quad records and seed watch
+- **For followers only:** trend charts, every game against the projection, and the district table. Everyone else sees a blurred preview with a **Follow free** button.
+- **Preseason tabs** show last season's record and rank, the start date and a Follow button.
+- **At the bottom:** the All MO Sports Cup and program history.
 
-Without `?school=`, the page shows a school search.
+The lock is a soft one: the data files are public on GitHub, so the lock steers people toward following rather than securing anything. Real paid-only content will need a server-side check later.
 
-**The page shows:**
-- the big story
-- for every sport:
-  - stat boxes
-  - trend charts by week (rank in class for OVR, OFF and DEF; schedule strength statewide)
-  - next games with the series history
-  - every game this season with its projection and the OFF/DEF result against it
-  - the district table with OVR, OFF and DEF
-- the All MO Sports Cup
-- program history
+### Files and setup
 
-Each email has a "See the full … report" button linking to the page, set by `report_page_url`. The snippet has no `&&` operators.
+| File | WPCode settings |
+|---|---|
+| `school_report_snippet.html` | HTML Snippet, Insert Method **Shortcode**. Put the shortcode on the page with the slug `school-report`. |
+| `school_follows_wpcode.php` | PHP Snippet, Insert Method **Auto Insert**, Location **Run Everywhere**. |
+
+Also check these WordPress settings:
+1. **Time zone:** Settings → General should be **Chicago**, so picks close on game day in Missouri time.
+2. **After sign-up:** set Paid Member Subscriptions to send people back where they came from after registering, or at least to a page that links back. The page also adds a `redirect_to` value to the sign-up link.
+
+### How follows work
+
+- **Logged out, tap Follow:** the page saves the school in an `amos_follow` cookie (good for 1 day) and opens `/register/`. When the account is created, or when someone with an account logs in, the PHP snippet saves the follow.
+- **Logged in, tap Follow:** it's saved right away, and the charts and tables unlock.
+- **Where follows are stored:** user meta `amos_follows`, in the same format as `sample_follows.json`: `[{"school": "st-vincent", "sports": "all"}]`.
+- **School check:** the PHP snippet accepts only schools listed in the published `index.json`, cached for 12 hours.
+
+### How picks work
+
+- **Saving:** logged-in users pick a side, and can change it until game day. A pick is stored in user meta `amos_picks`, keyed by the game ID `sport|date|Team A|Team B`, which is the same on both schools' pages.
+- **Totals:** public pick counts per game are kept in the `amos_pick_counts` option, which drops games older than 60 days.
+- **Leaderboard:** not built yet. The picks are saved, so one can be added later.
+
+### API (`/wp-json/amos/v1/`)
+
+| Route | Who | What |
+|---|---|---|
+| `GET me` | anyone | the logged-in user's follows and picks |
+| `POST follow` `{school, sports}` | logged in | follow ("all" or a list of sport keys) |
+| `POST unfollow` `{school}` | logged in | stop following |
+| `POST pick` `{game, team}` | logged in | pick a winner (until the game date) |
+| `GET picks?games=…` | anyone | pick counts |
+| `GET follows-export` | admins | every user's follows plus email, for the weekly email job |
+
+`follows-export` contains email addresses. Keep its output out of the public repo.
+
+Neither snippet uses `&&` operators.
+
+### Data clean-up in this version
+
+- **Past games with no score** (cancelled or never reported) are dropped instead of showing as "upcoming".
+- **Out-of-state opponents** are shortened, e.g. "Murphysboro(Murphysboro, IL)" becomes "Murphysboro (IL)", in emails, pages, meetings and program history.
+- **Preseason tabs** say "Last season: 22-7" instead of showing last season's record as this season's.
 
 **Trend charts** start from the first weekly snapshot (Oct. 7 for fall 2026). When two snapshots are 2 days apart or less, only the later one is used.
 
