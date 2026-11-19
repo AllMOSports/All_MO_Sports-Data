@@ -56,6 +56,22 @@
     "sport": "football",
     "headline": "St. Vincent wins the Class 2 District 1 football title"
    }
+  ],
+  "st-james:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "history",
+    "sport": "boys_basketball",
+    "headline": "This week in 2024: St. James boys basketball beat Hermann 45\u201341"
+   }
+  ],
+  "adrian:all|blair-oaks:all|crest-ridge:all|el-dorado-springs:all|sherwood:all|st-james:all|summit-christian-academy:all|versailles:all|warsaw:all|windsor:all": [
+   {
+    "week_end": "2026-11-15",
+    "kind": "district_title",
+    "sport": "football",
+    "headline": "Blair Oaks wins the Class 2 District 5 football title"
+   }
   ]
  },
  "last_sent": {
@@ -81,6 +97,12 @@
    "2026-11-15"
   ],
   "perryville:girls_basketball|st-vincent:football": [
+   "2026-11-15"
+  ],
+  "st-james:all": [
+   "2026-11-15"
+  ],
+  "adrian:all|blair-oaks:all|crest-ridge:all|el-dorado-springs:all|sherwood:all|st-james:all|summit-christian-academy:all|versailles:all|warsaw:all|windsor:all": [
    "2026-11-15"
   ]
  }
