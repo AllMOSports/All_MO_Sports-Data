@@ -1257,7 +1257,9 @@ def render_email(data, sub, blocks, big, week_label):
                     f'<div style="font-size:20px;font-weight:bold;line-height:1.3;margin:4px 0 6px;">{esc(big["headline"])}</div>'
                     + (f'<div style="font-size:14px;line-height:1.6;color:#3d4657;">{esc(big["text"])}</div>' if big.get("text") else "")
                     + '</td></tr>')
-    manage = rcfg.get("manage_url", site + "/account/")
+    manage = rcfg.get("manage_url", site + "/my-schools/")
+    # US law (CAN-SPAM) asks for a postal address in emails like this; a P.O. box is fine.
+    address = f"<br>All MO Sports · {esc(rcfg['mailing_address'])}" if rcfg.get("mailing_address") else ""
     body = "".join(b[1] for b in blocks)
     preheader = big["headline"] if big else f"Your {names[0]} report"
     return f"""<!DOCTYPE html>
@@ -1277,7 +1279,7 @@ def render_email(data, sub, blocks, big, week_label):
 <tr><td style="padding:16px 22px;font-size:11px;color:#6b7385;line-height:1.7;">
 <a href="{esc(manage)}" style="color:{primary};">Follow another school</a> · <a href="{esc(manage)}" style="color:{primary};">Choose sports</a> · <a href="{{{{unsubscribe_url}}}}" style="color:{primary};">Unsubscribe</a><br>
 Know someone who'd want this? Forward it, since anyone can follow a school at <a href="{esc(site)}" style="color:{primary};">allmosports.com</a>.<br>
-Ratings as of {esc(nice_date(data.as_of, weekday=False))}. Projections come from the All MO Sports rating model.
+Ratings as of {esc(nice_date(data.as_of, weekday=False))}. Projections come from the All MO Sports rating model.{address}
 </td></tr></table></td></tr></table></body></html>"""
 
 
@@ -1397,6 +1399,8 @@ def main():
     ap.add_argument("--school", help="Quick test: one school slug")
     ap.add_argument("--pages", action="store_true",
                     help="Also write the web report data (one JSON per school) to school_reports.report_data_dir")
+    ap.add_argument("--emails-out", help="Folder for the week's emails (default: <out>/school_reports). "
+                    "Use a private folder for real followers.")
     ap.add_argument("--pages-out", help="Folder for --pages output (default: the config's report_data_dir)")
     ap.add_argument("--no-state", action="store_true",
                     help="Don't update headline memory / last-sent dates (state.json). Test runs never update it.")
@@ -1453,7 +1457,8 @@ def main():
                 sections[(slug, k)] = {"sport": k, "state": "none", "stories": []}
     cups = {slug: cup_section(data, slug) for slug in needed}
 
-    out_dir = os.path.join(args.out, "school_reports", we.isoformat())
+    # Real followers' emails go to a private folder (uploaded to Cloudflare, never committed).
+    out_dir = os.path.join(args.emails_out or os.path.join(args.out, "school_reports"), we.isoformat())
     if subs:
         os.makedirs(os.path.join(out_dir, "emails"), exist_ok=True)
     manifest = {"week_start": ws.isoformat(), "week_end": we.isoformat(), "as_of": as_of,
