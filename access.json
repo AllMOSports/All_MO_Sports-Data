@@ -1,10 +1,18 @@
 {
-  "_about": "Who can see what. Levels, lowest to highest: public, account, pro, program. To put a feature behind Pro later, change its level here and commit; WordPress and the data server both read this file. 'files' maps folders on the data server to the feature that guards them.",
-  "levels": ["public", "account", "pro", "program"],
+  "_about": "Who can see what. Levels, lowest to highest: public, account, pro, program, system ('system' is WordPress itself, never a visitor). To put a feature behind Pro later, change its level here and commit; WordPress and the data server both read this file. 'files' maps folders on the data server to the feature that guards them.",
+  "levels": [
+    "public",
+    "account",
+    "pro",
+    "program",
+    "system"
+  ],
   "features": {
-    "school_deep": "account"
+    "school_deep": "account",
+    "email_files": "system"
   },
   "files": {
-    "school_reports/": "school_deep"
+    "school_reports/": "school_deep",
+    "emails/": "email_files"
   }
 }
