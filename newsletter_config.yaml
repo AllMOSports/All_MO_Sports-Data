@@ -139,7 +139,7 @@ school_reports:
   logo_base_url: https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/
   manage_url: https://allmosports.com/my-schools/   # the page with the [amos_my_schools] shortcode
   # Postal address for the email footer (US law asks for one; a P.O. box works). Required before going live.
-  mailing_address: ""
+  mailing_address: "623 Bruce St., Perryville, MO 63775"
   # The per-school web report (WPCode snippet: school_report_snippet.html). {slug} is filled in.
   report_page_url: "https://allmosports.com/school-report/?school={slug}"
   report_data_dir: output/school_reports
