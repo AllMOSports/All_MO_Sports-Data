@@ -10,8 +10,10 @@ Scoring
   - MIN_SPORTS (4) is the minimum to qualify. It is not enforced until ENFORCE_MIN is set to True
     (planned once winter sports are in), because most schools only have 1-2 fall sports.
   - Co-op teams ("Tipton with Bunceton") are credited to the host school (the first name).
-  - Cup class: the school's MSHSAA boys basketball class; all-girls schools use girls basketball;
-    any school with neither is placed by enrollment.
+  - Cup class: the school's official 2026-27 MSHSAA boys basketball class (classifications_2026-2027.json);
+    all-girls schools use girls basketball; any school with neither is placed by enrollment.
+    Co-op partner schools take the co-op's class.
+  - HOLD lists sports with ratings that shouldn't count yet (basketball until rankings go public).
  
 Sports are listed in SPORTS below. A sport whose ratings file is missing (e.g. basketball before
 its season starts) is skipped, so winter and spring sports join automatically once their
@@ -34,13 +36,22 @@ SPORTS = [
     ('boys_soccer',      'Boys Soccer',       'Fall',   'Boys_Soccer_Ratings_2026',         'boys_soccer_ratings_2026.json'),
     ('girls_volleyball', 'Girls Volleyball',  'Fall',   'Girls_Volleyball_Ratings_2026',    'girls_volleyball_ratings_2026.json'),
     ('fall_softball',    'Fall Softball',     'Fall',   'Fall_Softball_Ratings_2026',       'fall_softball_ratings_2026.json'),
-    ('boys_basketball',  'Boys Basketball',   'Winter', 'Boys_Basketball_Ratings_2026-2027', 'boys_basketball_ratings_2026-2027.json'),
-    ('girls_basketball', 'Girls Basketball',  'Winter', 'Girls_Basketball_Ratings_2026-2027', 'girls_basketball_ratings_2026-2027.json'),
+    ('boys_basketball',  'Boys Basketball',   'Winter', 'Boys_Basketball_Ratings_2026-2027', 'boys_basketball_ratings_2026.json'),
+    ('girls_basketball', 'Girls Basketball',  'Winter', 'Girls_Basketball_Ratings_2026-2027', 'girls_basketball_ratings_2026.json'),
     ('baseball',         'Baseball',          'Spring', 'Baseball_Ratings_2027',            'baseball_ratings_2027.json'),
     ('girls_soccer',     'Girls Soccer',      'Spring', 'Girls_Soccer_Ratings_2027',        'girls_soccer_ratings_2027.json'),
     ('spring_softball',  'Spring Softball',   'Spring', 'Spring_Softball_Ratings_2027',     'spring_softball_ratings_2027.json'),
 ]
 ENROLLMENT_SRC = ('football-ratings-2026', 'mshsaa_enrollments_2026-2027.json')
+
+# Sports whose ratings exist but should NOT count toward the Cup yet. Their
+# ratings are skipped and they show as not included. Remove a key to start
+# counting it -- e.g. empty this set on the day basketball rankings go public.
+HOLD = {'boys_basketball', 'girls_basketball'}
+
+# Official 2026-27 classes (boys + girls basketball blocks). Replaces the June
+# 2026-27 PROJECTED classes in classifications.json.
+CUP_CLASSES_PATH = 'classifications_2026-2027.json'
  
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'output/cup'
 LOCAL = os.environ.get('CUP_LOCAL_ROOT', '')
@@ -83,7 +94,7 @@ def slug_of(name):
  
  
 # ---- cup classes ----------------------------------------------------------
-CLS = json.load(open('classifications.json'))['sports']
+CLS = json.load(open(CUP_CLASSES_PATH))['sports']
 BB = {t['name']: t['class'] for t in CLS['Boys Basketball']['teams']}
 GB = {t['name']: t['class'] for t in CLS['Girls Basketball']['teams']}
 enr_raw = load(*ENROLLMENT_SRC) or {'teams': []}
@@ -116,6 +127,10 @@ def cup_class(name):
 schools = {}
 sports_meta = []
 for key, label, group, repo, path in SPORTS:
+    if key in HOLD:
+        sports_meta.append(dict(key=key, label=label, season=group, included=False, updated=None, held=True))
+        print(f'{label}: on hold (in HOLD) -- not counted yet')
+        continue
     data = load(repo, path)
     if not data or not data.get('teams'):
         sports_meta.append(dict(key=key, label=label, season=group, included=False, updated=None))
