@@ -107,8 +107,8 @@ MSHSAA_RECORDS_DIR = "output/mshsaa_records"
 RATINGS_REPO_URLS = {
     "football": "https://raw.githubusercontent.com/AllMOSports/football-ratings-2025/main/football_ratings_2025.json",
     "baseball": "https://raw.githubusercontent.com/AllMOSports/baseball-ratings/main/ratings.json",
-    "boys_basketball": "https://raw.githubusercontent.com/AllMOSports/Boys_Basketball_Ratings_2025-2026/main/ratings.json",
-    "girls_basketball": "https://raw.githubusercontent.com/AllMOSports/Girls_Basketball_Ratings_2025-2026/main/ratings.json",
+    "boys_basketball": "https://raw.githubusercontent.com/AllMOSports/Boys_Basketball_Ratings_2025-2026/main/boys_basketball_ratings_2025.json",   # Aug 19, 2026 final (ratings.json is the older June 2 version)
+    "girls_basketball": "https://raw.githubusercontent.com/AllMOSports/Girls_Basketball_Ratings_2025-2026/main/girls_basketball_ratings_2025.json",   # Aug 19, 2026 final (ratings.json is the older June 2 version)
     "boys_soccer": "https://raw.githubusercontent.com/AllMOSports/Boys_Soccer_Ratings_2025/main/boys_soccer_ratings_2025.json",
     "girls_soccer": "https://raw.githubusercontent.com/AllMOSports/Girls-Soccer-Ratings/main/ratings.json",
     "girls_volleyball": "https://raw.githubusercontent.com/AllMOSports/Girls_Volleyball_Rankings_2025/main/ratings.json",
