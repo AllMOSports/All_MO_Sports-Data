@@ -6,6 +6,12 @@
     "kind": "district_title",
     "sport": "football",
     "headline": "St. Vincent wins the Class 2 District 1 football title"
+   },
+   {
+    "week_end": "2026-11-22",
+    "kind": "nth_wins",
+    "sport": "football",
+    "headline": "St. Vincent football's 9 wins are its second-most since 2010"
    }
   ],
   "st-vincent:football": [
@@ -71,12 +77,19 @@
     "kind": "district_title",
     "sport": "football",
     "headline": "Blair Oaks wins the Class 2 District 5 football title"
+   },
+   {
+    "week_end": "2026-11-22",
+    "kind": "most_wins",
+    "sport": "girls_volleyball",
+    "headline": "Warsaw girls volleyball has its most wins in our records (23, back to 2012)"
    }
   ]
  },
  "last_sent": {
   "st-vincent:all": [
-   "2026-11-15"
+   "2026-11-15",
+   "2026-11-22"
   ],
   "st-vincent:football": [
    "2026-11-15"
@@ -103,7 +116,8 @@
    "2026-11-15"
   ],
   "adrian:all|blair-oaks:all|crest-ridge:all|el-dorado-springs:all|sherwood:all|st-james:all|summit-christian-academy:all|versailles:all|warsaw:all|windsor:all": [
-   "2026-11-15"
+   "2026-11-15",
+   "2026-11-22"
   ]
  }
 }
