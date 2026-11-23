@@ -51,6 +51,9 @@ Sources are read from GitHub raw URLs. Set TEAM_RESUME_LOCAL_ROOT to a folder
 holding the sibling repos to read from disk instead.
 
 Outputs: output/team_resume/team_resume_{sport}_{season}.json / .csv
+The JSON also carries each team's full played schedule, record by
+classification of competition, and opponent class/record lookups for the
+printable seed-meeting report.
 Standard library only.
 """
 
@@ -67,6 +70,7 @@ from zoneinfo import ZoneInfo
 RAW = "https://raw.githubusercontent.com/AllMOSports/{repo}/main/{path}"
 LOCAL = os.environ.get("TEAM_RESUME_LOCAL_ROOT", "")
 OUT_DIR = "output/team_resume"
+LOGO_DIR = "logos_main2"      # team logos, {slug}.png (checked relative to repo root)
 
 COUNT_FORFEITS = False
 CONTENDER_PCT = 75        # benchmark = this percentile OVR of the team's class
@@ -237,6 +241,17 @@ def build_sport(cfg, slugs):
         return None
     by_school = {t["school"]: t for t in teams}
 
+    # MSHSAA class for every classified Missouri team (rated or not yet rated),
+    # used for the report's "record by classification" and opponent labels.
+    classes = {}
+    cj = load(repo, "classifications.json")
+    if cj:
+        for t in cj.get("teams", []):
+            if t.get("classification") is not None:
+                classes[t["school"]] = t["classification"]
+    for t in teams:
+        classes[t["school"]] = t["classification"]
+
     # Class benchmarks / quad cutoffs (same percentiles as the quad script).
     by_class = defaultdict(list)
     for t in teams:
@@ -252,85 +267,116 @@ def build_sport(cfg, slugs):
             "team_count": len(vals),
         }
 
-    overall = {s: [0, 0, 0] for s in by_school}           # W, L, T (all games)
+    all_rec = defaultdict(lambda: [0, 0, 0])               # every name, every played game
     quads = {s: {q: [0, 0] for q in QUADS} for s in by_school}
+    by_cls_rec = {s: {k: [0, 0, 0] for k in ("higher", "same", "lower", "other")} for s in by_school}
     wac = defaultdict(float)
     opp_ovrs = defaultdict(list)
-    log = defaultdict(list)
+    sched = defaultdict(list)
     h2h = defaultdict(lambda: [0, 0])
     skipped = defaultdict(int)
+    through = ""
 
     for g in games:
         s1, s2 = g.get("score1"), g.get("score2")
         if s1 is None or s2 is None:
             continue
         t1, t2 = g.get("team1"), g.get("team2")
-
-        # Overall record: every played game (forfeits and out-of-state included).
-        for team, ts, os_ in ((t1, s1, s2), (t2, s2, s1)):
-            if team in overall:
-                overall[team][0 if ts > os_ else 1 if ts < os_ else 2] += 1
-
-        if g.get("forfeit") and not COUNT_FORFEITS:
-            skipped["forfeit"] += 1
-            continue
+        if (g.get("date") or "") > through:
+            through = g.get("date") or through
+        forfeit = bool(g.get("forfeit"))
         r1, r2 = by_school.get(t1), by_school.get(t2)
-        if r1 is None or r2 is None:
+        counted = True
+        if forfeit and not COUNT_FORFEITS:
+            counted = False
+            skipped["forfeit"] += 1
+        elif r1 is None or r2 is None:
+            counted = False
             skipped["unrated_or_unclassified_opponent"] += 1
-            continue
 
-        for team, opp, ts, os_ in ((r1, r2, s1, s2), (r2, r1, s2, s1)):
-            school = team["school"]
-            cut = cutoffs[team["classification"]]
-            opp_ovr = float(opp["ovr_rating"])
-            result = 1.0 if ts > os_ else 0.0 if ts < os_ else 0.5
-            p = norm_cdf((cut["contender_ovr"] - opp_ovr) / sigma)
-            wac[school] += result - p
-            opp_ovrs[school].append(opp_ovr)
-            q = quad_for(opp_ovr, cut)
-            if result == 1.0:
-                quads[school][q][0] += 1
-            elif result == 0.0:
-                quads[school][q][1] += 1
-            if result != 0.5:
-                h2h[(school, opp["school"])][0 if result == 1.0 else 1] += 1
-            log[school].append({
-                "date": g.get("date"),
-                **({"week": g["week"]} if g.get("week") is not None else {}),
-                "opponent": opp["school"],
-                "opp_class": opp["classification"],
-                "opp_ovr": opp["ovr_rating"],
-                "quad": q.upper(),
-                "result": "W" if result == 1.0 else "L" if result == 0.0 else "T",
-                "score": f"{ts}-{os_}",
-                "contender_win_prob": round(p, 3),
-                "wac": round(result - p, 3) + 0.0,
-            })
+        for name, ts, os_ in ((t1, s1, s2), (t2, s2, s1)):
+            all_rec[name][0 if ts > os_ else 1 if ts < os_ else 2] += 1
+
+        for name, opp_name, ts, os_ in ((t1, t2, s1, s2), (t2, t1, s2, s1)):
+            team = by_school.get(name)
+            if team is None:
+                continue
+            res = "W" if ts > os_ else "L" if ts < os_ else "T"
+            idx = 0 if res == "W" else 1 if res == "L" else 2
+
+            # Record by classification of competition (every played game).
+            oc = classes.get(opp_name)
+            if oc is None:
+                rel = "other"
+            elif oc > team["classification"]:
+                rel = "higher"
+            elif oc < team["classification"]:
+                rel = "lower"
+            else:
+                rel = "same"
+            by_cls_rec[name][rel][idx] += 1
+
+            e = {"d": g.get("date"), "o": opp_name, "r": res, "s": f"{ts}-{os_}"}
+            if g.get("week") is not None:
+                e["wk"] = g["week"]
+            if forfeit:
+                e["f"] = 1
+
+            if counted:
+                opp = by_school[opp_name]
+                cut = cutoffs[team["classification"]]
+                opp_ovr = float(opp["ovr_rating"])
+                result = 1.0 if res == "W" else 0.0 if res == "L" else 0.5
+                p = norm_cdf((cut["contender_ovr"] - opp_ovr) / sigma)
+                wac[name] += result - p
+                opp_ovrs[name].append(opp_ovr)
+                q = quad_for(opp_ovr, cut)
+                if res == "W":
+                    quads[name][q][0] += 1
+                elif res == "L":
+                    quads[name][q][1] += 1
+                if res != "T":
+                    h2h[(name, opp_name)][0 if res == "W" else 1] += 1
+                e["q"] = int(q[1])
+                e["p"] = round(p, 3)
+                e["x"] = round(result - p, 3) + 0.0
+            sched[name].append(e)
+
+    def rec_str(r):
+        return f"{r[0]}-{r[1]}" + (f"-{r[2]}" if r[2] else "")
 
     # Per-team rows.
     rows = []
     for t in teams:
         s = t["school"]
-        w, l, ti = overall[s]
+        w, l, ti = all_rec[s] if s in all_rec else (0, 0, 0)
         rows.append({
             "school": s,
             **({"slug": slugs[s]} if s in slugs else ({"slug": t["slug"]} if t.get("slug") else {})),
             "classification": t["classification"],
             "district": t["district"],
-            "record": f"{w}-{l}" + (f"-{ti}" if ti else ""),
+            "record": rec_str((w, l, ti)),
             "wins": w, "losses": l, "ties": ti,
-            "wac": round(wac[s], 2) if log[s] else None,
+            "wac": round(wac[s], 2) if opp_ovrs[s] else None,
             "ovr_rating": t["ovr_rating"],
             "ovr_rank": t.get("ovr_rank"),
             **{q: f"{quads[s][q][0]}-{quads[s][q][1]}" for q in QUADS},
             "sos": round(sum(opp_ovrs[s]) / len(opp_ovrs[s]), 2) if opp_ovrs[s] else None,
+            "class_record": {k: rec_str(v) for k, v in by_cls_rec[s].items()},
         })
 
+    for r in rows:
+        if r.get("slug"):
+            if os.path.exists(os.path.join(LOGO_DIR, r["slug"] + ".png")):
+                r["logo"] = 1          # logos_main2/{slug}.png exists
+
+    ovr_rank = rank_within(rows, "ovr_rating", "classification")
     wac_rank = rank_within(rows, "wac", "classification")
     sos_rank = rank_within(rows, "sos", "classification")
     for r in rows:
         r["wac_rank_class"] = wac_rank.get(r["school"])
         r["sos_rank_class"] = sos_rank.get(r["school"])
+        r["ovr_rank_class"] = ovr_rank.get(r["school"])
 
     # Projected district seeds.
     districts = defaultdict(list)
@@ -352,8 +398,13 @@ def build_sport(cfg, slugs):
             r["h2h_jump"] = r["school"] in jumped and r["projected_seed"] < r["points_seed"]
             r["district_teams"] = len(members)
 
+    # Full schedule per team (every played game). Counted games carry
+    # q (quad 1-4), p (Contender win prob) and x (WAC for that game).
+    opp_names = set()
     for r in rows:
-        r["games"] = sorted(log[r["school"]], key=lambda x: x["date"] or "")
+        r["games"] = sorted(sched[r["school"]], key=lambda x: x["d"] or "")
+        for e in r["games"]:
+            opp_names.add(e["o"])
 
     rows.sort(key=lambda r: (r["classification"], r["wac_rank_class"] or 9999, r["school"]))
 
@@ -363,6 +414,7 @@ def build_sport(cfg, slugs):
         "season": season,
         "last_updated": datetime.now(ZoneInfo("America/Chicago")).strftime("%B %d, %Y at %I:%M %p"),
         "ratings_last_updated": ratings.get("last_updated"),
+        "through_date": through,
         "sigma": sigma,
         "contender_percentile": CONTENDER_PCT,
         "seed_weights": {"wac": WAC_WEIGHT, "ovr": OVR_WEIGHT},
@@ -376,24 +428,28 @@ def build_sport(cfg, slugs):
             "Projected seed = 60% WAC + 40% OVR (district percentiles), then head-to-head jumps."
         ),
         "cutoffs": {str(k): v for k, v in sorted(cutoffs.items())},
+        # Opponent lookups for the printable report (MSHSAA-classified opponents only;
+        # out-of-state opponents' records here would only include Missouri games).
+        "opp_class": {n: classes[n] for n in sorted(opp_names) if n in classes},
+        "opp_record": {n: rec_str(all_rec[n]) for n in sorted(opp_names) if n in classes},
         "teams": rows,
     }
 
     os.makedirs(OUT_DIR, exist_ok=True)
     stem = f"team_resume_{key}_{season}"
     with open(os.path.join(OUT_DIR, stem + ".json"), "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=1)
+        json.dump(payload, f, separators=(",", ":"))
     cols = ["classification", "district", "projected_seed", "points_seed", "h2h_jump",
             "school", "record", "wac", "wac_rank_class", "q1", "q2", "q3", "q4",
-            "sos", "sos_rank_class", "ovr_rating", "seed_score"]
+            "sos", "sos_rank_class", "ovr_rating", "ovr_rank_class", "seed_score"]
     with open(os.path.join(OUT_DIR, stem + ".csv"), "w", newline="", encoding="utf-8") as f:
         wr = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         wr.writeheader()
         wr.writerows(sorted(rows, key=lambda r: (r["classification"], r["district"], r["projected_seed"])))
 
-    counted = sum(len(v) for v in log.values()) // 2
+    counted = sum(len(v) for v in opp_ovrs.values()) // 2
     jumps = sum(1 for r in rows if r["h2h_jump"])
-    print(f"  {len(rows)} teams, {counted} counted games, skipped {dict(skipped)}")
+    print(f"  {len(rows)} teams, {counted} counted games, through {through}, skipped {dict(skipped)}")
     print(f"  {jumps} head-to-head jump(s)")
     for cls, c in sorted(cutoffs.items()):
         top = next(r for r in rows if r["classification"] == cls)
