@@ -1,0 +1,41 @@
+name: Build Girls Basketball History JSON
+ 
+on:
+  workflow_dispatch: {}          # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - 'Build_Girls_Basketball_History_json.py'
+      - 'Aliases.json'
+  # Once a year, after the state tournament: adds the season that just ended
+  # (the script works out the last completed season from the date).
+  schedule:
+    - cron: "27 14 2 4 *"        # April 2, ~9 AM Central
+ 
+permissions:
+  contents: write   # needed to commit the girls history file back to the repo
+ 
+jobs:
+  build-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      - name: Run Build_Girls_Basketball_History_json.py
+        run: python Build_Girls_Basketball_History_json.py
+ 
+      - name: Commit and push girls_basketball_history.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/mshsaa_historical_records/girls_basketball/girls_basketball_history_2012-2025.json
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update girls_basketball_history.json"
+          git pull --rebase origin main
+          git push

@@ -5,8 +5,12 @@ on:
   push:
     branches: [main]
     paths:
-      - 'Build_BoysBasketball_History_json.py'
+      - 'Build_Boys_Basketball_History_json.py'
       - 'Aliases.json'
+  # Once a year, after the state tournament: adds the season that just ended
+  # (the script works out the last completed season from the date).
+  schedule:
+    - cron: "17 14 2 4 *"        # April 2, ~9 AM Central
  
 permissions:
   contents: write   # needed to commit boys_basketball_history.json back to the repo
@@ -33,4 +37,5 @@ jobs:
           git add boys_basketball_history.json
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "Update boys_basketball_history.json"
+          git pull --rebase origin main
           git push
