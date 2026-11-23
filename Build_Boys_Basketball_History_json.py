@@ -2,7 +2,7 @@
 """
 Build_BoysBasketball_History_json.py
  
-Aggregates historical AllMOSports boys basketball ratings (2012-2024)
+Aggregates historical All MO Sports boys basketball ratings (2012 through the last completed season)
 AND season records (record/PPG/PAPG/win%/point diff) from two per-year
 GitHub sources into a single consolidated JSON file that the Sport
 Detail page's year dropdown / Historical Rankings page can fetch once
@@ -26,7 +26,7 @@ Sources per year:
   1. Ratings:  https://raw.githubusercontent.com/AllMOSports/Boys_Basketball_Ratings_{year}-{year+1}/main/boys_basketball_ratings_{year}.json
   2. Records:  https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/boys_basketball/boys_basketball_{year}.json
  
-Only 2012-2024 (not 2010-2011 like football) -- per user, MSHSAA record
+Only 2012 onward (not 2010-2011 like football) -- per user, MSHSAA record
 backfill for every sport except football only goes back to 2012.
  
 Output shape (boys_basketball_history.json):
@@ -65,7 +65,15 @@ from pathlib import Path
  
 # ---------- CONFIG ----------
 ORG = "AllMOSports"
-YEARS = range(2012, 2025)  # 2012-2024 inclusive
+# Every COMPLETED season, worked out from today's date so this never needs a
+# yearly edit: a basketball season (Nov-Mar) counts once April arrives.
+# Nov 2026 -> 2012-2025 (2025-26 done, 2026-27 still being played);
+# Apr 2027 -> 2012-2026. The Sport Detail page hides the season that is
+# still "Current", so adding a finished season here is always safe.
+import datetime as _dt
+_today = _dt.date.today()
+LAST_COMPLETED_SEASON = _today.year - 1 if _today.month >= 4 else _today.year - 2
+YEARS = range(2012, LAST_COMPLETED_SEASON + 1)
  
 YEAR_REPO_OVERRIDES = {
     # If a specific year breaks the "{year}-{year+1}" pattern, hardcode
