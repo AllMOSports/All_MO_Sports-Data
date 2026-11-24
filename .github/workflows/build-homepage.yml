@@ -1,0 +1,62 @@
+# Builds output/homepage/now.json for the homepage snippet:
+# "Right now" module, Games to Watch Tonight, last night's results, Up next.
+#
+# Started by cron-job.org via GitHub's API (workflow_dispatch), like the other
+# daily jobs, because GitHub's own schedule runs hours late. Suggested times:
+#   6:05 AM Central  - after the 5:49 AM picks lock, so tonight's list is ready for the morning
+#   11:30 PM Central - fills in tonight's final scores
+# The "Run workflow" button in the Actions tab works too.
+
+name: Build homepage data
+
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to build (YYYY-MM-DD). Leave blank for today."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-homepage
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: America/Chicago        # so "today" means today in Missouri
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Build now.json
+        env:
+          DAY: ${{ github.event.inputs.day }}   # passed as data, never pasted into the script
+        run: |
+          if [ -n "$DAY" ]; then
+            if ! [[ "$DAY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "::error::day must look like 2026-12-04"; exit 1
+            fi
+            python build_homepage.py --day "$DAY"
+          else
+            python build_homepage.py
+          fi
+
+      - name: Commit
+        run: |
+          git config user.name "All MO Sports Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/homepage
+          git diff --cached --quiet || git commit -m "Build homepage data"
+          git pull --rebase
+          git push
