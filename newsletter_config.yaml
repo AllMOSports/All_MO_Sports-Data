@@ -209,9 +209,10 @@ school_reports:
     girls_soccer:     {label: Girls soccer,     blowout_margin: 5,     emoji: "⚽", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10, beat_margin: 2, project_scores: true}
     spring_softball:  {label: Spring softball,  blowout_margin: 8,  emoji: "🥎", season: spring, start: 2027-03-15, end: 2027-06-05, last_season_label: "2026", postseason_start: 2027-05-10, beat_margin: 4, project_scores: true}
 
-## Config block (append to newsletter_config.yaml)
 
-```yaml
+# ------------------------------------------------------------
+# Homepage ("Right now" spot and Games to Watch Tonight), used by build_homepage.py
+# ------------------------------------------------------------
 homepage:
   out_file: output/homepage/now.json
   games_max: 8                # rows in Games to Watch Tonight
@@ -222,4 +223,3 @@ homepage:
   cup_url: https://allmosports.com/all-mo-sports-cup/
   cup_released: false         # true = Cup card shows live standings instead of "Coming soon"
   override: null              # put something specific in "Right now" until a date (example in the file)
-```
