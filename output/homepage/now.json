@@ -1,0 +1,270 @@
+{
+ "generated": "2026-11-24T10:47:19",
+ "day": "2026-11-24",
+ "right_now": {
+  "module": "playoffs"
+ },
+ "playoffs": {
+  "round": "State semifinal",
+  "date": "2026-11-27",
+  "simulations": 10000,
+  "updated": "2026-11-22T21:52:32",
+  "classes": [
+   {
+    "class": 1,
+    "teams": [
+     {
+      "name": "Tipton with Bunceton",
+      "slug": "tipton",
+      "record": "9-0",
+      "state_final": "85%",
+      "state_title": "83%",
+      "state_title_raw": 0.8274
+     },
+     {
+      "name": "Thayer",
+      "slug": "thayer",
+      "record": "6-3",
+      "state_final": "15%",
+      "state_title": "12%",
+      "state_title_raw": 0.1208
+     },
+     {
+      "name": "Salisbury",
+      "slug": "salisbury",
+      "record": "9-0",
+      "state_final": "88%",
+      "state_title": "5%",
+      "state_title_raw": 0.0515
+     },
+     {
+      "name": "East Buchanan",
+      "slug": "east-buchanan",
+      "record": "6-3",
+      "state_final": "12%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0003
+     }
+    ],
+    "alive": 4
+   },
+   {
+    "class": 2,
+    "teams": [
+     {
+      "name": "Valle Catholic",
+      "slug": "valle-catholic",
+      "record": "9-0",
+      "state_final": "66%",
+      "state_title": "46%",
+      "state_title_raw": 0.4584
+     },
+     {
+      "name": "Blair Oaks",
+      "slug": "blair-oaks",
+      "record": "8-1",
+      "state_final": "80%",
+      "state_title": "33%",
+      "state_title_raw": 0.3262
+     },
+     {
+      "name": "Lamar",
+      "slug": "lamar",
+      "record": "9-0",
+      "state_final": "34%",
+      "state_title": "19%",
+      "state_title_raw": 0.1895
+     },
+     {
+      "name": "Centralia",
+      "slug": "centralia",
+      "record": "9-0",
+      "state_final": "20%",
+      "state_title": "3%",
+      "state_title_raw": 0.0259
+     }
+    ],
+    "alive": 4
+   },
+   {
+    "class": 3,
+    "teams": [
+     {
+      "name": "St. Pius X (Kansas City)",
+      "slug": "st-pius-x-kansas-city",
+      "record": "7-2",
+      "state_final": "80%",
+      "state_title": "79%",
+      "state_title_raw": 0.7857
+     },
+     {
+      "name": "Cassville",
+      "slug": "cassville",
+      "record": "8-1",
+      "state_final": "20%",
+      "state_title": "18%",
+      "state_title_raw": 0.1754
+     },
+     {
+      "name": "St. Pius X (Festus)",
+      "slug": "st-pius-x-festus",
+      "record": "6-3",
+      "state_final": "80%",
+      "state_title": "4%",
+      "state_title_raw": 0.0378
+     },
+     {
+      "name": "MICDS",
+      "slug": "micds",
+      "record": "5-4",
+      "state_final": "20%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0011
+     }
+    ],
+    "alive": 4
+   },
+   {
+    "class": 4,
+    "teams": [
+     {
+      "name": "Kearney",
+      "slug": "kearney",
+      "record": "9-0",
+      "state_final": "99%",
+      "state_title": "99%",
+      "state_title_raw": 0.9882
+     },
+     {
+      "name": "Warrensburg",
+      "slug": "warrensburg",
+      "record": "8-1",
+      "state_final": "1%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0047
+     },
+     {
+      "name": "Lift for Life Academy Charter",
+      "slug": "lift-for-life-academy-charter",
+      "record": "3-6",
+      "state_final": "53%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0036
+     },
+     {
+      "name": "Festus",
+      "slug": "festus",
+      "record": "7-2",
+      "state_final": "47%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0035
+     }
+    ],
+    "alive": 4
+   },
+   {
+    "class": 5,
+    "teams": [
+     {
+      "name": "Helias Catholic",
+      "slug": "helias-catholic",
+      "record": "9-0",
+      "state_final": "78%",
+      "state_title": "47%",
+      "state_title_raw": 0.4732
+     },
+     {
+      "name": "Cardinal Ritter",
+      "slug": "cardinal-ritter",
+      "record": "4-5",
+      "state_final": "74%",
+      "state_title": "39%",
+      "state_title_raw": 0.3853
+     },
+     {
+      "name": "Eureka",
+      "slug": "eureka",
+      "record": "7-2",
+      "state_final": "26%",
+      "state_title": "7%",
+      "state_title_raw": 0.0726
+     },
+     {
+      "name": "Grain Valley",
+      "slug": "grain-valley",
+      "record": "7-2",
+      "state_final": "22%",
+      "state_title": "7%",
+      "state_title_raw": 0.0689
+     }
+    ],
+    "alive": 4
+   },
+   {
+    "class": 6,
+    "teams": [
+     {
+      "name": "Jackson",
+      "slug": "jackson",
+      "record": "9-0",
+      "state_final": "96%",
+      "state_title": "52%",
+      "state_title_raw": 0.515
+     },
+     {
+      "name": "Blue Springs",
+      "slug": "blue-springs",
+      "record": "7-2",
+      "state_final": "70%",
+      "state_title": "39%",
+      "state_title_raw": 0.3854
+     },
+     {
+      "name": "Rockhurst",
+      "slug": "rockhurst",
+      "record": "5-4",
+      "state_final": "30%",
+      "state_title": "10%",
+      "state_title_raw": 0.0973
+     },
+     {
+      "name": "SLUH",
+      "slug": "sluh",
+      "record": "6-3",
+      "state_final": "4%",
+      "state_title": "<1%",
+      "state_title_raw": 0.0023
+     }
+    ],
+    "alive": 4
+   }
+  ]
+ },
+ "games_tonight": [],
+ "games_last_night": [],
+ "up_next": [
+  {
+   "sport": "boys_basketball",
+   "label": "Boys basketball",
+   "start": "2026-11-30",
+   "days": 6
+  },
+  {
+   "sport": "girls_basketball",
+   "label": "Girls basketball",
+   "start": "2026-11-30",
+   "days": 6
+  }
+ ],
+ "cup": {
+  "released": false,
+  "url": "https://allmosports.com/all-mo-sports-cup/"
+ },
+ "preview_url": "",
+ "ratings_updated": {
+  "football": "November 22, 2026 at 09:55 PM",
+  "boys_soccer": "November 22, 2026 at 08:19 AM",
+  "girls_volleyball": "November 19, 2026 at 10:44 AM",
+  "fall_softball": "November 19, 2026 at 09:32 AM"
+ }
+}
