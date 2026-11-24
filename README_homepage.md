@@ -65,6 +65,6 @@ Set `free_projections: 3` and only the top 3 games keep their projection; the re
 | Tools | Matchup Predictors, All-Time Bracket Challenge, Classification Projections, Scorigami |
 | About | How Our Ratings Work, Contact |
 
-Known URLs: `/football-rankings/`, `/boys-soccer-rankings/`, `/girls-volleyball-rankings/`, `/fall-softball-rankings/`, `/boys-basketball-rankings/`, `/girls-basketball-rankings/`, `/baseball-rankings-all-teams-2026-season/`, `/spring-softball-rankings-all-classes-2026/`, `/girls-soccer-rankings-all-classes-2026/`, `/all-time-rankings/`, `/football-playoff-hub/`, `/football-postseason-bracket-predictor/`, `/district-points-predictor/`, `/hypothetical-matchups-predictors/`, `/football-all-time-brackets/`, `/projected-classifications/`, `/school-report/`, `/how-our-ratings-work/`, `/contact/`.
+Known URLs: `/football-rankings/`, `/boys-soccer-rankings/`, `/girls-volleyball-rankings/`, `/fall-softball-rankings/`, `/boys-basketball-rankings/`, `/girls-basketball-rankings/`, `/baseball/`, `/spring-softball/`, `/girls-soccer/`, `/all-time-rankings/`, `/scoreboard/`, `/scorigami/`, `/football-playoff-hub/`, `/football-postseason-bracket-predictor/`, `/district-points-predictor/`, `/hypothetical-matchups-predictors/`, `/football-all-time-brackets/`, `/projected-classifications/`, `/school-report/`, `/how-our-ratings-work/`, `/contact/`.
 
-Still needed: Scoreboard, Size-Adjusted Rankings, Scorigami and All MO Sports Cup page URLs. Also, the current Contact menu item points to the old `/centered-heading-with-contact-form/`.
+Still needed: Size-Adjusted Rankings and All MO Sports Cup page URLs.
