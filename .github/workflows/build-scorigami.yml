@@ -1,14 +1,19 @@
 name: Build Scorigami
 
+# Triggered every morning by cron-job.org (workflow_dispatch through the GitHub API),
+# or by hand from the Actions tab. No GitHub schedule: a second daily run would send
+# a second email that always says "0 new".
 on:
-  workflow_dispatch:          # run by hand, or trigger from cron-job.org like the other nightly jobs
+  workflow_dispatch:
     inputs:
       sports:
         description: 'Sports to build (space separated): football boys_basketball girls_basketball'
         required: false
         default: 'football boys_basketball girls_basketball'
-  schedule:
-    - cron: '30 13 * * *'     # backup run ~7-8 AM Central (GitHub often starts scheduled runs late)
+      email:
+        description: 'Send the daily email report (true/false)'
+        required: false
+        default: 'true'
 
 permissions:
   contents: write
@@ -29,13 +34,21 @@ jobs:
 
       # Seasons are keyed by start year: basketball 2026 = 2026-27.
       # Bump these each new season.
-      - name: Build scorigami data
+      - name: Build scorigami data and email the report
         id: build
         continue-on-error: true      # one sport failing should not block the others from committing
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REPORT_TO: allmosports63775@gmail.com
         run: |
+          EMAIL_FLAG=""
+          if [ "${{ github.event.inputs.email || 'true' }}" = "true" ]; then EMAIL_FLAG="--email"; fi
           python scripts/Build_Scorigami.py ${{ github.event.inputs.sports || 'football boys_basketball girls_basketball' }} \
-            --football-season 2026 --basketball-season 2026
+            --football-season 2026 --basketball-season 2026 $EMAIL_FLAG
 
+      # Committing matters for the email: the next run compares against these files
+      # to find what is new.
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
@@ -45,6 +58,6 @@ jobs:
           git pull --rebase --autostash
           git push
 
-      - name: Fail if any sport failed
+      - name: Fail if any sport or the email failed
         if: steps.build.outcome == 'failure'
         run: exit 1
