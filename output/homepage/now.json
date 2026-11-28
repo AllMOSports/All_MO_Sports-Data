@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-27T23:30:38",
- "day": "2026-11-27",
+ "generated": "2026-11-28T06:08:36",
+ "day": "2026-11-28",
  "right_now": {
   "module": "playoffs"
  },
@@ -247,13 +247,13 @@
    "sport": "boys_basketball",
    "label": "Boys basketball",
    "start": "2026-11-30",
-   "days": 3
+   "days": 2
   },
   {
    "sport": "girls_basketball",
    "label": "Girls basketball",
    "start": "2026-11-30",
-   "days": 3
+   "days": 2
   }
  ],
  "cup": {
